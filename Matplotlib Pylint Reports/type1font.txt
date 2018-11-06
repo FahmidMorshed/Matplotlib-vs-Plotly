@@ -1,0 +1,128 @@
+************* Module matplotlib.type1font
+C: 35, 0: Constant name "_TokenType" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 55,23: Redefining built-in 'input' (redefined-builtin)
+W: 82,12: Redefining built-in 'type' (redefined-builtin)
+R: 69, 4: Method could be a function (no-self-use)
+R:100, 4: Method could be a function (no-self-use)
+R:142, 4: Too many branches (14/12) (too-many-branches)
+R:190, 4: Too many branches (14/12) (too-many-branches)
+C:243, 8: Missing function docstring (missing-docstring)
+C:251, 8: Missing function docstring (missing-docstring)
+C:254, 8: Missing function docstring (missing-docstring)
+C:271, 8: Missing function docstring (missing-docstring)
+C:272,12: Missing function docstring (missing-docstring)
+R:273,31: Do not raise StopIteration in generator, use return statement instead (stop-iteration-return)
+R:275,31: Do not raise StopIteration in generator, use return statement instead (stop-iteration-return)
+R:278,35: Do not raise StopIteration in generator, use return statement instead (stop-iteration-return)
+R:285,39: Do not raise StopIteration in generator, use return statement instead (stop-iteration-return)
+C:290, 8: Missing function docstring (missing-docstring)
+C:291,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+W:291,16: Unused variable 'x' (unused-variable)
+R: 39, 0: Too few public methods (1/2) (too-few-public-methods)
+
+
+Report
+======
+177 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |7      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |6      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    numpy (matplotlib.type1font)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |201    |62.42 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |76     |23.60 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |15     |4.66  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |30     |9.32  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |8      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |9      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------+------------+
+|message id             |occurrences |
++=======================+============+
+|missing-docstring      |6           |
++-----------------------+------------+
+|stop-iteration-return  |4           |
++-----------------------+------------+
+|too-many-branches      |2           |
++-----------------------+------------+
+|redefined-builtin      |2           |
++-----------------------+------------+
+|no-self-use            |2           |
++-----------------------+------------+
+|invalid-name           |2           |
++-----------------------+------------+
+|unused-variable        |1           |
++-----------------------+------------+
+|too-few-public-methods |1           |
++-----------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.87/10
+

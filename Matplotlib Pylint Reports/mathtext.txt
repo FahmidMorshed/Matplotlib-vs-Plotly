@@ -1,0 +1,1282 @@
+************* Module matplotlib.mathtext
+C:109, 0: Exactly one space required before assignment
+        self.width  = w
+                    ^ (bad-whitespace)
+C:111, 0: Exactly one space required before assignment
+        self.depth  = d
+                    ^ (bad-whitespace)
+C:191, 0: Exactly one space required before assignment
+        orig_depth  = box.depth
+                    ^ (bad-whitespace)
+C:235, 0: Exactly one space required before assignment
+        fontsize        = info.fontsize
+                        ^ (bad-whitespace)
+C:236, 0: Exactly one space required before assignment
+        symbol_name     = info.symbol_name
+                        ^ (bad-whitespace)
+C:576, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C:596, 0: No space allowed around keyword argument assignment
+            advance = glyph.linearHoriAdvance/65536.0,
+                    ^ (bad-whitespace)
+C:597, 0: No space allowed around keyword argument assignment
+            height  = glyph.height/64.0,
+                    ^ (bad-whitespace)
+C:598, 0: No space allowed around keyword argument assignment
+            width   = glyph.width/64.0,
+                    ^ (bad-whitespace)
+C:599, 0: No space allowed around keyword argument assignment
+            xmin    = xmin,
+                    ^ (bad-whitespace)
+C:600, 0: No space allowed around keyword argument assignment
+            xmax    = xmax,
+                    ^ (bad-whitespace)
+C:601, 0: No space allowed around keyword argument assignment
+            ymin    = ymin+offset,
+                    ^ (bad-whitespace)
+C:602, 0: No space allowed around keyword argument assignment
+            ymax    = ymax+offset,
+                    ^ (bad-whitespace)
+C:604, 0: No space allowed around keyword argument assignment
+            iceberg = glyph.horiBearingY/64.0 + offset,
+                    ^ (bad-whitespace)
+C:605, 0: No space allowed around keyword argument assignment
+            slanted = slanted
+                    ^ (bad-whitespace)
+C:609, 0: No space allowed around keyword argument assignment
+            font            = font,
+                            ^ (bad-whitespace)
+C:610, 0: No space allowed around keyword argument assignment
+            fontsize        = fontsize,
+                            ^ (bad-whitespace)
+C:611, 0: No space allowed around keyword argument assignment
+            postscript_name = font.postscript_name,
+                            ^ (bad-whitespace)
+C:612, 0: No space allowed around keyword argument assignment
+            metrics         = metrics,
+                            ^ (bad-whitespace)
+C:613, 0: No space allowed around keyword argument assignment
+            symbol_name     = symbol_name,
+                            ^ (bad-whitespace)
+C:614, 0: No space allowed around keyword argument assignment
+            num             = num,
+                            ^ (bad-whitespace)
+C:615, 0: No space allowed around keyword argument assignment
+            glyph           = glyph,
+                            ^ (bad-whitespace)
+C:616, 0: No space allowed around keyword argument assignment
+            offset          = offset
+                            ^ (bad-whitespace)
+C:656, 0: No space allowed after bracket
+    _fontmap = { 'cal' : 'cmsy10',
+               ^ (bad-whitespace)
+C:663, 0: Wrong continued indentation (remove 2 spaces).
+                 }
+               | ^ (bad-continuation)
+C:843, 0: Wrong hanging indentation (remove 4 spaces).
+                            'rm', font_class, sym, fontsize)
+                        |   ^ (bad-continuation)
+C:884, 0: Wrong hanging indentation (remove 5 spaces).
+                 1 : 'STIXSizeOneSym',
+            |    ^ (bad-continuation)
+C:885, 0: Wrong hanging indentation (remove 5 spaces).
+                 2 : 'STIXSizeTwoSym',
+            |    ^ (bad-continuation)
+C:886, 0: Wrong hanging indentation (remove 5 spaces).
+                 3 : 'STIXSizeThreeSym',
+            |    ^ (bad-continuation)
+C:887, 0: Wrong hanging indentation (remove 5 spaces).
+                 4 : 'STIXSizeFourSym',
+            |    ^ (bad-continuation)
+C:888, 0: Wrong hanging indentation (remove 5 spaces).
+                 5 : 'STIXSizeFiveSym'})
+            |    ^ (bad-continuation)
+C:919, 0: No space allowed after bracket
+    _fontmap = { 'rm'  : 'DejaVu Serif',
+               ^ (bad-whitespace)
+C:926, 0: Wrong continued indentation (remove 2 spaces).
+                 }
+               | ^ (bad-continuation)
+C:935, 0: No space allowed after bracket
+    _fontmap = { 'rm'  : 'DejaVu Sans',
+               ^ (bad-whitespace)
+C:942, 0: Wrong continued indentation (remove 2 spaces).
+                 }
+               | ^ (bad-continuation)
+C:957, 0: No space allowed after bracket
+    _fontmap = { 'rm'  : 'STIXGeneral',
+               ^ (bad-whitespace)
+C:970, 0: Wrong continued indentation (remove 2 spaces).
+                 }
+               | ^ (bad-continuation)
+C:1045, 0: No space allowed before bracket
+            ord('>'): 0x27e9 }
+                             ^ (bad-whitespace)
+C:1081, 0: No space allowed after bracket
+    fontmap = { 'cal' : 'pzcmi8a',  # Zapf Chancery
+              ^ (bad-whitespace)
+C:1088, 0: Wrong continued indentation (remove 2 spaces).
+                }
+              | ^ (bad-continuation)
+C:1177, 0: No space allowed around keyword argument assignment
+            advance  = font.get_width_char(glyph) * scale,
+                     ^ (bad-whitespace)
+C:1178, 0: No space allowed around keyword argument assignment
+            width    = font.get_width_char(glyph) * scale,
+                     ^ (bad-whitespace)
+C:1179, 0: No space allowed around keyword argument assignment
+            height   = font.get_height_char(glyph) * scale,
+                     ^ (bad-whitespace)
+C:1180, 0: No space allowed around keyword argument assignment
+            xmin = xmin,
+                 ^ (bad-whitespace)
+C:1181, 0: No space allowed around keyword argument assignment
+            xmax = xmax,
+                 ^ (bad-whitespace)
+C:1182, 0: No space allowed around keyword argument assignment
+            ymin = ymin+offset,
+                 ^ (bad-whitespace)
+C:1183, 0: No space allowed around keyword argument assignment
+            ymax = ymax+offset,
+                 ^ (bad-whitespace)
+C:1185, 0: No space allowed around keyword argument assignment
+            iceberg = ymax + offset,
+                    ^ (bad-whitespace)
+C:1186, 0: No space allowed around keyword argument assignment
+            slanted = slanted
+                    ^ (bad-whitespace)
+C:1190, 0: No space allowed around keyword argument assignment
+            font            = font,
+                            ^ (bad-whitespace)
+C:1191, 0: No space allowed around keyword argument assignment
+            fontsize        = fontsize,
+                            ^ (bad-whitespace)
+C:1192, 0: No space allowed around keyword argument assignment
+            postscript_name = font.get_fontname(),
+                            ^ (bad-whitespace)
+C:1193, 0: No space allowed around keyword argument assignment
+            metrics         = metrics,
+                            ^ (bad-whitespace)
+C:1194, 0: No space allowed around keyword argument assignment
+            symbol_name     = symbol_name,
+                            ^ (bad-whitespace)
+C:1195, 0: No space allowed around keyword argument assignment
+            num             = num,
+                            ^ (bad-whitespace)
+C:1196, 0: No space allowed around keyword argument assignment
+            glyph           = glyph,
+                            ^ (bad-whitespace)
+C:1197, 0: No space allowed around keyword argument assignment
+            offset          = offset
+                            ^ (bad-whitespace)
+C:1248, 0: Exactly one space required before assignment
+SHRINK_FACTOR   = 0.7
+                ^ (bad-whitespace)
+C:1249, 0: Exactly one space required before assignment
+GROW_FACTOR     = 1.0 / SHRINK_FACTOR
+                ^ (bad-whitespace)
+C:1404, 0: Exactly one space required before assignment
+        self.width  = width
+                    ^ (bad-whitespace)
+C:1406, 0: Exactly one space required before assignment
+        self.depth  = depth
+                    ^ (bad-whitespace)
+C:1411, 0: Exactly one space required before assignment
+            self.width  *= SHRINK_FACTOR
+                        ^^ (bad-whitespace)
+C:1413, 0: Exactly one space required before assignment
+            self.depth  *= SHRINK_FACTOR
+                        ^^ (bad-whitespace)
+C:1417, 0: Exactly one space required before assignment
+        self.width  *= GROW_FACTOR
+                    ^^ (bad-whitespace)
+C:1419, 0: Exactly one space required before assignment
+        self.depth  *= GROW_FACTOR
+                    ^^ (bad-whitespace)
+C:1509, 0: Exactly one space required before assignment
+            self.width    *= SHRINK_FACTOR
+                          ^^ (bad-whitespace)
+C:1510, 0: Exactly one space required before assignment
+            self.height   *= SHRINK_FACTOR
+                          ^^ (bad-whitespace)
+C:1511, 0: Exactly one space required before assignment
+            self.depth    *= SHRINK_FACTOR
+                          ^^ (bad-whitespace)
+C:1516, 0: Exactly one space required before assignment
+        self.width    *= GROW_FACTOR
+                      ^^ (bad-whitespace)
+C:1517, 0: Exactly one space required before assignment
+        self.height   *= GROW_FACTOR
+                      ^^ (bad-whitespace)
+C:1518, 0: Exactly one space required before assignment
+        self.depth    *= GROW_FACTOR
+                      ^^ (bad-whitespace)
+C:1558, 0: Exactly one space required before assignment
+        self.children     = elements  # The child nodes of this list
+                          ^ (bad-whitespace)
+C:1560, 0: Exactly one space required before assignment
+        self.glue_set     = 0.   # The glue setting of this list
+                          ^ (bad-whitespace)
+C:1561, 0: Exactly one space required before assignment
+        self.glue_sign    = 0    # 0: normal, -1: shrinking, 1: stretching
+                          ^ (bad-whitespace)
+C:1562, 0: Exactly one space required before assignment
+        self.glue_order   = 0    # The order of infinity (0 - 3) for the glue
+                          ^ (bad-whitespace)
+C:1603, 0: Exactly one space required before assignment
+            self.glue_set     *= SHRINK_FACTOR
+                              ^^ (bad-whitespace)
+C:1610, 0: Exactly one space required before assignment
+        self.glue_set     *= GROW_FACTOR
+                          ^^ (bad-whitespace)
+C:1851, 0: Exactly one space required before assignment
+        self.glue_subtype   = 'normal'
+                            ^ (bad-whitespace)
+C:1860, 0: Exactly one space required before assignment
+        self.glue_spec      = glue_spec
+                            ^ (bad-whitespace)
+C:1882, 0: Exactly one space required before assignment
+        self.width         = width
+                           ^ (bad-whitespace)
+C:1883, 0: Exactly one space required before assignment
+        self.stretch       = stretch
+                           ^ (bad-whitespace)
+C:1885, 0: Exactly one space required before assignment
+        self.shrink        = shrink
+                           ^ (bad-whitespace)
+C:1886, 0: Exactly one space required before assignment
+        self.shrink_order  = shrink_order
+                           ^ (bad-whitespace)
+C:2091, 0: Exactly one space required before assignment
+        self.max_push    = 0  # Deepest nesting of push commands so far
+                         ^ (bad-whitespace)
+C:2092, 0: Exactly one space required before assignment
+        self.cur_s       = 0
+                         ^ (bad-whitespace)
+C:2093, 0: Exactly one space required before assignment
+        self.cur_v       = 0.
+                         ^ (bad-whitespace)
+C:2094, 0: Exactly one space required before assignment
+        self.cur_h       = 0.
+                         ^ (bad-whitespace)
+C:2095, 0: Exactly one space required before assignment
+        self.off_h       = ox
+                         ^ (bad-whitespace)
+C:2096, 0: Exactly one space required before assignment
+        self.off_v       = oy + box.height
+                         ^ (bad-whitespace)
+C:2108, 0: Exactly one space required before assignment
+        cur_g         = 0
+                      ^ (bad-whitespace)
+C:2109, 0: Exactly one space required before assignment
+        cur_glue      = 0.
+                      ^ (bad-whitespace)
+C:2110, 0: Exactly one space required before assignment
+        glue_order    = box.glue_order
+                      ^ (bad-whitespace)
+C:2111, 0: Exactly one space required before assignment
+        glue_sign     = box.glue_sign
+                      ^ (bad-whitespace)
+C:2112, 0: Exactly one space required before assignment
+        base_line     = self.cur_v
+                      ^ (bad-whitespace)
+C:2113, 0: Exactly one space required before assignment
+        left_edge     = self.cur_h
+                      ^ (bad-whitespace)
+C:2114, 0: Exactly one space required before assignment
+        self.cur_s    += 1
+                      ^^ (bad-whitespace)
+C:2116, 0: Exactly one space required before assignment
+        clamp         = self.clamp
+                      ^ (bad-whitespace)
+C:2141, 0: Exactly one space required before assignment
+                rule_depth  = p.depth
+                            ^ (bad-whitespace)
+C:2142, 0: Exactly one space required before assignment
+                rule_width  = p.width
+                            ^ (bad-whitespace)
+C:2171, 0: Exactly one space required before assignment
+        cur_g         = 0
+                      ^ (bad-whitespace)
+C:2172, 0: Exactly one space required before assignment
+        cur_glue      = 0.
+                      ^ (bad-whitespace)
+C:2173, 0: Exactly one space required before assignment
+        glue_order    = box.glue_order
+                      ^ (bad-whitespace)
+C:2174, 0: Exactly one space required before assignment
+        glue_sign     = box.glue_sign
+                      ^ (bad-whitespace)
+C:2175, 0: Exactly one space required before assignment
+        self.cur_s    += 1
+                      ^^ (bad-whitespace)
+C:2177, 0: Exactly one space required before assignment
+        left_edge     = self.cur_h
+                      ^ (bad-whitespace)
+C:2178, 0: Exactly one space required before assignment
+        self.cur_v    -= box.height
+                      ^^ (bad-whitespace)
+C:2179, 0: Exactly one space required before assignment
+        top_edge      = self.cur_v
+                      ^ (bad-whitespace)
+C:2180, 0: Exactly one space required before assignment
+        clamp         = self.clamp
+                      ^ (bad-whitespace)
+C:2336, 0: Exactly one space required before assignment
+        p.accent           = Forward()
+                           ^ (bad-whitespace)
+C:2337, 0: Exactly one space required before assignment
+        p.ambi_delim       = Forward()
+                           ^ (bad-whitespace)
+C:2338, 0: Exactly one space required before assignment
+        p.apostrophe       = Forward()
+                           ^ (bad-whitespace)
+C:2339, 0: Exactly one space required before assignment
+        p.auto_delim       = Forward()
+                           ^ (bad-whitespace)
+C:2340, 0: Exactly one space required before assignment
+        p.binom            = Forward()
+                           ^ (bad-whitespace)
+C:2341, 0: Exactly one space required before assignment
+        p.bslash           = Forward()
+                           ^ (bad-whitespace)
+C:2342, 0: Exactly one space required before assignment
+        p.c_over_c         = Forward()
+                           ^ (bad-whitespace)
+C:2343, 0: Exactly one space required before assignment
+        p.customspace      = Forward()
+                           ^ (bad-whitespace)
+C:2344, 0: Exactly one space required before assignment
+        p.end_group        = Forward()
+                           ^ (bad-whitespace)
+C:2345, 0: Exactly one space required before assignment
+        p.float_literal    = Forward()
+                           ^ (bad-whitespace)
+C:2346, 0: Exactly one space required before assignment
+        p.font             = Forward()
+                           ^ (bad-whitespace)
+C:2347, 0: Exactly one space required before assignment
+        p.frac             = Forward()
+                           ^ (bad-whitespace)
+C:2348, 0: Exactly one space required before assignment
+        p.dfrac            = Forward()
+                           ^ (bad-whitespace)
+C:2349, 0: Exactly one space required before assignment
+        p.function         = Forward()
+                           ^ (bad-whitespace)
+C:2350, 0: Exactly one space required before assignment
+        p.genfrac          = Forward()
+                           ^ (bad-whitespace)
+C:2351, 0: Exactly one space required before assignment
+        p.group            = Forward()
+                           ^ (bad-whitespace)
+C:2352, 0: Exactly one space required before assignment
+        p.int_literal      = Forward()
+                           ^ (bad-whitespace)
+C:2353, 0: Exactly one space required before assignment
+        p.latexfont        = Forward()
+                           ^ (bad-whitespace)
+C:2354, 0: Exactly one space required before assignment
+        p.lbracket         = Forward()
+                           ^ (bad-whitespace)
+C:2355, 0: Exactly one space required before assignment
+        p.left_delim       = Forward()
+                           ^ (bad-whitespace)
+C:2356, 0: Exactly one space required before assignment
+        p.lbrace           = Forward()
+                           ^ (bad-whitespace)
+C:2357, 0: Exactly one space required before assignment
+        p.main             = Forward()
+                           ^ (bad-whitespace)
+C:2358, 0: Exactly one space required before assignment
+        p.math             = Forward()
+                           ^ (bad-whitespace)
+C:2359, 0: Exactly one space required before assignment
+        p.math_string      = Forward()
+                           ^ (bad-whitespace)
+C:2360, 0: Exactly one space required before assignment
+        p.non_math         = Forward()
+                           ^ (bad-whitespace)
+C:2361, 0: Exactly one space required before assignment
+        p.operatorname     = Forward()
+                           ^ (bad-whitespace)
+C:2362, 0: Exactly one space required before assignment
+        p.overline         = Forward()
+                           ^ (bad-whitespace)
+C:2363, 0: Exactly one space required before assignment
+        p.placeable        = Forward()
+                           ^ (bad-whitespace)
+C:2364, 0: Exactly one space required before assignment
+        p.rbrace           = Forward()
+                           ^ (bad-whitespace)
+C:2365, 0: Exactly one space required before assignment
+        p.rbracket         = Forward()
+                           ^ (bad-whitespace)
+C:2366, 0: Exactly one space required before assignment
+        p.required_group   = Forward()
+                           ^ (bad-whitespace)
+C:2367, 0: Exactly one space required before assignment
+        p.right_delim      = Forward()
+                           ^ (bad-whitespace)
+C:2369, 0: Exactly one space required before assignment
+        p.simple           = Forward()
+                           ^ (bad-whitespace)
+C:2370, 0: Exactly one space required before assignment
+        p.simple_group     = Forward()
+                           ^ (bad-whitespace)
+C:2371, 0: Exactly one space required before assignment
+        p.single_symbol    = Forward()
+                           ^ (bad-whitespace)
+C:2372, 0: Exactly one space required before assignment
+        p.snowflake        = Forward()
+                           ^ (bad-whitespace)
+C:2373, 0: Exactly one space required before assignment
+        p.space            = Forward()
+                           ^ (bad-whitespace)
+C:2374, 0: Exactly one space required before assignment
+        p.sqrt             = Forward()
+                           ^ (bad-whitespace)
+C:2375, 0: Exactly one space required before assignment
+        p.stackrel         = Forward()
+                           ^ (bad-whitespace)
+C:2376, 0: Exactly one space required before assignment
+        p.start_group      = Forward()
+                           ^ (bad-whitespace)
+C:2377, 0: Exactly one space required before assignment
+        p.subsuper         = Forward()
+                           ^ (bad-whitespace)
+C:2378, 0: Exactly one space required before assignment
+        p.subsuperop       = Forward()
+                           ^ (bad-whitespace)
+C:2379, 0: Exactly one space required before assignment
+        p.symbol           = Forward()
+                           ^ (bad-whitespace)
+C:2380, 0: Exactly one space required before assignment
+        p.symbol_name      = Forward()
+                           ^ (bad-whitespace)
+C:2381, 0: Exactly one space required before assignment
+        p.token            = Forward()
+                           ^ (bad-whitespace)
+C:2382, 0: Exactly one space required before assignment
+        p.unknown_symbol   = Forward()
+                           ^ (bad-whitespace)
+C:2390, 0: Exactly one space required before assignment
+        p.int_literal   <<= Regex("[-+]?[0-9]+")
+                        ^^^ (bad-whitespace)
+C:2392, 0: Exactly one space required before assignment
+        p.lbrace        <<= Literal('{').suppress()
+                        ^^^ (bad-whitespace)
+C:2393, 0: Exactly one space required before assignment
+        p.rbrace        <<= Literal('}').suppress()
+                        ^^^ (bad-whitespace)
+C:2394, 0: Exactly one space required before assignment
+        p.lbracket      <<= Literal('[').suppress()
+                        ^^^ (bad-whitespace)
+C:2395, 0: Exactly one space required before assignment
+        p.rbracket      <<= Literal(']').suppress()
+                        ^^^ (bad-whitespace)
+C:2396, 0: Exactly one space required before assignment
+        p.bslash        <<= Literal('\\')
+                        ^^^ (bad-whitespace)
+C:2398, 0: Exactly one space required before assignment
+        p.space         <<= oneOf(list(self._space_widths))
+                        ^^^ (bad-whitespace)
+C:2399, 0: Exactly one space required before assignment
+        p.customspace   <<= (
+                        ^^^ (bad-whitespace)
+C:2405, 0: Exactly one space required after assignment
+        unicode_range =  "\U00000080-\U0001ffff"
+                      ^ (bad-whitespace)
+C:2409, 0: Exactly one space required before assignment
+        p.snowflake     <<= Suppress(p.bslash) + oneOf(self._snowflake)
+                        ^^^ (bad-whitespace)
+C:2410, 0: Exactly one space required before assignment
+        p.symbol_name   <<= (
+                        ^^^ (bad-whitespace)
+C:2414, 0: Exactly one space required before assignment
+        p.symbol        <<= (p.single_symbol | p.symbol_name).leaveWhitespace()
+                        ^^^ (bad-whitespace)
+C:2416, 0: Exactly one space required before assignment
+        p.apostrophe    <<= Regex("'+")
+                        ^^^ (bad-whitespace)
+C:2418, 0: Exactly one space required before assignment
+        p.c_over_c      <<= (
+                        ^^^ (bad-whitespace)
+C:2423, 0: Exactly one space required before assignment
+        p.accent        <<= Group(
+                        ^^^ (bad-whitespace)
+C:2429, 0: Exactly one space required before assignment
+        p.function      <<= (
+                        ^^^ (bad-whitespace)
+C:2434, 0: Exactly one space required before assignment
+        p.start_group   <<= Optional(p.latexfont) + p.lbrace
+                        ^^^ (bad-whitespace)
+C:2435, 0: Exactly one space required before assignment
+        p.end_group     <<= p.rbrace.copy()
+                        ^^^ (bad-whitespace)
+C:2436, 0: Exactly one space required before assignment
+        p.simple_group  <<= Group(p.lbrace + ZeroOrMore(p.token) + p.rbrace)
+                        ^^^ (bad-whitespace)
+C:2437, 0: Exactly one space required before assignment
+        p.required_group<<= Group(p.lbrace + OneOrMore(p.token) + p.rbrace)
+                        ^^^ (bad-whitespace)
+C:2438, 0: Exactly one space required before assignment
+        p.group         <<= Group(
+                        ^^^ (bad-whitespace)
+C:2442, 0: Exactly one space required before assignment
+        p.font          <<= Suppress(p.bslash) + oneOf(list(self._fontnames))
+                        ^^^ (bad-whitespace)
+C:2443, 0: Exactly one space required before assignment
+        p.latexfont     <<= (
+                        ^^^ (bad-whitespace)
+C:2448, 0: Exactly one space required before assignment
+        p.frac          <<= Group(
+                        ^^^ (bad-whitespace)
+C:2454, 0: Exactly one space required before assignment
+        p.dfrac         <<= Group(
+                        ^^^ (bad-whitespace)
+C:2460, 0: Exactly one space required before assignment
+        p.stackrel      <<= Group(
+                        ^^^ (bad-whitespace)
+C:2466, 0: Exactly one space required before assignment
+        p.binom         <<= Group(
+                        ^^^ (bad-whitespace)
+C:2472, 0: Exactly one space required before assignment
+        p.ambi_delim    <<= oneOf(list(self._ambi_delim))
+                        ^^^ (bad-whitespace)
+C:2473, 0: Exactly one space required before assignment
+        p.left_delim    <<= oneOf(list(self._left_delim))
+                        ^^^ (bad-whitespace)
+C:2474, 0: Exactly one space required before assignment
+        p.right_delim   <<= oneOf(list(self._right_delim))
+                        ^^^ (bad-whitespace)
+C:2477, 0: Exactly one space required before assignment
+        p.genfrac       <<= Group(
+                        ^^^ (bad-whitespace)
+C:2479, 0: No space allowed after bracket
+            - ((  (p.lbrace
+               ^ (bad-whitespace)
+C:2480, 0: Wrong continued indentation (add 2 spaces).
+                 + Optional(p.ambi_delim | p.left_delim, default='')
+                 ^ | (bad-continuation)
+C:2481, 0: Wrong continued indentation (add 2 spaces).
+                 + p.rbrace)
+                 ^ | (bad-continuation)
+C:2482, 0: Wrong continued indentation (add 2 spaces).
+                + (p.lbrace
+                ^ | (bad-continuation)
+C:2485, 0: Wrong continued indentation (add 2 spaces).
+                + (p.lbrace + p.float_literal + p.rbrace)
+                ^ | (bad-continuation)
+C:2486, 0: Wrong continued indentation (add 2 spaces).
+                + p.simple_group + p.required_group + p.required_group)
+                ^ | (bad-continuation)
+C:2491, 0: Exactly one space required before assignment
+        p.sqrt          <<= Group(
+                        ^^^ (bad-whitespace)
+C:2498, 0: Exactly one space required before assignment
+        p.overline      <<= Group(
+                        ^^^ (bad-whitespace)
+C:2503, 0: Exactly one space required before assignment
+        p.unknown_symbol<<= Combine(p.bslash + Regex("[A-Za-z]*"))
+                        ^^^ (bad-whitespace)
+C:2505, 0: Exactly one space required before assignment
+        p.operatorname  <<= Group(
+                        ^^^ (bad-whitespace)
+C:2511, 0: Exactly one space required before assignment
+        p.placeable     <<= (
+                        ^^^ (bad-whitespace)
+C:2530, 0: Exactly one space required before assignment
+        p.simple        <<= (
+                        ^^^ (bad-whitespace)
+C:2537, 0: Exactly one space required before assignment
+        p.subsuperop    <<= oneOf(["_", "^"])
+                        ^^^ (bad-whitespace)
+C:2539, 0: Exactly one space required before assignment
+        p.subsuper      <<= Group(
+                        ^^^ (bad-whitespace)
+C:2547, 0: Exactly one space required before assignment
+        p.token         <<= (
+                        ^^^ (bad-whitespace)
+C:2553, 0: Exactly one space required before assignment
+        p.auto_delim    <<= (
+                        ^^^ (bad-whitespace)
+C:2563, 0: Exactly one space required before assignment
+        p.math          <<= OneOrMore(p.token)
+                        ^^^ (bad-whitespace)
+C:2565, 0: Exactly one space required before assignment
+        p.math_string   <<= QuotedString('$', '\\', unquoteResults=False)
+                        ^^^ (bad-whitespace)
+C:2567, 0: Exactly one space required before assignment
+        p.non_math      <<= Regex(r"(?:(?:\\[$])|[^$])*").leaveWhitespace()
+                        ^^^ (bad-whitespace)
+C:2569, 0: Exactly one space required before assignment
+        p.main          <<= (
+                        ^^^ (bad-whitespace)
+C:2692, 0: No space allowed after bracket
+    _space_widths = { r'\,'         : 0.16667,   # 3/18 em = 3 mu
+                    ^ (bad-whitespace)
+C:2703, 0: Wrong continued indentation (remove 2 spaces).
+                      }
+                    | ^ (bad-continuation)
+C:2706, 0: Exactly one space required around comparison
+        assert len(toks)==1
+                        ^^ (bad-whitespace)
+C:2734, 0: Wrong continued indentation (remove 1 space).
+                               do_kern = True)]
+                              |^ (bad-continuation)
+C:2734, 0: No space allowed around keyword argument assignment
+                               do_kern = True)]
+                                       ^ (bad-whitespace)
+C:2750, 0: Wrong continued indentation (remove 1 space).
+                               do_kern = True)]
+                              |^ (bad-continuation)
+C:2750, 0: No space allowed around keyword argument assignment
+                               do_kern = True)]
+                                       ^ (bad-whitespace)
+C:2798, 0: Wrong hanging indentation (remove 4 spaces).
+                over_centered,
+            |   ^ (bad-continuation)
+C:2799, 0: Wrong hanging indentation (remove 4 spaces).
+                Vbox(0., thickness * space),
+            |   ^ (bad-continuation)
+C:2800, 0: Wrong hanging indentation (remove 4 spaces).
+                under_centered
+            |   ^ (bad-continuation)
+C:2801, 0: Wrong hanging indentation.
+                ])
+        |   |   ^ (bad-continuation)
+C:2829, 0: Wrong continued indentation (remove 1 space).
+                  ) (set(_accent_map))
+                 |^ (bad-continuation)
+C:2829, 0: No space allowed before bracket
+                  ) (set(_accent_map))
+                    ^ (bad-whitespace)
+C:2832, 0: Exactly one space required around comparison
+        assert len(toks)==1
+                        ^^ (bad-whitespace)
+C:2850, 0: Wrong hanging indentation (remove 4 spaces).
+                centered,
+            |   ^ (bad-continuation)
+C:2851, 0: Wrong hanging indentation (remove 4 spaces).
+                Vbox(0., thickness * 2.0),
+            |   ^ (bad-continuation)
+C:2852, 0: Wrong hanging indentation (remove 4 spaces).
+                Hlist([sym])
+            |   ^ (bad-continuation)
+C:2853, 0: Wrong hanging indentation.
+                ])
+        |   |   ^ (bad-continuation)
+C:2893, 0: Exactly one space required around comparison
+        assert len(toks)==1
+                        ^^ (bad-whitespace)
+C:2919, 0: Exactly one space required around comparison
+        assert len(toks)==1
+                        ^^ (bad-whitespace)
+C:3046, 0: Exactly one space required before assignment
+        lc_height   = last_char.height
+                    ^ (bad-whitespace)
+C:3129, 0: Wrong continued indentation (remove 1 space).
+                       ])
+                      |^ (bad-continuation)
+C:3241, 0: Exactly one space required around comparison
+        assert len(toks)==1
+                        ^^ (bad-whitespace)
+C:3242, 0: Exactly one space required around comparison
+        assert len(toks[0])==1
+                           ^^ (bad-whitespace)
+C:3327, 0: No space allowed around keyword argument assignment
+    def parse(self, s, dpi = 72, prop = None):
+                           ^ (bad-whitespace)
+C:3327, 0: No space allowed around keyword argument assignment
+    def parse(self, s, dpi = 72, prop = None):
+                                      ^ (bad-whitespace)
+C:3468, 0: Exactly one space required around comparison
+        assert self._output=="bitmap"
+                           ^^ (bad-whitespace)
+C:  1, 0: Too many lines in module (3514/1000) (too-many-lines)
+E: 34, 0: No name '_png' in module 'matplotlib' (no-name-in-module)
+C: 34, 0: Import "from matplotlib import _png, cbook, colors as mcolors, get_data_path, rcParams" should be placed at the top of the module (wrong-import-position)
+C: 35, 0: Import "from matplotlib.afm import AFM" should be placed at the top of the module (wrong-import-position)
+C: 36, 0: Import "from matplotlib.cbook import get_realpath_and_stat" should be placed at the top of the module (wrong-import-position)
+E: 37, 0: No name 'ft2font' in module 'matplotlib' (no-name-in-module)
+E: 37, 0: Unable to import 'matplotlib.ft2font' (import-error)
+C: 37, 0: Import "from matplotlib.ft2font import FT2Image, KERNING_DEFAULT, LOAD_NO_HINTING" should be placed at the top of the module (wrong-import-position)
+C: 38, 0: Import "from matplotlib.font_manager import findfont, FontProperties, get_font" should be placed at the top of the module (wrong-import-position)
+C: 39, 0: Import "from matplotlib._mathtext_data import latex_to_bakoma, latex_to_standard, tex2uni, latex_to_cmex, stix_virtual_fonts" should be placed at the top of the module (wrong-import-position)
+C: 43, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 83, 0: Constant name "unichr_safe" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:107, 4: Argument name "w" doesn't conform to snake_case naming style (invalid-name)
+C:107, 4: Argument name "h" doesn't conform to snake_case naming style (invalid-name)
+C:107, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:113, 4: Argument name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:113, 4: Argument name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:120, 4: Argument name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:120, 4: Argument name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:120, 4: Argument name "x2" doesn't conform to snake_case naming style (invalid-name)
+C:120, 4: Argument name "y2" doesn't conform to snake_case naming style (invalid-name)
+R:133, 4: Method could be a function (no-self-use)
+C:147, 8: Attribute name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:148, 8: Attribute name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:154, 4: Argument name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:154, 4: Argument name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:154, 4: Argument name "x2" doesn't conform to snake_case naming style (invalid-name)
+C:154, 4: Argument name "y2" doesn't conform to snake_case naming style (invalid-name)
+C:183,16: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:185,16: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:188, 4: Parameters differ from overridden 'get_results' method (arguments-differ)
+C:216, 0: Missing class docstring (missing-docstring)
+C:218, 8: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:218,12: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+W:218, 8: Unused variable 'ox' (unused-variable)
+W:218,12: Unused variable 'oy' (unused-variable)
+W:218,16: Unused variable 'width' (unused-variable)
+W:218,23: Unused variable 'height' (unused-variable)
+W:218,45: Unused variable 'characters' (unused-variable)
+W:228, 4: __init__ method from base class 'MathtextBackend' is not called (super-init-not-called)
+C:239,12: Variable name "ps" doesn't conform to snake_case naming style (invalid-name)
+C:246, 8: Variable name "ps" doesn't conform to snake_case naming style (invalid-name)
+W:236, 8: Unused variable 'symbol_name' (unused-variable)
+C:252, 8: Variable name "ps" doesn't conform to snake_case naming style (invalid-name)
+W:256, 4: Parameters differ from overridden 'get_results' method (arguments-differ)
+W:270, 4: __init__ method from base class 'MathtextBackend' is not called (super-init-not-called)
+W:284, 4: Parameters differ from overridden 'get_results' method (arguments-differ)
+W:299, 4: __init__ method from base class 'MathtextBackend' is not called (super-init-not-called)
+W:313, 4: Parameters differ from overridden 'get_results' method (arguments-differ)
+W:330, 4: __init__ method from base class 'MathtextBackend' is not called (super-init-not-called)
+W:343, 4: Parameters differ from overridden 'get_results' method (arguments-differ)
+W:343,31: Unused argument 'used_characters' (unused-argument)
+W:358, 4: __init__ method from base class 'MathtextBackend' is not called (super-init-not-called)
+W:372, 4: Parameters differ from overridden 'get_results' method (arguments-differ)
+W:372,31: Unused argument 'used_characters' (unused-argument)
+R:411, 4: Too many arguments (10/5) (too-many-arguments)
+W:411,23: Unused argument 'font1' (unused-argument)
+W:411,30: Unused argument 'fontclass1' (unused-argument)
+W:411,42: Unused argument 'sym1' (unused-argument)
+W:411,48: Unused argument 'fontsize1' (unused-argument)
+W:412,17: Unused argument 'font2' (unused-argument)
+W:412,24: Unused argument 'fontclass2' (unused-argument)
+W:412,36: Unused argument 'sym2' (unused-argument)
+W:412,42: Unused argument 'fontsize2' (unused-argument)
+W:412,53: Unused argument 'dpi' (unused-argument)
+R:411, 4: Method could be a function (no-self-use)
+R:430, 4: Too many arguments (7/5) (too-many-arguments)
+E:460,15: Instance of 'Fonts' has no '_get_info' member (no-member)
+C:463, 4: Argument name "w" doesn't conform to snake_case naming style (invalid-name)
+C:463, 4: Argument name "h" doesn't conform to snake_case naming style (invalid-name)
+C:463, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:472, 4: Argument name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:472, 4: Argument name "oy" doesn't conform to snake_case naming style (invalid-name)
+R:472, 4: Too many arguments (8/5) (too-many-arguments)
+E:488,15: Instance of 'Fonts' has no '_get_info' member (no-member)
+C:495, 4: Argument name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:495, 4: Argument name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:495, 4: Argument name "x2" doesn't conform to snake_case naming style (invalid-name)
+C:495, 4: Argument name "y2" doesn't conform to snake_case naming style (invalid-name)
+C:532, 4: Method name "get_sized_alternatives_for_symbol" doesn't conform to snake_case naming style (invalid-name)
+R:532, 4: Method could be a function (no-self-use)
+W:468, 8: Attribute 'width' defined outside __init__ (attribute-defined-outside-init)
+W:468,20: Attribute 'height' defined outside __init__ (attribute-defined-outside-init)
+W:468,33: Attribute 'depth' defined outside __init__ (attribute-defined-outside-init)
+E:562,19: Instance of 'TruetypeFonts' has no 'fontmap' member (no-member)
+E:563,23: Instance of 'TruetypeFonts' has no 'fontmap' member (no-member)
+R:574, 4: Method could be a function (no-self-use)
+R:579, 4: Too many arguments (7/5) (too-many-arguments)
+R:579, 4: Too many local variables (22/15) (too-many-locals)
+E:586,12: Instance of 'TruetypeFonts' has no '_get_glyph' member (no-member)
+W:620, 4: Parameters differ from overridden 'get_xheight' method (arguments-differ)
+C:629, 8: Variable name "xHeight" doesn't conform to snake_case naming style (invalid-name)
+R:638, 4: Too many arguments (10/5) (too-many-arguments)
+R:677, 4: Too many arguments (6/5) (too-many-arguments)
+W:696,19: Access to a protected member _get_glyph of a client class (protected-access)
+W:792,42: Unused argument 'font_class' (unused-argument)
+R:792, 4: Method could be a function (no-self-use)
+R:795, 4: Too many arguments (6/5) (too-many-arguments)
+W:811,20: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+R:840,16: Unnecessary "else" after "return" (no-else-return)
+W:842,27: Access to a protected member _get_glyph of a client class (protected-access)
+W:845,27: Access to a protected member _get_glyph of a client class (protected-access)
+R:795, 4: Too many branches (16/12) (too-many-branches)
+C:870, 0: Missing class docstring (missing-docstring)
+W:880, 8: __init__ method from a non direct base class 'TruetypeFonts' is called (non-parent-init-called)
+W:873, 4: __init__ method from base class 'UnicodeFonts' is not called (super-init-not-called)
+E:883, 8: Instance of 'DejaVuFonts' has no '_fontmap' member; maybe 'fontmap'? (no-member)
+E:889,25: Instance of 'DejaVuFonts' has no '_fontmap' member; maybe 'fontmap'? (no-member)
+R:894, 4: Too many arguments (6/5) (too-many-arguments)
+W:897,19: Access to a protected member _get_glyph of a client class (protected-access)
+W:976, 8: __init__ method from a non direct base class 'TruetypeFonts' is called (non-parent-init-called)
+W:975, 4: __init__ method from base class 'UnicodeFonts' is not called (super-init-not-called)
+W:1006,16: Redefining built-in 'range' (redefined-builtin)
+C:1002,12: Variable name "lo" doesn't conform to snake_case naming style (invalid-name)
+C:1003,12: Variable name "hi" doesn't conform to snake_case naming style (invalid-name)
+C:1008,20: Variable name "hi" doesn't conform to snake_case naming style (invalid-name)
+C:1012,20: Variable name "lo" doesn't conform to snake_case naming style (invalid-name)
+C:1100,37: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+C:1117,38: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+R:1124, 4: Too many arguments (7/5) (too-many-arguments)
+R:1124, 4: Too many local variables (23/15) (too-many-locals)
+W:1151,16: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+W:1161,20: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+W:1124,34: Unused argument 'font_class' (unused-argument)
+W:1124,66: Unused argument 'math' (unused-argument)
+R:1202, 4: Too many arguments (10/5) (too-many-arguments)
+R:1255, 0: Too few public methods (0/2) (too-few-public-methods)
+C:1291, 0: Missing class docstring (missing-docstring)
+R:1291, 0: Too few public methods (0/2) (too-few-public-methods)
+C:1302, 0: Missing class docstring (missing-docstring)
+R:1302, 0: Too few public methods (0/2) (too-few-public-methods)
+C:1311, 0: Missing class docstring (missing-docstring)
+R:1311, 0: Too few public methods (0/2) (too-few-public-methods)
+C:1318, 0: Missing class docstring (missing-docstring)
+R:1318, 0: Too few public methods (0/2) (too-few-public-methods)
+C:1322, 0: Missing class docstring (missing-docstring)
+R:1322, 0: Too few public methods (0/2) (too-few-public-methods)
+C:1327, 0: Constant name "_font_constant_mapping" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:1353, 8: Access to a protected member _get_font of a client class (protected-access)
+C:1363, 0: Missing class docstring (missing-docstring)
+C:1377, 4: Missing method docstring (missing-docstring)
+W:1377,26: Redefining built-in 'next' (redefined-builtin)
+W:1377,26: Unused argument 'next' (unused-argument)
+R:1377, 4: Method could be a function (no-self-use)
+C:1394, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1394, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1394, 4: Missing method docstring (missing-docstring)
+W:1421, 4: Parameters differ from overridden 'render' method (arguments-differ)
+C:1454, 8: Attribute name "c" doesn't conform to snake_case naming style (invalid-name)
+R:1441, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+C:1479, 4: Missing method docstring (missing-docstring)
+W:1482,26: Redefining built-in 'next' (redefined-builtin)
+C:1583, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1584, 8: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+C:1593,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:1594,16: Specify string format arguments as logging function parameters (logging-not-lazy)
+W:1591,12: Attribute 'glue_ratio' defined outside __init__ (attribute-defined-outside-init)
+R:1613, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+W:1617,33: Unused argument 'w' (unused-argument)
+W:1617,39: Unused argument 'm' (unused-argument)
+W:1637,20: Redefining built-in 'next' (redefined-builtin)
+C:1662, 4: Argument name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1662, 4: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+C:1684, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1685, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1686, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1689,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1691,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1692,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1693,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1695,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1697,20: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1698,20: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1699,20: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1702,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1706,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1713, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+W:2861, 8: Attribute 'function_name' defined outside __init__ (attribute-defined-outside-init)
+W:1730,33: Unused argument 'h' (unused-argument)
+W:1730,39: Unused argument 'm' (unused-argument)
+C:1734, 4: Argument name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1734, 4: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+C:1734, 4: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1752, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1753, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1754, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1757,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1759,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1760,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1762,20: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1763,20: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1765,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1766,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1768,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1772,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1773,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1780,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1788, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+W:1816, 4: Parameters differ from overridden 'render' method (arguments-differ)
+R:1880, 4: Too many arguments (6/5) (too-many-arguments)
+C:1888, 4: Missing method docstring (missing-docstring)
+C:1896, 4: Missing method docstring (missing-docstring)
+R:1898, 4: Consider using a decorator instead of calling classmethod (no-classmethod-decorator)
+W:1901, 0: Access to a protected member _types of a client class (protected-access)
+C:1916, 0: Missing class docstring (missing-docstring)
+C:1921, 0: Missing class docstring (missing-docstring)
+C:1926, 0: Missing class docstring (missing-docstring)
+C:1931, 0: Missing class docstring (missing-docstring)
+C:1936, 0: Missing class docstring (missing-docstring)
+C:1941, 0: Missing class docstring (missing-docstring)
+C:1946, 0: Missing class docstring (missing-docstring)
+W:1967, 8: __init__ method from a non direct base class 'Vlist' is called (non-parent-init-called)
+W:1966, 4: __init__ method from base class 'Hlist' is not called (super-init-not-called)
+R:2023, 4: Too many arguments (7/5) (too-many-arguments)
+C:2027, 8: Variable name "xHeight" doesn't conform to snake_case naming style (invalid-name)
+W:2045,24: Using possibly undefined loop variable 'sym' (undefined-loop-variable)
+W:2023,48: Unused argument 'always' (unused-argument)
+R:2061, 4: Too many arguments (6/5) (too-many-arguments)
+W:2074,26: Using possibly undefined loop variable 'sym' (undefined-loop-variable)
+W:2061,40: Unused argument 'always' (unused-argument)
+C:2090, 4: Argument name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:2090, 4: Argument name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:2099, 4: Missing method docstring (missing-docstring)
+R:2105, 4: Consider using a decorator instead of calling staticmethod (no-staticmethod-decorator)
+C:2107, 4: Missing method docstring (missing-docstring)
+R:2107, 4: Too many local variables (16/15) (too-many-locals)
+C:2118,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:2126,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:2113, 8: Unused variable 'left_edge' (unused-variable)
+R:2107, 4: Too many branches (17/12) (too-many-branches)
+R:2107, 4: Too many statements (54/50) (too-many-statements)
+C:2170, 4: Missing method docstring (missing-docstring)
+R:2170, 4: Too many local variables (16/15) (too-many-locals)
+C:2182,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:2186,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:2179, 8: Unused variable 'top_edge' (unused-variable)
+R:2170, 4: Too many branches (16/12) (too-many-branches)
+R:2170, 4: Too many statements (53/50) (too-many-statements)
+W:2091, 8: Attribute 'max_push' defined outside __init__ (attribute-defined-outside-init)
+W:2115, 8: Attribute 'max_push' defined outside __init__ (attribute-defined-outside-init)
+W:2176, 8: Attribute 'max_push' defined outside __init__ (attribute-defined-outside-init)
+W:2092, 8: Attribute 'cur_s' defined outside __init__ (attribute-defined-outside-init)
+W:2093, 8: Attribute 'cur_v' defined outside __init__ (attribute-defined-outside-init)
+W:2130,20: Attribute 'cur_v' defined outside __init__ (attribute-defined-outside-init)
+W:2137,20: Attribute 'cur_v' defined outside __init__ (attribute-defined-outside-init)
+W:2148,20: Attribute 'cur_v' defined outside __init__ (attribute-defined-outside-init)
+W:2152,20: Attribute 'cur_v' defined outside __init__ (attribute-defined-outside-init)
+W:2197,20: Attribute 'cur_v' defined outside __init__ (attribute-defined-outside-init)
+W:2094, 8: Attribute 'cur_h' defined outside __init__ (attribute-defined-outside-init)
+W:2136,20: Attribute 'cur_h' defined outside __init__ (attribute-defined-outside-init)
+W:2190,20: Attribute 'cur_h' defined outside __init__ (attribute-defined-outside-init)
+W:2198,20: Attribute 'cur_h' defined outside __init__ (attribute-defined-outside-init)
+W:2095, 8: Attribute 'off_h' defined outside __init__ (attribute-defined-outside-init)
+W:2096, 8: Attribute 'off_v' defined outside __init__ (attribute-defined-outside-init)
+C:2230, 0: Constant name "ship" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:2237, 0: Function name "Error" doesn't conform to snake_case naming style (invalid-name)
+C:2241, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2241, 4: Missing function docstring (missing-docstring)
+W:2241,28: Unused argument 'toks' (unused-argument)
+C:2334, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:2333, 4: Too many statements (104/50) (too-many-statements)
+C:2582, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:2615, 8: Too many arguments (6/5) (too-many-arguments)
+C:2622, 8: Missing method docstring (missing-docstring)
+C:2631, 8: Missing method docstring (missing-docstring)
+C:2659, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2659, 4: Missing method docstring (missing-docstring)
+W:2659,19: Unused argument 's' (unused-argument)
+W:2659,22: Unused argument 'loc' (unused-argument)
+R:2659, 4: Method could be a function (no-self-use)
+C:2662, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2662, 4: Missing method docstring (missing-docstring)
+W:2662,26: Unused argument 's' (unused-argument)
+W:2662,29: Unused argument 'loc' (unused-argument)
+C:2665, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2665, 4: Missing method docstring (missing-docstring)
+W:2665,19: Unused argument 's' (unused-argument)
+W:2665,22: Unused argument 'loc' (unused-argument)
+C:2670, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2670, 4: Missing method docstring (missing-docstring)
+W:2670,26: Unused argument 'loc' (unused-argument)
+C:2705, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2705, 4: Missing method docstring (missing-docstring)
+W:2705,20: Unused argument 's' (unused-argument)
+W:2705,23: Unused argument 'loc' (unused-argument)
+C:2711, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2711, 4: Missing method docstring (missing-docstring)
+W:2711,26: Unused argument 's' (unused-argument)
+W:2711,29: Unused argument 'loc' (unused-argument)
+C:2714, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2714, 4: Missing method docstring (missing-docstring)
+C:2715, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:2726,12: Unnecessary "else" after "return" (no-else-return)
+C:2727,21: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:2745,12: Unnecessary "else" after "return" (no-else-return)
+C:2755, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2755, 4: Missing method docstring (missing-docstring)
+C:2756, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:2755, 4: Method could be a function (no-self-use)
+C:2766, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2766, 4: Missing method docstring (missing-docstring)
+R:2766, 4: Too many local variables (18/15) (too-many-locals)
+W:2766,23: Unused argument 's' (unused-argument)
+W:2766,26: Unused argument 'loc' (unused-argument)
+C:2831, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2831, 4: Missing method docstring (missing-docstring)
+W:2831,21: Unused argument 's' (unused-argument)
+W:2831,24: Unused argument 'loc' (unused-argument)
+C:2855, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2855, 4: Missing method docstring (missing-docstring)
+W:2855,23: Unused argument 's' (unused-argument)
+W:2855,26: Unused argument 'loc' (unused-argument)
+C:2864, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2864, 4: Missing method docstring (missing-docstring)
+C:2869,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:2872,16: Access to a protected member _update_metrics of a client class (protected-access)
+W:2864,27: Unused argument 's' (unused-argument)
+W:2864,30: Unused argument 'loc' (unused-argument)
+C:2876, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2876, 4: Missing method docstring (missing-docstring)
+C:2879,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:2876,26: Unused argument 's' (unused-argument)
+W:2876,29: Unused argument 'loc' (unused-argument)
+C:2883, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2883, 4: Missing method docstring (missing-docstring)
+W:2883,20: Unused argument 's' (unused-argument)
+W:2883,23: Unused argument 'loc' (unused-argument)
+R:2883, 4: Method could be a function (no-self-use)
+C:2888, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2888, 4: Missing method docstring (missing-docstring)
+W:2888,24: Unused argument 's' (unused-argument)
+W:2888,27: Unused argument 'loc' (unused-argument)
+W:2888,32: Unused argument 'toks' (unused-argument)
+C:2892, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2892, 4: Missing method docstring (missing-docstring)
+W:2892,19: Unused argument 's' (unused-argument)
+W:2892,22: Unused argument 'loc' (unused-argument)
+C:2898, 4: Missing method docstring (missing-docstring)
+C:2905, 4: Missing method docstring (missing-docstring)
+C:2910, 4: Missing method docstring (missing-docstring)
+R:2910, 4: Method could be a function (no-self-use)
+C:2915, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2915, 4: Missing method docstring (missing-docstring)
+W:2915,34: Unused argument 's' (unused-argument)
+W:2915,37: Unused argument 'loc' (unused-argument)
+R:2915, 4: Method could be a function (no-self-use)
+C:2918, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2918, 4: Missing method docstring (missing-docstring)
+W:2923, 8: Redefining built-in 'super' (redefined-builtin)
+W:2949,16: Redefining built-in 'next' (redefined-builtin)
+R:2918, 4: Too many local variables (38/15) (too-many-locals)
+C:2938,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:2949,12: Variable name "op" doesn't conform to snake_case naming style (invalid-name)
+C:2977, 8: Variable name "xHeight" doesn't conform to snake_case naming style (invalid-name)
+C:3029,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:3036,38: Access to a protected member _metrics of a client class (protected-access)
+W:3041,34: Access to a protected member _metrics of a client class (protected-access)
+C:3068,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:3076,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:3085,16: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:3096,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+W:2983,16: Unused variable 'i' (unused-variable)
+R:2918, 4: Too many branches (48/12) (too-many-branches)
+R:2918, 4: Too many statements (139/50) (too-many-statements)
+R:3108, 4: Too many arguments (7/5) (too-many-arguments)
+R:3108, 4: Too many local variables (17/15) (too-many-locals)
+C:3150, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:3150, 4: Missing method docstring (missing-docstring)
+W:3150,22: Unused argument 's' (unused-argument)
+W:3150,25: Unused argument 'loc' (unused-argument)
+C:3156, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:3156, 4: Missing method docstring (missing-docstring)
+W:3156,19: Unused argument 's' (unused-argument)
+W:3156,22: Unused argument 'loc' (unused-argument)
+C:3168, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:3168, 4: Missing method docstring (missing-docstring)
+W:3168,20: Unused argument 's' (unused-argument)
+W:3168,23: Unused argument 'loc' (unused-argument)
+C:3180, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:3180, 4: Missing method docstring (missing-docstring)
+W:3180,23: Unused argument 's' (unused-argument)
+W:3180,26: Unused argument 'loc' (unused-argument)
+C:3188, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:3188, 4: Missing method docstring (missing-docstring)
+W:3188,20: Unused argument 's' (unused-argument)
+W:3188,23: Unused argument 'loc' (unused-argument)
+C:3196, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:3196, 4: Missing method docstring (missing-docstring)
+R:3196, 4: Too many local variables (16/15) (too-many-locals)
+W:3196,19: Unused argument 's' (unused-argument)
+W:3196,22: Unused argument 'loc' (unused-argument)
+C:3240, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:3240, 4: Missing method docstring (missing-docstring)
+W:3240,23: Unused argument 's' (unused-argument)
+W:3240,26: Unused argument 'loc' (unused-argument)
+C:3267,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:3287, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:3287, 4: Missing method docstring (missing-docstring)
+W:3287,25: Unused argument 's' (unused-argument)
+W:3287,28: Unused argument 'loc' (unused-argument)
+W:2589, 8: Attribute '_state_stack' defined outside __init__ (attribute-defined-outside-init)
+W:2599, 8: Attribute '_state_stack' defined outside __init__ (attribute-defined-outside-init)
+W:2591, 8: Attribute '_em_width_cache' defined outside __init__ (attribute-defined-outside-init)
+W:2600, 8: Attribute '_em_width_cache' defined outside __init__ (attribute-defined-outside-init)
+R:2249, 0: Too many public methods (33/20) (too-many-public-methods)
+C:3297, 0: Missing class docstring (missing-docstring)
+C:3327, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:3360,12: Access to a protected member _parser of a client class (protected-access)
+C:3389, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:3414, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:3416, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:3416,11: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:3416,14: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:3416,17: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:3417, 8: Variable name "RGBA" doesn't conform to snake_case naming style (invalid-name)
+W:3416,17: Unused variable 'a' (unused-variable)
+R:3424, 4: Too many arguments (6/5) (too-many-arguments)
+W:3470, 8: Unused variable 'ftimage' (unused-variable)
+C:3474, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:3474,59: Redefining built-in 'format' (redefined-builtin)
+
+
+Report
+======
+1680 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |56     |NC         |NC         |71.43       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |184    |NC         |NC         |78.80       |0.54     |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |NC         |NC         |80.00       |20.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.mathtext)
+      \-_mathtext_data (matplotlib.mathtext)
+      \-afm (matplotlib.mathtext)
+      \-backends 
+      | \-backend_agg (matplotlib.mathtext)
+      \-cbook (matplotlib.mathtext)
+      \-colors (matplotlib.mathtext)
+      \-figure (matplotlib.mathtext)
+      \-font_manager (matplotlib.mathtext)
+    numpy (matplotlib.mathtext)
+    pyparsing (matplotlib.mathtext)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |2166   |61.46 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |705    |20.01 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |169    |4.80  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |484    |13.73 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |438    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |57     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |147    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |10     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|bad-whitespace                 |202         |
++-------------------------------+------------+
+|invalid-name                   |135         |
++-------------------------------+------------+
+|unused-argument                |68          |
++-------------------------------+------------+
+|missing-docstring              |56          |
++-------------------------------+------------+
+|bad-continuation               |29          |
++-------------------------------+------------+
+|attribute-defined-outside-init |25          |
++-------------------------------+------------+
+|too-many-arguments             |16          |
++-------------------------------+------------+
+|unused-variable                |11          |
++-------------------------------+------------+
+|no-self-use                    |11          |
++-------------------------------+------------+
+|protected-access               |10          |
++-------------------------------+------------+
+|arguments-differ               |9           |
++-------------------------------+------------+
+|too-many-locals                |8           |
++-------------------------------+------------+
+|super-init-not-called          |8           |
++-------------------------------+------------+
+|len-as-condition               |8           |
++-------------------------------+------------+
+|redefined-builtin              |7           |
++-------------------------------+------------+
+|no-member                      |7           |
++-------------------------------+------------+
+|wrong-import-position          |6           |
++-------------------------------+------------+
+|too-few-public-methods         |6           |
++-------------------------------+------------+
+|too-many-statements            |4           |
++-------------------------------+------------+
+|too-many-branches              |4           |
++-------------------------------+------------+
+|non-parent-init-called         |3           |
++-------------------------------+------------+
+|no-else-return                 |3           |
++-------------------------------+------------+
+|logging-format-interpolation   |3           |
++-------------------------------+------------+
+|undefined-loop-variable        |2           |
++-------------------------------+------------+
+|too-many-instance-attributes   |2           |
++-------------------------------+------------+
+|no-name-in-module              |2           |
++-------------------------------+------------+
+|too-many-public-methods        |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|superfluous-parens             |1           |
++-------------------------------+------------+
+|no-staticmethod-decorator      |1           |
++-------------------------------+------------+
+|no-classmethod-decorator       |1           |
++-------------------------------+------------+
+|logging-not-lazy               |1           |
++-------------------------------+------------+
+|import-error                   |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 5.88/10
+

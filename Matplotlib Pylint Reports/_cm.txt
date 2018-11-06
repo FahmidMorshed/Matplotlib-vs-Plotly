@@ -1,0 +1,3151 @@
+************* Module matplotlib._cm
+C: 35, 0: Exactly one space required after comma
+              'green': ((0., 1., 1.), (1.0, 0.,  0.)),
+                                              ^ (bad-whitespace)
+C: 36, 0: Exactly one space required after comma
+              'blue':  ((0., 1., 1.), (1.0, 1.,  1.))}
+                                              ^ (bad-whitespace)
+C:163, 0: Wrong hanging indentation (remove 4 spaces).
+        'red': gfunc[7],
+    |   ^ (bad-continuation)
+C:164, 0: Wrong hanging indentation (remove 4 spaces).
+        'green': gfunc[5],
+    |   ^ (bad-continuation)
+C:165, 0: Wrong hanging indentation (remove 4 spaces).
+        'blue': gfunc[15],
+    |   ^ (bad-continuation)
+C:169, 0: Wrong hanging indentation (remove 4 spaces).
+        'red': gfunc[30],
+    |   ^ (bad-continuation)
+C:170, 0: Wrong hanging indentation (remove 4 spaces).
+        'green': gfunc[31],
+    |   ^ (bad-continuation)
+C:171, 0: Wrong hanging indentation (remove 4 spaces).
+        'blue': gfunc[32],
+    |   ^ (bad-continuation)
+C:175, 0: Wrong hanging indentation (remove 4 spaces).
+        'red': gfunc[23],
+    |   ^ (bad-continuation)
+C:176, 0: Wrong hanging indentation (remove 4 spaces).
+        'green': gfunc[28],
+    |   ^ (bad-continuation)
+C:177, 0: Wrong hanging indentation (remove 4 spaces).
+        'blue': gfunc[3],
+    |   ^ (bad-continuation)
+C:181, 0: Wrong hanging indentation (remove 4 spaces).
+        'red': gfunc[34],
+    |   ^ (bad-continuation)
+C:182, 0: Wrong hanging indentation (remove 4 spaces).
+        'green': gfunc[35],
+    |   ^ (bad-continuation)
+C:183, 0: Wrong hanging indentation (remove 4 spaces).
+        'blue': gfunc[36],
+    |   ^ (bad-continuation)
+C:187, 0: Wrong hanging indentation (remove 4 spaces).
+        'red': gfunc[33],
+    |   ^ (bad-continuation)
+C:188, 0: Wrong hanging indentation (remove 4 spaces).
+        'green': gfunc[13],
+    |   ^ (bad-continuation)
+C:189, 0: Wrong hanging indentation (remove 4 spaces).
+        'blue': gfunc[10],
+    |   ^ (bad-continuation)
+C:193, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.0, 0.0, 0.3), (0.0, 0.0, 1.0),
+    |   ^ (bad-continuation)
+C:194, 0: Wrong hanging indentation (remove 4 spaces).
+        (1.0, 1.0, 1.0), (1.0, 0.0, 0.0),
+    |   ^ (bad-continuation)
+C:195, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.5, 0.0, 0.0))
+    |   ^ (bad-continuation)
+C:198, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.00, (0.2, 0.2, 0.6)),
+    |   ^ (bad-continuation)
+C:199, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.15, (0.0, 0.6, 1.0)),
+    |   ^ (bad-continuation)
+C:200, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.25, (0.0, 0.8, 0.4)),
+    |   ^ (bad-continuation)
+C:201, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.50, (1.0, 1.0, 0.6)),
+    |   ^ (bad-continuation)
+C:202, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.75, (0.5, 0.36, 0.33)),
+    |   ^ (bad-continuation)
+C:203, 0: Wrong hanging indentation (remove 4 spaces).
+        (1.00, (1.0, 1.0, 1.0)))
+    |   ^ (bad-continuation)
+C:246, 0: Wrong continued indentation (remove 2 spaces).
+                         (1, 0.5, 0.5)),
+                       | ^ (bad-continuation)
+C:248, 0: Wrong continued indentation (remove 2 spaces).
+                         (0.91, 0, 0), (1, 0, 0)),
+                       | ^ (bad-continuation)
+C:250, 0: Wrong continued indentation (remove 2 spaces).
+                         (0.65, 0, 0), (1, 0, 0))}
+                       | ^ (bad-continuation)
+C:454, 0: Wrong hanging indentation (remove 2 spaces).
+      'red': [(0.0, 0.0, 0.0), (0.05, 0.4667, 0.4667),
+    | ^ (bad-continuation)
+C:476, 0: Wrong hanging indentation (remove 1 space).
+     'blue': [(0.0, 0.0, 0.0), (0.05, 0.5333, 0.5333),
+    |^ (bad-continuation)
+C:500, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.98431372549019602,  1.0                ),
+                        ^ (bad-whitespace)
+C:500, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.98431372549019602,  1.0                ),
+                                              ^ (bad-whitespace)
+C:500, 0: No space allowed before bracket
+    (0.96862745098039216,  0.98431372549019602,  1.0                ),
+                                                                    ^ (bad-whitespace)
+C:501, 0: Exactly one space required after comma
+    (0.87058823529411766,  0.92156862745098034,  0.96862745098039216),
+                        ^ (bad-whitespace)
+C:501, 0: Exactly one space required after comma
+    (0.87058823529411766,  0.92156862745098034,  0.96862745098039216),
+                                              ^ (bad-whitespace)
+C:502, 0: Exactly one space required after comma
+    (0.77647058823529413,  0.85882352941176465,  0.93725490196078431),
+                        ^ (bad-whitespace)
+C:502, 0: Exactly one space required after comma
+    (0.77647058823529413,  0.85882352941176465,  0.93725490196078431),
+                                              ^ (bad-whitespace)
+C:503, 0: Exactly one space required after comma
+    (0.61960784313725492,  0.792156862745098  ,  0.88235294117647056),
+                        ^ (bad-whitespace)
+C:503, 0: No space allowed before comma
+    (0.61960784313725492,  0.792156862745098  ,  0.88235294117647056),
+                                              ^ (bad-whitespace)
+C:503, 0: Exactly one space required after comma
+    (0.61960784313725492,  0.792156862745098  ,  0.88235294117647056),
+                                              ^ (bad-whitespace)
+C:504, 0: Exactly one space required after comma
+    (0.41960784313725491,  0.68235294117647061,  0.83921568627450982),
+                        ^ (bad-whitespace)
+C:504, 0: Exactly one space required after comma
+    (0.41960784313725491,  0.68235294117647061,  0.83921568627450982),
+                                              ^ (bad-whitespace)
+C:505, 0: Exactly one space required after comma
+    (0.25882352941176473,  0.5725490196078431 ,  0.77647058823529413),
+                        ^ (bad-whitespace)
+C:505, 0: No space allowed before comma
+    (0.25882352941176473,  0.5725490196078431 ,  0.77647058823529413),
+                                              ^ (bad-whitespace)
+C:505, 0: Exactly one space required after comma
+    (0.25882352941176473,  0.5725490196078431 ,  0.77647058823529413),
+                                              ^ (bad-whitespace)
+C:506, 0: Exactly one space required after comma
+    (0.12941176470588237,  0.44313725490196076,  0.70980392156862748),
+                        ^ (bad-whitespace)
+C:506, 0: Exactly one space required after comma
+    (0.12941176470588237,  0.44313725490196076,  0.70980392156862748),
+                                              ^ (bad-whitespace)
+C:507, 0: Exactly one space required after comma
+    (0.03137254901960784,  0.31764705882352939,  0.61176470588235299),
+                        ^ (bad-whitespace)
+C:507, 0: Exactly one space required after comma
+    (0.03137254901960784,  0.31764705882352939,  0.61176470588235299),
+                                              ^ (bad-whitespace)
+C:508, 0: Exactly one space required after comma
+    (0.03137254901960784,  0.18823529411764706,  0.41960784313725491)
+                        ^ (bad-whitespace)
+C:508, 0: Exactly one space required after comma
+    (0.03137254901960784,  0.18823529411764706,  0.41960784313725491)
+                                              ^ (bad-whitespace)
+C:512, 0: Exactly one space required after comma
+    (0.32941176470588235,  0.18823529411764706,  0.0196078431372549 ),
+                        ^ (bad-whitespace)
+C:512, 0: Exactly one space required after comma
+    (0.32941176470588235,  0.18823529411764706,  0.0196078431372549 ),
+                                              ^ (bad-whitespace)
+C:512, 0: No space allowed before bracket
+    (0.32941176470588235,  0.18823529411764706,  0.0196078431372549 ),
+                                                                    ^ (bad-whitespace)
+C:513, 0: No space allowed before comma
+    (0.5490196078431373 ,  0.31764705882352939,  0.0392156862745098 ),
+                        ^ (bad-whitespace)
+C:513, 0: Exactly one space required after comma
+    (0.5490196078431373 ,  0.31764705882352939,  0.0392156862745098 ),
+                        ^ (bad-whitespace)
+C:513, 0: Exactly one space required after comma
+    (0.5490196078431373 ,  0.31764705882352939,  0.0392156862745098 ),
+                                              ^ (bad-whitespace)
+C:513, 0: No space allowed before bracket
+    (0.5490196078431373 ,  0.31764705882352939,  0.0392156862745098 ),
+                                                                    ^ (bad-whitespace)
+C:514, 0: Exactly one space required after comma
+    (0.74901960784313726,  0.50588235294117645,  0.17647058823529413),
+                        ^ (bad-whitespace)
+C:514, 0: Exactly one space required after comma
+    (0.74901960784313726,  0.50588235294117645,  0.17647058823529413),
+                                              ^ (bad-whitespace)
+C:515, 0: Exactly one space required after comma
+    (0.87450980392156863,  0.76078431372549016,  0.49019607843137253),
+                        ^ (bad-whitespace)
+C:515, 0: Exactly one space required after comma
+    (0.87450980392156863,  0.76078431372549016,  0.49019607843137253),
+                                              ^ (bad-whitespace)
+C:516, 0: Exactly one space required after comma
+    (0.96470588235294119,  0.90980392156862744,  0.76470588235294112),
+                        ^ (bad-whitespace)
+C:516, 0: Exactly one space required after comma
+    (0.96470588235294119,  0.90980392156862744,  0.76470588235294112),
+                                              ^ (bad-whitespace)
+C:517, 0: Exactly one space required after comma
+    (0.96078431372549022,  0.96078431372549022,  0.96078431372549022),
+                        ^ (bad-whitespace)
+C:517, 0: Exactly one space required after comma
+    (0.96078431372549022,  0.96078431372549022,  0.96078431372549022),
+                                              ^ (bad-whitespace)
+C:518, 0: No space allowed before comma
+    (0.7803921568627451 ,  0.91764705882352937,  0.89803921568627454),
+                        ^ (bad-whitespace)
+C:518, 0: Exactly one space required after comma
+    (0.7803921568627451 ,  0.91764705882352937,  0.89803921568627454),
+                        ^ (bad-whitespace)
+C:518, 0: Exactly one space required after comma
+    (0.7803921568627451 ,  0.91764705882352937,  0.89803921568627454),
+                                              ^ (bad-whitespace)
+C:519, 0: Exactly one space required after comma
+    (0.50196078431372548,  0.80392156862745101,  0.75686274509803919),
+                        ^ (bad-whitespace)
+C:519, 0: Exactly one space required after comma
+    (0.50196078431372548,  0.80392156862745101,  0.75686274509803919),
+                                              ^ (bad-whitespace)
+C:520, 0: Exactly one space required after comma
+    (0.20784313725490197,  0.59215686274509804,  0.5607843137254902 ),
+                        ^ (bad-whitespace)
+C:520, 0: Exactly one space required after comma
+    (0.20784313725490197,  0.59215686274509804,  0.5607843137254902 ),
+                                              ^ (bad-whitespace)
+C:520, 0: No space allowed before bracket
+    (0.20784313725490197,  0.59215686274509804,  0.5607843137254902 ),
+                                                                    ^ (bad-whitespace)
+C:521, 0: Exactly one space required after comma
+    (0.00392156862745098,  0.4                ,  0.36862745098039218),
+                        ^ (bad-whitespace)
+C:521, 0: No space allowed before comma
+    (0.00392156862745098,  0.4                ,  0.36862745098039218),
+                                              ^ (bad-whitespace)
+C:521, 0: Exactly one space required after comma
+    (0.00392156862745098,  0.4                ,  0.36862745098039218),
+                                              ^ (bad-whitespace)
+C:522, 0: No space allowed before comma
+    (0.0                ,  0.23529411764705882,  0.18823529411764706)
+                        ^ (bad-whitespace)
+C:522, 0: Exactly one space required after comma
+    (0.0                ,  0.23529411764705882,  0.18823529411764706)
+                        ^ (bad-whitespace)
+C:522, 0: Exactly one space required after comma
+    (0.0                ,  0.23529411764705882,  0.18823529411764706)
+                                              ^ (bad-whitespace)
+C:526, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.99215686274509807),
+                        ^ (bad-whitespace)
+C:526, 0: No space allowed before comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.99215686274509807),
+                                              ^ (bad-whitespace)
+C:526, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.99215686274509807),
+                                              ^ (bad-whitespace)
+C:527, 0: Exactly one space required after comma
+    (0.89803921568627454,  0.96078431372549022,  0.97647058823529409),
+                        ^ (bad-whitespace)
+C:527, 0: Exactly one space required after comma
+    (0.89803921568627454,  0.96078431372549022,  0.97647058823529409),
+                                              ^ (bad-whitespace)
+C:528, 0: No space allowed before comma
+    (0.8                ,  0.92549019607843142,  0.90196078431372551),
+                        ^ (bad-whitespace)
+C:528, 0: Exactly one space required after comma
+    (0.8                ,  0.92549019607843142,  0.90196078431372551),
+                        ^ (bad-whitespace)
+C:528, 0: Exactly one space required after comma
+    (0.8                ,  0.92549019607843142,  0.90196078431372551),
+                                              ^ (bad-whitespace)
+C:529, 0: No space allowed before comma
+    (0.6                ,  0.84705882352941175,  0.78823529411764703),
+                        ^ (bad-whitespace)
+C:529, 0: Exactly one space required after comma
+    (0.6                ,  0.84705882352941175,  0.78823529411764703),
+                        ^ (bad-whitespace)
+C:529, 0: Exactly one space required after comma
+    (0.6                ,  0.84705882352941175,  0.78823529411764703),
+                                              ^ (bad-whitespace)
+C:530, 0: No space allowed before comma
+    (0.4                ,  0.76078431372549016,  0.64313725490196083),
+                        ^ (bad-whitespace)
+C:530, 0: Exactly one space required after comma
+    (0.4                ,  0.76078431372549016,  0.64313725490196083),
+                        ^ (bad-whitespace)
+C:530, 0: Exactly one space required after comma
+    (0.4                ,  0.76078431372549016,  0.64313725490196083),
+                                              ^ (bad-whitespace)
+C:531, 0: Exactly one space required after comma
+    (0.25490196078431371,  0.68235294117647061,  0.46274509803921571),
+                        ^ (bad-whitespace)
+C:531, 0: Exactly one space required after comma
+    (0.25490196078431371,  0.68235294117647061,  0.46274509803921571),
+                                              ^ (bad-whitespace)
+C:532, 0: Exactly one space required after comma
+    (0.13725490196078433,  0.54509803921568623,  0.27058823529411763),
+                        ^ (bad-whitespace)
+C:532, 0: Exactly one space required after comma
+    (0.13725490196078433,  0.54509803921568623,  0.27058823529411763),
+                                              ^ (bad-whitespace)
+C:533, 0: No space allowed before comma
+    (0.0                ,  0.42745098039215684,  0.17254901960784313),
+                        ^ (bad-whitespace)
+C:533, 0: Exactly one space required after comma
+    (0.0                ,  0.42745098039215684,  0.17254901960784313),
+                        ^ (bad-whitespace)
+C:533, 0: Exactly one space required after comma
+    (0.0                ,  0.42745098039215684,  0.17254901960784313),
+                                              ^ (bad-whitespace)
+C:534, 0: No space allowed before comma
+    (0.0                ,  0.26666666666666666,  0.10588235294117647)
+                        ^ (bad-whitespace)
+C:534, 0: Exactly one space required after comma
+    (0.0                ,  0.26666666666666666,  0.10588235294117647)
+                        ^ (bad-whitespace)
+C:534, 0: Exactly one space required after comma
+    (0.0                ,  0.26666666666666666,  0.10588235294117647)
+                                              ^ (bad-whitespace)
+C:538, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.99215686274509807),
+                        ^ (bad-whitespace)
+C:538, 0: No space allowed before comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.99215686274509807),
+                                              ^ (bad-whitespace)
+C:538, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.99215686274509807),
+                                              ^ (bad-whitespace)
+C:539, 0: No space allowed before comma
+    (0.8784313725490196 ,  0.92549019607843142,  0.95686274509803926),
+                        ^ (bad-whitespace)
+C:539, 0: Exactly one space required after comma
+    (0.8784313725490196 ,  0.92549019607843142,  0.95686274509803926),
+                        ^ (bad-whitespace)
+C:539, 0: Exactly one space required after comma
+    (0.8784313725490196 ,  0.92549019607843142,  0.95686274509803926),
+                                              ^ (bad-whitespace)
+C:540, 0: Exactly one space required after comma
+    (0.74901960784313726,  0.82745098039215681,  0.90196078431372551),
+                        ^ (bad-whitespace)
+C:540, 0: Exactly one space required after comma
+    (0.74901960784313726,  0.82745098039215681,  0.90196078431372551),
+                                              ^ (bad-whitespace)
+C:541, 0: Exactly one space required after comma
+    (0.61960784313725492,  0.73725490196078436,  0.85490196078431369),
+                        ^ (bad-whitespace)
+C:541, 0: Exactly one space required after comma
+    (0.61960784313725492,  0.73725490196078436,  0.85490196078431369),
+                                              ^ (bad-whitespace)
+C:542, 0: No space allowed before comma
+    (0.5490196078431373 ,  0.58823529411764708,  0.77647058823529413),
+                        ^ (bad-whitespace)
+C:542, 0: Exactly one space required after comma
+    (0.5490196078431373 ,  0.58823529411764708,  0.77647058823529413),
+                        ^ (bad-whitespace)
+C:542, 0: Exactly one space required after comma
+    (0.5490196078431373 ,  0.58823529411764708,  0.77647058823529413),
+                                              ^ (bad-whitespace)
+C:543, 0: No space allowed before comma
+    (0.5490196078431373 ,  0.41960784313725491,  0.69411764705882351),
+                        ^ (bad-whitespace)
+C:543, 0: Exactly one space required after comma
+    (0.5490196078431373 ,  0.41960784313725491,  0.69411764705882351),
+                        ^ (bad-whitespace)
+C:543, 0: Exactly one space required after comma
+    (0.5490196078431373 ,  0.41960784313725491,  0.69411764705882351),
+                                              ^ (bad-whitespace)
+C:544, 0: Exactly one space required after comma
+    (0.53333333333333333,  0.25490196078431371,  0.61568627450980395),
+                        ^ (bad-whitespace)
+C:544, 0: Exactly one space required after comma
+    (0.53333333333333333,  0.25490196078431371,  0.61568627450980395),
+                                              ^ (bad-whitespace)
+C:545, 0: Exactly one space required after comma
+    (0.50588235294117645,  0.05882352941176471,  0.48627450980392156),
+                        ^ (bad-whitespace)
+C:545, 0: Exactly one space required after comma
+    (0.50588235294117645,  0.05882352941176471,  0.48627450980392156),
+                                              ^ (bad-whitespace)
+C:546, 0: Exactly one space required after comma
+    (0.30196078431372547,  0.0                ,  0.29411764705882354)
+                        ^ (bad-whitespace)
+C:546, 0: No space allowed before comma
+    (0.30196078431372547,  0.0                ,  0.29411764705882354)
+                                              ^ (bad-whitespace)
+C:546, 0: Exactly one space required after comma
+    (0.30196078431372547,  0.0                ,  0.29411764705882354)
+                                              ^ (bad-whitespace)
+C:550, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.94117647058823528),
+                        ^ (bad-whitespace)
+C:550, 0: No space allowed before comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.94117647058823528),
+                                              ^ (bad-whitespace)
+C:550, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.94117647058823528),
+                                              ^ (bad-whitespace)
+C:551, 0: No space allowed before comma
+    (0.8784313725490196 ,  0.95294117647058818,  0.85882352941176465),
+                        ^ (bad-whitespace)
+C:551, 0: Exactly one space required after comma
+    (0.8784313725490196 ,  0.95294117647058818,  0.85882352941176465),
+                        ^ (bad-whitespace)
+C:551, 0: Exactly one space required after comma
+    (0.8784313725490196 ,  0.95294117647058818,  0.85882352941176465),
+                                              ^ (bad-whitespace)
+C:552, 0: No space allowed before comma
+    (0.8                ,  0.92156862745098034,  0.77254901960784317),
+                        ^ (bad-whitespace)
+C:552, 0: Exactly one space required after comma
+    (0.8                ,  0.92156862745098034,  0.77254901960784317),
+                        ^ (bad-whitespace)
+C:552, 0: Exactly one space required after comma
+    (0.8                ,  0.92156862745098034,  0.77254901960784317),
+                                              ^ (bad-whitespace)
+C:553, 0: No space allowed before comma
+    (0.6588235294117647 ,  0.8666666666666667 ,  0.70980392156862748),
+                        ^ (bad-whitespace)
+C:553, 0: Exactly one space required after comma
+    (0.6588235294117647 ,  0.8666666666666667 ,  0.70980392156862748),
+                        ^ (bad-whitespace)
+C:553, 0: No space allowed before comma
+    (0.6588235294117647 ,  0.8666666666666667 ,  0.70980392156862748),
+                                              ^ (bad-whitespace)
+C:553, 0: Exactly one space required after comma
+    (0.6588235294117647 ,  0.8666666666666667 ,  0.70980392156862748),
+                                              ^ (bad-whitespace)
+C:554, 0: No space allowed before comma
+    (0.4823529411764706 ,  0.8                ,  0.7686274509803922 ),
+                        ^ (bad-whitespace)
+C:554, 0: Exactly one space required after comma
+    (0.4823529411764706 ,  0.8                ,  0.7686274509803922 ),
+                        ^ (bad-whitespace)
+C:554, 0: No space allowed before comma
+    (0.4823529411764706 ,  0.8                ,  0.7686274509803922 ),
+                                              ^ (bad-whitespace)
+C:554, 0: Exactly one space required after comma
+    (0.4823529411764706 ,  0.8                ,  0.7686274509803922 ),
+                                              ^ (bad-whitespace)
+C:554, 0: No space allowed before bracket
+    (0.4823529411764706 ,  0.8                ,  0.7686274509803922 ),
+                                                                    ^ (bad-whitespace)
+C:555, 0: Exactly one space required after comma
+    (0.30588235294117649,  0.70196078431372544,  0.82745098039215681),
+                        ^ (bad-whitespace)
+C:555, 0: Exactly one space required after comma
+    (0.30588235294117649,  0.70196078431372544,  0.82745098039215681),
+                                              ^ (bad-whitespace)
+C:556, 0: Exactly one space required after comma
+    (0.16862745098039217,  0.5490196078431373 ,  0.74509803921568629),
+                        ^ (bad-whitespace)
+C:556, 0: No space allowed before comma
+    (0.16862745098039217,  0.5490196078431373 ,  0.74509803921568629),
+                                              ^ (bad-whitespace)
+C:556, 0: Exactly one space required after comma
+    (0.16862745098039217,  0.5490196078431373 ,  0.74509803921568629),
+                                              ^ (bad-whitespace)
+C:557, 0: Exactly one space required after comma
+    (0.03137254901960784,  0.40784313725490196,  0.67450980392156867),
+                        ^ (bad-whitespace)
+C:557, 0: Exactly one space required after comma
+    (0.03137254901960784,  0.40784313725490196,  0.67450980392156867),
+                                              ^ (bad-whitespace)
+C:558, 0: Exactly one space required after comma
+    (0.03137254901960784,  0.25098039215686274,  0.50588235294117645)
+                        ^ (bad-whitespace)
+C:558, 0: Exactly one space required after comma
+    (0.03137254901960784,  0.25098039215686274,  0.50588235294117645)
+                                              ^ (bad-whitespace)
+C:562, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.96078431372549022),
+                        ^ (bad-whitespace)
+C:562, 0: No space allowed before comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.96078431372549022),
+                                              ^ (bad-whitespace)
+C:562, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.9882352941176471 ,  0.96078431372549022),
+                                              ^ (bad-whitespace)
+C:563, 0: Exactly one space required after comma
+    (0.89803921568627454,  0.96078431372549022,  0.8784313725490196 ),
+                        ^ (bad-whitespace)
+C:563, 0: Exactly one space required after comma
+    (0.89803921568627454,  0.96078431372549022,  0.8784313725490196 ),
+                                              ^ (bad-whitespace)
+C:563, 0: No space allowed before bracket
+    (0.89803921568627454,  0.96078431372549022,  0.8784313725490196 ),
+                                                                    ^ (bad-whitespace)
+C:564, 0: No space allowed before comma
+    (0.7803921568627451 ,  0.9137254901960784 ,  0.75294117647058822),
+                        ^ (bad-whitespace)
+C:564, 0: Exactly one space required after comma
+    (0.7803921568627451 ,  0.9137254901960784 ,  0.75294117647058822),
+                        ^ (bad-whitespace)
+C:564, 0: No space allowed before comma
+    (0.7803921568627451 ,  0.9137254901960784 ,  0.75294117647058822),
+                                              ^ (bad-whitespace)
+C:564, 0: Exactly one space required after comma
+    (0.7803921568627451 ,  0.9137254901960784 ,  0.75294117647058822),
+                                              ^ (bad-whitespace)
+C:565, 0: Exactly one space required after comma
+    (0.63137254901960782,  0.85098039215686272,  0.60784313725490191),
+                        ^ (bad-whitespace)
+C:565, 0: Exactly one space required after comma
+    (0.63137254901960782,  0.85098039215686272,  0.60784313725490191),
+                                              ^ (bad-whitespace)
+C:566, 0: Exactly one space required after comma
+    (0.45490196078431372,  0.7686274509803922 ,  0.46274509803921571),
+                        ^ (bad-whitespace)
+C:566, 0: No space allowed before comma
+    (0.45490196078431372,  0.7686274509803922 ,  0.46274509803921571),
+                                              ^ (bad-whitespace)
+C:566, 0: Exactly one space required after comma
+    (0.45490196078431372,  0.7686274509803922 ,  0.46274509803921571),
+                                              ^ (bad-whitespace)
+C:567, 0: Exactly one space required after comma
+    (0.25490196078431371,  0.6705882352941176 ,  0.36470588235294116),
+                        ^ (bad-whitespace)
+C:567, 0: No space allowed before comma
+    (0.25490196078431371,  0.6705882352941176 ,  0.36470588235294116),
+                                              ^ (bad-whitespace)
+C:567, 0: Exactly one space required after comma
+    (0.25490196078431371,  0.6705882352941176 ,  0.36470588235294116),
+                                              ^ (bad-whitespace)
+C:568, 0: Exactly one space required after comma
+    (0.13725490196078433,  0.54509803921568623,  0.27058823529411763),
+                        ^ (bad-whitespace)
+C:568, 0: Exactly one space required after comma
+    (0.13725490196078433,  0.54509803921568623,  0.27058823529411763),
+                                              ^ (bad-whitespace)
+C:569, 0: No space allowed before comma
+    (0.0                ,  0.42745098039215684,  0.17254901960784313),
+                        ^ (bad-whitespace)
+C:569, 0: Exactly one space required after comma
+    (0.0                ,  0.42745098039215684,  0.17254901960784313),
+                        ^ (bad-whitespace)
+C:569, 0: Exactly one space required after comma
+    (0.0                ,  0.42745098039215684,  0.17254901960784313),
+                                              ^ (bad-whitespace)
+C:570, 0: No space allowed before comma
+    (0.0                ,  0.26666666666666666,  0.10588235294117647)
+                        ^ (bad-whitespace)
+C:570, 0: Exactly one space required after comma
+    (0.0                ,  0.26666666666666666,  0.10588235294117647)
+                        ^ (bad-whitespace)
+C:570, 0: Exactly one space required after comma
+    (0.0                ,  0.26666666666666666,  0.10588235294117647)
+                                              ^ (bad-whitespace)
+C:574, 0: No space allowed before comma
+    (1.0                ,  1.0                ,  1.0                ),
+                        ^ (bad-whitespace)
+C:574, 0: Exactly one space required after comma
+    (1.0                ,  1.0                ,  1.0                ),
+                        ^ (bad-whitespace)
+C:574, 0: No space allowed before comma
+    (1.0                ,  1.0                ,  1.0                ),
+                                              ^ (bad-whitespace)
+C:574, 0: Exactly one space required after comma
+    (1.0                ,  1.0                ,  1.0                ),
+                                              ^ (bad-whitespace)
+C:574, 0: No space allowed before bracket
+    (1.0                ,  1.0                ,  1.0                ),
+                                                                    ^ (bad-whitespace)
+C:575, 0: Exactly one space required after comma
+    (0.94117647058823528,  0.94117647058823528,  0.94117647058823528),
+                        ^ (bad-whitespace)
+C:575, 0: Exactly one space required after comma
+    (0.94117647058823528,  0.94117647058823528,  0.94117647058823528),
+                                              ^ (bad-whitespace)
+C:576, 0: Exactly one space required after comma
+    (0.85098039215686272,  0.85098039215686272,  0.85098039215686272),
+                        ^ (bad-whitespace)
+C:576, 0: Exactly one space required after comma
+    (0.85098039215686272,  0.85098039215686272,  0.85098039215686272),
+                                              ^ (bad-whitespace)
+C:577, 0: Exactly one space required after comma
+    (0.74117647058823533,  0.74117647058823533,  0.74117647058823533),
+                        ^ (bad-whitespace)
+C:577, 0: Exactly one space required after comma
+    (0.74117647058823533,  0.74117647058823533,  0.74117647058823533),
+                                              ^ (bad-whitespace)
+C:578, 0: Exactly one space required after comma
+    (0.58823529411764708,  0.58823529411764708,  0.58823529411764708),
+                        ^ (bad-whitespace)
+C:578, 0: Exactly one space required after comma
+    (0.58823529411764708,  0.58823529411764708,  0.58823529411764708),
+                                              ^ (bad-whitespace)
+C:579, 0: Exactly one space required after comma
+    (0.45098039215686275,  0.45098039215686275,  0.45098039215686275),
+                        ^ (bad-whitespace)
+C:579, 0: Exactly one space required after comma
+    (0.45098039215686275,  0.45098039215686275,  0.45098039215686275),
+                                              ^ (bad-whitespace)
+C:580, 0: Exactly one space required after comma
+    (0.32156862745098042,  0.32156862745098042,  0.32156862745098042),
+                        ^ (bad-whitespace)
+C:580, 0: Exactly one space required after comma
+    (0.32156862745098042,  0.32156862745098042,  0.32156862745098042),
+                                              ^ (bad-whitespace)
+C:581, 0: Exactly one space required after comma
+    (0.14509803921568629,  0.14509803921568629,  0.14509803921568629),
+                        ^ (bad-whitespace)
+C:581, 0: Exactly one space required after comma
+    (0.14509803921568629,  0.14509803921568629,  0.14509803921568629),
+                                              ^ (bad-whitespace)
+C:582, 0: No space allowed before comma
+    (0.0                ,  0.0                ,  0.0                )
+                        ^ (bad-whitespace)
+C:582, 0: Exactly one space required after comma
+    (0.0                ,  0.0                ,  0.0                )
+                        ^ (bad-whitespace)
+C:582, 0: No space allowed before comma
+    (0.0                ,  0.0                ,  0.0                )
+                                              ^ (bad-whitespace)
+C:582, 0: Exactly one space required after comma
+    (0.0                ,  0.0                ,  0.0                )
+                                              ^ (bad-whitespace)
+C:582, 0: No space allowed before bracket
+    (0.0                ,  0.0                ,  0.0                )
+                                                                    ^ (bad-whitespace)
+C:586, 0: No space allowed before comma
+    (1.0                ,  0.96078431372549022,  0.92156862745098034),
+                        ^ (bad-whitespace)
+C:586, 0: Exactly one space required after comma
+    (1.0                ,  0.96078431372549022,  0.92156862745098034),
+                        ^ (bad-whitespace)
+C:586, 0: Exactly one space required after comma
+    (1.0                ,  0.96078431372549022,  0.92156862745098034),
+                                              ^ (bad-whitespace)
+C:587, 0: Exactly one space required after comma
+    (0.99607843137254903,  0.90196078431372551,  0.80784313725490198),
+                        ^ (bad-whitespace)
+C:587, 0: Exactly one space required after comma
+    (0.99607843137254903,  0.90196078431372551,  0.80784313725490198),
+                                              ^ (bad-whitespace)
+C:588, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.81568627450980391,  0.63529411764705879),
+                        ^ (bad-whitespace)
+C:588, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.81568627450980391,  0.63529411764705879),
+                                              ^ (bad-whitespace)
+C:589, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.68235294117647061,  0.41960784313725491),
+                        ^ (bad-whitespace)
+C:589, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.68235294117647061,  0.41960784313725491),
+                                              ^ (bad-whitespace)
+C:590, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.55294117647058827,  0.23529411764705882),
+                        ^ (bad-whitespace)
+C:590, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.55294117647058827,  0.23529411764705882),
+                                              ^ (bad-whitespace)
+C:591, 0: Exactly one space required after comma
+    (0.94509803921568625,  0.41176470588235292,  0.07450980392156863),
+                        ^ (bad-whitespace)
+C:591, 0: Exactly one space required after comma
+    (0.94509803921568625,  0.41176470588235292,  0.07450980392156863),
+                                              ^ (bad-whitespace)
+C:592, 0: Exactly one space required after comma
+    (0.85098039215686272,  0.28235294117647058,  0.00392156862745098),
+                        ^ (bad-whitespace)
+C:592, 0: Exactly one space required after comma
+    (0.85098039215686272,  0.28235294117647058,  0.00392156862745098),
+                                              ^ (bad-whitespace)
+C:593, 0: Exactly one space required after comma
+    (0.65098039215686276,  0.21176470588235294,  0.01176470588235294),
+                        ^ (bad-whitespace)
+C:593, 0: Exactly one space required after comma
+    (0.65098039215686276,  0.21176470588235294,  0.01176470588235294),
+                                              ^ (bad-whitespace)
+C:594, 0: Exactly one space required after comma
+    (0.49803921568627452,  0.15294117647058825,  0.01568627450980392)
+                        ^ (bad-whitespace)
+C:594, 0: Exactly one space required after comma
+    (0.49803921568627452,  0.15294117647058825,  0.01568627450980392)
+                                              ^ (bad-whitespace)
+C:598, 0: No space allowed before comma
+    (1.0                ,  0.96862745098039216,  0.92549019607843142),
+                        ^ (bad-whitespace)
+C:598, 0: Exactly one space required after comma
+    (1.0                ,  0.96862745098039216,  0.92549019607843142),
+                        ^ (bad-whitespace)
+C:598, 0: Exactly one space required after comma
+    (1.0                ,  0.96862745098039216,  0.92549019607843142),
+                                              ^ (bad-whitespace)
+C:599, 0: Exactly one space required after comma
+    (0.99607843137254903,  0.90980392156862744,  0.78431372549019607),
+                        ^ (bad-whitespace)
+C:599, 0: Exactly one space required after comma
+    (0.99607843137254903,  0.90980392156862744,  0.78431372549019607),
+                                              ^ (bad-whitespace)
+C:600, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.83137254901960789,  0.61960784313725492),
+                        ^ (bad-whitespace)
+C:600, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.83137254901960789,  0.61960784313725492),
+                                              ^ (bad-whitespace)
+C:601, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.73333333333333328,  0.51764705882352946),
+                        ^ (bad-whitespace)
+C:601, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.73333333333333328,  0.51764705882352946),
+                                              ^ (bad-whitespace)
+C:602, 0: No space allowed before comma
+    (0.9882352941176471 ,  0.55294117647058827,  0.34901960784313724),
+                        ^ (bad-whitespace)
+C:602, 0: Exactly one space required after comma
+    (0.9882352941176471 ,  0.55294117647058827,  0.34901960784313724),
+                        ^ (bad-whitespace)
+C:602, 0: Exactly one space required after comma
+    (0.9882352941176471 ,  0.55294117647058827,  0.34901960784313724),
+                                              ^ (bad-whitespace)
+C:603, 0: Exactly one space required after comma
+    (0.93725490196078431,  0.396078431372549  ,  0.28235294117647058),
+                        ^ (bad-whitespace)
+C:603, 0: No space allowed before comma
+    (0.93725490196078431,  0.396078431372549  ,  0.28235294117647058),
+                                              ^ (bad-whitespace)
+C:603, 0: Exactly one space required after comma
+    (0.93725490196078431,  0.396078431372549  ,  0.28235294117647058),
+                                              ^ (bad-whitespace)
+C:604, 0: Exactly one space required after comma
+    (0.84313725490196079,  0.18823529411764706,  0.12156862745098039),
+                        ^ (bad-whitespace)
+C:604, 0: Exactly one space required after comma
+    (0.84313725490196079,  0.18823529411764706,  0.12156862745098039),
+                                              ^ (bad-whitespace)
+C:605, 0: Exactly one space required after comma
+    (0.70196078431372544,  0.0                ,  0.0                ),
+                        ^ (bad-whitespace)
+C:605, 0: No space allowed before comma
+    (0.70196078431372544,  0.0                ,  0.0                ),
+                                              ^ (bad-whitespace)
+C:605, 0: Exactly one space required after comma
+    (0.70196078431372544,  0.0                ,  0.0                ),
+                                              ^ (bad-whitespace)
+C:605, 0: No space allowed before bracket
+    (0.70196078431372544,  0.0                ,  0.0                ),
+                                                                    ^ (bad-whitespace)
+C:606, 0: Exactly one space required after comma
+    (0.49803921568627452,  0.0                ,  0.0                )
+                        ^ (bad-whitespace)
+C:606, 0: No space allowed before comma
+    (0.49803921568627452,  0.0                ,  0.0                )
+                                              ^ (bad-whitespace)
+C:606, 0: Exactly one space required after comma
+    (0.49803921568627452,  0.0                ,  0.0                )
+                                              ^ (bad-whitespace)
+C:606, 0: No space allowed before bracket
+    (0.49803921568627452,  0.0                ,  0.0                )
+                                                                    ^ (bad-whitespace)
+C:610, 0: Exactly one space required after comma
+    (0.55686274509803924,  0.00392156862745098,  0.32156862745098042),
+                        ^ (bad-whitespace)
+C:610, 0: Exactly one space required after comma
+    (0.55686274509803924,  0.00392156862745098,  0.32156862745098042),
+                                              ^ (bad-whitespace)
+C:611, 0: Exactly one space required after comma
+    (0.77254901960784317,  0.10588235294117647,  0.49019607843137253),
+                        ^ (bad-whitespace)
+C:611, 0: Exactly one space required after comma
+    (0.77254901960784317,  0.10588235294117647,  0.49019607843137253),
+                                              ^ (bad-whitespace)
+C:612, 0: Exactly one space required after comma
+    (0.87058823529411766,  0.46666666666666667,  0.68235294117647061),
+                        ^ (bad-whitespace)
+C:612, 0: Exactly one space required after comma
+    (0.87058823529411766,  0.46666666666666667,  0.68235294117647061),
+                                              ^ (bad-whitespace)
+C:613, 0: Exactly one space required after comma
+    (0.94509803921568625,  0.71372549019607845,  0.85490196078431369),
+                        ^ (bad-whitespace)
+C:613, 0: Exactly one space required after comma
+    (0.94509803921568625,  0.71372549019607845,  0.85490196078431369),
+                                              ^ (bad-whitespace)
+C:614, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.8784313725490196 ,  0.93725490196078431),
+                        ^ (bad-whitespace)
+C:614, 0: No space allowed before comma
+    (0.99215686274509807,  0.8784313725490196 ,  0.93725490196078431),
+                                              ^ (bad-whitespace)
+C:614, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.8784313725490196 ,  0.93725490196078431),
+                                              ^ (bad-whitespace)
+C:615, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.96862745098039216,  0.96862745098039216),
+                        ^ (bad-whitespace)
+C:615, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.96862745098039216,  0.96862745098039216),
+                                              ^ (bad-whitespace)
+C:616, 0: Exactly one space required after comma
+    (0.90196078431372551,  0.96078431372549022,  0.81568627450980391),
+                        ^ (bad-whitespace)
+C:616, 0: Exactly one space required after comma
+    (0.90196078431372551,  0.96078431372549022,  0.81568627450980391),
+                                              ^ (bad-whitespace)
+C:617, 0: Exactly one space required after comma
+    (0.72156862745098038,  0.88235294117647056,  0.52549019607843139),
+                        ^ (bad-whitespace)
+C:617, 0: Exactly one space required after comma
+    (0.72156862745098038,  0.88235294117647056,  0.52549019607843139),
+                                              ^ (bad-whitespace)
+C:618, 0: Exactly one space required after comma
+    (0.49803921568627452,  0.73725490196078436,  0.25490196078431371),
+                        ^ (bad-whitespace)
+C:618, 0: Exactly one space required after comma
+    (0.49803921568627452,  0.73725490196078436,  0.25490196078431371),
+                                              ^ (bad-whitespace)
+C:619, 0: Exactly one space required after comma
+    (0.30196078431372547,  0.5725490196078431 ,  0.12941176470588237),
+                        ^ (bad-whitespace)
+C:619, 0: No space allowed before comma
+    (0.30196078431372547,  0.5725490196078431 ,  0.12941176470588237),
+                                              ^ (bad-whitespace)
+C:619, 0: Exactly one space required after comma
+    (0.30196078431372547,  0.5725490196078431 ,  0.12941176470588237),
+                                              ^ (bad-whitespace)
+C:620, 0: Exactly one space required after comma
+    (0.15294117647058825,  0.39215686274509803,  0.09803921568627451)
+                        ^ (bad-whitespace)
+C:620, 0: Exactly one space required after comma
+    (0.15294117647058825,  0.39215686274509803,  0.09803921568627451)
+                                              ^ (bad-whitespace)
+C:624, 0: Exactly one space required after comma
+    (0.25098039215686274,  0.0                ,  0.29411764705882354),
+                        ^ (bad-whitespace)
+C:624, 0: No space allowed before comma
+    (0.25098039215686274,  0.0                ,  0.29411764705882354),
+                                              ^ (bad-whitespace)
+C:624, 0: Exactly one space required after comma
+    (0.25098039215686274,  0.0                ,  0.29411764705882354),
+                                              ^ (bad-whitespace)
+C:625, 0: Exactly one space required after comma
+    (0.46274509803921571,  0.16470588235294117,  0.51372549019607838),
+                        ^ (bad-whitespace)
+C:625, 0: Exactly one space required after comma
+    (0.46274509803921571,  0.16470588235294117,  0.51372549019607838),
+                                              ^ (bad-whitespace)
+C:626, 0: No space allowed before comma
+    (0.6                ,  0.4392156862745098 ,  0.6705882352941176 ),
+                        ^ (bad-whitespace)
+C:626, 0: Exactly one space required after comma
+    (0.6                ,  0.4392156862745098 ,  0.6705882352941176 ),
+                        ^ (bad-whitespace)
+C:626, 0: No space allowed before comma
+    (0.6                ,  0.4392156862745098 ,  0.6705882352941176 ),
+                                              ^ (bad-whitespace)
+C:626, 0: Exactly one space required after comma
+    (0.6                ,  0.4392156862745098 ,  0.6705882352941176 ),
+                                              ^ (bad-whitespace)
+C:626, 0: No space allowed before bracket
+    (0.6                ,  0.4392156862745098 ,  0.6705882352941176 ),
+                                                                    ^ (bad-whitespace)
+C:627, 0: Exactly one space required after comma
+    (0.76078431372549016,  0.6470588235294118 ,  0.81176470588235294),
+                        ^ (bad-whitespace)
+C:627, 0: No space allowed before comma
+    (0.76078431372549016,  0.6470588235294118 ,  0.81176470588235294),
+                                              ^ (bad-whitespace)
+C:627, 0: Exactly one space required after comma
+    (0.76078431372549016,  0.6470588235294118 ,  0.81176470588235294),
+                                              ^ (bad-whitespace)
+C:628, 0: Exactly one space required after comma
+    (0.90588235294117647,  0.83137254901960789,  0.90980392156862744),
+                        ^ (bad-whitespace)
+C:628, 0: Exactly one space required after comma
+    (0.90588235294117647,  0.83137254901960789,  0.90980392156862744),
+                                              ^ (bad-whitespace)
+C:629, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.96862745098039216,  0.96862745098039216),
+                        ^ (bad-whitespace)
+C:629, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.96862745098039216,  0.96862745098039216),
+                                              ^ (bad-whitespace)
+C:630, 0: Exactly one space required after comma
+    (0.85098039215686272,  0.94117647058823528,  0.82745098039215681),
+                        ^ (bad-whitespace)
+C:630, 0: Exactly one space required after comma
+    (0.85098039215686272,  0.94117647058823528,  0.82745098039215681),
+                                              ^ (bad-whitespace)
+C:631, 0: Exactly one space required after comma
+    (0.65098039215686276,  0.85882352941176465,  0.62745098039215685),
+                        ^ (bad-whitespace)
+C:631, 0: Exactly one space required after comma
+    (0.65098039215686276,  0.85882352941176465,  0.62745098039215685),
+                                              ^ (bad-whitespace)
+C:632, 0: Exactly one space required after comma
+    (0.35294117647058826,  0.68235294117647061,  0.38039215686274508),
+                        ^ (bad-whitespace)
+C:632, 0: Exactly one space required after comma
+    (0.35294117647058826,  0.68235294117647061,  0.38039215686274508),
+                                              ^ (bad-whitespace)
+C:633, 0: Exactly one space required after comma
+    (0.10588235294117647,  0.47058823529411764,  0.21568627450980393),
+                        ^ (bad-whitespace)
+C:633, 0: Exactly one space required after comma
+    (0.10588235294117647,  0.47058823529411764,  0.21568627450980393),
+                                              ^ (bad-whitespace)
+C:634, 0: No space allowed before comma
+    (0.0                ,  0.26666666666666666,  0.10588235294117647)
+                        ^ (bad-whitespace)
+C:634, 0: Exactly one space required after comma
+    (0.0                ,  0.26666666666666666,  0.10588235294117647)
+                        ^ (bad-whitespace)
+C:634, 0: Exactly one space required after comma
+    (0.0                ,  0.26666666666666666,  0.10588235294117647)
+                                              ^ (bad-whitespace)
+C:638, 0: No space allowed before comma
+    (1.0                ,  0.96862745098039216,  0.98431372549019602),
+                        ^ (bad-whitespace)
+C:638, 0: Exactly one space required after comma
+    (1.0                ,  0.96862745098039216,  0.98431372549019602),
+                        ^ (bad-whitespace)
+C:638, 0: Exactly one space required after comma
+    (1.0                ,  0.96862745098039216,  0.98431372549019602),
+                                              ^ (bad-whitespace)
+C:639, 0: Exactly one space required after comma
+    (0.92549019607843142,  0.90588235294117647,  0.94901960784313721),
+                        ^ (bad-whitespace)
+C:639, 0: Exactly one space required after comma
+    (0.92549019607843142,  0.90588235294117647,  0.94901960784313721),
+                                              ^ (bad-whitespace)
+C:640, 0: Exactly one space required after comma
+    (0.81568627450980391,  0.81960784313725488,  0.90196078431372551),
+                        ^ (bad-whitespace)
+C:640, 0: Exactly one space required after comma
+    (0.81568627450980391,  0.81960784313725488,  0.90196078431372551),
+                                              ^ (bad-whitespace)
+C:641, 0: Exactly one space required after comma
+    (0.65098039215686276,  0.74117647058823533,  0.85882352941176465),
+                        ^ (bad-whitespace)
+C:641, 0: Exactly one space required after comma
+    (0.65098039215686276,  0.74117647058823533,  0.85882352941176465),
+                                              ^ (bad-whitespace)
+C:642, 0: Exactly one space required after comma
+    (0.45490196078431372,  0.66274509803921566,  0.81176470588235294),
+                        ^ (bad-whitespace)
+C:642, 0: Exactly one space required after comma
+    (0.45490196078431372,  0.66274509803921566,  0.81176470588235294),
+                                              ^ (bad-whitespace)
+C:643, 0: Exactly one space required after comma
+    (0.21176470588235294,  0.56470588235294117,  0.75294117647058822),
+                        ^ (bad-whitespace)
+C:643, 0: Exactly one space required after comma
+    (0.21176470588235294,  0.56470588235294117,  0.75294117647058822),
+                                              ^ (bad-whitespace)
+C:644, 0: No space allowed before comma
+    (0.0196078431372549 ,  0.4392156862745098 ,  0.69019607843137254),
+                        ^ (bad-whitespace)
+C:644, 0: Exactly one space required after comma
+    (0.0196078431372549 ,  0.4392156862745098 ,  0.69019607843137254),
+                        ^ (bad-whitespace)
+C:644, 0: No space allowed before comma
+    (0.0196078431372549 ,  0.4392156862745098 ,  0.69019607843137254),
+                                              ^ (bad-whitespace)
+C:644, 0: Exactly one space required after comma
+    (0.0196078431372549 ,  0.4392156862745098 ,  0.69019607843137254),
+                                              ^ (bad-whitespace)
+C:645, 0: Exactly one space required after comma
+    (0.01568627450980392,  0.35294117647058826,  0.55294117647058827),
+                        ^ (bad-whitespace)
+C:645, 0: Exactly one space required after comma
+    (0.01568627450980392,  0.35294117647058826,  0.55294117647058827),
+                                              ^ (bad-whitespace)
+C:646, 0: Exactly one space required after comma
+    (0.00784313725490196,  0.2196078431372549 ,  0.34509803921568627)
+                        ^ (bad-whitespace)
+C:646, 0: No space allowed before comma
+    (0.00784313725490196,  0.2196078431372549 ,  0.34509803921568627)
+                                              ^ (bad-whitespace)
+C:646, 0: Exactly one space required after comma
+    (0.00784313725490196,  0.2196078431372549 ,  0.34509803921568627)
+                                              ^ (bad-whitespace)
+C:650, 0: No space allowed before comma
+    (1.0                ,  0.96862745098039216,  0.98431372549019602),
+                        ^ (bad-whitespace)
+C:650, 0: Exactly one space required after comma
+    (1.0                ,  0.96862745098039216,  0.98431372549019602),
+                        ^ (bad-whitespace)
+C:650, 0: Exactly one space required after comma
+    (1.0                ,  0.96862745098039216,  0.98431372549019602),
+                                              ^ (bad-whitespace)
+C:651, 0: Exactly one space required after comma
+    (0.92549019607843142,  0.88627450980392153,  0.94117647058823528),
+                        ^ (bad-whitespace)
+C:651, 0: Exactly one space required after comma
+    (0.92549019607843142,  0.88627450980392153,  0.94117647058823528),
+                                              ^ (bad-whitespace)
+C:652, 0: Exactly one space required after comma
+    (0.81568627450980391,  0.81960784313725488,  0.90196078431372551),
+                        ^ (bad-whitespace)
+C:652, 0: Exactly one space required after comma
+    (0.81568627450980391,  0.81960784313725488,  0.90196078431372551),
+                                              ^ (bad-whitespace)
+C:653, 0: Exactly one space required after comma
+    (0.65098039215686276,  0.74117647058823533,  0.85882352941176465),
+                        ^ (bad-whitespace)
+C:653, 0: Exactly one space required after comma
+    (0.65098039215686276,  0.74117647058823533,  0.85882352941176465),
+                                              ^ (bad-whitespace)
+C:654, 0: Exactly one space required after comma
+    (0.40392156862745099,  0.66274509803921566,  0.81176470588235294),
+                        ^ (bad-whitespace)
+C:654, 0: Exactly one space required after comma
+    (0.40392156862745099,  0.66274509803921566,  0.81176470588235294),
+                                              ^ (bad-whitespace)
+C:655, 0: Exactly one space required after comma
+    (0.21176470588235294,  0.56470588235294117,  0.75294117647058822),
+                        ^ (bad-whitespace)
+C:655, 0: Exactly one space required after comma
+    (0.21176470588235294,  0.56470588235294117,  0.75294117647058822),
+                                              ^ (bad-whitespace)
+C:656, 0: Exactly one space required after comma
+    (0.00784313725490196,  0.50588235294117645,  0.54117647058823526),
+                        ^ (bad-whitespace)
+C:656, 0: Exactly one space required after comma
+    (0.00784313725490196,  0.50588235294117645,  0.54117647058823526),
+                                              ^ (bad-whitespace)
+C:657, 0: Exactly one space required after comma
+    (0.00392156862745098,  0.42352941176470588,  0.34901960784313724),
+                        ^ (bad-whitespace)
+C:657, 0: Exactly one space required after comma
+    (0.00392156862745098,  0.42352941176470588,  0.34901960784313724),
+                                              ^ (bad-whitespace)
+C:658, 0: Exactly one space required after comma
+    (0.00392156862745098,  0.27450980392156865,  0.21176470588235294)
+                        ^ (bad-whitespace)
+C:658, 0: Exactly one space required after comma
+    (0.00392156862745098,  0.27450980392156865,  0.21176470588235294)
+                                              ^ (bad-whitespace)
+C:662, 0: Exactly one space required after comma
+    (0.49803921568627452,  0.23137254901960785,  0.03137254901960784),
+                        ^ (bad-whitespace)
+C:662, 0: Exactly one space required after comma
+    (0.49803921568627452,  0.23137254901960785,  0.03137254901960784),
+                                              ^ (bad-whitespace)
+C:663, 0: Exactly one space required after comma
+    (0.70196078431372544,  0.34509803921568627,  0.02352941176470588),
+                        ^ (bad-whitespace)
+C:663, 0: Exactly one space required after comma
+    (0.70196078431372544,  0.34509803921568627,  0.02352941176470588),
+                                              ^ (bad-whitespace)
+C:664, 0: No space allowed before comma
+    (0.8784313725490196 ,  0.50980392156862742,  0.07843137254901961),
+                        ^ (bad-whitespace)
+C:664, 0: Exactly one space required after comma
+    (0.8784313725490196 ,  0.50980392156862742,  0.07843137254901961),
+                        ^ (bad-whitespace)
+C:664, 0: Exactly one space required after comma
+    (0.8784313725490196 ,  0.50980392156862742,  0.07843137254901961),
+                                              ^ (bad-whitespace)
+C:665, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.72156862745098038,  0.38823529411764707),
+                        ^ (bad-whitespace)
+C:665, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.72156862745098038,  0.38823529411764707),
+                                              ^ (bad-whitespace)
+C:666, 0: Exactly one space required after comma
+    (0.99607843137254903,  0.8784313725490196 ,  0.71372549019607845),
+                        ^ (bad-whitespace)
+C:666, 0: No space allowed before comma
+    (0.99607843137254903,  0.8784313725490196 ,  0.71372549019607845),
+                                              ^ (bad-whitespace)
+C:666, 0: Exactly one space required after comma
+    (0.99607843137254903,  0.8784313725490196 ,  0.71372549019607845),
+                                              ^ (bad-whitespace)
+C:667, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.96862745098039216,  0.96862745098039216),
+                        ^ (bad-whitespace)
+C:667, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.96862745098039216,  0.96862745098039216),
+                                              ^ (bad-whitespace)
+C:668, 0: Exactly one space required after comma
+    (0.84705882352941175,  0.85490196078431369,  0.92156862745098034),
+                        ^ (bad-whitespace)
+C:668, 0: Exactly one space required after comma
+    (0.84705882352941175,  0.85490196078431369,  0.92156862745098034),
+                                              ^ (bad-whitespace)
+C:669, 0: Exactly one space required after comma
+    (0.69803921568627447,  0.6705882352941176 ,  0.82352941176470584),
+                        ^ (bad-whitespace)
+C:669, 0: No space allowed before comma
+    (0.69803921568627447,  0.6705882352941176 ,  0.82352941176470584),
+                                              ^ (bad-whitespace)
+C:669, 0: Exactly one space required after comma
+    (0.69803921568627447,  0.6705882352941176 ,  0.82352941176470584),
+                                              ^ (bad-whitespace)
+C:670, 0: Exactly one space required after comma
+    (0.50196078431372548,  0.45098039215686275,  0.67450980392156867),
+                        ^ (bad-whitespace)
+C:670, 0: Exactly one space required after comma
+    (0.50196078431372548,  0.45098039215686275,  0.67450980392156867),
+                                              ^ (bad-whitespace)
+C:671, 0: Exactly one space required after comma
+    (0.32941176470588235,  0.15294117647058825,  0.53333333333333333),
+                        ^ (bad-whitespace)
+C:671, 0: Exactly one space required after comma
+    (0.32941176470588235,  0.15294117647058825,  0.53333333333333333),
+                                              ^ (bad-whitespace)
+C:672, 0: Exactly one space required after comma
+    (0.17647058823529413,  0.0                ,  0.29411764705882354)
+                        ^ (bad-whitespace)
+C:672, 0: No space allowed before comma
+    (0.17647058823529413,  0.0                ,  0.29411764705882354)
+                                              ^ (bad-whitespace)
+C:672, 0: Exactly one space required after comma
+    (0.17647058823529413,  0.0                ,  0.29411764705882354)
+                                              ^ (bad-whitespace)
+C:676, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.95686274509803926,  0.97647058823529409),
+                        ^ (bad-whitespace)
+C:676, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.95686274509803926,  0.97647058823529409),
+                                              ^ (bad-whitespace)
+C:677, 0: Exactly one space required after comma
+    (0.90588235294117647,  0.88235294117647056,  0.93725490196078431),
+                        ^ (bad-whitespace)
+C:677, 0: Exactly one space required after comma
+    (0.90588235294117647,  0.88235294117647056,  0.93725490196078431),
+                                              ^ (bad-whitespace)
+C:678, 0: Exactly one space required after comma
+    (0.83137254901960789,  0.72549019607843135,  0.85490196078431369),
+                        ^ (bad-whitespace)
+C:678, 0: Exactly one space required after comma
+    (0.83137254901960789,  0.72549019607843135,  0.85490196078431369),
+                                              ^ (bad-whitespace)
+C:679, 0: Exactly one space required after comma
+    (0.78823529411764703,  0.58039215686274515,  0.7803921568627451 ),
+                        ^ (bad-whitespace)
+C:679, 0: Exactly one space required after comma
+    (0.78823529411764703,  0.58039215686274515,  0.7803921568627451 ),
+                                              ^ (bad-whitespace)
+C:679, 0: No space allowed before bracket
+    (0.78823529411764703,  0.58039215686274515,  0.7803921568627451 ),
+                                                                    ^ (bad-whitespace)
+C:680, 0: Exactly one space required after comma
+    (0.87450980392156863,  0.396078431372549  ,  0.69019607843137254),
+                        ^ (bad-whitespace)
+C:680, 0: No space allowed before comma
+    (0.87450980392156863,  0.396078431372549  ,  0.69019607843137254),
+                                              ^ (bad-whitespace)
+C:680, 0: Exactly one space required after comma
+    (0.87450980392156863,  0.396078431372549  ,  0.69019607843137254),
+                                              ^ (bad-whitespace)
+C:681, 0: Exactly one space required after comma
+    (0.90588235294117647,  0.16078431372549021,  0.54117647058823526),
+                        ^ (bad-whitespace)
+C:681, 0: Exactly one space required after comma
+    (0.90588235294117647,  0.16078431372549021,  0.54117647058823526),
+                                              ^ (bad-whitespace)
+C:682, 0: Exactly one space required after comma
+    (0.80784313725490198,  0.07058823529411765,  0.33725490196078434),
+                        ^ (bad-whitespace)
+C:682, 0: Exactly one space required after comma
+    (0.80784313725490198,  0.07058823529411765,  0.33725490196078434),
+                                              ^ (bad-whitespace)
+C:683, 0: Exactly one space required after comma
+    (0.59607843137254901,  0.0                ,  0.2627450980392157 ),
+                        ^ (bad-whitespace)
+C:683, 0: No space allowed before comma
+    (0.59607843137254901,  0.0                ,  0.2627450980392157 ),
+                                              ^ (bad-whitespace)
+C:683, 0: Exactly one space required after comma
+    (0.59607843137254901,  0.0                ,  0.2627450980392157 ),
+                                              ^ (bad-whitespace)
+C:683, 0: No space allowed before bracket
+    (0.59607843137254901,  0.0                ,  0.2627450980392157 ),
+                                                                    ^ (bad-whitespace)
+C:684, 0: Exactly one space required after comma
+    (0.40392156862745099,  0.0                ,  0.12156862745098039)
+                        ^ (bad-whitespace)
+C:684, 0: No space allowed before comma
+    (0.40392156862745099,  0.0                ,  0.12156862745098039)
+                                              ^ (bad-whitespace)
+C:684, 0: Exactly one space required after comma
+    (0.40392156862745099,  0.0                ,  0.12156862745098039)
+                                              ^ (bad-whitespace)
+C:688, 0: No space allowed before comma
+    (0.9882352941176471 ,  0.98431372549019602,  0.99215686274509807),
+                        ^ (bad-whitespace)
+C:688, 0: Exactly one space required after comma
+    (0.9882352941176471 ,  0.98431372549019602,  0.99215686274509807),
+                        ^ (bad-whitespace)
+C:688, 0: Exactly one space required after comma
+    (0.9882352941176471 ,  0.98431372549019602,  0.99215686274509807),
+                                              ^ (bad-whitespace)
+C:689, 0: Exactly one space required after comma
+    (0.93725490196078431,  0.92941176470588238,  0.96078431372549022),
+                        ^ (bad-whitespace)
+C:689, 0: Exactly one space required after comma
+    (0.93725490196078431,  0.92941176470588238,  0.96078431372549022),
+                                              ^ (bad-whitespace)
+C:690, 0: Exactly one space required after comma
+    (0.85490196078431369,  0.85490196078431369,  0.92156862745098034),
+                        ^ (bad-whitespace)
+C:690, 0: Exactly one space required after comma
+    (0.85490196078431369,  0.85490196078431369,  0.92156862745098034),
+                                              ^ (bad-whitespace)
+C:691, 0: Exactly one space required after comma
+    (0.73725490196078436,  0.74117647058823533,  0.86274509803921573),
+                        ^ (bad-whitespace)
+C:691, 0: Exactly one space required after comma
+    (0.73725490196078436,  0.74117647058823533,  0.86274509803921573),
+                                              ^ (bad-whitespace)
+C:692, 0: Exactly one space required after comma
+    (0.61960784313725492,  0.60392156862745094,  0.78431372549019607),
+                        ^ (bad-whitespace)
+C:692, 0: Exactly one space required after comma
+    (0.61960784313725492,  0.60392156862745094,  0.78431372549019607),
+                                              ^ (bad-whitespace)
+C:693, 0: Exactly one space required after comma
+    (0.50196078431372548,  0.49019607843137253,  0.72941176470588232),
+                        ^ (bad-whitespace)
+C:693, 0: Exactly one space required after comma
+    (0.50196078431372548,  0.49019607843137253,  0.72941176470588232),
+                                              ^ (bad-whitespace)
+C:694, 0: Exactly one space required after comma
+    (0.41568627450980394,  0.31764705882352939,  0.63921568627450975),
+                        ^ (bad-whitespace)
+C:694, 0: Exactly one space required after comma
+    (0.41568627450980394,  0.31764705882352939,  0.63921568627450975),
+                                              ^ (bad-whitespace)
+C:695, 0: Exactly one space required after comma
+    (0.32941176470588235,  0.15294117647058825,  0.5607843137254902 ),
+                        ^ (bad-whitespace)
+C:695, 0: Exactly one space required after comma
+    (0.32941176470588235,  0.15294117647058825,  0.5607843137254902 ),
+                                              ^ (bad-whitespace)
+C:695, 0: No space allowed before bracket
+    (0.32941176470588235,  0.15294117647058825,  0.5607843137254902 ),
+                                                                    ^ (bad-whitespace)
+C:696, 0: Exactly one space required after comma
+    (0.24705882352941178,  0.0                ,  0.49019607843137253)
+                        ^ (bad-whitespace)
+C:696, 0: No space allowed before comma
+    (0.24705882352941178,  0.0                ,  0.49019607843137253)
+                                              ^ (bad-whitespace)
+C:696, 0: Exactly one space required after comma
+    (0.24705882352941178,  0.0                ,  0.49019607843137253)
+                                              ^ (bad-whitespace)
+C:700, 0: Exactly one space required after comma
+    (0.40392156862745099,  0.0                ,  0.12156862745098039),
+                        ^ (bad-whitespace)
+C:700, 0: No space allowed before comma
+    (0.40392156862745099,  0.0                ,  0.12156862745098039),
+                                              ^ (bad-whitespace)
+C:700, 0: Exactly one space required after comma
+    (0.40392156862745099,  0.0                ,  0.12156862745098039),
+                                              ^ (bad-whitespace)
+C:701, 0: Exactly one space required after comma
+    (0.69803921568627447,  0.09411764705882353,  0.16862745098039217),
+                        ^ (bad-whitespace)
+C:701, 0: Exactly one space required after comma
+    (0.69803921568627447,  0.09411764705882353,  0.16862745098039217),
+                                              ^ (bad-whitespace)
+C:702, 0: Exactly one space required after comma
+    (0.83921568627450982,  0.37647058823529411,  0.30196078431372547),
+                        ^ (bad-whitespace)
+C:702, 0: Exactly one space required after comma
+    (0.83921568627450982,  0.37647058823529411,  0.30196078431372547),
+                                              ^ (bad-whitespace)
+C:703, 0: Exactly one space required after comma
+    (0.95686274509803926,  0.6470588235294118 ,  0.50980392156862742),
+                        ^ (bad-whitespace)
+C:703, 0: No space allowed before comma
+    (0.95686274509803926,  0.6470588235294118 ,  0.50980392156862742),
+                                              ^ (bad-whitespace)
+C:703, 0: Exactly one space required after comma
+    (0.95686274509803926,  0.6470588235294118 ,  0.50980392156862742),
+                                              ^ (bad-whitespace)
+C:704, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.85882352941176465,  0.7803921568627451 ),
+                        ^ (bad-whitespace)
+C:704, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.85882352941176465,  0.7803921568627451 ),
+                                              ^ (bad-whitespace)
+C:704, 0: No space allowed before bracket
+    (0.99215686274509807,  0.85882352941176465,  0.7803921568627451 ),
+                                                                    ^ (bad-whitespace)
+C:705, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.96862745098039216,  0.96862745098039216),
+                        ^ (bad-whitespace)
+C:705, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.96862745098039216,  0.96862745098039216),
+                                              ^ (bad-whitespace)
+C:706, 0: Exactly one space required after comma
+    (0.81960784313725488,  0.89803921568627454,  0.94117647058823528),
+                        ^ (bad-whitespace)
+C:706, 0: Exactly one space required after comma
+    (0.81960784313725488,  0.89803921568627454,  0.94117647058823528),
+                                              ^ (bad-whitespace)
+C:707, 0: No space allowed before comma
+    (0.5725490196078431 ,  0.77254901960784317,  0.87058823529411766),
+                        ^ (bad-whitespace)
+C:707, 0: Exactly one space required after comma
+    (0.5725490196078431 ,  0.77254901960784317,  0.87058823529411766),
+                        ^ (bad-whitespace)
+C:707, 0: Exactly one space required after comma
+    (0.5725490196078431 ,  0.77254901960784317,  0.87058823529411766),
+                                              ^ (bad-whitespace)
+C:708, 0: No space allowed before comma
+    (0.2627450980392157 ,  0.57647058823529407,  0.76470588235294112),
+                        ^ (bad-whitespace)
+C:708, 0: Exactly one space required after comma
+    (0.2627450980392157 ,  0.57647058823529407,  0.76470588235294112),
+                        ^ (bad-whitespace)
+C:708, 0: Exactly one space required after comma
+    (0.2627450980392157 ,  0.57647058823529407,  0.76470588235294112),
+                                              ^ (bad-whitespace)
+C:709, 0: Exactly one space required after comma
+    (0.12941176470588237,  0.4                ,  0.67450980392156867),
+                        ^ (bad-whitespace)
+C:709, 0: No space allowed before comma
+    (0.12941176470588237,  0.4                ,  0.67450980392156867),
+                                              ^ (bad-whitespace)
+C:709, 0: Exactly one space required after comma
+    (0.12941176470588237,  0.4                ,  0.67450980392156867),
+                                              ^ (bad-whitespace)
+C:710, 0: No space allowed before comma
+    (0.0196078431372549 ,  0.18823529411764706,  0.38039215686274508)
+                        ^ (bad-whitespace)
+C:710, 0: Exactly one space required after comma
+    (0.0196078431372549 ,  0.18823529411764706,  0.38039215686274508)
+                        ^ (bad-whitespace)
+C:710, 0: Exactly one space required after comma
+    (0.0196078431372549 ,  0.18823529411764706,  0.38039215686274508)
+                                              ^ (bad-whitespace)
+C:714, 0: Exactly one space required after comma
+    (0.40392156862745099,  0.0                ,  0.12156862745098039),
+                        ^ (bad-whitespace)
+C:714, 0: No space allowed before comma
+    (0.40392156862745099,  0.0                ,  0.12156862745098039),
+                                              ^ (bad-whitespace)
+C:714, 0: Exactly one space required after comma
+    (0.40392156862745099,  0.0                ,  0.12156862745098039),
+                                              ^ (bad-whitespace)
+C:715, 0: Exactly one space required after comma
+    (0.69803921568627447,  0.09411764705882353,  0.16862745098039217),
+                        ^ (bad-whitespace)
+C:715, 0: Exactly one space required after comma
+    (0.69803921568627447,  0.09411764705882353,  0.16862745098039217),
+                                              ^ (bad-whitespace)
+C:716, 0: Exactly one space required after comma
+    (0.83921568627450982,  0.37647058823529411,  0.30196078431372547),
+                        ^ (bad-whitespace)
+C:716, 0: Exactly one space required after comma
+    (0.83921568627450982,  0.37647058823529411,  0.30196078431372547),
+                                              ^ (bad-whitespace)
+C:717, 0: Exactly one space required after comma
+    (0.95686274509803926,  0.6470588235294118 ,  0.50980392156862742),
+                        ^ (bad-whitespace)
+C:717, 0: No space allowed before comma
+    (0.95686274509803926,  0.6470588235294118 ,  0.50980392156862742),
+                                              ^ (bad-whitespace)
+C:717, 0: Exactly one space required after comma
+    (0.95686274509803926,  0.6470588235294118 ,  0.50980392156862742),
+                                              ^ (bad-whitespace)
+C:718, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.85882352941176465,  0.7803921568627451 ),
+                        ^ (bad-whitespace)
+C:718, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.85882352941176465,  0.7803921568627451 ),
+                                              ^ (bad-whitespace)
+C:718, 0: No space allowed before bracket
+    (0.99215686274509807,  0.85882352941176465,  0.7803921568627451 ),
+                                                                    ^ (bad-whitespace)
+C:719, 0: No space allowed before comma
+    (1.0                ,  1.0                ,  1.0                ),
+                        ^ (bad-whitespace)
+C:719, 0: Exactly one space required after comma
+    (1.0                ,  1.0                ,  1.0                ),
+                        ^ (bad-whitespace)
+C:719, 0: No space allowed before comma
+    (1.0                ,  1.0                ,  1.0                ),
+                                              ^ (bad-whitespace)
+C:719, 0: Exactly one space required after comma
+    (1.0                ,  1.0                ,  1.0                ),
+                                              ^ (bad-whitespace)
+C:719, 0: No space allowed before bracket
+    (1.0                ,  1.0                ,  1.0                ),
+                                                                    ^ (bad-whitespace)
+C:720, 0: No space allowed before comma
+    (0.8784313725490196 ,  0.8784313725490196 ,  0.8784313725490196 ),
+                        ^ (bad-whitespace)
+C:720, 0: Exactly one space required after comma
+    (0.8784313725490196 ,  0.8784313725490196 ,  0.8784313725490196 ),
+                        ^ (bad-whitespace)
+C:720, 0: No space allowed before comma
+    (0.8784313725490196 ,  0.8784313725490196 ,  0.8784313725490196 ),
+                                              ^ (bad-whitespace)
+C:720, 0: Exactly one space required after comma
+    (0.8784313725490196 ,  0.8784313725490196 ,  0.8784313725490196 ),
+                                              ^ (bad-whitespace)
+C:720, 0: No space allowed before bracket
+    (0.8784313725490196 ,  0.8784313725490196 ,  0.8784313725490196 ),
+                                                                    ^ (bad-whitespace)
+C:721, 0: Exactly one space required after comma
+    (0.72941176470588232,  0.72941176470588232,  0.72941176470588232),
+                        ^ (bad-whitespace)
+C:721, 0: Exactly one space required after comma
+    (0.72941176470588232,  0.72941176470588232,  0.72941176470588232),
+                                              ^ (bad-whitespace)
+C:722, 0: Exactly one space required after comma
+    (0.52941176470588236,  0.52941176470588236,  0.52941176470588236),
+                        ^ (bad-whitespace)
+C:722, 0: Exactly one space required after comma
+    (0.52941176470588236,  0.52941176470588236,  0.52941176470588236),
+                                              ^ (bad-whitespace)
+C:723, 0: Exactly one space required after comma
+    (0.30196078431372547,  0.30196078431372547,  0.30196078431372547),
+                        ^ (bad-whitespace)
+C:723, 0: Exactly one space required after comma
+    (0.30196078431372547,  0.30196078431372547,  0.30196078431372547),
+                                              ^ (bad-whitespace)
+C:724, 0: Exactly one space required after comma
+    (0.10196078431372549,  0.10196078431372549,  0.10196078431372549)
+                        ^ (bad-whitespace)
+C:724, 0: Exactly one space required after comma
+    (0.10196078431372549,  0.10196078431372549,  0.10196078431372549)
+                                              ^ (bad-whitespace)
+C:728, 0: No space allowed before comma
+    (1.0                ,  0.96862745098039216,  0.95294117647058818),
+                        ^ (bad-whitespace)
+C:728, 0: Exactly one space required after comma
+    (1.0                ,  0.96862745098039216,  0.95294117647058818),
+                        ^ (bad-whitespace)
+C:728, 0: Exactly one space required after comma
+    (1.0                ,  0.96862745098039216,  0.95294117647058818),
+                                              ^ (bad-whitespace)
+C:729, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.8784313725490196 ,  0.86666666666666667),
+                        ^ (bad-whitespace)
+C:729, 0: No space allowed before comma
+    (0.99215686274509807,  0.8784313725490196 ,  0.86666666666666667),
+                                              ^ (bad-whitespace)
+C:729, 0: Exactly one space required after comma
+    (0.99215686274509807,  0.8784313725490196 ,  0.86666666666666667),
+                                              ^ (bad-whitespace)
+C:730, 0: No space allowed before comma
+    (0.9882352941176471 ,  0.77254901960784317,  0.75294117647058822),
+                        ^ (bad-whitespace)
+C:730, 0: Exactly one space required after comma
+    (0.9882352941176471 ,  0.77254901960784317,  0.75294117647058822),
+                        ^ (bad-whitespace)
+C:730, 0: Exactly one space required after comma
+    (0.9882352941176471 ,  0.77254901960784317,  0.75294117647058822),
+                                              ^ (bad-whitespace)
+C:731, 0: Exactly one space required after comma
+    (0.98039215686274506,  0.62352941176470589,  0.70980392156862748),
+                        ^ (bad-whitespace)
+C:731, 0: Exactly one space required after comma
+    (0.98039215686274506,  0.62352941176470589,  0.70980392156862748),
+                                              ^ (bad-whitespace)
+C:732, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.40784313725490196,  0.63137254901960782),
+                        ^ (bad-whitespace)
+C:732, 0: Exactly one space required after comma
+    (0.96862745098039216,  0.40784313725490196,  0.63137254901960782),
+                                              ^ (bad-whitespace)
+C:733, 0: Exactly one space required after comma
+    (0.86666666666666667,  0.20392156862745098,  0.59215686274509804),
+                        ^ (bad-whitespace)
+C:733, 0: Exactly one space required after comma
+    (0.86666666666666667,  0.20392156862745098,  0.59215686274509804),
+                                              ^ (bad-whitespace)
+C:734, 0: Exactly one space required after comma
+    (0.68235294117647061,  0.00392156862745098,  0.49411764705882355),
+                        ^ (bad-whitespace)
+C:734, 0: Exactly one space required after comma
+    (0.68235294117647061,  0.00392156862745098,  0.49411764705882355),
+                                              ^ (bad-whitespace)
+C:735, 0: Exactly one space required after comma
+    (0.47843137254901963,  0.00392156862745098,  0.46666666666666667),
+                        ^ (bad-whitespace)
+C:735, 0: Exactly one space required after comma
+    (0.47843137254901963,  0.00392156862745098,  0.46666666666666667),
+                                              ^ (bad-whitespace)
+C:736, 0: Exactly one space required after comma
+    (0.28627450980392155,  0.0                ,  0.41568627450980394)
+                        ^ (bad-whitespace)
+C:736, 0: No space allowed before comma
+    (0.28627450980392155,  0.0                ,  0.41568627450980394)
+                                              ^ (bad-whitespace)
+C:736, 0: Exactly one space required after comma
+    (0.28627450980392155,  0.0                ,  0.41568627450980394)
+                                              ^ (bad-whitespace)
+C:740, 0: No space allowed before comma
+    (0.6470588235294118 , 0.0                 , 0.14901960784313725),
+                        ^ (bad-whitespace)
+C:740, 0: No space allowed before comma
+    (0.6470588235294118 , 0.0                 , 0.14901960784313725),
+                                              ^ (bad-whitespace)
+C:741, 0: No space allowed before comma
+    (0.84313725490196079, 0.18823529411764706 , 0.15294117647058825),
+                                              ^ (bad-whitespace)
+C:742, 0: No space allowed before comma
+    (0.95686274509803926, 0.42745098039215684 , 0.2627450980392157 ),
+                                              ^ (bad-whitespace)
+C:742, 0: No space allowed before bracket
+    (0.95686274509803926, 0.42745098039215684 , 0.2627450980392157 ),
+                                                                   ^ (bad-whitespace)
+C:743, 0: No space allowed before comma
+    (0.99215686274509807, 0.68235294117647061 , 0.38039215686274508),
+                                              ^ (bad-whitespace)
+C:744, 0: No space allowed before comma
+    (0.99607843137254903, 0.8784313725490196  , 0.56470588235294117),
+                                              ^ (bad-whitespace)
+C:745, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.74901960784313726),
+                        ^ (bad-whitespace)
+C:745, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.74901960784313726),
+                                              ^ (bad-whitespace)
+C:746, 0: No space allowed before comma
+    (0.8784313725490196 , 0.95294117647058818 , 0.97254901960784312),
+                        ^ (bad-whitespace)
+C:746, 0: No space allowed before comma
+    (0.8784313725490196 , 0.95294117647058818 , 0.97254901960784312),
+                                              ^ (bad-whitespace)
+C:747, 0: No space allowed before comma
+    (0.6705882352941176 , 0.85098039215686272 , 0.9137254901960784 ),
+                        ^ (bad-whitespace)
+C:747, 0: No space allowed before comma
+    (0.6705882352941176 , 0.85098039215686272 , 0.9137254901960784 ),
+                                              ^ (bad-whitespace)
+C:747, 0: No space allowed before bracket
+    (0.6705882352941176 , 0.85098039215686272 , 0.9137254901960784 ),
+                                                                   ^ (bad-whitespace)
+C:748, 0: No space allowed before comma
+    (0.45490196078431372, 0.67843137254901964 , 0.81960784313725488),
+                                              ^ (bad-whitespace)
+C:749, 0: No space allowed before comma
+    (0.27058823529411763, 0.45882352941176469 , 0.70588235294117652),
+                                              ^ (bad-whitespace)
+C:750, 0: No space allowed before comma
+    (0.19215686274509805, 0.21176470588235294 , 0.58431372549019611)
+                                              ^ (bad-whitespace)
+C:754, 0: No space allowed before comma
+    (0.6470588235294118 , 0.0                 , 0.14901960784313725),
+                        ^ (bad-whitespace)
+C:754, 0: No space allowed before comma
+    (0.6470588235294118 , 0.0                 , 0.14901960784313725),
+                                              ^ (bad-whitespace)
+C:755, 0: No space allowed before comma
+    (0.84313725490196079, 0.18823529411764706 , 0.15294117647058825),
+                                              ^ (bad-whitespace)
+C:756, 0: No space allowed before comma
+    (0.95686274509803926, 0.42745098039215684 , 0.2627450980392157 ),
+                                              ^ (bad-whitespace)
+C:756, 0: No space allowed before bracket
+    (0.95686274509803926, 0.42745098039215684 , 0.2627450980392157 ),
+                                                                   ^ (bad-whitespace)
+C:757, 0: No space allowed before comma
+    (0.99215686274509807, 0.68235294117647061 , 0.38039215686274508),
+                                              ^ (bad-whitespace)
+C:758, 0: No space allowed before comma
+    (0.99607843137254903, 0.8784313725490196  , 0.54509803921568623),
+                                              ^ (bad-whitespace)
+C:759, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.74901960784313726),
+                        ^ (bad-whitespace)
+C:759, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.74901960784313726),
+                                              ^ (bad-whitespace)
+C:760, 0: No space allowed before comma
+    (0.85098039215686272, 0.93725490196078431 , 0.54509803921568623),
+                                              ^ (bad-whitespace)
+C:761, 0: No space allowed before comma
+    (0.65098039215686276, 0.85098039215686272 , 0.41568627450980394),
+                                              ^ (bad-whitespace)
+C:762, 0: No space allowed before comma
+    (0.4                , 0.74117647058823533 , 0.38823529411764707),
+                        ^ (bad-whitespace)
+C:762, 0: No space allowed before comma
+    (0.4                , 0.74117647058823533 , 0.38823529411764707),
+                                              ^ (bad-whitespace)
+C:763, 0: No space allowed before comma
+    (0.10196078431372549, 0.59607843137254901 , 0.31372549019607843),
+                                              ^ (bad-whitespace)
+C:764, 0: No space allowed before comma
+    (0.0                , 0.40784313725490196 , 0.21568627450980393)
+                        ^ (bad-whitespace)
+C:764, 0: No space allowed before comma
+    (0.0                , 0.40784313725490196 , 0.21568627450980393)
+                                              ^ (bad-whitespace)
+C:768, 0: No space allowed before comma
+    (1.0                , 0.96078431372549022 , 0.94117647058823528),
+                        ^ (bad-whitespace)
+C:768, 0: No space allowed before comma
+    (1.0                , 0.96078431372549022 , 0.94117647058823528),
+                                              ^ (bad-whitespace)
+C:769, 0: No space allowed before comma
+    (0.99607843137254903, 0.8784313725490196  , 0.82352941176470584),
+                                              ^ (bad-whitespace)
+C:770, 0: No space allowed before comma
+    (0.9882352941176471 , 0.73333333333333328 , 0.63137254901960782),
+                        ^ (bad-whitespace)
+C:770, 0: No space allowed before comma
+    (0.9882352941176471 , 0.73333333333333328 , 0.63137254901960782),
+                                              ^ (bad-whitespace)
+C:771, 0: No space allowed before comma
+    (0.9882352941176471 , 0.5725490196078431  , 0.44705882352941179),
+                        ^ (bad-whitespace)
+C:771, 0: No space allowed before comma
+    (0.9882352941176471 , 0.5725490196078431  , 0.44705882352941179),
+                                              ^ (bad-whitespace)
+C:772, 0: No space allowed before comma
+    (0.98431372549019602, 0.41568627450980394 , 0.29019607843137257),
+                                              ^ (bad-whitespace)
+C:773, 0: No space allowed before comma
+    (0.93725490196078431, 0.23137254901960785 , 0.17254901960784313),
+                                              ^ (bad-whitespace)
+C:775, 0: No space allowed before comma
+    (0.6470588235294118 , 0.058823529411764705, 0.08235294117647058),
+                        ^ (bad-whitespace)
+C:776, 0: No space allowed before comma
+    (0.40392156862745099, 0.0                 , 0.05098039215686274)
+                                              ^ (bad-whitespace)
+C:781, 0: No space allowed before comma
+    (0.83529411764705885, 0.24313725490196078 , 0.30980392156862746),
+                                              ^ (bad-whitespace)
+C:782, 0: No space allowed before comma
+    (0.95686274509803926, 0.42745098039215684 , 0.2627450980392157 ),
+                                              ^ (bad-whitespace)
+C:782, 0: No space allowed before bracket
+    (0.95686274509803926, 0.42745098039215684 , 0.2627450980392157 ),
+                                                                   ^ (bad-whitespace)
+C:783, 0: No space allowed before comma
+    (0.99215686274509807, 0.68235294117647061 , 0.38039215686274508),
+                                              ^ (bad-whitespace)
+C:784, 0: No space allowed before comma
+    (0.99607843137254903, 0.8784313725490196  , 0.54509803921568623),
+                                              ^ (bad-whitespace)
+C:785, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.74901960784313726),
+                        ^ (bad-whitespace)
+C:785, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.74901960784313726),
+                                              ^ (bad-whitespace)
+C:786, 0: No space allowed before comma
+    (0.90196078431372551, 0.96078431372549022 , 0.59607843137254901),
+                                              ^ (bad-whitespace)
+C:787, 0: No space allowed before comma
+    (0.6705882352941176 , 0.8666666666666667  , 0.64313725490196083),
+                        ^ (bad-whitespace)
+C:787, 0: No space allowed before comma
+    (0.6705882352941176 , 0.8666666666666667  , 0.64313725490196083),
+                                              ^ (bad-whitespace)
+C:788, 0: No space allowed before comma
+    (0.4                , 0.76078431372549016 , 0.6470588235294118 ),
+                        ^ (bad-whitespace)
+C:788, 0: No space allowed before comma
+    (0.4                , 0.76078431372549016 , 0.6470588235294118 ),
+                                              ^ (bad-whitespace)
+C:788, 0: No space allowed before bracket
+    (0.4                , 0.76078431372549016 , 0.6470588235294118 ),
+                                                                   ^ (bad-whitespace)
+C:789, 0: No space allowed before comma
+    (0.19607843137254902, 0.53333333333333333 , 0.74117647058823533),
+                                              ^ (bad-whitespace)
+C:790, 0: No space allowed before comma
+    (0.36862745098039218, 0.30980392156862746 , 0.63529411764705879)
+                                              ^ (bad-whitespace)
+C:794, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.89803921568627454),
+                        ^ (bad-whitespace)
+C:794, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.89803921568627454),
+                                              ^ (bad-whitespace)
+C:795, 0: No space allowed before comma
+    (0.96862745098039216, 0.9882352941176471  , 0.72549019607843135),
+                                              ^ (bad-whitespace)
+C:796, 0: No space allowed before comma
+    (0.85098039215686272, 0.94117647058823528 , 0.63921568627450975),
+                                              ^ (bad-whitespace)
+C:797, 0: No space allowed before comma
+    (0.67843137254901964, 0.8666666666666667  , 0.55686274509803924),
+                                              ^ (bad-whitespace)
+C:798, 0: No space allowed before comma
+    (0.47058823529411764, 0.77647058823529413 , 0.47450980392156861),
+                                              ^ (bad-whitespace)
+C:799, 0: No space allowed before comma
+    (0.25490196078431371, 0.6705882352941176  , 0.36470588235294116),
+                                              ^ (bad-whitespace)
+C:800, 0: No space allowed before comma
+    (0.13725490196078433, 0.51764705882352946 , 0.2627450980392157 ),
+                                              ^ (bad-whitespace)
+C:800, 0: No space allowed before bracket
+    (0.13725490196078433, 0.51764705882352946 , 0.2627450980392157 ),
+                                                                   ^ (bad-whitespace)
+C:801, 0: No space allowed before comma
+    (0.0                , 0.40784313725490196 , 0.21568627450980393),
+                        ^ (bad-whitespace)
+C:801, 0: No space allowed before comma
+    (0.0                , 0.40784313725490196 , 0.21568627450980393),
+                                              ^ (bad-whitespace)
+C:802, 0: No space allowed before comma
+    (0.0                , 0.27058823529411763 , 0.16078431372549021)
+                        ^ (bad-whitespace)
+C:802, 0: No space allowed before comma
+    (0.0                , 0.27058823529411763 , 0.16078431372549021)
+                                              ^ (bad-whitespace)
+C:806, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.85098039215686272),
+                        ^ (bad-whitespace)
+C:806, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.85098039215686272),
+                                              ^ (bad-whitespace)
+C:807, 0: No space allowed before comma
+    (0.92941176470588238, 0.97254901960784312 , 0.69411764705882351),
+                                              ^ (bad-whitespace)
+C:808, 0: No space allowed before comma
+    (0.7803921568627451 , 0.9137254901960784  , 0.70588235294117652),
+                        ^ (bad-whitespace)
+C:808, 0: No space allowed before comma
+    (0.7803921568627451 , 0.9137254901960784  , 0.70588235294117652),
+                                              ^ (bad-whitespace)
+C:809, 0: No space allowed before comma
+    (0.49803921568627452, 0.80392156862745101 , 0.73333333333333328),
+                                              ^ (bad-whitespace)
+C:810, 0: No space allowed before comma
+    (0.25490196078431371, 0.71372549019607845 , 0.7686274509803922 ),
+                                              ^ (bad-whitespace)
+C:810, 0: No space allowed before bracket
+    (0.25490196078431371, 0.71372549019607845 , 0.7686274509803922 ),
+                                                                   ^ (bad-whitespace)
+C:811, 0: No space allowed before comma
+    (0.11372549019607843, 0.56862745098039214 , 0.75294117647058822),
+                                              ^ (bad-whitespace)
+C:812, 0: No space allowed before comma
+    (0.13333333333333333, 0.36862745098039218 , 0.6588235294117647 ),
+                                              ^ (bad-whitespace)
+C:812, 0: No space allowed before bracket
+    (0.13333333333333333, 0.36862745098039218 , 0.6588235294117647 ),
+                                                                   ^ (bad-whitespace)
+C:813, 0: No space allowed before comma
+    (0.14509803921568629, 0.20392156862745098 , 0.58039215686274515),
+                                              ^ (bad-whitespace)
+C:814, 0: No space allowed before comma
+    (0.03137254901960784, 0.11372549019607843 , 0.34509803921568627)
+                                              ^ (bad-whitespace)
+C:818, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.89803921568627454),
+                        ^ (bad-whitespace)
+C:818, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.89803921568627454),
+                                              ^ (bad-whitespace)
+C:819, 0: No space allowed before comma
+    (1.0                , 0.96862745098039216 , 0.73725490196078436),
+                        ^ (bad-whitespace)
+C:819, 0: No space allowed before comma
+    (1.0                , 0.96862745098039216 , 0.73725490196078436),
+                                              ^ (bad-whitespace)
+C:820, 0: No space allowed before comma
+    (0.99607843137254903, 0.8901960784313725  , 0.56862745098039214),
+                                              ^ (bad-whitespace)
+C:821, 0: No space allowed before comma
+    (0.99607843137254903, 0.7686274509803922  , 0.30980392156862746),
+                                              ^ (bad-whitespace)
+C:822, 0: No space allowed before comma
+    (0.99607843137254903, 0.6                 , 0.16078431372549021),
+                                              ^ (bad-whitespace)
+C:823, 0: No space allowed before comma
+    (0.92549019607843142, 0.4392156862745098  , 0.07843137254901961),
+                                              ^ (bad-whitespace)
+C:824, 0: No space allowed before comma
+    (0.8                , 0.29803921568627451 , 0.00784313725490196),
+                        ^ (bad-whitespace)
+C:824, 0: No space allowed before comma
+    (0.8                , 0.29803921568627451 , 0.00784313725490196),
+                                              ^ (bad-whitespace)
+C:825, 0: No space allowed before comma
+    (0.6                , 0.20392156862745098 , 0.01568627450980392),
+                        ^ (bad-whitespace)
+C:825, 0: No space allowed before comma
+    (0.6                , 0.20392156862745098 , 0.01568627450980392),
+                                              ^ (bad-whitespace)
+C:826, 0: No space allowed before comma
+    (0.4                , 0.14509803921568629 , 0.02352941176470588)
+                        ^ (bad-whitespace)
+C:826, 0: No space allowed before comma
+    (0.4                , 0.14509803921568629 , 0.02352941176470588)
+                                              ^ (bad-whitespace)
+C:830, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.8                ),
+                        ^ (bad-whitespace)
+C:830, 0: No space allowed before comma
+    (1.0                , 1.0                 , 0.8                ),
+                                              ^ (bad-whitespace)
+C:830, 0: No space allowed before bracket
+    (1.0                , 1.0                 , 0.8                ),
+                                                                   ^ (bad-whitespace)
+C:831, 0: No space allowed before comma
+    (1.0                , 0.92941176470588238 , 0.62745098039215685),
+                        ^ (bad-whitespace)
+C:831, 0: No space allowed before comma
+    (1.0                , 0.92941176470588238 , 0.62745098039215685),
+                                              ^ (bad-whitespace)
+C:832, 0: No space allowed before comma
+    (0.99607843137254903, 0.85098039215686272 , 0.46274509803921571),
+                                              ^ (bad-whitespace)
+C:833, 0: No space allowed before comma
+    (0.99607843137254903, 0.69803921568627447 , 0.29803921568627451),
+                                              ^ (bad-whitespace)
+C:834, 0: No space allowed before comma
+    (0.99215686274509807, 0.55294117647058827 , 0.23529411764705882),
+                                              ^ (bad-whitespace)
+C:835, 0: No space allowed before comma
+    (0.9882352941176471 , 0.30588235294117649 , 0.16470588235294117),
+                        ^ (bad-whitespace)
+C:835, 0: No space allowed before comma
+    (0.9882352941176471 , 0.30588235294117649 , 0.16470588235294117),
+                                              ^ (bad-whitespace)
+C:836, 0: No space allowed before comma
+    (0.8901960784313725 , 0.10196078431372549 , 0.10980392156862745),
+                        ^ (bad-whitespace)
+C:836, 0: No space allowed before comma
+    (0.8901960784313725 , 0.10196078431372549 , 0.10980392156862745),
+                                              ^ (bad-whitespace)
+C:837, 0: No space allowed before comma
+    (0.74117647058823533, 0.0                 , 0.14901960784313725),
+                                              ^ (bad-whitespace)
+C:838, 0: No space allowed before comma
+    (0.50196078431372548, 0.0                 , 0.14901960784313725)
+                                              ^ (bad-whitespace)
+C:849, 0: Exactly one space required after comma
+    (1.0,                 1.0,                 0.6                ),
+        ^ (bad-whitespace)
+C:849, 0: Exactly one space required after comma
+    (1.0,                 1.0,                 0.6                ),
+                             ^ (bad-whitespace)
+C:849, 0: No space allowed before bracket
+    (1.0,                 1.0,                 0.6                ),
+                                                                  ^ (bad-whitespace)
+C:850, 0: Exactly one space required after comma
+    (0.2196078431372549,  0.42352941176470588, 0.69019607843137254),
+                       ^ (bad-whitespace)
+C:853, 0: Exactly one space required after comma
+    (0.4,                 0.4,                 0.4                ),
+        ^ (bad-whitespace)
+C:853, 0: Exactly one space required after comma
+    (0.4,                 0.4,                 0.4                ),
+                             ^ (bad-whitespace)
+C:853, 0: No space allowed before bracket
+    (0.4,                 0.4,                 0.4                ),
+                                                                  ^ (bad-whitespace)
+C:859, 0: Exactly one space required after comma
+    (0.45882352941176469, 0.4392156862745098,  0.70196078431372544),
+                                            ^ (bad-whitespace)
+C:861, 0: Exactly one space required after comma
+    (0.4,                 0.65098039215686276, 0.11764705882352941),
+        ^ (bad-whitespace)
+C:862, 0: Exactly one space required after comma
+    (0.90196078431372551, 0.6705882352941176,  0.00784313725490196),
+                                            ^ (bad-whitespace)
+C:864, 0: Exactly one space required after comma
+    (0.4,                 0.4,                 0.4                ),
+        ^ (bad-whitespace)
+C:864, 0: Exactly one space required after comma
+    (0.4,                 0.4,                 0.4                ),
+                             ^ (bad-whitespace)
+C:864, 0: No space allowed before bracket
+    (0.4,                 0.4,                 0.4                ),
+                                                                  ^ (bad-whitespace)
+C:868, 0: No space allowed before bracket
+    (0.65098039215686276, 0.80784313725490198, 0.8901960784313725 ),
+                                                                  ^ (bad-whitespace)
+C:871, 0: Exactly one space required after comma
+    (0.2,                 0.62745098039215685, 0.17254901960784313),
+        ^ (bad-whitespace)
+C:872, 0: No space allowed before bracket
+    (0.98431372549019602, 0.60392156862745094, 0.6                ),
+                                                                  ^ (bad-whitespace)
+C:873, 0: Exactly one space required after comma
+    (0.8901960784313725,  0.10196078431372549, 0.10980392156862745),
+                       ^ (bad-whitespace)
+C:875, 0: Exactly one space required after comma
+    (1.0,                 0.49803921568627452, 0.0                ),
+        ^ (bad-whitespace)
+C:875, 0: No space allowed before bracket
+    (1.0,                 0.49803921568627452, 0.0                ),
+                                                                  ^ (bad-whitespace)
+C:876, 0: Exactly one space required after comma
+    (0.792156862745098,   0.69803921568627447, 0.83921568627450982),
+                      ^ (bad-whitespace)
+C:878, 0: Exactly one space required after comma
+    (1.0,                 1.0,                 0.6                ),
+        ^ (bad-whitespace)
+C:878, 0: Exactly one space required after comma
+    (1.0,                 1.0,                 0.6                ),
+                             ^ (bad-whitespace)
+C:878, 0: No space allowed before bracket
+    (1.0,                 1.0,                 0.6                ),
+                                                                  ^ (bad-whitespace)
+C:884, 0: No space allowed before bracket
+    (0.70196078431372544, 0.80392156862745101, 0.8901960784313725 ),
+                                                                  ^ (bad-whitespace)
+C:885, 0: Exactly one space required after comma
+    (0.8,                 0.92156862745098034, 0.77254901960784317),
+        ^ (bad-whitespace)
+C:888, 0: Exactly one space required after comma
+    (1.0,                 1.0,                 0.8                ),
+        ^ (bad-whitespace)
+C:888, 0: Exactly one space required after comma
+    (1.0,                 1.0,                 0.8                ),
+                             ^ (bad-whitespace)
+C:888, 0: No space allowed before bracket
+    (1.0,                 1.0,                 0.8                ),
+                                                                  ^ (bad-whitespace)
+C:898, 0: Exactly one space required after comma
+    (0.95686274509803926, 0.792156862745098,   0.89411764705882357),
+                                           ^ (bad-whitespace)
+C:900, 0: Exactly one space required after comma
+    (1.0,                 0.94901960784313721, 0.68235294117647061),
+        ^ (bad-whitespace)
+C:901, 0: No space allowed before bracket
+    (0.94509803921568625, 0.88627450980392153, 0.8                ),
+                                                                  ^ (bad-whitespace)
+C:902, 0: Exactly one space required after comma
+    (0.8,                 0.8,                 0.8                ),
+        ^ (bad-whitespace)
+C:902, 0: Exactly one space required after comma
+    (0.8,                 0.8,                 0.8                ),
+                             ^ (bad-whitespace)
+C:902, 0: No space allowed before bracket
+    (0.8,                 0.8,                 0.8                ),
+                                                                  ^ (bad-whitespace)
+C:910, 0: Exactly one space required after comma
+    (1.0,                 0.49803921568627452, 0.0                ),
+        ^ (bad-whitespace)
+C:910, 0: No space allowed before bracket
+    (1.0,                 0.49803921568627452, 0.0                ),
+                                                                  ^ (bad-whitespace)
+C:911, 0: Exactly one space required after comma
+    (1.0,                 1.0,                 0.2                ),
+        ^ (bad-whitespace)
+C:911, 0: Exactly one space required after comma
+    (1.0,                 1.0,                 0.2                ),
+                             ^ (bad-whitespace)
+C:911, 0: No space allowed before bracket
+    (1.0,                 1.0,                 0.2                ),
+                                                                  ^ (bad-whitespace)
+C:914, 0: Exactly one space required after comma
+    (0.6,                 0.6,                 0.6),
+        ^ (bad-whitespace)
+C:914, 0: Exactly one space required after comma
+    (0.6,                 0.6,                 0.6),
+                             ^ (bad-whitespace)
+C:918, 0: Exactly one space required after comma
+    (0.4,                 0.76078431372549016, 0.6470588235294118 ),
+        ^ (bad-whitespace)
+C:918, 0: No space allowed before bracket
+    (0.4,                 0.76078431372549016, 0.6470588235294118 ),
+                                                                  ^ (bad-whitespace)
+C:919, 0: Exactly one space required after comma
+    (0.9882352941176471,  0.55294117647058827, 0.3843137254901961 ),
+                       ^ (bad-whitespace)
+C:919, 0: No space allowed before bracket
+    (0.9882352941176471,  0.55294117647058827, 0.3843137254901961 ),
+                                                                  ^ (bad-whitespace)
+C:923, 0: Exactly one space required after comma
+    (1.0,                 0.85098039215686272, 0.18431372549019609),
+        ^ (bad-whitespace)
+C:924, 0: Exactly one space required after comma
+    (0.89803921568627454, 0.7686274509803922,  0.58039215686274515),
+                                            ^ (bad-whitespace)
+C:929, 0: No space allowed before bracket
+    (0.55294117647058827, 0.82745098039215681, 0.7803921568627451 ),
+                                                                  ^ (bad-whitespace)
+C:930, 0: Exactly one space required after comma
+    (1.0,                 1.0,                 0.70196078431372544),
+        ^ (bad-whitespace)
+C:930, 0: Exactly one space required after comma
+    (1.0,                 1.0,                 0.70196078431372544),
+                             ^ (bad-whitespace)
+C:934, 0: No space allowed before bracket
+    (0.99215686274509807, 0.70588235294117652, 0.3843137254901961 ),
+                                                                  ^ (bad-whitespace)
+C:936, 0: Exactly one space required after comma
+    (0.9882352941176471,  0.80392156862745101, 0.89803921568627454),
+                       ^ (bad-whitespace)
+C:939, 0: Exactly one space required after comma
+    (0.8,                 0.92156862745098034, 0.77254901960784317),
+        ^ (bad-whitespace)
+C:940, 0: Exactly one space required after comma
+    (1.0,                 0.92941176470588238, 0.43529411764705883),
+        ^ (bad-whitespace)
+C:956, 0: Wrong hanging indentation (add 4 spaces).
+(0.0, 0.0, 0.0000),
+^   | (bad-continuation)
+C:957, 0: Wrong hanging indentation (add 4 spaces).
+(0.2824, 0.1882, 0.1882),
+^   | (bad-continuation)
+C:958, 0: Wrong hanging indentation (add 4 spaces).
+(0.4588, 0.2714, 0.2714),
+^   | (bad-continuation)
+C:959, 0: Wrong hanging indentation (add 4 spaces).
+(0.5490, 0.4719, 0.4719),
+^   | (bad-continuation)
+C:960, 0: Wrong hanging indentation (add 4 spaces).
+(0.6980, 0.7176, 0.7176),
+^   | (bad-continuation)
+C:961, 0: Wrong hanging indentation (add 4 spaces).
+(0.7882, 0.7553, 0.7553),
+^   | (bad-continuation)
+C:962, 0: Wrong hanging indentation (add 4 spaces).
+(1.0000, 0.9922, 0.9922),
+^   | (bad-continuation)
+C:964, 0: Wrong hanging indentation (add 4 spaces).
+(0.0, 0.0, 0.0000),
+^   | (bad-continuation)
+C:965, 0: Wrong hanging indentation (add 4 spaces).
+(0.0275, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:966, 0: Wrong hanging indentation (add 4 spaces).
+(0.1098, 0.1893, 0.1893),
+^   | (bad-continuation)
+C:967, 0: Wrong hanging indentation (add 4 spaces).
+(0.1647, 0.3035, 0.3035),
+^   | (bad-continuation)
+C:968, 0: Wrong hanging indentation (add 4 spaces).
+(0.2078, 0.3841, 0.3841),
+^   | (bad-continuation)
+C:969, 0: Wrong hanging indentation (add 4 spaces).
+(0.2824, 0.5020, 0.5020),
+^   | (bad-continuation)
+C:970, 0: Wrong hanging indentation (add 4 spaces).
+(0.5216, 0.6397, 0.6397),
+^   | (bad-continuation)
+C:971, 0: Wrong hanging indentation (add 4 spaces).
+(0.6980, 0.7171, 0.7171),
+^   | (bad-continuation)
+C:972, 0: Wrong hanging indentation (add 4 spaces).
+(0.7882, 0.6392, 0.6392),
+^   | (bad-continuation)
+C:973, 0: Wrong hanging indentation (add 4 spaces).
+(0.7922, 0.6413, 0.6413),
+^   | (bad-continuation)
+C:974, 0: Wrong hanging indentation (add 4 spaces).
+(0.8000, 0.6447, 0.6447),
+^   | (bad-continuation)
+C:975, 0: Wrong hanging indentation (add 4 spaces).
+(0.8078, 0.6481, 0.6481),
+^   | (bad-continuation)
+C:976, 0: Wrong hanging indentation (add 4 spaces).
+(0.8157, 0.6549, 0.6549),
+^   | (bad-continuation)
+C:977, 0: Wrong hanging indentation (add 4 spaces).
+(0.8667, 0.6991, 0.6991),
+^   | (bad-continuation)
+C:978, 0: Wrong hanging indentation (add 4 spaces).
+(0.8745, 0.7103, 0.7103),
+^   | (bad-continuation)
+C:979, 0: Wrong hanging indentation (add 4 spaces).
+(0.8824, 0.7216, 0.7216),
+^   | (bad-continuation)
+C:980, 0: Wrong hanging indentation (add 4 spaces).
+(0.8902, 0.7323, 0.7323),
+^   | (bad-continuation)
+C:981, 0: Wrong hanging indentation (add 4 spaces).
+(0.8980, 0.7430, 0.7430),
+^   | (bad-continuation)
+C:982, 0: Wrong hanging indentation (add 4 spaces).
+(0.9412, 0.8275, 0.8275),
+^   | (bad-continuation)
+C:983, 0: Wrong hanging indentation (add 4 spaces).
+(0.9569, 0.8635, 0.8635),
+^   | (bad-continuation)
+C:984, 0: Wrong hanging indentation (add 4 spaces).
+(0.9647, 0.8816, 0.8816),
+^   | (bad-continuation)
+C:985, 0: Wrong hanging indentation (add 4 spaces).
+(0.9961, 0.9733, 0.9733),
+^   | (bad-continuation)
+C:986, 0: Wrong hanging indentation (add 4 spaces).
+(1.0000, 0.9843, 0.9843),
+^   | (bad-continuation)
+C:988, 0: Wrong hanging indentation (add 4 spaces).
+(0.0, 0.0, 0.0000),
+^   | (bad-continuation)
+C:989, 0: Wrong hanging indentation (add 4 spaces).
+(0.0039, 0.1684, 0.1684),
+^   | (bad-continuation)
+C:990, 0: Wrong hanging indentation (add 4 spaces).
+(0.0078, 0.2212, 0.2212),
+^   | (bad-continuation)
+C:991, 0: Wrong hanging indentation (add 4 spaces).
+(0.0275, 0.4329, 0.4329),
+^   | (bad-continuation)
+C:992, 0: Wrong hanging indentation (add 4 spaces).
+(0.0314, 0.4549, 0.4549),
+^   | (bad-continuation)
+C:993, 0: Wrong hanging indentation (add 4 spaces).
+(0.2824, 0.5004, 0.5004),
+^   | (bad-continuation)
+C:994, 0: Wrong hanging indentation (add 4 spaces).
+(0.4667, 0.2748, 0.2748),
+^   | (bad-continuation)
+C:995, 0: Wrong hanging indentation (add 4 spaces).
+(0.5451, 0.3205, 0.3205),
+^   | (bad-continuation)
+C:996, 0: Wrong hanging indentation (add 4 spaces).
+(0.7843, 0.3961, 0.3961),
+^   | (bad-continuation)
+C:997, 0: Wrong hanging indentation (add 4 spaces).
+(0.8941, 0.6651, 0.6651),
+^   | (bad-continuation)
+C:998, 0: Wrong hanging indentation (add 4 spaces).
+(1.0000, 0.9843, 0.9843),
+^   | (bad-continuation)
+C:1002, 0: Wrong hanging indentation (remove 4 spaces).
+        'red': gfunc[3],
+    |   ^ (bad-continuation)
+C:1003, 0: Wrong hanging indentation (remove 4 spaces).
+        'green': gfunc[3],
+    |   ^ (bad-continuation)
+C:1004, 0: Wrong hanging indentation (remove 4 spaces).
+        'blue': gfunc[3],
+    |   ^ (bad-continuation)
+C:1015, 0: Wrong hanging indentation (add 4 spaces).
+(0.0, 0.0, 0.0000),
+^   | (bad-continuation)
+C:1016, 0: Wrong hanging indentation (add 4 spaces).
+(0.3098, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:1017, 0: Wrong hanging indentation (add 4 spaces).
+(0.3725, 0.3993, 0.3993),
+^   | (bad-continuation)
+C:1018, 0: Wrong hanging indentation (add 4 spaces).
+(0.4235, 0.5003, 0.5003),
+^   | (bad-continuation)
+C:1019, 0: Wrong hanging indentation (add 4 spaces).
+(0.5333, 1.0000, 1.0000),
+^   | (bad-continuation)
+C:1020, 0: Wrong hanging indentation (add 4 spaces).
+(0.7922, 1.0000, 1.0000),
+^   | (bad-continuation)
+C:1021, 0: Wrong hanging indentation (add 4 spaces).
+(0.8471, 0.6218, 0.6218),
+^   | (bad-continuation)
+C:1022, 0: Wrong hanging indentation (add 4 spaces).
+(0.8980, 0.9235, 0.9235),
+^   | (bad-continuation)
+C:1023, 0: Wrong hanging indentation (add 4 spaces).
+(1.0000, 0.9961, 0.9961),
+^   | (bad-continuation)
+C:1025, 0: Wrong hanging indentation (add 4 spaces).
+(0.0, 0.0, 0.0000),
+^   | (bad-continuation)
+C:1026, 0: Wrong hanging indentation (add 4 spaces).
+(0.0510, 0.3722, 0.3722),
+^   | (bad-continuation)
+C:1027, 0: Wrong hanging indentation (add 4 spaces).
+(0.1059, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:1028, 0: Wrong hanging indentation (add 4 spaces).
+(0.1569, 0.7202, 0.7202),
+^   | (bad-continuation)
+C:1029, 0: Wrong hanging indentation (add 4 spaces).
+(0.1608, 0.7537, 0.7537),
+^   | (bad-continuation)
+C:1030, 0: Wrong hanging indentation (add 4 spaces).
+(0.1647, 0.7752, 0.7752),
+^   | (bad-continuation)
+C:1031, 0: Wrong hanging indentation (add 4 spaces).
+(0.2157, 1.0000, 1.0000),
+^   | (bad-continuation)
+C:1032, 0: Wrong hanging indentation (add 4 spaces).
+(0.2588, 0.9804, 0.9804),
+^   | (bad-continuation)
+C:1033, 0: Wrong hanging indentation (add 4 spaces).
+(0.2706, 0.9804, 0.9804),
+^   | (bad-continuation)
+C:1034, 0: Wrong hanging indentation (add 4 spaces).
+(0.3176, 1.0000, 1.0000),
+^   | (bad-continuation)
+C:1035, 0: Wrong hanging indentation (add 4 spaces).
+(0.3686, 0.8081, 0.8081),
+^   | (bad-continuation)
+C:1036, 0: Wrong hanging indentation (add 4 spaces).
+(0.4275, 1.0000, 1.0000),
+^   | (bad-continuation)
+C:1037, 0: Wrong hanging indentation (add 4 spaces).
+(0.5216, 1.0000, 1.0000),
+^   | (bad-continuation)
+C:1038, 0: Wrong hanging indentation (add 4 spaces).
+(0.6314, 0.7292, 0.7292),
+^   | (bad-continuation)
+C:1039, 0: Wrong hanging indentation (add 4 spaces).
+(0.6863, 0.2796, 0.2796),
+^   | (bad-continuation)
+C:1040, 0: Wrong hanging indentation (add 4 spaces).
+(0.7451, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:1041, 0: Wrong hanging indentation (add 4 spaces).
+(0.7922, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:1042, 0: Wrong hanging indentation (add 4 spaces).
+(0.8431, 0.1753, 0.1753),
+^   | (bad-continuation)
+C:1043, 0: Wrong hanging indentation (add 4 spaces).
+(0.8980, 0.5000, 0.5000),
+^   | (bad-continuation)
+C:1044, 0: Wrong hanging indentation (add 4 spaces).
+(1.0000, 0.9725, 0.9725),
+^   | (bad-continuation)
+C:1046, 0: Wrong hanging indentation (add 4 spaces).
+(0.0, 0.5020, 0.5020),
+^   | (bad-continuation)
+C:1047, 0: Wrong hanging indentation (add 4 spaces).
+(0.0510, 0.0222, 0.0222),
+^   | (bad-continuation)
+C:1048, 0: Wrong hanging indentation (add 4 spaces).
+(0.1098, 1.0000, 1.0000),
+^   | (bad-continuation)
+C:1049, 0: Wrong hanging indentation (add 4 spaces).
+(0.2039, 1.0000, 1.0000),
+^   | (bad-continuation)
+C:1050, 0: Wrong hanging indentation (add 4 spaces).
+(0.2627, 0.6145, 0.6145),
+^   | (bad-continuation)
+C:1051, 0: Wrong hanging indentation (add 4 spaces).
+(0.3216, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:1052, 0: Wrong hanging indentation (add 4 spaces).
+(0.4157, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:1053, 0: Wrong hanging indentation (add 4 spaces).
+(0.4745, 0.2342, 0.2342),
+^   | (bad-continuation)
+C:1054, 0: Wrong hanging indentation (add 4 spaces).
+(0.5333, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:1055, 0: Wrong hanging indentation (add 4 spaces).
+(0.5804, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:1056, 0: Wrong hanging indentation (add 4 spaces).
+(0.6314, 0.0549, 0.0549),
+^   | (bad-continuation)
+C:1057, 0: Wrong hanging indentation (add 4 spaces).
+(0.6902, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:1058, 0: Wrong hanging indentation (add 4 spaces).
+(0.7373, 0.0000, 0.0000),
+^   | (bad-continuation)
+C:1059, 0: Wrong hanging indentation (add 4 spaces).
+(0.7922, 0.9738, 0.9738),
+^   | (bad-continuation)
+C:1060, 0: Wrong hanging indentation (add 4 spaces).
+(0.8000, 1.0000, 1.0000),
+^   | (bad-continuation)
+C:1061, 0: Wrong hanging indentation (add 4 spaces).
+(0.8431, 1.0000, 1.0000),
+^   | (bad-continuation)
+C:1062, 0: Wrong hanging indentation (add 4 spaces).
+(0.8980, 0.9341, 0.9341),
+^   | (bad-continuation)
+C:1063, 0: Wrong hanging indentation (add 4 spaces).
+(1.0000, 0.9961, 0.9961),
+^   | (bad-continuation)
+C:1067, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.000, (1.00, 0.00, 0.16)),
+    |   ^ (bad-continuation)
+C:1068, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.030, (1.00, 0.00, 0.00)),
+    |   ^ (bad-continuation)
+C:1069, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.215, (1.00, 1.00, 0.00)),
+    |   ^ (bad-continuation)
+C:1070, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.400, (0.00, 1.00, 0.00)),
+    |   ^ (bad-continuation)
+C:1071, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.586, (0.00, 1.00, 1.00)),
+    |   ^ (bad-continuation)
+C:1072, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.770, (0.00, 0.00, 1.00)),
+    |   ^ (bad-continuation)
+C:1073, 0: Wrong hanging indentation (remove 4 spaces).
+        (0.954, (1.00, 0.00, 1.00)),
+    |   ^ (bad-continuation)
+C:1074, 0: Wrong hanging indentation (remove 4 spaces).
+        (1.000, (1.00, 0.00, 0.75))
+    |   ^ (bad-continuation)
+C:1078, 0: Wrong hanging indentation (remove 4 spaces).
+        'red': (
+    |   ^ (bad-continuation)
+C:1082, 0: Wrong hanging indentation (remove 4 spaces).
+        'green': ((0, 0, 0), (1, 1, 1)),
+    |   ^ (bad-continuation)
+C:1083, 0: Wrong hanging indentation (remove 4 spaces).
+        'blue': (
+    |   ^ (bad-continuation)
+C:1204, 0: Wrong continued indentation (add 1 space).
+                           (0.125, 0.15, 0.15),
+                           ^| (bad-continuation)
+C:1205, 0: Wrong continued indentation (add 1 space).
+                           (0.250, 0.30, 0.30),
+                           ^| (bad-continuation)
+C:1206, 0: Wrong continued indentation (add 1 space).
+                           (0.375, 0.60, 0.60),
+                           ^| (bad-continuation)
+C:1207, 0: Wrong continued indentation (add 1 space).
+                           (0.500, 1.00, 1.00),
+                           ^| (bad-continuation)
+C:1208, 0: Wrong continued indentation (add 1 space).
+                           (0.625, 0.90, 0.90),
+                           ^| (bad-continuation)
+C:1209, 0: Wrong continued indentation (add 1 space).
+                           (0.750, 0.90, 0.90),
+                           ^| (bad-continuation)
+C:1210, 0: Wrong continued indentation (add 1 space).
+                           (0.875, 0.90, 0.90),
+                           ^| (bad-continuation)
+C:1211, 0: Wrong continued indentation (add 1 space).
+                           (1.000, 1.00, 1.00)),
+                           ^| (bad-continuation)
+C:1267, 0: Exactly one space required after comma
+    (0.12156862745098039, 0.4666666666666667,  0.7058823529411765  ),  # 1f77b4
+                                            ^ (bad-whitespace)
+C:1267, 0: No space allowed before bracket
+    (0.12156862745098039, 0.4666666666666667,  0.7058823529411765  ),  # 1f77b4
+                                                                   ^ (bad-whitespace)
+C:1268, 0: Exactly one space required after comma
+    (1.0,                 0.4980392156862745,  0.054901960784313725),  # ff7f0e
+        ^ (bad-whitespace)
+C:1268, 0: Exactly one space required after comma
+    (1.0,                 0.4980392156862745,  0.054901960784313725),  # ff7f0e
+                                            ^ (bad-whitespace)
+C:1269, 0: Exactly one space required after comma
+    (0.17254901960784313, 0.6274509803921569,  0.17254901960784313 ),  # 2ca02c
+                                            ^ (bad-whitespace)
+C:1269, 0: No space allowed before bracket
+    (0.17254901960784313, 0.6274509803921569,  0.17254901960784313 ),  # 2ca02c
+                                                                   ^ (bad-whitespace)
+C:1270, 0: Exactly one space required after comma
+    (0.8392156862745098,  0.15294117647058825, 0.1568627450980392  ),  # d62728
+                       ^ (bad-whitespace)
+C:1270, 0: No space allowed before bracket
+    (0.8392156862745098,  0.15294117647058825, 0.1568627450980392  ),  # d62728
+                                                                   ^ (bad-whitespace)
+C:1271, 0: Exactly one space required after comma
+    (0.5803921568627451,  0.403921568627451,   0.7411764705882353  ),  # 9467bd
+                       ^ (bad-whitespace)
+C:1271, 0: Exactly one space required after comma
+    (0.5803921568627451,  0.403921568627451,   0.7411764705882353  ),  # 9467bd
+                                           ^ (bad-whitespace)
+C:1271, 0: No space allowed before bracket
+    (0.5803921568627451,  0.403921568627451,   0.7411764705882353  ),  # 9467bd
+                                                                   ^ (bad-whitespace)
+C:1272, 0: Exactly one space required after comma
+    (0.5490196078431373,  0.33725490196078434, 0.29411764705882354 ),  # 8c564b
+                       ^ (bad-whitespace)
+C:1272, 0: No space allowed before bracket
+    (0.5490196078431373,  0.33725490196078434, 0.29411764705882354 ),  # 8c564b
+                                                                   ^ (bad-whitespace)
+C:1273, 0: Exactly one space required after comma
+    (0.8901960784313725,  0.4666666666666667,  0.7607843137254902  ),  # e377c2
+                       ^ (bad-whitespace)
+C:1273, 0: Exactly one space required after comma
+    (0.8901960784313725,  0.4666666666666667,  0.7607843137254902  ),  # e377c2
+                                            ^ (bad-whitespace)
+C:1273, 0: No space allowed before bracket
+    (0.8901960784313725,  0.4666666666666667,  0.7607843137254902  ),  # e377c2
+                                                                   ^ (bad-whitespace)
+C:1274, 0: Exactly one space required after comma
+    (0.4980392156862745,  0.4980392156862745,  0.4980392156862745  ),  # 7f7f7f
+                       ^ (bad-whitespace)
+C:1274, 0: Exactly one space required after comma
+    (0.4980392156862745,  0.4980392156862745,  0.4980392156862745  ),  # 7f7f7f
+                                            ^ (bad-whitespace)
+C:1274, 0: No space allowed before bracket
+    (0.4980392156862745,  0.4980392156862745,  0.4980392156862745  ),  # 7f7f7f
+                                                                   ^ (bad-whitespace)
+C:1275, 0: Exactly one space required after comma
+    (0.7372549019607844,  0.7411764705882353,  0.13333333333333333 ),  # bcbd22
+                       ^ (bad-whitespace)
+C:1275, 0: Exactly one space required after comma
+    (0.7372549019607844,  0.7411764705882353,  0.13333333333333333 ),  # bcbd22
+                                            ^ (bad-whitespace)
+C:1275, 0: No space allowed before bracket
+    (0.7372549019607844,  0.7411764705882353,  0.13333333333333333 ),  # bcbd22
+                                                                   ^ (bad-whitespace)
+C:1276, 0: Exactly one space required after comma
+    (0.09019607843137255, 0.7450980392156863,  0.8117647058823529),    # 17becf
+                                            ^ (bad-whitespace)
+C:1280, 0: Exactly one space required after comma
+    (0.12156862745098039, 0.4666666666666667,  0.7058823529411765  ),  # 1f77b4
+                                            ^ (bad-whitespace)
+C:1280, 0: No space allowed before bracket
+    (0.12156862745098039, 0.4666666666666667,  0.7058823529411765  ),  # 1f77b4
+                                                                   ^ (bad-whitespace)
+C:1281, 0: Exactly one space required after comma
+    (0.6823529411764706,  0.7803921568627451,  0.9098039215686274  ),  # aec7e8
+                       ^ (bad-whitespace)
+C:1281, 0: Exactly one space required after comma
+    (0.6823529411764706,  0.7803921568627451,  0.9098039215686274  ),  # aec7e8
+                                            ^ (bad-whitespace)
+C:1281, 0: No space allowed before bracket
+    (0.6823529411764706,  0.7803921568627451,  0.9098039215686274  ),  # aec7e8
+                                                                   ^ (bad-whitespace)
+C:1282, 0: Exactly one space required after comma
+    (1.0,                 0.4980392156862745,  0.054901960784313725),  # ff7f0e
+        ^ (bad-whitespace)
+C:1282, 0: Exactly one space required after comma
+    (1.0,                 0.4980392156862745,  0.054901960784313725),  # ff7f0e
+                                            ^ (bad-whitespace)
+C:1283, 0: Exactly one space required after comma
+    (1.0,                 0.7333333333333333,  0.47058823529411764 ),  # ffbb78
+        ^ (bad-whitespace)
+C:1283, 0: Exactly one space required after comma
+    (1.0,                 0.7333333333333333,  0.47058823529411764 ),  # ffbb78
+                                            ^ (bad-whitespace)
+C:1283, 0: No space allowed before bracket
+    (1.0,                 0.7333333333333333,  0.47058823529411764 ),  # ffbb78
+                                                                   ^ (bad-whitespace)
+C:1284, 0: Exactly one space required after comma
+    (0.17254901960784313, 0.6274509803921569,  0.17254901960784313 ),  # 2ca02c
+                                            ^ (bad-whitespace)
+C:1284, 0: No space allowed before bracket
+    (0.17254901960784313, 0.6274509803921569,  0.17254901960784313 ),  # 2ca02c
+                                                                   ^ (bad-whitespace)
+C:1285, 0: Exactly one space required after comma
+    (0.596078431372549,   0.8745098039215686,  0.5411764705882353  ),  # 98df8a
+                      ^ (bad-whitespace)
+C:1285, 0: Exactly one space required after comma
+    (0.596078431372549,   0.8745098039215686,  0.5411764705882353  ),  # 98df8a
+                                            ^ (bad-whitespace)
+C:1285, 0: No space allowed before bracket
+    (0.596078431372549,   0.8745098039215686,  0.5411764705882353  ),  # 98df8a
+                                                                   ^ (bad-whitespace)
+C:1286, 0: Exactly one space required after comma
+    (0.8392156862745098,  0.15294117647058825, 0.1568627450980392  ),  # d62728
+                       ^ (bad-whitespace)
+C:1286, 0: No space allowed before bracket
+    (0.8392156862745098,  0.15294117647058825, 0.1568627450980392  ),  # d62728
+                                                                   ^ (bad-whitespace)
+C:1287, 0: Exactly one space required after comma
+    (1.0,                 0.596078431372549,   0.5882352941176471  ),  # ff9896
+        ^ (bad-whitespace)
+C:1287, 0: Exactly one space required after comma
+    (1.0,                 0.596078431372549,   0.5882352941176471  ),  # ff9896
+                                           ^ (bad-whitespace)
+C:1287, 0: No space allowed before bracket
+    (1.0,                 0.596078431372549,   0.5882352941176471  ),  # ff9896
+                                                                   ^ (bad-whitespace)
+C:1288, 0: Exactly one space required after comma
+    (0.5803921568627451,  0.403921568627451,   0.7411764705882353  ),  # 9467bd
+                       ^ (bad-whitespace)
+C:1288, 0: Exactly one space required after comma
+    (0.5803921568627451,  0.403921568627451,   0.7411764705882353  ),  # 9467bd
+                                           ^ (bad-whitespace)
+C:1288, 0: No space allowed before bracket
+    (0.5803921568627451,  0.403921568627451,   0.7411764705882353  ),  # 9467bd
+                                                                   ^ (bad-whitespace)
+C:1289, 0: Exactly one space required after comma
+    (0.7725490196078432,  0.6901960784313725,  0.8352941176470589  ),  # c5b0d5
+                       ^ (bad-whitespace)
+C:1289, 0: Exactly one space required after comma
+    (0.7725490196078432,  0.6901960784313725,  0.8352941176470589  ),  # c5b0d5
+                                            ^ (bad-whitespace)
+C:1289, 0: No space allowed before bracket
+    (0.7725490196078432,  0.6901960784313725,  0.8352941176470589  ),  # c5b0d5
+                                                                   ^ (bad-whitespace)
+C:1290, 0: Exactly one space required after comma
+    (0.5490196078431373,  0.33725490196078434, 0.29411764705882354 ),  # 8c564b
+                       ^ (bad-whitespace)
+C:1290, 0: No space allowed before bracket
+    (0.5490196078431373,  0.33725490196078434, 0.29411764705882354 ),  # 8c564b
+                                                                   ^ (bad-whitespace)
+C:1291, 0: Exactly one space required after comma
+    (0.7686274509803922,  0.611764705882353,   0.5803921568627451  ),  # c49c94
+                       ^ (bad-whitespace)
+C:1291, 0: Exactly one space required after comma
+    (0.7686274509803922,  0.611764705882353,   0.5803921568627451  ),  # c49c94
+                                           ^ (bad-whitespace)
+C:1291, 0: No space allowed before bracket
+    (0.7686274509803922,  0.611764705882353,   0.5803921568627451  ),  # c49c94
+                                                                   ^ (bad-whitespace)
+C:1292, 0: Exactly one space required after comma
+    (0.8901960784313725,  0.4666666666666667,  0.7607843137254902  ),  # e377c2
+                       ^ (bad-whitespace)
+C:1292, 0: Exactly one space required after comma
+    (0.8901960784313725,  0.4666666666666667,  0.7607843137254902  ),  # e377c2
+                                            ^ (bad-whitespace)
+C:1292, 0: No space allowed before bracket
+    (0.8901960784313725,  0.4666666666666667,  0.7607843137254902  ),  # e377c2
+                                                                   ^ (bad-whitespace)
+C:1293, 0: Exactly one space required after comma
+    (0.9686274509803922,  0.7137254901960784,  0.8235294117647058  ),  # f7b6d2
+                       ^ (bad-whitespace)
+C:1293, 0: Exactly one space required after comma
+    (0.9686274509803922,  0.7137254901960784,  0.8235294117647058  ),  # f7b6d2
+                                            ^ (bad-whitespace)
+C:1293, 0: No space allowed before bracket
+    (0.9686274509803922,  0.7137254901960784,  0.8235294117647058  ),  # f7b6d2
+                                                                   ^ (bad-whitespace)
+C:1294, 0: Exactly one space required after comma
+    (0.4980392156862745,  0.4980392156862745,  0.4980392156862745  ),  # 7f7f7f
+                       ^ (bad-whitespace)
+C:1294, 0: Exactly one space required after comma
+    (0.4980392156862745,  0.4980392156862745,  0.4980392156862745  ),  # 7f7f7f
+                                            ^ (bad-whitespace)
+C:1294, 0: No space allowed before bracket
+    (0.4980392156862745,  0.4980392156862745,  0.4980392156862745  ),  # 7f7f7f
+                                                                   ^ (bad-whitespace)
+C:1295, 0: Exactly one space required after comma
+    (0.7803921568627451,  0.7803921568627451,  0.7803921568627451  ),  # c7c7c7
+                       ^ (bad-whitespace)
+C:1295, 0: Exactly one space required after comma
+    (0.7803921568627451,  0.7803921568627451,  0.7803921568627451  ),  # c7c7c7
+                                            ^ (bad-whitespace)
+C:1295, 0: No space allowed before bracket
+    (0.7803921568627451,  0.7803921568627451,  0.7803921568627451  ),  # c7c7c7
+                                                                   ^ (bad-whitespace)
+C:1296, 0: Exactly one space required after comma
+    (0.7372549019607844,  0.7411764705882353,  0.13333333333333333 ),  # bcbd22
+                       ^ (bad-whitespace)
+C:1296, 0: Exactly one space required after comma
+    (0.7372549019607844,  0.7411764705882353,  0.13333333333333333 ),  # bcbd22
+                                            ^ (bad-whitespace)
+C:1296, 0: No space allowed before bracket
+    (0.7372549019607844,  0.7411764705882353,  0.13333333333333333 ),  # bcbd22
+                                                                   ^ (bad-whitespace)
+C:1297, 0: Exactly one space required after comma
+    (0.8588235294117647,  0.8588235294117647,  0.5529411764705883  ),  # dbdb8d
+                       ^ (bad-whitespace)
+C:1297, 0: Exactly one space required after comma
+    (0.8588235294117647,  0.8588235294117647,  0.5529411764705883  ),  # dbdb8d
+                                            ^ (bad-whitespace)
+C:1297, 0: No space allowed before bracket
+    (0.8588235294117647,  0.8588235294117647,  0.5529411764705883  ),  # dbdb8d
+                                                                   ^ (bad-whitespace)
+C:1298, 0: Exactly one space required after comma
+    (0.09019607843137255, 0.7450980392156863,  0.8117647058823529  ),  # 17becf
+                                            ^ (bad-whitespace)
+C:1298, 0: No space allowed before bracket
+    (0.09019607843137255, 0.7450980392156863,  0.8117647058823529  ),  # 17becf
+                                                                   ^ (bad-whitespace)
+C:1299, 0: Exactly one space required after comma
+    (0.6196078431372549,  0.8549019607843137,  0.8980392156862745),    # 9edae5
+                       ^ (bad-whitespace)
+C:1299, 0: Exactly one space required after comma
+    (0.6196078431372549,  0.8549019607843137,  0.8980392156862745),    # 9edae5
+                                            ^ (bad-whitespace)
+C:1303, 0: Exactly one space required after comma
+    (0.2235294117647059,  0.23137254901960785, 0.4745098039215686 ),  # 393b79
+                       ^ (bad-whitespace)
+C:1303, 0: No space allowed before bracket
+    (0.2235294117647059,  0.23137254901960785, 0.4745098039215686 ),  # 393b79
+                                                                  ^ (bad-whitespace)
+C:1304, 0: Exactly one space required after comma
+    (0.3215686274509804,  0.32941176470588235, 0.6392156862745098 ),  # 5254a3
+                       ^ (bad-whitespace)
+C:1304, 0: No space allowed before bracket
+    (0.3215686274509804,  0.32941176470588235, 0.6392156862745098 ),  # 5254a3
+                                                                  ^ (bad-whitespace)
+C:1305, 0: Exactly one space required after comma
+    (0.4196078431372549,  0.43137254901960786, 0.8117647058823529 ),  # 6b6ecf
+                       ^ (bad-whitespace)
+C:1305, 0: No space allowed before bracket
+    (0.4196078431372549,  0.43137254901960786, 0.8117647058823529 ),  # 6b6ecf
+                                                                  ^ (bad-whitespace)
+C:1306, 0: Exactly one space required after comma
+    (0.611764705882353,   0.6196078431372549,  0.8705882352941177 ),  # 9c9ede
+                      ^ (bad-whitespace)
+C:1306, 0: Exactly one space required after comma
+    (0.611764705882353,   0.6196078431372549,  0.8705882352941177 ),  # 9c9ede
+                                            ^ (bad-whitespace)
+C:1306, 0: No space allowed before bracket
+    (0.611764705882353,   0.6196078431372549,  0.8705882352941177 ),  # 9c9ede
+                                                                  ^ (bad-whitespace)
+C:1307, 0: Exactly one space required after comma
+    (0.38823529411764707, 0.4745098039215686,  0.2235294117647059 ),  # 637939
+                                            ^ (bad-whitespace)
+C:1307, 0: No space allowed before bracket
+    (0.38823529411764707, 0.4745098039215686,  0.2235294117647059 ),  # 637939
+                                                                  ^ (bad-whitespace)
+C:1308, 0: Exactly one space required after comma
+    (0.5490196078431373,  0.6352941176470588,  0.3215686274509804 ),  # 8ca252
+                       ^ (bad-whitespace)
+C:1308, 0: Exactly one space required after comma
+    (0.5490196078431373,  0.6352941176470588,  0.3215686274509804 ),  # 8ca252
+                                            ^ (bad-whitespace)
+C:1308, 0: No space allowed before bracket
+    (0.5490196078431373,  0.6352941176470588,  0.3215686274509804 ),  # 8ca252
+                                                                  ^ (bad-whitespace)
+C:1309, 0: Exactly one space required after comma
+    (0.7098039215686275,  0.8117647058823529,  0.4196078431372549 ),  # b5cf6b
+                       ^ (bad-whitespace)
+C:1309, 0: Exactly one space required after comma
+    (0.7098039215686275,  0.8117647058823529,  0.4196078431372549 ),  # b5cf6b
+                                            ^ (bad-whitespace)
+C:1309, 0: No space allowed before bracket
+    (0.7098039215686275,  0.8117647058823529,  0.4196078431372549 ),  # b5cf6b
+                                                                  ^ (bad-whitespace)
+C:1310, 0: Exactly one space required after comma
+    (0.807843137254902,   0.8588235294117647,  0.611764705882353  ),  # cedb9c
+                      ^ (bad-whitespace)
+C:1310, 0: Exactly one space required after comma
+    (0.807843137254902,   0.8588235294117647,  0.611764705882353  ),  # cedb9c
+                                            ^ (bad-whitespace)
+C:1310, 0: No space allowed before bracket
+    (0.807843137254902,   0.8588235294117647,  0.611764705882353  ),  # cedb9c
+                                                                  ^ (bad-whitespace)
+C:1311, 0: Exactly one space required after comma
+    (0.5490196078431373,  0.42745098039215684, 0.19215686274509805),  # 8c6d31
+                       ^ (bad-whitespace)
+C:1312, 0: Exactly one space required after comma
+    (0.7411764705882353,  0.6196078431372549,  0.2235294117647059 ),  # bd9e39
+                       ^ (bad-whitespace)
+C:1312, 0: Exactly one space required after comma
+    (0.7411764705882353,  0.6196078431372549,  0.2235294117647059 ),  # bd9e39
+                                            ^ (bad-whitespace)
+C:1312, 0: No space allowed before bracket
+    (0.7411764705882353,  0.6196078431372549,  0.2235294117647059 ),  # bd9e39
+                                                                  ^ (bad-whitespace)
+C:1313, 0: Exactly one space required after comma
+    (0.9058823529411765,  0.7294117647058823,  0.3215686274509804 ),  # e7ba52
+                       ^ (bad-whitespace)
+C:1313, 0: Exactly one space required after comma
+    (0.9058823529411765,  0.7294117647058823,  0.3215686274509804 ),  # e7ba52
+                                            ^ (bad-whitespace)
+C:1313, 0: No space allowed before bracket
+    (0.9058823529411765,  0.7294117647058823,  0.3215686274509804 ),  # e7ba52
+                                                                  ^ (bad-whitespace)
+C:1314, 0: Exactly one space required after comma
+    (0.9058823529411765,  0.796078431372549,   0.5803921568627451 ),  # e7cb94
+                       ^ (bad-whitespace)
+C:1314, 0: Exactly one space required after comma
+    (0.9058823529411765,  0.796078431372549,   0.5803921568627451 ),  # e7cb94
+                                           ^ (bad-whitespace)
+C:1314, 0: No space allowed before bracket
+    (0.9058823529411765,  0.796078431372549,   0.5803921568627451 ),  # e7cb94
+                                                                  ^ (bad-whitespace)
+C:1315, 0: Exactly one space required after comma
+    (0.5176470588235295,  0.23529411764705882, 0.2235294117647059 ),  # 843c39
+                       ^ (bad-whitespace)
+C:1315, 0: No space allowed before bracket
+    (0.5176470588235295,  0.23529411764705882, 0.2235294117647059 ),  # 843c39
+                                                                  ^ (bad-whitespace)
+C:1316, 0: Exactly one space required after comma
+    (0.6784313725490196,  0.28627450980392155, 0.2901960784313726 ),  # ad494a
+                       ^ (bad-whitespace)
+C:1316, 0: No space allowed before bracket
+    (0.6784313725490196,  0.28627450980392155, 0.2901960784313726 ),  # ad494a
+                                                                  ^ (bad-whitespace)
+C:1317, 0: Exactly one space required after comma
+    (0.8392156862745098,  0.3803921568627451,  0.4196078431372549 ),  # d6616b
+                       ^ (bad-whitespace)
+C:1317, 0: Exactly one space required after comma
+    (0.8392156862745098,  0.3803921568627451,  0.4196078431372549 ),  # d6616b
+                                            ^ (bad-whitespace)
+C:1317, 0: No space allowed before bracket
+    (0.8392156862745098,  0.3803921568627451,  0.4196078431372549 ),  # d6616b
+                                                                  ^ (bad-whitespace)
+C:1318, 0: Exactly one space required after comma
+    (0.9058823529411765,  0.5882352941176471,  0.611764705882353  ),  # e7969c
+                       ^ (bad-whitespace)
+C:1318, 0: Exactly one space required after comma
+    (0.9058823529411765,  0.5882352941176471,  0.611764705882353  ),  # e7969c
+                                            ^ (bad-whitespace)
+C:1318, 0: No space allowed before bracket
+    (0.9058823529411765,  0.5882352941176471,  0.611764705882353  ),  # e7969c
+                                                                  ^ (bad-whitespace)
+C:1319, 0: Exactly one space required after comma
+    (0.4823529411764706,  0.2549019607843137,  0.45098039215686275),  # 7b4173
+                       ^ (bad-whitespace)
+C:1319, 0: Exactly one space required after comma
+    (0.4823529411764706,  0.2549019607843137,  0.45098039215686275),  # 7b4173
+                                            ^ (bad-whitespace)
+C:1320, 0: Exactly one space required after comma
+    (0.6470588235294118,  0.3176470588235294,  0.5803921568627451 ),  # a55194
+                       ^ (bad-whitespace)
+C:1320, 0: Exactly one space required after comma
+    (0.6470588235294118,  0.3176470588235294,  0.5803921568627451 ),  # a55194
+                                            ^ (bad-whitespace)
+C:1320, 0: No space allowed before bracket
+    (0.6470588235294118,  0.3176470588235294,  0.5803921568627451 ),  # a55194
+                                                                  ^ (bad-whitespace)
+C:1321, 0: Exactly one space required after comma
+    (0.807843137254902,   0.42745098039215684, 0.7411764705882353 ),  # ce6dbd
+                      ^ (bad-whitespace)
+C:1321, 0: No space allowed before bracket
+    (0.807843137254902,   0.42745098039215684, 0.7411764705882353 ),  # ce6dbd
+                                                                  ^ (bad-whitespace)
+C:1322, 0: Exactly one space required after comma
+    (0.8705882352941177,  0.6196078431372549,  0.8392156862745098 ),  # de9ed6
+                       ^ (bad-whitespace)
+C:1322, 0: Exactly one space required after comma
+    (0.8705882352941177,  0.6196078431372549,  0.8392156862745098 ),  # de9ed6
+                                            ^ (bad-whitespace)
+C:1322, 0: No space allowed before bracket
+    (0.8705882352941177,  0.6196078431372549,  0.8392156862745098 ),  # de9ed6
+                                                                  ^ (bad-whitespace)
+C:1326, 0: Exactly one space required after comma
+    (0.19215686274509805, 0.5098039215686274,  0.7411764705882353  ),  # 3182bd
+                                            ^ (bad-whitespace)
+C:1326, 0: No space allowed before bracket
+    (0.19215686274509805, 0.5098039215686274,  0.7411764705882353  ),  # 3182bd
+                                                                   ^ (bad-whitespace)
+C:1327, 0: Exactly one space required after comma
+    (0.4196078431372549,  0.6823529411764706,  0.8392156862745098  ),  # 6baed6
+                       ^ (bad-whitespace)
+C:1327, 0: Exactly one space required after comma
+    (0.4196078431372549,  0.6823529411764706,  0.8392156862745098  ),  # 6baed6
+                                            ^ (bad-whitespace)
+C:1327, 0: No space allowed before bracket
+    (0.4196078431372549,  0.6823529411764706,  0.8392156862745098  ),  # 6baed6
+                                                                   ^ (bad-whitespace)
+C:1328, 0: Exactly one space required after comma
+    (0.6196078431372549,  0.792156862745098,   0.8823529411764706  ),  # 9ecae1
+                       ^ (bad-whitespace)
+C:1328, 0: Exactly one space required after comma
+    (0.6196078431372549,  0.792156862745098,   0.8823529411764706  ),  # 9ecae1
+                                           ^ (bad-whitespace)
+C:1328, 0: No space allowed before bracket
+    (0.6196078431372549,  0.792156862745098,   0.8823529411764706  ),  # 9ecae1
+                                                                   ^ (bad-whitespace)
+C:1329, 0: Exactly one space required after comma
+    (0.7764705882352941,  0.8588235294117647,  0.9372549019607843  ),  # c6dbef
+                       ^ (bad-whitespace)
+C:1329, 0: Exactly one space required after comma
+    (0.7764705882352941,  0.8588235294117647,  0.9372549019607843  ),  # c6dbef
+                                            ^ (bad-whitespace)
+C:1329, 0: No space allowed before bracket
+    (0.7764705882352941,  0.8588235294117647,  0.9372549019607843  ),  # c6dbef
+                                                                   ^ (bad-whitespace)
+C:1330, 0: Exactly one space required after comma
+    (0.9019607843137255,  0.3333333333333333,  0.050980392156862744),  # e6550d
+                       ^ (bad-whitespace)
+C:1330, 0: Exactly one space required after comma
+    (0.9019607843137255,  0.3333333333333333,  0.050980392156862744),  # e6550d
+                                            ^ (bad-whitespace)
+C:1331, 0: Exactly one space required after comma
+    (0.9921568627450981,  0.5529411764705883,  0.23529411764705882 ),  # fd8d3c
+                       ^ (bad-whitespace)
+C:1331, 0: Exactly one space required after comma
+    (0.9921568627450981,  0.5529411764705883,  0.23529411764705882 ),  # fd8d3c
+                                            ^ (bad-whitespace)
+C:1331, 0: No space allowed before bracket
+    (0.9921568627450981,  0.5529411764705883,  0.23529411764705882 ),  # fd8d3c
+                                                                   ^ (bad-whitespace)
+C:1332, 0: Exactly one space required after comma
+    (0.9921568627450981,  0.6823529411764706,  0.4196078431372549  ),  # fdae6b
+                       ^ (bad-whitespace)
+C:1332, 0: Exactly one space required after comma
+    (0.9921568627450981,  0.6823529411764706,  0.4196078431372549  ),  # fdae6b
+                                            ^ (bad-whitespace)
+C:1332, 0: No space allowed before bracket
+    (0.9921568627450981,  0.6823529411764706,  0.4196078431372549  ),  # fdae6b
+                                                                   ^ (bad-whitespace)
+C:1333, 0: Exactly one space required after comma
+    (0.9921568627450981,  0.8156862745098039,  0.6352941176470588  ),  # fdd0a2
+                       ^ (bad-whitespace)
+C:1333, 0: Exactly one space required after comma
+    (0.9921568627450981,  0.8156862745098039,  0.6352941176470588  ),  # fdd0a2
+                                            ^ (bad-whitespace)
+C:1333, 0: No space allowed before bracket
+    (0.9921568627450981,  0.8156862745098039,  0.6352941176470588  ),  # fdd0a2
+                                                                   ^ (bad-whitespace)
+C:1334, 0: Exactly one space required after comma
+    (0.19215686274509805, 0.6392156862745098,  0.32941176470588235 ),  # 31a354
+                                            ^ (bad-whitespace)
+C:1334, 0: No space allowed before bracket
+    (0.19215686274509805, 0.6392156862745098,  0.32941176470588235 ),  # 31a354
+                                                                   ^ (bad-whitespace)
+C:1335, 0: Exactly one space required after comma
+    (0.4549019607843137,  0.7686274509803922,  0.4627450980392157  ),  # 74c476
+                       ^ (bad-whitespace)
+C:1335, 0: Exactly one space required after comma
+    (0.4549019607843137,  0.7686274509803922,  0.4627450980392157  ),  # 74c476
+                                            ^ (bad-whitespace)
+C:1335, 0: No space allowed before bracket
+    (0.4549019607843137,  0.7686274509803922,  0.4627450980392157  ),  # 74c476
+                                                                   ^ (bad-whitespace)
+C:1336, 0: Exactly one space required after comma
+    (0.6313725490196078,  0.8509803921568627,  0.6078431372549019  ),  # a1d99b
+                       ^ (bad-whitespace)
+C:1336, 0: Exactly one space required after comma
+    (0.6313725490196078,  0.8509803921568627,  0.6078431372549019  ),  # a1d99b
+                                            ^ (bad-whitespace)
+C:1336, 0: No space allowed before bracket
+    (0.6313725490196078,  0.8509803921568627,  0.6078431372549019  ),  # a1d99b
+                                                                   ^ (bad-whitespace)
+C:1337, 0: Exactly one space required after comma
+    (0.7803921568627451,  0.9137254901960784,  0.7529411764705882  ),  # c7e9c0
+                       ^ (bad-whitespace)
+C:1337, 0: Exactly one space required after comma
+    (0.7803921568627451,  0.9137254901960784,  0.7529411764705882  ),  # c7e9c0
+                                            ^ (bad-whitespace)
+C:1337, 0: No space allowed before bracket
+    (0.7803921568627451,  0.9137254901960784,  0.7529411764705882  ),  # c7e9c0
+                                                                   ^ (bad-whitespace)
+C:1338, 0: Exactly one space required after comma
+    (0.4588235294117647,  0.4196078431372549,  0.6941176470588235  ),  # 756bb1
+                       ^ (bad-whitespace)
+C:1338, 0: Exactly one space required after comma
+    (0.4588235294117647,  0.4196078431372549,  0.6941176470588235  ),  # 756bb1
+                                            ^ (bad-whitespace)
+C:1338, 0: No space allowed before bracket
+    (0.4588235294117647,  0.4196078431372549,  0.6941176470588235  ),  # 756bb1
+                                                                   ^ (bad-whitespace)
+C:1339, 0: Exactly one space required after comma
+    (0.6196078431372549,  0.6039215686274509,  0.7843137254901961  ),  # 9e9ac8
+                       ^ (bad-whitespace)
+C:1339, 0: Exactly one space required after comma
+    (0.6196078431372549,  0.6039215686274509,  0.7843137254901961  ),  # 9e9ac8
+                                            ^ (bad-whitespace)
+C:1339, 0: No space allowed before bracket
+    (0.6196078431372549,  0.6039215686274509,  0.7843137254901961  ),  # 9e9ac8
+                                                                   ^ (bad-whitespace)
+C:1340, 0: Exactly one space required after comma
+    (0.7372549019607844,  0.7411764705882353,  0.8627450980392157  ),  # bcbddc
+                       ^ (bad-whitespace)
+C:1340, 0: Exactly one space required after comma
+    (0.7372549019607844,  0.7411764705882353,  0.8627450980392157  ),  # bcbddc
+                                            ^ (bad-whitespace)
+C:1340, 0: No space allowed before bracket
+    (0.7372549019607844,  0.7411764705882353,  0.8627450980392157  ),  # bcbddc
+                                                                   ^ (bad-whitespace)
+C:1341, 0: Exactly one space required after comma
+    (0.8549019607843137,  0.8549019607843137,  0.9215686274509803  ),  # dadaeb
+                       ^ (bad-whitespace)
+C:1341, 0: Exactly one space required after comma
+    (0.8549019607843137,  0.8549019607843137,  0.9215686274509803  ),  # dadaeb
+                                            ^ (bad-whitespace)
+C:1341, 0: No space allowed before bracket
+    (0.8549019607843137,  0.8549019607843137,  0.9215686274509803  ),  # dadaeb
+                                                                   ^ (bad-whitespace)
+C:1342, 0: No space allowed before bracket
+    (0.38823529411764707, 0.38823529411764707, 0.38823529411764707 ),  # 636363
+                                                                   ^ (bad-whitespace)
+C:1343, 0: Exactly one space required after comma
+    (0.5882352941176471,  0.5882352941176471,  0.5882352941176471  ),  # 969696
+                       ^ (bad-whitespace)
+C:1343, 0: Exactly one space required after comma
+    (0.5882352941176471,  0.5882352941176471,  0.5882352941176471  ),  # 969696
+                                            ^ (bad-whitespace)
+C:1343, 0: No space allowed before bracket
+    (0.5882352941176471,  0.5882352941176471,  0.5882352941176471  ),  # 969696
+                                                                   ^ (bad-whitespace)
+C:1344, 0: Exactly one space required after comma
+    (0.7411764705882353,  0.7411764705882353,  0.7411764705882353  ),  # bdbdbd
+                       ^ (bad-whitespace)
+C:1344, 0: Exactly one space required after comma
+    (0.7411764705882353,  0.7411764705882353,  0.7411764705882353  ),  # bdbdbd
+                                            ^ (bad-whitespace)
+C:1344, 0: No space allowed before bracket
+    (0.7411764705882353,  0.7411764705882353,  0.7411764705882353  ),  # bdbdbd
+                                                                   ^ (bad-whitespace)
+C:1345, 0: Exactly one space required after comma
+    (0.8509803921568627,  0.8509803921568627,  0.8509803921568627  ),  # d9d9d9
+                       ^ (bad-whitespace)
+C:1345, 0: Exactly one space required after comma
+    (0.8509803921568627,  0.8509803921568627,  0.8509803921568627  ),  # d9d9d9
+                                            ^ (bad-whitespace)
+C:1345, 0: No space allowed before bracket
+    (0.8509803921568627,  0.8509803921568627,  0.8509803921568627  ),  # d9d9d9
+                                                                   ^ (bad-whitespace)
+C:  1, 0: Too many lines in module (1426/1000) (too-many-lines)
+C: 13, 0: Constant name "_binary_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 19, 0: Constant name "_autumn_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 23, 0: Constant name "_bone_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 34, 0: Constant name "_cool_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 38, 0: Constant name "_copper_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 46, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 46,18: More than one statement on a single line (multiple-statements)
+C: 47, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 47,20: More than one statement on a single line (multiple-statements)
+C: 48, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 48,19: More than one statement on a single line (multiple-statements)
+C: 49, 0: Constant name "_flag_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 51, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 51,19: More than one statement on a single line (multiple-statements)
+C: 52, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 52,21: More than one statement on a single line (multiple-statements)
+C: 53, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 53,20: More than one statement on a single line (multiple-statements)
+C: 54, 0: Constant name "_prism_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 56, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 56, 0: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+C: 56, 0: Argument name "h" doesn't conform to snake_case naming style (invalid-name)
+C: 56, 0: Argument name "p0" doesn't conform to snake_case naming style (invalid-name)
+C: 56, 0: Argument name "p1" doesn't conform to snake_case naming style (invalid-name)
+C: 56, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+R: 56, 0: Too many arguments (7/5) (too-many-arguments)
+C: 59, 4: Variable name "xg" doesn't conform to snake_case naming style (invalid-name)
+C: 62, 4: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 66, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 66, 0: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+C: 66, 0: Argument name "h" doesn't conform to snake_case naming style (invalid-name)
+C:108, 0: Constant name "_cubehelix_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:110, 0: Constant name "_bwr_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:111, 0: Constant name "_brg_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:114, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:114,12: More than one statement on a single line (multiple-statements)
+W:114, 8: Unused argument 'x' (unused-argument)
+C:115, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:115,12: More than one statement on a single line (multiple-statements)
+W:115, 8: Unused argument 'x' (unused-argument)
+C:116, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:116,12: More than one statement on a single line (multiple-statements)
+W:116, 8: Unused argument 'x' (unused-argument)
+C:117, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:117,12: More than one statement on a single line (multiple-statements)
+C:118, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:118,12: More than one statement on a single line (multiple-statements)
+C:119, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:119,12: More than one statement on a single line (multiple-statements)
+C:120, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:120,12: More than one statement on a single line (multiple-statements)
+C:121, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:121,12: More than one statement on a single line (multiple-statements)
+C:122, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:122,12: More than one statement on a single line (multiple-statements)
+C:123, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:123,12: More than one statement on a single line (multiple-statements)
+C:124, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:124,13: More than one statement on a single line (multiple-statements)
+C:125, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:125,13: More than one statement on a single line (multiple-statements)
+C:126, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:126,13: More than one statement on a single line (multiple-statements)
+C:127, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:127,13: More than one statement on a single line (multiple-statements)
+C:128, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:128,13: More than one statement on a single line (multiple-statements)
+C:129, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:129,13: More than one statement on a single line (multiple-statements)
+C:130, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:130,13: More than one statement on a single line (multiple-statements)
+C:131, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:131,13: More than one statement on a single line (multiple-statements)
+C:132, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:132,13: More than one statement on a single line (multiple-statements)
+C:133, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:133,13: More than one statement on a single line (multiple-statements)
+C:134, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:134,13: More than one statement on a single line (multiple-statements)
+C:135, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:135,13: More than one statement on a single line (multiple-statements)
+C:136, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:136,13: More than one statement on a single line (multiple-statements)
+C:137, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:137,13: More than one statement on a single line (multiple-statements)
+C:138, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:138,13: More than one statement on a single line (multiple-statements)
+C:139, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:139,13: More than one statement on a single line (multiple-statements)
+C:140, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:140,13: More than one statement on a single line (multiple-statements)
+C:141, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:141,13: More than one statement on a single line (multiple-statements)
+C:142, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:142,13: More than one statement on a single line (multiple-statements)
+C:143, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:143,13: More than one statement on a single line (multiple-statements)
+C:144, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:144,13: More than one statement on a single line (multiple-statements)
+C:145, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:145,13: More than one statement on a single line (multiple-statements)
+C:146, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:148, 4: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:150, 4: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:152, 4: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:155, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:155,13: More than one statement on a single line (multiple-statements)
+C:156, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:156,13: More than one statement on a single line (multiple-statements)
+C:157, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:157,13: More than one statement on a single line (multiple-statements)
+C:158, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:158,13: More than one statement on a single line (multiple-statements)
+C:160, 0: Constant name "gfunc" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:162, 0: Constant name "_gnuplot_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:168, 0: Constant name "_gnuplot2_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:174, 0: Constant name "_ocean_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:180, 0: Constant name "_afmhot_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:186, 0: Constant name "_rainbow_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:192, 0: Constant name "_seismic_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:197, 0: Constant name "_terrain_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:205, 0: Constant name "_gray_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:209, 0: Constant name "_hot_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:220, 0: Constant name "_hsv_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:245, 0: Constant name "_jet_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:252, 0: Constant name "_pink_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:439, 0: Constant name "_spring_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:444, 0: Constant name "_summer_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:449, 0: Constant name "_winter_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:453, 0: Constant name "_nipy_spectral_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:499, 0: Constant name "_Blues_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:511, 0: Constant name "_BrBG_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:525, 0: Constant name "_BuGn_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:537, 0: Constant name "_BuPu_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:549, 0: Constant name "_GnBu_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:561, 0: Constant name "_Greens_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:573, 0: Constant name "_Greys_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:585, 0: Constant name "_Oranges_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:597, 0: Constant name "_OrRd_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:609, 0: Constant name "_PiYG_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:623, 0: Constant name "_PRGn_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:637, 0: Constant name "_PuBu_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:649, 0: Constant name "_PuBuGn_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:661, 0: Constant name "_PuOr_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:675, 0: Constant name "_PuRd_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:687, 0: Constant name "_Purples_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:699, 0: Constant name "_RdBu_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:713, 0: Constant name "_RdGy_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:727, 0: Constant name "_RdPu_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:739, 0: Constant name "_RdYlBu_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:753, 0: Constant name "_RdYlGn_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:767, 0: Constant name "_Reds_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:779, 0: Constant name "_Spectral_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:793, 0: Constant name "_YlGn_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:805, 0: Constant name "_YlGnBu_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:817, 0: Constant name "_YlOrBr_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:829, 0: Constant name "_YlOrRd_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:845, 0: Constant name "_Accent_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:856, 0: Constant name "_Dark2_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:867, 0: Constant name "_Paired_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:882, 0: Constant name "_Pastel1_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:894, 0: Constant name "_Pastel2_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:905, 0: Constant name "_Set1_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:917, 0: Constant name "_Set2_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:928, 0: Constant name "_Set3_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:954, 0: Constant name "_gist_earth_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1001, 0: Constant name "_gist_gray_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1007, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1007,23: More than one statement on a single line (multiple-statements)
+C:1008, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1008,25: More than one statement on a single line (multiple-statements)
+C:1009, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1009,24: More than one statement on a single line (multiple-statements)
+C:1010, 0: Constant name "_gist_heat_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1013, 0: Constant name "_gist_ncar_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1066, 0: Constant name "_gist_rainbow_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1077, 0: Constant name "_gist_stern_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1088, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1088,19: More than one statement on a single line (multiple-statements)
+C:1089, 0: Constant name "_gist_yarg_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1094, 0: Constant name "_coolwarm_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1203, 0: Constant name "_CMRmap_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1242, 0: Constant name "_wistia_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1266, 0: Constant name "_tab10_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1279, 0: Constant name "_tab20_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1302, 0: Constant name "_tab20b_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1325, 0: Constant name "_tab20c_data" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1349, 0: Constant name "datad" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+187 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |49     |49         |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    numpy (matplotlib._cm)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1107   |77.52 |1107     |=          |
++----------+-------+------+---------+-----------+
+|docstring |182    |12.75 |182      |=          |
++----------+-------+------+---------+-----------+
+|comment   |44     |3.08  |44       |=          |
++----------+-------+------+---------+-----------+
+|empty     |95     |6.65  |95       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |1137   |1137     |=          |
++-----------+-------+---------+-----------+
+|refactor   |1      |1        |=          |
++-----------+-------+---------+-----------+
+|warning    |3      |3        |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------+------------+
+|message id          |occurrences |
++====================+============+
+|bad-whitespace      |813         |
++--------------------+------------+
+|bad-continuation    |139         |
++--------------------+------------+
+|invalid-name        |138         |
++--------------------+------------+
+|multiple-statements |46          |
++--------------------+------------+
+|unused-argument     |3           |
++--------------------+------------+
+|too-many-lines      |1           |
++--------------------+------------+
+|too-many-arguments  |1           |
++--------------------+------------+
+
+
+
+
+----------------------------------------------------------------------
+Your code has been rated at -51.02/10 (previous run: -51.02/10, +0.00)
+

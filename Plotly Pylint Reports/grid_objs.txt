@@ -1,0 +1,144 @@
+************* Module plotly.grid_objs.grid_objs
+W: 63, 0: TODO: data type checking (fixme)
+W: 65, 0: TODO: name type checking (fixme)
+W:152, 0: TODO: verify that columns are actually columns (fixme)
+C:210, 0: Wrong continued indentation (add 22 spaces).
+                )
+                ^                     | (bad-continuation)
+C: 14, 0: Constant name "pd" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 68, 8: Attribute name "id" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 4: Missing method docstring (missing-docstring)
+R: 19, 0: Too few public methods (1/2) (too-few-public-methods)
+C:164,12: Attribute name "id" doesn't conform to snake_case naming style (invalid-name)
+R: 87, 0: Too many ancestors (8/7) (too-many-ancestors)
+R:124, 4: Too many local variables (16/15) (too-many-locals)
+R:124, 4: Too many branches (16/12) (too-many-branches)
+W:243, 4: Parameters differ from overridden 'insert' method (arguments-differ)
+R:265, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+
+Report
+======
+108 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |15     |NC         |NC         |93.33       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    plotly 
+      \-exceptions (plotly.grid_objs.grid_objs)
+      \-optional_imports (plotly.grid_objs.grid_objs)
+      \-utils (plotly.grid_objs.grid_objs)
+    requests 
+      \-compat (plotly.grid_objs.grid_objs)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |121    |39.54 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |136    |44.44 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |11     |3.59  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |38     |12.42 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++---------------------------+------+--------+---------+-----------+
+|module                     |error |warning |refactor |convention |
++===========================+======+========+=========+===========+
+|plotly.grid_objs.grid_objs |0.00  |100.00  |100.00   |100.00     |
++---------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |3           |
++-------------------------------+------------+
+|fixme                          |3           |
++-------------------------------+------------+
+|too-many-locals                |1           |
++-------------------------------+------------+
+|too-many-branches              |1           |
++-------------------------------+------------+
+|too-many-ancestors             |1           |
++-------------------------------+------------+
+|too-few-public-methods         |1           |
++-------------------------------+------------+
+|missing-docstring              |1           |
++-------------------------------+------------+
+|inconsistent-return-statements |1           |
++-------------------------------+------------+
+|bad-continuation               |1           |
++-------------------------------+------------+
+|arguments-differ               |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.70/10
+

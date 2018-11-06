@@ -1,0 +1,108 @@
+************* Module matplotlib.stackplot
+C: 14, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+R: 14, 0: Too many local variables (23/15) (too-many-locals)
+C: 61, 4: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+E: 75,21: bad operand type for unary -: NoneType (invalid-unary-operand-type)
+C: 79, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+W:106,12: Access to a protected member _get_lines of a client class (protected-access)
+C:111, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:115,16: Access to a protected member _get_lines of a client class (protected-access)
+
+
+Report
+======
+43 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    numpy (matplotlib.stackplot)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |52     |42.98 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |51     |42.15 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |5      |4.13  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |13     |10.74 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|invalid-name               |4           |
++---------------------------+------------+
+|protected-access           |2           |
++---------------------------+------------+
+|too-many-locals            |1           |
++---------------------------+------------+
+|invalid-unary-operand-type |1           |
++---------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.21/10
+

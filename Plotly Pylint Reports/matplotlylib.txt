@@ -1,0 +1,556 @@
+************* Module plotly.matplotlylib.mpltools
+W: 75, 0: TODO: rewrite the convert_dash code (fixme)
+W:338, 0: TODO! (fixme)
+R: 23, 0: Disallow trailing comma tuple (trailing-comma-tuple)
+R: 24, 0: Disallow trailing comma tuple (trailing-comma-tuple)
+R: 28, 0: Disallow trailing comma tuple (trailing-comma-tuple)
+R: 29, 0: Disallow trailing comma tuple (trailing-comma-tuple)
+R: 33, 0: Disallow trailing comma tuple (trailing-comma-tuple)
+R: 34, 0: Disallow trailing comma tuple (trailing-comma-tuple)
+C: 63, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C: 68, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:298, 0: Wrong continued indentation (add 26 spaces).
+        ))]
+        ^                         | (bad-continuation)
+C:333, 0: Exactly one space required around assignment
+    markerstyle=dict(
+               ^ (bad-whitespace)
+C:469, 0: Wrong continued indentation (add 5 spaces).
+                                 math.log10(props['xlim'][1])]
+                                 ^    | (bad-continuation)
+C:472, 0: Wrong continued indentation (add 5 spaces).
+                                 math.log10(props['ylim'][1])]
+                                 ^    | (bad-continuation)
+R: 35, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R: 35, 4: Unnecessary "else" after "return" (no-else-return)
+C: 41, 0: Missing function docstring (missing-docstring)
+R: 44, 4: Unnecessary "else" after "return" (no-else-return)
+C: 86, 0: Missing function docstring (missing-docstring)
+R: 89, 4: Unnecessary "else" after "return" (no-else-return)
+W: 87, 4: Unused variable 'verts' (unused-variable)
+R: 97, 4: Unnecessary "else" after "return" (no-else-return)
+C: 99,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:121, 4: Variable name "lv" doesn't conform to snake_case naming style (invalid-name)
+R:155, 4: Unnecessary "else" after "return" (no-else-return)
+C:187, 4: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:188, 4: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:218, 4: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:219, 4: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:223, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:223, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:269, 0: Missing function docstring (missing-docstring)
+R:270, 4: Unnecessary "else" after "return" (no-else-return)
+C:280, 0: Missing function docstring (missing-docstring)
+R:280, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:291, 0: Missing function docstring (missing-docstring)
+C:293, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:302, 4: Unnecessary "else" after "return" (no-else-return)
+C:308, 0: Missing function docstring (missing-docstring)
+R:312, 4: Unnecessary "else" after "return" (no-else-return)
+C:317, 0: Missing function docstring (missing-docstring)
+R:318, 4: Unnecessary "else" after "return" (no-else-return)
+C:324, 0: Missing function docstring (missing-docstring)
+R:326, 4: Unnecessary "else" after "return" (no-else-return)
+C:332, 0: Missing function docstring (missing-docstring)
+C:364, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:369, 4: Unnecessary "else" after "return" (no-else-return)
+W:371,13: Access to a protected member _edgecolor of a client class (protected-access)
+C:418, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:418, 0: Too many branches (20/12) (too-many-branches)
+R:418, 0: Too many statements (55/50) (too-many-statements)
+C:501, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:501, 0: Missing function docstring (missing-docstring)
+W:541, 8: No exception type(s) specified (bare-except)
+W:550, 8: No exception type(s) specified (bare-except)
+************* Module plotly.matplotlylib.renderer
+W:287, 0: TODO: get all alphas if array? (fixme)
+W:289, 0: TODO: get all (fixme)
+W:290, 0: TODO ditto (fixme)
+R:597, 0: Disallow trailing comma tuple (trailing-comma-tuple)
+R:648, 0: Disallow trailing comma tuple (trailing-comma-tuple)
+C: 20, 0: Missing function docstring (missing-docstring)
+R: 20, 0: Too many arguments (6/5) (too-many-arguments)
+W: 20,57: Unused argument 'file' (unused-argument)
+W: 20,68: Unused argument 'line' (unused-argument)
+R: 25, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+E: 88,41: Value 'self.plotly_fig['layout']' is unsubscriptable (unsubscriptable-object)
+E: 90,43: Value 'self.plotly_fig['layout']' is unsubscriptable (unsubscriptable-object)
+E: 91,45: Value 'self.plotly_fig['layout']' is unsubscriptable (unsubscriptable-object)
+E: 93,41: Value 'self.plotly_fig['layout']' is unsubscriptable (unsubscriptable-object)
+E: 95, 8: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:110, 8: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:177, 8: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:178, 8: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+C:202, 4: Missing method docstring (missing-docstring)
+W:202,24: Unused argument 'bars' (unused-argument)
+R:212, 4: Too many local variables (22/15) (too-many-locals)
+C:249,16: Black listed name "bar" (blacklisted-name)
+E:255,20: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:256,20: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+C:257,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:257,61: Black listed name "bar" (blacklisted-name)
+C:258,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:258,31: Black listed name "bar" (blacklisted-name)
+C:259,58: Black listed name "bar" (blacklisted-name)
+C:260,58: Black listed name "bar" (blacklisted-name)
+C:262,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:262,35: Black listed name "bar" (blacklisted-name)
+C:265,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:269,16: Black listed name "bar" (blacklisted-name)
+E:275,20: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:276,20: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+C:277,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:277,31: Black listed name "bar" (blacklisted-name)
+C:278,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:278,61: Black listed name "bar" (blacklisted-name)
+C:279,58: Black listed name "bar" (blacklisted-name)
+C:280,58: Black listed name "bar" (blacklisted-name)
+C:281, 8: Black listed name "bar" (blacklisted-name)
+W:293,12: Expression "(self.plotly_fig.add_trace(bar), )" is assigned to nothing (expression-not-assigned)
+E:295,16: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+R:212, 4: Too many branches (17/12) (too-many-branches)
+R:212, 4: Too many statements (52/50) (too-many-statements)
+W:301, 4: Parameters differ from overridden 'draw_marked_line' method (arguments-differ)
+W:385,12: Expression "(self.plotly_fig.add_trace(marked_line), )" is assigned to nothing (expression-not-assigned)
+W:394, 4: Parameters differ from overridden 'draw_image' method (arguments-differ)
+W:394, 0: Unused argument 'props' (unused-argument)
+W:406, 4: Parameters differ from overridden 'draw_path_collection' method (arguments-differ)
+R:437,11: Comparison to literal (literal-comparison)
+W:456, 4: Parameters differ from overridden 'draw_path' method (arguments-differ)
+W:490, 4: Parameters differ from overridden 'draw_text' method (arguments-differ)
+R:490, 4: Too many local variables (16/15) (too-many-locals)
+W:529,16: Access to a protected member _multialignment of a client class (protected-access)
+E:532,32: Value 'self.plotly_fig['layout']' doesn't support membership test (unsupported-membership-test)
+E:533,12: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+R:545,15: Comparison to literal (literal-comparison)
+C:550,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:550,19: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:560,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:560,19: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+E:562,24: Value 'self.plotly_fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:563,24: Value 'self.plotly_fig['layout']' is unsubscriptable (unsubscriptable-object)
+C:573,20: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:573,23: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+E:597,12: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+C:632,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:632,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+E:648,12: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:652,12: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:657,12: "self.plotly_fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:684, 8: Value 'self.plotly_fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:688, 8: Value 'self.plotly_fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:715, 8: Value 'self.plotly_fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:719, 8: Value 'self.plotly_fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:733,20: "self.plotly_fig['layout']" does not support item deletion (unsupported-delete-operation)
+C:737, 4: Missing method docstring (missing-docstring)
+E:739, 8: Instance of 'Figure' has no 'strip_style' member (no-member)
+C: 12, 0: standard import "import warnings" should be placed before "import six" (wrong-import-order)
+************* Module plotly.matplotlylib.mplexporter.exporter
+W:132, 0: TODO: process other artists (fixme)
+E: 45,20: Module 'io' has no 'BytesIO' member (no-member)
+C: 52, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C: 92,17: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:100, 8: Unnecessary "else" after "return" (no-else-return)
+R:101,12: Unnecessary "else" after "return" (no-else-return)
+R:106,12: Unnecessary "else" after "return" (no-else-return)
+C:115,16: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:118, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:149, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:153, 8: Variable name "legendElements" doesn't conform to snake_case naming style (invalid-name)
+W:153,54: Access to a protected member _legend_box of a client class (protected-access)
+C:178, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:198, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:213, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:227, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:227, 4: Too many local variables (17/15) (too-many-locals)
+C:231,20: Variable name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+W:232,27: Access to a protected member _prepare_points of a client class (protected-access)
+W:256,27: Access to a protected member _alpha of a client class (protected-access)
+C:272, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:272,25: Unused argument 'ax' (unused-argument)
+W: 12, 0: Unused collections imported from matplotlib (unused-import)
+C: 11, 0: third party import "import matplotlib" should be placed before "from . import utils" (wrong-import-order)
+C: 12, 0: third party import "from matplotlib import transforms, collections" should be placed before "from . import utils" (wrong-import-order)
+************* Module plotly.matplotlylib.mplexporter.utils
+C:327, 0: Trailing whitespace (trailing-whitespace)
+R: 23, 4: Unnecessary "else" after "return" (no-else-return)
+W: 59,33: Access to a protected member _dashSeq of a client class (protected-access)
+C: 61, 8: Variable name "ls" doesn't conform to snake_case naming style (invalid-name)
+C: 63,12: Variable name "ls" doesn't conform to snake_case naming style (invalid-name)
+C: 80, 0: Function name "SVG_path" doesn't conform to snake_case naming style (invalid-name)
+R:109, 4: Unnecessary "else" after "return" (no-else-return)
+C:189, 4: Variable name "label1On" doesn't conform to snake_case naming style (invalid-name)
+W:189,15: Access to a protected member _major_tick_kw of a client class (protected-access)
+R:186, 0: Too many branches (14/12) (too-many-branches)
+C:237, 0: Missing function docstring (missing-docstring)
+R:239, 4: Unnecessary "else" after "return" (no-else-return)
+W:239, 7: Access to a protected member _gridOnMajor of a client class (protected-access)
+C:239,29: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:251, 0: Missing function docstring (missing-docstring)
+C:257, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:257, 0: Missing function docstring (missing-docstring)
+C:305, 0: Argument name "skipContainers" doesn't conform to snake_case naming style (invalid-name)
+C:312,40: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:323, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:323, 0: Missing function docstring (missing-docstring)
+C:343, 4: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+E:344,20: Module 'io' has no 'BytesIO' member (no-member)
+C: 11, 0: standard import "import warnings" should be placed before "import numpy as np" (wrong-import-order)
+************* Module plotly.matplotlylib.mplexporter._py3k_compat
+W: 12, 4: Redefining built-in 'zip' (redefined-builtin)
+W: 14, 4: Redefining built-in 'map' (redefined-builtin)
+C: 11, 4: Constant name "reduce" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 12, 4: Class name "zip" doesn't conform to PascalCase naming style (invalid-name)
+C: 13, 4: Class name "xrange" doesn't conform to PascalCase naming style (invalid-name)
+C: 14, 4: Class name "map" doesn't conform to PascalCase naming style (invalid-name)
+E: 16, 4: Unable to import '__builtin__' (import-error)
+C: 18, 4: Constant name "builtins" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 19, 4: Constant name "reduce" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 20, 4: Constant name "zip" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 20,10: Module 'itertools' has no 'izip' member (no-member)
+C: 21, 4: Constant name "xrange" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 22, 4: Constant name "map" doesn't conform to UPPER_CASE naming style (invalid-name)
+E: 22,10: Module 'itertools' has no 'imap' member (no-member)
+************* Module plotly.matplotlylib.mplexporter
+C:  1, 0: Missing module docstring (missing-docstring)
+************* Module plotly.matplotlylib.mplexporter.renderers.base
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Missing class docstring (missing-docstring)
+C: 14, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C: 14, 4: Missing method docstring (missing-docstring)
+C: 18, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C: 18, 4: Missing method docstring (missing-docstring)
+W: 19,27: Access to a protected member _gridOnMajor of a client class (protected-access)
+C: 22, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C: 22, 4: Missing method docstring (missing-docstring)
+W: 23,27: Access to a protected member _gridOnMajor of a client class (protected-access)
+C: 26, 4: Missing method docstring (missing-docstring)
+C: 30, 4: Missing method docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+C: 38, 4: Missing method docstring (missing-docstring)
+C: 50, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C: 50, 4: Missing method docstring (missing-docstring)
+C: 62, 4: Missing method docstring (missing-docstring)
+C: 97, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:110, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:145, 4: Too many arguments (7/5) (too-many-arguments)
+R:159, 4: Too many arguments (6/5) (too-many-arguments)
+W:159,50: Unused argument 'label' (unused-argument)
+C:190, 8: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+C:205, 8: Variable name "it" doesn't conform to snake_case naming style (invalid-name)
+R:208, 4: Too many arguments (9/5) (too-many-arguments)
+R:208, 4: Too many local variables (20/15) (too-many-locals)
+C:256,43: Variable name "ec" doesn't conform to snake_case naming style (invalid-name)
+C:256,47: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:256,51: Variable name "fc" doesn't conform to snake_case naming style (invalid-name)
+R:274, 4: Too many arguments (6/5) (too-many-arguments)
+W:274,53: Unused argument 'label' (unused-argument)
+R:305, 4: Too many arguments (7/5) (too-many-arguments)
+R:328, 4: Too many arguments (8/5) (too-many-arguments)
+R:365, 4: Too many arguments (6/5) (too-many-arguments)
+E: 51,44: Access to member '_current_ax' before its definition line 53 (access-member-before-definition)
+E: 39,45: Access to member '_current_fig' before its definition line 41 (access-member-before-definition)
+W: 41, 8: Attribute '_current_fig' defined outside __init__ (attribute-defined-outside-init)
+W: 46, 8: Attribute '_current_fig' defined outside __init__ (attribute-defined-outside-init)
+W: 42, 8: Attribute '_fig_props' defined outside __init__ (attribute-defined-outside-init)
+W: 47, 8: Attribute '_fig_props' defined outside __init__ (attribute-defined-outside-init)
+W: 53, 8: Attribute '_current_ax' defined outside __init__ (attribute-defined-outside-init)
+W: 58, 8: Attribute '_current_ax' defined outside __init__ (attribute-defined-outside-init)
+W: 54, 8: Attribute '_ax_props' defined outside __init__ (attribute-defined-outside-init)
+W: 59, 8: Attribute '_ax_props' defined outside __init__ (attribute-defined-outside-init)
+W: 63, 8: Attribute '_current_legend' defined outside __init__ (attribute-defined-outside-init)
+W: 68, 8: Attribute '_current_legend' defined outside __init__ (attribute-defined-outside-init)
+W: 64, 8: Attribute '_legend_props' defined outside __init__ (attribute-defined-outside-init)
+W: 69, 8: Attribute '_legend_props' defined outside __init__ (attribute-defined-outside-init)
+R: 12, 0: Too many public methods (22/20) (too-many-public-methods)
+************* Module plotly.matplotlylib.mplexporter.renderers.fake_renderer
+C:  1, 0: Missing module docstring (missing-docstring)
+R: 38, 4: Too many arguments (7/5) (too-many-arguments)
+R: 42, 4: Too many arguments (8/5) (too-many-arguments)
+R: 46, 4: Too many arguments (6/5) (too-many-arguments)
+R: 58, 4: Too many arguments (6/5) (too-many-arguments)
+R: 61, 4: Too many arguments (6/5) (too-many-arguments)
+R: 64, 4: Too many arguments (9/5) (too-many-arguments)
+************* Module plotly.matplotlylib.mplexporter.renderers.vega_renderer
+W: 39, 0: TODO: respect the other style settings (fixme)
+W: 61, 0: TODO: respect the other style settings (fixme)
+C: 17, 0: Trailing whitespace (trailing-whitespace)
+C: 27, 0: Wrong continued indentation (add 3 spaces).
+                        ),
+                        ^  | (bad-continuation)
+C: 32, 0: Wrong continued indentation (add 3 spaces).
+                        ),]
+                        ^  | (bad-continuation)
+C: 54, 0: Wrong continued indentation (add 3 spaces).
+                       })
+                       ^  | (bad-continuation)
+C: 78, 0: Wrong continued indentation (add 3 spaces).
+                       })
+                       ^  | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Missing class docstring (missing-docstring)
+W:  8, 0: Method 'draw_image' is abstract in class 'Renderer' but is not overridden (abstract-method)
+W:  8, 0: Method 'draw_path' is abstract in class 'Renderer' but is not overridden (abstract-method)
+C: 19,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R: 34, 4: Too many arguments (6/5) (too-many-arguments)
+R: 56, 4: Too many arguments (6/5) (too-many-arguments)
+R: 80, 4: Too many arguments (7/5) (too-many-arguments)
+W: 10, 8: Attribute 'props' defined outside __init__ (attribute-defined-outside-init)
+W: 11, 8: Attribute 'figwidth' defined outside __init__ (attribute-defined-outside-init)
+W: 12, 8: Attribute 'figheight' defined outside __init__ (attribute-defined-outside-init)
+W: 13, 8: Attribute 'data' defined outside __init__ (attribute-defined-outside-init)
+W: 14, 8: Attribute 'scales' defined outside __init__ (attribute-defined-outside-init)
+W: 23, 8: Attribute 'scales' defined outside __init__ (attribute-defined-outside-init)
+W: 15, 8: Attribute 'axes' defined outside __init__ (attribute-defined-outside-init)
+W: 21, 8: Attribute 'axes' defined outside __init__ (attribute-defined-outside-init)
+W: 16, 8: Attribute 'marks' defined outside __init__ (attribute-defined-outside-init)
+C: 88, 0: Missing class docstring (missing-docstring)
+W: 99, 8: Redefining built-in 'id' (redefined-builtin)
+C: 99, 8: Variable name "id" doesn't conform to snake_case naming style (invalid-name)
+R: 88, 0: Too few public methods (1/2) (too-few-public-methods)
+R:119, 4: Unnecessary "else" after "return" (no-else-return)
+************* Module plotly.matplotlylib.mplexporter.renderers.vincent_renderer
+W: 21, 0: TODO: respect the other style settings (fixme)
+W: 38, 0: TODO: respect the other style settings (fixme)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Missing class docstring (missing-docstring)
+W:  6, 0: Method 'draw_image' is abstract in class 'Renderer' but is not overridden (abstract-method)
+W:  6, 0: Method 'draw_path' is abstract in class 'Renderer' but is not overridden (abstract-method)
+W:  6, 0: Method 'draw_text' is abstract in class 'Renderer' but is not overridden (abstract-method)
+R: 12, 4: Too many arguments (6/5) (too-many-arguments)
+E: 13, 8: Unable to import 'vincent' (import-error)
+R: 29, 4: Too many arguments (6/5) (too-many-arguments)
+E: 30, 8: Unable to import 'vincent' (import-error)
+W:  8, 8: Attribute 'chart' defined outside __init__ (attribute-defined-outside-init)
+W: 25,12: Attribute 'chart' defined outside __init__ (attribute-defined-outside-init)
+W: 42,12: Attribute 'chart' defined outside __init__ (attribute-defined-outside-init)
+W:  9, 8: Attribute 'figwidth' defined outside __init__ (attribute-defined-outside-init)
+W: 10, 8: Attribute 'figheight' defined outside __init__ (attribute-defined-outside-init)
+
+
+Report
+======
+1065 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |13     |NC         |NC         |61.54       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |8      |NC         |NC         |50.00       |37.50    |
++---------+-------+-----------+-----------+------------+---------+
+|method   |75     |NC         |NC         |85.33       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |48     |NC         |NC         |68.75       |2.08     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    IPython 
+      \-core 
+        \-display (plotly.matplotlylib.mplexporter.tools)
+    io (plotly.matplotlylib.mplexporter.exporter,plotly.matplotlylib.mplexporter.utils)
+    matplotlib (plotly.matplotlylib.mplexporter.exporter,plotly.matplotlylib.mplexporter.utils)
+      \-collections (plotly.matplotlylib.mplexporter.exporter)
+      \-colors (plotly.matplotlylib.mplexporter.utils)
+      \-dates (plotly.matplotlylib.mpltools)
+      \-markers (plotly.matplotlylib.mplexporter.utils)
+      \-path (plotly.matplotlylib.mplexporter.utils)
+      \-pyplot (plotly.matplotlylib.mplexporter.exporter)
+      \-ticker (plotly.matplotlylib.mplexporter.utils)
+      \-transforms (plotly.matplotlylib.mplexporter.exporter,plotly.matplotlylib.mplexporter.renderers.base,plotly.matplotlylib.mplexporter.utils)
+    numpy (plotly.matplotlylib.mplexporter.renderers.base,plotly.matplotlylib.mplexporter.utils)
+    pandas (plotly.matplotlylib.mplexporter.utils)
+      \-tseries 
+        \-converter (plotly.matplotlylib.mplexporter.utils)
+    plotly 
+      \-graph_objs (plotly.matplotlylib.renderer)
+      \-matplotlylib 
+        \-mplexporter (plotly.matplotlylib.renderer)
+        | \-Exporter (plotly.matplotlylib)
+        | \-_py3k_compat (plotly.matplotlylib.mplexporter.renderers.base)
+        | \-exporter (plotly.matplotlylib.mplexporter.renderers.vega_renderer,plotly.matplotlylib.mplexporter.renderers.vincent_renderer)
+        | \-renderers 
+        | | \-base (plotly.matplotlylib.mplexporter.renderers.fake_renderer,plotly.matplotlylib.mplexporter.renderers.vega_renderer,plotly.matplotlylib.mplexporter.renderers.vincent_renderer)
+        | \-utils (plotly.matplotlylib.mplexporter.exporter,plotly.matplotlylib.mplexporter.renderers.base)
+        \-mpltools (plotly.matplotlylib.renderer)
+        \-renderer (plotly.matplotlylib)
+    pytz (plotly.matplotlylib.mpltools)
+    six (plotly.matplotlylib.renderer)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1466   |53.48 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |960    |35.02 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |49     |1.79  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |266    |9.70  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |133    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |61     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |72     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |36     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++-----------------------------------------------------------+------+--------+---------+-----------+
+|module                                                     |error |warning |refactor |convention |
++===========================================================+======+========+=========+===========+
+|plotly.matplotlylib.renderer                               |75.00 |20.83   |16.39    |22.56      |
++-----------------------------------------------------------+------+--------+---------+-----------+
+|plotly.matplotlylib.mplexporter._py3k_compat               |8.33  |2.78    |0.00     |6.77       |
++-----------------------------------------------------------+------+--------+---------+-----------+
+|plotly.matplotlylib.mplexporter.renderers.base             |5.56  |22.22   |14.75    |16.54      |
++-----------------------------------------------------------+------+--------+---------+-----------+
+|plotly.matplotlylib.mplexporter.renderers.vincent_renderer |5.56  |13.89   |3.28     |1.50       |
++-----------------------------------------------------------+------+--------+---------+-----------+
+|plotly.matplotlylib.mplexporter.exporter                   |2.78  |8.33    |6.56     |10.53      |
++-----------------------------------------------------------+------+--------+---------+-----------+
+|plotly.matplotlylib.mplexporter.utils                      |2.78  |4.17    |6.56     |12.03      |
++-----------------------------------------------------------+------+--------+---------+-----------+
+|plotly.matplotlylib.mplexporter.renderers.vega_renderer    |0.00  |19.44   |8.20     |7.52       |
++-----------------------------------------------------------+------+--------+---------+-----------+
+|plotly.matplotlylib.mpltools                               |0.00  |8.33    |34.43    |21.05      |
++-----------------------------------------------------------+------+--------+---------+-----------+
+|plotly.matplotlylib.mplexporter.renderers.fake_renderer    |0.00  |0.00    |9.84     |0.75       |
++-----------------------------------------------------------+------+--------+---------+-----------+
+|plotly.matplotlylib.mplexporter.__init__                   |0.00  |0.00    |0.00     |0.75       |
++-----------------------------------------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------------+------------+
+|message id                       |occurrences |
++=================================+============+
+|invalid-name                     |67          |
++---------------------------------+------------+
+|missing-docstring                |35          |
++---------------------------------+------------+
+|attribute-defined-outside-init   |26          |
++---------------------------------+------------+
+|too-many-arguments               |19          |
++---------------------------------+------------+
+|no-else-return                   |18          |
++---------------------------------+------------+
+|unsupported-assignment-operation |14          |
++---------------------------------+------------+
+|blacklisted-name                 |12          |
++---------------------------------+------------+
+|unsubscriptable-object           |10          |
++---------------------------------+------------+
+|protected-access                 |10          |
++---------------------------------+------------+
+|fixme                            |10          |
++---------------------------------+------------+
+|trailing-comma-tuple             |8           |
++---------------------------------+------------+
+|unused-argument                  |7           |
++---------------------------------+------------+
+|bad-continuation                 |7           |
++---------------------------------+------------+
+|no-member                        |5           |
++---------------------------------+------------+
+|arguments-differ                 |5           |
++---------------------------------+------------+
+|abstract-method                  |5           |
++---------------------------------+------------+
+|wrong-import-order               |4           |
++---------------------------------+------------+
+|too-many-locals                  |4           |
++---------------------------------+------------+
+|too-many-branches                |3           |
++---------------------------------+------------+
+|redefined-builtin                |3           |
++---------------------------------+------------+
+|len-as-condition                 |3           |
++---------------------------------+------------+
+|import-error                     |3           |
++---------------------------------+------------+
+|trailing-whitespace              |2           |
++---------------------------------+------------+
+|too-many-statements              |2           |
++---------------------------------+------------+
+|superfluous-parens               |2           |
++---------------------------------+------------+
+|literal-comparison               |2           |
++---------------------------------+------------+
+|expression-not-assigned          |2           |
++---------------------------------+------------+
+|bare-except                      |2           |
++---------------------------------+------------+
+|access-member-before-definition  |2           |
++---------------------------------+------------+
+|unused-variable                  |1           |
++---------------------------------+------------+
+|unused-import                    |1           |
++---------------------------------+------------+
+|unsupported-membership-test      |1           |
++---------------------------------+------------+
+|unsupported-delete-operation     |1           |
++---------------------------------+------------+
+|too-many-public-methods          |1           |
++---------------------------------+------------+
+|too-many-instance-attributes     |1           |
++---------------------------------+------------+
+|too-few-public-methods           |1           |
++---------------------------------+------------+
+|simplifiable-if-statement        |1           |
++---------------------------------+------------+
+|inconsistent-return-statements   |1           |
++---------------------------------+------------+
+|bad-whitespace                   |1           |
++---------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 5.81/10
+

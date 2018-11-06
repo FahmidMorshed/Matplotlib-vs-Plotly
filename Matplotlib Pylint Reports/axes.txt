@@ -1,0 +1,1381 @@
+************* Module matplotlib.axes
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  1, 0: Wildcard import _subplots (wildcard-import)
+W:  2, 0: Wildcard import _axes (wildcard-import)
+************* Module matplotlib.axes._axes
+C:173, 0: Wrong continued indentation (remove 2 spaces).
+                    **kwargs):
+                  | ^ (bad-continuation)
+C:313, 0: Wrong continued indentation (add 45 spaces).
+                legend_handler_map)
+                ^                                            | (bad-continuation)
+C:418, 0: Wrong hanging indentation (remove 4 spaces).
+                [self],
+            |   ^ (bad-continuation)
+C:419, 0: Wrong hanging indentation (remove 4 spaces).
+                *args,
+            |   ^ (bad-continuation)
+C:420, 0: Wrong hanging indentation (remove 4 spaces).
+                **kwargs)
+            |   ^ (bad-continuation)
+C:431, 0: Wrong continued indentation (add 7 spaces).
+            **kwargs):
+            ^      | (bad-continuation)
+C:487, 0: Wrong continued indentation (add 8 spaces).
+                label=label, **kwargs)
+                ^       | (bad-continuation)
+C:498, 0: Wrong continued indentation (add 11 spaces).
+            facecolor='none', edgecolor='0.5', alpha=0.5,
+            ^          | (bad-continuation)
+C:499, 0: Wrong continued indentation (add 11 spaces).
+            zorder=4.99, **kwargs):
+            ^          | (bad-continuation)
+C:569, 0: Wrong continued indentation (add 23 spaces).
+                facecolor=facecolor, edgecolor=edgecolor, alpha=alpha,
+                ^                      | (bad-continuation)
+C:570, 0: Wrong continued indentation (add 23 spaces).
+                zorder=zorder,  label=label, transform=transform, **kwargs)
+                ^                      | (bad-continuation)
+C:570, 0: Exactly one space required after comma
+                zorder=zorder,  label=label, transform=transform, **kwargs)
+                             ^ (bad-whitespace)
+C:583, 0: Wrong continued indentation (add 30 spaces).
+                            'axes fraction', 'data',
+                            ^                             | (bad-continuation)
+C:584, 0: Wrong continued indentation (add 30 spaces).
+                            axesA=inset_ax, axesB=self, arrowstyle="-",
+                            ^                             | (bad-continuation)
+C:585, 0: Wrong continued indentation (add 30 spaces).
+                            zorder=zorder, edgecolor=edgecolor, alpha=alpha)]
+                            ^                             | (bad-continuation)
+C:591, 0: Wrong hanging indentation (remove 8 spaces).
+                        *bounds).transformed(transform)
+                |       ^ (bad-continuation)
+C:642, 0: Wrong hanging indentation (remove 4 spaces).
+                rect, inset_ax, **kwargs)
+            |   ^ (bad-continuation)
+C:1336, 0: Wrong continued indentation before block.
+                           colors, linestyles):
+                |   |      ^ (bad-continuation)
+C:2070, 0: Wrong continued indentation (remove 1 space).
+                      )
+                     |^ (bad-continuation)
+C:2873, 0: Wrong continued indentation (remove 1 space).
+                          verticalalignment=label_alignment_v,
+                         |^ (bad-continuation)
+C:2874, 0: Wrong continued indentation (remove 1 space).
+                          rotation=label_rotation,
+                         |^ (bad-continuation)
+C:2875, 0: Wrong continued indentation (remove 1 space).
+                          size=rcParams['xtick.labelsize'])
+                         |^ (bad-continuation)
+C:3523, 0: Wrong continued indentation (add 6 spaces).
+                                rcParams[rc_str.format(rc_name, prop_dict)])
+                                ^     | (bad-continuation)
+C:3533, 0: Wrong continued indentation (remove 24 spaces).
+                                                            default_props)
+                                    |                       ^ (bad-continuation)
+C:4199, 0: Wrong continued indentation (remove 3 spaces).
+                    len(c) > 0 and
+                 |  ^ (bad-continuation)
+C:4200, 0: Wrong continued indentation (remove 3 spaces).
+                    isinstance(cbook.safe_first_element(c), str))):
+                 |  ^ (bad-continuation)
+C:4285, 0: Wrong hanging indentation (remove 4 spaces).
+                (path,), scales,
+            |   ^ (bad-continuation)
+C:4286, 0: Wrong hanging indentation (remove 4 spaces).
+                facecolors=colors,
+            |   ^ (bad-continuation)
+C:4287, 0: Wrong hanging indentation (remove 4 spaces).
+                edgecolors=edgecolors,
+            |   ^ (bad-continuation)
+C:4288, 0: Wrong hanging indentation (remove 4 spaces).
+                linewidths=linewidths,
+            |   ^ (bad-continuation)
+C:4289, 0: Wrong hanging indentation (remove 4 spaces).
+                offsets=offsets,
+            |   ^ (bad-continuation)
+C:4290, 0: Wrong hanging indentation (remove 4 spaces).
+                transOffset=kwargs.pop('transform', self.transData),
+            |   ^ (bad-continuation)
+C:4291, 0: Wrong hanging indentation (remove 4 spaces).
+                alpha=alpha
+            |   ^ (bad-continuation)
+C:4292, 0: Wrong hanging indentation.
+                )
+        |   |   ^ (bad-continuation)
+C:5562, 0: Wrong hanging indentation (add 4 spaces).
+                funcname, funcname))
+                ^   | (bad-continuation)
+C:5791, 0: Wrong continued indentation before block (add 4 spaces).
+            hasattr(t, '_as_mpl_transform')):
+            ^   | (bad-continuation)
+C:6009, 0: Wrong continued indentation before block (add 4 spaces).
+            hasattr(t, '_as_mpl_transform')):
+            ^   | (bad-continuation)
+C:6151, 0: Wrong continued indentation before block (add 4 spaces).
+                        np.ptp(dy) < 0.01 * np.abs(dy.mean())):
+                        ^   | (bad-continuation)
+C:7746, 0: Wrong continued indentation (add 9 spaces).
+                         marker=marker, markersize=markersize, **kwargs)
+                         ^        | (bad-continuation)
+C:7757, 0: Wrong continued indentation (add 8 spaces).
+                                                 steps=[1, 2, 5, 10],
+                                                 ^       | (bad-continuation)
+C:7758, 0: Wrong continued indentation (add 8 spaces).
+                                                 integer=True))
+                                                 ^       | (bad-continuation)
+C:7760, 0: Wrong continued indentation (add 8 spaces).
+                                                 steps=[1, 2, 5, 10],
+                                                 ^       | (bad-continuation)
+C:7761, 0: Wrong continued indentation (add 8 spaces).
+                                                 integer=True))
+                                                 ^       | (bad-continuation)
+C:7810, 0: Wrong continued indentation (add 8 spaces).
+                                                 steps=[1, 2, 5, 10],
+                                                 ^       | (bad-continuation)
+C:7811, 0: Wrong continued indentation (add 8 spaces).
+                                                 integer=True))
+                                                 ^       | (bad-continuation)
+C:7813, 0: Wrong continued indentation (add 8 spaces).
+                                                 steps=[1, 2, 5, 10],
+                                                 ^       | (bad-continuation)
+C:7814, 0: Wrong continued indentation (add 8 spaces).
+                                                 integer=True))
+                                                 ^       | (bad-continuation)
+C:  1, 0: Too many lines in module (8112/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: No name 'abc' in module 'collections' (no-name-in-module)
+E:  1, 0: Unable to import 'collections.abc' (import-error)
+C: 40, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 42, 0: Constant name "rcParams" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 71,12: Access to a protected member _warn_external of a client class (protected-access)
+C:102, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:102, 4: Missing function docstring (missing-docstring)
+C:104, 8: Variable name "bb" doesn't conform to snake_case naming style (invalid-name)
+C:105, 8: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:106, 8: Variable name "bb" doesn't conform to snake_case naming style (invalid-name)
+W:102,22: Unused argument 'ax' (unused-argument)
+W:102,26: Unused argument 'renderer' (unused-argument)
+W:312,26: Access to a protected member _get_legend_handles_labels of a client class (protected-access)
+W:417,46: Access to a protected member _parse_legend_args of a client class (protected-access)
+C:421,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:424, 8: Access to a protected member _remove_method of a client class (protected-access)
+W:427,29: Unused argument 'legend' (unused-argument)
+C:484, 8: Variable name "bb" doesn't conform to snake_case naming style (invalid-name)
+R:497, 4: Too many local variables (27/15) (too-many-locals)
+C:567, 8: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:576,12: Variable name "xr" doesn't conform to snake_case naming style (invalid-name)
+C:577,12: Variable name "yr" doesn't conform to snake_case naming style (invalid-name)
+C:578,16: Variable name "xc" doesn't conform to snake_case naming style (invalid-name)
+C:579,20: Variable name "yc" doesn't conform to snake_case naming style (invalid-name)
+C:580,20: Variable name "xyA" doesn't conform to snake_case naming style (invalid-name)
+C:581,20: Variable name "xyB" doesn't conform to snake_case naming style (invalid-name)
+C:592,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:593,12: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:594,12: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:595,12: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:646, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:646, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:646, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:646, 4: Too many arguments (6/5) (too-many-arguments)
+C:715,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:718,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:731, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:731, 4: Argument name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:731, 4: Missing method docstring (missing-docstring)
+C:732, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:742, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:802, 8: Variable name "yy" doesn't conform to snake_case naming style (invalid-name)
+C:806, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:812, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:871, 8: Variable name "xx" doesn't conform to snake_case naming style (invalid-name)
+C:875, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:930, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:995, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1003, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:1003, 4: Too many arguments (7/5) (too-many-arguments)
+R:1003, 4: Too many local variables (16/15) (too-many-locals)
+C:1064,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1079, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+R:1079, 4: Too many arguments (7/5) (too-many-arguments)
+R:1079, 4: Too many local variables (16/15) (too-many-locals)
+C:1142,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:1159, 4: Too many arguments (8/5) (too-many-arguments)
+R:1159, 4: Too many local variables (26/15) (too-many-locals)
+C:1259,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1283,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1285,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1287,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1289,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1291,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1348,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1351,26: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1353,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:1159, 4: Too many branches (30/12) (too-many-branches)
+R:1159, 4: Too many statements (84/50) (too-many-statements)
+E:1606,48: Class 'Line2D' has no '_alias_map' member (no-member)
+W:1606,48: Access to a protected member _alias_map of a client class (protected-access)
+C:1617, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1617, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1617, 4: Argument name "tz" doesn't conform to snake_case naming style (invalid-name)
+R:1617, 4: Too many arguments (7/5) (too-many-arguments)
+C:1736, 8: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1738, 8: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:1744, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1789, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1793, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1838, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1841, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1846, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1900, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1900, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:1900, 4: Too many arguments (7/5) (too-many-arguments)
+C:1958, 8: Variable name "Nx" doesn't conform to snake_case naming style (invalid-name)
+C:1981,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1984,12: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+E:1988,12: Possible unbalanced tuple unpacking with sequence defined at line 1604: left side has 1 label(s), right side has 0 value(s) (unbalanced-tuple-unpacking)
+C:1988,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1989,12: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1995, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1995, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2071, 4: Black listed name "bar" (blacklisted-name)
+C:2071, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+R:2071, 4: Too many local variables (44/15) (too-many-locals)
+E:2182,48: Class 'Patch' has no '_alias_map' member (no-member)
+W:2182,48: Access to a protected member _alias_map of a client class (protected-access)
+C:2207, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2212,16: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2240,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2245,26: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2286,12: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:2286,15: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2286,18: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:2286,21: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:2286,24: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:2286,27: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:2286,30: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:2287,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:2295,12: Access to a protected member _interpolation_steps of a client class (protected-access)
+C:2307,16: Variable name "ey" doesn't conform to snake_case naming style (invalid-name)
+C:2312,16: Variable name "ey" doesn't conform to snake_case naming style (invalid-name)
+R:2071, 4: Too many branches (37/12) (too-many-branches)
+R:2071, 4: Too many statements (119/50) (too-many-statements)
+C:2350, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2513,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:2517,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:2534, 4: Too many local variables (26/15) (too-many-locals)
+C:2615, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2620,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2622,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2623,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+E:2673, 8: Possible unbalanced tuple unpacking with sequence defined at line 1604: left side has 1 label(s), right side has 0 value(s) (unbalanced-tuple-unpacking)
+E:2678,12: Possible unbalanced tuple unpacking with sequence defined at line 1604: left side has 1 label(s), right side has 0 value(s) (unbalanced-tuple-unpacking)
+C:2678,12: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+E:2683, 8: Possible unbalanced tuple unpacking with sequence defined at line 1604: left side has 1 label(s), right side has 0 value(s) (unbalanced-tuple-unpacking)
+R:2534, 4: Too many branches (18/12) (too-many-branches)
+R:2534, 4: Too many statements (54/50) (too-many-statements)
+C:2695, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+R:2695, 4: Too many arguments (17/5) (too-many-arguments)
+R:2695, 4: Too many local variables (42/15) (too-many-locals)
+C:2797, 8: Variable name "sx" doesn't conform to snake_case naming style (invalid-name)
+C:2814,12: Missing function docstring (missing-docstring)
+C:2841,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2845,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2847,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:2864,12: Variable name "xt" doesn't conform to snake_case naming style (invalid-name)
+C:2865,12: Variable name "yt" doesn't conform to snake_case naming style (invalid-name)
+R:2866,12: Consider using ternary ('left' if xt > 0 else 'right') (consider-using-ternary)
+R:2870,16: Consider using ternary ('bottom' if yt > 0 else 'top') (consider-using-ternary)
+C:2878,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:2883,16: Variable name "xt" doesn't conform to snake_case naming style (invalid-name)
+C:2884,16: Variable name "yt" doesn't conform to snake_case naming style (invalid-name)
+C:2886,20: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2888,20: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2896,16: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+R:2913, 8: Unnecessary "else" after "return" (no-else-return)
+R:2695, 4: Too many branches (22/12) (too-many-branches)
+R:2695, 4: Too many statements (66/50) (too-many-statements)
+C:2921, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2921, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:2921, 4: Too many arguments (16/5) (too-many-arguments)
+R:2921, 4: Too many local variables (55/15) (too-many-locals)
+E:3031,48: Class 'Line2D' has no '_alias_map' member (no-member)
+W:3031,48: Access to a protected member _alias_map of a client class (protected-access)
+C:3150, 8: Argument name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:3150, 8: Argument name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:3172,16: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:3172,19: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:3188,16: Variable name "fe" doesn't conform to snake_case naming style (invalid-name)
+C:3204,32: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:3205,16: Variable name "yo" doesn't conform to snake_case naming style (invalid-name)
+C:3206,16: Variable name "lo" doesn't conform to snake_case naming style (invalid-name)
+C:3206,20: Variable name "ro" doesn't conform to snake_case naming style (invalid-name)
+C:3215,16: Variable name "yo" doesn't conform to snake_case naming style (invalid-name)
+C:3216,16: Variable name "lo" doesn't conform to snake_case naming style (invalid-name)
+C:3216,20: Variable name "ro" doesn't conform to snake_case naming style (invalid-name)
+C:3232,16: Variable name "yo" doesn't conform to snake_case naming style (invalid-name)
+C:3233,16: Variable name "lo" doesn't conform to snake_case naming style (invalid-name)
+C:3233,20: Variable name "ro" doesn't conform to snake_case naming style (invalid-name)
+C:3253,32: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:3254,16: Variable name "xo" doesn't conform to snake_case naming style (invalid-name)
+C:3255,16: Variable name "lo" doesn't conform to snake_case naming style (invalid-name)
+C:3255,20: Variable name "uo" doesn't conform to snake_case naming style (invalid-name)
+C:3264,16: Variable name "xo" doesn't conform to snake_case naming style (invalid-name)
+C:3265,16: Variable name "lo" doesn't conform to snake_case naming style (invalid-name)
+C:3265,20: Variable name "uo" doesn't conform to snake_case naming style (invalid-name)
+C:3281,16: Variable name "xo" doesn't conform to snake_case naming style (invalid-name)
+C:3282,16: Variable name "lo" doesn't conform to snake_case naming style (invalid-name)
+C:3282,20: Variable name "uo" doesn't conform to snake_case naming style (invalid-name)
+C:3296,12: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+R:2921, 4: Too many branches (48/12) (too-many-branches)
+R:2921, 4: Too many statements (91/50) (too-many-statements)
+C:3310, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+R:3310, 4: Too many arguments (27/5) (too-many-arguments)
+R:3310, 4: Too many local variables (40/15) (too-many-locals)
+C:3590,27: Variable name "ci" doesn't conform to snake_case naming style (invalid-name)
+R:3585, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:3310, 4: Too many branches (30/12) (too-many-branches)
+R:3612, 4: Too many arguments (20/5) (too-many-arguments)
+R:3612, 4: Too many local variables (64/15) (too-many-locals)
+C:3860, 8: Argument name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:3860, 8: Argument name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:3860, 8: Missing function docstring (missing-docstring)
+C:3868, 8: Argument name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:3868, 8: Argument name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:3868, 8: Missing function docstring (missing-docstring)
+C:3877,12: Missing function docstring (missing-docstring)
+C:3880,12: Argument name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:3880,12: Argument name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:3880,12: Missing function docstring (missing-docstring)
+C:3884,12: Missing function docstring (missing-docstring)
+C:3890,12: Argument name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:3890,12: Argument name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:3890,12: Missing function docstring (missing-docstring)
+C:3895, 8: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+R:3612, 4: Too many branches (33/12) (too-many-branches)
+R:3612, 4: Too many statements (67/50) (too-many-statements)
+C:4019, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4019, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:4019, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:4019, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+R:4019, 4: Too many arguments (14/5) (too-many-arguments)
+R:4019, 4: Too many local variables (30/15) (too-many-locals)
+C:4130, 8: Variable name "fc" doesn't conform to snake_case naming style (invalid-name)
+C:4131, 8: Variable name "fc" doesn't conform to snake_case naming style (invalid-name)
+C:4134, 8: Variable name "co" doesn't conform to snake_case naming style (invalid-name)
+R:4195,12: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+E:4198,31: Module 'collections' has no 'Iterable' member (no-member)
+C:4199,20: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:4019, 4: Too many branches (40/12) (too-many-branches)
+R:4019, 4: Too many statements (112/50) (too-many-statements)
+C:4327, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4327, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:4327, 4: Argument name "C" doesn't conform to snake_case naming style (invalid-name)
+C:4327, 4: Argument name "reduce_C_function" doesn't conform to snake_case naming style (invalid-name)
+R:4327, 4: Too many arguments (19/5) (too-many-arguments)
+R:4327, 4: Too many local variables (77/15) (too-many-locals)
+C:4459,12: Variable name "nx" doesn't conform to snake_case naming style (invalid-name)
+C:4459,16: Variable name "ny" doesn't conform to snake_case naming style (invalid-name)
+C:4461,12: Variable name "nx" doesn't conform to snake_case naming style (invalid-name)
+C:4462,12: Variable name "ny" doesn't conform to snake_case naming style (invalid-name)
+C:4479,51: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:4480,51: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:4491, 8: Variable name "sx" doesn't conform to snake_case naming style (invalid-name)
+C:4492, 8: Variable name "sy" doesn't conform to snake_case naming style (invalid-name)
+C:4509, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:4511, 8: Variable name "d1" doesn't conform to snake_case naming style (invalid-name)
+C:4512, 8: Variable name "d2" doesn't conform to snake_case naming style (invalid-name)
+C:4518,21: Comparison should be ix1 >= 0 (misplaced-comparison-constant)
+C:4518,48: Comparison should be iy1 >= 0 (misplaced-comparison-constant)
+C:4519,21: Comparison should be ix2 >= 0 (misplaced-comparison-constant)
+C:4519,48: Comparison should be iy2 >= 0 (misplaced-comparison-constant)
+C:4526,16: Variable name "ix" doesn't conform to snake_case naming style (invalid-name)
+C:4526,20: Variable name "iy" doesn't conform to snake_case naming style (invalid-name)
+C:4528,16: Variable name "ix" doesn't conform to snake_case naming style (invalid-name)
+C:4528,20: Variable name "iy" doesn't conform to snake_case naming style (invalid-name)
+W:4635,16: Access to a protected member _warn_external of a client class (protected-access)
+C:4686, 8: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4686, 8: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:4686, 8: Missing function docstring (missing-docstring)
+C:4690,16: Variable name "yi" doesn't conform to snake_case naming style (invalid-name)
+C:4691,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:4692,20: Variable name "mu" doesn't conform to snake_case naming style (invalid-name)
+C:4694,20: Variable name "mu" doesn't conform to snake_case naming style (invalid-name)
+C:4762, 8: Missing function docstring (missing-docstring)
+R:4327, 4: Too many branches (58/12) (too-many-branches)
+C:4773, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4773, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:4773, 4: Argument name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:4773, 4: Argument name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:4817, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:4821, 4: Argument name "Q" doesn't conform to snake_case naming style (invalid-name)
+C:4821, 4: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+C:4821, 4: Argument name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:4821, 4: Argument name "U" doesn't conform to snake_case naming style (invalid-name)
+C:4821, 4: Missing method docstring (missing-docstring)
+R:4821, 4: Too many arguments (6/5) (too-many-arguments)
+C:4822, 8: Variable name "qk" doesn't conform to snake_case naming style (invalid-name)
+C:4828, 4: Argument name "kw" doesn't conform to snake_case naming style (invalid-name)
+C:4830,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4830,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:4832,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4833,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:4839, 4: Missing method docstring (missing-docstring)
+C:4843, 8: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+C:4852, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4852, 4: Missing method docstring (missing-docstring)
+C:4858, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4858, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:4858, 4: Argument name "u" doesn't conform to snake_case naming style (invalid-name)
+C:4858, 4: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
+C:4858, 4: Missing method docstring (missing-docstring)
+R:4858, 4: Too many arguments (18/5) (too-many-arguments)
+R:4858, 4: Too many local variables (20/15) (too-many-locals)
+C:4891, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+E:4935,48: Class 'Line2D' has no '_alias_map' member (no-member)
+W:4935,48: Access to a protected member _alias_map of a client class (protected-access)
+C:4947, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4947, 4: Argument name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:4947, 4: Argument name "y2" doesn't conform to snake_case naming style (invalid-name)
+R:4947, 4: Too many arguments (7/5) (too-many-arguments)
+R:4947, 4: Too many local variables (26/15) (too-many-locals)
+E:5032,24: Class 'Collection' has no '_alias_map' member (no-member)
+W:5032,24: Access to a protected member _alias_map of a client class (protected-access)
+C:5067,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:5070,12: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+C:5071,12: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5074,16: Missing function docstring (missing-docstring)
+C:5116, 8: Variable name "XY1" doesn't conform to snake_case naming style (invalid-name)
+C:5117, 8: Variable name "XY2" doesn't conform to snake_case naming style (invalid-name)
+C:5130, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:5130, 4: Argument name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:5130, 4: Argument name "x2" doesn't conform to snake_case naming style (invalid-name)
+R:5130, 4: Too many arguments (7/5) (too-many-arguments)
+R:5130, 4: Too many local variables (26/15) (too-many-locals)
+E:5215,24: Class 'Collection' has no '_alias_map' member (no-member)
+W:5215,24: Access to a protected member _alias_map of a client class (protected-access)
+C:5250,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:5253,12: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+C:5254,12: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5256,16: Missing function docstring (missing-docstring)
+C:5298, 8: Variable name "X1Y" doesn't conform to snake_case naming style (invalid-name)
+C:5299, 8: Variable name "X2Y" doesn't conform to snake_case naming style (invalid-name)
+C:5311, 4: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+R:5311, 4: Too many arguments (17/5) (too-many-arguments)
+R:5311, 4: Too many local variables (20/15) (too-many-locals)
+C:5487, 8: Variable name "im" doesn't conform to snake_case naming style (invalid-name)
+W:5313,41: Unused argument 'shape' (unused-argument)
+W:5314,30: Unused argument 'imlim' (unused-argument)
+C:5520,12: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:5521,12: Variable name "numRows" doesn't conform to snake_case naming style (invalid-name)
+C:5521,21: Variable name "numCols" doesn't conform to snake_case naming style (invalid-name)
+C:5523,16: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5523,19: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5525,16: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5525,19: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5527,12: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:5532,12: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:5533,12: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5533,15: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5543,20: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5545,20: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5546,12: Variable name "numRows" doesn't conform to snake_case naming style (invalid-name)
+C:5546,21: Variable name "numCols" doesn't conform to snake_case naming style (invalid-name)
+C:5551, 8: Variable name "Nx" doesn't conform to snake_case naming style (invalid-name)
+C:5552, 8: Variable name "Ny" doesn't conform to snake_case naming style (invalid-name)
+C:5554,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:5555,12: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5557,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:5558,12: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5573,12: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:5574, 8: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+R:5510, 4: Too many branches (16/12) (too-many-branches)
+R:5579, 4: Too many local variables (43/15) (too-many-locals)
+C:5715, 8: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5715,11: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5715,14: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:5716, 8: Variable name "Ny" doesn't conform to snake_case naming style (invalid-name)
+C:5716,12: Variable name "Nx" doesn't conform to snake_case naming style (invalid-name)
+C:5720, 8: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5721, 8: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5724, 8: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:5725, 8: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5726, 8: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5737, 8: Variable name "X1" doesn't conform to snake_case naming style (invalid-name)
+C:5738, 8: Variable name "Y1" doesn't conform to snake_case naming style (invalid-name)
+C:5739, 8: Variable name "X2" doesn't conform to snake_case naming style (invalid-name)
+C:5740, 8: Variable name "Y2" doesn't conform to snake_case naming style (invalid-name)
+C:5741, 8: Variable name "X3" doesn't conform to snake_case naming style (invalid-name)
+C:5742, 8: Variable name "Y3" doesn't conform to snake_case naming style (invalid-name)
+C:5743, 8: Variable name "X4" doesn't conform to snake_case naming style (invalid-name)
+C:5744, 8: Variable name "Y4" doesn't conform to snake_case naming style (invalid-name)
+C:5747, 8: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:5750, 8: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:5759, 8: Variable name "ec" doesn't conform to snake_case naming style (invalid-name)
+W:5767,44: Access to a protected member _str_lower_equal of a client class (protected-access)
+C:5785, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:5786, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:5789, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:5789,12: Access to a protected member _transform of a client class (protected-access)
+C:5792,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:5792,16: Access to a protected member _as_mpl_transform of a client class (protected-access)
+C:5798,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:5799,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+R:5579, 4: Too many statements (69/50) (too-many-statements)
+R:5816, 4: Too many local variables (26/15) (too-many-locals)
+C:5979, 8: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5979,11: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5979,14: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:5980, 8: Variable name "Ny" doesn't conform to snake_case naming style (invalid-name)
+C:5980,12: Variable name "Nx" doesn't conform to snake_case naming style (invalid-name)
+C:5981, 8: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5982, 8: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5985, 8: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:5986, 8: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:5989, 8: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:6007, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:6007,12: Access to a protected member _transform of a client class (protected-access)
+C:6010,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:6010,16: Access to a protected member _as_mpl_transform of a client class (protected-access)
+R:6029, 4: Too many local variables (29/15) (too-many-locals)
+C:6134, 8: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:6135, 8: Variable name "nr" doesn't conform to snake_case naming style (invalid-name)
+C:6135,12: Variable name "nc" doesn't conform to snake_case naming style (invalid-name)
+C:6138,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:6139,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+E:6141,12: Possible unbalanced tuple unpacking with sequence: left side has 2 label(s), right side has 0 value(s) (unbalanced-tuple-unpacking)
+C:6141,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:6141,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:6142,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:6143,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:6148,20: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:6149,20: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:6168,12: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:6169,12: Variable name "X" doesn't conform to snake_case naming style (invalid-name)
+C:6170,12: Variable name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:6171,12: Variable name "Nx" doesn't conform to snake_case naming style (invalid-name)
+C:6172,12: Variable name "Ny" doesn't conform to snake_case naming style (invalid-name)
+C:6190,12: Variable name "xl" doesn't conform to snake_case naming style (invalid-name)
+C:6190,16: Variable name "xr" doesn't conform to snake_case naming style (invalid-name)
+C:6190,20: Variable name "yb" doesn't conform to snake_case naming style (invalid-name)
+C:6190,24: Variable name "yt" doesn't conform to snake_case naming style (invalid-name)
+C:6194,12: Variable name "xl" doesn't conform to snake_case naming style (invalid-name)
+C:6194,16: Variable name "xr" doesn't conform to snake_case naming style (invalid-name)
+C:6194,20: Variable name "yb" doesn't conform to snake_case naming style (invalid-name)
+C:6194,24: Variable name "yt" doesn't conform to snake_case naming style (invalid-name)
+C:6197,16: Variable name "im" doesn't conform to snake_case naming style (invalid-name)
+C:6205,16: Variable name "im" doesn't conform to snake_case naming style (invalid-name)
+R:6029, 4: Too many branches (17/12) (too-many-branches)
+R:6029, 4: Too many statements (65/50) (too-many-statements)
+C:6226, 4: Missing method docstring (missing-docstring)
+W:6231,22: Access to a protected member _contour_doc of a client class (protected-access)
+C:6234, 4: Missing method docstring (missing-docstring)
+W:6239,23: Access to a protected member _contour_doc of a client class (protected-access)
+C:6241, 4: Argument name "CS" doesn't conform to snake_case naming style (invalid-name)
+C:6241, 4: Missing method docstring (missing-docstring)
+R:6241, 4: Method could be a function (no-self-use)
+C:6275, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+W:6275,33: Redefining built-in 'range' (redefined-builtin)
+R:6275, 4: Too many arguments (17/5) (too-many-arguments)
+R:6275, 4: Too many local variables (61/15) (too-many-locals)
+W:6526,16: Access to a protected member _reshape_2D of a client class (protected-access)
+C:6527, 8: Variable name "nx" doesn't conform to snake_case naming style (invalid-name)
+C:6542,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+W:6542,16: Access to a protected member _reshape_2D of a client class (protected-access)
+C:6544,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:6549,12: Variable name "xi" doesn't conform to snake_case naming style (invalid-name)
+C:6549,16: Variable name "wi" doesn't conform to snake_case naming style (invalid-name)
+C:6570,16: Variable name "xi" doesn't conform to snake_case naming style (invalid-name)
+C:6571,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:6588,12: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:6589,12: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:6593,16: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:6600,12: Variable name "db" doesn't conform to snake_case naming style (invalid-name)
+C:6601,16: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:6628,16: Variable name "dr" doesn't conform to snake_case naming style (invalid-name)
+C:6631,16: Variable name "dr" doesn't conform to snake_case naming style (invalid-name)
+C:6633,16: Variable name "dr" doesn't conform to snake_case naming style (invalid-name)
+C:6637,16: Variable name "dw" doesn't conform to snake_case naming style (invalid-name)
+C:6641,25: Variable name "dw" doesn't conform to snake_case naming style (invalid-name)
+C:6655,16: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:6655,19: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:6673,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:6687,30: Access to a protected member _scale of a client class (protected-access)
+W:6690,30: Access to a protected member _scale of a client class (protected-access)
+C:6722,16: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+R:6745,16: Redefining argument with the local name 'x' (redefined-argument-from-local)
+C:6745,19: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:6745,22: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:6777,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:6782,20: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:6786, 8: Unnecessary "else" after "return" (no-else-return)
+R:6275, 4: Too many branches (79/12) (too-many-branches)
+R:6275, 4: Too many statements (190/50) (too-many-statements)
+C:6792, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:6792, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+W:6792,36: Redefining built-in 'range' (redefined-builtin)
+R:6792, 4: Too many arguments (9/5) (too-many-arguments)
+C:6885, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:6893, 8: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+C:6901, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:6901, 4: Argument name "NFFT" doesn't conform to snake_case naming style (invalid-name)
+C:6901, 4: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:6901, 4: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+R:6901, 4: Too many arguments (12/5) (too-many-arguments)
+R:6901, 4: Too many local variables (24/15) (too-many-locals)
+R:7017, 8: Unnecessary "else" after "return" (no-else-return)
+C:7024, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:7024, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:7024, 4: Argument name "NFFT" doesn't conform to snake_case naming style (invalid-name)
+C:7024, 4: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:7024, 4: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+R:7024, 4: Too many arguments (13/5) (too-many-arguments)
+R:7024, 4: Too many local variables (23/15) (too-many-locals)
+R:7129, 8: Unnecessary "else" after "return" (no-else-return)
+C:7136, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:7136, 4: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:7136, 4: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+R:7136, 4: Too many arguments (8/5) (too-many-arguments)
+C:7223,12: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+C:7226,12: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+W:7229,12: Exception arguments suggest string formatting might be intended (raising-format-tuple)
+C:7239, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:7239, 4: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:7239, 4: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+R:7239, 4: Too many arguments (7/5) (too-many-arguments)
+C:7321, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:7321, 4: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:7321, 4: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+R:7321, 4: Too many arguments (7/5) (too-many-arguments)
+C:7402, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:7402, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:7402, 4: Argument name "NFFT" doesn't conform to snake_case naming style (invalid-name)
+C:7402, 4: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:7402, 4: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+R:7402, 4: Too many arguments (12/5) (too-many-arguments)
+R:7402, 4: Too many local variables (16/15) (too-many-locals)
+W:7403,55: Unused argument 'pad_to' (unused-argument)
+W:7404,15: Unused argument 'sides' (unused-argument)
+C:7467, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:7467, 4: Argument name "NFFT" doesn't conform to snake_case naming style (invalid-name)
+C:7467, 4: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:7467, 4: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+R:7467, 4: Too many arguments (17/5) (too-many-arguments)
+R:7467, 4: Too many local variables (28/15) (too-many-locals)
+C:7595,21: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:7603,12: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+C:7606,16: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+C:7608,16: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+W:7610,12: Exception arguments suggest string formatting might be intended (raising-format-tuple)
+C:7612, 8: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+C:7621, 8: Variable name "im" doesn't conform to snake_case naming style (invalid-name)
+R:7467, 4: Too many branches (14/12) (too-many-branches)
+C:7628, 4: Argument name "Z" doesn't conform to snake_case naming style (invalid-name)
+R:7628, 4: Too many arguments (7/5) (too-many-arguments)
+R:7628, 4: Too many local variables (18/15) (too-many-locals)
+C:7726,16: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:7728,20: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:7729,20: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:7732,20: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:7733,20: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:7737,16: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:7737,19: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:7748,12: Variable name "nr" doesn't conform to snake_case naming style (invalid-name)
+C:7748,16: Variable name "nc" doesn't conform to snake_case naming style (invalid-name)
+C:7764, 4: Argument name "Z" doesn't conform to snake_case naming style (invalid-name)
+C:7801, 8: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+C:7805, 8: Variable name "im" doesn't conform to snake_case naming style (invalid-name)
+R:7818, 4: Too many arguments (10/5) (too-many-arguments)
+C:7910, 8: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+R:7922, 4: Too many arguments (8/5) (too-many-arguments)
+R:7922, 4: Too many local variables (28/15) (too-many-locals)
+C:8021, 8: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+C:8098, 4: Missing method docstring (missing-docstring)
+C:8102, 4: Missing method docstring (missing-docstring)
+C:8106, 4: Missing method docstring (missing-docstring)
+C:8110, 4: Missing method docstring (missing-docstring)
+W:423, 8: Attribute 'legend_' defined outside __init__ (attribute-defined-outside-init)
+W:428, 8: Attribute 'legend_' defined outside __init__ (attribute-defined-outside-init)
+W:5120, 8: Attribute 'ignore_existing_data_limits' defined outside __init__ (attribute-defined-outside-init)
+W:5302, 8: Attribute 'ignore_existing_data_limits' defined outside __init__ (attribute-defined-outside-init)
+R:116, 0: Too many public methods (73/20) (too-many-public-methods)
+W:  7, 0: Unused import warnings (unused-import)
+************* Module matplotlib.axes._base
+R:388, 0: Disallow trailing comma tuple (trailing-comma-tuple)
+C:419, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:977, 0: Wrong hanging indentation (remove 4 spaces).
+                    self._sharex.xaxis.get_scale(), self.xaxis)
+                |   ^ (bad-continuation)
+C:992, 0: Wrong hanging indentation (remove 4 spaces).
+                    self._sharey.yaxis.get_scale(), self.yaxis)
+                |   ^ (bad-continuation)
+C:1127, 0: Wrong hanging indentation (remove 4 spaces).
+                0.0, title_offset_points / 72,
+            |   ^ (bad-continuation)
+C:1128, 0: Wrong hanging indentation (remove 4 spaces).
+                self.figure.dpi_scale_trans)
+            |   ^ (bad-continuation)
+C:2488, 0: Wrong continued indentation (add 2 spaces).
+                             ' already placed manually: %f', y)
+                             ^ | (bad-continuation)
+C:2515, 0: Wrong hanging indentation (remove 4 spaces).
+                        (0., top))[1]
+                    |   ^ (bad-continuation)
+C:2522, 0: Wrong continued indentation (remove 4 spaces).
+                             title.get_window_extent(renderer).ymin))[1]
+                         |   ^ (bad-continuation)
+C:4281, 0: Wrong continued indentation (add 10 spaces).
+            bbox_extra_artists=None):
+            ^         | (bad-continuation)
+C:  1, 0: Too many lines in module (4439/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 32, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 92, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R: 35, 0: Too many branches (20/12) (too-many-branches)
+R: 35, 0: Too many statements (52/50) (too-many-statements)
+C:127, 0: Class name "_process_plot_var_args" doesn't conform to PascalCase naming style (invalid-name)
+C:152, 4: Missing method docstring (missing-docstring)
+C:190, 4: Missing method docstring (missing-docstring)
+C:194, 4: Missing method docstring (missing-docstring)
+C:198, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:198, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:200,12: Variable name "bx" doesn't conform to snake_case naming style (invalid-name)
+C:201,12: Variable name "by" doesn't conform to snake_case naming style (invalid-name)
+C:262,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:277,20: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+R:268, 4: Method could be a function (no-self-use)
+C:280, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:280, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:280, 4: Argument name "kw" doesn't conform to snake_case naming style (invalid-name)
+C:287, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:287, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:287, 4: Argument name "kw" doesn't conform to snake_case naming style (invalid-name)
+C:302,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:335, 4: Too many local variables (18/15) (too-many-locals)
+C:351, 8: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+C:352,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:361,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:362,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:364,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:364,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:366, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:366,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+R:335, 4: Too many branches (13/12) (too-many-branches)
+W:149, 8: Attribute '__dict__' defined outside __init__ (attribute-defined-outside-init)
+C:456, 8: Attribute name "_originalPosition" doesn't conform to snake_case naming style (invalid-name)
+C:603, 8: Attribute name "dataLim" doesn't conform to snake_case naming style (invalid-name)
+C:604, 8: Attribute name "viewLim" doesn't conform to snake_case naming style (invalid-name)
+C:605, 8: Attribute name "transScale" doesn't conform to snake_case naming style (invalid-name)
+C:623, 8: Attribute name "transAxes" doesn't conform to snake_case naming style (invalid-name)
+C:633, 8: Attribute name "transLimits" doesn't conform to snake_case naming style (invalid-name)
+C:639, 8: Attribute name "transData" doesn't conform to snake_case naming style (invalid-name)
+C:1007,12: Attribute name "_autoscaleXon" doesn't conform to snake_case naming style (invalid-name)
+C:1009,12: Attribute name "_autoscaleYon" doesn't conform to snake_case naming style (invalid-name)
+C:1019, 8: Attribute name "_gridOn" doesn't conform to snake_case naming style (invalid-name)
+C:1126, 8: Attribute name "titleOffsetTrans" doesn't conform to snake_case naming style (invalid-name)
+R:393, 0: Too many instance attributes (68/7) (too-many-instance-attributes)
+R:410, 4: Too many arguments (10/5) (too-many-arguments)
+W:565, 4: Parameters differ from overridden 'get_window_extent' method (arguments-differ)
+W:565, 0: Unused argument 'args' (unused-argument)
+W:565, 0: Unused argument 'kwargs' (unused-argument)
+C:800, 4: Method name "_update_transScale" doesn't conform to snake_case naming style (invalid-name)
+W:806,16: Access to a protected member _transformed_path of a client class (protected-access)
+C:868,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:870,16: Access to a protected member _position of a client class (protected-access)
+W:872,16: Access to a protected member _originalPosition of a client class (protected-access)
+C:882,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:903, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+R:913, 4: Method could be a function (no-self-use)
+W:929,31: Unused argument 'locations' (unused-argument)
+W:929,47: Unused argument 'offset' (unused-argument)
+W:929,59: Unused argument 'units' (unused-argument)
+C:973,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:973,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+W:976,12: Access to a protected member _scale of a client class (protected-access)
+W:979,12: Access to a protected member _set_scale of a client class (protected-access)
+C:988,12: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:988,16: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+W:991,12: Access to a protected member _scale of a client class (protected-access)
+W:994,12: Access to a protected member _set_scale of a client class (protected-access)
+W:962,12: Unused variable 'name' (unused-variable)
+R:946, 4: Too many branches (16/12) (too-many-branches)
+R:946, 4: Too many statements (92/50) (too-many-statements)
+C:1096, 4: Missing method docstring (missing-docstring)
+C:1207, 4: Missing method docstring (missing-docstring)
+W:1263,16: Access to a protected member _str_equal of a client class (protected-access)
+W:1264,19: Access to a protected member _str_equal of a client class (protected-access)
+C:1271,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:1272,12: Access to a protected member _aspect of a client class (protected-access)
+C:1282, 4: Missing method docstring (missing-docstring)
+E:1317,12: Too many positional arguments for function call (too-many-function-args)
+C:1326,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:1327,12: Access to a protected member _adjustable of a client class (protected-access)
+C:1394,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:1395,12: Access to a protected member _anchor of a client class (protected-access)
+R:1427, 4: Too many local variables (49/15) (too-many-locals)
+W:1465,20: Access to a protected member _warn_external of a client class (protected-access)
+C:1479,12: Variable name "A" doesn't conform to snake_case naming style (invalid-name)
+C:1481,12: Variable name "A" doesn't conform to snake_case naming style (invalid-name)
+C:1483, 8: Variable name "figW" doesn't conform to snake_case naming style (invalid-name)
+C:1483,14: Variable name "figH" doesn't conform to snake_case naming style (invalid-name)
+C:1493,12: Variable name "pb" doesn't conform to snake_case naming style (invalid-name)
+C:1512, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1512,11: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1512,14: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1512,17: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1522,12: Variable name "dL" doesn't conform to snake_case naming style (invalid-name)
+C:1523,12: Variable name "dL_width" doesn't conform to snake_case naming style (invalid-name)
+C:1524,12: Variable name "dL_height" doesn't conform to snake_case naming style (invalid-name)
+C:1525,12: Variable name "xr" doesn't conform to snake_case naming style (invalid-name)
+C:1526,12: Variable name "yr" doesn't conform to snake_case naming style (invalid-name)
+C:1528,12: Variable name "dL" doesn't conform to snake_case naming style (invalid-name)
+C:1529,12: Variable name "xr" doesn't conform to snake_case naming style (invalid-name)
+C:1530,12: Variable name "yr" doesn't conform to snake_case naming style (invalid-name)
+C:1534, 8: Variable name "Ysize" doesn't conform to snake_case naming style (invalid-name)
+C:1535, 8: Variable name "Xsize" doesn't conform to snake_case naming style (invalid-name)
+C:1536, 8: Variable name "Xmarg" doesn't conform to snake_case naming style (invalid-name)
+C:1537, 8: Variable name "Ymarg" doesn't conform to snake_case naming style (invalid-name)
+C:1540, 8: Variable name "xm" doesn't conform to snake_case naming style (invalid-name)
+C:1541, 8: Variable name "ym" doesn't conform to snake_case naming style (invalid-name)
+C:1562,12: Variable name "yc" doesn't conform to snake_case naming style (invalid-name)
+C:1563,12: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:1564,12: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:1570,12: Variable name "xc" doesn't conform to snake_case naming style (invalid-name)
+C:1571,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:1572,12: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+W:1512, 8: Unused variable 'l' (unused-variable)
+W:1512,11: Unused variable 'b' (unused-variable)
+R:1427, 4: Too many branches (30/12) (too-many-branches)
+R:1427, 4: Too many statements (95/50) (too-many-statements)
+C:1631,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1639,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+E:1647,20: Too many positional arguments for function call (too-many-function-args)
+R:1578, 4: Too many branches (16/12) (too-many-branches)
+R:1578, 4: Too many statements (61/50) (too-many-statements)
+C:1752, 4: Argument name "im" doesn't conform to snake_case naming style (invalid-name)
+C:1788, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+W:1803, 8: Access to a protected member _remove_method of a client class (protected-access)
+C:1809, 4: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:1819, 8: Access to a protected member _axes of a client class (protected-access)
+W:1820,28: Access to a protected member _stale_axes_callback of a client class (protected-access)
+W:1823, 8: Access to a protected member _remove_method of a client class (protected-access)
+W:1835, 8: Access to a protected member _remove_method of a client class (protected-access)
+W:1855, 8: Access to a protected member _remove_method of a client class (protected-access)
+W:1875, 8: Access to a protected member _remove_method of a client class (protected-access)
+W:1885, 8: Access to a protected member _remove_method of a client class (protected-access)
+W:1911,34: Access to a protected member _get_transformed_path of a client class (protected-access)
+C:1933, 4: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+W:1942, 8: Access to a protected member _remove_method of a client class (protected-access)
+W:1978, 8: Access to a protected member _remove_method of a client class (protected-access)
+W:1989, 8: Access to a protected member _remove_method of a client class (protected-access)
+C:2022,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:2049,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:2123, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2134, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2144, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2172, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2176, 4: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+C:2198, 4: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+C:2220,32: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2220,40: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2276,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2276,16: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2278,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2278,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:2285,16: Access to a protected member _warn_external of a client class (protected-access)
+R:2220, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:2298, 4: Argument name "z" doesn't conform to snake_case naming style (invalid-name)
+R:2382,11: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+C:2395, 8: Missing function docstring (missing-docstring)
+R:2395, 8: Too many arguments (9/5) (too-many-arguments)
+R:2395, 8: Too many local variables (25/15) (too-many-locals)
+C:2402,12: Variable name "dl" doesn't conform to snake_case naming style (invalid-name)
+C:2405,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:2415,16: Variable name "dl" doesn't conform to snake_case naming style (invalid-name)
+C:2419,12: Variable name "bb" doesn't conform to snake_case naming style (invalid-name)
+C:2420,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:2420,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:2424,16: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:2424,20: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:2427,16: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:2427,20: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:2439,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:2439,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+W:2439,21: Access to a protected member _scale of a client class (protected-access)
+C:2452,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:2452,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:2455,16: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:2455,20: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:2484,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2484,19: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2494,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2494,15: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:2495,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2502,16: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:2506,24: Variable name "bb" doesn't conform to snake_case naming style (invalid-name)
+C:2508,24: Variable name "bb" doesn't conform to snake_case naming style (invalid-name)
+C:2512,20: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2514,16: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2520,20: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2527,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2527,15: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+W:2494,15: Unused variable 'y0' (unused-variable)
+W:2532, 4: Parameters differ from overridden 'draw' method (arguments-differ)
+W:2535,23: Access to a protected member _cachedRenderer of a client class (protected-access)
+C:2599,16: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+W:2603, 8: Access to a protected member _draw_list_compositing_images of a client class (protected-access)
+R:2532, 4: Too many branches (16/12) (too-many-branches)
+C:2608, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+W:2614,11: Access to a protected member _cachedRenderer of a client class (protected-access)
+W:2617,15: Access to a protected member _cachedRenderer of a client class (protected-access)
+W:2625,11: Access to a protected member _cachedRenderer of a client class (protected-access)
+W:2628,18: Access to a protected member _cachedRenderer of a client class (protected-access)
+C:2630, 4: Missing method docstring (missing-docstring)
+W:2631,15: Access to a protected member _cachedRenderer of a client class (protected-access)
+C:2639, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2664, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2700, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2732,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:2746,25: Variable name "useOffset" doesn't conform to snake_case naming style (invalid-name)
+C:2746,41: Variable name "useLocale" doesn't conform to snake_case naming style (invalid-name)
+C:2746,57: Variable name "useMathText" doesn't conform to snake_case naming style (invalid-name)
+C:2791,16: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:2791,19: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+W:2792,16: Statement seems to have no effect (pointless-statement)
+C:2796,12: Variable name "sb" doesn't conform to snake_case naming style (invalid-name)
+C:2798,12: Variable name "sb" doesn't conform to snake_case naming style (invalid-name)
+C:2800,12: Variable name "sb" doesn't conform to snake_case naming style (invalid-name)
+R:2745, 4: Too many branches (22/12) (too-many-branches)
+R:3030, 8: Unnecessary "else" after "return" (no-else-return)
+R:3098, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:3098, 4: Method could be a function (no-self-use)
+W:3211,12: Access to a protected member _warn_external of a client class (protected-access)
+W:3219,16: Access to a protected member _warn_external of a client class (protected-access)
+W:3225,16: Access to a protected member _warn_external of a client class (protected-access)
+R:3116, 4: Too many branches (16/12) (too-many-branches)
+C:3250, 4: Missing method docstring (missing-docstring)
+C:3279, 8: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:3280,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:3281,12: Access to a protected member _set_scale of a client class (protected-access)
+W:3282,12: Access to a protected member _update_transScale of a client class (protected-access)
+R:3430, 8: Unnecessary "else" after "return" (no-else-return)
+W:3593,12: Access to a protected member _warn_external of a client class (protected-access)
+W:3602,16: Access to a protected member _warn_external of a client class (protected-access)
+W:3608,16: Access to a protected member _warn_external of a client class (protected-access)
+R:3498, 4: Too many branches (16/12) (too-many-branches)
+C:3632, 4: Missing method docstring (missing-docstring)
+C:3661, 8: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:3662,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:3663,12: Access to a protected member _set_scale of a client class (protected-access)
+W:3664,12: Access to a protected member _update_transScale of a client class (protected-access)
+C:3770, 4: Argument name "tz" doesn't conform to snake_case naming style (invalid-name)
+C:3783, 4: Argument name "tz" doesn't conform to snake_case naming style (invalid-name)
+C:3794, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:3804, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:3814, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:3814, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:3817,12: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:3819,12: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:3821,12: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:3823,12: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:3833,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:3836,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W:3836,20: Access to a protected member _scale of a client class (protected-access)
+C:3839,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W:3839,20: Access to a protected member _scale of a client class (protected-access)
+W:3841,50: Access to a protected member _transform of a client class (protected-access)
+R:3852, 4: Method could be a function (no-self-use)
+R:3858, 4: Method could be a function (no-self-use)
+C:3870, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:3886, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+R:3930, 4: Too many arguments (6/5) (too-many-arguments)
+R:3930, 4: Too many local variables (39/15) (too-many-locals)
+C:3967, 8: Variable name "Xmin" doesn't conform to snake_case naming style (invalid-name)
+C:3967,14: Variable name "Xmax" doesn't conform to snake_case naming style (invalid-name)
+C:3968, 8: Variable name "Ymin" doesn't conform to snake_case naming style (invalid-name)
+C:3968,14: Variable name "Ymax" doesn't conform to snake_case naming style (invalid-name)
+C:3972,12: Variable name "xp" doesn't conform to snake_case naming style (invalid-name)
+C:3972,16: Variable name "yp" doesn't conform to snake_case naming style (invalid-name)
+C:3986,12: Variable name "tranD2C" doesn't conform to snake_case naming style (invalid-name)
+W:4002,12: Access to a protected member _warn_external of a client class (protected-access)
+C:4008,22: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4008,25: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:4013, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4013,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:4016,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:4016,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:4020,20: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:4020,24: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:4022,20: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:4022,24: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:4024,20: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:4026,20: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:4029,20: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:4029,24: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:4031,20: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:4031,24: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:4033,20: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:4035,20: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:4038,12: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:4038,16: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:4042,20: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:4042,24: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:4044,20: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:4044,24: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:4046,20: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:4048,20: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:4051,20: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:4051,24: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:4053,20: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:4053,24: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:4055,20: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:4057,20: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+R:3930, 4: Too many branches (39/12) (too-many-branches)
+R:3930, 4: Too many statements (100/50) (too-many-statements)
+C:4093, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4093, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+W:4093,30: Unused argument 'button' (unused-argument)
+C:4129, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:4129, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:4129, 4: Too many local variables (17/15) (too-many-locals)
+C:4148, 8: Argument name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:4148, 8: Argument name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:4148, 8: Missing function docstring (missing-docstring)
+C:4169, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:4170, 8: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:4171, 8: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:4175,12: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:4175,16: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:4179,16: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:4180,16: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:4181,16: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:4181,20: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:4183,20: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:4183,25: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+W:4191,16: Access to a protected member _warn_external of a client class (protected-access)
+W:4246, 4: Parameters differ from overridden 'pick' method (arguments-differ)
+W:4280, 4: Parameters differ from overridden 'get_tightbbox' method (arguments-differ)
+C:4313, 8: Variable name "bb" doesn't conform to snake_case naming style (invalid-name)
+C:4347,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+E:952,28: Access to member 'patch' before its definition line 1070 (access-member-before-definition)
+W:562, 8: Attribute '__dict__' defined outside __init__ (attribute-defined-outside-init)
+W:628, 8: Attribute 'transScale' defined outside __init__ (attribute-defined-outside-init)
+W:623, 8: Attribute 'transAxes' defined outside __init__ (attribute-defined-outside-init)
+W:633, 8: Attribute 'transLimits' defined outside __init__ (attribute-defined-outside-init)
+W:639, 8: Attribute 'transData' defined outside __init__ (attribute-defined-outside-init)
+W:641, 8: Attribute '_xaxis_transform' defined outside __init__ (attribute-defined-outside-init)
+W:643, 8: Attribute '_yaxis_transform' defined outside __init__ (attribute-defined-outside-init)
+W:1931,12: Attribute 'ignore_existing_data_limits' defined outside __init__ (attribute-defined-outside-init)
+W:2016, 8: Attribute 'ignore_existing_data_limits' defined outside __init__ (attribute-defined-outside-init)
+W:2053, 8: Attribute 'ignore_existing_data_limits' defined outside __init__ (attribute-defined-outside-init)
+W:2131, 8: Attribute '_autoscaleXon' defined outside __init__ (attribute-defined-outside-init)
+W:2142, 8: Attribute '_autoscaleXon' defined outside __init__ (attribute-defined-outside-init)
+W:2347,16: Attribute '_autoscaleXon' defined outside __init__ (attribute-defined-outside-init)
+W:3235,12: Attribute '_autoscaleXon' defined outside __init__ (attribute-defined-outside-init)
+W:2132, 8: Attribute '_autoscaleYon' defined outside __init__ (attribute-defined-outside-init)
+W:2152, 8: Attribute '_autoscaleYon' defined outside __init__ (attribute-defined-outside-init)
+W:2350,16: Attribute '_autoscaleYon' defined outside __init__ (attribute-defined-outside-init)
+W:3617,12: Attribute '_autoscaleYon' defined outside __init__ (attribute-defined-outside-init)
+W:2195, 8: Attribute '_xmargin' defined outside __init__ (attribute-defined-outside-init)
+W:2353,12: Attribute '_xmargin' defined outside __init__ (attribute-defined-outside-init)
+W:2217, 8: Attribute '_ymargin' defined outside __init__ (attribute-defined-outside-init)
+W:2355,12: Attribute '_ymargin' defined outside __init__ (attribute-defined-outside-init)
+W:2380,12: Attribute '_tight' defined outside __init__ (attribute-defined-outside-init)
+W:2173, 8: Attribute '_use_sticky_edges' defined outside __init__ (attribute-defined-outside-init)
+W:1765, 8: Attribute '_current_image' defined outside __init__ (attribute-defined-outside-init)
+W:2486,20: Attribute '_autotitlepos' defined outside __init__ (attribute-defined-outside-init)
+W:2490,12: Attribute '_autotitlepos' defined outside __init__ (attribute-defined-outside-init)
+W:1126, 8: Attribute 'titleOffsetTrans' defined outside __init__ (attribute-defined-outside-init)
+W:2978, 8: Attribute 'axison' defined outside __init__ (attribute-defined-outside-init)
+W:2987, 8: Attribute 'axison' defined outside __init__ (attribute-defined-outside-init)
+W:4109, 8: Attribute '_pan_start' defined outside __init__ (attribute-defined-outside-init)
+R:393,12: Too many public methods (133/20) (too-many-public-methods)
+************* Module matplotlib.axes._subplots
+C: 42, 0: Wrong continued indentation (add 13 spaces).
+                        'a 3-digit integer')
+                        ^            | (bad-continuation)
+C: 53, 0: Wrong hanging indentation (remove 4 spaces).
+                        rows, cols,
+                    |   ^ (bad-continuation)
+C: 54, 0: Wrong hanging indentation (remove 4 spaces).
+                        figure=self.figure)[(num[0] - 1):num[1]]
+                    |   ^ (bad-continuation)
+C: 61, 0: Wrong hanging indentation (remove 4 spaces).
+                        rows, cols, figure=self.figure)[int(num) - 1]
+                    |   ^ (bad-continuation)
+C: 80, 0: Wrong hanging indentation (remove 4 spaces).
+                    parent=self._subplotspec._layoutbox,
+                |   ^ (bad-continuation)
+C: 81, 0: Wrong hanging indentation (remove 4 spaces).
+                    name=name,
+                |   ^ (bad-continuation)
+C: 82, 0: Wrong hanging indentation (remove 4 spaces).
+                    artist=self)
+                |   ^ (bad-continuation)
+C: 84, 0: Wrong hanging indentation (remove 4 spaces).
+                    parent=self._layoutbox,
+                |   ^ (bad-continuation)
+C: 85, 0: Wrong hanging indentation (remove 4 spaces).
+                    name=self._layoutbox.name+'.pos',
+                |   ^ (bad-continuation)
+C: 86, 0: Wrong hanging indentation (remove 4 spaces).
+                    pos=True, subplot=True, artist=self)
+                |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:125,21: Attribute name "rowNum" doesn't conform to snake_case naming style (invalid-name)
+C:125,34: Attribute name "colNum" doesn't conform to snake_case naming style (invalid-name)
+C:125,47: Attribute name "numRows" doesn't conform to snake_case naming style (invalid-name)
+C:125,61: Attribute name "numCols" doesn't conform to snake_case naming style (invalid-name)
+R: 10, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C: 38,20: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+E: 69, 8: Instance of 'SubplotBase' has no '_axes_class' member (no-member)
+W: 73,11: Access to a protected member _layoutbox of a client class (protected-access)
+W: 77,19: Access to a protected member _layoutbox of a client class (protected-access)
+W: 80,27: Access to a protected member _layoutbox of a client class (protected-access)
+E: 95,16: Instance of 'SubplotBase' has no '__getstate__' member (no-member)
+W: 99,26: Unused variable 'num2' (unused-variable)
+E:108, 8: Instance of 'SubplotBase' has no 'set_position' member (no-member)
+C:129, 4: Missing method docstring (missing-docstring)
+C:132, 4: Missing method docstring (missing-docstring)
+C:135, 4: Missing method docstring (missing-docstring)
+C:138, 4: Missing method docstring (missing-docstring)
+E:151,25: Instance of 'SubplotBase' has no 'get_xticklabels' member (no-member)
+E:153,12: Instance of 'SubplotBase' has no 'get_xaxis' member (no-member)
+E:154,12: Instance of 'SubplotBase' has no 'set_xlabel' member (no-member)
+E:156,25: Instance of 'SubplotBase' has no 'get_yticklabels' member (no-member)
+E:158,12: Instance of 'SubplotBase' has no 'get_yaxis' member (no-member)
+E:159,12: Instance of 'SubplotBase' has no 'set_ylabel' member (no-member)
+E:178, 8: Instance of 'SubplotBase' has no 'set_adjustable' member (no-member)
+W:181,43: Access to a protected member _layoutbox of a client class (protected-access)
+W:183,12: Access to a protected member _layoutbox of a client class (protected-access)
+W:184,12: Access to a protected member _poslayoutbox of a client class (protected-access)
+E:186, 8: Instance of 'SubplotBase' has no '_twinned_axes' member (no-member)
+W:172,34: Unused variable 'key' (unused-variable)
+C:199, 0: Constant name "_subplot_classes" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:226, 0: Constant name "Subplot" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+4073 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |4      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |4      |NC         |NC         |100.00      |25.00    |
++---------+-------+-----------+-----------+------------+---------+
+|method   |267    |NC         |NC         |90.64       |0.75     |
++---------+-------+-----------+-----------+------------+---------+
+|function |25     |NC         |NC         |44.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    collections (matplotlib.axes._base)
+    matplotlib (matplotlib.axes._axes,matplotlib.axes._base)
+      \-_layoutbox (matplotlib.axes._subplots)
+      \-artist (matplotlib.axes._base,matplotlib.axes._subplots)
+      \-axes 
+      | \-_axes (matplotlib.axes._subplots)
+      | \-_base (matplotlib.axes._axes)
+      \-axis (matplotlib.axes._base)
+      \-category (matplotlib.axes._axes)
+      \-cbook (matplotlib.axes._axes,matplotlib.axes._base)
+      \-collections (matplotlib.axes._axes)
+      \-colors (matplotlib.axes._axes,matplotlib.axes._base)
+      \-container (matplotlib.axes._axes)
+      \-contour (matplotlib.axes._axes)
+      \-dates (matplotlib.axes._axes)
+      \-docstring (matplotlib.axes._axes,matplotlib.axes._base,matplotlib.axes._subplots)
+      \-font_manager (matplotlib.axes._base)
+      \-gridspec (matplotlib.axes._subplots)
+      \-image (matplotlib.axes._axes,matplotlib.axes._base)
+      \-legend (matplotlib.axes._axes)
+      \-lines (matplotlib.axes._axes,matplotlib.axes._base)
+      \-markers (matplotlib.axes._axes)
+      \-mlab (matplotlib.axes._axes)
+      \-patches (matplotlib.axes._axes,matplotlib.axes._base)
+      \-path (matplotlib.axes._axes)
+      \-projections (matplotlib.axes._subplots)
+      \-quiver (matplotlib.axes._axes)
+      \-rcsetup (matplotlib.axes._base)
+      \-scale (matplotlib.axes._base)
+      \-spines (matplotlib.axes._base)
+      \-stackplot (matplotlib.axes._axes)
+      \-streamplot (matplotlib.axes._axes)
+      \-table (matplotlib.axes._axes)
+      \-text (matplotlib.axes._axes,matplotlib.axes._base)
+      \-ticker (matplotlib.axes._axes,matplotlib.axes._base)
+      \-transforms (matplotlib.axes._axes,matplotlib.axes._base)
+      \-tri (matplotlib.axes._axes)
+    numpy (matplotlib.axes._axes,matplotlib.axes._base)
+      \-ma (matplotlib.axes._axes)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |4930   |38.51 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |6400   |49.99 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |481    |3.76  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |991    |7.74  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |724    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |126    |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |145    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |28     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++--------------------------+------+--------+---------+-----------+
+|module                    |error |warning |refactor |convention |
++==========================+======+========+=========+===========+
+|matplotlib.axes._axes     |50.00 |26.90   |70.63    |63.95      |
++--------------------------+------+--------+---------+-----------+
+|matplotlib.axes._subplots |39.29 |5.52    |0.79     |3.04       |
++--------------------------+------+--------+---------+-----------+
+|matplotlib.axes._base     |10.71 |66.21   |28.57    |32.87      |
++--------------------------+------+--------+---------+-----------+
+|matplotlib.axes           |0.00  |1.38    |0.00     |0.14       |
++--------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------------------+------------+
+|message id                      |occurrences |
++================================+============+
+|invalid-name                    |581         |
++--------------------------------+------------+
+|protected-access                |78          |
++--------------------------------+------------+
+|bad-continuation                |65          |
++--------------------------------+------------+
+|missing-docstring               |43          |
++--------------------------------+------------+
+|attribute-defined-outside-init  |36          |
++--------------------------------+------------+
+|too-many-arguments              |32          |
++--------------------------------+------------+
+|too-many-locals                 |31          |
++--------------------------------+------------+
+|len-as-condition                |27          |
++--------------------------------+------------+
+|too-many-branches               |23          |
++--------------------------------+------------+
+|no-member                       |18          |
++--------------------------------+------------+
+|too-many-statements             |15          |
++--------------------------------+------------+
+|unused-argument                 |13          |
++--------------------------------+------------+
+|unused-variable                 |6           |
++--------------------------------+------------+
+|no-self-use                     |6           |
++--------------------------------+------------+
+|no-else-return                  |6           |
++--------------------------------+------------+
+|unbalanced-tuple-unpacking      |5           |
++--------------------------------+------------+
+|misplaced-comparison-constant   |4           |
++--------------------------------+------------+
+|arguments-differ                |4           |
++--------------------------------+------------+
+|wildcard-import                 |2           |
++--------------------------------+------------+
+|too-many-public-methods         |2           |
++--------------------------------+------------+
+|too-many-lines                  |2           |
++--------------------------------+------------+
+|too-many-instance-attributes    |2           |
++--------------------------------+------------+
+|too-many-function-args          |2           |
++--------------------------------+------------+
+|too-many-boolean-expressions    |2           |
++--------------------------------+------------+
+|redefined-builtin               |2           |
++--------------------------------+------------+
+|raising-format-tuple            |2           |
++--------------------------------+------------+
+|inconsistent-return-statements  |2           |
++--------------------------------+------------+
+|consider-using-ternary          |2           |
++--------------------------------+------------+
+|unused-import                   |1           |
++--------------------------------+------------+
+|trailing-comma-tuple            |1           |
++--------------------------------+------------+
+|too-many-nested-blocks          |1           |
++--------------------------------+------------+
+|redefined-argument-from-local   |1           |
++--------------------------------+------------+
+|pointless-statement             |1           |
++--------------------------------+------------+
+|no-name-in-module               |1           |
++--------------------------------+------------+
+|import-error                    |1           |
++--------------------------------+------------+
+|blacklisted-name                |1           |
++--------------------------------+------------+
+|bad-whitespace                  |1           |
++--------------------------------+------------+
+|access-member-before-definition |1           |
++--------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.21/10
+

@@ -1,0 +1,246 @@
+************* Module matplotlib.sankey
+C:125, 0: Wrong hanging indentation (add 4 spaces).
+            "The gap is negative.\nThis isn't allowed because it "
+            ^   | (bad-continuation)
+C:129, 0: Wrong hanging indentation (add 4 spaces).
+            "The inner radius is greater than the path spacing.\n"
+            ^   | (bad-continuation)
+C:133, 0: Wrong hanging indentation (add 4 spaces).
+            "The angle is negative.\nThis isn't allowed "
+            ^   | (bad-continuation)
+C:138, 0: Wrong hanging indentation (add 4 spaces).
+            "The tolerance is negative.\nIt must be a magnitude.")
+            ^   | (bad-continuation)
+C:214, 0: Wrong continued indentation (remove 1 space).
+                                             ARC_VERTICES[:, 0]))
+                                            |^ (bad-continuation)
+C:217, 0: Wrong continued indentation (remove 1 space).
+                                             ARC_VERTICES[:, 1]))
+                                            |^ (bad-continuation)
+C:449, 0: Wrong hanging indentation (add 4 spaces).
+            "orientations and flows must have the same length.\n"
+            ^   | (bad-continuation)
+C:451, 0: Wrong hanging indentation (add 4 spaces).
+            % (len(orientations), n))
+            ^   | (bad-continuation)
+C:461, 0: Wrong hanging indentation (add 4 spaces).
+            "trunklength is negative.\nThis isn't allowed, because it would "
+            ^   | (bad-continuation)
+C:465, 0: Wrong continued indentation (add 1 space).
+                     "system not at steady state?", np.sum(flows))
+                     ^| (bad-continuation)
+C:469, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:474, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:484, 0: Wrong hanging indentation (add 4 spaces).
+                "At least one of the connection indices is negative.")
+                ^   | (bad-continuation)
+C:487, 0: Wrong hanging indentation (add 4 spaces).
+                "The index of the prior diagram is %d, but there are "
+                ^   | (bad-continuation)
+C:489, 0: Wrong hanging indentation (add 4 spaces).
+                % (prior, len(self.diagrams)))
+                ^   | (bad-continuation)
+C:492, 0: Wrong hanging indentation (add 4 spaces).
+                "The connection index to the source diagram is %d, but "
+                ^   | (bad-continuation)
+C:494, 0: Wrong hanging indentation (add 4 spaces).
+                % (connect[0], len(self.diagrams[prior].flows)))
+                ^   | (bad-continuation)
+C:497, 0: Wrong hanging indentation (add 4 spaces).
+                "The connection index to this diagram is %d, but this diagram"
+                ^   | (bad-continuation)
+C:499, 0: Wrong hanging indentation (add 4 spaces).
+                % (connect[1], n))
+                ^   | (bad-continuation)
+C:502, 0: Wrong hanging indentation (add 4 spaces).
+                "The connection cannot be made.  Check that the magnitude "
+                ^   | (bad-continuation)
+C:509, 0: Wrong hanging indentation (add 4 spaces).
+                "The scaled sum of the connected flows is %f, which is not "
+                ^   | (bad-continuation)
+C:541, 0: Wrong hanging indentation (add 4 spaces).
+                    "The value of orientations[%d] is %d, "
+                    ^   | (bad-continuation)
+C:552, 0: Wrong hanging indentation (add 4 spaces).
+                "If pathlengths is a list, then pathlengths and flows must "
+                ^   | (bad-continuation)
+C:575, 0: Wrong hanging indentation before block.
+                  angles, are_inputs, scaled_flows)))):
+                | ^ | (bad-continuation)
+C:586, 0: Wrong hanging indentation before block.
+                  angles, are_inputs, zip(scaled_flows, pathlengths))))):
+                | ^ | (bad-continuation)
+C:597, 0: Wrong hanging indentation before block.
+                  angles, are_inputs, list(zip(scaled_flows, pathlengths)))):
+                | ^ | (bad-continuation)
+C:641, 0: Wrong hanging indentation before block.
+              angles, are_inputs, list(zip(scaled_flows, pathlengths)))):
+            | ^ | (bad-continuation)
+C:650, 0: Wrong hanging indentation before block.
+              angles, are_inputs, list(zip(scaled_flows, pathlengths)))))):
+            | ^ | (bad-continuation)
+C:662, 0: Wrong hanging indentation before block.
+              angles, are_inputs, list(zip(scaled_flows, pathlengths)))))):
+            | ^ | (bad-continuation)
+C:677, 0: Wrong hanging indentation before block.
+              angles, are_inputs, list(zip(scaled_flows, pathlengths)))):
+            | ^ | (bad-continuation)
+C: 16, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:149, 8: Attribute name "ax" doesn't conform to snake_case naming style (invalid-name)
+R: 30, 0: Too many instance attributes (13/7) (too-many-instance-attributes)
+W: 42,52: Redefining built-in 'format' (redefined-builtin)
+R: 42, 4: Too many arguments (12/5) (too-many-arguments)
+R: 42, 4: Too many local variables (16/15) (too-many-locals)
+C:165,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:168, 4: Argument name "cw" doesn't conform to snake_case naming style (invalid-name)
+C:186, 8: Variable name "ARC_CODES" doesn't conform to snake_case naming style (invalid-name)
+C:195, 8: Variable name "ARC_VERTICES" doesn't conform to snake_case naming style (invalid-name)
+R:168, 4: Method could be a function (no-self-use)
+C:230,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:230,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:233,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:241,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:284,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:284,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:287,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:297,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+R:333, 4: Method could be a function (no-self-use)
+R:352, 4: Too many arguments (10/5) (too-many-arguments)
+R:352, 4: Too many local variables (57/15) (too-many-locals)
+C:439, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+W:520,16: Specify string format arguments as logging function parameters (logging-not-lazy)
+C:560,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:704, 8: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:704, 8: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+R:705,12: Unnecessary "else" after "return" (no-else-return)
+C:732,12: Variable name "fc" doesn't conform to snake_case naming style (invalid-name)
+C:733,12: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:735,12: Variable name "fc" doesn't conform to snake_case naming style (invalid-name)
+C:736,12: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:738,12: Variable name "fc" doesn't conform to snake_case naming style (invalid-name)
+W:738,22: Access to a protected member _get_patches_for_fill of a client class (protected-access)
+R:352, 4: Too many branches (79/12) (too-many-branches)
+
+
+Report
+======
+316 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |7      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.sankey)
+      \-cbook (matplotlib.sankey)
+      \-docstring (matplotlib.sankey)
+      \-patches (matplotlib.sankey)
+      \-path (matplotlib.sankey)
+      \-pyplot (matplotlib.sankey)
+      \-transforms (matplotlib.sankey)
+    numpy (matplotlib.sankey)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |458    |55.18 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |274    |33.01 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |61     |7.35  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |37     |4.46  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |53     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |9      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|bad-continuation             |28          |
++-----------------------------+------------+
+|invalid-name                 |22          |
++-----------------------------+------------+
+|too-many-locals              |2           |
++-----------------------------+------------+
+|too-many-arguments           |2           |
++-----------------------------+------------+
+|superfluous-parens           |2           |
++-----------------------------+------------+
+|no-self-use                  |2           |
++-----------------------------+------------+
+|too-many-instance-attributes |1           |
++-----------------------------+------------+
+|too-many-branches            |1           |
++-----------------------------+------------+
+|redefined-builtin            |1           |
++-----------------------------+------------+
+|protected-access             |1           |
++-----------------------------+------------+
+|no-else-return               |1           |
++-----------------------------+------------+
+|logging-not-lazy             |1           |
++-----------------------------+------------+
+|len-as-condition             |1           |
++-----------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.94/10
+

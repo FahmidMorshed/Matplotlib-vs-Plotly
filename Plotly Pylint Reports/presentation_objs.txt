@@ -1,0 +1,203 @@
+************* Module plotly.presentation_objs.presentation_objs
+W:348, 0: TODO: customize this function for different fonts/sizes (fixme)
+C:979, 0: Wrong continued indentation before block (add 4 spaces).
+                            get_config()['plotly_domain'] not in line):
+                            ^   | (bad-continuation)
+C:1024, 0: Wrong hanging indentation (add 1 space).
+                num_of_boxes, url_lines, title_lines, text_block, code_blocks,
+                ^| (bad-continuation)
+C:1025, 0: Wrong hanging indentation (add 1 space).
+                slide_num, style
+                ^| (bad-continuation)
+C:1026, 0: Wrong hanging indentation.
+            )
+            ^|   | (bad-continuation)
+C:  1, 0: Too many lines in module (1176/1000) (too-many-lines)
+C: 35, 0: Constant name "fontWeight_dict" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 96,31: Using possibly undefined loop variable 'num' (undefined-loop-variable)
+C:104, 0: Constant name "paragraph_styles" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:181, 0: Argument name "id" doesn't conform to snake_case naming style (invalid-name)
+W:181,29: Redefining built-in 'id' (redefined-builtin)
+C:188, 0: Argument name "id" doesn't conform to snake_case naming style (invalid-name)
+C:188, 0: Argument name "paragraphStyle" doesn't conform to snake_case naming style (invalid-name)
+W:188,57: Redefining built-in 'id' (redefined-builtin)
+R:188, 0: Too many arguments (10/5) (too-many-arguments)
+R:188, 0: Too many local variables (16/15) (too-many-locals)
+C:191, 4: Variable name "fontFamily" doesn't conform to snake_case naming style (invalid-name)
+R:280, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:374, 0: Too many arguments (7/5) (too-many-arguments)
+R:374, 0: Too many local variables (20/15) (too-many-locals)
+R:374, 0: Too many branches (18/12) (too-many-branches)
+R:374, 0: Too many statements (52/50) (too-many-statements)
+R:487, 0: Too many arguments (7/5) (too-many-arguments)
+R:487, 0: Too many local variables (25/15) (too-many-locals)
+C:524,12: Variable name "text_textAlign" doesn't conform to snake_case naming style (invalid-name)
+C:526,12: Variable name "text_textAlign" doesn't conform to snake_case naming style (invalid-name)
+C:654,12: Variable name "text_textAlign" doesn't conform to snake_case naming style (invalid-name)
+C:656,12: Variable name "text_textAlign" doesn't conform to snake_case naming style (invalid-name)
+R:487, 0: Too many branches (36/12) (too-many-branches)
+R:487, 0: Too many statements (168/50) (too-many-statements)
+W:897, 4: __init__ method from base class 'dict' is not called (super-init-not-called)
+C:916, 4: Argument name "imgStretch" doesn't conform to snake_case naming style (invalid-name)
+R:916, 4: Too many local variables (52/15) (too-many-locals)
+C:964,12: Variable name "inCode" doesn't conform to snake_case naming style (invalid-name)
+C:969,20: Variable name "inCode" doesn't conform to snake_case naming style (invalid-name)
+C:971,20: Variable name "inCode" doesn't conform to snake_case naming style (invalid-name)
+C:974,23: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:919, 8: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:919, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+C:1032,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:1046,35: Too many arguments for format string (too-many-format-args)
+C:1052,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1093,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1094,20: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:1093,16: Unused variable 's' (unused-variable)
+W:1094,20: Unused variable 'c' (unused-variable)
+R:916, 4: Too many branches (37/12) (too-many-branches)
+R:916, 4: Too many statements (89/50) (too-many-statements)
+W:1119, 4: Dangerous default value {} as argument (dangerous-default-value)
+W:1119, 4: Dangerous default value {} as argument (dangerous-default-value)
+C:1119, 4: Argument name "paragraphStyle" doesn't conform to snake_case naming style (invalid-name)
+R:1119, 4: Too many arguments (11/5) (too-many-arguments)
+C:1152,12: Variable name "backgroundSize" doesn't conform to snake_case naming style (invalid-name)
+C:1154,12: Variable name "backgroundSize" doesn't conform to snake_case naming style (invalid-name)
+C:1156,12: Variable name "backgroundSize" doesn't conform to snake_case naming style (invalid-name)
+C:1158,12: Variable name "backgroundSize" doesn't conform to snake_case naming style (invalid-name)
+
+
+Report
+======
+481 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |8      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |12     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    plotly 
+      \-config (plotly.presentation_objs.presentation_objs)
+      \-exceptions (plotly.presentation_objs.presentation_objs)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |772    |64.98 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |241    |20.29 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |51     |4.29  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |124    |10.44 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |29     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |17     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |9      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++-------------------------------------------+-------+--------+---------+-----------+
+|module                                     |error  |warning |refactor |convention |
++===========================================+=======+========+=========+===========+
+|plotly.presentation_objs.presentation_objs |100.00 |100.00  |100.00   |100.00     |
++-------------------------------------------+-------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |21          |
++-------------------------------+------------+
+|too-many-locals                |4           |
++-------------------------------+------------+
+|too-many-arguments             |4           |
++-------------------------------+------------+
+|bad-continuation               |4           |
++-------------------------------+------------+
+|too-many-statements            |3           |
++-------------------------------+------------+
+|too-many-branches              |3           |
++-------------------------------+------------+
+|len-as-condition               |3           |
++-------------------------------+------------+
+|unused-variable                |2           |
++-------------------------------+------------+
+|too-many-nested-blocks         |2           |
++-------------------------------+------------+
+|redefined-builtin              |2           |
++-------------------------------+------------+
+|dangerous-default-value        |2           |
++-------------------------------+------------+
+|undefined-loop-variable        |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-format-args           |1           |
++-------------------------------+------------+
+|super-init-not-called          |1           |
++-------------------------------+------------+
+|inconsistent-return-statements |1           |
++-------------------------------+------------+
+|fixme                          |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.75/10
+

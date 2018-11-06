@@ -1,0 +1,431 @@
+************* Module matplotlib.rcsetup
+W:841, 0: TODO: We might want to rethink this... (fixme)
+W:1218, 0: TODO validate that these are valid datetime format strings (fixme)
+C:198, 0: Wrong continued indentation (add 13 spaces).
+            ' could not convert "%s" to float' % (s, s))
+            ^            | (bad-continuation)
+C:270, 0: Wrong hanging indentation (remove 8 spaces).
+                'toolbar',
+        |       ^ (bad-continuation)
+C:271, 0: Wrong hanging indentation (remove 8 spaces).
+                ['None', 'toolbar2', 'toolmanager'],
+        |       ^ (bad-continuation)
+C:272, 0: Wrong hanging indentation (remove 8 spaces).
+                ignorecase=True)
+        |       ^ (bad-continuation)
+C:496, 0: Wrong continued indentation (add 1 space).
+    'a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9', 'a10',
+    ^| (bad-continuation)
+C:497, 0: Wrong continued indentation (add 1 space).
+    'b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8', 'b9', 'b10',
+    ^| (bad-continuation)
+C:623, 0: Wrong continued indentation (add 38 spaces).
+    ['ffmpeg', 'ffmpeg_file',
+    ^                                     | (bad-continuation)
+C:629, 0: Wrong continued indentation (add 41 spaces).
+    ['png', 'jpeg', 'tiff', 'raw', 'rgba'])
+    ^                                        | (bad-continuation)
+C:634, 0: Wrong continued indentation (add 40 spaces).
+    ['html5', 'jshtml', 'none'])
+    ^                                       | (bad-continuation)
+C:720, 0: Wrong hanging indentation (remove 4 spaces).
+        'color': _listify_validator(validate_color_for_prop_cycle,
+    |   ^ (bad-continuation)
+C:722, 0: Wrong hanging indentation (remove 4 spaces).
+        'linewidth': validate_floatlist,
+    |   ^ (bad-continuation)
+C:723, 0: Wrong hanging indentation (remove 4 spaces).
+        'linestyle': validate_stringlist,
+    |   ^ (bad-continuation)
+C:724, 0: Wrong hanging indentation (remove 4 spaces).
+        'facecolor': validate_colorlist,
+    |   ^ (bad-continuation)
+C:725, 0: Wrong hanging indentation (remove 4 spaces).
+        'edgecolor': validate_colorlist,
+    |   ^ (bad-continuation)
+C:726, 0: Wrong hanging indentation (remove 4 spaces).
+        'joinstyle': validate_joinstylelist,
+    |   ^ (bad-continuation)
+C:727, 0: Wrong hanging indentation (remove 4 spaces).
+        'capstyle': validate_capstylelist,
+    |   ^ (bad-continuation)
+C:728, 0: Wrong hanging indentation (remove 4 spaces).
+        'fillstyle': validate_fillstylelist,
+    |   ^ (bad-continuation)
+C:729, 0: Wrong hanging indentation (remove 4 spaces).
+        'markerfacecolor': validate_colorlist,
+    |   ^ (bad-continuation)
+C:730, 0: Wrong hanging indentation (remove 4 spaces).
+        'markersize': validate_floatlist,
+    |   ^ (bad-continuation)
+C:731, 0: Wrong hanging indentation (remove 4 spaces).
+        'markeredgewidth': validate_floatlist,
+    |   ^ (bad-continuation)
+C:732, 0: Wrong hanging indentation (remove 4 spaces).
+        'markeredgecolor': validate_colorlist,
+    |   ^ (bad-continuation)
+C:733, 0: Wrong hanging indentation (remove 4 spaces).
+        'markevery': validate_markeverylist,
+    |   ^ (bad-continuation)
+C:734, 0: Wrong hanging indentation (remove 4 spaces).
+        'alpha': validate_floatlist,
+    |   ^ (bad-continuation)
+C:735, 0: Wrong hanging indentation (remove 4 spaces).
+        'marker': validate_stringlist,
+    |   ^ (bad-continuation)
+C:736, 0: Wrong hanging indentation (remove 4 spaces).
+        'hatch': validate_hatchlist,
+    |   ^ (bad-continuation)
+C:737, 0: Wrong hanging indentation (remove 4 spaces).
+        'dashes': validate_dashlist,
+    |   ^ (bad-continuation)
+C:740, 0: Wrong hanging indentation (remove 4 spaces).
+        'c': 'color',
+    |   ^ (bad-continuation)
+C:741, 0: Wrong hanging indentation (remove 4 spaces).
+        'lw': 'linewidth',
+    |   ^ (bad-continuation)
+C:742, 0: Wrong hanging indentation (remove 4 spaces).
+        'ls': 'linestyle',
+    |   ^ (bad-continuation)
+C:743, 0: Wrong hanging indentation (remove 4 spaces).
+        'fc': 'facecolor',
+    |   ^ (bad-continuation)
+C:744, 0: Wrong hanging indentation (remove 4 spaces).
+        'ec': 'edgecolor',
+    |   ^ (bad-continuation)
+C:745, 0: Wrong hanging indentation (remove 4 spaces).
+        'mfc': 'markerfacecolor',
+    |   ^ (bad-continuation)
+C:746, 0: Wrong hanging indentation (remove 4 spaces).
+        'mec': 'markeredgecolor',
+    |   ^ (bad-continuation)
+C:747, 0: Wrong hanging indentation (remove 4 spaces).
+        'mew': 'markeredgewidth',
+    |   ^ (bad-continuation)
+C:748, 0: Wrong hanging indentation (remove 4 spaces).
+        'ms': 'markersize',
+    |   ^ (bad-continuation)
+C:1180, 0: Wrong hanging indentation (remove 27 spaces).
+                               # use scientific notation if log10
+    |                          ^ (bad-continuation)
+C:1184, 0: Wrong hanging indentation (remove 27 spaces).
+                               # Use the current locale to format ticks
+    |                          ^ (bad-continuation)
+C:1186, 0: Line too long (106/100) (line-too-long)
+C:1212, 0: Wrong hanging indentation.
+                                                     # not
+    |                                         |      ^ (bad-continuation)
+C:1236, 0: Wrong hanging indentation (remove 1 space).
+     # the relative size of legend markers vs. original
+    |^ (bad-continuation)
+C:1239, 0: Wrong hanging indentation (remove 1 space).
+     # whether or not to draw a frame around legend
+    |^ (bad-continuation)
+C:1241, 0: Wrong hanging indentation (remove 1 space).
+     # alpha value of the legend frame
+    |^ (bad-continuation)
+C:1328, 0: Wrong continued indentation (remove 3 spaces).
+                                                       closedmax=True)],
+                                                    |  ^ (bad-continuation)
+C:1330, 0: Wrong continued indentation (remove 2 spaces).
+                                                     closedmax=True)],
+                                                   | ^ (bad-continuation)
+C:1334, 0: Wrong continued indentation (remove 3 spaces).
+                                                     closedmax=True)],
+                                                  |  ^ (bad-continuation)
+C:1336, 0: Wrong continued indentation (remove 1 space).
+                                                     closedmax=False)],
+                                                    |^ (bad-continuation)
+C:1338, 0: Wrong continued indentation (remove 1 space).
+                                                     closedmax=False)],
+                                                    |^ (bad-continuation)
+C:1346, 0: Wrong hanging indentation (remove 4 spaces).
+            0, 1, closedmin=True, closedmax=False)],
+        |   ^ (bad-continuation)
+C:1348, 0: Wrong hanging indentation (remove 4 spaces).
+            0, 1, closedmin=True, closedmax=False)],
+        |   ^ (bad-continuation)
+C:1359, 0: Wrong hanging indentation.
+                                                                 #white
+    |                                                           |^ (bad-continuation)
+C:1455, 0: Wrong hanging indentation (remove 1 space).
+     # Path to convert binary. If just binary name, subprocess uses $PATH.
+    |^ (bad-continuation)
+C:1457, 0: Wrong hanging indentation (remove 1 space).
+     # Additional arguments for convert movie writer (using pipes)
+    |^ (bad-continuation)
+C:  1, 0: Too many lines in module (1473/1000) (too-many-lines)
+E: 16, 0: No name 'abc' in module 'collections' (no-name-in-module)
+E: 16, 0: Unable to import 'collections.abc' (import-error)
+C: 33, 0: Constant name "interactive_bk" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 40, 0: Constant name "non_interactive_bk" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 42, 0: Constant name "all_backends" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 45, 0: Missing class docstring (missing-docstring)
+W: 46,23: Redefining name 'key' from outer scope (line 1471) (redefined-outer-name)
+C: 51, 8: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 51, 8: Missing function docstring (missing-docstring)
+R: 52,12: Unnecessary "else" after "return" (no-else-return)
+C: 58, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R: 45, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 68, 4: Function name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 68, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 68, 4: Missing function docstring (missing-docstring)
+W: 73,19: Catching too general exception Exception (broad-except)
+C:103, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:103, 0: Missing function docstring (missing-docstring)
+C:105, 0: Constant name "validate_anylist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:108, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:118, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:130, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:144, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:150, 0: Constant name "validate_floatlist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:153, 0: Function name "validate_float_or_None" doesn't conform to snake_case naming style (invalid-name)
+C:153, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:168, 0: Function name "validate_string_or_None" doesn't conform to snake_case naming style (invalid-name)
+C:168, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:178, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:178, 0: Missing function docstring (missing-docstring)
+C:190, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:201, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:209, 0: Function name "validate_int_or_None" doesn't conform to snake_case naming style (invalid-name)
+C:209, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:221, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:244, 0: Constant name "_validate_standard_backends" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:246, 0: Constant name "_auto_backend_sentinel" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:249, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:249, 0: Missing function docstring (missing-docstring)
+C:256, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:256, 0: Missing function docstring (missing-docstring)
+C:262, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:262, 0: Missing function docstring (missing-docstring)
+C:268, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:268, 0: Missing function docstring (missing-docstring)
+C:276, 0: Constant name "_seq_err_msg" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:279, 0: Constant name "_str_err_msg" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:283, 0: Class name "validate_nseq_float" doesn't conform to PascalCase naming style (invalid-name)
+C:285, 8: Attribute name "n" doesn't conform to snake_case naming style (invalid-name)
+C:283, 0: Missing class docstring (missing-docstring)
+C:288, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:283, 0: Too few public methods (0/2) (too-few-public-methods)
+C:308, 0: Class name "validate_nseq_int" doesn't conform to PascalCase naming style (invalid-name)
+C:310, 8: Attribute name "n" doesn't conform to snake_case naming style (invalid-name)
+C:308, 0: Missing class docstring (missing-docstring)
+C:312, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:308, 0: Too few public methods (0/2) (too-few-public-methods)
+C:329, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:336, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:336, 0: Missing function docstring (missing-docstring)
+C:342, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:342, 0: Missing function docstring (missing-docstring)
+C:358, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:396, 0: Constant name "validate_colorlist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:400, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:400, 0: Missing function docstring (missing-docstring)
+R:401, 4: Unnecessary "else" after "return" (no-else-return)
+C:408, 0: Constant name "validate_stringlist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:411, 0: Constant name "validate_orientation" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:415, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:415, 0: Missing function docstring (missing-docstring)
+C:424, 0: Function name "validate_fontsize_None" doesn't conform to snake_case naming style (invalid-name)
+C:424, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:424, 0: Missing function docstring (missing-docstring)
+R:425, 4: Unnecessary "else" after "return" (no-else-return)
+C:431, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:431, 0: Missing function docstring (missing-docstring)
+C:445, 0: Constant name "validate_fontsizelist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:448, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:448, 0: Missing function docstring (missing-docstring)
+C:453, 0: Constant name "validate_fontset" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:456, 0: Constant name "validate_mathtext_default" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:459, 0: Constant name "validate_verbose" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:462, 0: Constant name "_validate_alignment" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:468, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:468, 0: Missing function docstring (missing-docstring)
+C:473,12: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:477,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:484, 0: Missing function docstring (missing-docstring)
+C:493, 0: Constant name "validate_ps_papersize" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:501, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:501, 0: Missing function docstring (missing-docstring)
+C:515, 0: Constant name "validate_joinstyle" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:518, 0: Constant name "validate_joinstylelist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:520, 0: Constant name "validate_capstyle" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:523, 0: Constant name "validate_capstylelist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:525, 0: Constant name "validate_fillstyle" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:528, 0: Constant name "validate_fillstylelist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:530, 0: Constant name "_validate_negative_linestyle" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:535, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:555, 8: Variable name "tupMaxLength" doesn't conform to snake_case naming style (invalid-name)
+C:556, 8: Variable name "tupType" doesn't conform to snake_case naming style (invalid-name)
+C:583, 0: Constant name "validate_markeverylist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:585, 0: Constant name "validate_legend_loc" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:600, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:600, 0: Missing function docstring (missing-docstring)
+E:604, 8: Too many positional arguments for function call (too-many-function-args)
+C:611, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:611, 0: Missing function docstring (missing-docstring)
+C:619, 0: Constant name "validate_pgf_texsystem" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:622, 0: Constant name "validate_movie_writer" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:628, 0: Constant name "validate_movie_frame_fmt" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:631, 0: Constant name "validate_axis_locator" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:633, 0: Constant name "validate_movie_html_fmt" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:637, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:637, 0: Missing function docstring (missing-docstring)
+C:651, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:651, 0: Missing function docstring (missing-docstring)
+C:675, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:665, 0: Too few public methods (0/2) (too-few-public-methods)
+C:697, 0: Constant name "validate_grid_axis" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:700, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:715, 0: Constant name "validate_hatchlist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:716, 0: Constant name "validate_dashlist" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:719, 0: Constant name "_prop_validators" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:739, 0: Constant name "_prop_aliases" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:837, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:896, 8: Redefining name 'key' from outer scope (line 1471) (redefined-outer-name)
+W:858,16: Use of eval (eval-used)
+C:859, 8: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:902, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:902, 0: Missing function docstring (missing-docstring)
+W:903, 7: Access to a protected member _str_equal of a client class (protected-access)
+C:917, 0: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+C:917, 0: Missing function docstring (missing-docstring)
+C:933, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:933, 0: Missing function docstring (missing-docstring)
+C:938, 8: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:938, 8: Unused variable 'e' (unused-variable)
+C:946, 0: Constant name "_validate_named_linestyle" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:952, 0: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
+C:982, 0: Constant name "defaultParams" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1469, 4: Constant name "rc" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 28, 0: third party import "from cycler import Cycler, cycler as ccycler" should be placed before "from matplotlib import cbook" (wrong-import-order)
+
+
+Report
+======
+493 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |4      |NC         |NC         |25.00       |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+|method   |8      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |43     |NC         |NC         |41.86       |11.63    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    cycler (matplotlib.rcsetup)
+    matplotlib 
+      \-cbook (matplotlib.rcsetup)
+      \-colors (matplotlib.rcsetup)
+      \-fontconfig_pattern (matplotlib.rcsetup)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |574    |38.92 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |523    |35.46 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |164    |11.12 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |214    |14.51 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |181    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |7      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |8      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------+------------+
+|message id             |occurrences |
++=======================+============+
+|invalid-name           |99          |
++-----------------------+------------+
+|bad-continuation       |51          |
++-----------------------+------------+
+|missing-docstring      |28          |
++-----------------------+------------+
+|too-few-public-methods |4           |
++-----------------------+------------+
+|no-else-return         |3           |
++-----------------------+------------+
+|redefined-outer-name   |2           |
++-----------------------+------------+
+|fixme                  |2           |
++-----------------------+------------+
+|wrong-import-order     |1           |
++-----------------------+------------+
+|unused-variable        |1           |
++-----------------------+------------+
+|too-many-lines         |1           |
++-----------------------+------------+
+|too-many-function-args |1           |
++-----------------------+------------+
+|protected-access       |1           |
++-----------------------+------------+
+|no-name-in-module      |1           |
++-----------------------+------------+
+|line-too-long          |1           |
++-----------------------+------------+
+|import-error           |1           |
++-----------------------+------------+
+|eval-used              |1           |
++-----------------------+------------+
+|broad-except           |1           |
++-----------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 5.72/10
+

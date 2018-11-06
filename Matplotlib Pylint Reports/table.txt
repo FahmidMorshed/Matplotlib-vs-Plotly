@@ -1,0 +1,245 @@
+************* Module matplotlib.table
+W:367, 0: TODO: Return index of the cell containing the cursor so that the user (fixme)
+C: 42, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:153, 0: Wrong continued indentation (remove 1 space).
+                     }
+                    |^ (bad-continuation)
+C:233, 0: Wrong continued indentation (remove 1 space).
+             }
+            |^ (bad-continuation)
+R: 36, 4: Too many arguments (10/5) (too-many-arguments)
+W: 38,17: Unused argument 'fill' (unused-argument)
+W: 57, 4: Parameters differ from overridden 'set_transform' method (arguments-differ)
+C: 70, 4: Missing method docstring (missing-docstring)
+C:107, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:107,11: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:107,14: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:107,17: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:111, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:116,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:119,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:122,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:134, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:134,11: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:134,14: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:134,17: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+W:134, 8: Unused variable 'l' (unused-variable)
+W:134,11: Unused variable 'b' (unused-variable)
+W:134,17: Unused variable 'h' (unused-variable)
+C:160, 4: Missing method docstring (missing-docstring)
+W:166,12: Attribute '_visible_edges' defined outside __init__ (attribute-defined-outside-init)
+W:168,12: Attribute '_visible_edges' defined outside __init__ (attribute-defined-outside-init)
+W:177,12: Attribute '_visible_edges' defined outside __init__ (attribute-defined-outside-init)
+C:262, 8: Attribute name "_autoRows" doesn't conform to snake_case naming style (invalid-name)
+C:263, 8: Attribute name "_autoColumns" doesn't conform to snake_case naming style (invalid-name)
+C:264, 8: Attribute name "_autoFontsize" doesn't conform to snake_case naming style (invalid-name)
+R:202, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+C:285, 8: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:317, 4: Missing method docstring (missing-docstring)
+W:330, 4: Parameters differ from overridden 'draw' method (arguments-differ)
+W:334,23: Access to a protected member _cachedRenderer of a client class (protected-access)
+W:369,19: Access to a protected member _cachedRenderer of a client class (protected-access)
+R:370, 8: Unnecessary "else" after "return" (no-else-return)
+C:462,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:476,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:494,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:511, 4: Argument name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:511, 4: Argument name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:513,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:514,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:514,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+R:518, 4: Too many local variables (33/15) (too-many-locals)
+C:533, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:533,11: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:533,14: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:533,17: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:537,12: Variable name "rl" doesn't conform to snake_case naming style (invalid-name)
+C:537,16: Variable name "rb" doesn't conform to snake_case naming style (invalid-name)
+C:537,20: Variable name "rw" doesn't conform to snake_case naming style (invalid-name)
+C:537,24: Variable name "rh" doesn't conform to snake_case naming style (invalid-name)
+C:539,12: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:540,12: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:544,13: Variable name "BEST" doesn't conform to snake_case naming style (invalid-name)
+C:544,19: Variable name "UR" doesn't conform to snake_case naming style (invalid-name)
+C:544,23: Variable name "UL" doesn't conform to snake_case naming style (invalid-name)
+C:544,27: Variable name "LL" doesn't conform to snake_case naming style (invalid-name)
+C:544,31: Variable name "LR" doesn't conform to snake_case naming style (invalid-name)
+C:544,35: Variable name "CL" doesn't conform to snake_case naming style (invalid-name)
+C:544,39: Variable name "CR" doesn't conform to snake_case naming style (invalid-name)
+C:544,43: Variable name "LC" doesn't conform to snake_case naming style (invalid-name)
+C:544,47: Variable name "UC" doesn't conform to snake_case naming style (invalid-name)
+C:544,51: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:545,13: Variable name "TR" doesn't conform to snake_case naming style (invalid-name)
+C:545,17: Variable name "TL" doesn't conform to snake_case naming style (invalid-name)
+C:545,21: Variable name "BL" doesn't conform to snake_case naming style (invalid-name)
+C:545,25: Variable name "BR" doesn't conform to snake_case naming style (invalid-name)
+C:545,29: Variable name "R" doesn't conform to snake_case naming style (invalid-name)
+C:545,32: Variable name "L" doesn't conform to snake_case naming style (invalid-name)
+C:545,35: Variable name "T" doesn't conform to snake_case naming style (invalid-name)
+C:545,38: Variable name "B" doesn't conform to snake_case naming style (invalid-name)
+C:547,12: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:548,12: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:550,16: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:552,16: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:554,16: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:556,16: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:558,16: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:560,16: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:563,16: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:565,16: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:567,16: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:569,16: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+R:518, 4: Too many branches (14/12) (too-many-branches)
+C:578, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:578, 0: Argument name "cellText" doesn't conform to snake_case naming style (invalid-name)
+C:578, 0: Argument name "cellColours" doesn't conform to snake_case naming style (invalid-name)
+C:578, 0: Argument name "cellLoc" doesn't conform to snake_case naming style (invalid-name)
+C:578, 0: Argument name "colWidths" doesn't conform to snake_case naming style (invalid-name)
+C:578, 0: Argument name "rowLabels" doesn't conform to snake_case naming style (invalid-name)
+C:578, 0: Argument name "rowColours" doesn't conform to snake_case naming style (invalid-name)
+C:578, 0: Argument name "rowLoc" doesn't conform to snake_case naming style (invalid-name)
+C:578, 0: Argument name "colLabels" doesn't conform to snake_case naming style (invalid-name)
+C:578, 0: Argument name "colColours" doesn't conform to snake_case naming style (invalid-name)
+C:578, 0: Argument name "colLoc" doesn't conform to snake_case naming style (invalid-name)
+W:659, 4: Redefining name 'table' from outer scope (line 578) (redefined-outer-name)
+R:578, 0: Too many arguments (14/5) (too-many-arguments)
+R:578, 0: Too many local variables (23/15) (too-many-locals)
+C:631, 4: Variable name "rowLabelWidth" doesn't conform to snake_case naming style (invalid-name)
+C:635,12: Variable name "rowLabelWidth" doesn't conform to snake_case naming style (invalid-name)
+W:661,13: Access to a protected member _approx_text_height of a client class (protected-access)
+R:578, 0: Too many branches (27/12) (too-many-branches)
+R:578, 0: Too many statements (51/50) (too-many-statements)
+
+
+Report
+======
+344 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |3          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |38     |38         |=          |92.11       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-artist (matplotlib.table)
+      \-cbook (matplotlib.table)
+      \-docstring (matplotlib.table)
+      \-patches (matplotlib.table)
+      \-path (matplotlib.table)
+      \-text (matplotlib.table)
+      \-transforms (matplotlib.table)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |399    |57.41 |400      |-1.00      |
++----------+-------+------+---------+-----------+
+|docstring |157    |22.59 |156      |+1.00      |
++----------+-------+------+---------+-----------+
+|comment   |39     |5.61  |39       |=          |
++----------+-------+------+---------+-----------+
+|empty     |100    |14.39 |100      |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |83     |83       |=          |
++-----------+-------+---------+-----------+
+|refactor   |9      |9        |=          |
++-----------+-------+---------+-----------+
+|warning    |14     |14       |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |76          |
++-------------------------------+------------+
+|unused-variable                |3           |
++-------------------------------+------------+
+|protected-access               |3           |
++-------------------------------+------------+
+|missing-docstring              |3           |
++-------------------------------+------------+
+|bad-continuation               |3           |
++-------------------------------+------------+
+|attribute-defined-outside-init |3           |
++-------------------------------+------------+
+|too-many-locals                |2           |
++-------------------------------+------------+
+|too-many-branches              |2           |
++-------------------------------+------------+
+|too-many-arguments             |2           |
++-------------------------------+------------+
+|arguments-differ               |2           |
++-------------------------------+------------+
+|unused-argument                |1           |
++-------------------------------+------------+
+|too-many-statements            |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|redefined-outer-name           |1           |
++-------------------------------+------------+
+|no-else-return                 |1           |
++-------------------------------+------------+
+|len-as-condition               |1           |
++-------------------------------+------------+
+|fixme                          |1           |
++-------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 6.92/10 (previous run: 6.93/10, -0.01)
+

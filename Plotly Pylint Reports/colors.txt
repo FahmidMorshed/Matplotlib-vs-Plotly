@@ -1,0 +1,135 @@
+************* Module plotly.colors
+C:206, 0: Trailing whitespace (trailing-whitespace)
+C:208, 0: Trailing whitespace (trailing-whitespace)
+C:209, 0: Trailing whitespace (trailing-whitespace)
+C:210, 0: Trailing whitespace (trailing-whitespace)
+C:211, 0: Trailing whitespace (trailing-whitespace)
+C:212, 0: Trailing whitespace (trailing-whitespace)
+C:213, 0: Trailing whitespace (trailing-whitespace)
+C:214, 0: Trailing whitespace (trailing-whitespace)
+C:215, 0: Trailing whitespace (trailing-whitespace)
+C:218, 0: Trailing whitespace (trailing-whitespace)
+W:459, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+C:611, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+R:239, 8: Unnecessary "else" after "return" (no-else-return)
+R:222, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:282, 8: Unused variable 'j' (unused-variable)
+R:248, 0: Too many branches (17/12) (too-many-branches)
+R:306, 0: Too many branches (18/12) (too-many-branches)
+C:398, 0: Function name "convert_dict_colors_to_same_type" doesn't conform to snake_case naming style (invalid-name)
+C:533, 0: Function name "unconvert_from_RGB_255" doesn't conform to snake_case naming style (invalid-name)
+C:546, 0: Function name "convert_to_RGB_255" doesn't conform to snake_case naming style (invalid-name)
+W:572,34: Redefining name 'n_colors' from outer scope (line 572) (redefined-outer-name)
+C:622, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+
+
+Report
+======
+198 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |16     |16         |=          |100.00      |18.75    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    plotly 
+      \-exceptions (plotly.colors)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |345    |49.78 |345      |=          |
++----------+-------+------+---------+-----------+
+|docstring |240    |34.63 |240      |=          |
++----------+-------+------+---------+-----------+
+|comment   |15     |2.16  |15       |=          |
++----------+-------+------+---------+-----------+
+|empty     |93     |13.42 |93       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |15     |15       |=          |
++-----------+-------+---------+-----------+
+|refactor   |4      |4        |=          |
++-----------+-------+---------+-----------+
+|warning    |3      |3        |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|trailing-whitespace            |10          |
++-------------------------------+------------+
+|invalid-name                   |3           |
++-------------------------------+------------+
+|too-many-branches              |2           |
++-------------------------------+------------+
+|unused-variable                |1           |
++-------------------------------+------------+
+|superfluous-parens             |1           |
++-------------------------------+------------+
+|redefined-outer-name           |1           |
++-------------------------------+------------+
+|no-else-return                 |1           |
++-------------------------------+------------+
+|inconsistent-return-statements |1           |
++-------------------------------+------------+
+|consider-using-enumerate       |1           |
++-------------------------------+------------+
+|bad-indentation                |1           |
++-------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 8.89/10 (previous run: 8.89/10, +0.00)
+

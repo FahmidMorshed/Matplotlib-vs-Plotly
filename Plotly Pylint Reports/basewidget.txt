@@ -1,0 +1,155 @@
+************* Module plotly.basewidget
+W:  8, 0: Bad indentation. Found 5 spaces, expected 4 (bad-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:281, 8: Attribute name "_py2js_addTraces" doesn't conform to snake_case naming style (invalid-name)
+C:305, 8: Attribute name "_py2js_moveTraces" doesn't conform to snake_case naming style (invalid-name)
+C:442, 8: Attribute name "_py2js_deleteTraces" doesn't conform to snake_case naming style (invalid-name)
+C:457,12: Attribute name "_js2py_traceDeltas" doesn't conform to snake_case naming style (invalid-name)
+C:494,20: Attribute name "_py2js_removeTraceProps" doesn't conform to snake_case naming style (invalid-name)
+C:521,12: Attribute name "_js2py_layoutDelta" doesn't conform to snake_case naming style (invalid-name)
+C:549,16: Attribute name "_py2js_removeLayoutProps" doesn't conform to snake_case naming style (invalid-name)
+C:669,12: Attribute name "_js2py_pointsCallback" doesn't conform to snake_case naming style (invalid-name)
+R: 18, 0: Too many instance attributes (21/7) (too-many-instance-attributes)
+W:172, 4: Parameters differ from overridden '_send_relayout_msg' method (arguments-differ)
+W:204, 4: Parameters differ from overridden '_send_restyle_msg' method (arguments-differ)
+C:448, 4: Method name "_handler_js2py_traceDeltas" doesn't conform to snake_case naming style (invalid-name)
+W:480,20: Access to a protected member _prop_defaults of a client class (protected-access)
+W:486,20: Access to a protected member _props of a client class (protected-access)
+W:486,38: Access to a protected member _prop_defaults of a client class (protected-access)
+C:512, 4: Method name "_handler_js2py_layoutDelta" doesn't conform to snake_case naming style (invalid-name)
+W:557,24: Access to a protected member _subplotid_prop_re of a client class (protected-access)
+C:659, 4: Method name "_handler_js2py_pointsCallback" doesn't conform to snake_case naming style (invalid-name)
+R:659, 4: Too many local variables (21/15) (too-many-locals)
+C:712,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:712,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:729,16: Access to a protected member _dispatch_on_click of a client class (protected-access)
+W:731,16: Access to a protected member _dispatch_on_hover of a client class (protected-access)
+W:733,16: Access to a protected member _dispatch_on_unhover of a client class (protected-access)
+W:735,16: Access to a protected member _dispatch_on_selection of a client class (protected-access)
+R:659, 4: Too many branches (14/12) (too-many-branches)
+C:741, 4: Argument name "fn" doesn't conform to snake_case naming style (invalid-name)
+C:823,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:930,32: Access to a protected member _vals_equal of a client class (protected-access)
+W:976,27: Access to a protected member _vals_equal of a client class (protected-access)
+R:871, 4: Too many branches (14/12) (too-many-branches)
+W:  1, 0: Unused import uuid (unused-import)
+W:  2, 0: Unused import_module imported from importlib (unused-import)
+W:  3, 0: Unused import os (unused-import)
+W:  4, 0: Unused import numbers (unused-import)
+W:  6, 4: Unused parse imported from urllib (unused-import)
+W:  8, 5: Unused urlparse imported from urlparse as parse (unused-import)
+
+
+Report
+======
+306 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |20     |20         |=          |100.00      |15.00    |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    ipywidgets (plotly.basewidget)
+    plotly 
+      \-basedatatypes (plotly.basewidget)
+      \-callbacks (plotly.basewidget)
+      \-serializers (plotly.basewidget)
+      \-version (plotly.basewidget)
+    traitlets (plotly.basewidget)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |416    |42.36 |416      |=          |
++----------+-------+------+---------+-----------+
+|docstring |197    |20.06 |197      |=          |
++----------+-------+------+---------+-----------+
+|comment   |223    |22.71 |223      |=          |
++----------+-------+------+---------+-----------+
+|empty     |146    |14.87 |146      |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |16     |16       |=          |
++-----------+-------+---------+-----------+
+|refactor   |4      |4        |=          |
++-----------+-------+---------+-----------+
+|warning    |19     |19       |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|invalid-name                 |15          |
++-----------------------------+------------+
+|protected-access             |10          |
++-----------------------------+------------+
+|unused-import                |6           |
++-----------------------------+------------+
+|too-many-branches            |2           |
++-----------------------------+------------+
+|arguments-differ             |2           |
++-----------------------------+------------+
+|too-many-locals              |1           |
++-----------------------------+------------+
+|too-many-instance-attributes |1           |
++-----------------------------+------------+
+|missing-docstring            |1           |
++-----------------------------+------------+
+|bad-indentation              |1           |
++-----------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 8.73/10 (previous run: 8.73/10, +0.00)
+

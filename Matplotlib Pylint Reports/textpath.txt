@@ -1,0 +1,227 @@
+************* Module matplotlib.textpath
+C:155, 0: Wrong hanging indentation (remove 32 spaces).
+                                                    font, s)
+                    |                               ^ (bad-continuation)
+C:158, 0: Wrong hanging indentation (remove 32 spaces).
+                                                    prop, s)
+                    |                               ^ (bad-continuation)
+C:382, 0: Wrong continued indentation (remove 3 spaces).
+                    "The font may lack a Type-1 version.")
+                 |  ^ (bad-continuation)
+C:478, 0: Wrong hanging indentation (remove 32 spaces).
+                                            prop, s,
+            |                               ^ (bad-continuation)
+C:479, 0: Wrong hanging indentation (remove 32 spaces).
+                                            usetex=usetex)
+            |                               ^ (bad-continuation)
+C:525, 0: Wrong hanging indentation (remove 4 spaces).
+                    self._size / text_to_path.FONT_SCALE,
+                |   ^ (bad-continuation)
+C:526, 0: Wrong hanging indentation (remove 4 spaces).
+                    self._size / text_to_path.FONT_SCALE).translate(*self._xy)
+                |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+E: 10, 0: No name 'ft2font' in module 'matplotlib' (no-name-in-module)
+E: 10, 0: Unable to import 'matplotlib.ft2font' (import-error)
+C: 16, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 40, 4: Missing method docstring (missing-docstring)
+R: 53, 4: Method could be a function (no-self-use)
+R: 56, 4: Method could be a function (no-self-use)
+R: 62, 4: Method could be a function (no-self-use)
+R: 70, 4: Method could be a function (no-self-use)
+C: 79, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C: 79, 4: Missing method docstring (missing-docstring)
+R: 79, 4: Too many local variables (17/15) (too-many-locals)
+C: 83,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C: 83,15: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C: 83,18: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:100, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:100,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:101, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:102, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:103, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:104, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W: 94,36: Unused variable 'trash' (unused-variable)
+W: 94,43: Unused variable 'used_characters' (unused-variable)
+C:107, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:107, 4: Too many local variables (18/15) (too-many-locals)
+C:166,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:177, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:177, 4: Too many local variables (21/15) (too-many-locals)
+C:201,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:237, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:237, 4: Too many local variables (29/15) (too-many-locals)
+C:263,35: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:263,39: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:278,12: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:278,16: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:278,20: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:278,23: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+W:247, 8: Unused variable 'width' (unused-variable)
+W:247,15: Unused variable 'height' (unused-variable)
+W:247,23: Unused variable 'descent' (unused-variable)
+W:268,16: Unused variable 'glyph' (unused-variable)
+C:298, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:298, 4: Too many local variables (35/15) (too-many-locals)
+E:311,26: Instance of 'TexManager' has no 'get_dvi' member (no-member)
+E:312,18: Module 'matplotlib.dviread' has no 'DviFromFileLike' member (no-member)
+C:332,12: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:332,16: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+W:348,20: Specify string format arguments as logging function parameters (logging-not-lazy)
+C:363,12: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:363,16: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:363,20: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:363,23: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+W:309, 8: Unused variable 'fontsize' (unused-variable)
+W:332,36: Unused variable 'width' (unused-variable)
+W:346,20: Unused variable 'glyph0' (unused-variable)
+W:397,12: Specify string format arguments as logging function parameters (logging-not-lazy)
+C:410, 0: Constant name "text_to_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+R:413, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+W:418, 4: Keyword argument before variable positional arguments list in the definition of __init__ function (keyword-arg-before-vararg)
+W:418, 4: __init__ method from base class 'Path' is not called (super-init-not-called)
+R:418, 4: Too many arguments (7/5) (too-many-arguments)
+W:418, 0: Unused argument 'kl' (unused-argument)
+W:418, 0: Unused argument 'kwargs' (unused-argument)
+C:524,12: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:530, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:544, 8: Unnecessary "else" after "return" (no-else-return)
+R:530, 4: Method could be a function (no-self-use)
+C:549, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:528,12: Attribute '_invalid' defined outside __init__ (attribute-defined-outside-init)
+
+
+Report
+======
+254 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |22     |NC         |NC         |90.91       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    collections (matplotlib.textpath)
+    matplotlib (matplotlib.textpath)
+      \-cbook (matplotlib.textpath)
+      \-dviread (matplotlib.textpath)
+      \-font_manager (matplotlib.textpath)
+      \-mathtext (matplotlib.textpath)
+      \-path (matplotlib.textpath)
+      \-texmanager (matplotlib.textpath)
+      \-transforms (matplotlib.textpath)
+    numpy (matplotlib.textpath)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |307    |54.34 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |150    |26.55 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |9      |1.59  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |99     |17.52 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |43     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |13     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |16     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |32          |
++-------------------------------+------------+
+|unused-variable                |9           |
++-------------------------------+------------+
+|bad-continuation               |7           |
++-------------------------------+------------+
+|too-many-locals                |5           |
++-------------------------------+------------+
+|no-self-use                    |5           |
++-------------------------------+------------+
+|missing-docstring              |3           |
++-------------------------------+------------+
+|unused-argument                |2           |
++-------------------------------+------------+
+|no-member                      |2           |
++-------------------------------+------------+
+|logging-not-lazy               |2           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|too-many-arguments             |1           |
++-------------------------------+------------+
+|super-init-not-called          |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|no-else-return                 |1           |
++-------------------------------+------------+
+|len-as-condition               |1           |
++-------------------------------+------------+
+|keyword-arg-before-vararg      |1           |
++-------------------------------+------------+
+|import-error                   |1           |
++-------------------------------+------------+
+|attribute-defined-outside-init |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 6.38/10
+

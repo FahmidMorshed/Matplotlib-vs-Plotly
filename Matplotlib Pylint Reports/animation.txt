@@ -1,0 +1,309 @@
+************* Module matplotlib.animation
+W:  1, 0: TODO: (fixme)
+W:1111, 0: TODO: Right now, after closing the figure, saving a movie won't work (fixme)
+W:1126, 0: TODO: See if turning off blit is really necessary (fixme)
+C:719, 0: Wrong hanging indentation (remove 4 spaces).
+                            winreg.HKEY_LOCAL_MACHINE,
+                        |   ^ (bad-continuation)
+C:720, 0: Wrong hanging indentation (remove 4 spaces).
+                            r'Software\Imagemagick\Current',
+                        |   ^ (bad-continuation)
+C:721, 0: Wrong hanging indentation (remove 4 spaces).
+                            0, winreg.KEY_QUERY_VALUE | flag) as hkey:
+                        |   ^ (bad-continuation)
+C:1311, 0: Wrong hanging indentation (remove 4 spaces).
+                        *writer.frame_size)
+                    |   ^ (bad-continuation)
+C:  1, 0: Too many lines in module (1725/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 41, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 47, 4: Constant name "subprocess_creation_flags" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 50, 4: Constant name "subprocess_creation_flags" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 61, 0: Argument name "w" doesn't conform to snake_case naming style (invalid-name)
+C: 61, 0: Argument name "h" doesn't conform to snake_case naming style (invalid-name)
+C: 61, 0: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 4: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 4: Missing function docstring (missing-docstring)
+C:117, 8: Argument name "writerClass" doesn't conform to snake_case naming style (invalid-name)
+C:117, 8: Missing function docstring (missing-docstring)
+C:132,18: Variable name "writerClass" doesn't conform to snake_case naming style (invalid-name)
+C:167, 0: Constant name "writers" doesn't conform to UPPER_CASE naming style (invalid-name)
+R:235, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+R:251, 4: Too many arguments (6/5) (too-many-arguments)
+E:291,44: Instance of 'MovieWriter' has no 'args_key' member (no-member)
+C:303, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:303,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:308,12: Variable name "wo" doesn't conform to snake_case naming style (invalid-name)
+C:308,16: Variable name "ho" doesn't conform to snake_case naming style (invalid-name)
+C:309,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:309,15: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:310,15: Consider changing "not (wo, ho) == (w, h)" to "(wo, ho) != (w, h)" (unneeded-not)
+C:315,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:315,15: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:350, 8: Variable name "PIPE" doesn't conform to snake_case naming style (invalid-name)
+R:380, 4: Method could be a function (no-self-use)
+E:399,39: Instance of 'Popen' has no 'args' member (no-member)
+E:408,28: Class 'MovieWriter' has no 'exec_key' member (no-member)
+C:411, 4: Method name "isAvailable" doesn't conform to snake_case naming style (invalid-name)
+W:333, 8: Attribute 'outfile' defined outside __init__ (attribute-defined-outside-init)
+W:334, 8: Attribute 'fig' defined outside __init__ (attribute-defined-outside-init)
+W:337, 8: Attribute 'dpi' defined outside __init__ (attribute-defined-outside-init)
+W:338, 8: Attribute '_w' defined outside __init__ (attribute-defined-outside-init)
+W:338,17: Attribute '_h' defined outside __init__ (attribute-defined-outside-init)
+W:351, 8: Attribute '_proc' defined outside __init__ (attribute-defined-outside-init)
+R:418, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+W:427, 4: Parameters differ from overridden 'setup' method (arguments-differ)
+R:427, 4: Too many arguments (6/5) (too-many-arguments)
+E:473,27: Instance of 'FileMovieWriter' has no 'supported_formats' member (no-member)
+E:476,33: Instance of 'FileMovieWriter' has no 'supported_formats' member (no-member)
+W:450, 8: Attribute 'fig' defined outside __init__ (attribute-defined-outside-init)
+W:451, 8: Attribute 'outfile' defined outside __init__ (attribute-defined-outside-init)
+W:454, 8: Attribute 'dpi' defined outside __init__ (attribute-defined-outside-init)
+W:457, 8: Attribute 'clear_temp' defined outside __init__ (attribute-defined-outside-init)
+W:458, 8: Attribute 'temp_prefix' defined outside __init__ (attribute-defined-outside-init)
+W:459, 8: Attribute '_frame_counter' defined outside __init__ (attribute-defined-outside-init)
+W:460, 8: Attribute '_temp_names' defined outside __init__ (attribute-defined-outside-init)
+W:461, 8: Attribute 'fname_format_str' defined outside __init__ (attribute-defined-outside-init)
+W:474,12: Attribute '_frame_format' defined outside __init__ (attribute-defined-outside-init)
+W:476,12: Attribute '_frame_format' defined outside __init__ (attribute-defined-outside-init)
+C:529, 0: Missing class docstring (missing-docstring)
+W:534,12: Unused variable 'PIL' (unused-variable)
+W:545, 8: Attribute '_frames' defined outside __init__ (attribute-defined-outside-init)
+W:546, 8: Attribute '_outfile' defined outside __init__ (attribute-defined-outside-init)
+W:547, 8: Attribute '_dpi' defined outside __init__ (attribute-defined-outside-init)
+W:548, 8: Attribute '_fig' defined outside __init__ (attribute-defined-outside-init)
+C:581, 4: Missing method docstring (missing-docstring)
+E:582,27: Instance of 'FFMpegBase' has no 'codec' member (no-member)
+E:587,11: Instance of 'FFMpegBase' has no 'codec' member (no-member)
+E:587,54: Instance of 'FFMpegBase' has no 'extra_args' member (no-member)
+E:591,11: Instance of 'FFMpegBase' has no 'bitrate' member (no-member)
+E:592,39: Instance of 'FFMpegBase' has no 'bitrate' member (no-member)
+E:593,11: Instance of 'FFMpegBase' has no 'extra_args' member (no-member)
+E:594,24: Instance of 'FFMpegBase' has no 'extra_args' member (no-member)
+C:595,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+E:595,20: Instance of 'FFMpegBase' has no 'metadata' member (no-member)
+E:598,29: Instance of 'FFMpegBase' has no 'outfile' member (no-member)
+C:601, 4: Method name "isAvailable" doesn't conform to snake_case naming style (invalid-name)
+C:601, 4: Missing method docstring (missing-docstring)
+E:603,12: Super of 'FFMpegBase' has no 'isAvailable' member (no-member)
+E:607,17: Class 'FFMpegBase' has no 'bin_path' member (no-member)
+R:680, 0: Too many ancestors (8/7) (too-many-ancestors)
+C:701, 4: Missing method docstring (missing-docstring)
+E:702,22: Instance of 'ImageMagickBase' has no 'fps' member (no-member)
+C:705, 4: Missing method docstring (missing-docstring)
+E:706,16: Instance of 'ImageMagickBase' has no 'outfile' member (no-member)
+C:709, 4: Missing method docstring (missing-docstring)
+E:710,18: Super of 'ImageMagickBase' has no 'bin_path' member (no-member)
+C:788, 0: Missing class docstring (missing-docstring)
+R:797, 4: Too many arguments (9/5) (too-many-arguments)
+W:818, 4: Parameters differ from overridden 'setup' method (arguments-differ)
+C:843,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R:838, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:866,12: Variable name "Nframes" doesn't conform to snake_case naming style (invalid-name)
+C:871,12: Variable name "Nframes" doesn't conform to snake_case naming style (invalid-name)
+C:879,40: Variable name "of" doesn't conform to snake_case naming style (invalid-name)
+W:823, 8: Attribute '_saved_frames' defined outside __init__ (attribute-defined-outside-init)
+W:824, 8: Attribute '_total_bytes' defined outside __init__ (attribute-defined-outside-init)
+W:825, 8: Attribute '_hit_limit' defined outside __init__ (attribute-defined-outside-init)
+W:855,16: Attribute '_hit_limit' defined outside __init__ (attribute-defined-outside-init)
+R:888, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+W:943, 0: Unused argument 'args' (unused-argument)
+W:960, 0: Unused argument 'args' (unused-argument)
+R:968, 4: Too many arguments (11/5) (too-many-arguments)
+R:968, 4: Too many local variables (17/15) (too-many-locals)
+E:1061,26: Instance of 'Animation' has no '_interval' member (no-member)
+W:1079,45: Access to a protected member _fig of a client class (protected-access)
+W:1089,29: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+W:1123,20: Access to a protected member _init_draw of a client class (protected-access)
+C:1125,30: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W:1127,24: Access to a protected member _draw_next_frame of a client class (protected-access)
+R:968, 4: Too many branches (21/12) (too-many-branches)
+W:1135, 0: Unused argument 'args' (unused-argument)
+E:1153,20: Instance of 'Animation' has no '_framedata' member (no-member)
+W:1172,24: Unused argument 'framedata' (unused-argument)
+W:1183,25: Unused argument 'framedata' (unused-argument)
+C:1197,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1207,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:1193, 4: Method could be a function (no-self-use)
+C:1215,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+R:1210, 4: Method could be a function (no-self-use)
+W:1228, 0: Unused argument 'args' (unused-argument)
+W:1240,26: Unused argument 'evt' (unused-argument)
+C:1274, 8: Variable name "VIDEO_TAG" doesn't conform to snake_case naming style (invalid-name)
+C:1293,16: Variable name "Writer" doesn't conform to snake_case naming style (invalid-name)
+E:1296,44: Instance of 'Animation' has no '_interval' member (no-member)
+E:1319,43: Instance of 'Animation' has no 'repeat' member (no-member)
+E:1332,25: Instance of 'Animation' has no '_interval' member (no-member)
+E:1337,37: Instance of 'Animation' has no 'repeat' member (no-member)
+R:1352, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:1237, 8: Attribute '_resize_id' defined outside __init__ (attribute-defined-outside-init)
+W:1246, 8: Attribute '_resize_id' defined outside __init__ (attribute-defined-outside-init)
+W:1309,16: Attribute '_base64_video' defined outside __init__ (attribute-defined-outside-init)
+W:1310,16: Attribute '_video_size' defined outside __init__ (attribute-defined-outside-init)
+W:1348,16: Attribute '_html_representation' defined outside __init__ (attribute-defined-outside-init)
+W:1361, 0: Method '_draw_frame' is abstract in class 'Animation' but is not overridden (abstract-method)
+W:1388, 4: Keyword argument before variable positional arguments list in the definition of __init__ function (keyword-arg-before-vararg)
+R:1388, 4: Too many arguments (6/5) (too-many-arguments)
+R:1415, 8: Unnecessary "else" after "return" (no-else-return)
+R:1418,12: Unnecessary "else" after "return" (no-else-return)
+W:1435, 0: Unused argument 'args' (unused-argument)
+C:1488,12: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:1512, 4: Parameters differ from overridden '_draw_frame' method (arguments-differ)
+R:1522, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+R:1604, 4: Too many arguments (7/5) (too-many-arguments)
+R:1661, 8: Unnecessary "else" after "return" (no-else-return)
+R:1667,12: Unnecessary "else" after "return" (no-else-return)
+C:1673,16: Missing function docstring (missing-docstring)
+C:1702,20: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+E:1712,40: bad operand type for unary -: NoneType (invalid-unary-operand-type)
+E:1712,40: bad operand type for unary -: NoneType (invalid-unary-operand-type)
+C:1724,16: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+W:1664,12: Attribute '_old_saved_seq' defined outside __init__ (attribute-defined-outside-init)
+W:1697,12: Attribute '_drawn_artists' defined outside __init__ (attribute-defined-outside-init)
+W:1716, 8: Attribute '_drawn_artists' defined outside __init__ (attribute-defined-outside-init)
+W:1721,12: Attribute '_drawn_artists' defined outside __init__ (attribute-defined-outside-init)
+
+
+Report
+======
+619 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |19     |19         |=          |89.47       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |85     |85         |=          |94.12       |2.35     |
++---------+-------+-----------+-----------+------------+---------+
+|function |6      |6          |=          |50.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    PIL (matplotlib.animation)
+      \-Image (matplotlib.animation)
+    matplotlib (matplotlib.animation)
+      \-_animation_data (matplotlib.animation)
+      \-cbook (matplotlib.animation)
+    numpy (matplotlib.animation)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |741    |42.91 |749      |-8.00      |
++----------+-------+------+---------+-----------+
+|docstring |556    |32.19 |561      |-5.00      |
++----------+-------+------+---------+-----------+
+|comment   |228    |13.20 |228      |=          |
++----------+-------+------+---------+-----------+
+|empty     |202    |11.70 |203      |-1.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |53     |54       |-1.00      |
++-----------+-------+---------+-----------+
+|refactor   |22     |22       |=          |
++-----------+-------+---------+-----------+
+|warning    |54     |54       |=          |
++-----------+-------+---------+-----------+
+|error      |27     |26       |+1.00      |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |36          |
++-------------------------------+------------+
+|attribute-defined-outside-init |33          |
++-------------------------------+------------+
+|no-member                      |25          |
++-------------------------------+------------+
+|missing-docstring              |11          |
++-------------------------------+------------+
+|unused-argument                |8           |
++-------------------------------+------------+
+|too-many-arguments             |6           |
++-------------------------------+------------+
+|too-many-instance-attributes   |4           |
++-------------------------------+------------+
+|no-else-return                 |4           |
++-------------------------------+------------+
+|bad-continuation               |4           |
++-------------------------------+------------+
+|protected-access               |3           |
++-------------------------------+------------+
+|no-self-use                    |3           |
++-------------------------------+------------+
+|fixme                          |3           |
++-------------------------------+------------+
+|arguments-differ               |3           |
++-------------------------------+------------+
+|invalid-unary-operand-type     |2           |
++-------------------------------+------------+
+|inconsistent-return-statements |2           |
++-------------------------------+------------+
+|unused-variable                |1           |
++-------------------------------+------------+
+|unneeded-not                   |1           |
++-------------------------------+------------+
+|too-many-locals                |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-branches              |1           |
++-------------------------------+------------+
+|too-many-ancestors             |1           |
++-------------------------------+------------+
+|logging-format-interpolation   |1           |
++-------------------------------+------------+
+|keyword-arg-before-vararg      |1           |
++-------------------------------+------------+
+|abstract-method                |1           |
++-------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 5.74/10 (previous run: 5.87/10, -0.13)
+

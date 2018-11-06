@@ -1,0 +1,190 @@
+************* Module matplotlib.bezier
+W: 97, 0: FIXME spelling mistake in the name of the parameter ``tolerence`` (fixme)
+C: 11, 0: Missing class docstring (missing-docstring)
+R: 17, 0: Too many arguments (8/5) (too-many-arguments)
+R: 17, 0: Too many local variables (21/15) (too-many-locals)
+C: 30, 4: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 30, 7: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 31, 4: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 31, 7: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C: 39, 4: Variable name "a_" doesn't conform to snake_case naming style (invalid-name)
+C: 39, 8: Variable name "b_" doesn't conform to snake_case naming style (invalid-name)
+C: 40, 4: Variable name "c_" doesn't conform to snake_case naming style (invalid-name)
+C: 40, 8: Variable name "d_" doesn't conform to snake_case naming style (invalid-name)
+C: 41, 4: Variable name "a_" doesn't conform to snake_case naming style (invalid-name)
+C: 41, 8: Variable name "b_" doesn't conform to snake_case naming style (invalid-name)
+C: 41,12: Variable name "c_" doesn't conform to snake_case naming style (invalid-name)
+C: 41,16: Variable name "d_" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 4: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 44, 4: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 49, 0: Argument name "cx" doesn't conform to snake_case naming style (invalid-name)
+C: 49, 0: Argument name "cy" doesn't conform to snake_case naming style (invalid-name)
+C: 62, 4: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C: 62, 8: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C: 63, 4: Variable name "x2" doesn't conform to snake_case naming style (invalid-name)
+C: 63, 8: Variable name "y2" doesn't conform to snake_case naming style (invalid-name)
+C: 74, 0: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 79, 0: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 98, 0: Function name "find_bezier_t_intersecting_with_closedpath" doesn't conform to snake_case naming style (invalid-name)
+C: 98, 0: Argument name "t0" doesn't conform to snake_case naming style (invalid-name)
+C: 98, 0: Argument name "t1" doesn't conform to snake_case naming style (invalid-name)
+C:168, 8: Variable name "xx" doesn't conform to snake_case naming style (invalid-name)
+C:168,12: Variable name "yy" doesn't conform to snake_case naming style (invalid-name)
+C:172, 4: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
+C:174, 8: Variable name "tt" doesn't conform to snake_case naming style (invalid-name)
+R:147, 0: Too few public methods (1/2) (too-few-public-methods)
+C:180, 0: Function name "split_bezier_intersecting_with_closedpath" doesn't conform to snake_case naming style (invalid-name)
+C:190, 4: Variable name "bz" doesn't conform to snake_case naming style (invalid-name)
+C:193, 4: Variable name "t0" doesn't conform to snake_case naming style (invalid-name)
+C:193, 8: Variable name "t1" doesn't conform to snake_case naming style (invalid-name)
+C:201, 0: Function name "find_r_to_boundary_of_closedpath" doesn't conform to snake_case naming style (invalid-name)
+C:201, 0: Argument name "xy" doesn't conform to snake_case naming style (invalid-name)
+R:201, 0: Too many arguments (7/5) (too-many-arguments)
+C:214, 4: Variable name "cx" doesn't conform to snake_case naming style (invalid-name)
+C:214, 8: Variable name "cy" doesn't conform to snake_case naming style (invalid-name)
+C:216, 4: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+R:226, 0: Too many local variables (22/15) (too-many-locals)
+C:253, 4: Variable name "bp" doesn't conform to snake_case naming style (invalid-name)
+W:233,16: Unused variable 'command' (unused-variable)
+C:288, 0: Argument name "cx" doesn't conform to snake_case naming style (invalid-name)
+C:288, 0: Argument name "cy" doesn't conform to snake_case naming style (invalid-name)
+C:288, 0: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+C:288, 0: Missing function docstring (missing-docstring)
+C:289, 4: Variable name "r2" doesn't conform to snake_case naming style (invalid-name)
+C:291, 4: Argument name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:292, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:292,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:299, 0: Argument name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:299, 0: Argument name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:299, 0: Argument name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:299, 0: Argument name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:299, 0: Missing function docstring (missing-docstring)
+C:300, 4: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:300, 8: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:301, 4: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+R:317, 4: Unnecessary "else" after "return" (no-else-return)
+R:325, 0: Too many local variables (27/15) (too-many-locals)
+W:345, 8: Access to a protected member _warn_external of a client class (protected-access)
+R:399, 0: Too many arguments (6/5) (too-many-arguments)
+C:410, 0: Argument name "w1" doesn't conform to snake_case naming style (invalid-name)
+C:410, 0: Argument name "wm" doesn't conform to snake_case naming style (invalid-name)
+C:410, 0: Argument name "w2" doesn't conform to snake_case naming style (invalid-name)
+R:410, 0: Too many local variables (37/15) (too-many-locals)
+C:461, 0: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+C:465, 4: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:466, 4: Unnecessary "else" after "return" (no-else-return)
+C:467, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:483, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:484, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+
+
+Report
+======
+203 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |50.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |18     |NC         |NC         |88.89       |16.67    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-cbook (matplotlib.bezier)
+      \-path (matplotlib.bezier)
+    numpy (matplotlib.bezier)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |257    |52.24 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |81     |16.46 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |44     |8.94  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |110    |22.36 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |64     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |10     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------+------------+
+|message id             |occurrences |
++=======================+============+
+|invalid-name           |61          |
++-----------------------+------------+
+|too-many-locals        |4           |
++-----------------------+------------+
+|too-many-arguments     |3           |
++-----------------------+------------+
+|missing-docstring      |3           |
++-----------------------+------------+
+|no-else-return         |2           |
++-----------------------+------------+
+|unused-variable        |1           |
++-----------------------+------------+
+|too-few-public-methods |1           |
++-----------------------+------------+
+|protected-access       |1           |
++-----------------------+------------+
+|fixme                  |1           |
++-----------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 6.21/10
+

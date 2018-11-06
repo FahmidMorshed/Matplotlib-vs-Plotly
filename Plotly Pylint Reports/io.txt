@@ -1,0 +1,295 @@
+************* Module plotly.io
+C:  1, 0: Missing module docstring (missing-docstring)
+************* Module plotly.io.orca
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  1, 0: Unused ensure_server imported from _orca (unused-import)
+W:  1, 0: Unused shutdown_server imported from _orca (unused-import)
+W:  1, 0: Unused validate_executable imported from _orca (unused-import)
+W:  1, 0: Unused reset_status imported from _orca (unused-import)
+W:  1, 0: Unused config imported from _orca (unused-import)
+W:  1, 0: Unused status imported from _orca (unused-import)
+************* Module plotly.io._json
+C:  1, 0: Missing module docstring (missing-docstring)
+C:100,32: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:191,32: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:  4, 0: standard import "import json" should be placed before "from six import string_types" (wrong-import-order)
+************* Module plotly.io._orca
+C:323, 0: Wrong hanging indentation (remove 20 spaces).
+                        path=self.config_file
+    |                   ^ (bad-continuation)
+C:324, 0: Wrong hanging indentation.
+                    ))
+|   |               ^ (bad-continuation)
+C:334, 0: Wrong hanging indentation (remove 20 spaces).
+                        path=self.config_file
+    |                   ^ (bad-continuation)
+C:335, 0: Wrong hanging indentation.
+                    ))
+|   |               ^ (bad-continuation)
+C:345, 0: Wrong hanging indentation (remove 12 spaces).
+                path=self.config_file))
+    |           ^ (bad-continuation)
+C:365, 0: Wrong hanging indentation (remove 12 spaces).
+                path=self.config_file))
+    |           ^ (bad-continuation)
+C:917, 0: Wrong hanging indentation (remove 8 spaces).
+            executable=config.executable,
+    |       ^ (bad-continuation)
+C:918, 0: Wrong hanging indentation (remove 8 spaces).
+            formatted_path=formatted_path,
+    |       ^ (bad-continuation)
+C:919, 0: Wrong hanging indentation (remove 8 spaces).
+            instructions=install_location_instructions))
+    |       ^ (bad-continuation)
+C:937, 0: Wrong hanging indentation (remove 4 spaces).
+        executable=executable,
+    |   ^ (bad-continuation)
+C:938, 0: Wrong hanging indentation (remove 4 spaces).
+        instructions=install_location_instructions)
+    |   ^ (bad-continuation)
+C:961, 0: Wrong continued indentation before block (add 4 spaces).
+            not os.environ.get('DISPLAY')):
+            ^   | (bad-continuation)
+C:  1, 0: Too many lines in module (1496/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 22, 0: Constant name "psutil" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 26, 0: Constant name "valid_formats" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 27, 0: Constant name "format_conversions" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 34, 0: Missing function docstring (missing-docstring)
+C:106, 4: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W:170, 8: Redefining built-in 'dir' (redefined-builtin)
+C:131, 4: Argument name "fn" doesn't conform to snake_case naming style (invalid-name)
+C:151,11: Consider changing "not os.curdir in path" to "os.curdir not in path" (unneeded-not)
+R:115, 0: Too many branches (13/12) (too-many-branches)
+R:200, 4: Unnecessary "else" after "return" (no-else-return)
+W:247, 4: Dangerous default value {} as argument (dangerous-default-value)
+C:247, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:292,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:319,12: No exception type(s) specified (bare-except)
+C:317,52: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:339,19: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:360,48: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:728, 0: Constant name "config" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:835, 0: Constant name "status" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:941, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:989, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:1020, 4: Access to a protected member _props of a client class (protected-access)
+W:1021, 4: Access to a protected member _props of a client class (protected-access)
+W:1022, 4: Access to a protected member _props of a client class (protected-access)
+W:1038, 4: Access to a protected member _props of a client class (protected-access)
+W:1039, 4: Access to a protected member _props of a client class (protected-access)
+W:1040, 4: Access to a protected member _props of a client class (protected-access)
+C:1045, 0: Constant name "orca_lock" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1046, 0: Constant name "orca_state" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1054, 0: Missing function docstring (missing-docstring)
+W:1081,20: No exception type(s) specified (bare-except)
+W:1095,16: No exception type(s) specified (bare-except)
+W:1110,16: Access to a protected member _props of a client class (protected-access)
+W:1111,16: Access to a protected member _props of a client class (protected-access)
+W:1112,16: Access to a protected member _props of a client class (protected-access)
+W:1113,16: Access to a protected member _props of a client class (protected-access)
+W:1091,20: Unused variable 'output' (unused-variable)
+W:1091,28: Unused variable 'err' (unused-variable)
+W:1094,20: Unused variable 'child_status' (unused-variable)
+W:1182,12: Access to a protected member _props of a client class (protected-access)
+W:1183,12: Access to a protected member _props of a client class (protected-access)
+W:1184,12: Access to a protected member _props of a client class (protected-access)
+W:1185,12: Access to a protected member _props of a client class (protected-access)
+C:1189,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:1213,13: Redefining built-in 'format' (redefined-builtin)
+R:1212, 0: Too many arguments (6/5) (too-many-arguments)
+W:1302, 4: Unused variable 'err' (unused-variable)
+R:1212, 0: Too many branches (13/12) (too-many-branches)
+W:1398,16: Redefining built-in 'format' (redefined-builtin)
+R:1396, 0: Too many arguments (7/5) (too-many-arguments)
+C:1493,33: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+************* Module plotly.io._templates
+C:224, 0: Wrong hanging indentation (remove 4 spaces).
+                        lcm // len(result_traces))
+                    |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 26, 0: Constant name "Lazy" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 85, 4: Missing method docstring (missing-docstring)
+C: 88, 4: Missing method docstring (missing-docstring)
+W: 91, 4: Dangerous default value {} as argument (dangerous-default-value)
+C: 91, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:105,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:190, 8: Unnecessary "else" after "return" (no-else-return)
+W:220,23: Using deprecated method gcd() (deprecated-method)
+C:238, 0: Constant name "templates" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:255,21: Access to a protected member _props of a client class (protected-access)
+W:263,20: Access to a protected member _validators of a client class (protected-access)
+W:267,19: Access to a protected member _props of a client class (protected-access)
+C: 10, 0: standard import "import textwrap" should be placed before "from plotly.basedatatypes import BaseFigure" (wrong-import-order)
+C: 11, 0: standard import "import pkgutil" should be placed before "from plotly.basedatatypes import BaseFigure" (wrong-import-order)
+C: 13, 0: standard import "import copy" should be placed before "from plotly.basedatatypes import BaseFigure" (wrong-import-order)
+C: 14, 0: standard import "import os" should be placed before "from plotly.basedatatypes import BaseFigure" (wrong-import-order)
+C: 15, 0: standard import "import json" should be placed before "from plotly.basedatatypes import BaseFigure" (wrong-import-order)
+C: 16, 0: standard import "from functools import reduce" should be placed before "from plotly.basedatatypes import BaseFigure" (wrong-import-order)
+************* Module plotly.io._utils
+C: 34, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Missing function docstring (missing-docstring)
+C: 24, 0: Missing function docstring (missing-docstring)
+
+
+Report
+======
+586 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |6      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |51     |NC         |NC         |96.08       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |22     |NC         |NC         |81.82       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    _plotly_utils 
+      \-basevalidators (plotly.io._templates)
+    plotly (plotly.io._orca,plotly.io._utils)
+      \-basedatatypes (plotly.io._templates,plotly.io._utils)
+      \-files (plotly.io._orca)
+      \-graph_objs (plotly.io._templates,plotly.io._utils)
+      | \-layout 
+      |   \-Template (plotly.io._templates)
+      \-io 
+      | \-_orca (plotly.io.orca)
+      \-optional_imports (plotly.io._orca)
+      \-utils (plotly.io._json)
+      \-validators 
+        \-layout (plotly.io._templates)
+    requests (plotly.io._orca)
+    retrying (plotly.io._orca)
+    six (plotly.io._json,plotly.io._orca)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |991    |44.30 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |762    |34.06 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |221    |9.88  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |263    |11.76 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |59     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |6      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |36     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++---------------------+------+--------+---------+-----------+
+|module               |error |warning |refactor |convention |
++=====================+======+========+=========+===========+
+|plotly.io._orca      |0.00  |69.44   |83.33    |59.32      |
++---------------------+------+--------+---------+-----------+
+|plotly.io.orca       |0.00  |16.67   |0.00     |1.69       |
++---------------------+------+--------+---------+-----------+
+|plotly.io._templates |0.00  |13.89   |16.67    |23.73      |
++---------------------+------+--------+---------+-----------+
+|plotly.io._utils     |0.00  |0.00    |0.00     |6.78       |
++---------------------+------+--------+---------+-----------+
+|plotly.io._json      |0.00  |0.00    |0.00     |6.78       |
++---------------------+------+--------+---------+-----------+
+|plotly.io            |0.00  |0.00    |0.00     |1.69       |
++---------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------------+------------+
+|message id              |occurrences |
++========================+============+
+|invalid-name            |24          |
++------------------------+------------+
+|protected-access        |17          |
++------------------------+------------+
+|bad-continuation        |13          |
++------------------------+------------+
+|missing-docstring       |12          |
++------------------------+------------+
+|wrong-import-order      |7           |
++------------------------+------------+
+|unused-import           |6           |
++------------------------+------------+
+|unused-variable         |4           |
++------------------------+------------+
+|redefined-builtin       |3           |
++------------------------+------------+
+|bare-except             |3           |
++------------------------+------------+
+|too-many-branches       |2           |
++------------------------+------------+
+|too-many-arguments      |2           |
++------------------------+------------+
+|no-else-return          |2           |
++------------------------+------------+
+|dangerous-default-value |2           |
++------------------------+------------+
+|unneeded-not            |1           |
++------------------------+------------+
+|too-many-lines          |1           |
++------------------------+------------+
+|missing-final-newline   |1           |
++------------------------+------------+
+|deprecated-method       |1           |
++------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.28/10
+

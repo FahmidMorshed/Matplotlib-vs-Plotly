@@ -1,0 +1,358 @@
+************* Module matplotlib.dviread
+W:477, 0: TODO: actually read the postamble and finale? (fixme)
+C:  1, 0: Too many lines in module (1065/1000) (too-many-lines)
+E: 20, 0: No name 'namedtuple' in module 'collections' (no-name-in-module)
+C: 33, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 55, 0: Constant name "_dvistate" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 58, 0: Constant name "Page" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 59, 0: Constant name "Text" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 60, 0: Constant name "Box" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 70,13: Redefining name 'dvi' from outer scope (line 1054) (redefined-outer-name)
+W: 70,13: Unused argument 'dvi' (unused-argument)
+W: 75, 9: Redefining built-in 'bytes' (redefined-builtin)
+W: 75,24: Redefining name 'dvi' from outer scope (line 1054) (redefined-outer-name)
+W: 78,11: Access to a protected member _arg of a client class (protected-access)
+W: 81,14: Redefining name 'dvi' from outer scope (line 1054) (redefined-outer-name)
+W: 88,11: Access to a protected member _arg of a client class (protected-access)
+W: 91,15: Redefining name 'dvi' from outer scope (line 1054) (redefined-outer-name)
+W: 95,11: Access to a protected member _arg of a client class (protected-access)
+W: 98,15: Redefining name 'dvi' from outer scope (line 1054) (redefined-outer-name)
+W:102,11: Access to a protected member _arg of a client class (protected-access)
+W:105,15: Redefining name 'dvi' from outer scope (line 1054) (redefined-outer-name)
+W:110,11: Access to a protected member _arg of a client class (protected-access)
+C:113, 0: Constant name "_arg_mapping" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:123,21: Redefining built-in 'min' (redefined-builtin)
+W:123,26: Redefining built-in 'max' (redefined-builtin)
+C:154, 4: Missing function docstring (missing-docstring)
+C:158, 8: Missing function docstring (missing-docstring)
+C:324, 8: Attribute name "h" doesn't conform to snake_case naming style (invalid-name)
+C:373,16: Attribute name "v" doesn't conform to snake_case naming style (invalid-name)
+C:373,24: Attribute name "w" doesn't conform to snake_case naming style (invalid-name)
+C:373,32: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+C:373,40: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+C:373,48: Attribute name "z" doesn't conform to snake_case naming style (invalid-name)
+C:425, 8: Attribute name "f" doesn't conform to snake_case naming style (invalid-name)
+R:172, 0: Too many instance attributes (15/7) (too-many-instance-attributes)
+W:190,33: Redefining name 'dpi' from outer scope (line 1051) (redefined-outer-name)
+C:209,54: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+C:210,20: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+W:206,18: Unused variable 'ext' (unused-variable)
+W:211,16: Unused variable 'height' (unused-variable)
+W:211,31: Unused variable 'width' (unused-variable)
+R:204, 4: Method could be a function (no-self-use)
+W:262,16: Redefining name 'x' from outer scope (line 1059) (redefined-outer-name)
+W:262,19: Redefining name 'y' from outer scope (line 1059) (redefined-outer-name)
+W:262,22: Redefining name 'h' from outer scope (line 1064) (redefined-outer-name)
+W:262,25: Redefining name 'w' from outer scope (line 1059) (redefined-outer-name)
+R:253, 4: Too many local variables (19/15) (too-many-locals)
+C:262,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:262,19: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:262,22: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:262,25: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:263,16: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:265,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:265,19: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:265,28: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:265,31: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:266,16: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:266,19: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:266,23: Access to a protected member _height_depth_of of a client class (protected-access)
+C:280, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W:313, 8: Redefining built-in 'str' (redefined-builtin)
+W:324,18: Access to a protected member _width_of of a client class (protected-access)
+W:329,18: Access to a protected member _width_of of a client class (protected-access)
+C:332, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:332, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+W:347,16: Redefining name 'x' from outer scope (line 1059) (redefined-outer-name)
+W:347,19: Redefining name 'y' from outer scope (line 1059) (redefined-outer-name)
+W:347,22: Redefining name 'f' from outer scope (line 1059) (redefined-outer-name)
+W:347,28: Redefining name 'w' from outer scope (line 1059) (redefined-outer-name)
+W:342,11: Access to a protected member _vf of a client class (protected-access)
+W:344,34: Access to a protected member _width_of of a client class (protected-access)
+W:346,20: Access to a protected member _scale of a client class (protected-access)
+C:347,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:347,19: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:347,22: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:347,25: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:347,28: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+W:347,33: Access to a protected member _vf of a client class (protected-access)
+W:348,53: Access to a protected member _scale of a client class (protected-access)
+W:349,35: Access to a protected member _tfm of a client class (protected-access)
+W:349,65: Access to a protected member _vf of a client class (protected-access)
+W:352,47: Access to a protected member _width_of of a client class (protected-access)
+W:356,49: Access to a protected member _vf of a client class (protected-access)
+W:347,28: Unused variable 'w' (unused-variable)
+C:359, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:359, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:362, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:362, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "c0" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "c1" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "c2" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "c3" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "c4" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "c5" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "c6" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "c7" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "c8" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "c9" doesn't conform to snake_case naming style (invalid-name)
+C:371, 4: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+R:371, 4: Too many arguments (12/5) (too-many-arguments)
+W:371,19: Unused argument 'c0' (unused-argument)
+W:371,23: Unused argument 'c1' (unused-argument)
+W:371,27: Unused argument 'c2' (unused-argument)
+W:371,31: Unused argument 'c3' (unused-argument)
+W:371,35: Unused argument 'c4' (unused-argument)
+W:371,39: Unused argument 'c5' (unused-argument)
+W:371,43: Unused argument 'c6' (unused-argument)
+W:371,47: Unused argument 'c7' (unused-argument)
+W:371,51: Unused argument 'c8' (unused-argument)
+W:371,55: Unused argument 'c9' (unused-argument)
+W:371,59: Unused argument 'p' (unused-argument)
+C:392, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:408, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:440, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:440, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:440, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:440, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:440, 4: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
+W:440,26: Redefining name 'c' from outer scope (line 1059) (redefined-outer-name)
+R:440, 4: Too many arguments (7/5) (too-many-arguments)
+C:443, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:443, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:443, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:443, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:443, 4: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
+W:443,31: Redefining name 'c' from outer scope (line 1059) (redefined-outer-name)
+R:443, 4: Too many arguments (7/5) (too-many-arguments)
+C:444, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:452, 8: Variable name "vf" doesn't conform to snake_case naming style (invalid-name)
+W:443,37: Unused argument 'd' (unused-argument)
+R:457, 4: Too many arguments (6/5) (too-many-arguments)
+W:458, 8: Unused variable 'comment' (unused-variable)
+W:486, 8: Exception arguments suggest string formatting might be intended (raising-format-tuple)
+R:485, 4: Method could be a function (no-self-use)
+W:373, 8: Attribute 'h' defined outside __init__ (attribute-defined-outside-init)
+W:389, 8: Attribute 'h' defined outside __init__ (attribute-defined-outside-init)
+W:373,16: Attribute 'v' defined outside __init__ (attribute-defined-outside-init)
+W:389,16: Attribute 'v' defined outside __init__ (attribute-defined-outside-init)
+W:373,24: Attribute 'w' defined outside __init__ (attribute-defined-outside-init)
+W:389,24: Attribute 'w' defined outside __init__ (attribute-defined-outside-init)
+W:398,12: Attribute 'w' defined outside __init__ (attribute-defined-outside-init)
+W:373,32: Attribute 'x' defined outside __init__ (attribute-defined-outside-init)
+W:389,32: Attribute 'x' defined outside __init__ (attribute-defined-outside-init)
+W:404,12: Attribute 'x' defined outside __init__ (attribute-defined-outside-init)
+W:373,40: Attribute 'y' defined outside __init__ (attribute-defined-outside-init)
+W:389,40: Attribute 'y' defined outside __init__ (attribute-defined-outside-init)
+W:414,12: Attribute 'y' defined outside __init__ (attribute-defined-outside-init)
+W:373,48: Attribute 'z' defined outside __init__ (attribute-defined-outside-init)
+W:389,48: Attribute 'z' defined outside __init__ (attribute-defined-outside-init)
+W:420,12: Attribute 'z' defined outside __init__ (attribute-defined-outside-init)
+W:374, 8: Attribute 'stack' defined outside __init__ (attribute-defined-outside-init)
+W:375, 8: Attribute 'text' defined outside __init__ (attribute-defined-outside-init)
+W:376, 8: Attribute 'boxes' defined outside __init__ (attribute-defined-outside-init)
+W:425, 8: Attribute 'f' defined outside __init__ (attribute-defined-outside-init)
+W:429, 8: Attribute 'f' defined outside __init__ (attribute-defined-outside-init)
+R:172, 0: Too few public methods (1/2) (too-few-public-methods)
+R:489, 0: Too few public methods (0/2) (too-few-public-methods)
+W:579, 0: Method '_post_post' is abstract in class 'Dvi' but is not overridden (abstract-method)
+R:579, 0: Too many instance attributes (13/7) (too-many-instance-attributes)
+W:652,16: Redefining name 'c' from outer scope (line 1059) (redefined-outer-name)
+W:658,16: Redefining name 'x' from outer scope (line 1059) (redefined-outer-name)
+R:615, 4: Too many local variables (18/15) (too-many-locals)
+C:652,16: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:652,19: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:652,22: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:652,25: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:652,28: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:658,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:659,16: Variable name "cs" doesn't conform to snake_case naming style (invalid-name)
+C:659,20: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+R:615, 4: Too many branches (13/12) (too-many-branches)
+C:666, 4: Argument name "pl" doesn't conform to snake_case naming style (invalid-name)
+W:680,22: Redefining name 'x' from outer scope (line 1059) (redefined-outer-name)
+W:680, 4: Parameters differ from overridden '_pre' method (arguments-differ)
+C:685,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:680,25: Unused argument 'cs' (unused-argument)
+W:680,29: Unused argument 'ds' (unused-argument)
+W:669, 8: Attribute 'h' defined outside __init__ (attribute-defined-outside-init)
+W:669,16: Attribute 'v' defined outside __init__ (attribute-defined-outside-init)
+W:669,24: Attribute 'w' defined outside __init__ (attribute-defined-outside-init)
+W:669,32: Attribute 'x' defined outside __init__ (attribute-defined-outside-init)
+W:669,40: Attribute 'y' defined outside __init__ (attribute-defined-outside-init)
+W:669,48: Attribute 'z' defined outside __init__ (attribute-defined-outside-init)
+W:670, 8: Attribute 'stack' defined outside __init__ (attribute-defined-outside-init)
+W:670,20: Attribute 'text' defined outside __init__ (attribute-defined-outside-init)
+W:670,31: Attribute 'boxes' defined outside __init__ (attribute-defined-outside-init)
+W:671, 8: Attribute 'f' defined outside __init__ (attribute-defined-outside-init)
+R:579, 0: Too few public methods (1/2) (too-few-public-methods)
+R:696, 4: Unnecessary "else" after "return" (no-else-return)
+R:733, 4: Too many local variables (20/15) (too-many-locals)
+C:737,12: Variable name "lh" doesn't conform to snake_case naming style (invalid-name)
+C:737,16: Variable name "bc" doesn't conform to snake_case naming style (invalid-name)
+C:737,20: Variable name "ec" doesn't conform to snake_case naming style (invalid-name)
+C:737,24: Variable name "nw" doesn't conform to snake_case naming style (invalid-name)
+C:737,28: Variable name "nh" doesn't conform to snake_case naming style (invalid-name)
+C:737,32: Variable name "nd" doesn't conform to snake_case naming style (invalid-name)
+R:710, 0: Too few public methods (0/2) (too-few-public-methods)
+C:762, 0: Constant name "PsFont" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:819, 8: Access to a protected member _font of a client class (protected-access)
+W:820, 8: Access to a protected member _filename of a client class (protected-access)
+W:822,12: Access to a protected member _parse of a client class (protected-access)
+C:842, 8: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C:844,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+W:896,12: Redefining name 'w' from outer scope (line 1059) (redefined-outer-name)
+R:849, 4: Too many local variables (20/15) (too-many-locals)
+C:896,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:898,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:901,16: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+R:765, 0: Too few public methods (0/2) (too-few-public-methods)
+R:933, 0: Too few public methods (0/2) (too-few-public-methods)
+W:983,28: Redefining built-in 'format' (redefined-builtin)
+W:1028,17: Access to a protected member _check_and_log_subprocess of a client class (protected-access)
+R:1031, 4: Unnecessary "else" after "return" (no-else-return)
+C:1043, 0: Constant name "_tfmfile" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1044, 0: Constant name "_vffile" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1049, 4: Constant name "fname" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1051, 8: Constant name "dpi" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1053, 8: Constant name "dpi" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1055, 8: Constant name "fontmap" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:1061,55: Access to a protected member _scale of a client class (protected-access)
+
+
+Report
+======
+455 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |6      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |54     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |13     |NC         |NC         |84.62       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    collections (matplotlib.dviread)
+    matplotlib (matplotlib.dviread)
+      \-cbook (matplotlib.dviread)
+    numpy (matplotlib.dviread)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |543    |50.80 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |336    |31.43 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |64     |5.99  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |126    |11.79 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |94     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |21     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |103    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |90          |
++-------------------------------+------------+
+|attribute-defined-outside-init |31          |
++-------------------------------+------------+
+|protected-access               |22          |
++-------------------------------+------------+
+|redefined-outer-name           |21          |
++-------------------------------+------------+
+|unused-argument                |15          |
++-------------------------------+------------+
+|too-few-public-methods         |6           |
++-------------------------------+------------+
+|unused-variable                |5           |
++-------------------------------+------------+
+|redefined-builtin              |5           |
++-------------------------------+------------+
+|too-many-locals                |4           |
++-------------------------------+------------+
+|too-many-arguments             |4           |
++-------------------------------+------------+
+|too-many-instance-attributes   |2           |
++-------------------------------+------------+
+|no-self-use                    |2           |
++-------------------------------+------------+
+|no-else-return                 |2           |
++-------------------------------+------------+
+|missing-docstring              |2           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-branches              |1           |
++-------------------------------+------------+
+|raising-format-tuple           |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|len-as-condition               |1           |
++-------------------------------+------------+
+|fixme                          |1           |
++-------------------------------+------------+
+|arguments-differ               |1           |
++-------------------------------+------------+
+|abstract-method                |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 5.10/10
+

@@ -1,0 +1,166 @@
+************* Module matplotlib.spines
+C:338, 0: Wrong continued indentation (remove 1 space).
+                              }[self.spine_type]
+                             |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+R: 11, 0: Too many instance attributes (16/7) (too-many-instance-attributes)
+R:141, 8: Unnecessary "else" after "return" (no-else-return)
+R:196, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:196, 8: Unnecessary "else" after "return" (no-else-return)
+R:201, 4: Too many local variables (18/15) (too-many-locals)
+C:239,23: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:254,23: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:297,12: Variable name "v1" doesn't conform to snake_case naming style (invalid-name)
+R:201, 4: Too many branches (29/12) (too-many-branches)
+R:201, 4: Too many statements (78/50) (too-many-statements)
+W:348,16: Access to a protected member _warn_external of a client class (protected-access)
+W:366,16: Access to a protected member _warn_external of a client class (protected-access)
+W:385,16: Access to a protected member _warn_external of a client class (protected-access)
+R:316, 4: Too many branches (16/12) (too-many-branches)
+R:505, 4: Too many arguments (7/5) (too-many-arguments)
+W: 99, 8: Attribute '_center' defined outside __init__ (attribute-defined-outside-init)
+W:112, 8: Attribute '_center' defined outside __init__ (attribute-defined-outside-init)
+W:100, 8: Attribute '_width' defined outside __init__ (attribute-defined-outside-init)
+W:113, 8: Attribute '_width' defined outside __init__ (attribute-defined-outside-init)
+W:291,20: Attribute '_width' defined outside __init__ (attribute-defined-outside-init)
+W:101, 8: Attribute '_height' defined outside __init__ (attribute-defined-outside-init)
+W:114, 8: Attribute '_height' defined outside __init__ (attribute-defined-outside-init)
+W:290,20: Attribute '_height' defined outside __init__ (attribute-defined-outside-init)
+W:102, 8: Attribute '_theta1' defined outside __init__ (attribute-defined-outside-init)
+W:103, 8: Attribute '_theta2' defined outside __init__ (attribute-defined-outside-init)
+W:331,16: Attribute '_spine_transform' defined outside __init__ (attribute-defined-outside-init)
+W:342,16: Attribute '_spine_transform' defined outside __init__ (attribute-defined-outside-init)
+W:350,16: Attribute '_spine_transform' defined outside __init__ (attribute-defined-outside-init)
+W:354,16: Attribute '_spine_transform' defined outside __init__ (attribute-defined-outside-init)
+W:360,16: Attribute '_spine_transform' defined outside __init__ (attribute-defined-outside-init)
+W:368,16: Attribute '_spine_transform' defined outside __init__ (attribute-defined-outside-init)
+W:377,16: Attribute '_spine_transform' defined outside __init__ (attribute-defined-outside-init)
+W:381,16: Attribute '_spine_transform' defined outside __init__ (attribute-defined-outside-init)
+W:387,16: Attribute '_spine_transform' defined outside __init__ (attribute-defined-outside-init)
+R: 11, 0: Too many public methods (21/20) (too-many-public-methods)
+
+
+Report
+======
+287 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |27     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.spines)
+      \-artist (matplotlib.spines)
+      \-cbook (matplotlib.spines)
+      \-docstring (matplotlib.spines)
+      \-patches (matplotlib.spines)
+      \-path (matplotlib.spines)
+      \-transforms (matplotlib.spines)
+    numpy (matplotlib.spines)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |342    |62.87 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |105    |19.30 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |44     |8.09  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |53     |9.74  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |10     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |22     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|attribute-defined-outside-init |19          |
++-------------------------------+------------+
+|protected-access               |3           |
++-------------------------------+------------+
+|too-many-branches              |2           |
++-------------------------------+------------+
+|no-else-return                 |2           |
++-------------------------------+------------+
+|len-as-condition               |2           |
++-------------------------------+------------+
+|too-many-statements            |1           |
++-------------------------------+------------+
+|too-many-public-methods        |1           |
++-------------------------------+------------+
+|too-many-locals                |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|too-many-arguments             |1           |
++-------------------------------+------------+
+|simplifiable-if-statement      |1           |
++-------------------------------+------------+
+|missing-docstring              |1           |
++-------------------------------+------------+
+|invalid-name                   |1           |
++-------------------------------+------------+
+|bad-continuation               |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.71/10
+

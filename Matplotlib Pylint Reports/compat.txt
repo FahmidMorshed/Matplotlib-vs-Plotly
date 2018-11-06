@@ -1,0 +1,119 @@
+************* Module matplotlib.compat.subprocess
+C: 29, 4: Constant name "check_output" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 33, 4: Function name "Popen" doesn't conform to snake_case naming style (invalid-name)
+C: 33, 4: Missing function docstring (missing-docstring)
+W: 33, 0: Unused argument 'args' (unused-argument)
+W: 33, 0: Unused argument 'kwargs' (unused-argument)
+C: 36, 4: Missing function docstring (missing-docstring)
+W: 36, 0: Unused argument 'args' (unused-argument)
+W: 36, 0: Unused argument 'kwargs' (unused-argument)
+C: 42, 4: Constant name "CalledProcessError" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+17 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |NC         |NC         |0.00        |50.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-cbook (matplotlib.compat.subprocess)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |24     |52.17 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |12     |26.09 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |5      |10.87 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |5      |10.87 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++-----------------------------+------+--------+---------+-----------+
+|module                       |error |warning |refactor |convention |
++=============================+======+========+=========+===========+
+|matplotlib.compat.subprocess |0.00  |100.00  |0.00     |100.00     |
++-----------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------+------------+
+|message id        |occurrences |
++==================+============+
+|unused-argument   |4           |
++------------------+------------+
+|invalid-name      |3           |
++------------------+------------+
+|missing-docstring |2           |
++------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 4.71/10
+

@@ -1,0 +1,280 @@
+************* Module matplotlib.dates
+C:413, 0: Wrong continued indentation (add 29 spaces).
+                np.issubdtype(d.dtype, np.datetime64))):
+                ^                            | (bad-continuation)
+C:1397, 0: Wrong continued indentation (remove 1 space).
+                         }
+                        |^ (bad-continuation)
+C:  1, 0: Too many lines in module (1831/1000) (too-many-lines)
+C:171, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:179, 4: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W:187,-1: String statement has no effect (pointless-string-statement)
+C:213, 0: Argument name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:242, 0: Constant name "_to_ordinalf_np_vectorized" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:245, 0: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:259, 4: Variable name "t0" doesn't conform to snake_case naming style (invalid-name)
+E:259, 9: Instance of 'str' has no 'astype' member (no-member)
+C:260, 4: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:261, 4: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:262, 4: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:264, 4: Variable name "NaT_int" doesn't conform to snake_case naming style (invalid-name)
+E:264,14: Instance of 'str' has no 'astype' member (no-member)
+C:270,12: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:274, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:274, 0: Argument name "tz" doesn't conform to snake_case naming style (invalid-name)
+C:287, 4: Variable name "ix" doesn't conform to snake_case naming style (invalid-name)
+C:288, 4: Variable name "ix" doesn't conform to snake_case naming style (invalid-name)
+C:293, 4: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:309, 4: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:315, 0: Constant name "_from_ordinalf_np_vectorized" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:318, 0: Class name "strpdate2num" doesn't conform to PascalCase naming style (invalid-name)
+C:327, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:318, 0: Too few public methods (0/2) (too-few-public-methods)
+C:334, 0: Class name "bytespdate2num" doesn't conform to PascalCase naming style (invalid-name)
+C:356, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+R:334, 0: Too few public methods (0/2) (too-few-public-methods)
+C:361, 0: Constant name "_dateutil_parser_parse_np_vectorized" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:364, 0: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:377, 8: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:388, 0: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:445, 0: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+C:464, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:464, 0: Argument name "tz" doesn't conform to snake_case naming style (invalid-name)
+C:501, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:505, 0: Constant name "_ordinalf_to_timedelta_np_vectorized" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:508, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:554, 4: Variable name "f1" doesn't conform to snake_case naming style (invalid-name)
+C:555, 4: Variable name "f2" doesn't conform to snake_case naming style (invalid-name)
+C:570, 4: Variable name "f2" doesn't conform to snake_case naming style (invalid-name)
+C:597, 8: Attribute name "tz" doesn't conform to snake_case naming style (invalid-name)
+C:607, 4: Argument name "tz" doesn't conform to snake_case naming style (invalid-name)
+C:607, 4: Missing method docstring (missing-docstring)
+C:611, 4: Argument name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:611, 4: Argument name "s2" doesn't conform to snake_case naming style (invalid-name)
+R:611, 4: Too many arguments (6/5) (too-many-arguments)
+R:611, 4: Method could be a function (no-self-use)
+C:637, 4: Argument name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:673, 8: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:674, 8: Variable name "s2" doesn't conform to snake_case naming style (invalid-name)
+C:684, 8: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:684,12: Variable name "s2" doesn't conform to snake_case naming style (invalid-name)
+C:688, 8: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:688,12: Variable name "s2" doesn't conform to snake_case naming style (invalid-name)
+C:695, 4: Argument name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:730, 8: Attribute name "t" doesn't conform to snake_case naming style (invalid-name)
+C:732, 8: Attribute name "tz" doesn't conform to snake_case naming style (invalid-name)
+W:828,39: Access to a protected member _get_unit of a client class (protected-access)
+C:847, 0: Class name "rrulewrapper" doesn't conform to PascalCase naming style (invalid-name)
+C:847, 0: Missing class docstring (missing-docstring)
+C:854, 4: Missing method docstring (missing-docstring)
+C:890, 4: Argument name "dt" doesn't conform to snake_case naming style (invalid-name)
+R:890, 4: Method could be a function (no-self-use)
+C:897, 4: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+C:905, 8: Missing function docstring (missing-docstring)
+C:914, 8: Missing function docstring (missing-docstring)
+C:923,12: Missing function docstring (missing-docstring)
+C:925,16: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:928,12: Missing function docstring (missing-docstring)
+C:939, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R:941, 8: Unnecessary "else" after "return" (no-else-return)
+R:847, 0: Too few public methods (1/2) (too-few-public-methods)
+C:967, 8: Attribute name "tz" doesn't conform to snake_case naming style (invalid-name)
+W:952, 0: Method '__call__' is abstract in class 'Locator' but is not overridden (abstract-method)
+W:952, 0: Method 'tick_values' is abstract in class 'Locator' but is not overridden (abstract-method)
+C:969, 4: Argument name "tz" doesn't conform to snake_case naming style (invalid-name)
+R:1005, 4: Method could be a function (no-self-use)
+R:1012, 4: Method could be a function (no-self-use)
+C:1032, 0: Missing class docstring (missing-docstring)
+C:1066,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:1075,15: Access to a protected member _freq of a client class (protected-access)
+W:1075,15: Access to a protected member _rrule of a client class (protected-access)
+C:1079, 4: Missing method docstring (missing-docstring)
+R:1080, 8: Unnecessary "else" after "return" (no-else-return)
+R:1079, 4: Too many return statements (8/6) (too-many-return-statements)
+W:1099,15: Access to a protected member _interval of a client class (protected-access)
+W:1099,15: Access to a protected member _rrule of a client class (protected-access)
+R:1137, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+R:1255, 8: Unnecessary "else" after "return" (no-else-return)
+W:1350,12: Redefining name 'rrule' from outer scope (line 144) (redefined-outer-name)
+R:1266, 4: Too many local variables (28/15) (too-many-locals)
+C:1280, 8: Variable name "numYears" doesn't conform to snake_case naming style (invalid-name)
+C:1281, 8: Variable name "numMonths" doesn't conform to snake_case naming style (invalid-name)
+C:1282, 8: Variable name "numDays" doesn't conform to snake_case naming style (invalid-name)
+C:1283, 8: Variable name "numHours" doesn't conform to snake_case naming style (invalid-name)
+C:1284, 8: Variable name "numMinutes" doesn't conform to snake_case naming style (invalid-name)
+C:1285, 8: Variable name "numSeconds" doesn't conform to snake_case naming style (invalid-name)
+C:1286, 8: Variable name "numMicroseconds" doesn't conform to snake_case naming style (invalid-name)
+W:1320,16: Access to a protected member _warn_external of a client class (protected-access)
+W:1332,34: Using possibly undefined loop variable 'interval' (undefined-loop-variable)
+W:1336,54: Using possibly undefined loop variable 'interval' (undefined-loop-variable)
+W:1346,12: Using possibly undefined loop variable 'freq' (undefined-loop-variable)
+W:1348,31: Using possibly undefined loop variable 'i' (undefined-loop-variable)
+R:1266, 4: Too many branches (16/12) (too-many-branches)
+W:1390,20: Access to a protected member _Edge_integer of a client class (protected-access)
+C:1414,12: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+W:1482,12: Expression "[x.item() for x in byweekday.astype(int)]" is assigned to nothing (expression-not-assigned)
+C:1501,11: Consider changing "not interval == int(interval)" to "interval != int(interval)" (unneeded-not)
+W:1595, 4: __init__ method from base class 'DateLocator' is not called (super-init-not-called)
+C:1648, 0: Argument name "d1" doesn't conform to snake_case naming style (invalid-name)
+C:1648, 0: Argument name "d2" doesn't conform to snake_case naming style (invalid-name)
+C:1657, 0: Argument name "o1" doesn't conform to snake_case naming style (invalid-name)
+C:1657, 0: Argument name "o2" doesn't conform to snake_case naming style (invalid-name)
+C:1666, 0: Argument name "e" doesn't conform to snake_case naming style (invalid-name)
+C:1674, 0: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+R:1691, 4: Unnecessary "else" after "return" (no-else-return)
+C:1697, 0: Argument name "tz" doesn't conform to snake_case naming style (invalid-name)
+C:1741, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1749, 0: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+C:1757, 0: Argument name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1765, 0: Argument name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1789, 8: Variable name "tz" doesn't conform to snake_case naming style (invalid-name)
+W:1800, 4: Parameters differ from overridden 'convert' method (arguments-differ)
+W:142, 0: Unused import warnings (unused-import)
+
+
+Report
+======
+685 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |18     |NC         |NC         |88.89       |16.67    |
++---------+-------+-----------+-----------+------------+---------+
+|method   |66     |NC         |NC         |95.45       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |26     |NC         |NC         |84.62       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    dateutil 
+      \-parser (matplotlib.dates)
+      \-relativedelta (matplotlib.dates)
+      \-rrule (matplotlib.dates)
+      \-tz (matplotlib.dates)
+    matplotlib (matplotlib.dates)
+      \-cbook (matplotlib.dates)
+      \-ticker (matplotlib.dates)
+      \-units (matplotlib.dates)
+    numpy (matplotlib.dates)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |763    |41.63 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |702    |38.30 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |114    |6.22  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |254    |13.86 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |90     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |16     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |19     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|invalid-name                 |76          |
++-----------------------------+------------+
+|missing-docstring            |9           |
++-----------------------------+------------+
+|protected-access             |7           |
++-----------------------------+------------+
+|undefined-loop-variable      |4           |
++-----------------------------+------------+
+|no-self-use                  |4           |
++-----------------------------+------------+
+|no-else-return               |4           |
++-----------------------------+------------+
+|too-few-public-methods       |3           |
++-----------------------------+------------+
+|no-member                    |2           |
++-----------------------------+------------+
+|bad-continuation             |2           |
++-----------------------------+------------+
+|abstract-method              |2           |
++-----------------------------+------------+
+|unused-import                |1           |
++-----------------------------+------------+
+|unneeded-not                 |1           |
++-----------------------------+------------+
+|too-many-return-statements   |1           |
++-----------------------------+------------+
+|too-many-locals              |1           |
++-----------------------------+------------+
+|too-many-lines               |1           |
++-----------------------------+------------+
+|too-many-instance-attributes |1           |
++-----------------------------+------------+
+|too-many-branches            |1           |
++-----------------------------+------------+
+|too-many-arguments           |1           |
++-----------------------------+------------+
+|super-init-not-called        |1           |
++-----------------------------+------------+
+|redefined-outer-name         |1           |
++-----------------------------+------------+
+|pointless-string-statement   |1           |
++-----------------------------+------------+
+|len-as-condition             |1           |
++-----------------------------+------------+
+|expression-not-assigned      |1           |
++-----------------------------+------------+
+|arguments-differ             |1           |
++-----------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.03/10
+

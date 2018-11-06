@@ -1,0 +1,616 @@
+************* Module matplotlib.pyplot
+C:416, 0: Wrong continued indentation (remove 1 space).
+           ):
+          |^ (bad-continuation)
+C:1763, 0: Wrong hanging indentation (remove 3 spaces).
+           and inspect.isfunction(obj)
+        |  ^ (bad-continuation)
+C:1764, 0: Wrong hanging indentation (remove 3 spaces).
+           and inspect.getmodule(obj) is this_module)
+        |  ^ (bad-continuation)
+C:2477, 0: Wrong continued indentation (add 39 spaces).
+        is not None else {}))
+        ^                                      | (bad-continuation)
+C:2485, 0: Wrong continued indentation (add 20 spaces).
+        {}), **kwargs)
+        ^                   | (bad-continuation)
+C:2510, 0: Wrong continued indentation (add 32 spaces).
+        None else {}), **kwargs)
+        ^                               | (bad-continuation)
+C:2571, 0: Wrong continued indentation (add 26 spaces).
+        else {}), **kwargs)
+        ^                         | (bad-continuation)
+C:2622, 0: Wrong continued indentation (add 39 spaces).
+        is not None else {}), **kwargs)
+        ^                                      | (bad-continuation)
+C:2651, 0: Wrong continued indentation (add 25 spaces).
+        else {}), **kwargs)
+        ^                        | (bad-continuation)
+C:2680, 0: Wrong continued indentation (add 31 spaces).
+        None else {}), **kwargs)
+        ^                              | (bad-continuation)
+C:2784, 0: Wrong continued indentation (add 43 spaces).
+        data is not None else {}))
+        ^                                          | (bad-continuation)
+C:2792, 0: Wrong continued indentation (add 40 spaces).
+        is not None else {}), **kwargs)
+        ^                                       | (bad-continuation)
+C:2802, 0: Wrong hanging indentation in dict value.
+        data} if data is not None else {}), **kwargs)
+        ^                                                   |   | (bad-continuation)
+C:2843, 0: Wrong continued indentation (add 39 spaces).
+        is not None else {}), **kwargs)
+        ^                                      | (bad-continuation)
+C:2872, 0: Wrong continued indentation (add 38 spaces).
+        is not None else {}), **kwargs)
+        ^                                     | (bad-continuation)
+C:2905, 0: Wrong continued indentation (add 31 spaces).
+        None else {}))
+        ^                              | (bad-continuation)
+C:2913, 0: Wrong continued indentation (add 29 spaces).
+        None else {}), **kwargs)
+        ^                            | (bad-continuation)
+C:2930, 0: Wrong continued indentation (add 48 spaces).
+        if data is not None else {}))
+        ^                                               | (bad-continuation)
+C:3026, 0: Wrong continued indentation (add 20 spaces).
+        {}), **kwargs)
+        ^                   | (bad-continuation)
+C:  1, 0: Too many lines in module (3276/1000) (too-many-lines)
+C: 73, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 90, 4: Using the global statement (global-statement)
+W: 91, 4: Using the global statement (global-statement)
+C:101,12: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:108,12: Missing function docstring (missing-docstring)
+W:152, 4: Using the global statement (global-statement)
+W:153, 4: Using the global statement (global-statement)
+C:156, 8: Variable name "ip" doesn't conform to snake_case naming style (invalid-name)
+C:168, 0: Constant name "draw_all" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:172, 0: Argument name "o" doesn't conform to snake_case naming style (invalid-name)
+C:172, 0: Missing function docstring (missing-docstring)
+W:193,21: Access to a protected member _auto_backend_sentinel of a client class (protected-access)
+C:209, 4: Variable name "Backend" doesn't conform to snake_case naming style (invalid-name)
+W:210,20: Access to a protected member _Backend of a client class (protected-access)
+W:217,12: Access to a protected member _get_running_interactive_framework of a client class (protected-access)
+C:227, 4: Constant name "_backend_mod" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:227, 4: Constant name "new_figure_manager" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:227, 4: Constant name "draw_if_interactive" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:227, 4: Constant name "_show" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:227, 4: Global variable '_backend_mod' undefined at the module level (global-variable-undefined)
+W:227, 4: Global variable 'new_figure_manager' undefined at the module level (global-variable-undefined)
+W:227, 4: Global variable 'draw_if_interactive' undefined at the module level (global-variable-undefined)
+W:227, 4: Global variable '_show' undefined at the module level (global-variable-undefined)
+C:254, 4: Constant name "_show" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:254, 4: Global variable '_show' undefined at the module level (global-variable-undefined)
+C:302, 0: Function name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:302, 0: Missing function docstring (missing-docstring)
+E:307, 0: function already defined line 44 (function-redefined)
+C:307, 0: Argument name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:307, 0: Missing function docstring (missing-docstring)
+W:307,15: Redefining name 'rc' from outer scope (line 302) (redefined-outer-name)
+C:312, 0: Missing function docstring (missing-docstring)
+W:335,11: Access to a protected member _gci of a client class (protected-access)
+C:343, 0: Missing function docstring (missing-docstring)
+C:407, 0: Argument name "FigureClass" doesn't conform to snake_case naming style (invalid-name)
+R:407, 0: Too many arguments (8/5) (too-many-arguments)
+R:407, 0: Too many local variables (19/15) (too-many-locals)
+C:487, 4: Variable name "figLabel" doesn't conform to snake_case naming style (invalid-name)
+C:491, 8: Variable name "figLabel" doesn't conform to snake_case naming style (invalid-name)
+C:492, 8: Variable name "allLabels" doesn't conform to snake_case naming style (invalid-name)
+W:495,16: Access to a protected member _warn_external of a client class (protected-access)
+C:504, 4: Variable name "figManager" doesn't conform to snake_case naming style (invalid-name)
+W:509,12: Access to a protected member _warn_external of a client class (protected-access)
+C:521, 8: Variable name "figManager" doesn't conform to snake_case naming style (invalid-name)
+C:534, 8: Missing function docstring (missing-docstring)
+W:534,24: Unused argument 'event' (unused-argument)
+W:538, 8: Access to a protected member _cidgcf of a client class (protected-access)
+R:407, 0: Too many branches (17/12) (too-many-branches)
+C:576, 4: Variable name "figManager" doesn't conform to snake_case naming style (invalid-name)
+R:577, 4: Unnecessary "else" after "return" (no-else-return)
+C:595, 4: Variable name "figManagers" doesn't conform to snake_case naming style (invalid-name)
+C:606, 4: Variable name "figManager" doesn't conform to snake_case naming style (invalid-name)
+C:609, 8: Variable name "figManager" doesn't conform to snake_case naming style (invalid-name)
+C:614, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:614, 0: Missing function docstring (missing-docstring)
+C:619, 0: Missing function docstring (missing-docstring)
+C:640, 8: Variable name "figManager" doesn't conform to snake_case naming style (invalid-name)
+C:654, 8: Variable name "allLabels" doesn't conform to snake_case naming style (invalid-name)
+C:689, 0: Missing function docstring (missing-docstring)
+C:727, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:727, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:727, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:727, 0: Missing function docstring (missing-docstring)
+C:732, 0: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
+C:732, 0: Missing function docstring (missing-docstring)
+C:737, 0: Missing function docstring (missing-docstring)
+C:741, 0: Missing function docstring (missing-docstring)
+R:848, 4: Unnecessary "else" after "return" (no-else-return)
+C:853, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:861, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:872, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:879, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:1040, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:1050, 8: Access to a protected member _warn_external of a client class (protected-access)
+C:1055, 4: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1063, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:1069, 0: Too many arguments (7/5) (too-many-arguments)
+C:1238, 4: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:1238, 8: Variable name "s2" doesn't conform to snake_case naming style (invalid-name)
+C:1242, 4: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1250, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1256, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1274, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:1287, 0: Too many arguments (6/5) (too-many-arguments)
+W:1322,23: Access to a protected member _activeQue of a client class (protected-access)
+C:1356, 0: Argument name "on" doesn't conform to snake_case naming style (invalid-name)
+C:1371, 4: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1410, 4: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1447, 4: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1514, 4: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1525, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1591, 4: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1602, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1664, 4: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1667, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1729, 4: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1732, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1744, 0: Missing function docstring (missing-docstring)
+C:2058, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:2058, 0: Missing function docstring (missing-docstring)
+C:2091, 4: Variable name "im" doesn't conform to snake_case naming style (invalid-name)
+C:2112, 4: Variable name "im" doesn't conform to snake_case naming style (invalid-name)
+C:2119, 0: Missing function docstring (missing-docstring)
+W:2119,18: Redefining built-in 'format' (redefined-builtin)
+C:2124, 0: Missing function docstring (missing-docstring)
+C:2128, 0: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
+C:2170, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:2175, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:2177, 4: Variable name "im" doesn't conform to snake_case naming style (invalid-name)
+W:2198,12: Access to a protected member _warn_external of a client class (protected-access)
+C:2200, 4: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:2207,25: Redefining name 'subplots' from outer scope (line 1069) (redefined-outer-name)
+R:2205, 0: Too many arguments (10/5) (too-many-arguments)
+R:2205, 0: Too many local variables (26/15) (too-many-locals)
+C:2282, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:2282,12: Access to a protected member _csv2rec of a client class (protected-access)
+C:2296,11: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2306, 8: Variable name "N" doesn't conform to snake_case naming style (invalid-name)
+C:2310,20: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:2312,20: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:2314,16: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:2316,19: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+R:2205, 0: Too many branches (16/12) (too-many-branches)
+W:2351,42: Access to a protected member _auto_backend_sentinel of a client class (protected-access)
+C:2368, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2368, 0: Missing function docstring (missing-docstring)
+C:2375, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2375, 0: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:2375, 0: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+C:2375, 0: Missing function docstring (missing-docstring)
+R:2375, 0: Too many arguments (6/5) (too-many-arguments)
+C:2385, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2385, 0: Argument name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:2385, 0: Missing function docstring (missing-docstring)
+C:2391, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2391, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2391, 0: Argument name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:2391, 0: Argument name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:2391, 0: Missing function docstring (missing-docstring)
+C:2397, 0: Missing function docstring (missing-docstring)
+W:2397,27: Redefining name 'axis' from outer scope (line 2415) (redefined-outer-name)
+C:2403, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2403, 0: Missing function docstring (missing-docstring)
+C:2409, 0: Missing function docstring (missing-docstring)
+C:2415, 0: Missing function docstring (missing-docstring)
+C:2421, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2421, 0: Missing function docstring (missing-docstring)
+C:2427, 0: Missing function docstring (missing-docstring)
+C:2433, 0: Black listed name "bar" (blacklisted-name)
+C:2433, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2433, 0: Missing function docstring (missing-docstring)
+C:2443, 0: Missing function docstring (missing-docstring)
+C:2450, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2450, 0: Missing function docstring (missing-docstring)
+C:2457, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2457, 0: Missing function docstring (missing-docstring)
+R:2457, 0: Too many arguments (26/5) (too-many-arguments)
+R:2457, 0: Too many local variables (27/15) (too-many-locals)
+C:2482, 0: Missing function docstring (missing-docstring)
+C:2490, 0: Missing function docstring (missing-docstring)
+C:2496, 0: Argument name "CS" doesn't conform to snake_case naming style (invalid-name)
+C:2496, 0: Missing function docstring (missing-docstring)
+C:2502, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2502, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2502, 0: Argument name "NFFT" doesn't conform to snake_case naming style (invalid-name)
+C:2502, 0: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:2502, 0: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+C:2502, 0: Missing function docstring (missing-docstring)
+R:2502, 0: Too many arguments (11/5) (too-many-arguments)
+C:2515, 0: Missing function docstring (missing-docstring)
+W:2519, 7: Access to a protected member _A of a client class (protected-access)
+C:2519,29: More than one statement on a single line (multiple-statements)
+C:2525, 0: Missing function docstring (missing-docstring)
+W:2529, 7: Access to a protected member _A of a client class (protected-access)
+C:2529,29: More than one statement on a single line (multiple-statements)
+C:2535, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2535, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2535, 0: Argument name "NFFT" doesn't conform to snake_case naming style (invalid-name)
+C:2535, 0: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:2535, 0: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+C:2535, 0: Missing function docstring (missing-docstring)
+R:2535, 0: Too many arguments (12/5) (too-many-arguments)
+C:2548, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2548, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2548, 0: Missing function docstring (missing-docstring)
+R:2548, 0: Too many arguments (15/5) (too-many-arguments)
+R:2548, 0: Too many local variables (17/15) (too-many-locals)
+C:2563, 0: Missing function docstring (missing-docstring)
+R:2563, 0: Too many arguments (7/5) (too-many-arguments)
+C:2576, 0: Missing function docstring (missing-docstring)
+C:2584, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2584, 0: Argument name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:2584, 0: Argument name "y2" doesn't conform to snake_case naming style (invalid-name)
+C:2584, 0: Missing function docstring (missing-docstring)
+W:2585,52: Redefining name 'step' from outer scope (line 2910) (redefined-outer-name)
+R:2584, 0: Too many arguments (6/5) (too-many-arguments)
+C:2594, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2594, 0: Argument name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:2594, 0: Argument name "x2" doesn't conform to snake_case naming style (invalid-name)
+C:2594, 0: Missing function docstring (missing-docstring)
+W:2595,33: Redefining name 'step' from outer scope (line 2910) (redefined-outer-name)
+R:2594, 0: Too many arguments (6/5) (too-many-arguments)
+C:2604, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2604, 0: Missing function docstring (missing-docstring)
+W:2604,32: Redefining name 'axis' from outer scope (line 2415) (redefined-outer-name)
+C:2610, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2610, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2610, 0: Argument name "C" doesn't conform to snake_case naming style (invalid-name)
+C:2610, 0: Argument name "reduce_C_function" doesn't conform to snake_case naming style (invalid-name)
+C:2610, 0: Missing function docstring (missing-docstring)
+W:2611,47: Redefining name 'xscale' from outer scope (line 3058) (redefined-outer-name)
+W:2612, 8: Redefining name 'yscale' from outer scope (line 3064) (redefined-outer-name)
+R:2610, 0: Too many arguments (18/5) (too-many-arguments)
+R:2610, 0: Too many local variables (21/15) (too-many-locals)
+C:2629, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2629, 0: Missing function docstring (missing-docstring)
+W:2630,22: Redefining built-in 'range' (redefined-builtin)
+R:2629, 0: Too many arguments (16/5) (too-many-arguments)
+R:2629, 0: Too many local variables (18/15) (too-many-locals)
+C:2645, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2645, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2645, 0: Missing function docstring (missing-docstring)
+W:2646,23: Redefining built-in 'range' (redefined-builtin)
+R:2645, 0: Too many arguments (8/5) (too-many-arguments)
+C:2658, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2658, 0: Missing function docstring (missing-docstring)
+R:2658, 0: Too many arguments (6/5) (too-many-arguments)
+C:2669, 0: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+C:2669, 0: Missing function docstring (missing-docstring)
+R:2669, 0: Too many arguments (16/5) (too-many-arguments)
+R:2669, 0: Too many local variables (19/15) (too-many-locals)
+C:2687, 0: Missing function docstring (missing-docstring)
+C:2693, 0: Missing function docstring (missing-docstring)
+W:2693,19: Redefining name 'axis' from outer scope (line 2415) (redefined-outer-name)
+C:2699, 0: Missing function docstring (missing-docstring)
+C:2705, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2705, 0: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:2705, 0: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+C:2705, 0: Missing function docstring (missing-docstring)
+R:2705, 0: Too many arguments (7/5) (too-many-arguments)
+C:2716, 0: Missing function docstring (missing-docstring)
+W:2716, 0: Redefining name 'margins' from outer scope (line 2716) (redefined-outer-name)
+C:2716,22: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2716,30: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2722, 0: Missing function docstring (missing-docstring)
+C:2728, 0: Missing function docstring (missing-docstring)
+C:2734, 0: Missing function docstring (missing-docstring)
+C:2747, 0: Missing function docstring (missing-docstring)
+C:2761, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2761, 0: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:2761, 0: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+C:2761, 0: Missing function docstring (missing-docstring)
+R:2761, 0: Too many arguments (6/5) (too-many-arguments)
+C:2771, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2771, 0: Missing function docstring (missing-docstring)
+R:2771, 0: Too many arguments (16/5) (too-many-arguments)
+R:2771, 0: Too many local variables (17/15) (too-many-locals)
+C:2789, 0: Missing function docstring (missing-docstring)
+C:2797, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2797, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2797, 0: Argument name "tz" doesn't conform to snake_case naming style (invalid-name)
+C:2797, 0: Missing function docstring (missing-docstring)
+R:2797, 0: Too many arguments (6/5) (too-many-arguments)
+C:2807, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2807, 0: Argument name "NFFT" doesn't conform to snake_case naming style (invalid-name)
+C:2807, 0: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:2807, 0: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+C:2807, 0: Missing function docstring (missing-docstring)
+R:2807, 0: Too many arguments (11/5) (too-many-arguments)
+C:2820, 0: Missing function docstring (missing-docstring)
+C:2829, 0: Argument name "Q" doesn't conform to snake_case naming style (invalid-name)
+C:2829, 0: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+C:2829, 0: Argument name "Y" doesn't conform to snake_case naming style (invalid-name)
+C:2829, 0: Argument name "U" doesn't conform to snake_case naming style (invalid-name)
+C:2829, 0: Missing function docstring (missing-docstring)
+C:2835, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2835, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2835, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2835, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:2835, 0: Missing function docstring (missing-docstring)
+R:2835, 0: Too many arguments (13/5) (too-many-arguments)
+R:2835, 0: Too many local variables (16/15) (too-many-locals)
+C:2850, 0: Missing function docstring (missing-docstring)
+C:2856, 0: Missing function docstring (missing-docstring)
+C:2862, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2862, 0: Argument name "NFFT" doesn't conform to snake_case naming style (invalid-name)
+C:2862, 0: Argument name "Fs" doesn't conform to snake_case naming style (invalid-name)
+C:2862, 0: Argument name "Fc" doesn't conform to snake_case naming style (invalid-name)
+C:2862, 0: Missing function docstring (missing-docstring)
+R:2862, 0: Too many arguments (16/5) (too-many-arguments)
+R:2862, 0: Too many local variables (19/15) (too-many-locals)
+C:2879, 0: Argument name "Z" doesn't conform to snake_case naming style (invalid-name)
+C:2879, 0: Missing function docstring (missing-docstring)
+R:2879, 0: Too many arguments (6/5) (too-many-arguments)
+C:2885,45: More than one statement on a single line (multiple-statements)
+C:2891, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2891, 0: Missing function docstring (missing-docstring)
+C:2899, 0: Missing function docstring (missing-docstring)
+C:2910, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2910, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2910, 0: Missing function docstring (missing-docstring)
+C:2918, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2918, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2918, 0: Argument name "u" doesn't conform to snake_case naming style (invalid-name)
+C:2918, 0: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
+C:2918, 0: Missing function docstring (missing-docstring)
+R:2918, 0: Too many arguments (17/5) (too-many-arguments)
+R:2918, 0: Too many local variables (19/15) (too-many-locals)
+C:2937, 0: Missing function docstring (missing-docstring)
+C:2943, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2943, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2943, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:2943, 0: Missing function docstring (missing-docstring)
+C:2949, 0: Missing function docstring (missing-docstring)
+W:2949,16: Redefining name 'axis' from outer scope (line 2415) (redefined-outer-name)
+C:2955, 0: Missing function docstring (missing-docstring)
+W:2956,11: Redefining name 'axis' from outer scope (line 2415) (redefined-outer-name)
+W:2956,24: Redefining name 'style' from outer scope (line 34) (redefined-outer-name)
+C:2956,50: Variable name "useOffset" doesn't conform to snake_case naming style (invalid-name)
+C:2957, 8: Variable name "useLocale" doesn't conform to snake_case naming style (invalid-name)
+C:2957,24: Variable name "useMathText" doesn't conform to snake_case naming style (invalid-name)
+C:2966, 0: Missing function docstring (missing-docstring)
+W:2968, 7: Access to a protected member _A of a client class (protected-access)
+C:2968,29: More than one statement on a single line (multiple-statements)
+C:2974, 0: Missing function docstring (missing-docstring)
+W:2976, 7: Access to a protected member _A of a client class (protected-access)
+C:2976,29: More than one statement on a single line (multiple-statements)
+C:2982, 0: Missing function docstring (missing-docstring)
+C:2990, 0: Missing function docstring (missing-docstring)
+C:2996, 0: Missing function docstring (missing-docstring)
+R:2996, 0: Too many arguments (9/5) (too-many-arguments)
+C:3009, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:3009, 0: Missing function docstring (missing-docstring)
+R:3009, 0: Too many arguments (6/5) (too-many-arguments)
+C:3020, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:3020, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:3020, 0: Missing function docstring (missing-docstring)
+R:3020, 0: Too many arguments (6/5) (too-many-arguments)
+C:3031, 0: Argument name "im" doesn't conform to snake_case naming style (invalid-name)
+C:3031, 0: Missing function docstring (missing-docstring)
+W:3030,23: Access to a protected member _sci of a client class (protected-access)
+W:3032,11: Access to a protected member _sci of a client class (protected-access)
+C:3037, 0: Missing function docstring (missing-docstring)
+C:3044, 0: Missing function docstring (missing-docstring)
+W:3044,11: Redefining name 'xlabel' from outer scope (line 3044) (redefined-outer-name)
+C:3051, 0: Missing function docstring (missing-docstring)
+W:3051,11: Redefining name 'ylabel' from outer scope (line 3051) (redefined-outer-name)
+C:3058, 0: Missing function docstring (missing-docstring)
+C:3064, 0: Missing function docstring (missing-docstring)
+W: 30, 0: Unused cycler imported from cycler (unused-import)
+W: 34, 0: Unused style imported from matplotlib (unused-import)
+W: 35, 0: Unused interactive imported from matplotlib (unused-import)
+W: 36, 0: Unused dedent imported from matplotlib.cbook (unused-import)
+W: 36, 0: Unused deprecated imported from matplotlib.cbook (unused-import)
+W: 46, 0: Unused getp imported from matplotlib.artist (unused-import)
+W: 46, 0: Unused get imported from matplotlib.artist (unused-import)
+W: 48, 0: Unused Subplot imported from matplotlib.axes (unused-import)
+W: 51, 0: Unused get_scale_docs imported from matplotlib.scale (unused-import)
+W: 51, 0: Unused get_scale_names imported from matplotlib.scale (unused-import)
+W: 54, 0: Unused get_cmap imported from matplotlib.cm (unused-import)
+W: 54, 0: Unused register_cmap imported from matplotlib.cm (unused-import)
+W: 59, 0: Unused Normalize imported from matplotlib.colors (unused-import)
+W: 60, 0: Unused Line2D imported from matplotlib.lines (unused-import)
+W: 61, 0: Unused Text imported from matplotlib.text (unused-import)
+W: 61, 0: Unused Annotation imported from matplotlib.text (unused-import)
+W: 62, 0: Unused Polygon imported from matplotlib.patches (unused-import)
+W: 62, 0: Unused Rectangle imported from matplotlib.patches (unused-import)
+W: 62, 0: Unused Circle imported from matplotlib.patches (unused-import)
+W: 62, 0: Unused Arrow imported from matplotlib.patches (unused-import)
+W: 63, 0: Unused Button imported from matplotlib.widgets (unused-import)
+W: 63, 0: Unused Slider imported from matplotlib.widgets (unused-import)
+W: 63, 0: Unused Widget imported from matplotlib.widgets (unused-import)
+W: 65, 0: Unused TickHelper imported from ticker (unused-import)
+W: 65, 0: Unused Formatter imported from ticker (unused-import)
+W: 65, 0: Unused FixedFormatter imported from ticker (unused-import)
+W: 65, 0: Unused NullFormatter imported from ticker (unused-import)
+W: 65, 0: Unused FuncFormatter imported from ticker (unused-import)
+W: 65, 0: Unused FormatStrFormatter imported from ticker (unused-import)
+W: 65, 0: Unused ScalarFormatter imported from ticker (unused-import)
+W: 65, 0: Unused LogFormatter imported from ticker (unused-import)
+W: 65, 0: Unused LogFormatterExponent imported from ticker (unused-import)
+W: 65, 0: Unused LogFormatterMathtext imported from ticker (unused-import)
+W: 65, 0: Unused Locator imported from ticker (unused-import)
+W: 65, 0: Unused IndexLocator imported from ticker (unused-import)
+W: 65, 0: Unused FixedLocator imported from ticker (unused-import)
+W: 65, 0: Unused NullLocator imported from ticker (unused-import)
+W: 65, 0: Unused LinearLocator imported from ticker (unused-import)
+W: 65, 0: Unused LogLocator imported from ticker (unused-import)
+W: 65, 0: Unused AutoLocator imported from ticker (unused-import)
+W: 65, 0: Unused MultipleLocator imported from ticker (unused-import)
+W: 65, 0: Unused MaxNLocator imported from ticker (unused-import)
+W: 71, 0: Unused pylab_setup imported from matplotlib.backends (unused-import)
+C: 56, 0: third party import "import numpy as np" should be placed before "import matplotlib" (wrong-import-order)
+C: 71, 0: first party import "from matplotlib.backends import pylab_setup, _get_running_interactive_framework" should be placed before "from .ticker import TickHelper, Formatter, FixedFormatter, NullFormatter, FuncFormatter, FormatStrFormatter, ScalarFormatter, LogFormatter, LogFormatterExponent, LogFormatterMathtext, Locator, IndexLocator, FixedLocator, NullLocator, LinearLocator, LogLocator, AutoLocator, MultipleLocator, MaxNLocator" (wrong-import-order)
+C: 59, 0: Imports from package matplotlib are not grouped (ungrouped-imports)
+
+
+Report
+======
+773 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |162    |NC         |NC         |43.21       |1.23     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    IPython (matplotlib.pyplot)
+      \-core 
+        \-pylabtools (matplotlib.pyplot)
+    cycler (matplotlib.pyplot)
+    matplotlib (matplotlib.pyplot)
+      \-_pylab_helpers (matplotlib.pyplot)
+      \-artist (matplotlib.pyplot)
+      \-axes (matplotlib.pyplot)
+      \-backend_bases (matplotlib.pyplot)
+      \-backends (matplotlib.pyplot)
+      \-cbook (matplotlib.pyplot)
+      \-cm (matplotlib.pyplot)
+      \-colorbar (matplotlib.pyplot)
+      \-colors (matplotlib.pyplot)
+      \-docstring (matplotlib.pyplot)
+      \-figure (matplotlib.pyplot)
+      \-gridspec (matplotlib.pyplot)
+      \-image (matplotlib.pyplot)
+      \-lines (matplotlib.pyplot)
+      \-mlab (matplotlib.pyplot)
+      \-patches (matplotlib.pyplot)
+      \-patheffects (matplotlib.pyplot)
+      \-projections (matplotlib.pyplot)
+      \-rcsetup (matplotlib.pyplot)
+      \-scale (matplotlib.pyplot)
+      \-style (matplotlib.pyplot)
+      \-text (matplotlib.pyplot)
+      \-ticker (matplotlib.pyplot)
+      \-widgets (matplotlib.pyplot)
+    numpy (matplotlib.pyplot)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1164   |35.51 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |1548   |47.22 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |147    |4.48  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |419    |12.78 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |281    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |44     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |89     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------------+------------+
+|message id                |occurrences |
++==========================+============+
+|invalid-name              |157         |
++--------------------------+------------+
+|missing-docstring         |92          |
++--------------------------+------------+
+|unused-import             |43          |
++--------------------------+------------+
+|too-many-arguments        |29          |
++--------------------------+------------+
+|bad-continuation          |19          |
++--------------------------+------------+
+|protected-access          |18          |
++--------------------------+------------+
+|redefined-outer-name      |15          |
++--------------------------+------------+
+|too-many-locals           |11          |
++--------------------------+------------+
+|multiple-statements       |5           |
++--------------------------+------------+
+|global-variable-undefined |5           |
++--------------------------+------------+
+|global-statement          |4           |
++--------------------------+------------+
+|redefined-builtin         |3           |
++--------------------------+------------+
+|len-as-condition          |3           |
++--------------------------+------------+
+|wrong-import-order        |2           |
++--------------------------+------------+
+|too-many-branches         |2           |
++--------------------------+------------+
+|no-else-return            |2           |
++--------------------------+------------+
+|unused-argument           |1           |
++--------------------------+------------+
+|ungrouped-imports         |1           |
++--------------------------+------------+
+|too-many-lines            |1           |
++--------------------------+------------+
+|function-redefined        |1           |
++--------------------------+------------+
+|blacklisted-name          |1           |
++--------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 4.58/10
+

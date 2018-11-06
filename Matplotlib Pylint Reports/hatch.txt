@@ -1,0 +1,160 @@
+************* Module matplotlib.hatch
+C: 53, 0: Wrong continued indentation (add 4 spaces).
+                          hatch.count('X')) * density)
+                          ^   | (bad-continuation)
+C: 72, 0: Wrong continued indentation (add 4 spaces).
+                          hatch.count('X')) * density)
+                          ^   | (bad-continuation)
+R:  9, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 16, 0: Missing class docstring (missing-docstring)
+C: 21, 4: Missing method docstring (missing-docstring)
+R: 16, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 33, 0: Missing class docstring (missing-docstring)
+C: 38, 4: Missing method docstring (missing-docstring)
+R: 33, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 50, 0: Missing class docstring (missing-docstring)
+C: 59, 4: Missing method docstring (missing-docstring)
+R: 50, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 69, 0: Missing class docstring (missing-docstring)
+C: 79, 4: Missing method docstring (missing-docstring)
+R: 69, 0: Too few public methods (1/2) (too-few-public-methods)
+C: 89, 0: Missing class docstring (missing-docstring)
+E: 93,11: Instance of 'Shapes' has no 'num_rows' member (no-member)
+E: 97,32: Instance of 'Shapes' has no 'num_rows' member (no-member)
+E: 97,59: Instance of 'Shapes' has no 'num_rows' member (no-member)
+E: 98,32: Instance of 'Shapes' has no 'num_rows' member (no-member)
+E: 98,55: Instance of 'Shapes' has no 'num_rows' member (no-member)
+E:100,37: Instance of 'Shapes' has no 'shape_vertices' member (no-member)
+W: 92,23: Unused argument 'hatch' (unused-argument)
+W: 92,30: Unused argument 'density' (unused-argument)
+C:103, 4: Missing method docstring (missing-docstring)
+E:104,23: Instance of 'Shapes' has no 'num_rows' member (no-member)
+E:105,25: Instance of 'Shapes' has no 'shape_vertices' member (no-member)
+E:105,56: Instance of 'Shapes' has no 'size' member (no-member)
+E:108,22: Instance of 'Shapes' has no 'shape_codes' member (no-member)
+E:112,25: Instance of 'Shapes' has no 'num_rows' member (no-member)
+E:114,45: Instance of 'Shapes' has no 'num_rows' member (no-member)
+E:117,35: Instance of 'Shapes' has no 'num_rows' member (no-member)
+R: 89, 0: Too few public methods (1/2) (too-few-public-methods)
+C:131, 0: Missing class docstring (missing-docstring)
+R:131, 0: Too few public methods (1/2) (too-few-public-methods)
+C:139, 0: Missing class docstring (missing-docstring)
+R:139, 0: Too few public methods (1/2) (too-few-public-methods)
+C:147, 0: Missing class docstring (missing-docstring)
+R:147, 0: Too few public methods (1/2) (too-few-public-methods)
+C:155, 0: Missing class docstring (missing-docstring)
+W:161, 8: __init__ method from a non direct base class 'Circles' is called (non-parent-init-called)
+W:159, 4: __init__ method from base class 'SmallCircles' is not called (super-init-not-called)
+R:155, 0: Too few public methods (1/2) (too-few-public-methods)
+C:164, 0: Missing class docstring (missing-docstring)
+R:164, 0: Too few public methods (1/2) (too-few-public-methods)
+C:176, 0: Constant name "_hatch_types" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+137 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |11     |NC         |NC         |9.09        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |15     |NC         |NC         |66.67       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-path (matplotlib.hatch)
+    numpy (matplotlib.hatch)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |163    |75.46 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |11     |5.09  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |42     |19.44 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |18     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |11     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |13     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------+------------+
+|message id             |occurrences |
++=======================+============+
+|missing-docstring      |15          |
++-----------------------+------------+
+|no-member              |13          |
++-----------------------+------------+
+|too-few-public-methods |11          |
++-----------------------+------------+
+|unused-argument        |2           |
++-----------------------+------------+
+|bad-continuation       |2           |
++-----------------------+------------+
+|super-init-not-called  |1           |
++-----------------------+------------+
+|non-parent-init-called |1           |
++-----------------------+------------+
+|invalid-name           |1           |
++-----------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 2.85/10
+

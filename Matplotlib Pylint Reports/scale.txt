@@ -1,0 +1,195 @@
+************* Module matplotlib.scale
+W:110, 0: Bad indentation. Found 20 spaces, expected 16 (bad-indentation)
+C:352, 0: Wrong continued indentation (add 9 spaces).
+            - self._linscale_adj))
+            ^        | (bad-continuation)
+C:475, 0: Wrong continued indentation (add 21 spaces).
+            "clip" if self._clip else "mask")
+            ^                    | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 34, 4: Method name "set_default_locators_and_formatters" doesn't conform to snake_case naming style (invalid-name)
+W: 42,48: Unused argument 'minpos' (unused-argument)
+R: 42, 4: Method could be a function (no-self-use)
+C: 85, 0: Missing class docstring (missing-docstring)
+W: 85, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W: 85, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W: 85, 0: Method 'inverted' is abstract in class 'Transform' but is not overridden (abstract-method)
+W: 95, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+E: 99,26: Instance of 'LogTransformBase' has no 'base' member (no-member)
+C:118, 0: Missing class docstring (missing-docstring)
+W:118, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:118, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:118, 0: Method 'inverted' is abstract in class 'Transform' but is not overridden (abstract-method)
+W:124, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+E:125,24: Instance of 'InvertedLogTransformBase' has no 'base' member (no-member)
+C:131, 0: Missing class docstring (missing-docstring)
+W:131, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:131, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:138, 0: Missing class docstring (missing-docstring)
+W:138, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:138, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:145, 0: Missing class docstring (missing-docstring)
+W:145, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:145, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:152, 0: Missing class docstring (missing-docstring)
+W:152, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:152, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:159, 0: Missing class docstring (missing-docstring)
+W:159, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:159, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:166, 0: Missing class docstring (missing-docstring)
+W:166, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:166, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:173, 0: Missing class docstring (missing-docstring)
+W:173, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:173, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:182, 0: Missing class docstring (missing-docstring)
+W:182, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:182, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:244,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:298, 0: Missing class docstring (missing-docstring)
+W:298, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:298, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:312, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+R:321, 8: Unnecessary "else" after "return" (no-else-return)
+C:331, 0: Missing class docstring (missing-docstring)
+W:331, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:331, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:346, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+E:348,37: bad operand type for unary -: MaskedArray (invalid-unary-operand-type)
+R:353, 8: Unnecessary "else" after "return" (no-else-return)
+C:450, 0: Missing class docstring (missing-docstring)
+W:450, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:450, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:461, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C:467,16: Comparison should be a >= 1 (misplaced-comparison-constant)
+C:478, 0: Missing class docstring (missing-docstring)
+W:478, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:478, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:488, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+W:508,23: Unused argument 'axis' (unused-argument)
+C:543, 0: Constant name "_scale_mapping" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:551, 0: Missing function docstring (missing-docstring)
+
+
+Report
+======
+283 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |19     |NC         |NC         |26.32       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |46     |NC         |NC         |100.00      |2.17     |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |NC         |NC         |75.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.scale)
+      \-cbook (matplotlib.scale)
+      \-docstring (matplotlib.scale)
+      \-ticker (matplotlib.scale)
+      \-transforms (matplotlib.scale)
+    numpy (matplotlib.scale)
+      \-ma (matplotlib.scale)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |317    |52.48 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |163    |26.99 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |16     |2.65  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |108    |17.88 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |22     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |39     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------------------+------------+
+|message id                    |occurrences |
++==============================+============+
+|abstract-method               |30          |
++------------------------------+------------+
+|missing-docstring             |16          |
++------------------------------+------------+
+|arguments-differ              |6           |
++------------------------------+------------+
+|unused-argument               |2           |
++------------------------------+------------+
+|no-member                     |2           |
++------------------------------+------------+
+|no-else-return                |2           |
++------------------------------+------------+
+|invalid-name                  |2           |
++------------------------------+------------+
+|bad-continuation              |2           |
++------------------------------+------------+
+|no-self-use                   |1           |
++------------------------------+------------+
+|misplaced-comparison-constant |1           |
++------------------------------+------------+
+|len-as-condition              |1           |
++------------------------------+------------+
+|invalid-unary-operand-type    |1           |
++------------------------------+------------+
+|bad-indentation               |1           |
++------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.21/10
+

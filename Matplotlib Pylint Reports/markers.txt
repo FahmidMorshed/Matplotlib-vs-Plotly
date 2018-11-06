@@ -1,0 +1,314 @@
+************* Module matplotlib.markers
+W:220, 0: TODO: Is this ever used as a non-constant? (fixme)
+C:303, 0: Wrong continued indentation (remove 2 spaces).
+                marker[1] in (0, 1, 2, 3)):
+              | ^ (bad-continuation)
+E:148, 0: No name 'abc' in module 'collections' (no-name-in-module)
+E:148, 0: Unable to import 'collections.abc' (import-error)
+C:162, 0: Constant name "_empty_path" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:165, 0: Missing class docstring (missing-docstring)
+R:165, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+C:263, 4: Missing method docstring (missing-docstring)
+C:266, 4: Missing method docstring (missing-docstring)
+C:285, 4: Missing method docstring (missing-docstring)
+C:288, 4: Missing method docstring (missing-docstring)
+C:291, 4: Missing method docstring (missing-docstring)
+C:294, 4: Missing method docstring (missing-docstring)
+C:320, 4: Missing method docstring (missing-docstring)
+C:323, 4: Missing method docstring (missing-docstring)
+C:326, 4: Missing method docstring (missing-docstring)
+C:329, 4: Missing method docstring (missing-docstring)
+C:332, 4: Missing method docstring (missing-docstring)
+C:403,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:412,23: bad operand type for unary -: mvoid (invalid-unary-operand-type)
+E:412,45: bad operand type for unary -: mvoid (invalid-unary-operand-type)
+C:418, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:425, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:481, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:523, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:551, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:582, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:589,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:613, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:644, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:653,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:678, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:687,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:687,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:713, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:720,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:888, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:929, 8: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+W:250, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:343, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:362,16: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:365,16: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:368,16: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:376,16: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:414, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:427,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:439,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:444, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:484,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:492,16: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:495,16: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:498,16: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:501,16: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:525,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:539,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:553,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:555,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:585,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:603,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:617,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:634,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:648,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:668,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:682,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:703,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:718,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:734,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:745, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:757, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:763, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:771, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:777, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:790, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:810, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:829, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:852, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:863, 8: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:890,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:902,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:931,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:943,12: Attribute '_path' defined outside __init__ (attribute-defined-outside-init)
+W:251, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:342, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:377,12: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:411, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:423, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:454, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:479, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:521, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:549, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:578, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:610, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:641, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:675, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:710, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:742, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:749, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:754, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:760, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:768, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:774, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:787, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:794, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:798, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:802, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:807, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:815, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:819, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:823, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:833, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:837, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:841, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:849, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:860, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:885, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:926, 8: Attribute '_transform' defined outside __init__ (attribute-defined-outside-init)
+W:252, 8: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:439,25: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:493,16: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:496,16: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:499,16: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:502,16: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:541,12: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:556,12: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:604,12: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:635,12: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:669,12: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:704,12: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:734,25: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:903,12: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:944,12: Attribute '_alt_path' defined outside __init__ (attribute-defined-outside-init)
+W:253, 8: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:441,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:504,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:544,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:569,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:605,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:636,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:670,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:705,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:735,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:904,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:945,12: Attribute '_alt_transform' defined outside __init__ (attribute-defined-outside-init)
+W:254, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:424, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:455, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:480, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:522, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:550, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:579, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:611, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:642, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:676, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:711, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:743, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:755, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:761, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:769, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:775, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:788, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:808, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:850, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:861, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:886, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:927, 8: Attribute '_snap_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:255, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:363,16: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:366,16: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:370,16: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:506, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:546, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:571, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:607, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:638, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:672, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:707, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:737, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:811, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:887, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:928, 8: Attribute '_joinstyle' defined outside __init__ (attribute-defined-outside-init)
+W:256, 8: Attribute '_capstyle' defined outside __init__ (attribute-defined-outside-init)
+W:257, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:336, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:369,16: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:744, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:756, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:762, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:770, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:776, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:789, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:809, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:851, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:862, 8: Attribute '_filled' defined outside __init__ (attribute-defined-outside-init)
+W:415, 8: Attribute '_snap' defined outside __init__ (attribute-defined-outside-init)
+
+
+Report
+======
+474 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |60     |NC         |NC         |81.67       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.markers)
+      \-cbook (matplotlib.markers)
+      \-font_manager (matplotlib.markers)
+      \-path (matplotlib.markers)
+      \-text (matplotlib.markers)
+      \-transforms (matplotlib.markers)
+    numpy (matplotlib.markers)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |584    |61.54 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |213    |22.44 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |26     |2.74  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |126    |13.28 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |32     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |157    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|attribute-defined-outside-init |156         |
++-------------------------------+------------+
+|invalid-name                   |18          |
++-------------------------------+------------+
+|missing-docstring              |12          |
++-------------------------------+------------+
+|invalid-unary-operand-type     |2           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|len-as-condition               |1           |
++-------------------------------+------------+
+|import-error                   |1           |
++-------------------------------+------------+
+|fixme                          |1           |
++-------------------------------+------------+
+|bad-continuation               |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 5.57/10
+

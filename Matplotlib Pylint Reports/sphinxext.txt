@@ -1,0 +1,248 @@
+************* Module matplotlib.sphinxext.mathmpl
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 13, 0: Constant name "mathtext_parser" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 17, 0: Class name "latex_math" doesn't conform to PascalCase naming style (invalid-name)
+C: 17, 0: Missing class docstring (missing-docstring)
+C: 21, 0: Missing function docstring (missing-docstring)
+C: 25, 0: Constant name "options_spec" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 28, 0: Dangerous default value {} as argument (dangerous-default-value)
+W: 28, 0: Dangerous default value [] as argument (dangerous-default-value)
+C: 28, 0: Missing function docstring (missing-docstring)
+R: 28, 0: Too many arguments (7/5) (too-many-arguments)
+W: 28,14: Unused argument 'role' (unused-argument)
+W: 28,29: Unused argument 'text' (unused-argument)
+W: 28,35: Unused argument 'lineno' (unused-argument)
+W: 28,43: Unused argument 'inliner' (unused-argument)
+W: 29,26: Unused argument 'content' (unused-argument)
+C: 41, 0: Missing function docstring (missing-docstring)
+R: 41, 0: Too many arguments (9/5) (too-many-arguments)
+W: 41,19: Unused argument 'name' (unused-argument)
+W: 41,25: Unused argument 'arguments' (unused-argument)
+W: 41,54: Unused argument 'lineno' (unused-argument)
+W: 42,19: Unused argument 'content_offset' (unused-argument)
+W: 42,47: Unused argument 'state' (unused-argument)
+W: 42,54: Unused argument 'state_machine' (unused-argument)
+C: 51, 0: Missing function docstring (missing-docstring)
+W: 60,15: Catching too general exception Exception (broad-except)
+W: 61,12: Access to a protected member _warn_external of a client class (protected-access)
+C: 71, 0: Missing function docstring (missing-docstring)
+W: 71,21: Unused argument 'source' (unused-argument)
+C: 96, 0: Missing function docstring (missing-docstring)
+C:100, 4: Missing function docstring (missing-docstring)
+C:104, 4: Missing function docstring (missing-docstring)
+W:104,31: Unused argument 'self' (unused-argument)
+W:104,37: Unused argument 'node' (unused-argument)
+C:108, 4: Missing function docstring (missing-docstring)
+C:117, 4: Missing function docstring (missing-docstring)
+W:117,32: Unused argument 'self' (unused-argument)
+W:117,38: Unused argument 'node' (unused-argument)
+************* Module matplotlib.sphinxext.plot_directive
+C:260, 0: Wrong continued indentation (remove 1 space).
+               }
+              |^ (bad-continuation)
+C:479, 0: Wrong hanging indentation (remove 4 spaces).
+            sys, argv=[code_path], path=[os.getcwd(), *sys.path]), \
+        |   ^ (bad-continuation)
+C:153, 0: Constant name "align" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:154, 0: Import "import jinja2" should be placed at the top of the module (wrong-import-position)
+C:156, 0: Import "import matplotlib" should be placed at the top of the module (wrong-import-position)
+C:157, 0: Import "from matplotlib.backend_bases import FigureManagerBase" should be placed at the top of the module (wrong-import-position)
+C:167, 0: Import "from matplotlib import _pylab_helpers, cbook" should be placed at the top of the module (wrong-import-position)
+R:177, 0: Too many arguments (9/5) (too-many-arguments)
+W:177,19: Unused argument 'name' (unused-argument)
+W:178,19: Unused argument 'content_offset' (unused-argument)
+W:178,35: Unused argument 'block_text' (unused-argument)
+C:227,16: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:230,24: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:219, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+W:213,21: Unused argument 'app' (unused-argument)
+C:244, 0: Missing function docstring (missing-docstring)
+C:285, 0: Missing function docstring (missing-docstring)
+C:292, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:293, 4: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:307, 8: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:412, 0: Constant name "exception_template" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:423, 0: Constant name "plot_context" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:426, 0: Missing class docstring (missing-docstring)
+C:432, 4: Missing method docstring (missing-docstring)
+W:432,23: Redefining built-in 'format' (redefined-builtin)
+C:435, 4: Missing method docstring (missing-docstring)
+C:449, 0: Missing class docstring (missing-docstring)
+C:453, 0: Argument name "ns" doesn't conform to snake_case naming style (invalid-name)
+W:478, 9: Access to a protected member _setattr_cm of a client class (protected-access)
+W:487,20: Use of exec (exec-used)
+W:490,20: Use of exec (exec-used)
+W:495,17: Access to a protected member _setattr_cm of a client class (protected-access)
+W:496,16: Use of exec (exec-used)
+W:498,20: Use of exec (exec-used)
+R:453, 0: Too many branches (13/12) (too-many-branches)
+C:507, 0: Missing function docstring (missing-docstring)
+C:514, 0: Missing function docstring (missing-docstring)
+W:566,16: Redefining built-in 'format' (redefined-builtin)
+R:532, 0: Too many arguments (9/5) (too-many-arguments)
+R:532, 0: Too many local variables (24/15) (too-many-locals)
+C:588, 8: Variable name "ns" doesn't conform to snake_case naming style (invalid-name)
+C:590, 8: Variable name "ns" doesn't conform to snake_case naming style (invalid-name)
+W:621,16: Unused variable 'err' (unused-variable)
+R:532, 0: Too many branches (23/12) (too-many-branches)
+R:532, 0: Too many statements (57/50) (too-many-statements)
+C:633, 0: Missing function docstring (missing-docstring)
+R:633, 0: Too many arguments (6/5) (too-many-arguments)
+R:633, 0: Too many local variables (52/15) (too-many-locals)
+C:648, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:743, 8: Variable name "sm" doesn't conform to snake_case naming style (invalid-name)
+C:811,16: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+W:672,14: Unused variable 'ext' (unused-variable)
+R:633, 0: Too many branches (29/12) (too-many-branches)
+R:633, 0: Too many statements (98/50) (too-many-statements)
+
+
+Report
+======
+435 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |6          |-3.00      |66.67       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |3          |=          |0.00        |33.33    |
++---------+-------+-----------+-----------+------------+---------+
+|method   |3      |3          |=          |33.33       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |27     |29         |-2.00      |44.44       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    docutils 
+      \-nodes (matplotlib.sphinxext.mathmpl)
+      \-parsers 
+        \-rst 
+          \-directives (matplotlib.sphinxext.mathmpl,matplotlib.sphinxext.plot_directive)
+            \-images (matplotlib.sphinxext.plot_directive)
+    jinja2 (matplotlib.sphinxext.plot_directive)
+    matplotlib (matplotlib.sphinxext.mathmpl,matplotlib.sphinxext.plot_directive)
+      \-_pylab_helpers (matplotlib.sphinxext.plot_directive)
+      \-backend_bases (matplotlib.sphinxext.plot_directive)
+      \-cbook (matplotlib.sphinxext.mathmpl,matplotlib.sphinxext.plot_directive)
+      \-mathtext (matplotlib.sphinxext.mathmpl)
+      \-pyplot (matplotlib.sphinxext.plot_directive)
+    sphinx (matplotlib.sphinxext.mathmpl)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |586    |61.11 |626      |-40.00     |
++----------+-------+------+---------+-----------+
+|docstring |184    |19.19 |186      |-2.00      |
++----------+-------+------+---------+-----------+
+|comment   |47     |4.90  |57       |-10.00     |
++----------+-------+------+---------+-----------+
+|empty     |142    |14.81 |153      |-11.00     |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |44     |47       |-3.00      |
++-----------+-------+---------+-----------+
+|refactor   |13     |13       |=          |
++-----------+-------+---------+-----------+
+|warning    |34     |38       |-4.00      |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++------------------------------------+------+--------+---------+-----------+
+|module                              |error |warning |refactor |convention |
++====================================+======+========+=========+===========+
+|matplotlib.sphinxext.mathmpl        |0.00  |58.82   |15.38    |34.09      |
++------------------------------------+------+--------+---------+-----------+
+|matplotlib.sphinxext.plot_directive |0.00  |41.18   |84.62    |65.91      |
++------------------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------------+------------+
+|message id              |occurrences |
++========================+============+
+|missing-docstring       |21          |
++------------------------+------------+
+|unused-argument         |20          |
++------------------------+------------+
+|invalid-name            |16          |
++------------------------+------------+
+|too-many-arguments      |5           |
++------------------------+------------+
+|wrong-import-position   |4           |
++------------------------+------------+
+|exec-used               |4           |
++------------------------+------------+
+|too-many-branches       |3           |
++------------------------+------------+
+|protected-access        |3           |
++------------------------+------------+
+|unused-variable         |2           |
++------------------------+------------+
+|too-many-statements     |2           |
++------------------------+------------+
+|too-many-locals         |2           |
++------------------------+------------+
+|redefined-builtin       |2           |
++------------------------+------------+
+|dangerous-default-value |2           |
++------------------------+------------+
+|bad-continuation        |2           |
++------------------------+------------+
+|too-many-nested-blocks  |1           |
++------------------------+------------+
+|len-as-condition        |1           |
++------------------------+------------+
+|broad-except            |1           |
++------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 7.91/10 (previous run: 7.90/10, +0.01)
+

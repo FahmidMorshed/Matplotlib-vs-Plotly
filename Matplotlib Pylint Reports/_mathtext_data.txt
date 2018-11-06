@@ -1,0 +1,637 @@
+************* Module matplotlib._mathtext_data
+C:349, 0: Exactly one space required after comma
+    r'\forall'                   : ('psyr',  34),
+                                          ^ (bad-whitespace)
+C:350, 0: Exactly one space required after comma
+    r'\exists'                   : ('psyr',  36),
+                                          ^ (bad-whitespace)
+C:353, 0: Exactly one space required after comma
+    r'\Psi'                      : ('psyr',  89),
+                                          ^ (bad-whitespace)
+C:388, 0: Exactly one space required after comma
+    r'\%'                        : ('pncr8a',  37),
+                                            ^ (bad-whitespace)
+C:389, 0: Exactly one space required after comma
+    r'\$'                        : ('pncr8a',  36),
+                                            ^ (bad-whitespace)
+C:392, 0: Exactly one space required after comma
+    r'\backslash'                : ('pncr8a',  92),
+                                            ^ (bad-whitespace)
+C:393, 0: Exactly one space required after comma
+    r'\ast'                      : ('pncr8a',  42),
+                                            ^ (bad-whitespace)
+C:394, 0: Exactly one space required after comma
+    r'\#'                        : ('pncr8a',  35),
+                                            ^ (bad-whitespace)
+C:396, 0: Exactly one space required after comma
+    r'\circumflexaccent'         : ('pncri8a',   124), # for \hat
+                                             ^ (bad-whitespace)
+C:397, 0: Exactly one space required after comma
+    r'\combiningbreve'           : ('pncri8a',   81),  # for \breve
+                                             ^ (bad-whitespace)
+C:2331, 0: Wrong hanging indentation (add 4 spaces).
+        'rm':
+        ^   | (bad-continuation)
+C:2333, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0030, 0x0039, 'rm', 0x1d7d8), # 0-9
+            ^   | (bad-continuation)
+C:2334, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x0042, 'rm', 0x1d538), # A-B
+            ^   | (bad-continuation)
+C:2335, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0043, 0x0043, 'rm', 0x2102),  # C
+            ^   | (bad-continuation)
+C:2336, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0044, 0x0047, 'rm', 0x1d53b), # D-G
+            ^   | (bad-continuation)
+C:2337, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0048, 0x0048, 'rm', 0x210d),  # H
+            ^   | (bad-continuation)
+C:2338, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0049, 0x004d, 'rm', 0x1d540), # I-M
+            ^   | (bad-continuation)
+C:2339, 0: Wrong hanging indentation (add 4 spaces).
+            (0x004e, 0x004e, 'rm', 0x2115),  # N
+            ^   | (bad-continuation)
+C:2340, 0: Wrong hanging indentation (add 4 spaces).
+            (0x004f, 0x004f, 'rm', 0x1d546), # O
+            ^   | (bad-continuation)
+C:2341, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0050, 0x0051, 'rm', 0x2119),  # P-Q
+            ^   | (bad-continuation)
+C:2342, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0052, 0x0052, 'rm', 0x211d),  # R
+            ^   | (bad-continuation)
+C:2343, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0053, 0x0059, 'rm', 0x1d54a), # S-Y
+            ^   | (bad-continuation)
+C:2344, 0: Wrong hanging indentation (add 4 spaces).
+            (0x005a, 0x005a, 'rm', 0x2124),  # Z
+            ^   | (bad-continuation)
+C:2345, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x007a, 'rm', 0x1d552), # a-z
+            ^   | (bad-continuation)
+C:2346, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0393, 0x0393, 'rm', 0x213e),  # \Gamma
+            ^   | (bad-continuation)
+C:2347, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03a0, 0x03a0, 'rm', 0x213f),  # \Pi
+            ^   | (bad-continuation)
+C:2348, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03a3, 0x03a3, 'rm', 0x2140),  # \Sigma
+            ^   | (bad-continuation)
+C:2349, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03b3, 0x03b3, 'rm', 0x213d),  # \gamma
+            ^   | (bad-continuation)
+C:2350, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03c0, 0x03c0, 'rm', 0x213c),  # \pi
+            ^   | (bad-continuation)
+C:2352, 0: Wrong hanging indentation (add 4 spaces).
+        'it':
+        ^   | (bad-continuation)
+C:2354, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0030, 0x0039, 'rm', 0x1d7d8), # 0-9
+            ^   | (bad-continuation)
+C:2355, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x0042, 'it', 0xe154),  # A-B
+            ^   | (bad-continuation)
+C:2356, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0043, 0x0043, 'it', 0x2102),  # C
+            ^   | (bad-continuation)
+C:2357, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0044, 0x0044, 'it', 0x2145),  # D
+            ^   | (bad-continuation)
+C:2358, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0045, 0x0047, 'it', 0xe156),  # E-G
+            ^   | (bad-continuation)
+C:2359, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0048, 0x0048, 'it', 0x210d),  # H
+            ^   | (bad-continuation)
+C:2360, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0049, 0x004d, 'it', 0xe159),  # I-M
+            ^   | (bad-continuation)
+C:2361, 0: Wrong hanging indentation (add 4 spaces).
+            (0x004e, 0x004e, 'it', 0x2115),  # N
+            ^   | (bad-continuation)
+C:2362, 0: Wrong hanging indentation (add 4 spaces).
+            (0x004f, 0x004f, 'it', 0xe15e),  # O
+            ^   | (bad-continuation)
+C:2363, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0050, 0x0051, 'it', 0x2119),  # P-Q
+            ^   | (bad-continuation)
+C:2364, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0052, 0x0052, 'it', 0x211d),  # R
+            ^   | (bad-continuation)
+C:2365, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0053, 0x0059, 'it', 0xe15f),  # S-Y
+            ^   | (bad-continuation)
+C:2366, 0: Wrong hanging indentation (add 4 spaces).
+            (0x005a, 0x005a, 'it', 0x2124),  # Z
+            ^   | (bad-continuation)
+C:2367, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x0063, 'it', 0xe166),  # a-c
+            ^   | (bad-continuation)
+C:2368, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0064, 0x0065, 'it', 0x2146),  # d-e
+            ^   | (bad-continuation)
+C:2369, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0066, 0x0068, 'it', 0xe169),  # f-h
+            ^   | (bad-continuation)
+C:2370, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0069, 0x006a, 'it', 0x2148),  # i-j
+            ^   | (bad-continuation)
+C:2371, 0: Wrong hanging indentation (add 4 spaces).
+            (0x006b, 0x007a, 'it', 0xe16c),  # k-z
+            ^   | (bad-continuation)
+C:2372, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0393, 0x0393, 'it', 0x213e),  # \Gamma (not in beta STIX fonts)
+            ^   | (bad-continuation)
+C:2373, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03a0, 0x03a0, 'it', 0x213f),  # \Pi
+            ^   | (bad-continuation)
+C:2374, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03a3, 0x03a3, 'it', 0x2140),  # \Sigma (not in beta STIX fonts)
+            ^   | (bad-continuation)
+C:2375, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03b3, 0x03b3, 'it', 0x213d),  # \gamma (not in beta STIX fonts)
+            ^   | (bad-continuation)
+C:2376, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03c0, 0x03c0, 'it', 0x213c),  # \pi
+            ^   | (bad-continuation)
+C:2378, 0: Wrong hanging indentation (add 4 spaces).
+        'bf':
+        ^   | (bad-continuation)
+C:2380, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0030, 0x0039, 'rm', 0x1d7d8), # 0-9
+            ^   | (bad-continuation)
+C:2381, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x0042, 'bf', 0xe38a),  # A-B
+            ^   | (bad-continuation)
+C:2382, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0043, 0x0043, 'bf', 0x2102),  # C
+            ^   | (bad-continuation)
+C:2383, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0044, 0x0044, 'bf', 0x2145),  # D
+            ^   | (bad-continuation)
+C:2384, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0045, 0x0047, 'bf', 0xe38d),  # E-G
+            ^   | (bad-continuation)
+C:2385, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0048, 0x0048, 'bf', 0x210d),  # H
+            ^   | (bad-continuation)
+C:2386, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0049, 0x004d, 'bf', 0xe390),  # I-M
+            ^   | (bad-continuation)
+C:2387, 0: Wrong hanging indentation (add 4 spaces).
+            (0x004e, 0x004e, 'bf', 0x2115),  # N
+            ^   | (bad-continuation)
+C:2388, 0: Wrong hanging indentation (add 4 spaces).
+            (0x004f, 0x004f, 'bf', 0xe395),  # O
+            ^   | (bad-continuation)
+C:2389, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0050, 0x0051, 'bf', 0x2119),  # P-Q
+            ^   | (bad-continuation)
+C:2390, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0052, 0x0052, 'bf', 0x211d),  # R
+            ^   | (bad-continuation)
+C:2391, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0053, 0x0059, 'bf', 0xe396),  # S-Y
+            ^   | (bad-continuation)
+C:2392, 0: Wrong hanging indentation (add 4 spaces).
+            (0x005a, 0x005a, 'bf', 0x2124),  # Z
+            ^   | (bad-continuation)
+C:2393, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x0063, 'bf', 0xe39d),  # a-c
+            ^   | (bad-continuation)
+C:2394, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0064, 0x0065, 'bf', 0x2146),  # d-e
+            ^   | (bad-continuation)
+C:2395, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0066, 0x0068, 'bf', 0xe3a2),  # f-h
+            ^   | (bad-continuation)
+C:2396, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0069, 0x006a, 'bf', 0x2148),  # i-j
+            ^   | (bad-continuation)
+C:2397, 0: Wrong hanging indentation (add 4 spaces).
+            (0x006b, 0x007a, 'bf', 0xe3a7),  # k-z
+            ^   | (bad-continuation)
+C:2398, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0393, 0x0393, 'bf', 0x213e),  # \Gamma
+            ^   | (bad-continuation)
+C:2399, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03a0, 0x03a0, 'bf', 0x213f),  # \Pi
+            ^   | (bad-continuation)
+C:2400, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03a3, 0x03a3, 'bf', 0x2140),  # \Sigma
+            ^   | (bad-continuation)
+C:2401, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03b3, 0x03b3, 'bf', 0x213d),  # \gamma
+            ^   | (bad-continuation)
+C:2402, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03c0, 0x03c0, 'bf', 0x213c),  # \pi
+            ^   | (bad-continuation)
+C:2407, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0041, 0x005a, 'it', 0xe22d), # A-Z
+        ^   | (bad-continuation)
+C:2411, 0: Wrong hanging indentation (add 4 spaces).
+        'rm':
+        ^   | (bad-continuation)
+C:2413, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0030, 0x0030, 'rm', 0x24ea), # 0
+            ^   | (bad-continuation)
+C:2414, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0031, 0x0039, 'rm', 0x2460), # 1-9
+            ^   | (bad-continuation)
+C:2415, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x005a, 'rm', 0x24b6), # A-Z
+            ^   | (bad-continuation)
+C:2416, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x007a, 'rm', 0x24d0)  # a-z
+            ^   | (bad-continuation)
+C:2418, 0: Wrong hanging indentation (add 4 spaces).
+        'it':
+        ^   | (bad-continuation)
+C:2420, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0030, 0x0030, 'rm', 0x24ea), # 0
+            ^   | (bad-continuation)
+C:2421, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0031, 0x0039, 'rm', 0x2460), # 1-9
+            ^   | (bad-continuation)
+C:2422, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x005a, 'it', 0x24b6), # A-Z
+            ^   | (bad-continuation)
+C:2423, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x007a, 'it', 0x24d0)  # a-z
+            ^   | (bad-continuation)
+C:2425, 0: Wrong hanging indentation (add 4 spaces).
+        'bf':
+        ^   | (bad-continuation)
+C:2427, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0030, 0x0030, 'bf', 0x24ea), # 0
+            ^   | (bad-continuation)
+C:2428, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0031, 0x0039, 'bf', 0x2460), # 1-9
+            ^   | (bad-continuation)
+C:2429, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x005a, 'bf', 0x24b6), # A-Z
+            ^   | (bad-continuation)
+C:2430, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x007a, 'bf', 0x24d0)  # a-z
+            ^   | (bad-continuation)
+C:2435, 0: Wrong hanging indentation (add 4 spaces).
+        'rm':
+        ^   | (bad-continuation)
+C:2437, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x0042, 'rm', 0x1d504), # A-B
+            ^   | (bad-continuation)
+C:2438, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0043, 0x0043, 'rm', 0x212d),  # C
+            ^   | (bad-continuation)
+C:2439, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0044, 0x0047, 'rm', 0x1d507), # D-G
+            ^   | (bad-continuation)
+C:2440, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0048, 0x0048, 'rm', 0x210c),  # H
+            ^   | (bad-continuation)
+C:2441, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0049, 0x0049, 'rm', 0x2111),  # I
+            ^   | (bad-continuation)
+C:2442, 0: Wrong hanging indentation (add 4 spaces).
+            (0x004a, 0x0051, 'rm', 0x1d50d), # J-Q
+            ^   | (bad-continuation)
+C:2443, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0052, 0x0052, 'rm', 0x211c),  # R
+            ^   | (bad-continuation)
+C:2444, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0053, 0x0059, 'rm', 0x1d516), # S-Y
+            ^   | (bad-continuation)
+C:2445, 0: Wrong hanging indentation (add 4 spaces).
+            (0x005a, 0x005a, 'rm', 0x2128),  # Z
+            ^   | (bad-continuation)
+C:2446, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x007a, 'rm', 0x1d51e), # a-z
+            ^   | (bad-continuation)
+C:2448, 0: Wrong hanging indentation (add 4 spaces).
+        'it':
+        ^   | (bad-continuation)
+C:2450, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x0042, 'rm', 0x1d504), # A-B
+            ^   | (bad-continuation)
+C:2451, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0043, 0x0043, 'rm', 0x212d),  # C
+            ^   | (bad-continuation)
+C:2452, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0044, 0x0047, 'rm', 0x1d507), # D-G
+            ^   | (bad-continuation)
+C:2453, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0048, 0x0048, 'rm', 0x210c),  # H
+            ^   | (bad-continuation)
+C:2454, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0049, 0x0049, 'rm', 0x2111),  # I
+            ^   | (bad-continuation)
+C:2455, 0: Wrong hanging indentation (add 4 spaces).
+            (0x004a, 0x0051, 'rm', 0x1d50d), # J-Q
+            ^   | (bad-continuation)
+C:2456, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0052, 0x0052, 'rm', 0x211c),  # R
+            ^   | (bad-continuation)
+C:2457, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0053, 0x0059, 'rm', 0x1d516), # S-Y
+            ^   | (bad-continuation)
+C:2458, 0: Wrong hanging indentation (add 4 spaces).
+            (0x005a, 0x005a, 'rm', 0x2128),  # Z
+            ^   | (bad-continuation)
+C:2459, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x007a, 'rm', 0x1d51e), # a-z
+            ^   | (bad-continuation)
+C:2461, 0: Wrong hanging indentation (add 4 spaces).
+        'bf':
+        ^   | (bad-continuation)
+C:2463, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x005a, 'bf', 0x1d56c), # A-Z
+            ^   | (bad-continuation)
+C:2464, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x007a, 'bf', 0x1d586), # a-z
+            ^   | (bad-continuation)
+C:2469, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0041, 0x0041, 'it', 0x1d49c), # A
+        ^   | (bad-continuation)
+C:2470, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0042, 0x0042, 'it', 0x212c),  # B
+        ^   | (bad-continuation)
+C:2471, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0043, 0x0044, 'it', 0x1d49e), # C-D
+        ^   | (bad-continuation)
+C:2472, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0045, 0x0046, 'it', 0x2130),  # E-F
+        ^   | (bad-continuation)
+C:2473, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0047, 0x0047, 'it', 0x1d4a2), # G
+        ^   | (bad-continuation)
+C:2474, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0048, 0x0048, 'it', 0x210b),  # H
+        ^   | (bad-continuation)
+C:2475, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0049, 0x0049, 'it', 0x2110),  # I
+        ^   | (bad-continuation)
+C:2476, 0: Wrong hanging indentation (add 4 spaces).
+        (0x004a, 0x004b, 'it', 0x1d4a5), # J-K
+        ^   | (bad-continuation)
+C:2477, 0: Wrong hanging indentation (add 4 spaces).
+        (0x004c, 0x004c, 'it', 0x2112),  # L
+        ^   | (bad-continuation)
+C:2478, 0: Wrong hanging indentation (add 4 spaces).
+        (0x004d, 0x004d, 'it', 0x2133),  # M
+        ^   | (bad-continuation)
+C:2479, 0: Wrong hanging indentation (add 4 spaces).
+        (0x004e, 0x0051, 'it', 0x1d4a9), # N-Q
+        ^   | (bad-continuation)
+C:2480, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0052, 0x0052, 'it', 0x211b),  # R
+        ^   | (bad-continuation)
+C:2481, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0053, 0x005a, 'it', 0x1d4ae), # S-Z
+        ^   | (bad-continuation)
+C:2482, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0061, 0x0064, 'it', 0x1d4b6), # a-d
+        ^   | (bad-continuation)
+C:2483, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0065, 0x0065, 'it', 0x212f),  # e
+        ^   | (bad-continuation)
+C:2484, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0066, 0x0066, 'it', 0x1d4bb), # f
+        ^   | (bad-continuation)
+C:2485, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0067, 0x0067, 'it', 0x210a),  # g
+        ^   | (bad-continuation)
+C:2486, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0068, 0x006e, 'it', 0x1d4bd), # h-n
+        ^   | (bad-continuation)
+C:2487, 0: Wrong hanging indentation (add 4 spaces).
+        (0x006f, 0x006f, 'it', 0x2134),  # o
+        ^   | (bad-continuation)
+C:2488, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0070, 0x007a, 'it', 0x1d4c5), # p-z
+        ^   | (bad-continuation)
+C:2492, 0: Wrong hanging indentation (add 4 spaces).
+        'rm':
+        ^   | (bad-continuation)
+C:2494, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0030, 0x0039, 'rm', 0x1d7e2), # 0-9
+            ^   | (bad-continuation)
+C:2495, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x005a, 'rm', 0x1d5a0), # A-Z
+            ^   | (bad-continuation)
+C:2496, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x007a, 'rm', 0x1d5ba), # a-z
+            ^   | (bad-continuation)
+C:2497, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0391, 0x03a9, 'rm', 0xe17d),  # \Alpha-\Omega
+            ^   | (bad-continuation)
+C:2498, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03b1, 0x03c9, 'rm', 0xe196),  # \alpha-\omega
+            ^   | (bad-continuation)
+C:2499, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03d1, 0x03d1, 'rm', 0xe1b0),  # theta variant
+            ^   | (bad-continuation)
+C:2500, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03d5, 0x03d5, 'rm', 0xe1b1),  # phi variant
+            ^   | (bad-continuation)
+C:2501, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03d6, 0x03d6, 'rm', 0xe1b3),  # pi variant
+            ^   | (bad-continuation)
+C:2502, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03f1, 0x03f1, 'rm', 0xe1b2),  # rho variant
+            ^   | (bad-continuation)
+C:2503, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03f5, 0x03f5, 'rm', 0xe1af),  # lunate epsilon
+            ^   | (bad-continuation)
+C:2504, 0: Wrong hanging indentation (add 4 spaces).
+            (0x2202, 0x2202, 'rm', 0xe17c),  # partial differential
+            ^   | (bad-continuation)
+C:2506, 0: Wrong hanging indentation (add 4 spaces).
+        'it':
+        ^   | (bad-continuation)
+C:2508, 0: Wrong hanging indentation (add 4 spaces).
+            # These numerals are actually upright.  We don't actually
+            ^   | (bad-continuation)
+C:2510, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0030, 0x0039, 'rm', 0x1d7e2), # 0-9
+            ^   | (bad-continuation)
+C:2511, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x005a, 'it', 0x1d608), # A-Z
+            ^   | (bad-continuation)
+C:2512, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x007a, 'it', 0x1d622), # a-z
+            ^   | (bad-continuation)
+C:2513, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0391, 0x03a9, 'rm', 0xe17d),  # \Alpha-\Omega
+            ^   | (bad-continuation)
+C:2514, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03b1, 0x03c9, 'it', 0xe1d8),  # \alpha-\omega
+            ^   | (bad-continuation)
+C:2515, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03d1, 0x03d1, 'it', 0xe1f2),  # theta variant
+            ^   | (bad-continuation)
+C:2516, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03d5, 0x03d5, 'it', 0xe1f3),  # phi variant
+            ^   | (bad-continuation)
+C:2517, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03d6, 0x03d6, 'it', 0xe1f5),  # pi variant
+            ^   | (bad-continuation)
+C:2518, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03f1, 0x03f1, 'it', 0xe1f4),  # rho variant
+            ^   | (bad-continuation)
+C:2519, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03f5, 0x03f5, 'it', 0xe1f1),  # lunate epsilon
+            ^   | (bad-continuation)
+C:2521, 0: Wrong hanging indentation (add 4 spaces).
+        'bf':
+        ^   | (bad-continuation)
+C:2523, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0030, 0x0039, 'bf', 0x1d7ec), # 0-9
+            ^   | (bad-continuation)
+C:2524, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0041, 0x005a, 'bf', 0x1d5d4), # A-Z
+            ^   | (bad-continuation)
+C:2525, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0061, 0x007a, 'bf', 0x1d5ee), # a-z
+            ^   | (bad-continuation)
+C:2526, 0: Wrong hanging indentation (add 4 spaces).
+            (0x0391, 0x03a9, 'bf', 0x1d756), # \Alpha-\Omega
+            ^   | (bad-continuation)
+C:2527, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03b1, 0x03c9, 'bf', 0x1d770), # \alpha-\omega
+            ^   | (bad-continuation)
+C:2528, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03d1, 0x03d1, 'bf', 0x1d78b), # theta variant
+            ^   | (bad-continuation)
+C:2529, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03d5, 0x03d5, 'bf', 0x1d78d), # phi variant
+            ^   | (bad-continuation)
+C:2530, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03d6, 0x03d6, 'bf', 0x1d78f), # pi variant
+            ^   | (bad-continuation)
+C:2531, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03f0, 0x03f0, 'bf', 0x1d78c), # kappa variant
+            ^   | (bad-continuation)
+C:2532, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03f1, 0x03f1, 'bf', 0x1d78e), # rho variant
+            ^   | (bad-continuation)
+C:2533, 0: Wrong hanging indentation (add 4 spaces).
+            (0x03f5, 0x03f5, 'bf', 0x1d78a), # lunate epsilon
+            ^   | (bad-continuation)
+C:2534, 0: Wrong hanging indentation (add 4 spaces).
+            (0x2202, 0x2202, 'bf', 0x1d789), # partial differential
+            ^   | (bad-continuation)
+C:2535, 0: Wrong hanging indentation (add 4 spaces).
+            (0x2207, 0x2207, 'bf', 0x1d76f), # \Nabla
+            ^   | (bad-continuation)
+C:2540, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0030, 0x0039, 'rm', 0x1d7f6), # 0-9
+        ^   | (bad-continuation)
+C:2541, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0041, 0x005a, 'rm', 0x1d670), # A-Z
+        ^   | (bad-continuation)
+C:2542, 0: Wrong hanging indentation (add 4 spaces).
+        (0x0061, 0x007a, 'rm', 0x1d68a)  # a-z
+        ^   | (bad-continuation)
+C:  1, 0: Too many lines in module (2544/1000) (too-many-lines)
+C:  5, 0: Constant name "latex_to_bakoma" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:239, 0: Constant name "latex_to_cmex" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:262, 0: Constant name "latex_to_standard" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:408, 0: Constant name "type12uni" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1751, 0: Constant name "uni2type1" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1753, 0: Constant name "tex2uni" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:2328, 0: Constant name "stix_virtual_fonts" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+7 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |208    |8.17  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |2318   |91.04 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |6      |0.24  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |14     |0.55  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |187    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------+------------+
+|message id       |occurrences |
++=================+============+
+|bad-continuation |169         |
++-----------------+------------+
+|bad-whitespace   |10          |
++-----------------+------------+
+|invalid-name     |7           |
++-----------------+------------+
+|too-many-lines   |1           |
++-----------------+------------+
+
+
+
+
+--------------------------------------
+Your code has been rated at -257.14/10
+

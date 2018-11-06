@@ -1,0 +1,269 @@
+************* Module plotly.plotly.plotly
+W:674, 0: TODO: allow string version of this? (fixme)
+W:730, 0: TODO: format is a built-in name... we shouldn't really use it (fixme)
+W:1862, 0: TODO: what should we except here? this is dangerous (fixme)
+C:761, 0: Wrong continued indentation before block (add 4 spaces).
+            headers['content-type'] in ['image/png', 'image/jpeg',
+            ^   | (bad-continuation)
+C:  1, 0: Too many lines in module (1863/1000) (too-many-lines)
+C: 62, 0: Missing function docstring (missing-docstring)
+C: 71, 0: Constant name "update_plot_options" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 74, 0: Argument name "plot_options_from_call_signature" doesn't conform to snake_case naming style (invalid-name)
+W:236,10: Access to a protected member _replace_newline of a client class (protected-access)
+W:211,12: Unused variable 'key' (unused-variable)
+C:356, 8: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:366,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:378,12: Redefining built-in 'input' (redefined-builtin)
+R:380, 4: Unnecessary "else" after "return" (no-else-return)
+E:385,27: Undefined variable 'unicode' (undefined-variable)
+R:464, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:464, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:391, 0: Too many branches (21/12) (too-many-branches)
+C:600, 4: Missing method docstring (missing-docstring)
+W:604,15: Access to a protected member _isconnected of a client class (protected-access)
+C:701, 0: Class name "image" doesn't conform to PascalCase naming style (invalid-name)
+W:707,28: Redefining built-in 'format' (redefined-builtin)
+R:707, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:770,35: Redefining built-in 'format' (redefined-builtin)
+R:770, 4: Too many arguments (6/5) (too-many-arguments)
+W:807,47: Redefining built-in 'format' (redefined-builtin)
+R:807, 4: Too many arguments (7/5) (too-many-arguments)
+C:846, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:836, 9: Unused variable 'base' (unused-variable)
+C:851, 0: Class name "file_ops" doesn't conform to PascalCase naming style (invalid-name)
+R:851, 0: Too few public methods (1/2) (too-few-public-methods)
+C:885, 0: Class name "grid_ops" doesn't conform to PascalCase naming style (invalid-name)
+C:913, 4: Missing method docstring (missing-docstring)
+R:922, 4: Too many arguments (6/5) (too-many-arguments)
+R:922, 4: Too many local variables (16/15) (too-many-locals)
+W:995,20: Access to a protected member _to_plotly_grid_json of a client class (protected-access)
+R:1094, 4: Too many local variables (17/15) (too-many-locals)
+C:1211, 0: Class name "meta_ops" doesn't conform to PascalCase naming style (invalid-name)
+R:1211, 0: Too few public methods (1/2) (too-few-public-methods)
+R:1303, 8: Unnecessary "else" after "return" (no-else-return)
+W:1343,10: Access to a protected member _replace_newline of a client class (protected-access)
+C:1376, 0: Class name "dashboard_ops" doesn't conform to PascalCase naming style (invalid-name)
+W:1425,20: Redefining name 'dashboard' from outer scope (line 38) (redefined-outer-name)
+W:1495,12: Redefining name 'dashboard' from outer scope (line 38) (redefined-outer-name)
+W:1513, 8: Redefining name 'dashboard' from outer scope (line 38) (redefined-outer-name)
+W:1514,30: Using possibly undefined loop variable 'index' (undefined-loop-variable)
+R:1516, 8: Unnecessary "else" after "return" (no-else-return)
+C:1535, 0: Class name "presentation_ops" doesn't conform to PascalCase naming style (invalid-name)
+R:1535, 0: Too few public methods (1/2) (too-few-public-methods)
+W:1862, 4: No exception type(s) specified (bare-except)
+W: 35, 0: Unused Scatter imported from plotly.graph_objs (unused-import)
+W: 37, 0: Unused Column imported from plotly.grid_objs (unused-import)
+W: 41, 0: Unused get_credentials imported from plotly.config (unused-import)
+************* Module plotly.plotly.chunked_requests.chunked_request
+C: 45, 0: Wrong continued indentation before block (add 4 spaces).
+                (response and isinstance(response, http_client.HTTPResponse) and
+                ^   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Missing class docstring (missing-docstring)
+R: 12, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+W: 13, 4: Dangerous default value {} as argument (dangerous-default-value)
+R: 13, 4: Too many arguments (7/5) (too-many-arguments)
+C:107,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:129,22: Access to a protected member _create_unverified_context of a client class (protected-access)
+W:236,12: No exception type(s) specified (bare-except)
+C:269, 8: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+R:241, 4: Too many return statements (7/6) (too-many-return-statements)
+C:318,12: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:266,12: Attribute '_bytes' defined outside __init__ (attribute-defined-outside-init)
+W:267,12: Attribute '_bytes' defined outside __init__ (attribute-defined-outside-init)
+C:348, 4: Missing method docstring (missing-docstring)
+W:348, 0: Unused argument 'args' (unused-argument)
+W:348, 0: Unused argument 'kwargs' (unused-argument)
+R:344, 0: Too few public methods (1/2) (too-few-public-methods)
+C:  3, 0: standard import "import os" should be placed before "import six" (wrong-import-order)
+C:  4, 0: standard import "import ssl" should be placed before "import six" (wrong-import-order)
+C:  7, 0: standard import "from six.moves.urllib.parse import urlparse, unquote" should be placed before "import six" (wrong-import-order)
+************* Module plotly.plotly.chunked_requests.__init__
+C:  1, 0: Final newline missing (missing-final-newline)
+************* Module plotly.plotly.chunked_requests
+C:  1, 0: Missing module docstring (missing-docstring)
+
+
+Report
+======
+726 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |4      |NC         |NC         |50.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |9      |NC         |NC         |88.89       |66.67    |
++---------+-------+-----------+-----------+------------+---------+
+|method   |35     |NC         |NC         |91.43       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |17     |NC         |NC         |94.12       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    IPython 
+      \-display (plotly.plotly.plotly)
+    plotly 
+      \-api 
+      | \-utils (plotly.plotly.chunked_requests.chunked_request)
+      | \-v1 (plotly.plotly.plotly)
+      | \-v2 (plotly.plotly.plotly)
+      \-basedatatypes (plotly.plotly.plotly)
+      \-config (plotly.plotly.plotly)
+      \-dashboard_objs 
+      | \-dashboard_objs (plotly.plotly.plotly)
+      \-exceptions (plotly.plotly.plotly)
+      \-files (plotly.plotly.plotly)
+      \-graph_objs 
+      | \-Scatter (plotly.plotly.plotly)
+      \-grid_objs (plotly.plotly.plotly)
+      \-plotly 
+      | \-chunked_requests (plotly.plotly.plotly)
+      \-session (plotly.plotly.plotly)
+      \-tools (plotly.plotly.plotly)
+      \-utils (plotly.plotly.plotly)
+    requests 
+      \-compat (plotly.plotly.plotly)
+    six (plotly.plotly.chunked_requests.chunked_request,plotly.plotly.plotly)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |867    |38.52 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |1060   |47.09 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |107    |4.75  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |217    |9.64  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |28     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |19     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |28     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++-----------------------------------------------+-------+--------+---------+-----------+
+|module                                         |error  |warning |refactor |convention |
++===============================================+=======+========+=========+===========+
+|plotly.plotly.plotly                           |100.00 |75.00   |78.95    |57.14      |
++-----------------------------------------------+-------+--------+---------+-----------+
+|plotly.plotly.chunked_requests.chunked_request |0.00   |25.00   |21.05    |35.71      |
++-----------------------------------------------+-------+--------+---------+-----------+
+|plotly.plotly.chunked_requests.__init__        |0.00   |0.00    |0.00     |7.14       |
++-----------------------------------------------+-------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |13          |
++-------------------------------+------------+
+|missing-docstring              |7           |
++-------------------------------+------------+
+|protected-access               |5           |
++-------------------------------+------------+
+|too-many-arguments             |4           |
++-------------------------------+------------+
+|too-few-public-methods         |4           |
++-------------------------------+------------+
+|redefined-builtin              |4           |
++-------------------------------+------------+
+|wrong-import-order             |3           |
++-------------------------------+------------+
+|unused-import                  |3           |
++-------------------------------+------------+
+|redefined-outer-name           |3           |
++-------------------------------+------------+
+|no-else-return                 |3           |
++-------------------------------+------------+
+|fixme                          |3           |
++-------------------------------+------------+
+|unused-variable                |2           |
++-------------------------------+------------+
+|unused-argument                |2           |
++-------------------------------+------------+
+|too-many-nested-blocks         |2           |
++-------------------------------+------------+
+|too-many-locals                |2           |
++-------------------------------+------------+
+|bare-except                    |2           |
++-------------------------------+------------+
+|bad-continuation               |2           |
++-------------------------------+------------+
+|attribute-defined-outside-init |2           |
++-------------------------------+------------+
+|undefined-variable             |1           |
++-------------------------------+------------+
+|undefined-loop-variable        |1           |
++-------------------------------+------------+
+|too-many-return-statements     |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|too-many-branches              |1           |
++-------------------------------+------------+
+|missing-final-newline          |1           |
++-------------------------------+------------+
+|len-as-condition               |1           |
++-------------------------------+------------+
+|inconsistent-return-statements |1           |
++-------------------------------+------------+
+|dangerous-default-value        |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.90/10
+

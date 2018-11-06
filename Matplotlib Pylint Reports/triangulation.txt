@@ -1,0 +1,932 @@
+************* Module matplotlib.tri
+W:  5, 0: Wildcard import triangulation (wildcard-import)
+W:  6, 0: Wildcard import tricontour (wildcard-import)
+W:  7, 0: Wildcard import tritools (wildcard-import)
+W:  8, 0: Wildcard import trifinder (wildcard-import)
+W:  9, 0: Wildcard import triinterpolate (wildcard-import)
+W: 10, 0: Wildcard import trirefine (wildcard-import)
+W: 11, 0: Wildcard import tripcolor (wildcard-import)
+W: 12, 0: Wildcard import triplot (wildcard-import)
+************* Module matplotlib.tri.triangulation
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  3, 0: No name '_tri' in module 'matplotlib' (no-name-in-module)
+E:  3, 0: Unable to import 'matplotlib._tri' (import-error)
+E:  4, 0: No name '_qhull' in module 'matplotlib' (no-name-in-module)
+E:  4, 0: Unable to import 'matplotlib._qhull' (import-error)
+C: 42, 8: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 8: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+R:  7, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C: 80, 4: Argument name "z" doesn't conform to snake_case naming style (invalid-name)
+R:119, 8: Unnecessary "else" after "return" (no-else-return)
+C:140,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:141,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:221,12: Access to a protected member _initialize of a client class (protected-access)
+************* Module matplotlib.tri.tricontour
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  5, 0: No name '_tri' in module 'matplotlib' (no-name-in-module)
+E:  5, 0: Unable to import 'matplotlib._tri' (import-error)
+C: 52, 8: Attribute name "cppContourGenerator" doesn't conform to snake_case naming style (invalid-name)
+C: 43,12: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C: 47,17: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C: 48,12: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C: 77,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 79,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C: 82, 8: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+W: 86, 8: Attribute 'zmax' defined outside __init__ (attribute-defined-outside-init)
+W: 87, 8: Attribute 'zmin' defined outside __init__ (attribute-defined-outside-init)
+C: 94, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:270, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:270, 0: Missing function docstring (missing-docstring)
+************* Module matplotlib.tri.trifinder
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  4, 0: No name '_tri' in module 'matplotlib' (no-name-in-module)
+E:  4, 0: Unable to import 'matplotlib._tri' (import-error)
+R:  7, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 43, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R: 25, 0: Too few public methods (0/2) (too-few-public-methods)
+************* Module matplotlib.tri.triinterpolate
+C:616, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  4.50,  4.50, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:616, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  4.50,  4.50, 0.00, 0.00, 0.00, 0.00, 0.00],
+                          ^ (bad-whitespace)
+C:616, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  4.50,  4.50, 0.00, 0.00, 0.00, 0.00, 0.00],
+                                 ^ (bad-whitespace)
+C:617, 0: Exactly one space required after comma
+        [-0.25, 0.00, 0.00,  0.50,  1.25, 0.00, 0.00, 0.00, 0.00, 0.00],
+                          ^ (bad-whitespace)
+C:617, 0: Exactly one space required after comma
+        [-0.25, 0.00, 0.00,  0.50,  1.25, 0.00, 0.00, 0.00, 0.00, 0.00],
+                                 ^ (bad-whitespace)
+C:618, 0: Exactly one space required after comma
+        [-0.25, 0.00, 0.00,  1.25,  0.50, 0.00, 0.00, 0.00, 0.00, 0.00],
+                          ^ (bad-whitespace)
+C:618, 0: Exactly one space required after comma
+        [-0.25, 0.00, 0.00,  1.25,  0.50, 0.00, 0.00, 0.00, 0.00, 0.00],
+                                 ^ (bad-whitespace)
+C:619, 0: No space allowed after bracket
+        [ 0.50, 1.00, 0.00, -1.50,  0.00, 3.00, 3.00, 0.00, 0.00, 3.00],
+        ^ (bad-whitespace)
+C:619, 0: Exactly one space required after comma
+        [ 0.50, 1.00, 0.00, -1.50,  0.00, 3.00, 3.00, 0.00, 0.00, 3.00],
+                                 ^ (bad-whitespace)
+C:620, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00, -0.25,  0.25, 0.00, 1.00, 0.00, 0.00, 0.50],
+        ^ (bad-whitespace)
+C:620, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00, -0.25,  0.25, 0.00, 1.00, 0.00, 0.00, 0.50],
+                                 ^ (bad-whitespace)
+C:621, 0: No space allowed after bracket
+        [ 0.25, 0.00, 0.00, -0.50, -0.25, 1.00, 0.00, 0.00, 0.00, 1.00],
+        ^ (bad-whitespace)
+C:622, 0: No space allowed after bracket
+        [ 0.50, 0.00, 1.00,  0.00, -1.50, 0.00, 0.00, 3.00, 3.00, 3.00],
+        ^ (bad-whitespace)
+C:622, 0: Exactly one space required after comma
+        [ 0.50, 0.00, 1.00,  0.00, -1.50, 0.00, 0.00, 3.00, 3.00, 3.00],
+                          ^ (bad-whitespace)
+C:623, 0: No space allowed after bracket
+        [ 0.25, 0.00, 0.00, -0.25, -0.50, 0.00, 0.00, 0.00, 1.00, 1.00],
+        ^ (bad-whitespace)
+C:624, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.25, -0.25, 0.00, 0.00, 1.00, 0.00, 0.50]])
+        ^ (bad-whitespace)
+C:624, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.25, -0.25, 0.00, 0.00, 1.00, 0.00, 0.50]])
+                          ^ (bad-whitespace)
+C:626, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+        ^ (bad-whitespace)
+C:626, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                          ^ (bad-whitespace)
+C:626, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                                 ^ (bad-whitespace)
+C:626, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                                                                ^ (bad-whitespace)
+C:627, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+        ^ (bad-whitespace)
+C:627, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                          ^ (bad-whitespace)
+C:627, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                                 ^ (bad-whitespace)
+C:627, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                                                                ^ (bad-whitespace)
+C:628, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+        ^ (bad-whitespace)
+C:628, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                          ^ (bad-whitespace)
+C:628, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                                 ^ (bad-whitespace)
+C:628, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                                                                ^ (bad-whitespace)
+C:629, 0: Exactly one space required after comma
+        [-1.00, 0.00, 0.00,  1.50,  1.50, 0.00, 0.00, 0.00, 0.00, -3.00],
+                          ^ (bad-whitespace)
+C:629, 0: Exactly one space required after comma
+        [-1.00, 0.00, 0.00,  1.50,  1.50, 0.00, 0.00, 0.00, 0.00, -3.00],
+                                 ^ (bad-whitespace)
+C:630, 0: Exactly one space required after comma
+        [-0.50, 0.00, 0.00,  0.75,  0.75, 0.00, 0.00, 0.00, 0.00, -1.50],
+                          ^ (bad-whitespace)
+C:630, 0: Exactly one space required after comma
+        [-0.50, 0.00, 0.00,  0.75,  0.75, 0.00, 0.00, 0.00, 0.00, -1.50],
+                                 ^ (bad-whitespace)
+C:631, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+        ^ (bad-whitespace)
+C:631, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                          ^ (bad-whitespace)
+C:631, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                                 ^ (bad-whitespace)
+C:631, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                                                                ^ (bad-whitespace)
+C:632, 0: No space allowed after bracket
+        [ 1.00, 0.00, 0.00, -1.50, -1.50, 0.00, 0.00, 0.00, 0.00,  3.00],
+        ^ (bad-whitespace)
+C:632, 0: Exactly one space required after comma
+        [ 1.00, 0.00, 0.00, -1.50, -1.50, 0.00, 0.00, 0.00, 0.00,  3.00],
+                                                                ^ (bad-whitespace)
+C:633, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+        ^ (bad-whitespace)
+C:633, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                          ^ (bad-whitespace)
+C:633, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                                 ^ (bad-whitespace)
+C:633, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00,  0.00, 0.00, 0.00, 0.00, 0.00,  0.00],
+                                                                ^ (bad-whitespace)
+C:634, 0: No space allowed after bracket
+        [ 0.50, 0.00, 0.00, -0.75, -0.75, 0.00, 0.00, 0.00, 0.00,  1.50]])
+        ^ (bad-whitespace)
+C:634, 0: Exactly one space required after comma
+        [ 0.50, 0.00, 0.00, -0.75, -0.75, 0.00, 0.00, 0.00, 0.00,  1.50]])
+                                                                ^ (bad-whitespace)
+C:636, 0: Exactly one space required after comma
+        [-0.50, 0.00, 0.00,  1.50, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+                          ^ (bad-whitespace)
+C:637, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:637, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+                          ^ (bad-whitespace)
+C:638, 0: Exactly one space required after comma
+        [-0.25, 0.00, 0.00,  0.75, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+                          ^ (bad-whitespace)
+C:639, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:639, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+                          ^ (bad-whitespace)
+C:640, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:640, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+                          ^ (bad-whitespace)
+C:641, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:641, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+                          ^ (bad-whitespace)
+C:642, 0: No space allowed after bracket
+        [ 0.50, 0.00, 0.00, -1.50, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:643, 0: No space allowed after bracket
+        [ 0.25, 0.00, 0.00, -0.75, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:644, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]])
+        ^ (bad-whitespace)
+C:644, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]])
+                          ^ (bad-whitespace)
+C:646, 0: No space allowed after bracket
+        [ 0.50, 0.00, 0.00, 0.00, -1.50, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:647, 0: No space allowed after bracket
+        [ 0.25, 0.00, 0.00, 0.00, -0.75, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:648, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:648, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+                                ^ (bad-whitespace)
+C:649, 0: Exactly one space required after comma
+        [-0.50, 0.00, 0.00, 0.00,  1.50, 0.00, 0.00, 0.00, 0.00, 0.00],
+                                ^ (bad-whitespace)
+C:650, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:650, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+                                ^ (bad-whitespace)
+C:651, 0: Exactly one space required after comma
+        [-0.25, 0.00, 0.00, 0.00,  0.75, 0.00, 0.00, 0.00, 0.00, 0.00],
+                                ^ (bad-whitespace)
+C:652, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:652, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+                                ^ (bad-whitespace)
+C:653, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+        ^ (bad-whitespace)
+C:653, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00],
+                                ^ (bad-whitespace)
+C:654, 0: No space allowed after bracket
+        [ 0.00, 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00]])
+        ^ (bad-whitespace)
+C:654, 0: Exactly one space required after comma
+        [ 0.00, 0.00, 0.00, 0.00,  0.00, 0.00, 0.00, 0.00, 0.00, 0.00]])
+                                ^ (bad-whitespace)
+C:658, 0: No space allowed after bracket
+    rotate_dV = np.array([[ 1.,  0.], [ 0.,  1.],
+                          ^ (bad-whitespace)
+C:658, 0: Exactly one space required after comma
+    rotate_dV = np.array([[ 1.,  0.], [ 0.,  1.],
+                              ^ (bad-whitespace)
+C:658, 0: No space allowed after bracket
+    rotate_dV = np.array([[ 1.,  0.], [ 0.,  1.],
+                                      ^ (bad-whitespace)
+C:658, 0: Exactly one space required after comma
+    rotate_dV = np.array([[ 1.,  0.], [ 0.,  1.],
+                                          ^ (bad-whitespace)
+C:659, 0: No space allowed after bracket
+                          [ 0.,  1.], [-1., -1.],
+                          ^ (bad-whitespace)
+C:659, 0: Exactly one space required after comma
+                          [ 0.,  1.], [-1., -1.],
+                              ^ (bad-whitespace)
+C:660, 0: No space allowed after bracket
+                          [-1., -1.], [ 1.,  0.]])
+                                      ^ (bad-whitespace)
+C:660, 0: Exactly one space required after comma
+                          [-1., -1.], [ 1.,  0.]])
+                                          ^ (bad-whitespace)
+C:662, 0: No space allowed after bracket
+    rotate_d2V = np.array([[1., 0., 0.], [0., 1., 0.], [ 0.,  0.,  1.],
+                                                       ^ (bad-whitespace)
+C:662, 0: Exactly one space required after comma
+    rotate_d2V = np.array([[1., 0., 0.], [0., 1., 0.], [ 0.,  0.,  1.],
+                                                           ^ (bad-whitespace)
+C:662, 0: Exactly one space required after comma
+    rotate_d2V = np.array([[1., 0., 0.], [0., 1., 0.], [ 0.,  0.,  1.],
+                                                                ^ (bad-whitespace)
+C:663, 0: No space allowed after bracket
+                           [0., 1., 0.], [1., 1., 1.], [ 0., -2., -1.],
+                                                       ^ (bad-whitespace)
+C:664, 0: Exactly one space required after comma
+                           [1., 1., 1.], [1., 0., 0.], [-2.,  0., -1.]])
+                                                           ^ (bad-whitespace)
+C:671, 0: Exactly one space required after comma
+    gauss_pts = np.array([[13./18.,  4./18.,  1./18.],
+                                  ^ (bad-whitespace)
+C:671, 0: Exactly one space required after comma
+    gauss_pts = np.array([[13./18.,  4./18.,  1./18.],
+                                           ^ (bad-whitespace)
+C:672, 0: No space allowed after bracket
+                          [ 4./18., 13./18.,  1./18.],
+                          ^ (bad-whitespace)
+C:672, 0: Exactly one space required after comma
+                          [ 4./18., 13./18.,  1./18.],
+                                           ^ (bad-whitespace)
+C:673, 0: No space allowed after bracket
+                          [ 7./18.,  7./18.,  4./18.],
+                          ^ (bad-whitespace)
+C:673, 0: Exactly one space required after comma
+                          [ 7./18.,  7./18.,  4./18.],
+                                  ^ (bad-whitespace)
+C:673, 0: Exactly one space required after comma
+                          [ 7./18.,  7./18.,  4./18.],
+                                           ^ (bad-whitespace)
+C:674, 0: No space allowed after bracket
+                          [ 1./18., 13./18.,  4./18.],
+                          ^ (bad-whitespace)
+C:674, 0: Exactly one space required after comma
+                          [ 1./18., 13./18.,  4./18.],
+                                           ^ (bad-whitespace)
+C:675, 0: No space allowed after bracket
+                          [ 1./18.,  4./18., 13./18.],
+                          ^ (bad-whitespace)
+C:675, 0: Exactly one space required after comma
+                          [ 1./18.,  4./18., 13./18.],
+                                  ^ (bad-whitespace)
+C:676, 0: No space allowed after bracket
+                          [ 4./18.,  7./18.,  7./18.],
+                          ^ (bad-whitespace)
+C:676, 0: Exactly one space required after comma
+                          [ 4./18.,  7./18.,  7./18.],
+                                  ^ (bad-whitespace)
+C:676, 0: Exactly one space required after comma
+                          [ 4./18.,  7./18.,  7./18.],
+                                           ^ (bad-whitespace)
+C:677, 0: No space allowed after bracket
+                          [ 4./18.,  1./18., 13./18.],
+                          ^ (bad-whitespace)
+C:677, 0: Exactly one space required after comma
+                          [ 4./18.,  1./18., 13./18.],
+                                  ^ (bad-whitespace)
+C:678, 0: Exactly one space required after comma
+                          [13./18.,  1./18.,  4./18.],
+                                  ^ (bad-whitespace)
+C:678, 0: Exactly one space required after comma
+                          [13./18.,  1./18.,  4./18.],
+                                           ^ (bad-whitespace)
+C:679, 0: No space allowed after bracket
+                          [ 7./18.,  4./18.,  7./18.]], dtype=np.float64)
+                          ^ (bad-whitespace)
+C:679, 0: Exactly one space required after comma
+                          [ 7./18.,  4./18.,  7./18.]], dtype=np.float64)
+                                  ^ (bad-whitespace)
+C:679, 0: Exactly one space required after comma
+                          [ 7./18.,  4./18.,  7./18.]], dtype=np.float64)
+                                           ^ (bad-whitespace)
+C:686, 0: Exactly one space required after comma
+    J0_to_J1 = np.array([[-1.,  1.], [-1.,  0.]])
+                             ^ (bad-whitespace)
+C:686, 0: Exactly one space required after comma
+    J0_to_J1 = np.array([[-1.,  1.], [-1.,  0.]])
+                                         ^ (bad-whitespace)
+C:687, 0: No space allowed after bracket
+    J0_to_J2 = np.array([[ 0., -1.], [ 1., -1.]])
+                         ^ (bad-whitespace)
+C:687, 0: No space allowed after bracket
+    J0_to_J2 = np.array([[ 0., -1.], [ 1., -1.]])
+                                     ^ (bad-whitespace)
+C:755, 0: No space allowed after bracket
+            [    -3.*x_sq,     -3.*x_sq],
+            ^ (bad-whitespace)
+C:755, 0: Exactly one space required after comma
+            [    -3.*x_sq,     -3.*x_sq],
+                         ^ (bad-whitespace)
+C:756, 0: No space allowed after bracket
+            [     3.*y_sq,           0.],
+            ^ (bad-whitespace)
+C:756, 0: Exactly one space required after comma
+            [     3.*y_sq,           0.],
+                         ^ (bad-whitespace)
+C:757, 0: No space allowed after bracket
+            [          0.,      3.*z_sq],
+            ^ (bad-whitespace)
+C:757, 0: Exactly one space required after comma
+            [          0.,      3.*z_sq],
+                         ^ (bad-whitespace)
+C:758, 0: No space allowed after bracket
+            [     -2.*x*z, -2.*x*z+x_sq],
+            ^ (bad-whitespace)
+C:759, 0: Exactly one space required after comma
+            [-2.*x*y+x_sq,      -2.*x*y],
+                         ^ (bad-whitespace)
+C:760, 0: No space allowed after bracket
+            [ 2.*x*y-y_sq,        -y_sq],
+            ^ (bad-whitespace)
+C:760, 0: Exactly one space required after comma
+            [ 2.*x*y-y_sq,        -y_sq],
+                         ^ (bad-whitespace)
+C:761, 0: No space allowed after bracket
+            [      2.*y*z,         y_sq],
+            ^ (bad-whitespace)
+C:761, 0: Exactly one space required after comma
+            [      2.*y*z,         y_sq],
+                         ^ (bad-whitespace)
+C:762, 0: No space allowed after bracket
+            [        z_sq,       2.*y*z],
+            ^ (bad-whitespace)
+C:762, 0: Exactly one space required after comma
+            [        z_sq,       2.*y*z],
+                         ^ (bad-whitespace)
+C:763, 0: No space allowed after bracket
+            [       -z_sq,  2.*x*z-z_sq],
+            ^ (bad-whitespace)
+C:763, 0: Exactly one space required after comma
+            [       -z_sq,  2.*x*z-z_sq],
+                         ^ (bad-whitespace)
+C:764, 0: No space allowed after bracket
+            [     x*z-y*z,      x*y-y*z]])
+            ^ (bad-whitespace)
+C:764, 0: Exactly one space required after comma
+            [     x*z-y*z,      x*y-y*z]])
+                         ^ (bad-whitespace)
+C:831, 0: No space allowed after bracket
+            [     6.*x,      6.*x,      6.*x],
+            ^ (bad-whitespace)
+C:831, 0: Exactly one space required after comma
+            [     6.*x,      6.*x,      6.*x],
+                      ^ (bad-whitespace)
+C:831, 0: Exactly one space required after comma
+            [     6.*x,      6.*x,      6.*x],
+                                 ^ (bad-whitespace)
+C:832, 0: No space allowed after bracket
+            [     6.*y,        0.,        0.],
+            ^ (bad-whitespace)
+C:832, 0: Exactly one space required after comma
+            [     6.*y,        0.,        0.],
+                      ^ (bad-whitespace)
+C:832, 0: Exactly one space required after comma
+            [     6.*y,        0.,        0.],
+                                 ^ (bad-whitespace)
+C:833, 0: No space allowed after bracket
+            [       0.,      6.*z,        0.],
+            ^ (bad-whitespace)
+C:833, 0: Exactly one space required after comma
+            [       0.,      6.*z,        0.],
+                      ^ (bad-whitespace)
+C:833, 0: Exactly one space required after comma
+            [       0.,      6.*z,        0.],
+                                 ^ (bad-whitespace)
+C:834, 0: No space allowed after bracket
+            [     2.*z, 2.*z-4.*x, 2.*z-2.*x],
+            ^ (bad-whitespace)
+C:835, 0: Exactly one space required after comma
+            [2.*y-4.*x,      2.*y, 2.*y-2.*x],
+                      ^ (bad-whitespace)
+C:836, 0: Exactly one space required after comma
+            [2.*x-4.*y,        0.,     -2.*y],
+                      ^ (bad-whitespace)
+C:836, 0: Exactly one space required after comma
+            [2.*x-4.*y,        0.,     -2.*y],
+                                 ^ (bad-whitespace)
+C:837, 0: No space allowed after bracket
+            [     2.*z,        0.,      2.*y],
+            ^ (bad-whitespace)
+C:837, 0: Exactly one space required after comma
+            [     2.*z,        0.,      2.*y],
+                      ^ (bad-whitespace)
+C:837, 0: Exactly one space required after comma
+            [     2.*z,        0.,      2.*y],
+                                 ^ (bad-whitespace)
+C:838, 0: No space allowed after bracket
+            [       0.,      2.*y,      2.*z],
+            ^ (bad-whitespace)
+C:838, 0: Exactly one space required after comma
+            [       0.,      2.*y,      2.*z],
+                      ^ (bad-whitespace)
+C:838, 0: Exactly one space required after comma
+            [       0.,      2.*y,      2.*z],
+                                 ^ (bad-whitespace)
+C:839, 0: No space allowed after bracket
+            [       0., 2.*x-4.*z,     -2.*z],
+            ^ (bad-whitespace)
+C:839, 0: Exactly one space required after comma
+            [       0., 2.*x-4.*z,     -2.*z],
+                                 ^ (bad-whitespace)
+C:840, 0: No space allowed after bracket
+            [    -2.*z,     -2.*y,     x-y-z]])
+            ^ (bad-whitespace)
+C:840, 0: Exactly one space required after comma
+            [    -2.*z,     -2.*y,     x-y-z]])
+                      ^ (bad-whitespace)
+C:840, 0: Exactly one space required after comma
+            [    -2.*z,     -2.*y,     x-y-z]])
+                                 ^ (bad-whitespace)
+C:  1, 0: Too many lines in module (1613/1000) (too-many-lines)
+C:105, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:105, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:105, 4: Too many local variables (19/15) (too-many-locals)
+C:213, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:213, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R: 15, 0: Too few public methods (0/2) (too-few-public-methods)
+C:269, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:269, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:274, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:274, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:274, 4: Missing method docstring (missing-docstring)
+R:236, 0: Too few public methods (1/2) (too-few-public-methods)
+C:426, 8: Attribute name "_ReferenceElement" doesn't conform to snake_case naming style (invalid-name)
+R:292, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+R:387, 4: Too many arguments (6/5) (too-many-arguments)
+W:406,23: Access to a protected member _get_compressed_triangulation of a client class (protected-access)
+C:428, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:428, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:433, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:433, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:433, 4: Missing method docstring (missing-docstring)
+C:447,12: Variable name "J" doesn't conform to snake_case naming style (invalid-name)
+R:450,12: Unnecessary "else" after "return" (no-else-return)
+C:457, 4: Argument name "dz" doesn't conform to snake_case naming style (invalid-name)
+C:481,12: Variable name "TE" doesn't conform to snake_case naming style (invalid-name)
+C:483,12: Variable name "TE" doesn't conform to snake_case naming style (invalid-name)
+C:485,12: Variable name "TE" doesn't conform to snake_case naming style (invalid-name)
+C:493, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:493, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:513, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:514, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:515, 8: Variable name "abT" doesn't conform to snake_case naming style (invalid-name)
+C:516, 8: Variable name "ab" doesn't conform to snake_case naming style (invalid-name)
+C:517, 8: Variable name "OM" doesn't conform to snake_case naming style (invalid-name)
+C:525, 8: Variable name "Covar" doesn't conform to snake_case naming style (invalid-name)
+C:554, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:555, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:556, 8: Variable name "J" doesn't conform to snake_case naming style (invalid-name)
+C:576, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:577, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:578, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:292, 0: Too few public methods (1/2) (too-few-public-methods)
+C:593, 0: Class name "_ReducedHCT_Element" doesn't conform to PascalCase naming style (invalid-name)
+R:689, 4: Too many local variables (17/15) (too-many-locals)
+C:706, 8: Variable name "E" doesn't conform to snake_case naming style (invalid-name)
+C:707, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:708, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:709, 8: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:713, 8: Variable name "V" doesn't conform to snake_case naming style (invalid-name)
+C:723, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:726, 4: Argument name "J" doesn't conform to snake_case naming style (invalid-name)
+R:726, 4: Too many local variables (21/15) (too-many-locals)
+C:747, 8: Variable name "E" doesn't conform to snake_case naming style (invalid-name)
+C:748, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:749, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:750, 8: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:754, 8: Variable name "dV" doesn't conform to snake_case naming style (invalid-name)
+C:766, 8: Variable name "dV" doesn't conform to snake_case naming style (invalid-name)
+C:781, 8: Variable name "J_inv" doesn't conform to snake_case naming style (invalid-name)
+C:785, 4: Argument name "J" doesn't conform to snake_case naming style (invalid-name)
+C:806, 8: Variable name "H_rot" doesn't conform to snake_case naming style (invalid-name)
+C:810, 4: Method name "get_d2Sidksij2" doesn't conform to snake_case naming style (invalid-name)
+C:826, 8: Variable name "E" doesn't conform to snake_case naming style (invalid-name)
+C:827, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:828, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:829, 8: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:830, 8: Variable name "d2V" doesn't conform to snake_case naming style (invalid-name)
+C:842, 8: Variable name "d2V" doesn't conform to snake_case naming style (invalid-name)
+C:854, 4: Argument name "J" doesn't conform to snake_case naming style (invalid-name)
+R:854, 4: Too many local variables (18/15) (too-many-locals)
+C:870, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:873, 8: Variable name "J1" doesn't conform to snake_case naming style (invalid-name)
+C:874, 8: Variable name "J2" doesn't conform to snake_case naming style (invalid-name)
+C:875, 8: Variable name "DOF_rot" doesn't conform to snake_case naming style (invalid-name)
+C:884, 8: Variable name "H_rot" doesn't conform to snake_case naming style (invalid-name)
+C:888, 8: Variable name "K" doesn't conform to snake_case naming style (invalid-name)
+C:895,12: Variable name "d2Skdksi2" doesn't conform to snake_case naming style (invalid-name)
+C:896,12: Variable name "d2Skdx2" doesn't conform to snake_case naming style (invalid-name)
+C:897,12: Variable name "K" doesn't conform to snake_case naming style (invalid-name)
+C:901, 8: Variable name "K" doesn't conform to snake_case naming style (invalid-name)
+C:907, 4: Method name "get_Hrot_from_J" doesn't conform to snake_case naming style (invalid-name)
+C:907, 4: Argument name "J" doesn't conform to snake_case naming style (invalid-name)
+C:922, 8: Variable name "J_inv" doesn't conform to snake_case naming style (invalid-name)
+C:923, 8: Variable name "Ji00" doesn't conform to snake_case naming style (invalid-name)
+C:924, 8: Variable name "Ji11" doesn't conform to snake_case naming style (invalid-name)
+C:925, 8: Variable name "Ji10" doesn't conform to snake_case naming style (invalid-name)
+C:926, 8: Variable name "Ji01" doesn't conform to snake_case naming style (invalid-name)
+C:927, 8: Variable name "H_rot" doesn't conform to snake_case naming style (invalid-name)
+R:931, 8: Unnecessary "else" after "return" (no-else-return)
+R:907, 4: Method could be a function (no-self-use)
+C:937, 4: Method name "get_Kff_and_Ff" doesn't conform to snake_case naming style (invalid-name)
+C:937, 4: Argument name "J" doesn't conform to snake_case naming style (invalid-name)
+C:937, 4: Argument name "Uc" doesn't conform to snake_case naming style (invalid-name)
+R:937, 4: Too many local variables (24/15) (too-many-locals)
+C:976, 8: Variable name "K_elem" doesn't conform to snake_case naming style (invalid-name)
+C:991, 8: Variable name "Kff_vals" doesn't conform to snake_case naming style (invalid-name)
+C:992, 8: Variable name "Kff_rows" doesn't conform to snake_case naming style (invalid-name)
+C:993, 8: Variable name "Kff_cols" doesn't conform to snake_case naming style (invalid-name)
+C:996, 8: Variable name "Kfc_elem" doesn't conform to snake_case naming style (invalid-name)
+C:997, 8: Variable name "Uc_elem" doesn't conform to snake_case naming style (invalid-name)
+C:998, 8: Variable name "Ff_elem" doesn't conform to snake_case naming style (invalid-name)
+C:999, 8: Variable name "Ff_indices" doesn't conform to snake_case naming style (invalid-name)
+C:1003, 8: Variable name "Ff" doesn't conform to snake_case naming style (invalid-name)
+C:1011, 0: Class name "_DOF_estimator" doesn't conform to PascalCase naming style (invalid-name)
+C:1025, 8: Attribute name "z" doesn't conform to snake_case naming style (invalid-name)
+C:1029, 8: Attribute name "dz" doesn't conform to snake_case naming style (invalid-name)
+W:1023,20: Access to a protected member _pts of a client class (protected-access)
+W:1024,25: Access to a protected member _tris_pts of a client class (protected-access)
+W:1025,17: Access to a protected member _z of a client class (protected-access)
+W:1026,26: Access to a protected member _triangles of a client class (protected-access)
+W:1027,40: Access to a protected member _unit_x of a client class (protected-access)
+W:1028,40: Access to a protected member _unit_y of a client class (protected-access)
+C:1032, 4: Missing method docstring (missing-docstring)
+C:1040, 8: Variable name "J" doesn't conform to snake_case naming style (invalid-name)
+W:1040,12: Access to a protected member _get_jacobian of a client class (protected-access)
+C:1047, 4: Argument name "J" doesn't conform to snake_case naming style (invalid-name)
+C:1063, 8: Variable name "J1" doesn't conform to snake_case naming style (invalid-name)
+C:1064, 8: Variable name "J2" doesn't conform to snake_case naming style (invalid-name)
+C:1079, 0: Class name "_DOF_estimator_user" doesn't conform to PascalCase naming style (invalid-name)
+W:1081, 4: Parameters differ from overridden 'compute_dz' method (arguments-differ)
+C:1088, 0: Class name "_DOF_estimator_geom" doesn't conform to PascalCase naming style (invalid-name)
+W:1090, 4: Parameters differ from overridden 'compute_dz' method (arguments-differ)
+C:1131,12: Variable name "p0" doesn't conform to snake_case naming style (invalid-name)
+C:1132,12: Variable name "p1" doesn't conform to snake_case naming style (invalid-name)
+C:1133,12: Variable name "p2" doesn't conform to snake_case naming style (invalid-name)
+C:1154, 8: Variable name "dM1" doesn't conform to snake_case naming style (invalid-name)
+C:1155, 8: Variable name "dM2" doesn't conform to snake_case naming style (invalid-name)
+C:1156, 8: Variable name "dM" doesn't conform to snake_case naming style (invalid-name)
+C:1159, 8: Variable name "dM_inv" doesn't conform to snake_case naming style (invalid-name)
+C:1161, 8: Variable name "dZ1" doesn't conform to snake_case naming style (invalid-name)
+C:1162, 8: Variable name "dZ2" doesn't conform to snake_case naming style (invalid-name)
+C:1163, 8: Variable name "dZ" doesn't conform to snake_case naming style (invalid-name)
+C:1164, 8: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+C:1172, 0: Class name "_DOF_estimator_min_E" doesn't conform to PascalCase naming style (invalid-name)
+W:1179,21: Access to a protected member _eccs of a client class (protected-access)
+R:1182, 4: Too many local variables (20/15) (too-many-locals)
+C:1189, 8: Variable name "Uf0" doesn't conform to snake_case naming style (invalid-name)
+C:1192, 8: Variable name "J" doesn't conform to snake_case naming style (invalid-name)
+W:1192,12: Access to a protected member _get_jacobian of a client class (protected-access)
+C:1195, 8: Variable name "Uc" doesn't conform to snake_case naming style (invalid-name)
+C:1198, 8: Variable name "Kff_rows" doesn't conform to snake_case naming style (invalid-name)
+C:1198,18: Variable name "Kff_cols" doesn't conform to snake_case naming style (invalid-name)
+C:1198,28: Variable name "Kff_vals" doesn't conform to snake_case naming style (invalid-name)
+C:1198,38: Variable name "Ff" doesn't conform to snake_case naming style (invalid-name)
+C:1207, 8: Variable name "Kff_coo" doesn't conform to snake_case naming style (invalid-name)
+C:1210, 8: Variable name "Uf" doesn't conform to snake_case naming style (invalid-name)
+W:1216,12: Access to a protected member _warn_external of a client class (protected-access)
+C:1220,12: Variable name "Uf" doesn't conform to snake_case naming style (invalid-name)
+C:1223, 8: Variable name "dz" doesn't conform to snake_case naming style (invalid-name)
+C:1231, 0: Class name "_Sparse_Matrix_coo" doesn't conform to PascalCase naming style (invalid-name)
+C:1241, 8: Attribute name "n" doesn't conform to snake_case naming style (invalid-name)
+C:1241,16: Attribute name "m" doesn't conform to snake_case naming style (invalid-name)
+C:1246, 4: Argument name "V" doesn't conform to snake_case naming style (invalid-name)
+C:1303, 0: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
+C:1303, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1303, 0: Argument name "x0" doesn't conform to snake_case naming style (invalid-name)
+R:1303, 0: Too many local variables (19/15) (too-many-locals)
+C:1336, 4: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:1348, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1350, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1352, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1353, 4: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1355, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1362, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1363, 8: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:1365, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1366, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1369, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1424, 0: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+C:1433, 4: Variable name "M_inv" doesn't conform to snake_case naming style (invalid-name)
+C:1455, 0: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+C:1468, 4: Variable name "M_inv" doesn't conform to snake_case naming style (invalid-name)
+C:1490, 8: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:1502, 0: Argument name "M1" doesn't conform to snake_case naming style (invalid-name)
+C:1502, 0: Argument name "M2" doesn't conform to snake_case naming style (invalid-name)
+C:1519, 0: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+C:1526, 0: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+C:1533, 0: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+C:1544, 4: Variable name "sh" doesn't conform to snake_case naming style (invalid-name)
+C:1545, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1545, 7: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1550, 4: Variable name "M_roll" doesn't conform to snake_case naming style (invalid-name)
+C:1552,12: Variable name "ir" doesn't conform to snake_case naming style (invalid-name)
+C:1553,16: Variable name "ic" doesn't conform to snake_case naming style (invalid-name)
+C:1556,12: Variable name "ir" doesn't conform to snake_case naming style (invalid-name)
+C:1557,16: Variable name "ic" doesn't conform to snake_case naming style (invalid-name)
+C:1562, 0: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+C:1575, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1576, 4: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1577, 4: Variable name "M00" doesn't conform to snake_case naming style (invalid-name)
+C:1578, 4: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:1579, 4: Variable name "sh" doesn't conform to snake_case naming style (invalid-name)
+C:1580, 4: Variable name "M_ret" doesn't conform to snake_case naming style (invalid-name)
+C:1587, 0: Argument name "M" doesn't conform to snake_case naming style (invalid-name)
+C:1598, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1598, 7: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1600, 8: Variable name "sh" doesn't conform to snake_case naming style (invalid-name)
+C:1602, 8: Variable name "sh" doesn't conform to snake_case naming style (invalid-name)
+C:1604, 4: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:1605, 4: Variable name "M_res" doesn't conform to snake_case naming style (invalid-name)
+C:1607,12: Variable name "ir" doesn't conform to snake_case naming style (invalid-name)
+C:1610,12: Variable name "ic" doesn't conform to snake_case naming style (invalid-name)
+************* Module matplotlib.tri.tripcolor
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:  8, 0: Too many local variables (23/15) (too-many-locals)
+C: 59, 8: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C: 61, 8: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C: 88, 4: Variable name "ec" doesn't conform to snake_case naming style (invalid-name)
+C:106, 8: Variable name "maskedTris" doesn't conform to snake_case naming style (invalid-name)
+C:112,12: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:115,12: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+R:  8, 0: Too many branches (18/12) (too-many-branches)
+R:  8, 0: Too many statements (57/50) (too-many-statements)
+************* Module matplotlib.tri.triplot
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:  5, 0: Too many local variables (21/15) (too-many-locals)
+C: 41, 4: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 41, 7: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W: 45,31: Access to a protected member _process_plot_format of a client class (protected-access)
+W: 45,31: Access to a protected member _base of a client class (protected-access)
+C: 48, 4: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+************* Module matplotlib.tri.trirefine
+C:127, 0: Wrong continued indentation (remove 1 space).
+                            ] = np.repeat(ancestors[ancestor_mask],
+                           |^ (bad-continuation)
+C:130, 0: Wrong continued indentation (remove 1 space).
+                            ] = np.repeat(ancestors[~ancestor_mask],
+                           |^ (bad-continuation)
+R: 10, 0: Too few public methods (0/2) (too-few-public-methods)
+C:136, 4: Argument name "z" doesn't conform to snake_case naming style (invalid-name)
+W:175,17: Access to a protected member _interpolate_multikeys of a client class (protected-access)
+R:180, 4: Too many local variables (37/15) (too-many-locals)
+C:199, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:200, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+R:316, 8: Unnecessary "else" after "return" (no-else-return)
+R:180, 4: Too many statements (53/50) (too-many-statements)
+************* Module matplotlib.tri.tritools
+R: 53, 4: Too many local variables (19/15) (too-many-locals)
+C: 85,13: Variable name "kx" doesn't conform to snake_case naming style (invalid-name)
+C: 85,17: Variable name "ky" doesn't conform to snake_case naming style (invalid-name)
+C: 87,13: Variable name "kx" doesn't conform to snake_case naming style (invalid-name)
+C: 87,17: Variable name "ky" doesn't conform to snake_case naming style (invalid-name)
+C: 92, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 93, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 94, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 95, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C: 96, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C: 97, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 99, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+R:117, 8: Unnecessary "else" after "return" (no-else-return)
+R:256, 8: Unnecessary "else" after "return" (no-else-return)
+R:257,12: Unnecessary "else" after "return" (no-else-return)
+R:263,12: Unnecessary "else" after "return" (no-else-return)
+C:271, 4: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+R:294, 8: Unnecessary "else" after "return" (no-else-return)
+
+
+Report
+======
+986 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |9      |1          |+8.00      |44.44       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |16     |0          |+16.00     |100.00      |37.50    |
++---------+-------+-----------+-----------+------------+---------+
+|method   |69     |0          |+69.00     |95.65       |4.35     |
++---------+-------+-----------+-----------+------------+---------+
+|function |13     |0          |+13.00     |92.31       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-axes (matplotlib.tri.triplot)
+      \-cbook (matplotlib.tri.triinterpolate)
+      \-collections (matplotlib.tri.tripcolor)
+      \-colors (matplotlib.tri.tripcolor)
+      \-contour (matplotlib.tri.tricontour)
+      \-tri 
+        \-Triangulation (matplotlib.tri.trifinder,matplotlib.tri.triinterpolate,matplotlib.tri.tritools)
+        \-triangulation (matplotlib.tri.tricontour,matplotlib.tri.tripcolor,matplotlib.tri.triplot,matplotlib.tri.trirefine)
+        \-trifinder (matplotlib.tri.triangulation,matplotlib.tri.triinterpolate)
+        \-triinterpolate (matplotlib.tri.trirefine)
+    numpy (matplotlib.tri.triangulation,matplotlib.tri.tricontour,matplotlib.tri.trifinder,matplotlib.tri.triinterpolate,matplotlib.tri.tripcolor,matplotlib.tri.triplot,matplotlib.tri.trirefine,matplotlib.tri.tritools)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1261   |41.02 |9        |+1252.00   |
++----------+-------+------+---------+-----------+
+|docstring |1291   |42.00 |3        |+1288.00   |
++----------+-------+------+---------+-----------+
+|comment   |279    |9.08  |0        |+279.00    |
++----------+-------+------+---------+-----------+
+|empty     |243    |7.91  |2        |+241.00    |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |378    |0        |+378.00    |
++-----------+-------+---------+-----------+
+|refactor   |33     |0        |+33.00     |
++-----------+-------+---------+-----------+
+|warning    |27     |8        |+19.00     |
++-----------+-------+---------+-----------+
+|error      |8      |0        |+8.00      |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++------------------------------+------+--------+---------+-----------+
+|module                        |error |warning |refactor |convention |
++==============================+======+========+=========+===========+
+|matplotlib.tri.triangulation  |50.00 |3.70    |6.06     |1.59       |
++------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.tricontour     |25.00 |7.41    |0.00     |2.91       |
++------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.trifinder      |25.00 |0.00    |6.06     |0.79       |
++------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.triinterpolate |0.00  |48.15   |45.45    |86.77      |
++------------------------------+------+--------+---------+-----------+
+|matplotlib.tri                |0.00  |29.63   |0.00     |0.00       |
++------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.triplot        |0.00  |7.41    |3.03     |1.32       |
++------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.trirefine      |0.00  |3.70    |12.12    |1.32       |
++------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.tritools       |0.00  |0.00    |18.18    |3.17       |
++------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.tripcolor      |0.00  |0.00    |9.09     |2.12       |
++------------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |213         |
++-------------------------------+------------+
+|bad-whitespace                 |153         |
++-------------------------------+------------+
+|protected-access               |15          |
++-------------------------------+------------+
+|too-many-locals                |11          |
++-------------------------------+------------+
+|no-else-return                 |9           |
++-------------------------------+------------+
+|missing-docstring              |9           |
++-------------------------------+------------+
+|wildcard-import                |8           |
++-------------------------------+------------+
+|too-few-public-methods         |6           |
++-------------------------------+------------+
+|no-name-in-module              |4           |
++-------------------------------+------------+
+|import-error                   |4           |
++-------------------------------+------------+
+|too-many-statements            |2           |
++-------------------------------+------------+
+|too-many-instance-attributes   |2           |
++-------------------------------+------------+
+|bad-continuation               |2           |
++-------------------------------+------------+
+|attribute-defined-outside-init |2           |
++-------------------------------+------------+
+|arguments-differ               |2           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-branches              |1           |
++-------------------------------+------------+
+|too-many-arguments             |1           |
++-------------------------------+------------+
+|no-self-use                    |1           |
++-------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 5.15/10 (previous run: 0.00/10, +5.15)
+

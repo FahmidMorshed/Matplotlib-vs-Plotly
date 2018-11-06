@@ -1,0 +1,169 @@
+************* Module matplotlib.tight_layout
+C:124, 0: Wrong hanging indentation (remove 24 spaces).
+                                        _get_left(tight_bbox, ax_bbox))
+                |                       ^ (bad-continuation)
+C:127, 0: Wrong hanging indentation (remove 24 spaces).
+                                        _get_right(tight_bbox, ax_bbox))
+                |                       ^ (bad-continuation)
+C:130, 0: Wrong hanging indentation (remove 24 spaces).
+                                        _get_top(tight_bbox, ax_bbox))
+                |                       ^ (bad-continuation)
+C:133, 0: Wrong hanging indentation (remove 24 spaces).
+                                        _get_bottom(tight_bbox, ax_bbox))
+                |                       ^ (bad-continuation)
+C:141, 0: Wrong hanging indentation (remove 16 spaces).
+                                    _get_left(tight_bbox, ax_bbox))
+                    |               ^ (bad-continuation)
+C:144, 0: Wrong hanging indentation (remove 16 spaces).
+                                    _get_right(tight_bbox, ax_bbox))
+                    |               ^ (bad-continuation)
+C:148, 0: Wrong hanging indentation (remove 16 spaces).
+                                    _get_top(tight_bbox, ax_bbox))
+                    |               ^ (bad-continuation)
+C:151, 0: Wrong hanging indentation (remove 16 spaces).
+                                    _get_bottom(tight_bbox, ax_bbox))
+                    |               ^ (bad-continuation)
+C: 17, 0: Constant name "rcParams" doesn't conform to UPPER_CASE naming style (invalid-name)
+R: 36, 0: Too many arguments (10/5) (too-many-arguments)
+R: 36, 0: Too many local variables (44/15) (too-many-locals)
+C: 80,50: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:175, 8: Access to a protected member _warn_external of a client class (protected-access)
+W:180, 8: Access to a protected member _warn_external of a client class (protected-access)
+W:198,12: Access to a protected member _warn_external of a client class (protected-access)
+W:210,12: Access to a protected member _warn_external of a client class (protected-access)
+R: 36, 0: Too many branches (31/12) (too-many-branches)
+R: 36, 0: Too many statements (81/50) (too-many-statements)
+C:220, 0: Missing function docstring (missing-docstring)
+W:221, 7: Access to a protected member _cachedRenderer of a client class (protected-access)
+W:222,19: Access to a protected member _cachedRenderer of a client class (protected-access)
+W:230,12: Access to a protected member _warn_external of a client class (protected-access)
+C:248, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:256,12: Variable name "gs" doesn't conform to snake_case naming style (invalid-name)
+R:270, 0: Too many arguments (8/5) (too-many-arguments)
+R:270, 0: Too many local variables (40/15) (too-many-locals)
+C:311, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:327, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:327,31: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:339,12: Access to a protected member _warn_external of a client class (protected-access)
+W:344,12: Access to a protected member _warn_external of a client class (protected-access)
+C:349, 8: Variable name "rowNum1" doesn't conform to snake_case naming style (invalid-name)
+C:349,17: Variable name "colNum1" doesn't conform to snake_case naming style (invalid-name)
+C:351,12: Variable name "rowNum2" doesn't conform to snake_case naming style (invalid-name)
+C:351,21: Variable name "colNum2" doesn't conform to snake_case naming style (invalid-name)
+C:353,12: Variable name "rowNum2" doesn't conform to snake_case naming style (invalid-name)
+C:353,21: Variable name "colNum2" doesn't conform to snake_case naming style (invalid-name)
+R:270, 0: Too many branches (14/12) (too-many-branches)
+
+
+Report
+======
+176 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |8      |NC         |NC         |87.50       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.tight_layout)
+      \-backends 
+      | \-backend_agg (matplotlib.tight_layout)
+      \-cbook (matplotlib.tight_layout)
+      \-font_manager (matplotlib.tight_layout)
+      \-transforms (matplotlib.tight_layout)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |229    |57.39 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |84     |21.05 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |22     |5.51  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |64     |16.04 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |22     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |7      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |9      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------+------------+
+|message id          |occurrences |
++====================+============+
+|invalid-name        |10          |
++--------------------+------------+
+|protected-access    |9           |
++--------------------+------------+
+|bad-continuation    |8           |
++--------------------+------------+
+|len-as-condition    |3           |
++--------------------+------------+
+|too-many-locals     |2           |
++--------------------+------------+
+|too-many-branches   |2           |
++--------------------+------------+
+|too-many-arguments  |2           |
++--------------------+------------+
+|too-many-statements |1           |
++--------------------+------------+
+|missing-docstring   |1           |
++--------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.84/10
+

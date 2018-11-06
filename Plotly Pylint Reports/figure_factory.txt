@@ -1,0 +1,1105 @@
+************* Module plotly.figure_factory
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: third party import "import numpy" should be placed before "from plotly import optional_imports" (wrong-import-order)
+C:  8, 0: Imports from package plotly are not grouped (ungrouped-imports)
+************* Module plotly.figure_factory.utils
+W: 15, 0: TODO: make PLOTLY_SCALES below like version in plotly.colors (fixme)
+W:440, 0: TODO Write tests for these exceptions (fixme)
+C:182, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+W:431, 0: Bad indentation. Found 12 spaces, expected 8 (bad-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 38, 0: Missing function docstring (missing-docstring)
+W:152,34: Redefining name 'n_colors' from outer scope (line 152) (redefined-outer-name)
+C:194, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:214, 0: Function name "unconvert_from_RGB_255" doesn't conform to snake_case naming style (invalid-name)
+C:228, 0: Function name "convert_to_RGB_255" doesn't conform to snake_case naming style (invalid-name)
+R:285, 8: Unnecessary "else" after "return" (no-else-return)
+R:266, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:294, 0: Too many branches (18/12) (too-many-branches)
+R:468,12: Consider merging these isinstance calls to isinstance(endpts, (list, tuple)) (consider-merging-isinstance)
+W:486, 4: Else clause on loop without a break statement (useless-else-on-loop)
+R:500, 0: Too many arguments (8/5) (too-many-arguments)
+C:519, 4: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:524,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:525,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:528,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:529,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:535,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:536,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:540,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:542,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:545,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+************* Module plotly.figure_factory._2d_density
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 21, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R: 21, 0: Too many arguments (10/5) (too-many-arguments)
+R: 21, 0: Too many local variables (18/15) (too-many-locals)
+************* Module plotly.figure_factory._annotated_heatmap
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Constant name "np" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 12, 0: Argument name "z" doesn't conform to snake_case naming style (invalid-name)
+C: 12, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 12, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 26, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C: 44, 0: Argument name "z" doesn't conform to snake_case naming style (invalid-name)
+C: 44, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 44, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R: 44, 0: Too many arguments (8/5) (too-many-arguments)
+C:122, 0: Missing function docstring (missing-docstring)
+R:123, 4: Unnecessary "else" after "return" (no-else-return)
+C:131, 0: Missing function docstring (missing-docstring)
+C:144, 8: Attribute name "z" doesn't conform to snake_case naming style (invalid-name)
+C:146,12: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+C:150,12: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+R:141, 4: Too many arguments (8/5) (too-many-arguments)
+W:141, 0: Unused argument 'kwargs' (unused-argument)
+C:251,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:252,16: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+************* Module plotly.figure_factory._bullet
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Constant name "pd" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 15, 0: Missing function docstring (missing-docstring)
+C: 20, 0: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+R: 20, 0: Too many arguments (13/5) (too-many-arguments)
+R: 20, 0: Too many local variables (30/15) (too-many-locals)
+E: 59,15: Non-iterable value fig['layout'] is used in an iterating context (not-an-iterable)
+E: 61,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E: 62,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E: 64,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E: 66,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E: 67,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E: 71, 8: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+C: 85,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 87,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 89,12: Black listed name "bar" (blacklisted-name)
+C:111,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:113,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:115,12: Black listed name "bar" (blacklisted-name)
+C:132, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:133, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+E:162, 8: "fig['layout']" does not support item assignment (unsupported-assignment-operation)
+W: 20,25: Unused argument 'measures' (unused-argument)
+W: 20,35: Unused argument 'ranges' (unused-argument)
+W: 20,43: Unused argument 'subtitles' (unused-argument)
+W: 20,54: Unused argument 'titles' (unused-argument)
+R: 20, 0: Too many branches (16/12) (too-many-branches)
+R: 20, 0: Too many statements (53/50) (too-many-statements)
+W:167, 0: Dangerous default value {} as argument (dangerous-default-value)
+R:167, 0: Too many arguments (12/5) (too-many-arguments)
+R:167, 0: Too many local variables (23/15) (too-many-locals)
+E:260,14: Module 'plotly.exceptions' has no 'ImportError' member (no-member)
+C:279, 8: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+C:290, 8: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+C:300, 4: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+C:304,17: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R:167, 0: Too many branches (17/12) (too-many-branches)
+************* Module plotly.figure_factory._candlestick
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 10,27: Redefining built-in 'open' (redefined-builtin)
+W: 55,27: Redefining built-in 'open' (redefined-builtin)
+W: 92,23: Redefining built-in 'open' (redefined-builtin)
+R: 92, 0: Too many arguments (6/5) (too-many-arguments)
+R:214, 7: Comparison to literal (literal-comparison)
+R:218, 9: Comparison to literal (literal-comparison)
+C:243,12: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+W:237,23: Redefining built-in 'open' (redefined-builtin)
+R:237, 4: Too many arguments (6/5) (too-many-arguments)
+W:237, 0: Unused argument 'kwargs' (unused-argument)
+************* Module plotly.figure_factory._county_choropleth
+C: 32, 0: Exactly one space required after assignment
+    shape_pre2010 =  os.path.join(abs_package_data_dir_path, shape_pre2010)
+                  ^ (bad-whitespace)
+C: 40, 0: Exactly one space required after assignment
+    states_path =  os.path.join(abs_package_data_dir_path, states_path)
+                ^ (bad-whitespace)
+C:735, 0: Wrong hanging indentation (add 1 space).
+                    df, fips, values, index, f, simplify_county, level,
+                    ^| (bad-continuation)
+C:736, 0: Wrong hanging indentation (add 1 space).
+                    x_centroids, y_centroids, centroid_text, x_traces,
+                    ^| (bad-continuation)
+C:737, 0: Wrong hanging indentation (add 1 space).
+                    y_traces, fips_polygon_map
+                    ^| (bad-continuation)
+C:738, 0: Wrong hanging indentation.
+                )
+                ^|   | (bad-continuation)
+C:754, 0: Wrong hanging indentation (add 1 space).
+                    df, fips, values, index, f, simplify_county, level,
+                    ^| (bad-continuation)
+C:755, 0: Wrong hanging indentation (add 1 space).
+                    x_centroids, y_centroids, centroid_text, x_traces,
+                    ^| (bad-continuation)
+C:756, 0: Wrong hanging indentation (add 1 space).
+                    y_traces, fips_polygon_map
+                    ^| (bad-continuation)
+C:757, 0: Wrong hanging indentation.
+                )
+                ^|   | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 16, 0: Constant name "shapely" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 17, 0: Constant name "shapefile" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 18, 0: Constant name "gp" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 21,27: Redefining name 'st_to_state_name_dict' from outer scope (line 136) (redefined-outer-name)
+W: 21,50: Redefining name 'state_to_st_dict' from outer scope (line 190) (redefined-outer-name)
+R: 21, 0: Too many local variables (29/15) (too-many-locals)
+C: 51, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+E: 54,10: Module 'io' has no 'open' member (no-member)
+E: 55,10: Module 'io' has no 'open' member (no-member)
+E: 56,10: Module 'io' has no 'open' member (no-member)
+C: 58, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C: 72, 4: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 85, 4: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 98, 4: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:128, 4: Variable name "ST" doesn't conform to snake_case naming style (invalid-name)
+C:129, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+R: 21, 0: Too many statements (53/50) (too-many-statements)
+C:136, 0: Constant name "st_to_state_name_dict" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:190, 0: Constant name "state_to_st_dict" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:303, 0: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+C:303, 0: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+R:303, 0: Too many arguments (13/5) (too-many-arguments)
+R:303, 0: Too many local variables (23/15) (too-many-locals)
+C:309, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:312, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:333, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:335, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:352, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+W:303,22: Unused argument 'fips' (unused-argument)
+W:359, 0: Dangerous default value [] as argument (dangerous-default-value)
+R:359, 0: Too many arguments (17/5) (too-many-arguments)
+R:359, 0: Too many local variables (80/15) (too-many-locals)
+C:584, 4: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+W:619,15: Lambda may not be necessary (unnecessary-lambda)
+C:623, 8: Variable name "LEVELS" doesn't conform to snake_case naming style (invalid-name)
+C:627,12: Variable name "LEVELS" doesn't conform to snake_case naming style (invalid-name)
+C:634,16: Variable name "LEVELS" doesn't conform to snake_case naming style (invalid-name)
+C:658,12: Variable name "L" doesn't conform to snake_case naming style (invalid-name)
+W:665,44: Using possibly undefined loop variable 'idx' (undefined-loop-variable)
+W:666,40: Using possibly undefined loop variable 'idx' (undefined-loop-variable)
+W:666,65: Using possibly undefined loop variable 'idx' (undefined-loop-variable)
+W:669,31: Using possibly undefined loop variable 'idx' (undefined-loop-variable)
+W:670,31: Using possibly undefined loop variable 'idx' (undefined-loop-variable)
+C:728,19: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:731,16: Statement seems to have no effect (pointless-statement)
+C:743,19: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:747,27: Using possibly undefined loop variable 'j' (undefined-loop-variable)
+W:750,16: Statement seems to have no effect (pointless-statement)
+C:761, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:777,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:778,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:782,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:784,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:786,12: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:841, 4: Variable name "DEFAULT_LAYOUT" doesn't conform to snake_case naming style (invalid-name)
+R:359, 0: Too many branches (54/12) (too-many-branches)
+R:359, 0: Too many statements (166/50) (too-many-statements)
+C:  5, 0: standard import "import io" should be placed before "from plotly import colors, exceptions, optional_imports" (wrong-import-order)
+C:  6, 0: third party import "import numpy as np" should be placed before "from plotly import colors, exceptions, optional_imports" (wrong-import-order)
+C:  7, 0: standard import "import os" should be placed before "import numpy as np" (wrong-import-order)
+C:  8, 0: third party import "import pandas as pd" should be placed before "from plotly import colors, exceptions, optional_imports" (wrong-import-order)
+C:  9, 0: standard import "import warnings" should be placed before "import numpy as np" (wrong-import-order)
+C: 11, 0: standard import "from math import log, floor" should be placed before "import numpy as np" (wrong-import-order)
+C: 12, 0: standard import "from numbers import Number" should be placed before "import numpy as np" (wrong-import-order)
+************* Module plotly.figure_factory._dendrogram
+C:128, 0: Wrong continued indentation (remove 3 spaces).
+            ordered_labels, leaves) = self.get_dendrogram_traces(X, colorscale,
+         |  ^ (bad-continuation)
+C:148, 0: Line too long (107/100) (line-too-long)
+C:210, 0: Wrong hanging indentation (remove 4 spaces).
+                'type': 'linear',
+            |   ^ (bad-continuation)
+C:211, 0: Wrong hanging indentation (remove 4 spaces).
+                'ticks': 'outside',
+            |   ^ (bad-continuation)
+C:212, 0: Wrong hanging indentation (remove 4 spaces).
+                'mirror': 'allticks',
+            |   ^ (bad-continuation)
+C:213, 0: Wrong hanging indentation (remove 4 spaces).
+                'rangemode': 'tozero',
+            |   ^ (bad-continuation)
+C:214, 0: Wrong hanging indentation (remove 4 spaces).
+                'showticklabels': True,
+            |   ^ (bad-continuation)
+C:215, 0: Wrong hanging indentation (remove 4 spaces).
+                'zeroline': False,
+            |   ^ (bad-continuation)
+C:216, 0: Wrong hanging indentation (remove 4 spaces).
+                'showgrid': False,
+            |   ^ (bad-continuation)
+C:217, 0: Wrong hanging indentation (remove 4 spaces).
+                'showline': True,
+            |   ^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Constant name "np" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 12, 0: Constant name "scp" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 13, 0: Constant name "sch" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 14, 0: Constant name "scs" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 17, 0: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+R: 17, 0: Too many arguments (8/5) (too-many-arguments)
+C: 82, 4: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+R: 97, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+R:100, 4: Too many arguments (13/5) (too-many-arguments)
+R:100, 4: Too many local variables (25/15) (too-many-locals)
+C:141, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:173, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+R:162, 4: Method could be a function (no-self-use)
+C:220,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:253, 4: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+R:253, 4: Too many arguments (7/5) (too-many-arguments)
+R:253, 4: Too many local variables (25/15) (too-many-locals)
+C:275, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:276, 8: Variable name "Z" doesn't conform to snake_case naming style (invalid-name)
+C:277, 8: Variable name "P" doesn't conform to snake_case naming style (invalid-name)
+C:289, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:293,16: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:295,16: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:298,16: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:300,16: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+************* Module plotly.figure_factory._distplot
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Constant name "np" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:  9, 0: Constant name "pd" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 10, 0: Constant name "scipy" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 11, 0: Constant name "scipy_stats" doesn't conform to UPPER_CASE naming style (invalid-name)
+R: 49, 0: Too many arguments (10/5) (too-many-arguments)
+R:236, 0: Too many instance attributes (13/7) (too-many-instance-attributes)
+R:240, 4: Too many arguments (10/5) (too-many-arguments)
+W:241,27: Unused argument 'curve_type' (unused-argument)
+C:340, 8: Variable name "sd" doesn't conform to snake_case naming style (invalid-name)
+************* Module plotly.figure_factory._facet_grid
+C:150, 0: Wrong hanging indentation (add 1 space).
+               'fillcolor': annot_rect_color,
+               ^| (bad-continuation)
+C:151, 0: Wrong hanging indentation (add 1 space).
+               'layer': 'below',
+               ^| (bad-continuation)
+C:152, 0: Wrong hanging indentation (add 1 space).
+               'line': {'color': annot_rect_color, 'width': 1},
+               ^| (bad-continuation)
+C:153, 0: Wrong hanging indentation (add 1 space).
+               'type': 'rect',
+               ^| (bad-continuation)
+C:154, 0: Wrong hanging indentation (add 1 space).
+               'xref': 'paper',
+               ^| (bad-continuation)
+C:155, 0: Wrong hanging indentation (add 1 space).
+               'yref': 'paper'
+               ^| (bad-continuation)
+C:  1, 0: Too many lines in module (1111/1000) (too-many-lines)
+W:606, 0: Anomalous backslash in string: '\s'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Constant name "pd" doesn't conform to UPPER_CASE naming style (invalid-name)
+R: 36, 4: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+C: 72, 0: Argument name "SUBPLOT_SPACING" doesn't conform to snake_case naming style (invalid-name)
+R: 72, 0: Too many arguments (6/5) (too-many-arguments)
+C: 74, 4: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C: 79,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 80,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 83,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 84,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 90,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 91,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 96,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 97,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:188, 0: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+C:188, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:188, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:188, 0: Argument name "SUBPLOT_SPACING" doesn't conform to snake_case naming style (invalid-name)
+R:188, 0: Too many arguments (19/5) (too-many-arguments)
+R:188, 0: Too many local variables (41/15) (too-many-locals)
+W:192,34: Unused argument 'show_boxes' (unused-argument)
+W:192,63: Unused argument 'marker_color' (unused-argument)
+R:188, 0: Too many branches (19/12) (too-many-branches)
+R:188, 0: Too many statements (54/50) (too-many-statements)
+C:337, 0: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+C:337, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:337, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:337, 0: Argument name "SUBPLOT_SPACING" doesn't conform to snake_case naming style (invalid-name)
+R:337, 0: Too many arguments (19/5) (too-many-arguments)
+R:337, 0: Too many local variables (35/15) (too-many-locals)
+W:341,60: Unused argument 'show_boxes' (unused-argument)
+W:342,49: Unused argument 'marker_color' (unused-argument)
+R:337, 0: Too many branches (16/12) (too-many-branches)
+C:477, 0: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+C:477, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:477, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:477, 0: Argument name "SUBPLOT_SPACING" doesn't conform to snake_case naming style (invalid-name)
+R:477, 0: Too many arguments (17/5) (too-many-arguments)
+R:477, 0: Too many local variables (32/15) (too-many-locals)
+W:479,56: Unused argument 'show_boxes' (unused-argument)
+R:477, 0: Too many branches (14/12) (too-many-branches)
+C:600, 0: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+C:600, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:600, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:600, 0: Too many arguments (19/5) (too-many-arguments)
+R:600, 0: Too many local variables (55/15) (too-many-locals)
+E:771,14: Module 'plotly.exceptions' has no 'ImportError' member (no-member)
+C:815, 8: Variable name "SUBPLOT_SPACING" doesn't conform to snake_case naming style (invalid-name)
+C:817, 8: Variable name "SUBPLOT_SPACING" doesn't conform to snake_case naming style (invalid-name)
+E:992, 4: "fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:993, 4: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:994, 4: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:995, 4: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:996, 4: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:997, 4: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1000, 8: "fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:1005,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1008, 4: "fig['layout']" does not support item assignment (unsupported-assignment-operation)
+E:1016,15: Non-iterable value fig['layout'] is used in an iterating context (not-an-iterable)
+C:1033,19: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+E:1035,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1050,21: Non-iterable value fig['data'] is used in an iterating context (not-an-iterable)
+C:1051,42: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:1091,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1092,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1093,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1095,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1096,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1097,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1099,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1100,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1101,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:1107,23: Non-iterable value fig['layout'] is used in an iterating context (not-an-iterable)
+E:1109,20: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+W:605,54: Unused argument 'binsize' (unused-argument)
+R:600, 0: Too many branches (90/12) (too-many-branches)
+R:600, 0: Too many statements (195/50) (too-many-statements)
+C:  7, 0: standard import "import math" should be placed before "from plotly import colors, exceptions, optional_imports" (wrong-import-order)
+C:  8, 0: standard import "from numbers import Number" should be placed before "from plotly import colors, exceptions, optional_imports" (wrong-import-order)
+************* Module plotly.figure_factory._gantt
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Constant name "pd" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 14, 0: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+R: 53, 0: Too many arguments (12/5) (too-many-arguments)
+R: 53, 0: Too many local variables (21/15) (too-many-locals)
+C: 65, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C: 83, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C: 84, 8: Variable name "tn" doesn't conform to snake_case naming style (invalid-name)
+C: 96, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C: 97, 8: Variable name "tn" doesn't conform to snake_case naming style (invalid-name)
+C:103, 8: Variable name "groupID" doesn't conform to snake_case naming style (invalid-name)
+C:105,12: Variable name "groupID" doesn't conform to snake_case naming style (invalid-name)
+R:178, 0: Too many arguments (14/5) (too-many-arguments)
+R:178, 0: Too many local variables (34/15) (too-many-locals)
+C:192, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:222, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:223,12: Variable name "tn" doesn't conform to snake_case naming style (invalid-name)
+C:234, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:235,12: Variable name "tn" doesn't conform to snake_case naming style (invalid-name)
+C:241,12: Variable name "groupID" doesn't conform to snake_case naming style (invalid-name)
+C:243,16: Variable name "groupID" doesn't conform to snake_case naming style (invalid-name)
+C:316, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:317,12: Variable name "tn" doesn't conform to snake_case naming style (invalid-name)
+C:328, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:329,12: Variable name "tn" doesn't conform to snake_case naming style (invalid-name)
+C:334,12: Variable name "groupID" doesn't conform to snake_case naming style (invalid-name)
+C:336,16: Variable name "groupID" doesn't conform to snake_case naming style (invalid-name)
+R:178, 0: Too many branches (28/12) (too-many-branches)
+R:178, 0: Too many statements (82/50) (too-many-statements)
+R:426, 0: Too many arguments (14/5) (too-many-arguments)
+R:426, 0: Too many local variables (28/15) (too-many-locals)
+C:440, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:474, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:475, 8: Variable name "tn" doesn't conform to snake_case naming style (invalid-name)
+C:486, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:487, 8: Variable name "tn" doesn't conform to snake_case naming style (invalid-name)
+C:493, 8: Variable name "groupID" doesn't conform to snake_case naming style (invalid-name)
+C:495,12: Variable name "groupID" doesn't conform to snake_case naming style (invalid-name)
+R:426, 0: Too many branches (17/12) (too-many-branches)
+C:584, 0: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+R:584, 0: Too many arguments (15/5) (too-many-arguments)
+R:584, 0: Too many local variables (19/15) (too-many-locals)
+R:767, 8: Unnecessary "else" after "return" (no-else-return)
+W:587,17: Unused argument 'tasks' (unused-argument)
+W:587,29: Unused argument 'task_names' (unused-argument)
+W:587,46: Unused argument 'data' (unused-argument)
+************* Module plotly.figure_factory._ohlc
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 13,18: Redefining built-in 'open' (redefined-builtin)
+C: 30, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C: 40, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+W: 13, 0: Unused argument 'kwargs' (unused-argument)
+W: 56,25: Redefining built-in 'open' (redefined-builtin)
+W:100,25: Redefining built-in 'open' (redefined-builtin)
+W:133,16: Redefining built-in 'open' (redefined-builtin)
+R:133, 0: Too many arguments (6/5) (too-many-arguments)
+R:267, 7: Comparison to literal (literal-comparison)
+R:271, 9: Comparison to literal (literal-comparison)
+R:288, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+W:292,23: Redefining built-in 'open' (redefined-builtin)
+R:292, 4: Too many arguments (6/5) (too-many-arguments)
+W:292, 0: Unused argument 'kwargs' (unused-argument)
+************* Module plotly.figure_factory._quiver
+C:122, 0: Trailing whitespace (trailing-whitespace)
+C:123, 0: Trailing whitespace (trailing-whitespace)
+C:125, 0: Wrong continued indentation (add 5 spaces).
+                                y=barb_y + arrow_y,
+                                ^    | (bad-continuation)
+C:126, 0: Wrong continued indentation (add 5 spaces).
+                                mode='lines', **kwargs)
+                                ^    | (bad-continuation)
+C:136, 0: No space allowed around keyword argument assignment
+                scaleratio = scaleratio,
+                           ^ (bad-whitespace)
+C:137, 0: No space allowed around keyword argument assignment
+                scaleanchor = "x"
+                            ^ (bad-whitespace)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 10, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 10, 0: Argument name "u" doesn't conform to snake_case naming style (invalid-name)
+C: 10, 0: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
+R: 10, 0: Too many arguments (8/5) (too-many-arguments)
+R: 10, 0: Too many local variables (17/15) (too-many-locals)
+C:169, 8: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+C:170, 8: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+C:171, 8: Attribute name "u" doesn't conform to snake_case naming style (invalid-name)
+C:172, 8: Attribute name "v" doesn't conform to snake_case naming style (invalid-name)
+R:143, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+R:147, 4: Too many arguments (9/5) (too-many-arguments)
+W:147, 0: Unused argument 'kwargs' (unused-argument)
+W:180, 8: Unused variable 'barb_x' (unused-variable)
+W:180,16: Unused variable 'barb_y' (unused-variable)
+W:181, 8: Unused variable 'arrow_x' (unused-variable)
+W:181,17: Unused variable 'arrow_y' (unused-variable)
+R:214, 4: Too many local variables (25/15) (too-many-locals)
+C:236, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:245, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:253, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:258, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:263, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:268, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+************* Module plotly.figure_factory._scatterplot
+W:1070, 0: TODO: protected until #282 (fixme)
+C:209, 0: Wrong continued indentation (remove 1 space).
+                      height, width, title, index, index_vals,
+                     |^ (bad-continuation)
+C:210, 0: Wrong continued indentation (remove 1 space).
+                      endpts, colormap, colormap_type, **kwargs):
+                     |^ (bad-continuation)
+C:  1, 0: Too many lines in module (1136/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  8, 0: Constant name "pd" doesn't conform to UPPER_CASE naming style (invalid-name)
+R: 29,12: Consider merging these isinstance calls to isinstance(endpts, (list, tuple)) (consider-merging-isinstance)
+W: 47, 4: Else clause on loop without a break statement (useless-else-on-loop)
+C: 61, 0: Function name "hide_tick_labels_from_box_subplots" doesn't conform to snake_case naming style (invalid-name)
+C: 77, 0: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+C:120, 8: Variable name "FORBIDDEN_PARAMS" doesn't conform to snake_case naming style (invalid-name)
+W: 77,35: Unused argument 'index' (unused-argument)
+R:132, 0: Too many arguments (7/5) (too-many-arguments)
+R:132, 0: Too many local variables (21/15) (too-many-locals)
+E:192, 8: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:195, 8: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+R:208, 0: Too many arguments (12/5) (too-many-arguments)
+R:208, 0: Too many local variables (32/15) (too-many-locals)
+C:240,16: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+R:228, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:228, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+E:345, 8: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:349, 8: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+R:353, 4: Unnecessary "else" after "return" (no-else-return)
+W:209,44: Unused argument 'index' (unused-argument)
+W:210,22: Unused argument 'endpts' (unused-argument)
+W:210,40: Unused argument 'colormap_type' (unused-argument)
+R:208, 0: Too many branches (23/12) (too-many-branches)
+R:208, 0: Too many statements (51/50) (too-many-statements)
+R:369, 0: Too many arguments (12/5) (too-many-arguments)
+R:369, 0: Too many local variables (40/15) (too-many-locals)
+C:389,12: Black listed name "foo" (blacklisted-name)
+C:390,12: Black listed name "foo" (blacklisted-name)
+C:415,20: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+R:380, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+R:380, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:380, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+E:523,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:527,12: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+R:531, 8: Unnecessary "else" after "return" (no-else-return)
+C:559,16: Black listed name "foo" (blacklisted-name)
+C:560,16: Black listed name "foo" (blacklisted-name)
+C:583,24: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+R:380, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:380, 4: Too many nested blocks (8/5) (too-many-nested-blocks)
+R:380, 4: Too many nested blocks (8/5) (too-many-nested-blocks)
+R:380, 4: Too many nested blocks (6/5) (too-many-nested-blocks)
+E:693,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:696,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+R:700,12: Unnecessary "else" after "return" (no-else-return)
+C:730,12: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+R:380, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+R:380, 4: Too many nested blocks (7/5) (too-many-nested-blocks)
+E:840,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+E:843,16: Value 'fig['layout']' is unsubscriptable (unsubscriptable-object)
+R:847,12: Unnecessary "else" after "return" (no-else-return)
+W:370,22: Unused argument 'index' (unused-argument)
+R:369, 0: Too many return statements (9/6) (too-many-return-statements)
+R:369, 0: Too many branches (78/12) (too-many-branches)
+R:369, 0: Too many statements (181/50) (too-many-statements)
+C:870, 0: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+R:870, 0: Too many arguments (13/5) (too-many-arguments)
+R:870, 0: Too many local variables (17/15) (too-many-locals)
+R:1116, 8: Unnecessary "else" after "return" (no-else-return)
+W:1117,16: Unused variable 'key' (unused-variable)
+R:870, 0: Too many branches (17/12) (too-many-branches)
+************* Module plotly.figure_factory._streamline
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Constant name "np" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 12, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 12, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 38, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 38, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 38, 0: Argument name "u" doesn't conform to snake_case naming style (invalid-name)
+C: 38, 0: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
+R: 38, 0: Too many arguments (7/5) (too-many-arguments)
+C:147, 8: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+C:148, 8: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+C:149, 8: Attribute name "u" doesn't conform to snake_case naming style (invalid-name)
+C:150, 8: Attribute name "v" doesn't conform to snake_case naming style (invalid-name)
+R:140, 0: Too many instance attributes (18/7) (too-many-instance-attributes)
+R:144, 4: Too many arguments (8/5) (too-many-arguments)
+W:144, 0: Unused argument 'kwargs' (unused-argument)
+W:176, 8: Unused variable 'streamline_x' (unused-variable)
+W:176,22: Unused variable 'streamline_y' (unused-variable)
+W:177, 8: Unused variable 'arrows_x' (unused-variable)
+W:177,18: Unused variable 'arrows_y' (unused-variable)
+C:179, 4: Argument name "xi" doesn't conform to snake_case naming style (invalid-name)
+C:179, 4: Argument name "yi" doesn't conform to snake_case naming style (invalid-name)
+C:186, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:186, 4: Argument name "xi" doesn't conform to snake_case naming style (invalid-name)
+C:186, 4: Argument name "yi" doesn't conform to snake_case naming style (invalid-name)
+C:200, 8: Variable name "xt" doesn't conform to snake_case naming style (invalid-name)
+C:201, 8: Variable name "yt" doesn't conform to snake_case naming style (invalid-name)
+C:202, 8: Variable name "a0" doesn't conform to snake_case naming style (invalid-name)
+C:203, 8: Variable name "a1" doesn't conform to snake_case naming style (invalid-name)
+C:206, 4: Argument name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:206, 4: Argument name "y0" doesn't conform to snake_case naming style (invalid-name)
+R:206, 4: Too many local variables (23/15) (too-many-locals)
+C:213, 8: Function name "f" doesn't conform to snake_case naming style (invalid-name)
+C:213, 8: Argument name "xi" doesn't conform to snake_case naming style (invalid-name)
+C:213, 8: Argument name "yi" doesn't conform to snake_case naming style (invalid-name)
+C:213, 8: Missing function docstring (missing-docstring)
+C:215,12: Variable name "ui" doesn't conform to snake_case naming style (invalid-name)
+C:216,12: Variable name "vi" doesn't conform to snake_case naming style (invalid-name)
+C:219, 8: Function name "g" doesn't conform to snake_case naming style (invalid-name)
+C:219, 8: Argument name "xi" doesn't conform to snake_case naming style (invalid-name)
+C:219, 8: Argument name "yi" doesn't conform to snake_case naming style (invalid-name)
+C:219, 8: Missing function docstring (missing-docstring)
+C:221,12: Variable name "ui" doesn't conform to snake_case naming style (invalid-name)
+C:222,12: Variable name "vi" doesn't conform to snake_case naming style (invalid-name)
+C:230, 8: Argument name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:230, 8: Argument name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:230, 8: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+C:230, 8: Missing function docstring (missing-docstring)
+R:230, 8: Too many local variables (21/15) (too-many-locals)
+C:231,12: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+C:233,12: Variable name "xi" doesn't conform to snake_case naming style (invalid-name)
+C:234,12: Variable name "yi" doesn't conform to snake_case naming style (invalid-name)
+C:235,12: Variable name "xb" doesn't conform to snake_case naming style (invalid-name)
+C:235,16: Variable name "yb" doesn't conform to snake_case naming style (invalid-name)
+C:248,16: Variable name "xi" doesn't conform to snake_case naming style (invalid-name)
+C:249,16: Variable name "yi" doesn't conform to snake_case naming style (invalid-name)
+C:259,24: Variable name "xb" doesn't conform to snake_case naming style (invalid-name)
+C:260,24: Variable name "yb" doesn't conform to snake_case naming style (invalid-name)
+C:267, 8: Variable name "sf" doesn't conform to snake_case naming style (invalid-name)
+C:268, 8: Variable name "sb" doesn't conform to snake_case naming style (invalid-name)
+R:275, 8: Unnecessary "else" after "return" (no-else-return)
+C:280,16: Variable name "xb" doesn't conform to snake_case naming style (invalid-name)
+C:280,20: Variable name "yb" doesn't conform to snake_case naming style (invalid-name)
+C:284, 4: Argument name "xb" doesn't conform to snake_case naming style (invalid-name)
+C:284, 4: Argument name "yb" doesn't conform to snake_case naming style (invalid-name)
+C:297,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:306,16: Variable name "xi" doesn't conform to snake_case naming style (invalid-name)
+R:325, 4: Too many local variables (24/15) (too-many-locals)
+C:376, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+************* Module plotly.figure_factory._table
+C: 92, 0: Line too long (130/100) (line-too-long)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Constant name "pd" doesn't conform to UPPER_CASE naming style (invalid-name)
+R: 26, 0: Too many arguments (8/5) (too-many-arguments)
+C:153, 8: Attribute name "x" doesn't conform to snake_case naming style (invalid-name)
+C:154, 8: Attribute name "y" doesn't conform to snake_case naming style (invalid-name)
+R:137, 4: Too many arguments (7/5) (too-many-arguments)
+C:146,16: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+W:137, 0: Unused argument 'kwargs' (unused-argument)
+C:213,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:214,16: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+W:210, 8: Unused variable 'table_matrix' (unused-variable)
+************* Module plotly.figure_factory._trisurf
+C:202, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Constant name "np" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 40,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 53,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 75, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 75, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 75, 0: Argument name "z" doesn't conform to snake_case naming style (invalid-name)
+R: 75, 0: Too many arguments (14/5) (too-many-arguments)
+R: 75, 0: Too many local variables (40/15) (too-many-locals)
+C: 85, 4: Variable name "points3D" doesn't conform to snake_case naming style (invalid-name)
+C:102, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:105,20: Black listed name "foo" (blacklisted-name)
+C:109,16: Black listed name "foo" (blacklisted-name)
+C:134, 8: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:141, 4: Variable name "ii" doesn't conform to snake_case naming style (invalid-name)
+C:141, 8: Variable name "jj" doesn't conform to snake_case naming style (invalid-name)
+C:141,12: Variable name "kk" doesn't conform to snake_case naming style (invalid-name)
+R:169, 8: Unnecessary "else" after "return" (no-else-return)
+R:216, 4: Unnecessary "else" after "return" (no-else-return)
+R: 75, 0: Too many branches (25/12) (too-many-branches)
+R: 75, 0: Too many statements (67/50) (too-many-statements)
+C:222, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:222, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:222, 0: Argument name "z" doesn't conform to snake_case naming style (invalid-name)
+R:222, 0: Too many arguments (18/5) (too-many-arguments)
+R:222, 0: Too many local variables (21/15) (too-many-locals)
+************* Module plotly.figure_factory._violin
+C:135, 0: Wrong continued indentation (add 7 spaces).
+                             range=xaxis_range,
+                             ^      | (bad-continuation)
+C:136, 0: Wrong continued indentation (add 7 spaces).
+                             showgrid=False,
+                             ^      | (bad-continuation)
+C:137, 0: Wrong continued indentation (add 7 spaces).
+                             zeroline=False,
+                             ^      | (bad-continuation)
+C:138, 0: Wrong continued indentation (add 7 spaces).
+                             showline=False,
+                             ^      | (bad-continuation)
+C:139, 0: Wrong continued indentation (add 7 spaces).
+                             mirror=False,
+                             ^      | (bad-continuation)
+C:140, 0: Wrong continued indentation (add 7 spaces).
+                             ticks='',
+                             ^      | (bad-continuation)
+C:141, 0: Wrong continued indentation (add 7 spaces).
+                             showticklabels=False)
+                             ^      | (bad-continuation)
+C:150, 0: Wrong continued indentation (add 7 spaces).
+                             showticklabels=True,
+                             ^      | (bad-continuation)
+C:151, 0: Wrong continued indentation (add 7 spaces).
+                             autorange=True,
+                             ^      | (bad-continuation)
+C:152, 0: Wrong continued indentation (add 7 spaces).
+                             ticklen=4,
+                             ^      | (bad-continuation)
+C:153, 0: Wrong continued indentation (add 7 spaces).
+                             showline=True,
+                             ^      | (bad-continuation)
+C:154, 0: Wrong continued indentation (add 7 spaces).
+                             zeroline=False,
+                             ^      | (bad-continuation)
+C:155, 0: Wrong continued indentation (add 7 spaces).
+                             showgrid=False,
+                             ^      | (bad-continuation)
+C:156, 0: Wrong continued indentation (add 7 spaces).
+                             mirror=False)
+                             ^      | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 10, 0: Constant name "pd" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 11, 0: Constant name "np" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 12, 0: Constant name "scipy_stats" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 19, 4: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 22, 4: Variable name "q2" doesn't conform to snake_case naming style (invalid-name)
+C: 23, 4: Variable name "q1" doesn't conform to snake_case naming style (invalid-name)
+C: 24, 4: Variable name "q3" doesn't conform to snake_case naming style (invalid-name)
+C: 30, 4: Variable name "d1" doesn't conform to snake_case naming style (invalid-name)
+C: 31, 4: Variable name "d2" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 43, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 0: Argument name "d1" doesn't conform to snake_case naming style (invalid-name)
+C: 83, 0: Argument name "d2" doesn't conform to snake_case naming style (invalid-name)
+C: 97, 0: Argument name "q1" doesn't conform to snake_case naming style (invalid-name)
+C: 97, 0: Argument name "q3" doesn't conform to snake_case naming style (invalid-name)
+C:115, 0: Argument name "q2" doesn't conform to snake_case naming style (invalid-name)
+C:130, 0: Function name "make_XAxis" doesn't conform to snake_case naming style (invalid-name)
+C:145, 0: Function name "make_YAxis" doesn't conform to snake_case naming style (invalid-name)
+R:160, 0: Too many local variables (17/15) (too-many-locals)
+C:168, 4: Variable name "q1" doesn't conform to snake_case naming style (invalid-name)
+C:169, 4: Variable name "q2" doesn't conform to snake_case naming style (invalid-name)
+C:170, 4: Variable name "q3" doesn't conform to snake_case naming style (invalid-name)
+C:171, 4: Variable name "d1" doesn't conform to snake_case naming style (invalid-name)
+C:172, 4: Variable name "d2" doesn't conform to snake_case naming style (invalid-name)
+C:177, 4: Variable name "xx" doesn't conform to snake_case naming style (invalid-name)
+C:179, 4: Variable name "yy" doesn't conform to snake_case naming style (invalid-name)
+R:196, 0: Too many arguments (11/5) (too-many-arguments)
+R:196, 0: Too many local variables (24/15) (too-many-locals)
+C:214, 4: Variable name "gb" doesn't conform to snake_case naming style (invalid-name)
+C:215, 4: Variable name "L" doesn't conform to snake_case naming style (invalid-name)
+C:222,11: Variable name "gr" doesn't conform to snake_case naming style (invalid-name)
+W:197,25: Unused argument 'use_colorscale' (unused-argument)
+W:197,41: Unused argument 'group_stats' (unused-argument)
+W:229, 8: Unused variable 'layout' (unused-variable)
+R:254, 0: Too many arguments (11/5) (too-many-arguments)
+R:254, 0: Too many local variables (33/15) (too-many-locals)
+C:279, 4: Variable name "gb" doesn't conform to snake_case naming style (invalid-name)
+C:280, 4: Variable name "L" doesn't conform to snake_case naming style (invalid-name)
+C:299,11: Variable name "gr" doesn't conform to snake_case naming style (invalid-name)
+W:254,63: Unused argument 'use_colorscale' (unused-argument)
+W:313, 8: Unused variable 'layout' (unused-variable)
+R:350, 0: Too many arguments (11/5) (too-many-arguments)
+R:350, 0: Too many local variables (24/15) (too-many-locals)
+C:375, 4: Variable name "gb" doesn't conform to snake_case naming style (invalid-name)
+C:376, 4: Variable name "L" doesn't conform to snake_case naming style (invalid-name)
+C:383,11: Variable name "gr" doesn't conform to snake_case naming style (invalid-name)
+W:350,57: Unused argument 'use_colorscale' (unused-argument)
+W:351,16: Unused argument 'group_stats' (unused-argument)
+W:387, 8: Unused variable 'layout' (unused-variable)
+R:411, 0: Too many arguments (11/5) (too-many-arguments)
+R:411, 0: Too many local variables (16/15) (too-many-locals)
+R:609,12: Unnecessary "else" after "return" (no-else-return)
+R:411, 0: Too many branches (18/12) (too-many-branches)
+R:  1, 0: Similar lines in 2 files
+==plotly.figure_factory._scatterplot:13
+==plotly.figure_factory.utils:452
+def endpts_to_intervals(endpts):
+    """
+    Returns a list of intervals for categorical colormaps
+
+    Accepts a list or tuple of sequentially increasing numbers and returns
+    a list representation of the mathematical intervals with these numbers
+    as endpoints. For example, [1, 6] returns [[-inf, 1], [1, 6], [6, inf]]
+
+    :raises: (PlotlyError) If input is not a list or tuple
+    :raises: (PlotlyError) If the input contains a string
+    :raises: (PlotlyError) If any number does not increase after the
+        previous one in the sequence
+    """
+    length = len(endpts)
+    # Check if endpts is a list or tuple
+    if not (isinstance(endpts, (tuple)) or isinstance(endpts, (list))):
+        raise exceptions.PlotlyError("The intervals_endpts argument must "
+                                     "be a list or tuple of a sequence "
+                                     "of increasing numbers.")
+    # Check if endpts contains only numbers
+    for item in endpts:
+        if isinstance(item, str):
+            raise exceptions.PlotlyError("The intervals_endpts argument "
+                                         "must be a list or tuple of a "
+                                         "sequence of increasing "
+                                         "numbers.")
+    # Check if numbers in endpts are increasing
+    for k in range(length - 1):
+        if endpts[k] >= endpts[k + 1]:
+            raise exceptions.PlotlyError("The intervals_endpts argument "
+                                         "must be a list or tuple of a "
+                                         "sequence of increasing "
+                                         "numbers.")
+    else:
+        intervals = []
+        # add -inf to intervals
+        intervals.append([float('-inf'), endpts[0]])
+        for k in range(length - 1):
+            interval = []
+            interval.append(endpts[k])
+            interval.append(endpts[k + 1])
+            intervals.append(interval)
+        # add +inf to intervals
+        intervals.append([endpts[length - 1], float('inf')])
+        return intervals
+
+ (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==plotly.figure_factory._facet_grid:97
+==plotly.figure_factory.utils:546
+            textangle = 0
+
+    annotation_dict = dict(
+        textangle=textangle,
+        xanchor=xanchor,
+        yanchor=yanchor,
+        x=x,
+        y=y,
+        showarrow=False,
+        xref='paper',
+        yref='paper', (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==plotly.figure_factory._gantt:0
+==plotly.figure_factory._violin:0
+from __future__ import absolute_import
+
+from numbers import Number
+
+from plotly import exceptions, optional_imports
+from plotly.figure_factory import utils
+from plotly.graph_objs import graph_objs (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==plotly.figure_factory._candlestick:207
+==plotly.figure_factory._ohlc:260
+    if dates is not None:
+        utils.validate_equal_length(open, high, low, close, dates)
+    else:
+        utils.validate_equal_length(open, high, low, close)
+    validate_ohlc(open, high, low, close, direction, **kwargs)
+
+    if direction is 'increasing': (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==plotly.figure_factory._facet_grid:83
+==plotly.figure_factory.utils:528
+            x = 1.03
+            textangle = 90
+    else:
+        if row_col == 'col':
+            xanchor = 'center'
+            yanchor = 'bottom' (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==plotly.figure_factory._candlestick:236
+==plotly.figure_factory._ohlc:291
+    def __init__(self, open, high, low, close, dates, **kwargs):
+        self.open = open
+        self.high = high
+        self.low = low
+        self.close = close (duplicate-code)
+
+
+Report
+======
+2944 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |18     |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |8      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |38     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |94     |NC         |NC         |92.55       |7.45     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    io (plotly.figure_factory._county_choropleth)
+    numpy (plotly.figure_factory,plotly.figure_factory._county_choropleth)
+    pandas (plotly.figure_factory._county_choropleth)
+    plotly (plotly.figure_factory._bullet)
+      \-colors (plotly.figure_factory._bullet,plotly.figure_factory._county_choropleth,plotly.figure_factory._facet_grid,plotly.figure_factory._scatterplot,plotly.figure_factory._trisurf)
+      \-exceptions (plotly.figure_factory._2d_density,plotly.figure_factory._annotated_heatmap,plotly.figure_factory._bullet,plotly.figure_factory._county_choropleth,plotly.figure_factory._dendrogram,plotly.figure_factory._distplot,plotly.figure_factory._facet_grid,plotly.figure_factory._gantt,plotly.figure_factory._ohlc,plotly.figure_factory._quiver,plotly.figure_factory._scatterplot,plotly.figure_factory._streamline,plotly.figure_factory._table,plotly.figure_factory._trisurf,plotly.figure_factory._violin,plotly.figure_factory.utils)
+      \-figure_factory 
+      | \-_2d_density (plotly.figure_factory)
+      | \-_annotated_heatmap (plotly.figure_factory)
+      | \-_bullet (plotly.figure_factory)
+      | \-_candlestick (plotly.figure_factory)
+      | \-_county_choropleth (plotly.figure_factory)
+      | \-_dendrogram (plotly.figure_factory)
+      | \-_distplot (plotly.figure_factory)
+      | \-_facet_grid (plotly.figure_factory)
+      | \-_gantt (plotly.figure_factory)
+      | \-_ohlc (plotly.figure_factory,plotly.figure_factory._candlestick)
+      | \-_quiver (plotly.figure_factory)
+      | \-_scatterplot (plotly.figure_factory)
+      | \-_streamline (plotly.figure_factory)
+      | \-_table (plotly.figure_factory)
+      | \-_trisurf (plotly.figure_factory)
+      | \-utils (plotly.figure_factory._2d_density,plotly.figure_factory._annotated_heatmap,plotly.figure_factory._bullet,plotly.figure_factory._candlestick,plotly.figure_factory._county_choropleth,plotly.figure_factory._distplot,plotly.figure_factory._facet_grid,plotly.figure_factory._gantt,plotly.figure_factory._ohlc,plotly.figure_factory._quiver,plotly.figure_factory._scatterplot,plotly.figure_factory._streamline,plotly.figure_factory._violin)
+      \-graph_objs (plotly.figure_factory._bullet)
+      | \-graph_objs (plotly.figure_factory._2d_density,plotly.figure_factory._annotated_heatmap,plotly.figure_factory._candlestick,plotly.figure_factory._dendrogram,plotly.figure_factory._distplot,plotly.figure_factory._gantt,plotly.figure_factory._ohlc,plotly.figure_factory._quiver,plotly.figure_factory._scatterplot,plotly.figure_factory._streamline,plotly.figure_factory._table,plotly.figure_factory._trisurf,plotly.figure_factory._violin)
+      \-optional_imports (plotly.figure_factory,plotly.figure_factory._annotated_heatmap,plotly.figure_factory._bullet,plotly.figure_factory._county_choropleth,plotly.figure_factory._dendrogram,plotly.figure_factory._distplot,plotly.figure_factory._facet_grid,plotly.figure_factory._gantt,plotly.figure_factory._scatterplot,plotly.figure_factory._streamline,plotly.figure_factory._table,plotly.figure_factory._trisurf,plotly.figure_factory._violin)
+      \-tools (plotly.figure_factory._facet_grid,plotly.figure_factory._scatterplot,plotly.figure_factory._violin)
+      \-validators 
+        \-heatmap (plotly.figure_factory._annotated_heatmap)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |4775   |54.03 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |2991   |33.84 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |247    |2.79  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |825    |9.33  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |83    |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.943 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |387    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |142    |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |75     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |46     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++-----------------------------------------+------+--------+---------+-----------+
+|module                                   |error |warning |refactor |convention |
++=========================================+======+========+=========+===========+
+|plotly.figure_factory._facet_grid        |52.17 |9.33    |11.27    |10.34      |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._scatterplot       |21.74 |10.67   |21.83    |4.39       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._bullet            |19.57 |6.67    |4.93     |4.13       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._county_choropleth |6.52  |17.33   |5.63     |13.18      |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._violin            |0.00  |10.67   |11.97    |12.66      |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._ohlc              |0.00  |9.33    |3.52     |0.78       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._streamline        |0.00  |6.67    |4.93     |14.73      |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._quiver            |0.00  |6.67    |3.52     |5.43       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory.utils              |0.00  |6.67    |3.52     |4.13       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._candlestick       |0.00  |6.67    |2.82     |0.52       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._gantt             |0.00  |4.00    |8.45     |8.01       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._table             |0.00  |2.67    |1.41     |2.07       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._annotated_heatmap |0.00  |1.33    |2.11     |4.13       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._distplot          |0.00  |1.33    |2.11     |1.55       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._trisurf           |0.00  |0.00    |5.63     |4.91       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._dendrogram        |0.00  |0.00    |4.93     |7.49       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory._2d_density        |0.00  |0.00    |1.41     |0.78       |
++-----------------------------------------+------+--------+---------+-----------+
+|plotly.figure_factory                    |0.00  |0.00    |0.00     |0.78       |
++-----------------------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------------+------------+
+|message id                       |occurrences |
++=================================+============+
+|invalid-name                     |252         |
++---------------------------------+------------+
+|too-many-arguments               |42          |
++---------------------------------+------------+
+|bad-continuation                 |41          |
++---------------------------------+------------+
+|consider-using-enumerate         |34          |
++---------------------------------+------------+
+|unsubscriptable-object           |33          |
++---------------------------------+------------+
+|unused-argument                  |32          |
++---------------------------------+------------+
+|too-many-locals                  |32          |
++---------------------------------+------------+
+|missing-docstring                |25          |
++---------------------------------+------------+
+|too-many-branches                |15          |
++---------------------------------+------------+
+|unused-variable                  |13          |
++---------------------------------+------------+
+|no-else-return                   |12          |
++---------------------------------+------------+
+|too-many-nested-blocks           |11          |
++---------------------------------+------------+
+|wrong-import-order               |10          |
++---------------------------------+------------+
+|too-many-statements              |9           |
++---------------------------------+------------+
+|redefined-builtin                |9           |
++---------------------------------+------------+
+|blacklisted-name                 |8           |
++---------------------------------+------------+
+|undefined-loop-variable          |6           |
++---------------------------------+------------+
+|duplicate-code                   |6           |
++---------------------------------+------------+
+|too-many-instance-attributes     |5           |
++---------------------------------+------------+
+|no-member                        |5           |
++---------------------------------+------------+
+|unsupported-assignment-operation |4           |
++---------------------------------+------------+
+|not-an-iterable                  |4           |
++---------------------------------+------------+
+|literal-comparison               |4           |
++---------------------------------+------------+
+|bad-whitespace                   |4           |
++---------------------------------+------------+
+|redefined-outer-name             |3           |
++---------------------------------+------------+
+|len-as-condition                 |3           |
++---------------------------------+------------+
+|fixme                            |3           |
++---------------------------------+------------+
+|useless-else-on-loop             |2           |
++---------------------------------+------------+
+|trailing-whitespace              |2           |
++---------------------------------+------------+
+|too-many-lines                   |2           |
++---------------------------------+------------+
+|superfluous-parens               |2           |
++---------------------------------+------------+
+|pointless-statement              |2           |
++---------------------------------+------------+
+|line-too-long                    |2           |
++---------------------------------+------------+
+|dangerous-default-value          |2           |
++---------------------------------+------------+
+|consider-merging-isinstance      |2           |
++---------------------------------+------------+
+|unnecessary-lambda               |1           |
++---------------------------------+------------+
+|ungrouped-imports                |1           |
++---------------------------------+------------+
+|too-many-return-statements       |1           |
++---------------------------------+------------+
+|simplifiable-if-statement        |1           |
++---------------------------------+------------+
+|no-self-use                      |1           |
++---------------------------------+------------+
+|inconsistent-return-statements   |1           |
++---------------------------------+------------+
+|consider-iterating-dictionary    |1           |
++---------------------------------+------------+
+|bad-indentation                  |1           |
++---------------------------------+------------+
+|anomalous-backslash-in-string    |1           |
++---------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.17/10
+

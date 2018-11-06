@@ -1,0 +1,232 @@
+************* Module matplotlib.legend_handler
+C: 80, 0: Wrong continued indentation (remove 1 space).
+                            ):
+                           |^ (bad-continuation)
+C:109, 0: Wrong hanging indentation (remove 5 spaces).
+                 legend, orig_handle,
+            |    ^ (bad-continuation)
+C:110, 0: Wrong hanging indentation (remove 5 spaces).
+                 handlebox.xdescent, handlebox.ydescent,
+            |    ^ (bad-continuation)
+C:111, 0: Wrong hanging indentation (remove 5 spaces).
+                 handlebox.width, handlebox.height,
+            |    ^ (bad-continuation)
+C:112, 0: Wrong hanging indentation (remove 5 spaces).
+                 fontsize)
+            |    ^ (bad-continuation)
+C:387, 0: Wrong continued indentation (remove 1 space).
+                              )
+                             |^ (bad-continuation)
+C:420, 0: Wrong continued indentation (remove 1 space).
+                              )
+                             |^ (bad-continuation)
+C:432, 0: Wrong continued indentation (remove 1 space).
+                              )
+                             |^ (bad-continuation)
+C: 37, 0: Missing function docstring (missing-docstring)
+R: 67, 4: Method could be a function (no-self-use)
+C: 70, 4: Missing method docstring (missing-docstring)
+W: 74, 8: Access to a protected member _set_artist_props of a client class (protected-access)
+C: 78, 4: Missing method docstring (missing-docstring)
+R: 78, 4: Too many arguments (8/5) (too-many-arguments)
+W: 78,34: Unused argument 'legend' (unused-argument)
+W: 78,42: Unused argument 'orig_handle' (unused-argument)
+C:118,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:124, 4: Missing method docstring (missing-docstring)
+R:124, 4: Too many arguments (9/5) (too-many-arguments)
+W:130, 0: Method 'create_artists' is abstract in class 'HandlerBase' but is not overridden (abstract-method)
+C:153, 4: Missing method docstring (missing-docstring)
+R:154, 8: Unnecessary "else" after "return" (no-else-return)
+C:159, 4: Missing method docstring (missing-docstring)
+R:159, 4: Too many arguments (7/5) (too-many-arguments)
+W:159,42: Unused argument 'ydescent' (unused-argument)
+W:159,59: Unused argument 'height' (unused-argument)
+W:174, 0: Method 'create_artists' is abstract in class 'HandlerBase' but is not overridden (abstract-method)
+C:197, 4: Missing method docstring (missing-docstring)
+R:197, 4: Too many arguments (7/5) (too-many-arguments)
+W:199,29: Access to a protected member _scatteryoffsets of a client class (protected-access)
+W:197,32: Unused argument 'xdescent' (unused-argument)
+W:197,42: Unused argument 'ydescent' (unused-argument)
+W:197,52: Unused argument 'width' (unused-argument)
+W:197,67: Unused argument 'fontsize' (unused-argument)
+R:227, 4: Too many arguments (9/5) (too-many-arguments)
+R:227, 4: Too many local variables (16/15) (too-many-locals)
+W:250, 8: Access to a protected member _legmarker of a client class (protected-access)
+R:284, 4: Too many arguments (8/5) (too-many-arguments)
+C:287,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:290,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:295, 4: Too many arguments (9/5) (too-many-arguments)
+C:297, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:309, 8: Unnecessary "else" after "return" (no-else-return)
+C:315, 8: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+W:316,17: Access to a protected member _us_linestyles of a client class (protected-access)
+R:322, 4: Too many arguments (9/5) (too-many-arguments)
+W:325,15: Unused variable 'xdata_marker' (unused-variable)
+R:346, 8: Unnecessary "else" after "return" (no-else-return)
+C:351, 4: Missing method docstring (missing-docstring)
+R:351, 4: Too many arguments (8/5) (too-many-arguments)
+C:355,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:352,18: Unused argument 'xdescent' (unused-argument)
+W:352,28: Unused argument 'ydescent' (unused-argument)
+W:352,38: Unused argument 'width' (unused-argument)
+W:352,45: Unused argument 'height' (unused-argument)
+W:352,53: Unused argument 'fontsize' (unused-argument)
+C:381, 4: Argument name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+C:381, 4: Missing method docstring (missing-docstring)
+C:382, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:381, 4: Method could be a function (no-self-use)
+R:390, 4: Too many arguments (9/5) (too-many-arguments)
+C:402, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:407, 8: Access to a protected member _transOffset of a client class (protected-access)
+W:393, 8: Unused variable 'xdata' (unused-variable)
+C:416, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:429, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:449, 4: Missing method docstring (missing-docstring)
+R:449, 4: Too many arguments (7/5) (too-many-arguments)
+W:449,27: Unused argument 'legend' (unused-argument)
+W:449,35: Unused argument 'xdescent' (unused-argument)
+W:449,45: Unused argument 'ydescent' (unused-argument)
+W:450,21: Unused argument 'width' (unused-argument)
+W:450,28: Unused argument 'height' (unused-argument)
+R:460, 4: Too many arguments (9/5) (too-many-arguments)
+R:460, 4: Too many local variables (30/15) (too-many-locals)
+R:460, 4: Too many statements (57/50) (too-many-statements)
+R:581, 4: Too many arguments (7/5) (too-many-arguments)
+W:583,36: Access to a protected member _scatteryoffsets of a client class (protected-access)
+R:589, 4: Too many arguments (9/5) (too-many-arguments)
+R:589, 4: Too many local variables (27/15) (too-many-locals)
+C:611,12: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:614,12: Variable name "lm" doesn't conform to snake_case naming style (invalid-name)
+C:614,16: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+R:655, 4: Too many arguments (9/5) (too-many-arguments)
+R:655, 4: Too many local variables (18/15) (too-many-locals)
+C:693, 8: Missing function docstring (missing-docstring)
+R:697,12: Unnecessary "else" after "return" (no-else-return)
+C:697,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:702, 8: Missing function docstring (missing-docstring)
+R:703,12: Unnecessary "else" after "return" (no-else-return)
+C:703,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:721, 4: Too many arguments (9/5) (too-many-arguments)
+C:723, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+
+
+Report
+======
+315 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |13     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |38     |NC         |NC         |76.32       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-collections (matplotlib.legend_handler)
+      \-colors (matplotlib.legend_handler)
+      \-lines (matplotlib.legend_handler)
+      \-patches (matplotlib.legend_handler)
+    numpy (matplotlib.legend_handler)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |406    |55.69 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |187    |25.65 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |9      |1.23  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |127    |17.42 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |37     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |28     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |28     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------+------------+
+|message id          |occurrences |
++====================+============+
+|unused-argument     |18          |
++--------------------+------------+
+|too-many-arguments  |16          |
++--------------------+------------+
+|invalid-name        |14          |
++--------------------+------------+
+|missing-docstring   |12          |
++--------------------+------------+
+|bad-continuation    |8           |
++--------------------+------------+
+|protected-access    |6           |
++--------------------+------------+
+|no-else-return      |5           |
++--------------------+------------+
+|too-many-locals     |4           |
++--------------------+------------+
+|len-as-condition    |3           |
++--------------------+------------+
+|unused-variable     |2           |
++--------------------+------------+
+|no-self-use         |2           |
++--------------------+------------+
+|abstract-method     |2           |
++--------------------+------------+
+|too-many-statements |1           |
++--------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.05/10
+

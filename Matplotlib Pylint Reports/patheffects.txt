@@ -1,0 +1,171 @@
+************* Module matplotlib.patheffects
+C: 38, 4: Argument name "gc" doesn't conform to snake_case naming style (invalid-name)
+C: 51,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R: 38, 4: Method could be a function (no-self-use)
+C: 58, 4: Argument name "gc" doesn't conform to snake_case naming style (invalid-name)
+C: 58, 4: Argument name "rgbFace" doesn't conform to snake_case naming style (invalid-name)
+R: 58, 4: Too many arguments (6/5) (too-many-arguments)
+W: 67,23: Access to a protected member _renderer of a client class (protected-access)
+R: 58, 4: Method could be a function (no-self-use)
+R: 13, 0: Too few public methods (1/2) (too-few-public-methods)
+W: 71, 0: Method 'draw_gouraud_triangle' is abstract in class 'RendererBase' but is not overridden (abstract-method)
+W: 71, 0: Method 'draw_image' is abstract in class 'RendererBase' but is not overridden (abstract-method)
+W: 84, 4: __init__ method from base class 'RendererBase' is not called (super-init-not-called)
+C: 99, 4: Missing method docstring (missing-docstring)
+W:102, 4: Parameters differ from overridden 'draw_path' method (arguments-differ)
+W:107, 4: Parameters differ from overridden 'draw_markers' method (arguments-differ)
+R:107, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:126, 4: Parameters differ from overridden 'draw_path_collection' method (arguments-differ)
+R:126, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:148, 4: Too many arguments (8/5) (too-many-arguments)
+R:157, 8: Unnecessary "else" after "return" (no-else-return)
+R:163, 0: Too few public methods (1/2) (too-few-public-methods)
+W:184, 4: Signature differs from overridden 'draw_path' method (signature-differs)
+R:184, 4: Too many arguments (6/5) (too-many-arguments)
+R:173, 0: Too few public methods (1/2) (too-few-public-methods)
+C:199, 0: Class name "withStroke" doesn't conform to PascalCase naming style (invalid-name)
+R:205, 4: Too many arguments (6/5) (too-many-arguments)
+R:199, 0: Too few public methods (1/2) (too-few-public-methods)
+C:237,12: Attribute name "_shadow_rgbFace" doesn't conform to snake_case naming style (invalid-name)
+W:254, 4: Signature differs from overridden 'draw_path' method (signature-differs)
+R:254, 4: Too many arguments (6/5) (too-many-arguments)
+C:266,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:266,15: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:266,18: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:268,12: Variable name "shadow_rgbFace" doesn't conform to snake_case naming style (invalid-name)
+C:270,12: Variable name "shadow_rgbFace" doesn't conform to snake_case naming style (invalid-name)
+R:210, 0: Too few public methods (1/2) (too-few-public-methods)
+C:281, 0: Class name "withSimplePatchShadow" doesn't conform to PascalCase naming style (invalid-name)
+R:287, 4: Too many arguments (6/5) (too-many-arguments)
+R:281, 0: Too few public methods (1/2) (too-few-public-methods)
+W:331, 4: Signature differs from overridden 'draw_path' method (signature-differs)
+R:331, 4: Too many arguments (6/5) (too-many-arguments)
+C:343,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:343,15: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:343,18: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:345,12: Variable name "shadow_rgbFace" doesn't conform to snake_case naming style (invalid-name)
+C:347,12: Variable name "shadow_rgbFace" doesn't conform to snake_case naming style (invalid-name)
+R:292, 0: Too few public methods (1/2) (too-few-public-methods)
+W:380, 4: Signature differs from overridden 'draw_path' method (signature-differs)
+R:380, 4: Too many arguments (6/5) (too-many-arguments)
+W:382, 8: Access to a protected member _path of a client class (protected-access)
+R:359, 0: Too few public methods (1/2) (too-few-public-methods)
+
+
+Report
+======
+145 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |9      |NC         |NC         |100.00      |22.22    |
++---------+-------+-----------+-----------+------------+---------+
+|method   |23     |NC         |NC         |95.65       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-backend_bases (matplotlib.patheffects)
+      \-colors (matplotlib.patheffects)
+      \-patches (matplotlib.patheffects)
+      \-transforms (matplotlib.patheffects)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |166    |42.56 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |143    |36.67 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |27     |6.92  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |54     |13.85 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |18     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |21     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |12     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |17          |
++-------------------------------+------------+
+|too-many-arguments             |8           |
++-------------------------------+------------+
+|too-few-public-methods         |8           |
++-------------------------------+------------+
+|signature-differs              |4           |
++-------------------------------+------------+
+|arguments-differ               |3           |
++-------------------------------+------------+
+|protected-access               |2           |
++-------------------------------+------------+
+|no-self-use                    |2           |
++-------------------------------+------------+
+|inconsistent-return-statements |2           |
++-------------------------------+------------+
+|abstract-method                |2           |
++-------------------------------+------------+
+|super-init-not-called          |1           |
++-------------------------------+------------+
+|no-else-return                 |1           |
++-------------------------------+------------+
+|missing-docstring              |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 6.48/10
+

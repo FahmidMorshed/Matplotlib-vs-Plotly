@@ -1,0 +1,490 @@
+************* Module matplotlib.text
+W: 76, 0: TODO : This function may move into the Text class as a method. As a (fixme)
+W:2299, 0: TODO : Rotation needs to be accounted. (fixme)
+C:143, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:301, 0: Wrong continued indentation (add 9 spaces).
+                                                         self._fontproperties,
+                                                         ^        | (bad-continuation)
+C:302, 0: Wrong continued indentation (add 9 spaces).
+                                                         ismath=False)
+                                                         ^        | (bad-continuation)
+C:310, 0: Wrong continued indentation (add 9 spaces).
+                                                        self._fontproperties,
+                                                        ^        | (bad-continuation)
+C:311, 0: Wrong continued indentation (add 9 spaces).
+                                                        ismath=ismath)
+                                                        ^        | (bad-continuation)
+C:474, 0: Wrong hanging indentation (remove 20 spaces).
+                                    (0., 0.),
+                |                   ^ (bad-continuation)
+C:475, 0: Wrong hanging indentation (remove 20 spaces).
+                                    1., 1.,
+                |                   ^ (bad-continuation)
+C:476, 0: Wrong hanging indentation (remove 20 spaces).
+                                    boxstyle=boxstyle,
+                |                   ^ (bad-continuation)
+C:477, 0: Wrong hanging indentation (remove 20 spaces).
+                                    bbox_transmuter=bbox_transmuter,
+                |                   ^ (bad-continuation)
+C:478, 0: Wrong hanging indentation (remove 20 spaces).
+                                    transform=IdentityTransform(),
+                |                   ^ (bad-continuation)
+C:479, 0: Wrong hanging indentation (remove 20 spaces).
+                                    **props)
+                |                   ^ (bad-continuation)
+C:718, 0: Wrong hanging indentation (remove 16 spaces).
+                                        textobj.get_path_effects(), renderer)
+                        |               ^ (bad-continuation)
+C:850, 0: Wrong continued indentation (remove 1 space).
+                )
+               |^ (bad-continuation)
+C:1324, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:2333, 0: Wrong continued indentation (remove 1 space).
+                                  )
+                                 |^ (bad-continuation)
+C:2402, 0: Wrong continued indentation.
+            "Matplotlib 3.0 and will be removed in 3.2. Use arrow_patch "
+            ^                 |              | (bad-continuation)
+C:  1, 0: Too many lines in module (2407/1000) (too-many-lines)
+C: 22, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 42,29: Access to a protected member _get_wrapped_text of a client class (protected-access)
+W: 60,11: Access to a protected member _str_equal of a client class (protected-access)
+W: 62,13: Access to a protected member _str_equal of a client class (protected-access)
+R: 70, 0: Too many local variables (25/15) (too-many-locals)
+C: 86, 4: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C: 88,14: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W: 88,18: Access to a protected member _get_layout of a client class (protected-access)
+C: 90, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 90,11: Variable name "wh" doesn't conform to snake_case naming style (invalid-name)
+C: 90,15: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 90,18: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 91, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C: 91,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+W: 90, 8: Unused variable 't' (unused-variable)
+R:108, 0: Too many instance attributes (17/7) (too-many-instance-attributes)
+W:108, 1: Access to a protected member _define_aliases of a client class (protected-access)
+R:130, 4: Too many arguments (14/5) (too-many-arguments)
+R:130, 4: Too many local variables (16/15) (too-many-locals)
+W:179, 4: Parameters differ from overridden 'update' method (arguments-differ)
+C:191, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:212, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:212,11: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:212,14: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:212,17: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:213, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:213,11: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:215, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:215,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:232, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:232,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+R:236, 8: Unnecessary "else" after "return" (no-else-return)
+C:245, 4: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+W:269,22: Access to a protected member _color of a client class (protected-access)
+W:270,31: Access to a protected member _multialignment of a client class (protected-access)
+W:271,34: Access to a protected member _verticalalignment of a client class (protected-access)
+W:272,36: Access to a protected member _horizontalalignment of a client class (protected-access)
+W:273,31: Access to a protected member _fontproperties of a client class (protected-access)
+W:274,25: Access to a protected member _rotation of a client class (protected-access)
+W:275,23: Access to a protected member _picker of a client class (protected-access)
+W:276,28: Access to a protected member _linespacing of a client class (protected-access)
+R:279, 4: Too many local variables (48/15) (too-many-locals)
+C:289, 8: Variable name "horizLayout" doesn't conform to snake_case naming style (invalid-name)
+C:297, 8: Variable name "horizLayout" doesn't conform to snake_case naming style (invalid-name)
+C:309,16: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:309,19: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:309,22: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:313,16: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:313,19: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:313,22: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:319,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:320,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:344, 8: Variable name "M" doesn't conform to snake_case naming style (invalid-name)
+C:346, 8: Variable name "offsetLayout" doesn't conform to snake_case naming style (invalid-name)
+C:357, 8: Variable name "cornersHoriz" doesn't conform to snake_case naming style (invalid-name)
+C:361, 8: Variable name "cornersRotated" doesn't conform to snake_case naming style (invalid-name)
+C:431, 8: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:431,12: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+W:300, 8: Unused variable 'tmp' (unused-variable)
+R:279, 4: Too many branches (27/12) (too-many-branches)
+R:279, 4: Too many statements (99/50) (too-many-statements)
+E:462,23: Instance of 'Text' has no 'get_size' member (no-member)
+C:514,12: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:515,12: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+E:517,58: Instance of 'Text' has no 'get_size' member (no-member)
+C:529, 8: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:530, 8: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+E:532,54: Instance of 'Text' has no 'get_size' member (no-member)
+W:541,12: Unused variable 'bbox' (unused-variable)
+C:576, 8: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:576,12: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:597, 4: Argument name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:597, 4: Argument name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:604,12: Variable name "h1" doesn't conform to snake_case naming style (invalid-name)
+C:605,12: Variable name "h2" doesn't conform to snake_case naming style (invalid-name)
+C:608,12: Variable name "h1" doesn't conform to snake_case naming style (invalid-name)
+C:609,12: Variable name "h2" doesn't conform to snake_case naming style (invalid-name)
+C:612,12: Variable name "h1" doesn't conform to snake_case naming style (invalid-name)
+C:613,12: Variable name "h2" doesn't conform to snake_case naming style (invalid-name)
+C:615,12: Variable name "h1" doesn't conform to snake_case naming style (invalid-name)
+C:616,12: Variable name "h2" doesn't conform to snake_case naming style (invalid-name)
+R:597, 4: Method could be a function (no-self-use)
+C:624, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:624,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:624,14: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W:624,11: Unused variable 'h' (unused-variable)
+W:624,14: Unused variable 'd' (unused-variable)
+C:649,12: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+W:666, 4: Parameters differ from overridden 'draw' method (arguments-differ)
+R:666, 4: Too many local variables (23/15) (too-many-locals)
+W:680,34: Access to a protected member _get_layout of a client class (protected-access)
+W:685,48: Access to a protected member _x of a client class (protected-access)
+W:686,48: Access to a protected member _y of a client class (protected-access)
+W:694,15: Access to a protected member _bbox_patch of a client class (protected-access)
+W:695,16: Access to a protected member _draw_bbox of a client class (protected-access)
+C:697,12: Variable name "gc" doesn't conform to snake_case naming style (invalid-name)
+W:700,23: Access to a protected member _url of a client class (protected-access)
+W:701,12: Access to a protected member _set_gc_clip of a client class (protected-access)
+C:705,22: Variable name "wh" doesn't conform to snake_case naming style (invalid-name)
+C:705,26: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:705,29: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:708,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:709,16: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:711,20: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:724,42: Access to a protected member _fontproperties of a client class (protected-access)
+W:728,43: Access to a protected member _fontproperties of a client class (protected-access)
+W:680,12: Unused variable 'bbox' (unused-variable)
+W:680,24: Unused variable 'descent' (unused-variable)
+W:691,12: Unused variable 'canvasw' (unused-variable)
+W:705,22: Unused variable 'wh' (unused-variable)
+C:824, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:825, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:842, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:842,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:863, 4: Parameters differ from overridden 'get_window_extent' method (arguments-differ)
+C:891,12: Variable name "tx" doesn't conform to snake_case naming style (invalid-name)
+C:891,16: Variable name "ty" doesn't conform to snake_case naming style (invalid-name)
+W:897,29: Access to a protected member _cachedRenderer of a client class (protected-access)
+C:902, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:902,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:903, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:903,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:901,14: Unused variable 'info' (unused-variable)
+W:901,20: Unused variable 'descent' (unused-variable)
+C:1090, 4: Argument name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:1101, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1112, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1123, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1150, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1167, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:1184, 8: Unnecessary "else" after "return" (no-else-return)
+C:1189, 4: Argument name "fp" doesn't conform to snake_case naming style (invalid-name)
+R:1223, 8: Unnecessary "else" after "return" (no-else-return)
+E:1244,15: Instance of 'Text' has no 'set_family' member (no-member)
+W:269, 8: Attribute '_color' defined outside __init__ (attribute-defined-outside-init)
+W:271, 8: Attribute '_verticalalignment' defined outside __init__ (attribute-defined-outside-init)
+W:272, 8: Attribute '_horizontalalignment' defined outside __init__ (attribute-defined-outside-init)
+R:108, 0: Too many public methods (53/20) (too-many-public-methods)
+R:1251, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+R:1310, 4: Too many arguments (16/5) (too-many-arguments)
+R:1310, 4: Too many local variables (17/15) (too-many-locals)
+C:1357, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1358, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+R:1391, 4: Too many local variables (34/15) (too-many-locals)
+C:1419, 8: Variable name "cd" doesn't conform to snake_case naming style (invalid-name)
+C:1420, 8: Variable name "c1" doesn't conform to snake_case naming style (invalid-name)
+C:1421, 8: Variable name "c2" doesn't conform to snake_case naming style (invalid-name)
+C:1424, 9: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:1424,13: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:1425, 9: Variable name "x2" doesn't conform to snake_case naming style (invalid-name)
+C:1425,13: Variable name "y2" doesn't conform to snake_case naming style (invalid-name)
+C:1442, 8: Variable name "we" doesn't conform to snake_case naming style (invalid-name)
+C:1443, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1443,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1446,12: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1447,12: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:1449,12: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1450,12: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:1453,12: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1454,12: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:1456,16: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:1457,16: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1460, 8: Variable name "cw" doesn't conform to snake_case naming style (invalid-name)
+C:1467, 8: Variable name "we" doesn't conform to snake_case naming style (invalid-name)
+W:1475, 4: Parameters differ from overridden 'get_window_extent' method (arguments-differ)
+R:1491, 8: Unnecessary "else" after "return" (no-else-return)
+C:1502, 4: Argument name "dl" doesn't conform to snake_case naming style (invalid-name)
+C:1519, 4: Argument name "dd" doesn't conform to snake_case naming style (invalid-name)
+R:1536, 8: Unnecessary "else" after "return" (no-else-return)
+C:1541, 4: Argument name "dr" doesn't conform to snake_case naming style (invalid-name)
+C:1558, 4: Argument name "dp" doesn't conform to snake_case naming style (invalid-name)
+C:1577, 4: Argument name "dp" doesn't conform to snake_case naming style (invalid-name)
+W:1468, 8: Attribute '_twd_window_extent' defined outside __init__ (attribute-defined-outside-init)
+R:1251, 0: Too many public methods (22/20) (too-many-public-methods)
+W:1655,23: Redefining name 'artist' from outer scope (line 12) (redefined-outer-name)
+R:1697, 8: Unnecessary "else" after "return" (no-else-return)
+C:1719,12: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1719,15: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1719,18: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1719,21: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1720,12: Variable name "xf" doesn't conform to snake_case naming style (invalid-name)
+C:1720,16: Variable name "yf" doesn't conform to snake_case naming style (invalid-name)
+C:1721,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1721,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1723,12: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1723,15: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1723,18: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1723,21: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1724,12: Variable name "xf" doesn't conform to snake_case naming style (invalid-name)
+C:1724,16: Variable name "yf" doesn't conform to snake_case naming style (invalid-name)
+C:1725,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1725,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1727,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1727,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1731, 8: Variable name "sc" doesn't conform to snake_case naming style (invalid-name)
+C:1732, 8: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:1743, 8: Attribute name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:1749, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1749, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1749, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1751,12: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:1751,16: Variable name "s2" doesn't conform to snake_case naming style (invalid-name)
+C:1753,12: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:1753,16: Variable name "s2" doesn't conform to snake_case naming style (invalid-name)
+E:1756,22: Instance of '_AnnotationBase' has no 'convert_xunits' member (no-member)
+E:1758,22: Instance of '_AnnotationBase' has no 'convert_yunits' member (no-member)
+C:1760, 8: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:1761, 8: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:1761,12: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:1764, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:1825,12: Redefining name 'Affine2D' from outer scope (line 18) (redefined-outer-name)
+R:1764, 4: Too many local variables (25/15) (too-many-locals)
+C:1767,12: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:1767,16: Variable name "s2" doesn't conform to snake_case naming style (invalid-name)
+C:1771,12: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:1774,12: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+E:1792,19: Instance of '_AnnotationBase' has no 'axes' member (no-member)
+C:1795,12: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+E:1796,25: Instance of '_AnnotationBase' has no 'axes' member (no-member)
+C:1799, 8: Variable name "s_" doesn't conform to snake_case naming style (invalid-name)
+E:1808,20: Instance of '_AnnotationBase' has no 'figure' member (no-member)
+E:1810,20: Instance of '_AnnotationBase' has no 'axes' member (no-member)
+E:1828,22: Instance of '_AnnotationBase' has no 'figure' member (no-member)
+C:1829,16: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:1831,16: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+E:1833,27: Instance of '_AnnotationBase' has no 'get_size' member (no-member)
+E:1834,33: Instance of '_AnnotationBase' has no 'figure' member (no-member)
+C:1835,16: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:1837,16: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1837,19: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1838,16: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+R:1764, 4: Too many return statements (9/6) (too-many-return-statements)
+R:1764, 4: Too many branches (23/12) (too-many-branches)
+R:1764, 4: Too many statements (56/50) (too-many-statements)
+C:1852, 8: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1852, 8: Missing function docstring (missing-docstring)
+C:1856,12: Variable name "s1" doesn't conform to snake_case naming style (invalid-name)
+C:1856,16: Variable name "s2" doesn't conform to snake_case naming style (invalid-name)
+C:1859,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1859,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1860,12: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:1860,16: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:1861,12: Variable name "x2" doesn't conform to snake_case naming style (invalid-name)
+C:1861,16: Variable name "y2" doesn't conform to snake_case naming style (invalid-name)
+C:1866,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1866,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:1860,16: Unused variable 'y1' (unused-variable)
+W:1861,12: Unused variable 'x2' (unused-variable)
+C:1880, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1901, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1901,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1910, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+E:1914,19: Instance of '_AnnotationBase' has no 'axes' member (no-member)
+W:1904,24: Unused argument 'renderer' (unused-argument)
+R:1969, 4: Too many arguments (8/5) (too-many-arguments)
+W:2149,12: Access to a protected member _warn_external of a client class (protected-access)
+C:2161, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2161,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:2184, 4: Parameters differ from overridden 'contains' method (arguments-differ)
+R:2238, 4: Too many local variables (37/15) (too-many-locals)
+C:2249,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:2249,16: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:2250,12: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:2250,15: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2250,18: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:2250,21: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:2251,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:2252,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:2253,12: Variable name "xc" doesn't conform to snake_case naming style (invalid-name)
+C:2254,12: Variable name "yc" doesn't conform to snake_case naming style (invalid-name)
+C:2256,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:2257,12: Variable name "ms" doesn't conform to snake_case naming style (invalid-name)
+E:2257,41: Instance of 'Annotation' has no 'get_size' member (no-member)
+W:2269,20: Access to a protected member _warn_external of a client class (protected-access)
+C:2287,20: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2288,20: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2292,16: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:2325,20: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:2325,23: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2325,26: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:2325,29: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:2326,20: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:2327,20: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2328,20: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:2329,20: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:2330,20: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+R:2238, 4: Too many statements (56/50) (too-many-statements)
+W:2366, 4: Parameters differ from overridden 'get_window_extent' method (arguments-differ)
+W:2386,29: Access to a protected member _cachedRenderer of a client class (protected-access)
+W: 17, 0: Unused TextPath imported from textpath (unused-import)
+
+
+Report
+======
+955 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |5      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |115    |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |NC         |NC         |80.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.text)
+      \-artist (matplotlib.text)
+      \-cbook (matplotlib.text)
+      \-docstring (matplotlib.text)
+      \-font_manager (matplotlib.text)
+      \-lines (matplotlib.text)
+      \-offsetbox (matplotlib.text)
+      \-patches (matplotlib.text)
+      \-patheffects (matplotlib.text)
+      \-projections (matplotlib.text)
+      \-transforms (matplotlib.text)
+    numpy (matplotlib.text)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1107   |45.95 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |880    |36.53 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |126    |5.23  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |296    |12.29 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |211    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |28     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |55     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |15     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |192         |
++-------------------------------+------------+
+|protected-access               |26          |
++-------------------------------+------------+
+|bad-continuation               |16          |
++-------------------------------+------------+
+|no-member                      |15          |
++-------------------------------+------------+
+|unused-variable                |13          |
++-------------------------------+------------+
+|too-many-locals                |8           |
++-------------------------------+------------+
+|no-else-return                 |6           |
++-------------------------------+------------+
+|arguments-differ               |6           |
++-------------------------------+------------+
+|attribute-defined-outside-init |4           |
++-------------------------------+------------+
+|too-many-statements            |3           |
++-------------------------------+------------+
+|too-many-arguments             |3           |
++-------------------------------+------------+
+|too-many-public-methods        |2           |
++-------------------------------+------------+
+|too-many-instance-attributes   |2           |
++-------------------------------+------------+
+|too-many-branches              |2           |
++-------------------------------+------------+
+|redefined-outer-name           |2           |
++-------------------------------+------------+
+|fixme                          |2           |
++-------------------------------+------------+
+|unused-import                  |1           |
++-------------------------------+------------+
+|unused-argument                |1           |
++-------------------------------+------------+
+|too-many-return-statements     |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|no-self-use                    |1           |
++-------------------------------+------------+
+|missing-docstring              |1           |
++-------------------------------+------------+
+|consider-using-enumerate       |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 6.14/10
+

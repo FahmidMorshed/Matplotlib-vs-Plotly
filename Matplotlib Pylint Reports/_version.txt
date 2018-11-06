@@ -1,0 +1,145 @@
+************* Module matplotlib._version
+C:170, 0: Wrong continued indentation (remove 1 space).
+                    }
+                   |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 18, 0: Missing function docstring (missing-docstring)
+C: 37, 4: Attribute name "VCS" doesn't conform to snake_case naming style (invalid-name)
+C: 29, 0: Missing class docstring (missing-docstring)
+W: 37, 4: Attribute 'VCS' defined outside __init__ (attribute-defined-outside-init)
+W: 38, 4: Attribute 'style' defined outside __init__ (attribute-defined-outside-init)
+W: 39, 4: Attribute 'tag_prefix' defined outside __init__ (attribute-defined-outside-init)
+W: 40, 4: Attribute 'parentdir_prefix' defined outside __init__ (attribute-defined-outside-init)
+W: 41, 4: Attribute 'versionfile_source' defined outside __init__ (attribute-defined-outside-init)
+W: 42, 4: Attribute 'verbose' defined outside __init__ (attribute-defined-outside-init)
+R: 29, 0: Too few public methods (0/2) (too-few-public-methods)
+C: 33, 0: Missing function docstring (missing-docstring)
+C: 46, 0: Missing class docstring (missing-docstring)
+C: 54, 0: Missing function docstring (missing-docstring)
+C: 55, 4: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 55, 4: Missing function docstring (missing-docstring)
+C: 63, 0: Missing function docstring (missing-docstring)
+C: 65, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 66, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 70,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C: 75,12: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C: 96, 0: Missing function docstring (missing-docstring)
+C:111, 0: Missing function docstring (missing-docstring)
+C:118, 8: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:121,16: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:125,16: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:135, 0: Missing function docstring (missing-docstring)
+C:146, 4: Variable name "TAG" doesn't conform to snake_case naming style (invalid-name)
+C:164,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:180, 0: Missing function docstring (missing-docstring)
+W:180,51: Redefining name 'run_command' from outer scope (line 63) (redefined-outer-name)
+C:191, 4: Variable name "GITS" doesn't conform to snake_case naming style (invalid-name)
+C:193, 8: Variable name "GITS" doesn't conform to snake_case naming style (invalid-name)
+C:227, 8: Variable name "mo" doesn't conform to snake_case naming style (invalid-name)
+C:261, 0: Missing function docstring (missing-docstring)
+C:267, 0: Missing function docstring (missing-docstring)
+C:291, 0: Missing function docstring (missing-docstring)
+C:307, 0: Missing function docstring (missing-docstring)
+C:333, 0: Missing function docstring (missing-docstring)
+C:353, 0: Missing function docstring (missing-docstring)
+C:372, 0: Missing function docstring (missing-docstring)
+C:390, 0: Missing function docstring (missing-docstring)
+C:419, 0: Missing function docstring (missing-docstring)
+W:439,12: Unused variable 'i' (unused-variable)
+
+
+Report
+======
+261 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |18     |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |284    |61.47 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |16     |3.46  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |86     |18.61 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |76     |16.45 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |36     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |8      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|missing-docstring              |21          |
++-------------------------------+------------+
+|invalid-name                   |14          |
++-------------------------------+------------+
+|attribute-defined-outside-init |6           |
++-------------------------------+------------+
+|unused-variable                |1           |
++-------------------------------+------------+
+|too-few-public-methods         |1           |
++-------------------------------+------------+
+|redefined-outer-name           |1           |
++-------------------------------+------------+
+|bad-continuation               |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.28/10
+

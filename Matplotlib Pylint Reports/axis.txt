@@ -1,0 +1,414 @@
+************* Module matplotlib.axis
+W:1687, 0: XXX if the user changes units, the information will be lost here (fixme)
+C: 76, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:182, 0: Wrong hanging indentation (remove 4 spaces).
+                        getattr(self, _new_name).get_visible()),
+                    |   ^ (bad-continuation)
+C:188, 0: Wrong hanging indentation (remove 4 spaces).
+                        getattr(self, _new_name).set_visible(value)))
+                    |   ^ (bad-continuation)
+C:335, 0: Wrong continued indentation (remove 2 spaces).
+                               ("tick1On", self.tick1line),
+                             | ^ (bad-continuation)
+C:336, 0: Wrong continued indentation (remove 2 spaces).
+                               ("tick2On", self.tick2line),
+                             | ^ (bad-continuation)
+C:337, 0: Wrong continued indentation (remove 2 spaces).
+                               ("label1On", self.label1),
+                             | ^ (bad-continuation)
+C:338, 0: Wrong continued indentation (remove 2 spaces).
+                               ("label2On", self.label2)]:
+                             | ^ (bad-continuation)
+C:1113, 0: Wrong hanging indentation (remove 8 spaces).
+                    ticks_to_draw, renderer)
+            |       ^ (bad-continuation)
+C:1550, 0: Wrong continued indentation (add 8 spaces).
+                    "matplotlib.ticker.Formatter")
+                    ^       | (bad-continuation)
+C:1835, 0: Wrong continued indentation (add 24 spaces).
+        )
+        ^                       | (bad-continuation)
+C:2209, 0: Wrong continued indentation (add 24 spaces).
+        )
+        ^                       | (bad-continuation)
+C:  1, 0: Too many lines in module (2527/1000) (too-many-lines)
+C: 22, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 28, 0: Constant name "_line_AI" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 29, 0: Constant name "_line_param_names" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 30, 0: Constant name "_line_param_aliases" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 31, 0: Constant name "_gridline_param_names" doesn't conform to UPPER_CASE naming style (invalid-name)
+R: 35, 0: Too many instance attributes (22/7) (too-many-instance-attributes)
+R: 54, 4: Too many arguments (23/5) (too-many-arguments)
+R: 54, 4: Too many local variables (26/15) (too-many-locals)
+E: 96,15: Instance of 'Tick' has no '__name__' member (no-member)
+W: 54,34: Unused argument 'label' (unused-argument)
+R: 54, 4: Too many branches (19/12) (too-many-branches)
+R: 54, 4: Too many statements (65/50) (too-many-statements)
+W:189, 8: Using possibly undefined loop variable '_old_name' (undefined-loop-variable)
+W:189,19: Using possibly undefined loop variable '_new_name' (undefined-loop-variable)
+C:193, 4: Missing method docstring (missing-docstring)
+C:213, 4: Missing method docstring (missing-docstring)
+E:214,15: Instance of 'Tick' has no '_tickdir' member (no-member)
+E:223,36: Instance of 'Tick' has no '_tickdir' member (no-member)
+W:230, 4: Parameters differ from overridden 'set_clip_path' method (arguments-differ)
+C:237, 4: Missing method docstring (missing-docstring)
+W:291, 4: Parameters differ from overridden 'draw' method (arguments-differ)
+E:295,28: Instance of 'Tick' has no '__name__' member (no-member)
+E:299,29: Instance of 'Tick' has no '__name__' member (no-member)
+C:302, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:315, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:326, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+E:349,49: Instance of 'Tick' has no '_tickdir' member (no-member)
+E:350,38: Instance of 'Tick' has no '_tickmarkers' member (no-member)
+E:351,38: Instance of 'Tick' has no '_tickmarkers' member (no-member)
+C:363,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:375,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:379,12: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:385,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:432, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:448, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:462, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:473, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:488, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+W:496, 8: Access to a protected member _interpolation_steps of a client class (protected-access)
+C:548, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:563, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:578, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:592, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:606, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+W:614, 8: Access to a protected member _interpolation_steps of a client class (protected-access)
+C:633, 0: Missing class docstring (missing-docstring)
+R:633, 0: Too few public methods (0/2) (too-few-public-methods)
+R:650, 8: Unnecessary "else" after "return" (no-else-return)
+R:658,12: Unnecessary "else" after "return" (no-else-return)
+W:660,23: Access to a protected member _get_tick of a client class (protected-access)
+W:665,23: Access to a protected member _get_tick of a client class (protected-access)
+R:638, 0: Too few public methods (0/2) (too-few-public-methods)
+C:691, 8: Attribute name "isDefault_label" doesn't conform to snake_case naming style (invalid-name)
+C:703, 8: Attribute name "offsetText" doesn't conform to snake_case naming style (invalid-name)
+C:753, 8: Attribute name "isDefault_majloc" doesn't conform to snake_case naming style (invalid-name)
+C:754, 8: Attribute name "isDefault_minloc" doesn't conform to snake_case naming style (invalid-name)
+C:755, 8: Attribute name "isDefault_majfmt" doesn't conform to snake_case naming style (invalid-name)
+C:756, 8: Attribute name "isDefault_minfmt" doesn't conform to snake_case naming style (invalid-name)
+C:790, 8: Attribute name "_gridOnMajor" doesn't conform to snake_case naming style (invalid-name)
+C:792, 8: Attribute name "_gridOnMinor" doesn't conform to snake_case naming style (invalid-name)
+R:670, 0: Too many instance attributes (23/7) (too-many-instance-attributes)
+C:720, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:720, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:746, 4: Missing method docstring (missing-docstring)
+C:758, 4: Missing method docstring (missing-docstring)
+C:763, 4: Missing method docstring (missing-docstring)
+C:835,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W:845,20: Access to a protected member _apply_params of a client class (protected-access)
+W:848,20: Access to a protected member _apply_params of a client class (protected-access)
+C:854, 4: Argument name "kw" doesn't conform to snake_case naming style (invalid-name)
+C:887,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:854, 4: Too many branches (14/12) (too-many-branches)
+W:899, 4: Parameters differ from overridden 'set_clip_path' method (arguments-differ)
+C:909, 4: Missing method docstring (missing-docstring)
+C:934, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:943, 8: Variable name "majorLocs" doesn't conform to snake_case naming style (invalid-name)
+C:944, 8: Variable name "majorTicks" doesn't conform to snake_case naming style (invalid-name)
+C:946, 8: Variable name "majorLabels" doesn't conform to snake_case naming style (invalid-name)
+C:949, 8: Variable name "minorLocs" doesn't conform to snake_case naming style (invalid-name)
+C:950, 8: Variable name "minorTicks" doesn't conform to snake_case naming style (invalid-name)
+C:952, 8: Variable name "minorLabels" doesn't conform to snake_case naming style (invalid-name)
+C:969, 8: Variable name "ticklabelBoxes" doesn't conform to snake_case naming style (invalid-name)
+C:969,24: Variable name "ticklabelBoxes2" doesn't conform to snake_case naming style (invalid-name)
+C:972,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:976,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:991, 4: Too many local variables (20/15) (too-many-locals)
+C:1011,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1023,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:1056,23: Catching too general exception Exception (broad-except)
+E:1054,26: Instance of 'Axis' has no '_get_pixel_distance_along_axis' member (no-member)
+W:1057,20: Access to a protected member _warn_external of a client class (protected-access)
+W:1067,23: Catching too general exception Exception (broad-except)
+E:1065,26: Instance of 'Axis' has no '_get_pixel_distance_along_axis' member (no-member)
+W:1068,20: Access to a protected member _warn_external of a client class (protected-access)
+W:991,28: Unused argument 'renderer' (unused-argument)
+R:991, 4: Too many branches (19/12) (too-many-branches)
+R:991, 4: Too many statements (54/50) (too-many-statements)
+R:1092, 4: Method could be a function (no-self-use)
+C:1112, 8: Variable name "ticklabelBoxes" doesn't conform to snake_case naming style (invalid-name)
+C:1112,24: Variable name "ticklabelBoxes2" doesn't conform to snake_case naming style (invalid-name)
+C:1118, 8: Variable name "bb" doesn't conform to snake_case naming style (invalid-name)
+C:1120,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1129, 8: Variable name "bb" doesn't conform to snake_case naming style (invalid-name)
+R:1130, 8: Unnecessary "else" after "return" (no-else-return)
+R:1099, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1136, 4: Missing method docstring (missing-docstring)
+C:1138,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1140,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1153, 8: Variable name "ticklabelBoxes" doesn't conform to snake_case naming style (invalid-name)
+C:1153,24: Variable name "ticklabelBoxes2" doesn't conform to snake_case naming style (invalid-name)
+R:1301, 8: Unnecessary "else" after "return" (no-else-return)
+W:1303,17: Access to a protected member _tickdir of a client class (protected-access)
+W:1306,17: Access to a protected member _tickdir of a client class (protected-access)
+R:1312, 4: Method could be a function (no-self-use)
+C:1370, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1392,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:1394,16: Access to a protected member _warn_external of a client class (protected-access)
+C:1479, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1479, 4: Missing method docstring (missing-docstring)
+C:1493, 4: Argument name "u" doesn't conform to snake_case naming style (invalid-name)
+W:1586,12: Access to a protected member _set_locator of a client class (protected-access)
+W:1604,12: Access to a protected member _set_locator of a client class (protected-access)
+E:1639,12: Too many positional arguments for function call (too-many-function-args)
+C:1644,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+R:1695, 8: Unnecessary "else" after "return" (no-else-return)
+C:1733, 4: Argument name "tz" doesn't conform to snake_case naming style (invalid-name)
+E:1761,15: Instance of 'Axis' has no 'label_position' member (no-member)
+C:1773, 4: Missing method docstring (missing-docstring)
+W:1457,12: Attribute 'isDefault_majloc' defined outside __init__ (attribute-defined-outside-init)
+W:1583, 8: Attribute 'isDefault_majloc' defined outside __init__ (attribute-defined-outside-init)
+W:1461,12: Attribute 'isDefault_minloc' defined outside __init__ (attribute-defined-outside-init)
+W:1601, 8: Attribute 'isDefault_minloc' defined outside __init__ (attribute-defined-outside-init)
+W:1465,12: Attribute 'isDefault_majfmt' defined outside __init__ (attribute-defined-outside-init)
+W:1551, 8: Attribute 'isDefault_majfmt' defined outside __init__ (attribute-defined-outside-init)
+W:1469,12: Attribute 'isDefault_minfmt' defined outside __init__ (attribute-defined-outside-init)
+W:1567, 8: Attribute 'isDefault_minfmt' defined outside __init__ (attribute-defined-outside-init)
+W:1413,16: Attribute '_gridOnMajor' defined outside __init__ (attribute-defined-outside-init)
+W:1415,16: Attribute '_gridOnMajor' defined outside __init__ (attribute-defined-outside-init)
+W:1406,16: Attribute '_gridOnMinor' defined outside __init__ (attribute-defined-outside-init)
+W:1408,16: Attribute '_gridOnMinor' defined outside __init__ (attribute-defined-outside-init)
+W:1432, 8: Attribute 'converter' defined outside __init__ (attribute-defined-outside-init)
+W:1485,12: Attribute 'converter' defined outside __init__ (attribute-defined-outside-init)
+W:1503,12: Attribute 'units' defined outside __init__ (attribute-defined-outside-init)
+W:1507,16: Attribute 'units' defined outside __init__ (attribute-defined-outside-init)
+R:670, 0: Too many public methods (64/20) (too-many-public-methods)
+C:1777, 0: Missing class docstring (missing-docstring)
+C:1787, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1787,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1793, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1793,11: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1794, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1794,11: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:1790,19: Unused variable 'yaxes' (unused-variable)
+W:1793, 8: Unused variable 'l' (unused-variable)
+W:1794, 8: Unused variable 'r' (unused-variable)
+C:1827, 8: Variable name "offsetText" doesn't conform to snake_case naming style (invalid-name)
+C:1871, 8: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+W:1892, 4: Parameters differ from overridden '_get_tick_boxes_siblings' method (arguments-differ)
+W:1902,14: Access to a protected member _align_xlabel_grp of a client class (protected-access)
+C:1904,12: Variable name "nn" doesn't conform to snake_case naming style (invalid-name)
+W:1905,28: Access to a protected member _update_ticks of a client class (protected-access)
+W:1906,24: Access to a protected member _get_tick_bboxes of a client class (protected-access)
+W:1904,12: Unused variable 'nn' (unused-variable)
+C:1923, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1923,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:1923,11: Unused variable 'y' (unused-variable)
+C:1959, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1959,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1960,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:1959,11: Unused variable 'y' (unused-variable)
+C:1976, 8: Variable name "padPixels" doesn't conform to snake_case naming style (invalid-name)
+R:2053, 8: Unnecessary "else" after "return" (no-else-return)
+C:2091,12: Variable name "Vmin" doesn't conform to snake_case naming style (invalid-name)
+C:2091,18: Variable name "Vmax" doesn't conform to snake_case naming style (invalid-name)
+W:2106, 4: Parameters differ from overridden 'set_data_interval' method (arguments-differ)
+C:2111,12: Variable name "Vmin" doesn't conform to snake_case naming style (invalid-name)
+C:2111,18: Variable name "Vmax" doesn't conform to snake_case naming style (invalid-name)
+C:2118, 8: Variable name "dataMutated" doesn't conform to snake_case naming style (invalid-name)
+C:2119, 8: Variable name "viewMutated" doesn't conform to snake_case naming style (invalid-name)
+R:2140, 8: Unnecessary "else" after "return" (no-else-return)
+W:1889, 8: Attribute 'label_position' defined outside __init__ (attribute-defined-outside-init)
+C:2146, 0: Missing class docstring (missing-docstring)
+C:2158, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2158,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2164, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:2164,11: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2165, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:2165,11: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:2161,12: Unused variable 'xaxes' (unused-variable)
+W:2164,11: Unused variable 'b' (unused-variable)
+W:2165,11: Unused variable 't' (unused-variable)
+C:2200, 8: Variable name "offsetText" doesn't conform to snake_case naming style (invalid-name)
+C:2238, 8: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+W:2260, 4: Parameters differ from overridden '_get_tick_boxes_siblings' method (arguments-differ)
+W:2270,14: Access to a protected member _align_ylabel_grp of a client class (protected-access)
+W:2273,28: Access to a protected member _update_ticks of a client class (protected-access)
+W:2274,24: Access to a protected member _get_tick_bboxes of a client class (protected-access)
+C:2291, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2291,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:2291, 8: Unused variable 'x' (unused-variable)
+C:2326, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2326,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:2326,11: Unused variable 'y' (unused-variable)
+C:2338, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2338,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2340,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2342,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2350, 4: Missing method docstring (missing-docstring)
+C:2353, 8: Variable name "padPixels" doesn't conform to snake_case naming style (invalid-name)
+C:2433, 8: Variable name "mT" doesn't conform to snake_case naming style (invalid-name)
+C:2435, 8: Variable name "majorRight" doesn't conform to snake_case naming style (invalid-name)
+C:2437, 8: Variable name "minorRight" doesn't conform to snake_case naming style (invalid-name)
+C:2442, 8: Variable name "majorLeft" doesn't conform to snake_case naming style (invalid-name)
+C:2444, 8: Variable name "minorLeft" doesn't conform to snake_case naming style (invalid-name)
+C:2449, 8: Variable name "majorDefault" doesn't conform to snake_case naming style (invalid-name)
+C:2451, 8: Variable name "minorDefault" doesn't conform to snake_case naming style (invalid-name)
+C:2475,12: Variable name "Vmin" doesn't conform to snake_case naming style (invalid-name)
+C:2475,18: Variable name "Vmax" doesn't conform to snake_case naming style (invalid-name)
+W:2491, 4: Parameters differ from overridden 'set_data_interval' method (arguments-differ)
+C:2496,12: Variable name "Vmin" doesn't conform to snake_case naming style (invalid-name)
+C:2496,18: Variable name "Vmax" doesn't conform to snake_case naming style (invalid-name)
+C:2503, 8: Variable name "dataMutated" doesn't conform to snake_case naming style (invalid-name)
+C:2504, 8: Variable name "viewMutated" doesn't conform to snake_case naming style (invalid-name)
+R:2524, 8: Unnecessary "else" after "return" (no-else-return)
+W:2257, 8: Attribute 'label_position' defined outside __init__ (attribute-defined-outside-init)
+
+
+Report
+======
+1265 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |8      |NC         |NC         |62.50       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |172    |NC         |NC         |93.60       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    dateutil 
+      \-tz (matplotlib.axis)
+    matplotlib (matplotlib.axis)
+      \-artist (matplotlib.axis)
+      \-cbook (matplotlib.axis)
+      \-font_manager (matplotlib.axis)
+      \-lines (matplotlib.axis)
+      \-scale (matplotlib.axis)
+      \-text (matplotlib.axis)
+      \-ticker (matplotlib.axis)
+      \-transforms (matplotlib.axis)
+      \-units (matplotlib.axis)
+    numpy (matplotlib.axis)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1545   |61.09 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |530    |20.96 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |139    |5.50  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |315    |12.46 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |140    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |24     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |62     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |12     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |106         |
++-------------------------------+------------+
+|protected-access               |19          |
++-------------------------------+------------+
+|attribute-defined-outside-init |18          |
++-------------------------------+------------+
+|missing-docstring              |14          |
++-------------------------------+------------+
+|unused-variable                |11          |
++-------------------------------+------------+
+|no-member                      |11          |
++-------------------------------+------------+
+|bad-continuation               |11          |
++-------------------------------+------------+
+|no-else-return                 |8           |
++-------------------------------+------------+
+|len-as-condition               |8           |
++-------------------------------+------------+
+|arguments-differ               |7           |
++-------------------------------+------------+
+|too-many-branches              |3           |
++-------------------------------+------------+
+|unused-argument                |2           |
++-------------------------------+------------+
+|undefined-loop-variable        |2           |
++-------------------------------+------------+
+|too-many-statements            |2           |
++-------------------------------+------------+
+|too-many-locals                |2           |
++-------------------------------+------------+
+|too-many-instance-attributes   |2           |
++-------------------------------+------------+
+|too-few-public-methods         |2           |
++-------------------------------+------------+
+|no-self-use                    |2           |
++-------------------------------+------------+
+|broad-except                   |2           |
++-------------------------------+------------+
+|too-many-public-methods        |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-function-args         |1           |
++-------------------------------+------------+
+|too-many-arguments             |1           |
++-------------------------------+------------+
+|inconsistent-return-statements |1           |
++-------------------------------+------------+
+|fixme                          |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.74/10
+

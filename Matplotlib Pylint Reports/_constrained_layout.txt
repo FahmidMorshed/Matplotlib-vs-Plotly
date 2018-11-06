@@ -1,0 +1,458 @@
+************* Module matplotlib._constrained_layout
+C: 83, 0: Wrong continued indentation (add 18 spaces).
+        hspace=None, wspace=None):
+        ^                 | (bad-continuation)
+C:281, 0: Wrong continued indentation (add 30 spaces).
+            pos.x0 + w_padt)
+            ^                             | (bad-continuation)
+C:283, 0: Wrong continued indentation (add 31 spaces).
+            pos.x1 + w_padt)
+            ^                              | (bad-continuation)
+C:285, 0: Wrong hanging indentation (remove 4 spaces).
+            -bbox.y0 + pos.y0 + h_padt)
+        |   ^ (bad-continuation)
+C:301, 0: Wrong continued indentation (add 33 spaces).
+                strength='weak')
+                ^                                | (bad-continuation)
+C:343, 0: Wrong hanging indentation (remove 4 spaces).
+                width_ratios[colnummin[n]:(colnummax[n] + 1)])
+            |   ^ (bad-continuation)
+C:345, 0: Wrong hanging indentation (remove 4 spaces).
+                height_ratios[rownummin[n]:(rownummax[n] + 1)])
+            |   ^ (bad-continuation)
+C:423, 0: Wrong hanging indentation (remove 4 spaces).
+                        axc._poslayoutbox.height * height0 / heightC)
+                    |   ^ (bad-continuation)
+C:426, 0: Wrong continued indentation (add 13 spaces).
+                    colnumCmin, colnumCmax):
+                    ^            | (bad-continuation)
+C:444, 0: Wrong hanging indentation (remove 4 spaces).
+                        axc._poslayoutbox.width * width0 / widthC)
+                    |   ^ (bad-continuation)
+C:447, 0: Wrong continued indentation (add 10 spaces).
+                    rownumCmin, rownumCmax):
+                    ^         | (bad-continuation)
+C:450, 0: Wrong hanging indentation (remove 4 spaces).
+                            axc._poslayoutbox.width * width0 / widthC)
+                        |   ^ (bad-continuation)
+C:452, 0: Wrong hanging indentation (remove 4 spaces).
+                            ax._poslayoutbox.width * widthC /
+                        |   ^ (bad-continuation)
+C:453, 0: Wrong hanging indentation (remove 4 spaces).
+                            (width0*1.8))
+                        |   ^ (bad-continuation)
+C:456, 0: Wrong hanging indentation (remove 4 spaces).
+                            ax._poslayoutbox.width * widthC / width0)
+                        |   ^ (bad-continuation)
+C:458, 0: Wrong hanging indentation (remove 4 spaces).
+                            axc._poslayoutbox.width * width0 /
+                        |   ^ (bad-continuation)
+C:459, 0: Wrong hanging indentation (remove 4 spaces).
+                            (widthC*1.8))
+                        |   ^ (bad-continuation)
+C:495, 0: Wrong continued indentation (add 9 spaces).
+                        padding=thepad)
+                        ^        | (bad-continuation)
+C:498, 0: Wrong continued indentation (add 9 spaces).
+                        padding=thepad)
+                        ^        | (bad-continuation)
+C:505, 0: Wrong continued indentation (add 1 space).
+                                 ssc._layoutbox],
+                                 ^| (bad-continuation)
+C:510, 0: Wrong continued indentation (remove 1 space).
+                                  padding=thepad)
+                                 |^ (bad-continuation)
+C:523, 0: Wrong hanging indentation (remove 4 spaces).
+            parent=axsslb,
+        |   ^ (bad-continuation)
+C:524, 0: Wrong hanging indentation (remove 4 spaces).
+            name=axsslb.name + '.cbar',
+        |   ^ (bad-continuation)
+C:525, 0: Wrong hanging indentation (remove 4 spaces).
+            artist=cax)
+        |   ^ (bad-continuation)
+C:529, 0: Wrong hanging indentation (remove 4 spaces).
+                parent=lb,
+            |   ^ (bad-continuation)
+C:530, 0: Wrong hanging indentation (remove 4 spaces).
+                name=lb.name + '.pos',
+            |   ^ (bad-continuation)
+C:531, 0: Wrong hanging indentation (remove 4 spaces).
+                tightwidth=False,
+            |   ^ (bad-continuation)
+C:532, 0: Wrong hanging indentation (remove 4 spaces).
+                pos=True,
+            |   ^ (bad-continuation)
+C:533, 0: Wrong hanging indentation (remove 4 spaces).
+                subplot=False,
+            |   ^ (bad-continuation)
+C:534, 0: Wrong hanging indentation (remove 4 spaces).
+                artist=cax)
+            |   ^ (bad-continuation)
+C:550, 0: Wrong hanging indentation (remove 4 spaces).
+                parent=lb,
+            |   ^ (bad-continuation)
+C:551, 0: Wrong hanging indentation (remove 4 spaces).
+                name=lb.name + '.pos',
+            |   ^ (bad-continuation)
+C:552, 0: Wrong hanging indentation (remove 4 spaces).
+                tightheight=True,
+            |   ^ (bad-continuation)
+C:553, 0: Wrong hanging indentation (remove 4 spaces).
+                pos=True,
+            |   ^ (bad-continuation)
+C:554, 0: Wrong hanging indentation (remove 4 spaces).
+                subplot=False,
+            |   ^ (bad-continuation)
+C:555, 0: Wrong hanging indentation (remove 4 spaces).
+                artist=cax)
+            |   ^ (bad-continuation)
+C:567, 0: Wrong continued indentation (remove 1 space).
+                                strength='medium')
+                               |^ (bad-continuation)
+C:622, 0: Wrong hanging indentation (remove 4 spaces).
+                parent=lb,
+            |   ^ (bad-continuation)
+C:623, 0: Wrong hanging indentation (remove 4 spaces).
+                name=lb.name + '.pos',
+            |   ^ (bad-continuation)
+C:624, 0: Wrong hanging indentation (remove 4 spaces).
+                tightwidth=False,
+            |   ^ (bad-continuation)
+C:625, 0: Wrong hanging indentation (remove 4 spaces).
+                pos=True,
+            |   ^ (bad-continuation)
+C:626, 0: Wrong hanging indentation (remove 4 spaces).
+                subplot=False,
+            |   ^ (bad-continuation)
+C:627, 0: Wrong hanging indentation (remove 4 spaces).
+                artist=cax)
+            |   ^ (bad-continuation)
+C:634, 0: Wrong continued indentation (add 4 spaces).
+                         strength='strong')
+                         ^   | (bad-continuation)
+C:669, 0: Wrong hanging indentation (remove 4 spaces).
+                (maxposlb.top - minposlb.bottom) *
+            |   ^ (bad-continuation)
+C:670, 0: Wrong hanging indentation (remove 4 spaces).
+                shrink, strength='strong')
+            |   ^ (bad-continuation)
+C:672, 0: Wrong hanging indentation (remove 4 spaces).
+                (maxposlb.top - minposlb.bottom) *
+            |   ^ (bad-continuation)
+C:673, 0: Wrong hanging indentation (remove 4 spaces).
+                (1 - shrink)/2 + minposlb.bottom,
+            |   ^ (bad-continuation)
+C:674, 0: Wrong hanging indentation (remove 4 spaces).
+                strength='strong')
+            |   ^ (bad-continuation)
+C:681, 0: Wrong hanging indentation (remove 4 spaces).
+                parent=lb,
+            |   ^ (bad-continuation)
+C:682, 0: Wrong hanging indentation (remove 4 spaces).
+                name=lb.name + '.pos',
+            |   ^ (bad-continuation)
+C:683, 0: Wrong hanging indentation (remove 4 spaces).
+                tightheight=True,
+            |   ^ (bad-continuation)
+C:684, 0: Wrong hanging indentation (remove 4 spaces).
+                pos=True,
+            |   ^ (bad-continuation)
+C:685, 0: Wrong hanging indentation (remove 4 spaces).
+                subplot=False,
+            |   ^ (bad-continuation)
+C:686, 0: Wrong hanging indentation (remove 4 spaces).
+                artist=cax)
+            |   ^ (bad-continuation)
+C:694, 0: Wrong continued indentation (add 4 spaces).
+                         strength='strong')
+                         ^   | (bad-continuation)
+C:720, 0: Wrong hanging indentation (remove 4 spaces).
+                (maxposlb.right - minposlb.left) *
+            |   ^ (bad-continuation)
+C:721, 0: Wrong hanging indentation (remove 4 spaces).
+                (1-shrink)/2 + minposlb.left)
+            |   ^ (bad-continuation)
+C: 55, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 58, 0: Argument name "colnumCmin" doesn't conform to snake_case naming style (invalid-name)
+C: 58, 0: Argument name "colnumCmax" doesn't conform to snake_case naming style (invalid-name)
+C: 63, 0: Argument name "rownumCmin" doesn't conform to snake_case naming style (invalid-name)
+C: 63, 0: Argument name "rownumCmax" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W: 74,11: Access to a protected member _layoutbox of a client class (protected-access)
+W: 75,21: Access to a protected member _poslayoutbox of a client class (protected-access)
+R: 82, 0: Too many arguments (6/5) (too-many-arguments)
+R: 82, 0: Too many local variables (17/15) (too-many-locals)
+W:145,-1: String statement has no effect (pointless-string-statement)
+C:147, 4: Variable name "invTransFig" doesn't conform to snake_case naming style (invalid-name)
+C:151, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:153,12: Variable name "gs" doesn't conform to snake_case naming style (invalid-name)
+W:154,15: Access to a protected member _layoutbox of a client class (protected-access)
+C:156, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:157, 8: Access to a protected member _warn_external of a client class (protected-access)
+W:161, 7: Access to a protected member _layoutbox of a client class (protected-access)
+C:162,12: Variable name "gs" doesn't conform to snake_case naming style (invalid-name)
+C:171,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:172,23: Access to a protected member _layoutbox of a client class (protected-access)
+W:173,15: Access to a protected member _layoutbox of a client class (protected-access)
+W:179,11: Access to a protected member _suptitle of a client class (protected-access)
+W:179,41: Access to a protected member _layoutbox of a client class (protected-access)
+W:179,41: Access to a protected member _suptitle of a client class (protected-access)
+W:180,18: Access to a protected member _suptitle of a client class (protected-access)
+W:183,12: Access to a protected member _layoutbox of a client class (protected-access)
+W:193,11: Access to a protected member _layoutbox of a client class (protected-access)
+W:199,20: Access to a protected member _layoutbox of a client class (protected-access)
+W:201,19: Access to a protected member _is_gridspec_layoutbox of a client class (protected-access)
+C:207,16: Variable name "gs" doesn't conform to snake_case naming style (invalid-name)
+W:210, 8: Access to a protected member _layoutbox of a client class (protected-access)
+W:211, 8: Access to a protected member _layoutbox of a client class (protected-access)
+C:216,16: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:217,19: Access to a protected member _layoutbox of a client class (protected-access)
+W:218,29: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:223,20: Access to a protected member _set_position of a client class (protected-access)
+W:225,12: Access to a protected member _warn_external of a client class (protected-access)
+W:166, 8: Unused variable 'nnn' (unused-variable)
+R: 82, 0: Too many branches (18/12) (too-many-branches)
+C:229, 0: Argument name "gs" doesn't conform to snake_case naming style (invalid-name)
+C:240, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:242,20: Access to a protected member _layoutbox of a client class (protected-access)
+C:245, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:250, 8: Variable name "nn" doesn't conform to snake_case naming style (invalid-name)
+C:254,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:261, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:268, 4: Variable name "invTransFig" doesn't conform to snake_case naming style (invalid-name)
+W:274,13: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:277,13: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:280, 4: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:282, 4: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:284, 4: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:286, 4: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:294, 7: Access to a protected member _layoutbox of a client class (protected-access)
+W:295, 8: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:296, 8: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:297, 8: Access to a protected member _layoutbox of a client class (protected-access)
+W:298, 8: Access to a protected member _layoutbox of a client class (protected-access)
+W:299, 8: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:300, 8: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:302, 8: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:303, 8: Access to a protected member _poslayoutbox of a client class (protected-access)
+C:306, 0: Argument name "gs" doesn't conform to snake_case naming style (invalid-name)
+R:306, 0: Too many local variables (41/15) (too-many-locals)
+C:324, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:326,20: Access to a protected member _layoutbox of a client class (protected-access)
+C:336, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:336,11: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:347, 8: Variable name "nn" doesn't conform to snake_case naming style (invalid-name)
+C:347,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:362,12: Variable name "mm" doesn't conform to snake_case naming style (invalid-name)
+C:364,12: Variable name "rownumCmin" doesn't conform to snake_case naming style (invalid-name)
+C:364,24: Variable name "colnumCmin" doesn't conform to snake_case naming style (invalid-name)
+C:365,12: Variable name "rownumCmax" doesn't conform to snake_case naming style (invalid-name)
+C:365,24: Variable name "colnumCmax" doesn't conform to snake_case naming style (invalid-name)
+C:366,12: Variable name "widthC" doesn't conform to snake_case naming style (invalid-name)
+C:366,20: Variable name "heightC" doesn't conform to snake_case naming style (invalid-name)
+W:372,33: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:373,33: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:379,33: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:380,33: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:388,33: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:388,51: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:395,33: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:395,51: Access to a protected member _poslayoutbox of a client class (protected-access)
+C:416,12: Variable name "drowsC" doesn't conform to snake_case naming style (invalid-name)
+C:418,12: Variable name "dcolsC" doesn't conform to snake_case naming style (invalid-name)
+W:422,16: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:423,24: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:428,20: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:429,24: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:432,20: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:433,24: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:436,20: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:437,24: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:438,20: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:439,24: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:443,16: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:444,24: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:449,20: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:450,28: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:451,20: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:452,28: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:455,20: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:456,28: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:457,20: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:458,28: Access to a protected member _poslayoutbox of a client class (protected-access)
+R:306, 0: Too many branches (21/12) (too-many-branches)
+R:306, 0: Too many statements (76/50) (too-many-statements)
+C:462, 0: Argument name "gs" doesn't conform to snake_case naming style (invalid-name)
+R:462, 0: Too many local variables (21/15) (too-many-locals)
+W:469,11: Access to a protected member _is_subplotspec_layoutbox of a client class (protected-access)
+W:472,19: Access to a protected member _is_gridspec_layoutbox of a client class (protected-access)
+C:481, 8: Variable name "rowNum0min" doesn't conform to snake_case naming style (invalid-name)
+C:481,20: Variable name "colNum0min" doesn't conform to snake_case naming style (invalid-name)
+C:482, 8: Variable name "rowNum0max" doesn't conform to snake_case naming style (invalid-name)
+C:482,20: Variable name "colNum0max" doesn't conform to snake_case naming style (invalid-name)
+C:486,12: Variable name "rowNumCmin" doesn't conform to snake_case naming style (invalid-name)
+C:486,24: Variable name "colNumCmin" doesn't conform to snake_case naming style (invalid-name)
+C:489,12: Variable name "rowNumCmax" doesn't conform to snake_case naming style (invalid-name)
+C:489,24: Variable name "colNumCmax" doesn't conform to snake_case naming style (invalid-name)
+W:494,34: Access to a protected member _layoutbox of a client class (protected-access)
+W:494,50: Access to a protected member _layoutbox of a client class (protected-access)
+W:497,34: Access to a protected member _layoutbox of a client class (protected-access)
+W:497,50: Access to a protected member _layoutbox of a client class (protected-access)
+W:504,34: Access to a protected member _layoutbox of a client class (protected-access)
+W:505,33: Access to a protected member _layoutbox of a client class (protected-access)
+W:508,34: Access to a protected member _layoutbox of a client class (protected-access)
+W:509,34: Access to a protected member _layoutbox of a client class (protected-access)
+C:513, 0: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:513, 0: Too many arguments (6/5) (too-many-arguments)
+W:519,11: Access to a protected member _layoutbox of a client class (protected-access)
+W:520,12: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:521,13: Access to a protected member _layoutbox of a client class (protected-access)
+C:522, 4: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+R:572, 0: Too many local variables (17/15) (too-many-locals)
+C:583, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:585, 8: Unused variable 'nrows' (unused-variable)
+W:585,15: Unused variable 'ncols' (unused-variable)
+R:602, 0: Too many arguments (6/5) (too-many-arguments)
+R:602, 0: Too many local variables (30/15) (too-many-locals)
+C:609, 4: Variable name "gs" doesn't conform to snake_case naming style (invalid-name)
+W:611,11: Access to a protected member _layoutbox of a client class (protected-access)
+C:613, 4: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:628,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:630,25: Access to a protected member _layoutbox of a client class (protected-access)
+W:632,29: Access to a protected member _layoutbox of a client class (protected-access)
+C:641,12: Variable name "ch" doesn't conform to snake_case naming style (invalid-name)
+W:647,29: Access to a protected member _layoutbox of a client class (protected-access)
+W:650,33: Access to a protected member _layoutbox of a client class (protected-access)
+W:653,33: Access to a protected member _layoutbox of a client class (protected-access)
+W:655,29: Access to a protected member _layoutbox of a client class (protected-access)
+W:660,19: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:661,19: Access to a protected member _poslayoutbox of a client class (protected-access)
+C:688,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:690,25: Access to a protected member _layoutbox of a client class (protected-access)
+W:692,29: Access to a protected member _layoutbox of a client class (protected-access)
+C:697,12: Variable name "ch" doesn't conform to snake_case naming style (invalid-name)
+W:703,29: Access to a protected member _layoutbox of a client class (protected-access)
+W:705,33: Access to a protected member _layoutbox of a client class (protected-access)
+W:708,29: Access to a protected member _layoutbox of a client class (protected-access)
+W:710,33: Access to a protected member _layoutbox of a client class (protected-access)
+W:715,19: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:716,19: Access to a protected member _poslayoutbox of a client class (protected-access)
+W:643,12: Unused variable 'nrows' (unused-variable)
+W:643,19: Unused variable 'ncols' (unused-variable)
+R:602, 0: Too many branches (22/12) (too-many-branches)
+R:602, 0: Too many statements (55/50) (too-many-statements)
+
+
+Report
+======
+319 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |11     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-_layoutbox (matplotlib._constrained_layout)
+      \-cbook (matplotlib._constrained_layout)
+    numpy (matplotlib._constrained_layout)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |412    |56.59 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |119    |16.35 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |133    |18.27 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |64     |8.79  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |112    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |13     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |102    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|protected-access           |96          |
++---------------------------+------------+
+|bad-continuation           |58          |
++---------------------------+------------+
+|invalid-name               |53          |
++---------------------------+------------+
+|unused-variable            |5           |
++---------------------------+------------+
+|too-many-locals            |5           |
++---------------------------+------------+
+|too-many-branches          |3           |
++---------------------------+------------+
+|too-many-arguments         |3           |
++---------------------------+------------+
+|too-many-statements        |2           |
++---------------------------+------------+
+|pointless-string-statement |1           |
++---------------------------+------------+
+|len-as-condition           |1           |
++---------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 2.88/10
+

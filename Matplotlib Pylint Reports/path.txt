@@ -1,0 +1,177 @@
+************* Module matplotlib.path
+C:556, 0: Wrong continued indentation (add 35 spaces).
+            bbox.x0, bbox.y0, bbox.x1, bbox.y1, filled)
+            ^                                  | (bad-continuation)
+C:  1, 0: Too many lines in module (1009/1000) (too-many-lines)
+E: 17, 0: No name '_path' in module 'matplotlib' (no-name-in-module)
+R: 21, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:137,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:140,24: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:177, 8: Access to a protected member _vertices of a client class (protected-access)
+W:178, 8: Access to a protected member _codes of a client class (protected-access)
+W:179, 8: Access to a protected member _readonly of a client class (protected-access)
+W:185, 8: Access to a protected member _has_nonfinite of a client class (protected-access)
+W:186, 8: Access to a protected member _interpolation_steps of a client class (protected-access)
+C:299, 4: Argument name "XY" doesn't conform to snake_case naming style (invalid-name)
+R:358, 4: Too many arguments (9/5) (too-many-arguments)
+R:358, 4: Too many local variables (20/15) (too-many-locals)
+C:403,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:416, 8: Variable name "NUM_VERTICES_FOR_CODE" doesn't conform to snake_case naming style (invalid-name)
+C:417, 8: Variable name "STOP" doesn't conform to snake_case naming style (invalid-name)
+R:430, 4: Too many arguments (10/5) (too-many-arguments)
+W:431,16: Unused argument 'quantize' (unused-argument)
+C:595,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:609,12: Unnecessary "else" after "return" (no-else-return)
+C:639, 4: Argument name "numVertices" doesn't conform to snake_case naming style (invalid-name)
+C:666, 4: Argument name "numVertices" doesn't conform to snake_case naming style (invalid-name)
+C:666, 4: Argument name "innerCircle" doesn't conform to snake_case naming style (invalid-name)
+C:681,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:694, 4: Argument name "numVertices" doesn't conform to snake_case naming style (invalid-name)
+C:741, 8: Variable name "MAGIC" doesn't conform to snake_case naming style (invalid-name)
+C:742, 8: Variable name "SQRTHALF" doesn't conform to snake_case naming style (invalid-name)
+C:743, 8: Variable name "MAGIC45" doesn't conform to snake_case naming style (invalid-name)
+C:801,12: Variable name "MAGIC" doesn't conform to snake_case naming style (invalid-name)
+C:802,12: Variable name "SQRTHALF" doesn't conform to snake_case naming style (invalid-name)
+C:803,12: Variable name "MAGIC45" doesn't conform to snake_case naming style (invalid-name)
+C:836, 4: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+R:836, 4: Too many local variables (28/15) (too-many-locals)
+C:870, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:877, 8: Variable name "xA" doesn't conform to snake_case naming style (invalid-name)
+C:878, 8: Variable name "yA" doesn't conform to snake_case naming style (invalid-name)
+C:879, 8: Variable name "xA_dot" doesn't conform to snake_case naming style (invalid-name)
+C:880, 8: Variable name "yA_dot" doesn't conform to snake_case naming style (invalid-name)
+C:882, 8: Variable name "xB" doesn't conform to snake_case naming style (invalid-name)
+C:883, 8: Variable name "yB" doesn't conform to snake_case naming style (invalid-name)
+C:884, 8: Variable name "xB_dot" doesn't conform to snake_case naming style (invalid-name)
+C:885, 8: Variable name "yB_dot" doesn't conform to snake_case naming style (invalid-name)
+C:915, 4: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+W:185, 8: Attribute '_has_nonfinite' defined outside __init__ (attribute-defined-outside-init)
+W:246, 8: Attribute '_simplify_threshold' defined outside __init__ (attribute-defined-outside-init)
+W:264, 8: Attribute '_should_simplify' defined outside __init__ (attribute-defined-outside-init)
+R: 21, 0: Too many public methods (30/20) (too-many-public-methods)
+C:986, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:993, 0: Dangerous default value [] as argument (dangerous-default-value)
+C:1006, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+
+
+Report
+======
+341 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |41     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.path)
+      \-cbook (matplotlib.path)
+      \-hatch (matplotlib.path)
+      \-transforms (matplotlib.path)
+    numpy (matplotlib.path)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |458    |45.30 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |425    |42.04 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |22     |2.18  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |106    |10.48 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |33     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |7      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |10     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |25          |
++-------------------------------+------------+
+|len-as-condition               |6           |
++-------------------------------+------------+
+|protected-access               |5           |
++-------------------------------+------------+
+|attribute-defined-outside-init |3           |
++-------------------------------+------------+
+|too-many-locals                |2           |
++-------------------------------+------------+
+|too-many-arguments             |2           |
++-------------------------------+------------+
+|unused-argument                |1           |
++-------------------------------+------------+
+|too-many-public-methods        |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|no-else-return                 |1           |
++-------------------------------+------------+
+|dangerous-default-value        |1           |
++-------------------------------+------------+
+|bad-continuation               |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.39/10
+

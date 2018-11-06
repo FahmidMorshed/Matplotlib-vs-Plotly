@@ -1,0 +1,332 @@
+************* Module plotly.basedatatypes
+C:1062, 0: Wrong continued indentation (remove 1 space).
+                               )[0]
+                              |^ (bad-continuation)
+C:1726, 0: Wrong hanging indentation (add 1 space).
+            restyle_data=restyle_data,
+            ^| (bad-continuation)
+C:1727, 0: Wrong hanging indentation (add 1 space).
+            relayout_data=relayout_data,
+            ^| (bad-continuation)
+C:1728, 0: Wrong hanging indentation (add 1 space).
+            trace_indexes=trace_indexes)
+            ^| (bad-continuation)
+C:3743, 0: Line too long (103/100) (line-too-long)
+C:  1, 0: Too many lines in module (4136/1000) (too-many-lines)
+W: 39, 0: Anomalous backslash in string: '\['. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W: 39, 0: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W: 39, 0: Anomalous backslash in string: '\]'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+W:3503, 0: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 27, 0: Constant name "np" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 32, 0: Constant name "Undefined" doesn't conform to UPPER_CASE naming style (invalid-name)
+R: 35, 0: Too many instance attributes (20/7) (too-many-instance-attributes)
+W:113,29: Access to a protected member _grid_str of a client class (protected-access)
+W:114,29: Access to a protected member _grid_ref of a client class (protected-access)
+W:148,31: Access to a protected member _props of a client class (protected-access)
+W:166,12: Access to a protected member _parent of a client class (protected-access)
+W:169,12: Access to a protected member _orphan_props of a client class (protected-access)
+W:172,12: Access to a protected member _trace_ind of a client class (protected-access)
+W:185,32: Access to a protected member _props of a client class (protected-access)
+W:191, 8: Access to a protected member _orphan_props of a client class (protected-access)
+W:192, 8: Access to a protected member _parent of a client class (protected-access)
+C:268,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:292,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:345,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:357, 8: Unnecessary "else" after "return" (no-else-return)
+W:365,19: Access to a protected member _vals_equal of a client class (protected-access)
+W:378,19: Access to a protected member _build_repr_for_class of a client class (protected-access)
+C:426,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:428,27: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+R:456, 4: Too many local variables (27/15) (too-many-locals)
+W:515,16: Access to a protected member _orphan_props of a client class (protected-access)
+W:515,56: Access to a protected member _props of a client class (protected-access)
+W:516,16: Access to a protected member _parent of a client class (protected-access)
+W:517,16: Access to a protected member _trace_ind of a client class (protected-access)
+C:521, 8: Variable name "traces_prop_defaults_post_removal" doesn't conform to snake_case naming style (invalid-name)
+C:558,16: Variable name "ci" doesn't conform to snake_case naming style (invalid-name)
+C:568,16: Variable name "ni" doesn't conform to snake_case naming style (invalid-name)
+W:584,12: Access to a protected member _trace_ind of a client class (protected-access)
+R:456, 4: Too many branches (14/12) (too-many-branches)
+C:683,26: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:749,22: Access to a protected member _trace_ind of a client class (protected-access)
+R:802, 8: Unnecessary "else" after "return" (no-else-return)
+C:826,12: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C:835, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:835, 4: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
+C:875,12: Variable name "kp" doesn't conform to snake_case naming style (invalid-name)
+W:935,31: Access to a protected member _vals_equal of a client class (protected-access)
+W:948,27: Access to a protected member _vals_equal of a client class (protected-access)
+R:835, 4: Too many branches (20/12) (too-many-branches)
+C:965, 4: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+C:976, 4: Argument name "n" doesn't conform to snake_case naming style (invalid-name)
+W:1124,12: Access to a protected member _trace_ind of a client class (protected-access)
+C:1127, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+W:1147,36: Access to a protected member _props of a client class (protected-access)
+W:1151,12: Access to a protected member _parent of a client class (protected-access)
+W:1152,12: Access to a protected member _orphan_props of a client class (protected-access)
+W:1275,26: Access to a protected member _trace_ind of a client class (protected-access)
+W:1306,26: Access to a protected member _trace_ind of a client class (protected-access)
+W:1365,35: Access to a protected member _props of a client class (protected-access)
+W:1370,39: Access to a protected member _props of a client class (protected-access)
+W:1371,12: Access to a protected member _orphan_props of a client class (protected-access)
+W:1372,12: Access to a protected member _parent of a client class (protected-access)
+W:1377, 8: Access to a protected member _parent of a client class (protected-access)
+W:1378, 8: Access to a protected member _orphan_props of a client class (protected-access)
+C:1456,26: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:1620,20: Access to a protected member _dispatch_change_callbacks of a client class (protected-access)
+W:1652,24: Access to a protected member _dispatch_change_callbacks of a client class (protected-access)
+C:1785, 4: Method name "_send_addTraces_msg" doesn't conform to snake_case naming style (invalid-name)
+C:1788, 4: Method name "_send_moveTraces_msg" doesn't conform to snake_case naming style (invalid-name)
+C:1791, 4: Method name "_send_deleteTraces_msg" doesn't conform to snake_case naming style (invalid-name)
+C:2130, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:2154, 4: Missing method docstring (missing-docstring)
+W:2172,28: Access to a protected member _props of a client class (protected-access)
+C:2180, 4: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
+W:2217,32: Access to a protected member _subplotid_prop_re of a client class (protected-access)
+W:2228,12: Access to a protected member _raise_on_invalid_property_error of a client class (protected-access)
+W:2239,28: Access to a protected member _get_prop_validator of a client class (protected-access)
+C:2263,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:2187, 4: Too many branches (22/12) (too-many-branches)
+R:2296, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+R:2433, 8: Unnecessary "else" after "return" (no-else-return)
+W:2438,19: Access to a protected member _get_child_props of a client class (protected-access)
+W:2464,28: Access to a protected member _index_is of a client class (protected-access)
+W:2492,12: Access to a protected member _init_child_props of a client class (protected-access)
+W:2520,24: Access to a protected member _index_is of a client class (protected-access)
+W:2562,28: Access to a protected member _index_is of a client class (protected-access)
+R:2588, 8: Unnecessary "else" after "return" (no-else-return)
+W:2591,19: Access to a protected member _get_child_prop_defaults of a client class (protected-access)
+W:2673,15: Access to a protected member _str_to_dict_path of a client class (protected-access)
+R:2685,12: Unnecessary "else" after "return" (no-else-return)
+C:2701,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:2728,21: Access to a protected member _str_to_dict_path of a client class (protected-access)
+C:2731,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+W:2738,24: Access to a protected member _validators of a client class (protected-access)
+W:2766,15: Access to a protected member _str_to_dict_path of a client class (protected-access)
+C:2770,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:2806,16: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+R:2854, 8: Unnecessary "else" after "return" (no-else-return)
+W:2864,32: Access to a protected member _props of a client class (protected-access)
+W:2864,16: Access to a protected member _props of a client class (protected-access)
+C:2888,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:2986,17: Instance of 'BasePlotlyType' has no 'batch_update' member (no-member)
+W:2987,16: Access to a protected member _perform_update of a client class (protected-access)
+W:2988,16: Access to a protected member _perform_update of a client class (protected-access)
+W:2990,12: Access to a protected member _perform_update of a client class (protected-access)
+W:2991,12: Access to a protected member _perform_update of a client class (protected-access)
+W:3001,31: Access to a protected member _in_batch_mode of a client class (protected-access)
+R:3003, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:3100,37: Access to a protected member _props of a client class (protected-access)
+W:3105,36: Access to a protected member _props of a client class (protected-access)
+W:3127, 8: Access to a protected member _parent of a client class (protected-access)
+W:3128, 8: Access to a protected member _orphan_props of a client class (protected-access)
+W:3133,16: Access to a protected member _orphan_props of a client class (protected-access)
+W:3134,12: Access to a protected member _parent of a client class (protected-access)
+R:3067, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+W:3174,39: Access to a protected member _props of a client class (protected-access)
+W:3179,38: Access to a protected member _props of a client class (protected-access)
+C:3202,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:3203,16: Access to a protected member _orphan_props of a client class (protected-access)
+W:3204,16: Access to a protected member _parent of a client class (protected-access)
+C:3208,16: Variable name "cv" doesn't conform to snake_case naming style (invalid-name)
+W:3210,20: Access to a protected member _orphan_props of a client class (protected-access)
+W:3211,16: Access to a protected member _parent of a client class (protected-access)
+R:3141, 4: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:3141, 4: Too many branches (15/12) (too-many-branches)
+W:3261,24: Access to a protected member _index_is of a client class (protected-access)
+C:3384,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:3401,28: Access to a protected member _str_to_dict_path of a client class (protected-access)
+C:3425, 4: Argument name "v1" doesn't conform to snake_case naming style (invalid-name)
+C:3425, 4: Argument name "v2" doesn't conform to snake_case naming style (invalid-name)
+R:3440, 8: Unnecessary "else" after "return" (no-else-return)
+W:3458, 0: Method '_prop_descriptions' is abstract in class 'BasePlotlyType' but is not overridden (abstract-method)
+W:3467, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+W:3473,12: Access to a protected member _relayout_child of a client class (protected-access)
+W:3476, 0: Method '_prop_descriptions' is abstract in class 'BasePlotlyType' but is not overridden (abstract-method)
+E:3548, 8: Bad first argument 'BaseLayoutHierarchyType' given to super() (bad-super-call)
+E:3569, 8: Bad first argument 'BaseLayoutHierarchyType' given to super() (bad-super-call)
+W:3644,21: Access to a protected member _str_to_dict_path of a client class (protected-access)
+E:3670,15: Bad first argument 'BaseLayoutHierarchyType' given to super() (bad-super-call)
+E:3681,19: Bad first argument 'BaseLayoutHierarchyType' given to super() (bad-super-call)
+R:3677, 8: Unnecessary "else" after "return" (no-else-return)
+E:3688,15: Bad first argument 'BaseLayoutHierarchyType' given to super() (bad-super-call)
+E:3695,15: Bad first argument 'BaseLayoutHierarchyType' given to super() (bad-super-call)
+E:3707,12: Bad first argument 'BaseLayoutHierarchyType' given to super() (bad-super-call)
+E:3718,12: Bad first argument 'BaseLayoutHierarchyType' given to super() (bad-super-call)
+W:3703,21: Access to a protected member _str_to_dict_path of a client class (protected-access)
+E:3732,12: Bad first argument 'BaseLayoutHierarchyType' given to super() (bad-super-call)
+E:3743,24: Bad first argument 'BaseLayoutHierarchyType' given to super() (bad-super-call)
+R:3742, 8: Unnecessary "else" after "return" (no-else-return)
+C:3745,12: Missing function docstring (missing-docstring)
+E:3749,55: Module 'types' has no 'DictProxyType' member (no-member)
+C:3754,12: Missing function docstring (missing-docstring)
+W:3776, 0: Method '_parent_path_str' is abstract in class 'BasePlotlyType' but is not overridden (abstract-method)
+W:3776, 0: Method '_prop_descriptions' is abstract in class 'BasePlotlyType' but is not overridden (abstract-method)
+W:3781, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+W:3787,12: Access to a protected member _restyle_child of a client class (protected-access)
+E:3799, 8: Bad first argument 'BaseTraceHierarchyType' given to super() (bad-super-call)
+C:3822, 4: Missing method docstring (missing-docstring)
+W:4081, 4: Useless super delegation in method '__init__' (useless-super-delegation)
+W:4089, 4: Parameters differ from overridden '_restyle_child' method (arguments-differ)
+W:4094, 4: Parameters differ from overridden 'on_change' method (arguments-differ)
+W:4116,26: Access to a protected member _index_is of a client class (protected-access)
+E:4116,47: Instance of 'BaseFrameHierarchyType' has no 'data' member (no-member)
+R:4123,12: Unnecessary "else" after "return" (no-else-return)
+E:4130,22: Instance of 'BaseFrameHierarchyType' has no 'layout' member (no-member)
+W: 10, 0: Unused PrettyPrinter imported from pprint (unused-import)
+W: 14, 0: Unused offline imported as pyo (unused-import)
+W: 15, 0: Unused BaseValidator imported from _plotly_utils.basevalidators (unused-import)
+W: 20, 0: Unused Points imported from callbacks (unused-import)
+W: 20, 0: Unused BoxSelector imported from callbacks (unused-import)
+W: 20, 0: Unused LassoSelector imported from callbacks (unused-import)
+W: 20, 0: Unused InputDeviceState imported from callbacks (unused-import)
+C:  7, 0: standard import "import warnings" should be placed before "import six" (wrong-import-order)
+C:  8, 0: standard import "from contextlib import contextmanager" should be placed before "import six" (wrong-import-order)
+C:  9, 0: standard import "from copy import deepcopy, copy" should be placed before "import six" (wrong-import-order)
+C: 10, 0: standard import "from pprint import PrettyPrinter" should be placed before "import six" (wrong-import-order)
+C: 15, 0: first party import "from _plotly_utils.basevalidators import CompoundValidator, CompoundArrayValidator, BaseDataValidator, BaseValidator, LiteralValidator" should be placed before "from .optional_imports import get_module" (wrong-import-order)
+
+
+Report
+======
+1097 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |7      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |130    |NC         |NC         |98.46       |2.31     |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    _plotly_utils 
+      \-basevalidators (plotly.basedatatypes)
+    plotly 
+      \-animation (plotly.basedatatypes)
+      \-callbacks (plotly.basedatatypes)
+      \-io (plotly.basedatatypes)
+      \-offline (plotly.basedatatypes)
+      \-optional_imports (plotly.basedatatypes)
+      \-utils (plotly.basedatatypes)
+      \-validators (plotly.basedatatypes)
+        \-layout (plotly.basedatatypes)
+    six (plotly.basedatatypes)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1417   |34.19 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |1540   |37.15 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |710    |17.13 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |478    |11.53 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |51     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |20     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |93     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |15     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|protected-access               |73          |
++-------------------------------+------------+
+|invalid-name                   |29          |
++-------------------------------+------------+
+|bad-super-call                 |11          |
++-------------------------------+------------+
+|no-else-return                 |10          |
++-------------------------------+------------+
+|unused-import                  |7           |
++-------------------------------+------------+
+|wrong-import-order             |5           |
++-------------------------------+------------+
+|missing-docstring              |5           |
++-------------------------------+------------+
+|len-as-condition               |5           |
++-------------------------------+------------+
+|too-many-branches              |4           |
++-------------------------------+------------+
+|no-member                      |4           |
++-------------------------------+------------+
+|bad-continuation               |4           |
++-------------------------------+------------+
+|anomalous-backslash-in-string  |4           |
++-------------------------------+------------+
+|abstract-method                |4           |
++-------------------------------+------------+
+|useless-super-delegation       |3           |
++-------------------------------+------------+
+|inconsistent-return-statements |3           |
++-------------------------------+------------+
+|too-many-instance-attributes   |2           |
++-------------------------------+------------+
+|arguments-differ               |2           |
++-------------------------------+------------+
+|too-many-locals                |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|line-too-long                  |1           |
++-------------------------------+------------+
+|consider-using-enumerate       |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.82/10
+

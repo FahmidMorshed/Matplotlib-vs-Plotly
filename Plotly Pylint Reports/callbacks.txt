@@ -1,0 +1,162 @@
+************* Module plotly.callbacks
+C: 30, 0: Wrong hanging indentation (remove 4 spaces).
+            ctrl=repr(self.ctrl),
+        |   ^ (bad-continuation)
+C: 31, 0: Wrong hanging indentation (remove 4 spaces).
+            alt=repr(self.alt),
+        |   ^ (bad-continuation)
+C: 32, 0: Wrong hanging indentation (remove 4 spaces).
+            meta=repr(self.meta),
+        |   ^ (bad-continuation)
+C: 33, 0: Wrong hanging indentation (remove 4 spaces).
+            shift=repr(self.shift),
+        |   ^ (bad-continuation)
+C: 34, 0: Wrong hanging indentation (remove 4 spaces).
+            button=repr(self.button),
+        |   ^ (bad-continuation)
+C: 35, 0: Wrong hanging indentation (remove 4 spaces).
+            buttons=repr(self.buttons))
+        |   ^ (bad-continuation)
+C:149, 0: Wrong hanging indentation (remove 1 space).
+            point_inds=_list_repr_elided(self.point_inds,
+           |^ (bad-continuation)
+C:151, 0: Wrong hanging indentation (remove 1 space).
+            xs=_list_repr_elided(self.xs,
+           |^ (bad-continuation)
+C:153, 0: Wrong hanging indentation (remove 1 space).
+            ys=_list_repr_elided(self.ys,
+           |^ (bad-continuation)
+C:155, 0: Wrong hanging indentation (remove 1 space).
+            trace_name=repr(self.trace_name),
+           |^ (bad-continuation)
+C:156, 0: Wrong hanging indentation (remove 1 space).
+            trace_index=repr(self.trace_index))
+           |^ (bad-continuation)
+C:224, 0: Wrong hanging indentation (add 4 spaces).
+            xrange=self.xrange,
+            ^   | (bad-continuation)
+C:225, 0: Wrong hanging indentation (add 4 spaces).
+            yrange=self.yrange)
+            ^   | (bad-continuation)
+C:271, 0: Wrong hanging indentation (add 6 spaces).
+            xs=_list_repr_elided(self.xs,
+            ^     | (bad-continuation)
+C:273, 0: Wrong hanging indentation (add 6 spaces).
+            ys=_list_repr_elided(self.ys,
+            ^     | (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  4, 0: Missing class docstring (missing-docstring)
+R:  5, 4: Too many arguments (7/5) (too-many-arguments)
+C:127, 0: Missing class docstring (missing-docstring)
+W:129, 4: Dangerous default value [] as argument (dangerous-default-value)
+W:129, 4: Dangerous default value [] as argument (dangerous-default-value)
+W:129, 4: Dangerous default value [] as argument (dangerous-default-value)
+R:129, 4: Too many arguments (6/5) (too-many-arguments)
+C:170, 4: Attribute name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:181, 4: Attribute name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:214, 0: Missing class docstring (missing-docstring)
+C:261, 0: Missing class docstring (missing-docstring)
+C:288, 4: Attribute name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:300, 4: Attribute name "ys" doesn't conform to snake_case naming style (invalid-name)
+
+
+Report
+======
+68 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |4      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |25     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    plotly 
+      \-utils (plotly.callbacks)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |139    |44.13 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |144    |45.71 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |32     |10.16 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |24     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------------+------------+
+|message id              |occurrences |
++========================+============+
+|bad-continuation        |15          |
++------------------------+------------+
+|missing-docstring       |5           |
++------------------------+------------+
+|invalid-name            |4           |
++------------------------+------------+
+|dangerous-default-value |3           |
++------------------------+------------+
+|too-many-arguments      |2           |
++------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 5.74/10
+

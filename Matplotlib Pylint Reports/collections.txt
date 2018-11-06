@@ -1,0 +1,382 @@
+************* Module matplotlib.collections
+W:210, 0: TODO:check to ensure that this does not fail for (fixme)
+C:110, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:295, 0: Wrong continued indentation before block (add 4 spaces).
+            len(facecolors) == 1 and len(edgecolors) == 1 and
+            ^   | (bad-continuation)
+C:296, 0: Wrong continued indentation before block (add 4 spaces).
+            len(self._linewidths) == 1 and
+            ^   | (bad-continuation)
+C:297, 0: Wrong continued indentation before block (add 4 spaces).
+            self._linestyles == [(None, None)] and
+            ^   | (bad-continuation)
+C:298, 0: Wrong continued indentation before block (add 4 spaces).
+            len(self._antialiaseds) == 1 and len(self._urls) == 1 and
+            ^   | (bad-continuation)
+C:299, 0: Wrong continued indentation before block (add 4 spaces).
+            self.get_hatch() is None):
+            ^   | (bad-continuation)
+C:367, 0: Wrong hanging indentation (remove 3 spaces).
+               self._picker is not True  # the bool, not just nonzero or 1
+            |  ^ (bad-continuation)
+C:1132, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:1318, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:1853, 0: Wrong hanging indentation (remove 8 spaces).
+                    c[:-1, :-1],
+            |       ^ (bad-continuation)
+C:1854, 0: Wrong hanging indentation (remove 8 spaces).
+                    c[:-1, 1:],
+            |       ^ (bad-continuation)
+C:1855, 0: Wrong hanging indentation (remove 8 spaces).
+                    c[1:, 1:],
+            |       ^ (bad-continuation)
+C:1856, 0: Wrong hanging indentation (remove 8 spaces).
+                    c[1:, :-1],
+            |       ^ (bad-continuation)
+C:1857, 0: Wrong hanging indentation (remove 8 spaces).
+                    c[:-1, :-1]
+            |       ^ (bad-continuation)
+C:1858, 0: Wrong hanging indentation.
+                ), axis=2)
+        |   |   ^ (bad-continuation)
+C:1880, 0: Wrong hanging indentation (remove 4 spaces).
+                p_a, p_b, p_center,
+            |   ^ (bad-continuation)
+C:1881, 0: Wrong hanging indentation (remove 4 spaces).
+                p_b, p_c, p_center,
+            |   ^ (bad-continuation)
+C:1882, 0: Wrong hanging indentation (remove 4 spaces).
+                p_c, p_d, p_center,
+            |   ^ (bad-continuation)
+C:1883, 0: Wrong hanging indentation (remove 4 spaces).
+                p_d, p_a, p_center,
+            |   ^ (bad-continuation)
+C:1895, 0: Wrong hanging indentation (remove 12 spaces).
+                        c_a, c_b, c_center,
+            |           ^ (bad-continuation)
+C:1896, 0: Wrong hanging indentation (remove 12 spaces).
+                        c_b, c_c, c_center,
+            |           ^ (bad-continuation)
+C:1897, 0: Wrong hanging indentation (remove 12 spaces).
+                        c_c, c_d, c_center,
+            |           ^ (bad-continuation)
+C:1898, 0: Wrong hanging indentation (remove 12 spaces).
+                        c_d, c_a, c_center,
+            |           ^ (bad-continuation)
+C:1899, 0: Wrong hanging indentation.
+                    ), axis=2)
+        |   |       ^ (bad-continuation)
+C:  1, 0: Too many lines in module (1958/1000) (too-many-lines)
+E: 17, 0: No name '_path' in module 'matplotlib' (no-name-in-module)
+C:159,16: Attribute name "_transOffset" doesn't conform to snake_case naming style (invalid-name)
+R: 23, 0: Too many instance attributes (27/7) (too-many-instance-attributes)
+W: 23, 1: Access to a protected member _define_aliases of a client class (protected-access)
+R: 92, 4: Too many arguments (17/5) (too-many-arguments)
+R: 92, 4: Too many local variables (19/15) (too-many-locals)
+C:167, 4: Missing method docstring (missing-docstring)
+C:170, 4: Missing method docstring (missing-docstring)
+C:173, 4: Missing method docstring (missing-docstring)
+C:176, 4: Missing method docstring (missing-docstring)
+C:177, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:180,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:180,16: Access to a protected member _as_mpl_transform of a client class (protected-access)
+C:183, 4: Argument name "transData" doesn't conform to snake_case naming style (invalid-name)
+C:183, 4: Missing method docstring (missing-docstring)
+C:185, 8: Variable name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+C:194,12: Variable name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+C:200,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:200,26: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:218, 8: Variable name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+C:226,16: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:226,20: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:227,16: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:228,16: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:232,16: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:233,16: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:243,12: Variable name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+W:253, 4: Parameters differ from overridden 'draw' method (arguments-differ)
+R:253, 4: Too many local variables (17/15) (too-many-locals)
+C:260,19: Variable name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+C:262, 8: Variable name "gc" doesn't conform to snake_case naming style (invalid-name)
+R:294,12: Too many boolean expressions in if statement (9/5) (too-many-boolean-expressions)
+C:300,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:253, 4: Too many branches (13/12) (too-many-branches)
+C:338, 4: Argument name "pr" doesn't conform to snake_case naming style (invalid-name)
+C:348, 4: Missing method docstring (missing-docstring)
+C:370,19: Variable name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+C:389, 4: Missing method docstring (missing-docstring)
+R:453, 8: Unnecessary "else" after "return" (no-else-return)
+C:486, 4: Argument name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:508, 4: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
+W:535,26: Access to a protected member _get_dash_pattern of a client class (protected-access)
+W:538,30: Access to a protected member _get_dash_pattern of a client class (protected-access)
+W:540,30: Access to a protected member _get_dash_pattern of a client class (protected-access)
+C:553, 4: Argument name "cs" doesn't conform to snake_case naming style (invalid-name)
+C:568, 4: Missing method docstring (missing-docstring)
+C:571, 4: Argument name "js" doesn't conform to snake_case naming style (invalid-name)
+C:586, 4: Missing method docstring (missing-docstring)
+W:624,18: Access to a protected member _scale_dashes of a client class (protected-access)
+C:629, 4: Argument name "aa" doesn't conform to snake_case naming style (invalid-name)
+C:642, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:658, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:671, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:687, 4: Missing method docstring (missing-docstring)
+C:690, 4: Missing method docstring (missing-docstring)
+R:691, 8: Unnecessary "else" after "return" (no-else-return)
+W:691,11: Access to a protected member _str_equal of a client class (protected-access)
+C:696, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:720,31: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:724, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:761, 4: Missing method docstring (missing-docstring)
+C:764, 4: Missing method docstring (missing-docstring)
+W:792,29: Access to a protected member _antialiaseds of a client class (protected-access)
+W:793,35: Access to a protected member _original_edgecolor of a client class (protected-access)
+W:794,27: Access to a protected member _edgecolors of a client class (protected-access)
+W:795,35: Access to a protected member _original_facecolor of a client class (protected-access)
+W:796,27: Access to a protected member _facecolors of a client class (protected-access)
+W:797,27: Access to a protected member _linewidths of a client class (protected-access)
+W:798,27: Access to a protected member _linestyles of a client class (protected-access)
+W:799,30: Access to a protected member _us_linestyles of a client class (protected-access)
+W:800,27: Access to a protected member _pickradius of a client class (protected-access)
+W:801,22: Access to a protected member _hatch of a client class (protected-access)
+W:804,18: Access to a protected member _A of a client class (protected-access)
+W:800, 8: Attribute '_pickradius' defined outside __init__ (attribute-defined-outside-init)
+W:801, 8: Attribute '_hatch' defined outside __init__ (attribute-defined-outside-init)
+W:792, 8: Attribute '_antialiaseds' defined outside __init__ (attribute-defined-outside-init)
+W:668, 8: Attribute '_facecolors' defined outside __init__ (attribute-defined-outside-init)
+W:779,12: Attribute '_facecolors' defined outside __init__ (attribute-defined-outside-init)
+W:796, 8: Attribute '_facecolors' defined outside __init__ (attribute-defined-outside-init)
+W:795, 8: Attribute '_original_facecolor' defined outside __init__ (attribute-defined-outside-init)
+W:706, 8: Attribute '_is_stroked' defined outside __init__ (attribute-defined-outside-init)
+W:709,16: Attribute '_is_stroked' defined outside __init__ (attribute-defined-outside-init)
+W:715,16: Attribute '_edgecolors' defined outside __init__ (attribute-defined-outside-init)
+W:719, 8: Attribute '_edgecolors' defined outside __init__ (attribute-defined-outside-init)
+W:781,12: Attribute '_edgecolors' defined outside __init__ (attribute-defined-outside-init)
+W:794, 8: Attribute '_edgecolors' defined outside __init__ (attribute-defined-outside-init)
+W:793, 8: Attribute '_original_edgecolor' defined outside __init__ (attribute-defined-outside-init)
+R: 23, 0: Too many public methods (36/20) (too-many-public-methods)
+W:837, 0: Method 'set_paths' is abstract in class 'Collection' but is not overridden (abstract-method)
+W:869,12: Attribute '_sizes' defined outside __init__ (attribute-defined-outside-init)
+W:872,12: Attribute '_sizes' defined outside __init__ (attribute-defined-outside-init)
+W:899, 8: __init__ method from a non direct base class 'Collection' is called (non-parent-init-called)
+W:891, 4: __init__ method from base class '_CollectionWithSizes' is not called (super-init-not-called)
+W:904, 4: Parameters differ from overridden 'set_paths' method (arguments-differ)
+C:912, 0: Missing class docstring (missing-docstring)
+W:933, 8: __init__ method from a non direct base class 'Collection' is called (non-parent-init-called)
+W:914, 4: __init__ method from base class '_CollectionWithSizes' is not called (super-init-not-called)
+C:945,16: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:946,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:948,24: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:950,24: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:951,24: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:971,12: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:972,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1005, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1017,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:1026, 0: Method 'set_paths' is abstract in class 'Collection' but is not overridden (abstract-method)
+W:1068, 8: __init__ method from a non direct base class 'Collection' is called (non-parent-init-called)
+W:1033, 4: __init__ method from base class '_CollectionWithSizes' is not called (super-init-not-called)
+C:1075, 4: Missing method docstring (missing-docstring)
+C:1078, 4: Missing method docstring (missing-docstring)
+W:1091, 0: Method 'set_paths' is abstract in class 'Collection' but is not overridden (abstract-method)
+W:1098, 0: Method 'set_paths' is abstract in class 'Collection' but is not overridden (abstract-method)
+R:1119, 4: Too many arguments (13/5) (too-many-arguments)
+C:1228, 4: Missing method docstring (missing-docstring)
+C:1266, 8: Variable name "Nsegs" doesn't conform to snake_case naming style (invalid-name)
+C:1267, 8: Variable name "Noffs" doesn't conform to snake_case naming style (invalid-name)
+C:1273,16: Variable name "io" doesn't conform to snake_case naming style (invalid-name)
+C:1291, 4: Missing method docstring (missing-docstring)
+R:1308, 4: Too many arguments (9/5) (too-many-arguments)
+C:1369,32: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1415,33: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1438,32: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1534, 4: Missing method docstring (missing-docstring)
+W:1544, 0: Method 'set_paths' is abstract in class 'Collection' but is not overridden (abstract-method)
+W:1558, 8: __init__ method from a non direct base class 'Collection' is called (non-parent-init-called)
+W:1551, 4: __init__ method from base class '_CollectionWithSizes' is not called (super-init-not-called)
+W:1564, 0: Method 'set_paths' is abstract in class 'Collection' but is not overridden (abstract-method)
+C:1613, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1617,12: Variable name "sc" doesn't conform to snake_case naming style (invalid-name)
+C:1619,12: Variable name "sc" doesn't conform to snake_case naming style (invalid-name)
+C:1621,12: Variable name "sc" doesn't conform to snake_case naming style (invalid-name)
+C:1623,12: Variable name "sc" doesn't conform to snake_case naming style (invalid-name)
+C:1625,12: Variable name "sc" doesn't conform to snake_case naming style (invalid-name)
+C:1627,12: Variable name "sc" doesn't conform to snake_case naming style (invalid-name)
+C:1629,12: Variable name "sc" doesn't conform to snake_case naming style (invalid-name)
+C:1631,12: Variable name "sc" doesn't conform to snake_case naming style (invalid-name)
+C:1648,12: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+C:1692,12: Missing function docstring (missing-docstring)
+W:1707, 4: Parameters differ from overridden 'set_paths' method (arguments-differ)
+C:1731, 8: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:1772, 8: Variable name "gc" doesn't conform to snake_case naming style (invalid-name)
+C:1814, 8: Attribute name "_meshWidth" doesn't conform to snake_case naming style (invalid-name)
+C:1815, 8: Attribute name "_meshHeight" doesn't conform to snake_case naming style (invalid-name)
+R:1780, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+R:1811, 4: Too many arguments (6/5) (too-many-arguments)
+C:1840, 4: Argument name "meshWidth" doesn't conform to snake_case naming style (invalid-name)
+C:1840, 4: Argument name "meshHeight" doesn't conform to snake_case naming style (invalid-name)
+C:1849,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1851,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1862, 4: Argument name "meshWidth" doesn't conform to snake_case naming style (invalid-name)
+C:1862, 4: Argument name "meshHeight" doesn't conform to snake_case naming style (invalid-name)
+R:1862, 4: Too many local variables (19/15) (too-many-locals)
+C:1869,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1871,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1887, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1910, 8: Variable name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+C:1914,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1915,16: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:1916,16: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:1931,12: Variable name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+C:1933, 8: Variable name "gc" doesn't conform to snake_case naming style (invalid-name)
+E:1946,35: Instance of 'QuadMesh' has no 'get_edgecolors' member; maybe 'get_edgecolor'? (no-member)
+C:1952, 0: Constant name "patchstr" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+777 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |15     |NC         |NC         |93.33       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |95     |NC         |NC         |81.05       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.collections)
+      \-artist (matplotlib.collections)
+      \-cbook (matplotlib.collections)
+      \-cm (matplotlib.collections)
+      \-colors (matplotlib.collections)
+      \-docstring (matplotlib.collections)
+      \-lines (matplotlib.collections)
+      \-path (matplotlib.collections)
+      \-patheffects (matplotlib.collections)
+      \-transforms (matplotlib.collections)
+    numpy (matplotlib.collections)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |984    |50.18 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |716    |36.51 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |43     |2.19  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |218    |11.12 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |122    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |14     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |52     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |66          |
++-------------------------------+------------+
+|bad-continuation               |24          |
++-------------------------------+------------+
+|missing-docstring              |20          |
++-------------------------------+------------+
+|protected-access               |18          |
++-------------------------------+------------+
+|attribute-defined-outside-init |16          |
++-------------------------------+------------+
+|len-as-condition               |11          |
++-------------------------------+------------+
+|abstract-method                |6           |
++-------------------------------+------------+
+|too-many-arguments             |4           |
++-------------------------------+------------+
+|super-init-not-called          |4           |
++-------------------------------+------------+
+|non-parent-init-called         |4           |
++-------------------------------+------------+
+|too-many-locals                |3           |
++-------------------------------+------------+
+|arguments-differ               |3           |
++-------------------------------+------------+
+|too-many-instance-attributes   |2           |
++-------------------------------+------------+
+|no-else-return                 |2           |
++-------------------------------+------------+
+|too-many-public-methods        |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-branches              |1           |
++-------------------------------+------------+
+|too-many-boolean-expressions   |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|no-member                      |1           |
++-------------------------------+------------+
+|fixme                          |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.45/10
+

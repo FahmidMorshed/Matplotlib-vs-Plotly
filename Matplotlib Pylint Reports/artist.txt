@@ -1,0 +1,251 @@
+************* Module matplotlib.artist
+W:156, 0: TODO: the fix for the collections relim problem is to move the (fixme)
+W:160, 0: TODO: add legend support (fixme)
+C:1171, 0: Wrong continued indentation (add 10 spaces).
+                   isinstance(item, (np.floating, np.integer, int, float)))
+                   ^         | (bad-continuation)
+C:1229, 0: Wrong continued indentation (remove 3 spaces).
+                    and callable(getattr(self.o, name))]
+                 |  ^ (bad-continuation)
+C:1605, 0: Wrong hanging indentation (remove 13 spaces).
+                         leadingspace=4))
+            |            ^ (bad-continuation)
+C:1608, 0: Wrong hanging indentation (remove 13 spaces).
+                         leadingspace=2))
+            |            ^ (bad-continuation)
+C:  1, 0: Too many lines in module (1610/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: No name 'namedtuple' in module 'collections' (no-name-in-module)
+C: 16, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 30, 4: Missing function docstring (missing-docstring)
+W: 44, 4: Access to a protected member _supports_rasterization of a client class (protected-access)
+C: 53, 0: Constant name "_XYPair" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 80, 8: Attribute name "_transformSet" doesn't conform to snake_case naming style (invalid-name)
+R: 56, 0: Too many instance attributes (32/7) (too-many-instance-attributes)
+C: 64, 4: Missing method docstring (missing-docstring)
+C:111, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+E:136,12: self._remove_method is not callable (not-callable)
+W:142,16: Access to a protected member _mouseover_set of a client class (protected-access)
+C:164, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:169, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:176, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:181, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:188, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:231,32: Unused argument 'renderer' (unused-argument)
+R:231, 4: Method could be a function (no-self-use)
+W:328,12: Unused variable 'oid' (unused-variable)
+C:339, 4: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
+W:358,30: Access to a protected member _as_mpl_transform of a client class (protected-access)
+C:366, 8: Variable name "L" doesn't conform to snake_case naming style (invalid-name)
+W:371,15: Catching too general exception Exception (broad-except)
+C:376,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+W:368,23: Unused variable 'info' (unused-variable)
+R:380, 4: Method could be a function (no-self-use)
+W:406, 8: Specify string format arguments as logging function parameters (logging-not-lazy)
+C:478,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:480,12: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+R:578, 8: Unnecessary "else" after "return" (no-else-return)
+C:669, 4: Missing method docstring (missing-docstring)
+C:804, 4: Method name "get_transformed_clip_path_and_affine" doesn't conform to snake_case naming style (invalid-name)
+C:814, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:831, 4: Argument name "gc" doesn't conform to snake_case naming style (invalid-name)
+W:856,12: Access to a protected member _warn_external of a client class (protected-access)
+W:880,19: Unused argument 'renderer' (unused-argument)
+W:880, 0: Unused argument 'args' (unused-argument)
+W:880, 0: Unused argument 'kwargs' (unused-argument)
+C:908, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:920, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:949, 8: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
+W:976,13: Access to a protected member _setattr_cm of a client class (protected-access)
+C:979,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:988, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:1048,26: Access to a protected member _transform of a client class (protected-access)
+W:1049,29: Access to a protected member _transformSet of a client class (protected-access)
+W:1050,24: Access to a protected member _visible of a client class (protected-access)
+W:1051,22: Access to a protected member _alpha of a client class (protected-access)
+W:1053,23: Access to a protected member _clipon of a client class (protected-access)
+W:1054,25: Access to a protected member _clippath of a client class (protected-access)
+W:1055,22: Access to a protected member _label of a client class (protected-access)
+W:1056,23: Access to a protected member _sketch of a client class (protected-access)
+W:1057,29: Access to a protected member _path_effects of a client class (protected-access)
+C:1103,12: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1103,12: Missing function docstring (missing-docstring)
+W:1103,26: Unused argument 'x' (unused-argument)
+C:1106,12: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1106,12: Missing function docstring (missing-docstring)
+W:1119,30: Unused argument 'event' (unused-argument)
+R:1119, 4: Method could be a function (no-self-use)
+E:1171,37: Module 'numpy' has no 'floating' member (no-member)
+R:1150, 4: Method could be a function (no-self-use)
+C:1175, 4: Missing method docstring (missing-docstring)
+C:1182, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:1185,16: Access to a protected member _mouseover_set of a client class (protected-access)
+W:1187,16: Access to a protected member _mouseover_set of a client class (protected-access)
+R: 56, 0: Too many public methods (70/20) (too-many-public-methods)
+C:1212, 8: Attribute name "o" doesn't conform to snake_case naming style (invalid-name)
+C:1206,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:1258, 8: Redefining name 'docstring' from outer scope (line 11) (redefined-outer-name)
+R:1304, 4: Method could be a function (no-self-use)
+C:1322, 4: Argument name "o" doesn't conform to snake_case naming style (invalid-name)
+C:1324, 8: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+R:1322, 4: Method could be a function (no-self-use)
+C:1329, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1340, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+R:1373,12: Redefining argument with the local name 'prop' (redefined-argument-from-local)
+W:1373,18: Unused variable 'path' (unused-variable)
+W:1398, 8: Unused variable 'lines' (unused-variable)
+C:1425, 8: Variable name "o" doesn't conform to snake_case naming style (invalid-name)
+C:1429, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W:1438,19: Catching too general exception Exception (broad-except)
+C:1449,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1451,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1452,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1454,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W:1460,14: Redefining built-in 'property' (redefined-builtin)
+R:1460, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+C:1498, 0: Constant name "get" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1562, 4: Variable name "printArgs" doesn't conform to snake_case naming style (invalid-name)
+R:1501, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:1603, 4: Unnecessary "else" after "return" (no-else-return)
+
+
+Report
+======
+590 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |89     |NC         |NC         |96.63       |1.12     |
++---------+-------+-----------+-----------+------------+---------+
+|function |9      |NC         |NC         |66.67       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    collections (matplotlib.artist)
+    matplotlib (matplotlib.artist)
+      \-cbook (matplotlib.artist)
+      \-docstring (matplotlib.artist)
+      \-patches (matplotlib.artist)
+      \-path (matplotlib.artist)
+      \-transforms (matplotlib.artist)
+    numpy (matplotlib.artist)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |650    |40.32 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |757    |46.96 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |51     |3.16  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |154    |9.55  |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |51     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |13     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |33     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |37          |
++-------------------------------+------------+
+|protected-access               |16          |
++-------------------------------+------------+
+|missing-docstring              |7           |
++-------------------------------+------------+
+|unused-argument                |6           |
++-------------------------------+------------+
+|no-self-use                    |6           |
++-------------------------------+------------+
+|unused-variable                |4           |
++-------------------------------+------------+
+|bad-continuation               |4           |
++-------------------------------+------------+
+|no-else-return                 |2           |
++-------------------------------+------------+
+|len-as-condition               |2           |
++-------------------------------+------------+
+|inconsistent-return-statements |2           |
++-------------------------------+------------+
+|fixme                          |2           |
++-------------------------------+------------+
+|broad-except                   |2           |
++-------------------------------+------------+
+|too-many-public-methods        |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|redefined-outer-name           |1           |
++-------------------------------+------------+
+|redefined-builtin              |1           |
++-------------------------------+------------+
+|redefined-argument-from-local  |1           |
++-------------------------------+------------+
+|not-callable                   |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|no-member                      |1           |
++-------------------------------+------------+
+|logging-not-lazy               |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.10/10
+

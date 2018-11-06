@@ -1,0 +1,282 @@
+************* Module plotly.tools
+W: 89, 0: TODO: removed type checking below, may want to revisit (fixme)
+W:528, 0: TODO: protected until #282 (fixme)
+W:813, 0: TODO: protected until #282 (fixme)
+W:836, 0: TODO maybe add 'bottom-right' and 'top-right' (fixme)
+W:932, 0: TODO add support for 'w' and 'h' (fixme)
+W:1026, 0: TODO put this elsewhere (fixme)
+W:1051, 0: TODO covers all cases? (fixme)
+W:1057, 0: TODO put this elsewhere (fixme)
+W:1061, 0: TODO covers all cases? (fixme)
+W:1068, 0: TODO all cases? (fixme)
+W:1074, 0: TODO put this elsewhere (fixme)
+W:1078, 0: TODO covers all cases? (fixme)
+W:1406, 0: TODO: Deprecate or move. #283 (fixme)
+W:1425, 0: TODO: Deprecate or move. #283 (fixme)
+C: 99, 0: Line too long (103/100) (line-too-long)
+C:340, 0: Wrong hanging indentation (add 5 spaces).
+            plotly_rest_url=plotly_rest_url,
+            ^    | (bad-continuation)
+C:341, 0: Wrong hanging indentation (add 5 spaces).
+            file_owner=file_owner, file_id=file_id,
+            ^    | (bad-continuation)
+C:342, 0: Wrong hanging indentation (add 5 spaces).
+            iframe_height=height, iframe_width=width)
+            ^    | (bad-continuation)
+C:350, 0: Wrong hanging indentation (add 5 spaces).
+            plotly_rest_url=plotly_rest_url,
+            ^    | (bad-continuation)
+C:351, 0: Wrong hanging indentation (add 5 spaces).
+            file_owner=file_owner, file_id=file_id, share_key=share_key,
+            ^    | (bad-continuation)
+C:352, 0: Wrong hanging indentation (add 5 spaces).
+            iframe_height=height, iframe_width=width)
+            ^    | (bad-continuation)
+C:836, 0: Wrong continued indentation (add 12 spaces).
+        # TODO maybe add 'bottom-right' and 'top-right'
+        ^           | (bad-continuation)
+C:881, 0: Wrong continued indentation (add 1 space).
+                 for c in range(cols)]
+                 ^| (bad-continuation)
+C:1188, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:1191, 0: Unnecessary parens after 'not' keyword (superfluous-parens)
+C:1384, 0: Wrong continued indentation (remove 1 space).
+                                })
+                               |^ (bad-continuation)
+C:1503, 0: Line too long (108/100) (line-too-long)
+C:  1, 0: Too many lines in module (1630/1000) (too-many-lines)
+W:1334, 0: Anomalous backslash in string: '\d'. String constant might be missing an r prefix. (anomalous-backslash-in-string)
+C: 55, 0: Missing function docstring (missing-docstring)
+R: 55, 0: Too many arguments (6/5) (too-many-arguments)
+W: 56,24: Unused argument 'file' (unused-argument)
+W: 56,35: Unused argument 'line' (unused-argument)
+C: 61, 0: Constant name "ipython_core_display" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 62, 0: Constant name "sage_salvus" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 84,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C:166, 0: Missing function docstring (missing-docstring)
+R:174, 0: Too many arguments (8/5) (too-many-arguments)
+R:174, 0: Too many branches (17/12) (too-many-branches)
+C:263, 0: Missing function docstring (missing-docstring)
+C:265, 4: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+R:333, 7: Comparison to literal (literal-comparison)
+C:334, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:344, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W:321, 8: Unused variable 'test_if_int' (unused-variable)
+W:387, 4: No exception type(s) specified (bare-except)
+C:381, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+R:357, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:420, 0: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+R:488, 0: Too many local variables (28/15) (too-many-locals)
+C:545, 4: Variable name "VALID_KWARGS" doesn't conform to snake_case naming style (invalid-name)
+C:546,15: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+R:597, 0: Too many arguments (6/5) (too-many-arguments)
+R:597, 0: Too many local variables (95/15) (too-many-locals)
+C:825, 4: Variable name "START_CELL_all" doesn't conform to snake_case naming style (invalid-name)
+C:841, 8: Variable name "START_CELL" doesn't conform to snake_case naming style (invalid-name)
+C:846, 4: Variable name "VALID_KWARGS" doesn't conform to snake_case naming style (invalid-name)
+C:849,15: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+C:888, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:924, 4: Variable name "SPEC_defaults" doesn't conform to snake_case naming style (invalid-name)
+C:938, 8: Variable name "INSET_defaults" doesn't conform to snake_case naming style (invalid-name)
+C:962,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:983,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:991, 4: Variable name "COL_DIR" doesn't conform to snake_case naming style (invalid-name)
+C:992, 4: Variable name "ROW_DIR" doesn't conform to snake_case naming style (invalid-name)
+C:1013, 4: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1013, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1037, 4: Variable name "ANCHOR_ROW" doesn't conform to snake_case naming style (invalid-name)
+C:1041, 4: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1041, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+R:1041, 4: Too many arguments (6/5) (too-many-arguments)
+R:1041, 4: Too many branches (16/12) (too-many-branches)
+R:1085, 4: Too many arguments (6/5) (too-many-arguments)
+W:1085,28: Unused argument 'x_or_y' (unused-argument)
+C:1109, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1110,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1184,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1185,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1239, 4: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
+C:1253, 4: Argument name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1253, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1262, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1266, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1267,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1278,20: Variable name "cc" doesn't conform to snake_case naming style (invalid-name)
+C:1286,20: Variable name "rr" doesn't conform to snake_case naming style (invalid-name)
+C:1288,20: Variable name "cc" doesn't conform to snake_case naming style (invalid-name)
+C:1295, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1303,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1304,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1334, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1336, 8: Argument name "m" doesn't conform to snake_case naming style (invalid-name)
+C:1336, 8: Missing function docstring (missing-docstring)
+C:1371, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+R:597, 0: Too many branches (84/12) (too-many-branches)
+C:1445, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1450, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1452,12: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1455, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W:1451,12: Unused variable 'index' (unused-variable)
+R:1469, 4: Too few public methods (0/2) (too-few-public-methods)
+C:1488, 0: Function name "return_figure_from_figure_or_data" doesn't conform to snake_case naming style (invalid-name)
+C:1488, 0: Missing function docstring (missing-docstring)
+C:1536, 0: Missing class docstring (missing-docstring)
+C:1549, 4: Method name "create_2D_density" doesn't conform to snake_case naming style (invalid-name)
+C:1549, 4: Missing method docstring (missing-docstring)
+C:1555, 4: Missing method docstring (missing-docstring)
+C:1561, 4: Missing method docstring (missing-docstring)
+C:1567, 4: Missing method docstring (missing-docstring)
+C:1573, 4: Missing method docstring (missing-docstring)
+C:1579, 4: Missing method docstring (missing-docstring)
+C:1585, 4: Missing method docstring (missing-docstring)
+C:1591, 4: Missing method docstring (missing-docstring)
+C:1597, 4: Missing method docstring (missing-docstring)
+C:1603, 4: Missing method docstring (missing-docstring)
+C:1609, 4: Missing method docstring (missing-docstring)
+C:1615, 4: Missing method docstring (missing-docstring)
+C:1621, 4: Missing method docstring (missing-docstring)
+C:1627, 4: Missing method docstring (missing-docstring)
+C: 15, 0: standard import "import copy" should be placed before "import six" (wrong-import-order)
+C: 16, 0: standard import "import re" should be placed before "import six" (wrong-import-order)
+
+
+Report
+======
+676 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |50.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |17     |NC         |NC         |17.65       |5.88     |
++---------+-------+-----------+-----------+------------+---------+
+|function |27     |NC         |NC         |81.48       |3.70     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    plotly 
+      \-basedatatypes (plotly.tools)
+      \-exceptions (plotly.tools)
+      \-figure_factory (plotly.tools)
+      \-files (plotly.tools)
+      \-graph_objs (plotly.tools)
+      | \-graph_objs (plotly.tools)
+      \-graph_reference (plotly.tools)
+      \-optional_imports (plotly.tools)
+      \-session (plotly.tools)
+      \-utils (plotly.tools)
+    six (plotly.tools)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |811    |49.69 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |537    |32.90 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |94     |5.76  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |190    |11.64 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |86     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |14     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |21     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |47          |
++-------------------------------+------------+
+|missing-docstring              |20          |
++-------------------------------+------------+
+|fixme                          |14          |
++-------------------------------+------------+
+|bad-continuation               |9           |
++-------------------------------+------------+
+|too-many-arguments             |5           |
++-------------------------------+------------+
+|unused-argument                |3           |
++-------------------------------+------------+
+|too-many-branches              |3           |
++-------------------------------+------------+
+|wrong-import-order             |2           |
++-------------------------------+------------+
+|unused-variable                |2           |
++-------------------------------+------------+
+|too-many-locals                |2           |
++-------------------------------+------------+
+|superfluous-parens             |2           |
++-------------------------------+------------+
+|line-too-long                  |2           |
++-------------------------------+------------+
+|inconsistent-return-statements |2           |
++-------------------------------+------------+
+|consider-iterating-dictionary  |2           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-few-public-methods         |1           |
++-------------------------------+------------+
+|literal-comparison             |1           |
++-------------------------------+------------+
+|consider-using-enumerate       |1           |
++-------------------------------+------------+
+|bare-except                    |1           |
++-------------------------------+------------+
+|anomalous-backslash-in-string  |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.21/10
+

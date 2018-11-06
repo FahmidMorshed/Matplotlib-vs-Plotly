@@ -1,0 +1,458 @@
+************* Module matplotlib.offsetbox
+W:160, 0: TODO deal with this better (fixme)
+W:1554, 0: TODO : Rotation needs to be accounted. (fixme)
+C:254, 0: Wrong hanging indentation (remove 44 spaces).
+                                                        renderer)
+            |                                           ^ (bad-continuation)
+C:461, 0: Wrong continued indentation (add 1 space).
+               list(zip(xoffsets, yoffsets)))
+               ^| (bad-continuation)
+C:515, 0: Wrong hanging indentation (remove 44 spaces).
+                                                        renderer)
+            |                                           ^ (bad-continuation)
+C:690, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:982, 0: Wrong continued indentation (remove 1 space).
+             }
+            |^ (bad-continuation)
+C:1137, 0: Wrong hanging indentation (remove 12 spaces).
+                            self.prop.get_size_in_points())
+                |           ^ (bad-continuation)
+C:1269, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:1283, 0: Wrong continued indentation (remove 1 space).
+                               )
+                              |^ (bad-continuation)
+C:1677, 0: Wrong hanging indentation (remove 16 spaces).
+                                    self.ref_artist.figure.bbox)
+                    |               ^ (bad-continuation)
+C:1784, 0: Wrong continued indentation (remove 1 space).
+                          )
+                         |^ (bad-continuation)
+C:1794, 0: Wrong continued indentation (remove 1 space).
+                           )
+                          |^ (bad-continuation)
+C:1803, 0: Wrong continued indentation (remove 1 space).
+                         )
+                        |^ (bad-continuation)
+C:  1, 0: Too many lines in module (1808/1000) (too-many-lines)
+C: 36, 0: Missing function docstring (missing-docstring)
+W: 36, 0: Redefining name 'kwargs' from outer scope (line 1776) (redefined-outer-name)
+W: 58,12: Unused variable 'd_list' (unused-variable)
+W:136, 0: Redefining name 'kwargs' from outer scope (line 1776) (redefined-outer-name)
+W:148,25: Redefining name 'fig' from outer scope (line 1772) (redefined-outer-name)
+C:155,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:159,19: Redefining name 'ax' from outer scope (line 1773) (redefined-outer-name)
+E:158, 5: Method 'axes' has no 'setter' member (no-member)
+E:158, 5: Method 'axes' has no 'setter' member (no-member)
+E:161, 8: Method 'axes' has no 'fset' member (no-member)
+E:161, 8: Method 'axes' has no 'fset' member (no-member)
+C:162,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:168,12: Redefining name 'a' from outer scope (line 1778) (redefined-outer-name)
+C:167,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:168,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:168,15: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:173, 4: Argument name "xy" doesn't conform to snake_case naming style (invalid-name)
+R:189, 4: Too many arguments (6/5) (too-many-arguments)
+C:229, 4: Missing method docstring (missing-docstring)
+W:229,33: Unused argument 'renderer' (unused-argument)
+R:229, 4: Method could be a function (no-self-use)
+C:236, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:236,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:236,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:236,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+W:236,22: Unused variable 'offsets' (unused-variable)
+C:243, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:243,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:243,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:243,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+C:244, 8: Variable name "px" doesn't conform to snake_case naming style (invalid-name)
+C:244,12: Variable name "py" doesn't conform to snake_case naming style (invalid-name)
+W:243,22: Unused variable 'offsets' (unused-variable)
+W:247, 4: Parameters differ from overridden 'draw' method (arguments-differ)
+C:256, 8: Variable name "px" doesn't conform to snake_case naming style (invalid-name)
+C:256,12: Variable name "py" doesn't conform to snake_case naming style (invalid-name)
+C:258,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:258,16: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:258,20: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+W:205, 8: Attribute 'width' defined outside __init__ (attribute-defined-outside-init)
+W:214, 8: Attribute 'height' defined outside __init__ (attribute-defined-outside-init)
+C:266, 0: Missing class docstring (missing-docstring)
+R:267, 4: Too many arguments (8/5) (too-many-arguments)
+R:315, 4: Too many arguments (8/5) (too-many-arguments)
+R:348, 4: Too many local variables (17/15) (too-many-locals)
+C:358,16: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:391, 4: Too many arguments (8/5) (too-many-arguments)
+R:423, 4: Too many local variables (17/15) (too-many-locals)
+C:492, 8: Attribute name "_drawFrame" doesn't conform to snake_case naming style (invalid-name)
+C:464, 0: Missing class docstring (missing-docstring)
+C:502, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:502,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:502,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:502,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+C:517, 8: Variable name "px" doesn't conform to snake_case naming style (invalid-name)
+C:517,12: Variable name "py" doesn't conform to snake_case naming style (invalid-name)
+C:519,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:519,16: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:519,20: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:524,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:530, 4: Missing method docstring (missing-docstring)
+C:538, 4: Missing method docstring (missing-docstring)
+R:547, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+R:555, 4: Too many arguments (6/5) (too-many-arguments)
+W:618, 4: Parameters differ from overridden 'get_offset' method (arguments-differ)
+C:628, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:628,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:628,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:628,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+C:629, 8: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:629,12: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:642, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+W:642,25: Redefining name 'a' from outer scope (line 1778) (redefined-outer-name)
+W:649, 8: Redefining name 'fig' from outer scope (line 1772) (redefined-outer-name)
+C:670,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:671,57: Access to a protected member _clippath of a client class (protected-access)
+R:679, 0: Too many instance attributes (8/7) (too-many-instance-attributes)
+C:731, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:740, 4: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
+C:757, 4: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
+W:794, 4: Parameters differ from overridden 'get_offset' method (arguments-differ)
+C:804, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:804,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:804,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:804,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+C:805, 8: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:805,12: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+R:808, 4: Too many local variables (16/15) (too-many-locals)
+W:809,53: Access to a protected member _text of a client class (protected-access)
+C:810,11: Variable name "h_" doesn't conform to snake_case naming style (invalid-name)
+C:810,15: Variable name "d_" doesn't conform to snake_case naming style (invalid-name)
+W:811,18: Access to a protected member _fontproperties of a client class (protected-access)
+C:813,20: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+W:813,24: Access to a protected member _get_layout of a client class (protected-access)
+C:814, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:814,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:823,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:832,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:836,12: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+W:809, 8: Unused variable 'clean_line' (unused-variable)
+W:809,20: Unused variable 'ismath' (unused-variable)
+W:816, 8: Unused variable 'line' (unused-variable)
+C:879, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+W:879,25: Redefining name 'a' from outer scope (line 1778) (redefined-outer-name)
+W:915, 4: Parameters differ from overridden 'get_offset' method (arguments-differ)
+C:925, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:925,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:925,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:925,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+C:926, 8: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:926,12: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:938, 8: Variable name "ub" doesn't conform to snake_case naming style (invalid-name)
+E:941,44: bad operand type for unary -: x0 (invalid-unary-operand-type)
+E:941,52: bad operand type for unary -: y0 (invalid-unary-operand-type)
+C:954,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1054, 8: Attribute name "_drawFrame" doesn't conform to snake_case naming style (invalid-name)
+R:961, 0: Too many instance attributes (10/7) (too-many-instance-attributes)
+W:984, 0: Redefining name 'kwargs' from outer scope (line 1776) (redefined-outer-name)
+R:984, 4: Too many arguments (9/5) (too-many-arguments)
+C:1076, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1076,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1076,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:1076,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+R:1086, 8: Unnecessary "else" after "return" (no-else-return)
+R:1090,12: Unnecessary "else" after "return" (no-else-return)
+C:1109,16: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1126, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1126,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1126,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:1126,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+C:1127, 8: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:1127,12: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:1139, 8: Argument name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1139, 8: Argument name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1139, 8: Argument name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:1139, 8: Argument name "yd" doesn't conform to snake_case naming style (invalid-name)
+R:1139, 8: Too many arguments (7/5) (too-many-arguments)
+C:1144,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:1144,16: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+W:1139,34: Unused argument 'renderer' (unused-argument)
+C:1152, 4: Missing method docstring (missing-docstring)
+C:1176, 8: Variable name "px" doesn't conform to snake_case naming style (invalid-name)
+C:1176,12: Variable name "py" doesn't conform to snake_case naming style (invalid-name)
+R:1182, 4: Too many local variables (21/15) (too-many-locals)
+C:1189, 8: Variable name "BEST" doesn't conform to snake_case naming style (invalid-name)
+C:1189,14: Variable name "UR" doesn't conform to snake_case naming style (invalid-name)
+C:1189,18: Variable name "UL" doesn't conform to snake_case naming style (invalid-name)
+C:1189,22: Variable name "LL" doesn't conform to snake_case naming style (invalid-name)
+C:1189,26: Variable name "LR" doesn't conform to snake_case naming style (invalid-name)
+C:1189,30: Variable name "R" doesn't conform to snake_case naming style (invalid-name)
+C:1189,33: Variable name "CL" doesn't conform to snake_case naming style (invalid-name)
+C:1189,37: Variable name "CR" doesn't conform to snake_case naming style (invalid-name)
+C:1189,41: Variable name "LC" doesn't conform to snake_case naming style (invalid-name)
+C:1189,45: Variable name "UC" doesn't conform to snake_case naming style (invalid-name)
+C:1189,49: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:1202, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:1189, 8: Unused variable 'BEST' (unused-variable)
+R:1182, 4: Method could be a function (no-self-use)
+W:1214, 0: Redefining name 'kwargs' from outer scope (line 1776) (redefined-outer-name)
+R:1214, 4: Too many arguments (6/5) (too-many-arguments)
+E:1245,12: Too many positional arguments for function call (too-many-function-args)
+C:1251, 8: Variable name "fp" doesn't conform to snake_case naming style (invalid-name)
+W:1251,13: Access to a protected member _text of a client class (protected-access)
+C:1257, 0: Missing class docstring (missing-docstring)
+W:1258, 0: Redefining name 'kwargs' from outer scope (line 1776) (redefined-outer-name)
+R:1258, 4: Too many arguments (11/5) (too-many-arguments)
+C:1290, 4: Missing method docstring (missing-docstring)
+C:1295, 4: Missing method docstring (missing-docstring)
+C:1298, 4: Missing method docstring (missing-docstring)
+C:1302, 4: Missing method docstring (missing-docstring)
+W:1323, 4: Parameters differ from overridden 'get_offset' method (arguments-differ)
+C:1336, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1336,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1336,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:1336,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+C:1337, 8: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:1337,12: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:1348, 8: Variable name "ny" doesn't conform to snake_case naming style (invalid-name)
+C:1348,12: Variable name "nx" doesn't conform to snake_case naming style (invalid-name)
+C:1349, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1349,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1443, 8: Attribute name "_drawFrame" doesn't conform to snake_case naming style (invalid-name)
+R:1362, 0: Too many instance attributes (12/7) (too-many-instance-attributes)
+W:1372, 0: Redefining name 'kwargs' from outer scope (line 1776) (redefined-outer-name)
+R:1372, 4: Too many arguments (13/5) (too-many-arguments)
+C:1446, 4: Missing method docstring (missing-docstring)
+C:1455, 4: Missing method docstring (missing-docstring)
+W:1463, 4: Parameters differ from overridden 'contains' method (arguments-differ)
+C:1464, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:1479,25: Redefining name 'fig' from outer scope (line 1772) (redefined-outer-name)
+C:1486, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1496, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:1496,27: Unused argument 's' (unused-argument)
+R:1515, 4: Too many local variables (30/15) (too-many-locals)
+C:1521, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1521,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1524,12: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:1524,16: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:1525,12: Variable name "x2" doesn't conform to snake_case naming style (invalid-name)
+C:1525,16: Variable name "y2" doesn't conform to snake_case naming style (invalid-name)
+C:1530, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1530,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1530,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:1530,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+C:1541, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1541,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1546,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:1546,16: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:1548,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1567,12: Variable name "fs" doesn't conform to snake_case naming style (invalid-name)
+C:1572,12: Variable name "patchA" doesn't conform to snake_case naming style (invalid-name)
+W:1524,16: Unused variable 'y1' (unused-variable)
+W:1525,12: Unused variable 'x2' (unused-variable)
+W:1546,12: Unused variable 'x0' (unused-variable)
+W:1546,16: Unused variable 'y0' (unused-variable)
+W:1575, 4: Parameters differ from overridden 'draw' method (arguments-differ)
+W:1581,12: Attribute '_renderer' defined outside __init__ (attribute-defined-outside-init)
+R:1604, 0: Too many instance attributes (9/7) (too-many-instance-attributes)
+C:1644, 8: Variable name "c2" doesn't conform to snake_case naming style (invalid-name)
+C:1645, 8: Variable name "c3" doesn't conform to snake_case naming style (invalid-name)
+C:1650, 4: Missing method docstring (missing-docstring)
+C:1652,12: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1653,12: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:1657, 4: Missing method docstring (missing-docstring)
+C:1659,12: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1660,12: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+W:1663,33: Access to a protected member _cachedRenderer of a client class (protected-access)
+C:1666, 4: Missing method docstring (missing-docstring)
+W:1678,37: Access to a protected member _cachedRenderer of a client class (protected-access)
+C:1687, 4: Missing method docstring (missing-docstring)
+W:1687,25: Unused argument 'event' (unused-argument)
+R:1697, 8: Unnecessary "else" after "return" (no-else-return)
+C:1708,12: Variable name "c1" doesn't conform to snake_case naming style (invalid-name)
+C:1714, 4: Missing method docstring (missing-docstring)
+W:1714,28: Unused argument 'artist' (unused-argument)
+C:1717, 4: Missing method docstring (missing-docstring)
+C:1720, 4: Argument name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1720, 4: Argument name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:1720, 4: Missing method docstring (missing-docstring)
+C:1723, 4: Missing method docstring (missing-docstring)
+W:1669,12: Attribute 'mouse_x' defined outside __init__ (attribute-defined-outside-init)
+W:1670,12: Attribute 'mouse_y' defined outside __init__ (attribute-defined-outside-init)
+W:1676,16: Attribute 'background' defined outside __init__ (attribute-defined-outside-init)
+W:1680,16: Attribute '_c1' defined outside __init__ (attribute-defined-outside-init)
+W:1683,16: Attribute '_c1' defined outside __init__ (attribute-defined-outside-init)
+C:1727, 0: Missing class docstring (missing-docstring)
+W:1734,19: Access to a protected member _cachedRenderer of a client class (protected-access)
+C:1735, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1735,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1735,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:1735,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+C:1744, 4: Missing method docstring (missing-docstring)
+W:1747,19: Access to a protected member _cachedRenderer of a client class (protected-access)
+C:1748, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1748,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1748,14: Variable name "xd" doesn't conform to snake_case naming style (invalid-name)
+C:1748,18: Variable name "yd" doesn't conform to snake_case naming style (invalid-name)
+C:1749, 8: Variable name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:1749,12: Variable name "oy" doesn't conform to snake_case naming style (invalid-name)
+W:1749,17: Access to a protected member _offset of a client class (protected-access)
+W:1748, 8: Unused variable 'w' (unused-variable)
+W:1748,11: Unused variable 'h' (unused-variable)
+W:1737, 8: Attribute 'offsetbox_x' defined outside __init__ (attribute-defined-outside-init)
+W:1737,26: Attribute 'offsetbox_y' defined outside __init__ (attribute-defined-outside-init)
+C:1762, 8: Attribute name "ox" doesn't conform to snake_case naming style (invalid-name)
+C:1762,17: Attribute name "oy" doesn't conform to snake_case naming style (invalid-name)
+C:1755, 0: Missing class docstring (missing-docstring)
+W:1761, 8: Redefining name 'ann' from outer scope (line 1795) (redefined-outer-name)
+W:1765, 8: Redefining name 'ann' from outer scope (line 1795) (redefined-outer-name)
+W:1762, 8: Attribute 'ox' defined outside __init__ (attribute-defined-outside-init)
+W:1762,17: Attribute 'oy' defined outside __init__ (attribute-defined-outside-init)
+C:1772, 4: Constant name "fig" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1773, 4: Constant name "ax" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1776, 4: Constant name "kwargs" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1778, 4: Constant name "a" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1779, 4: Constant name "myimage" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1789, 4: Constant name "myimage2" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1795, 4: Constant name "ann" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+731 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |15     |NC         |NC         |66.67       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |112    |NC         |NC         |83.04       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |NC         |NC         |75.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.offsetbox)
+      \-artist (matplotlib.offsetbox)
+      \-cbook (matplotlib.offsetbox)
+      \-docstring (matplotlib.offsetbox)
+      \-font_manager (matplotlib.offsetbox)
+      \-image (matplotlib.offsetbox)
+      \-patches (matplotlib.offsetbox)
+      \-path (matplotlib.offsetbox)
+      \-pyplot (matplotlib.offsetbox)
+      \-text (matplotlib.offsetbox)
+      \-transforms (matplotlib.offsetbox)
+    numpy (matplotlib.offsetbox)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |894    |49.39 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |534    |29.50 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |63     |3.48  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |319    |17.62 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |197    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |25     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |64     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |7      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |159         |
++-------------------------------+------------+
+|missing-docstring              |25          |
++-------------------------------+------------+
+|redefined-outer-name           |15          |
++-------------------------------+------------+
+|unused-variable                |13          |
++-------------------------------+------------+
+|bad-continuation               |12          |
++-------------------------------+------------+
+|attribute-defined-outside-init |12          |
++-------------------------------+------------+
+|too-many-arguments             |10          |
++-------------------------------+------------+
+|protected-access               |10          |
++-------------------------------+------------+
+|arguments-differ               |7           |
++-------------------------------+------------+
+|unused-argument                |5           |
++-------------------------------+------------+
+|too-many-locals                |5           |
++-------------------------------+------------+
+|too-many-instance-attributes   |5           |
++-------------------------------+------------+
+|no-member                      |4           |
++-------------------------------+------------+
+|no-else-return                 |3           |
++-------------------------------+------------+
+|no-self-use                    |2           |
++-------------------------------+------------+
+|invalid-unary-operand-type     |2           |
++-------------------------------+------------+
+|fixme                          |2           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-function-args         |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 5.61/10
+

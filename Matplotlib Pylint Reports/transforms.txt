@@ -1,0 +1,584 @@
+************* Module matplotlib.transforms
+C:117, 0: Wrong continued indentation (remove 16 spaces).
+                                                        target.pop(sid))
+                                        |               ^ (bad-continuation)
+C:179, 0: Wrong continued indentation (add 3 spaces).
+                                        target=child._parents: target.pop(sid))
+                                        ^  | (bad-continuation)
+C:242, 0: Wrong continued indentation (remove 1 space).
+                                    % (hash(root),
+                                   |^ (bad-continuation)
+C:243, 0: Wrong continued indentation (add 3 spaces).
+                                    hash(child),
+                                    ^  | (bad-continuation)
+C:244, 0: Wrong continued indentation (add 3 spaces).
+                                    name))
+                                    ^  | (bad-continuation)
+C:272, 0: Wrong continued indentation before block (add 4 spaces).
+                points[1, 1] - points[0, 1] == 0):
+                ^   | (bad-continuation)
+C:538, 0: Wrong continued indentation (add 39 spaces).
+            [pts[0, 0], pts[1, 1]], [pts[1, 0], pts[0, 1]]]))
+            ^                                      | (bad-continuation)
+C:603, 0: Wrong continued indentation (add 1 space).
+                    self._points[0] + [mx * w, my * h]])
+                    ^| (bad-continuation)
+C:1058, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:1143, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:1398, 0: Wrong continued indentation (add 16 spaces).
+                     "other's transform includes a non-invertable component.")
+                     ^               | (bad-continuation)
+C:1556, 0: Wrong continued indentation (add 31 spaces).
+                {'interpolation_steps': path._interpolation_steps,
+                ^                              | (bad-continuation)
+C:1668, 0: Wrong continued indentation (remove 4 spaces).
+                    "{})"
+                |   ^ (bad-continuation)
+C:1889, 0: Wrong continued indentation (remove 4 spaces).
+                    "{})"
+                |   ^ (bad-continuation)
+C:2189, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:2298, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:2330, 0: Wrong continued indentation before block (add 4 spaces).
+        and isinstance(y_transform, Affine2DBase)):
+        ^   | (bad-continuation)
+C:2411, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:2428, 0: Wrong hanging indentation (remove 16 spaces).
+                                self._a.transform(points))
+                |               ^ (bad-continuation)
+C:2438, 0: Wrong hanging indentation (remove 20 spaces).
+                                    self._a.transform_path(path))
+                |                   ^ (bad-continuation)
+C:2446, 0: Wrong continued indentation (add 3 spaces).
+                                self._a.get_affine().get_matrix()))
+                                ^  | (bad-continuation)
+C:2499, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:2567, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:2581, 0: No space allowed before comma
+            self._mtx = np.array([[x_scale, 0.0    , (-inl*x_scale+outl)],
+                                                   ^ (bad-whitespace)
+C:2582, 0: No space allowed before comma
+                                  [0.0    , y_scale, (-inb*y_scale+outb)],
+                                          ^ (bad-whitespace)
+C:2583, 0: No space allowed before comma
+                                  [0.0    , 0.0    , 1.0        ]],
+                                          ^ (bad-whitespace)
+C:2583, 0: No space allowed before comma
+                                  [0.0    , 0.0    , 1.0        ]],
+                                                   ^ (bad-whitespace)
+C:2583, 0: No space allowed before bracket
+                                  [0.0    , 0.0    , 1.0        ]],
+                                                                ^ (bad-whitespace)
+C:2615, 0: Wrong continued indentation (remove 4 spaces).
+                    "{})"
+                |   ^ (bad-continuation)
+C:2624, 0: Exactly one space required after comma
+            self._mtx = np.array([[outw,  0.0, outl],
+                                       ^ (bad-whitespace)
+C:2625, 0: No space allowed after bracket
+                                  [ 0.0, outh, outb],
+                                  ^ (bad-whitespace)
+C:2626, 0: No space allowed after bracket
+                                  [ 0.0,  0.0,  1.0]],
+                                  ^ (bad-whitespace)
+C:2626, 0: Exactly one space required after comma
+                                  [ 0.0,  0.0,  1.0]],
+                                       ^ (bad-whitespace)
+C:2626, 0: Exactly one space required after comma
+                                  [ 0.0,  0.0,  1.0]],
+                                             ^ (bad-whitespace)
+C:2627, 0: Wrong continued indentation (remove 1 space).
+                                  float)
+                                 |^ (bad-continuation)
+C:2645, 0: Exactly one space required after comma
+            self._mtx = np.array([[xmax,  0.0, 0.0],
+                                       ^ (bad-whitespace)
+C:2646, 0: No space allowed after bracket
+                                  [ 0.0, ymax, 0.0],
+                                  ^ (bad-whitespace)
+C:2647, 0: No space allowed after bracket
+                                  [ 0.0,  0.0, 1.0]],
+                                  ^ (bad-whitespace)
+C:2647, 0: Exactly one space required after comma
+                                  [ 0.0,  0.0, 1.0]],
+                                       ^ (bad-whitespace)
+C:2674, 0: Wrong continued indentation (remove 4 spaces).
+                    "{})"
+                |   ^ (bad-continuation)
+C:2685, 0: No space allowed before comma
+            self._mtx = np.array([[x_scale, 0.0    , (-inl*x_scale)],
+                                                   ^ (bad-whitespace)
+C:2686, 0: No space allowed before comma
+                                  [0.0    , y_scale, (-inb*y_scale)],
+                                          ^ (bad-whitespace)
+C:2687, 0: No space allowed before comma
+                                  [0.0    , 0.0    , 1.0        ]],
+                                          ^ (bad-whitespace)
+C:2687, 0: No space allowed before comma
+                                  [0.0    , 0.0    , 1.0        ]],
+                                                   ^ (bad-whitespace)
+C:2687, 0: No space allowed before bracket
+                                  [0.0    , 0.0    , 1.0        ]],
+                                                                ^ (bad-whitespace)
+C:2710, 0: Wrong continued indentation (remove 4 spaces).
+                    "{})"
+                |   ^ (bad-continuation)
+C:2759, 0: Wrong continued indentation before block (add 4 spaces).
+            or self._transformed_path is None):
+            ^   | (bad-continuation)
+C:2828, 0: Wrong continued indentation (remove 3 spaces).
+                    self.INVALID_NON_AFFINE)):
+                 |  ^ (bad-continuation)
+C:  1, 0: Too many lines in module (2964/1000) (too-many-lines)
+E: 43, 0: No name '_path' in module 'matplotlib' (no-name-in-module)
+E: 43, 0: Unable to import 'matplotlib._path' (import-error)
+W:161,20: Access to a protected member _invalidate_internal of a client class (protected-access)
+W:137,42: Unused argument 'invalidating_node' (unused-argument)
+W:179,47: Access to a protected member _parents of a client class (protected-access)
+W:179,47: Cell variable child defined in loop (cell-var-from-loop)
+W:180,12: Access to a protected member _parents of a client class (protected-access)
+E:185, 8: method already defined line 164 (function-redefined)
+C:185, 8: Missing method docstring (missing-docstring)
+W:200, 8: Dangerous default value [] as argument (dangerous-default-value)
+C:221,12: Missing function docstring (missing-docstring)
+W:227,19: Access to a protected member _invalid of a client class (protected-access)
+W:238,33: Access to a protected member _children of a client class (protected-access)
+W:111, 8: Attribute '__dict__' defined outside __init__ (attribute-defined-outside-init)
+W:187,12: Attribute '_children' defined outside __init__ (attribute-defined-outside-init)
+W:269,16: Access to a protected member _warn_external of a client class (protected-access)
+W:273,16: Access to a protected member _warn_external of a client class (protected-access)
+R:274, 8: Consider using a decorator instead of calling staticmethod (no-staticmethod-decorator)
+W:280, 0: Unused argument 'args' (unused-argument)
+W:280, 0: Unused argument 'kwargs' (unused-argument)
+C:291, 4: Attribute name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:300, 4: Attribute name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:309, 4: Attribute name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:318, 4: Attribute name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:327, 4: Attribute name "p0" doesn't conform to snake_case naming style (invalid-name)
+C:336, 4: Attribute name "p1" doesn't conform to snake_case naming style (invalid-name)
+C:436, 8: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:436,12: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:436,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:436,20: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:447, 4: Missing method docstring (missing-docstring)
+C:450, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:454, 8: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:454,12: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:457, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:461, 8: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:461,12: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:464, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:464, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:490, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:494, 8: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:494,12: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:497, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:501, 8: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:501,12: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:504, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:504, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:537, 8: Variable name "ll" doesn't conform to snake_case naming style (invalid-name)
+C:537,12: Variable name "ul" doesn't conform to snake_case naming style (invalid-name)
+C:537,16: Variable name "lr" doesn't conform to snake_case naming style (invalid-name)
+C:558, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:584, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:584,11: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:584,14: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:584,17: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:586,12: Variable name "cx" doesn't conform to snake_case naming style (invalid-name)
+C:586,16: Variable name "cy" doesn't conform to snake_case naming style (invalid-name)
+C:588,12: Variable name "cx" doesn't conform to snake_case naming style (invalid-name)
+C:588,16: Variable name "cy" doesn't conform to snake_case naming style (invalid-name)
+C:589, 8: Variable name "L" doesn't conform to snake_case naming style (invalid-name)
+C:589,11: Variable name "B" doesn't conform to snake_case naming style (invalid-name)
+C:589,14: Variable name "W" doesn't conform to snake_case naming style (invalid-name)
+C:589,17: Variable name "H" doesn't conform to snake_case naming style (invalid-name)
+E:590,20: Instance of 'BboxBase' has no '_points' member (no-member)
+C:594, 4: Argument name "mx" doesn't conform to snake_case naming style (invalid-name)
+C:594, 4: Argument name "my" doesn't conform to snake_case naming style (invalid-name)
+C:601, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:601,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+E:602,21: Instance of 'BboxBase' has no '_points' member (no-member)
+E:603,20: Instance of 'BboxBase' has no '_points' member (no-member)
+C:619, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:619,11: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:620, 8: Variable name "H" doesn't conform to snake_case naming style (invalid-name)
+C:622,12: Variable name "W" doesn't conform to snake_case naming style (invalid-name)
+C:624,12: Variable name "W" doesn't conform to snake_case naming style (invalid-name)
+C:625,12: Variable name "H" doesn't conform to snake_case naming style (invalid-name)
+E:626,21: Instance of 'BboxBase' has no '_points' member (no-member)
+E:627,21: Instance of 'BboxBase' has no '_points' member (no-member)
+C:637, 8: Variable name "xf" doesn't conform to snake_case naming style (invalid-name)
+C:638, 8: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:638,12: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:638,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:638,20: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:639, 8: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:651, 8: Variable name "yf" doesn't conform to snake_case naming style (invalid-name)
+C:652, 8: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:652,12: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:652,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:652,20: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:653, 8: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:666,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:684, 4: Argument name "sw" doesn't conform to snake_case naming style (invalid-name)
+C:684, 4: Argument name "sh" doesn't conform to snake_case naming style (invalid-name)
+C:694, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+E:695,20: Instance of 'BboxBase' has no '_points' member (no-member)
+C:697, 4: Argument name "p" doesn't conform to snake_case naming style (invalid-name)
+C:705, 4: Argument name "tx" doesn't conform to snake_case naming style (invalid-name)
+C:705, 4: Argument name "ty" doesn't conform to snake_case naming style (invalid-name)
+E:710,20: Instance of 'BboxBase' has no '_points' member (no-member)
+C:719, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:719,11: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:719,14: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:719,17: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:739,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:741, 8: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:742, 8: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:743, 8: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:744, 8: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:753, 8: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:754, 8: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:755, 8: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:756, 8: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+R:252, 0: Too many public methods (46/20) (too-many-public-methods)
+W:760, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:760, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+E:793, 8: method already defined line 765 (function-redefined)
+W:793, 8: __init__ method from base class 'BboxBase' is not called (super-init-not-called)
+C:818, 4: Argument name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:818, 4: Argument name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:899, 4: Argument name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:918,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:925, 5: Method 'x0' has no 'setter' member (no-member)
+E:930, 5: Method 'y0' has no 'setter' member (no-member)
+E:935, 5: Method 'x1' has no 'setter' member (no-member)
+E:940, 5: Method 'y1' has no 'setter' member (no-member)
+E:945, 5: Method 'p0' has no 'setter' member (no-member)
+E:950, 5: Method 'p1' has no 'setter' member (no-member)
+E:955, 5: Method 'intervalx' has no 'setter' member (no-member)
+E:960, 5: Method 'intervaly' has no 'setter' member (no-member)
+E:965, 5: Method 'bounds' has no 'setter' member (no-member)
+C:967, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:967,11: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:967,14: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:967,17: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:974, 4: Missing method docstring (missing-docstring)
+C:978, 4: Missing method docstring (missing-docstring)
+C:982, 4: Missing method docstring (missing-docstring)
+R:760, 0: Too many public methods (26/20) (too-many-public-methods)
+W:1027, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:1027, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:1066,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1077,12: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:1079,16: Variable name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:1081,12: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:1083,16: Variable name "ys" doesn't conform to snake_case naming style (invalid-name)
+E:1097, 8: method already defined line 1064 (function-redefined)
+W:1103, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:1103, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+R:1110, 4: Too many arguments (6/5) (too-many-arguments)
+C:1137, 8: Variable name "fp" doesn't conform to snake_case naming style (invalid-name)
+E:1162, 8: method already defined line 1149 (function-redefined)
+R:1172, 8: Unnecessary "else" after "return" (no-else-return)
+C:1178, 4: Argument name "x0" doesn't conform to snake_case naming style (invalid-name)
+R:1188, 8: Unnecessary "else" after "return" (no-else-return)
+C:1194, 4: Argument name "y0" doesn't conform to snake_case naming style (invalid-name)
+R:1204, 8: Unnecessary "else" after "return" (no-else-return)
+C:1210, 4: Argument name "x1" doesn't conform to snake_case naming style (invalid-name)
+R:1220, 8: Unnecessary "else" after "return" (no-else-return)
+C:1226, 4: Argument name "y1" doesn't conform to snake_case naming style (invalid-name)
+W:1394,35: Access to a protected member _iter_break_from_left_to_right of a client class (protected-access)
+W:1409, 0: Unused argument 'args' (unused-argument)
+W:1409, 0: Unused argument 'kwargs' (unused-argument)
+R:1466, 4: Method could be a function (no-self-use)
+R:1494, 4: Method could be a function (no-self-use)
+C:1554, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+W:1555,15: Access to a protected member _fast_from_codes_and_verts of a client class (protected-access)
+W:1556,40: Access to a protected member _interpolation_steps of a client class (protected-access)
+C:1607, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1608, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1612,12: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+W:1629, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:1629, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:1629, 0: Method 'inverted' is abstract in class 'Transform' but is not overridden (abstract-method)
+R:1629, 0: Too many instance attributes (13/7) (too-many-instance-attributes)
+W:1645, 4: __init__ method from base class 'Transform' is not called (super-init-not-called)
+W:1677, 8: Attribute '_child' defined outside __init__ (attribute-defined-outside-init)
+C:1734, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1734, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+W:1755, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+W:1765,32: Access to a protected member _interpolation_steps of a client class (protected-access)
+W:1777, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:1777, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:1803, 4: Missing method docstring (missing-docstring)
+C:1815, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1815, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1815, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1815, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1815, 4: Argument name "e" doesn't conform to snake_case naming style (invalid-name)
+C:1815, 4: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+R:1815, 4: Too many arguments (6/5) (too-many-arguments)
+W:1826, 4: Parameters differ from overridden 'transform_affine' method (arguments-differ)
+E:1841, 8: method already defined line 1826 (function-redefined)
+W:1841, 8: Parameters differ from overridden 'transform_affine' method (arguments-differ)
+W:1846,16: Access to a protected member _warn_external of a client class (protected-access)
+W:1865, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:1865, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:1883,21: Access to a protected member _mtx of a client class (protected-access)
+C:1894, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1894, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1894, 4: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:1894, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1894, 4: Argument name "e" doesn't conform to snake_case naming style (invalid-name)
+C:1894, 4: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+R:1894, 4: Too many arguments (6/5) (too-many-arguments)
+W:1961,20: Access to a protected member _mtx of a client class (protected-access)
+C:1973, 8: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1974, 8: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1991, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1991, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2001, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2001, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2013, 4: Argument name "tx" doesn't conform to snake_case naming style (invalid-name)
+C:2013, 4: Argument name "ty" doesn't conform to snake_case naming style (invalid-name)
+C:2027, 4: Argument name "sx" doesn't conform to snake_case naming style (invalid-name)
+C:2027, 4: Argument name "sy" doesn't conform to snake_case naming style (invalid-name)
+C:2046, 4: Argument name "xShear" doesn't conform to snake_case naming style (invalid-name)
+C:2046, 4: Argument name "yShear" doesn't conform to snake_case naming style (invalid-name)
+C:2057, 8: Variable name "rotX" doesn't conform to snake_case naming style (invalid-name)
+C:2058, 8: Variable name "rotY" doesn't conform to snake_case naming style (invalid-name)
+C:2065, 4: Argument name "xShear" doesn't conform to snake_case naming style (invalid-name)
+C:2065, 4: Argument name "yShear" doesn't conform to snake_case naming style (invalid-name)
+W:2079, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2079, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2098, 4: Parameters differ from overridden 'transform' method (arguments-differ)
+W:2126, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2126, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+R:2160, 8: Unnecessary "else" after "return" (no-else-return)
+W:2161,31: Access to a protected member _x of a client class (protected-access)
+W:2161,57: Access to a protected member _y of a client class (protected-access)
+W:2167, 4: Parameters differ from overridden 'contains_branch_seperately' method (arguments-differ)
+W:2195, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C:2198, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2199, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+R:2216, 8: Unnecessary "else" after "return" (no-else-return)
+W:2244, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2244, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2275, 8: __init__ method from a non direct base class 'Transform' is called (non-parent-init-called)
+R:2285, 8: Unnecessary "else" after "return" (no-else-return)
+W:2286,31: Access to a protected member _x of a client class (protected-access)
+W:2286,57: Access to a protected member _y of a client class (protected-access)
+W:2292, 4: Parameters differ from overridden 'contains_branch_seperately' method (arguments-differ)
+W:2335, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2335, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+R:2390, 8: Unnecessary "else" after "return" (no-else-return)
+W:2391,48: Access to a protected member _a of a client class (protected-access)
+W:2392,52: Access to a protected member _b of a client class (protected-access)
+W:2397,27: Access to a protected member _iter_break_from_left_to_right of a client class (protected-access)
+W:2399,27: Access to a protected member _iter_break_from_left_to_right of a client class (protected-access)
+W:2417, 4: Parameters differ from overridden 'transform_affine' method (arguments-differ)
+W:2421, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+R:2422, 8: Unnecessary "else" after "return" (no-else-return)
+R:2432, 8: Unnecessary "else" after "return" (no-else-return)
+R:2442, 8: Unnecessary "else" after "return" (no-else-return)
+W:2454, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2454, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2492,27: Access to a protected member _iter_break_from_left_to_right of a client class (protected-access)
+W:2494,27: Access to a protected member _iter_break_from_left_to_right of a client class (protected-access)
+C:2516, 0: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:2516, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+W:2543, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2543, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2591, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2591, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2634, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2634, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2655, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2655, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2695, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2695, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+C:2716,12: Variable name "xt" doesn't conform to snake_case naming style (invalid-name)
+C:2716,16: Variable name "yt" doesn't conform to snake_case naming style (invalid-name)
+W:2727, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2727, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2763,16: Access to a protected member _fast_from_codes_and_verts of a client class (protected-access)
+W:2766,44: Access to a protected member _interpolation_steps of a client class (protected-access)
+C:2770, 4: Method name "get_transformed_points_and_affine" doesn't conform to snake_case naming style (invalid-name)
+C:2797, 4: Missing method docstring (missing-docstring)
+W:2801, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2801, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:2812, 8: __init__ method from a non direct base class 'TransformNode' is called (non-parent-init-called)
+W:2807, 4: __init__ method from base class 'TransformedPath' is not called (super-init-not-called)
+W:2833,16: Access to a protected member _fast_from_codes_and_verts of a client class (protected-access)
+W:2836,44: Access to a protected member _interpolation_steps of a client class (protected-access)
+E:2878,36: Instance of 'finfo' has no 'tiny' member (no-member)
+C:2911, 4: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:2911, 7: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2931, 4: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:2931, 7: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:2935, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:2935, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:2962, 9: Consider changing "not units == 'inches'" to "units != 'inches'" (unneeded-not)
+
+
+Report
+======
+1164 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |22     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |226    |NC         |NC         |96.90       |0.44     |
++---------+-------+-----------+-----------+------------+---------+
+|function |8      |NC         |NC         |87.50       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-cbook (matplotlib.transforms)
+      \-path (matplotlib.transforms)
+    numpy (matplotlib.transforms)
+      \-linalg (matplotlib.transforms)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1351   |45.55 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |1166   |39.31 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |89     |3.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |360    |12.14 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |207    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |20     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |89     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |24     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |146         |
++-------------------------------+------------+
+|abstract-method                |37          |
++-------------------------------+------------+
+|bad-continuation               |29          |
++-------------------------------+------------+
+|protected-access               |28          |
++-------------------------------+------------+
+|bad-whitespace                 |19          |
++-------------------------------+------------+
+|no-member                      |17          |
++-------------------------------+------------+
+|no-else-return                 |11          |
++-------------------------------+------------+
+|arguments-differ               |9           |
++-------------------------------+------------+
+|missing-docstring              |8           |
++-------------------------------+------------+
+|unused-argument                |5           |
++-------------------------------+------------+
+|function-redefined             |5           |
++-------------------------------+------------+
+|too-many-arguments             |3           |
++-------------------------------+------------+
+|super-init-not-called          |3           |
++-------------------------------+------------+
+|len-as-condition               |3           |
++-------------------------------+------------+
+|attribute-defined-outside-init |3           |
++-------------------------------+------------+
+|too-many-public-methods        |2           |
++-------------------------------+------------+
+|non-parent-init-called         |2           |
++-------------------------------+------------+
+|no-self-use                    |2           |
++-------------------------------+------------+
+|unneeded-not                   |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|no-staticmethod-decorator      |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|import-error                   |1           |
++-------------------------------+------------+
+|dangerous-default-value        |1           |
++-------------------------------+------------+
+|cell-var-from-loop             |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 6.25/10
+

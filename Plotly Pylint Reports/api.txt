@@ -1,0 +1,432 @@
+************* Module plotly.api.utils
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 14, 0: Missing function docstring (missing-docstring)
+C: 18, 0: Missing function docstring (missing-docstring)
+************* Module plotly.api.v1.utils
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 83, 4: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+************* Module plotly.api.v1
+C:  1, 0: Missing module docstring (missing-docstring)
+************* Module plotly.api.v2.dashboards
+W: 20, 0: Redefining built-in 'list' (redefined-builtin)
+************* Module plotly.api.v2.spectacle_presentations
+W: 17, 0: Redefining built-in 'list' (redefined-builtin)
+************* Module plotly.api.v2.utils
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 21, 0: Argument name "id" doesn't conform to snake_case naming style (invalid-name)
+W: 21,24: Redefining built-in 'id' (redefined-builtin)
+C:114, 0: Missing function docstring (missing-docstring)
+C:160, 4: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+************* Module plotly.api.v2
+C:  1, 0: Missing module docstring (missing-docstring)
+************* Module plotly.api.v2.__init__
+R:  1, 0: Similar lines in 2 files
+==plotly.api.v2.files:22
+==plotly.api.v2.grids:48
+def update(fid, body):
+    """
+    Update a grid from Plotly.
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :param (dict) body: A mapping of body param names to values.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, id=fid)
+    return request('put', url, json=body)
+
+
+def trash(fid):
+    """
+    Soft-delete a grid from Plotly. (Can be undone with 'restore').
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, id=fid, route='trash')
+    return request('post', url)
+
+
+def restore(fid):
+    """
+    Restore a trashed grid from Plotly. See 'trash'.
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, id=fid, route='restore')
+    return request('post', url)
+
+
+def permanent_delete(fid):
+    """
+    Permanently delete a trashed grid file from Plotly. See 'trash'.
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, id=fid, route='permanent_delete')
+    return request('delete', url)
+
+
+def lookup(path, parent=None, user=None, exists=None):
+    """
+    Retrieve a grid file from Plotly without needing a fid.
+
+    :param (str) path: The '/'-delimited path specifying the file location.
+    :param (int) parent: Parent id, an integer, which the path is relative to.
+    :param (str) user: The username to target files for. Defaults to requestor.
+    :param (bool) exists: If True, don't return the full file, just a flag.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, route='lookup')
+    params = make_params(path=path, parent=parent, user=user, exists=exists)
+    return request('get', url, params=params) (duplicate-code)
+R:  1, 0: Similar lines in 3 files
+==plotly.api.v2.files:22
+==plotly.api.v2.grids:48
+==plotly.api.v2.plots:56
+def update(fid, body):
+    """
+    Update a plot from Plotly.
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :param (dict) body: A mapping of body param names to values.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, id=fid)
+    return request('put', url, json=body)
+
+
+def trash(fid):
+    """
+    Soft-delete a plot from Plotly. (Can be undone with 'restore').
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, id=fid, route='trash')
+    return request('post', url)
+
+
+def restore(fid):
+    """
+    Restore a trashed plot from Plotly. See 'trash'.
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, id=fid, route='restore')
+    return request('post', url)
+
+ (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==plotly.api.v2.files:8
+==plotly.api.v2.folders:20
+def retrieve(fid, share_key=None):
+    """
+    Retrieve a folder from Plotly.
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :param (str) share_key: The secret key granting 'read' access if private.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, id=fid)
+    params = make_params(share_key=share_key)
+    return request('get', url, params=params)
+
+
+def update(fid, body):
+    """
+    Update a folder from Plotly.
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :param (dict) body: A mapping of body param names to values.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, id=fid)
+    return request('put', url, json=body)
+
+
+def trash(fid):
+    """
+    Soft-delete a folder from Plotly. (Can be undone with 'restore').
+
+    This action is recursively done on files inside the folder.
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :returns: (requests.Response) Returns response directly from requests. (duplicate-code)
+R:  1, 0: Similar lines in 3 files
+==plotly.api.v2.folders:8
+==plotly.api.v2.grids:8
+==plotly.api.v2.plots:8
+def create(body):
+    """
+    Create a new plot.
+
+    :param (dict) body: A mapping of body param names to values.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE)
+    return request('post', url, json=body)
+
+
+def retrieve(fid, share_key=None):
+    """
+    Retrieve a plot from Plotly.
+
+    :param (str) fid: The `{username}:{idlocal}` identifier. E.g. `foo:88`.
+    :param (str) share_key: The secret key granting 'read' access if private.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, id=fid)
+    params = make_params(share_key=share_key)
+    return request('get', url, params=params)
+
+ (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==plotly.api.v2.dashboards:13
+==plotly.api.v2.spectacle_presentations:10
+def create(body):
+    """Create a presentation."""
+    url = build_url(RESOURCE)
+    return request('post', url, json=body)
+
+
+def list():
+    """Returns the list of all users' presentations."""
+    url = build_url(RESOURCE)
+    return request('get', url)
+
+
+def retrieve(fid):
+    """Retrieve a presentation from Plotly."""
+    url = build_url(RESOURCE, id=fid)
+    return request('get', url)
+
+
+def update(fid, content):
+    """Completely update the writable."""
+    url = build_url(RESOURCE, id=fid)
+    return request('put', url, json=content) (duplicate-code)
+R:  1, 0: Similar lines in 3 files
+==plotly.api.v2.files:67
+==plotly.api.v2.folders:85
+==plotly.api.v2.grids:93
+    url = build_url(RESOURCE, id=fid, route='permanent_delete')
+    return request('delete', url)
+
+
+def lookup(path, parent=None, user=None, exists=None):
+    """
+    Retrieve a folder file from Plotly without needing a fid.
+
+    :param (str) path: The '/'-delimited path specifying the file location.
+    :param (int) parent: Parent id, an integer, which the path is relative to.
+    :param (str) user: The username to target files for. Defaults to requestor.
+    :param (bool) exists: If True, don't return the full file, just a flag.
+    :returns: (requests.Response) Returns response directly from requests.
+
+    """
+    url = build_url(RESOURCE, route='lookup')
+    params = make_params(path=path, parent=parent, user=user, exists=exists)
+    return request('get', url, params=params) (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==plotly.api.v1.utils:80
+==plotly.api.v2.utils:157
+    try:
+        response = requests.request(method, url, **kwargs)
+    except RequestException as e:
+        # The message can be an exception. E.g., MaxRetryError.
+        message = str(getattr(e, 'message', 'No message'))
+        response = getattr(e, 'response', None)
+        status_code = response.status_code if response else None
+        content = response.content if response else 'No content'
+        raise exceptions.PlotlyRequestError(message, status_code, content)
+    validate_response(response)
+    return response (duplicate-code)
+R:  1, 0: Similar lines in 3 files
+==plotly.api.v2.dash_apps:16
+==plotly.api.v2.dashboards:25
+==plotly.api.v2.spectacle_presentations:22
+def retrieve(fid):
+    """Retrieve a dash app from Plotly."""
+    url = build_url(RESOURCE, id=fid)
+    return request('get', url)
+
+
+def update(fid, content):
+    """Completely update the writable."""
+    url = build_url(RESOURCE, id=fid)
+    return request('put', url, json=content) (duplicate-code)
+R:  1, 0: Similar lines in 2 files
+==plotly.api.v1.utils:20
+==plotly.api.v2.utils:62
+    content = response.content
+    status_code = response.status_code
+    try:
+        parsed_content = response.json()
+    except ValueError:
+        message = content if content else 'No Content'
+        raise exceptions.PlotlyRequestError(message, status_code, content)
+
+    message = ''
+    if isinstance(parsed_content, dict): (duplicate-code)
+
+
+Report
+======
+357 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |17     |NC         |NC         |70.59       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |63     |NC         |NC         |95.24       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    plotly 
+      \-api 
+      | \-utils (plotly.api.v1.utils,plotly.api.v2.utils)
+      | \-v1 
+      | | \-clientresp (plotly.api.v1)
+      | | \-utils (plotly.api.v1.clientresp)
+      | \-v2 
+      |   \-dash_apps (plotly.api.v2)
+      |   \-dashboards (plotly.api.v2)
+      |   \-files (plotly.api.v2)
+      |   \-folders (plotly.api.v2)
+      |   \-grids (plotly.api.v2)
+      |   \-images (plotly.api.v2)
+      |   \-plot_schema (plotly.api.v2)
+      |   \-plots (plotly.api.v2)
+      |   \-spectacle_presentations (plotly.api.v2)
+      |   \-users (plotly.api.v2)
+      |   \-utils (plotly.api.v1.utils,plotly.api.v2.dash_apps,plotly.api.v2.dashboards,plotly.api.v2.files,plotly.api.v2.folders,plotly.api.v2.grids,plotly.api.v2.images,plotly.api.v2.plot_schema,plotly.api.v2.plots,plotly.api.v2.spectacle_presentations,plotly.api.v2.users)
+      \-config (plotly.api.v1.clientresp,plotly.api.v1.utils,plotly.api.v2.utils)
+      \-exceptions (plotly.api.v1.utils,plotly.api.v2.utils)
+      \-utils (plotly.api.v1.clientresp,plotly.api.v2.utils)
+      \-version (plotly.api.v1.clientresp,plotly.api.v2.utils)
+    requests (plotly.api.v1.utils,plotly.api.v2.utils)
+      \-compat (plotly.api.utils,plotly.api.v1.clientresp,plotly.api.v2.utils)
+      \-exceptions (plotly.api.v1.utils,plotly.api.v2.utils)
+    retrying (plotly.api.v1.utils,plotly.api.v2.utils)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |406    |39.57 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |425    |41.42 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |12     |1.17  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |183    |17.84 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+-------+---------+-----------+
+|                         |now    |previous |difference |
++=========================+=======+=========+===========+
+|nb duplicated lines      |323    |NC       |NC         |
++-------------------------+-------+---------+-----------+
+|percent duplicated lines |32.560 |NC       |NC         |
++-------------------------+-------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |11     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |9      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |3      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++--------------------------------------+------+--------+---------+-----------+
+|module                                |error |warning |refactor |convention |
++======================================+======+========+=========+===========+
+|plotly.api.v2.utils                   |0.00  |33.33   |0.00     |36.36      |
++--------------------------------------+------+--------+---------+-----------+
+|plotly.api.v2.spectacle_presentations |0.00  |33.33   |0.00     |0.00       |
++--------------------------------------+------+--------+---------+-----------+
+|plotly.api.v2.dashboards              |0.00  |33.33   |0.00     |0.00       |
++--------------------------------------+------+--------+---------+-----------+
+|plotly.api.v2.__init__                |0.00  |0.00    |100.00   |9.09       |
++--------------------------------------+------+--------+---------+-----------+
+|plotly.api.utils                      |0.00  |0.00    |0.00     |27.27      |
++--------------------------------------+------+--------+---------+-----------+
+|plotly.api.v1.utils                   |0.00  |0.00    |0.00     |18.18      |
++--------------------------------------+------+--------+---------+-----------+
+|plotly.api.v1.__init__                |0.00  |0.00    |0.00     |9.09       |
++--------------------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------+------------+
+|message id        |occurrences |
++==================+============+
+|duplicate-code    |9           |
++------------------+------------+
+|missing-docstring |8           |
++------------------+------------+
+|redefined-builtin |3           |
++------------------+------------+
+|invalid-name      |3           |
++------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 9.36/10
+

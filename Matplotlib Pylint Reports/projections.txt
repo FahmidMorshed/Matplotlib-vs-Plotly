@@ -1,0 +1,476 @@
+************* Module matplotlib.projections
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 34, 0: Constant name "projection_registry" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 44, 0: Missing function docstring (missing-docstring)
+W: 83,41: Access to a protected member _as_mpl_axes of a client class (protected-access)
+W: 91,10: Access to a protected member _make_key of a client class (protected-access)
+************* Module matplotlib.projections.geo
+C:221, 0: No space allowed before :
+    def can_pan(self) :
+                      ^ (bad-whitespace)
+C:324, 0: Exactly one space required before assignment
+            latitude  = ll[:, 1:2]
+                      ^ (bad-whitespace)
+C:378, 0: Exactly one space required before assignment
+            latitude  = ll[:, 1]
+                      ^ (bad-whitespace)
+C:457, 0: Exactly one space required before assignment
+            latitude  = ll[:, 1:2]
+                      ^ (bad-whitespace)
+C:500, 0: Wrong continued indentation (remove 1 space).
+                             ((y*sin_c*np.cos(clat)) / p))
+                            |^ (bad-continuation)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 63, 8: Attribute name "transProjection" doesn't conform to snake_case naming style (invalid-name)
+C: 65, 8: Attribute name "transAffine" doesn't conform to snake_case naming style (invalid-name)
+R: 14, 0: Too many instance attributes (14/7) (too-many-instance-attributes)
+R: 27,12: Unnecessary "else" after "return" (no-else-return)
+E: 63,31: Instance of 'GeoAxes' has no '_get_core_transform' member (no-member)
+E:113,20: Instance of 'GeoAxes' has no '_get_core_transform' member (no-member)
+W:126, 4: Parameters differ from overridden 'get_xaxis_text1_transform' method (arguments-differ)
+W:126,40: Unused argument 'pad' (unused-argument)
+W:129, 4: Parameters differ from overridden 'get_xaxis_text2_transform' method (arguments-differ)
+W:129,40: Unused argument 'pad' (unused-argument)
+W:138, 4: Parameters differ from overridden 'get_yaxis_text1_transform' method (arguments-differ)
+W:138,40: Unused argument 'pad' (unused-argument)
+W:141, 4: Parameters differ from overridden 'get_yaxis_text2_transform' method (arguments-differ)
+W:141,40: Unused argument 'pad' (unused-argument)
+W:147, 4: Parameters differ from overridden '_gen_axes_spines' method (arguments-differ)
+W:150, 4: Parameters differ from overridden 'set_yscale' method (arguments-differ)
+W:156, 4: Parameters differ from overridden 'set_xlim' method (arguments-differ)
+W:156, 0: Unused argument 'args' (unused-argument)
+W:156, 0: Unused argument 'kwargs' (unused-argument)
+W:163, 4: Parameters differ from overridden 'format_coord' method (arguments-differ)
+C:167,12: Variable name "ns" doesn't conform to snake_case naming style (invalid-name)
+C:169,12: Variable name "ns" doesn't conform to snake_case naming style (invalid-name)
+C:171,12: Variable name "ew" doesn't conform to snake_case naming style (invalid-name)
+C:173,12: Variable name "ew" doesn't conform to snake_case naming style (invalid-name)
+W: 63, 8: Attribute 'transProjection' defined outside __init__ (attribute-defined-outside-init)
+W: 65, 8: Attribute 'transAffine' defined outside __init__ (attribute-defined-outside-init)
+W: 67, 8: Attribute 'transAxes' defined outside __init__ (attribute-defined-outside-init)
+W: 71, 8: Attribute 'transData' defined outside __init__ (attribute-defined-outside-init)
+W: 77, 8: Attribute '_xaxis_pretransform' defined outside __init__ (attribute-defined-outside-init)
+W: 81, 8: Attribute '_xaxis_transform' defined outside __init__ (attribute-defined-outside-init)
+W: 84, 8: Attribute '_xaxis_text1_transform' defined outside __init__ (attribute-defined-outside-init)
+W: 88, 8: Attribute '_xaxis_text2_transform' defined outside __init__ (attribute-defined-outside-init)
+W: 96, 8: Attribute '_yaxis_transform' defined outside __init__ (attribute-defined-outside-init)
+W:105, 8: Attribute '_yaxis_text1_transform' defined outside __init__ (attribute-defined-outside-init)
+W:108, 8: Attribute '_yaxis_text2_transform' defined outside __init__ (attribute-defined-outside-init)
+W:199, 8: Attribute '_longitude_cap' defined outside __init__ (attribute-defined-outside-init)
+W:239, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:239, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:239, 0: Method 'inverted' is abstract in class 'Transform' but is not overridden (abstract-method)
+C:265, 0: Missing class docstring (missing-docstring)
+W:268, 4: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:268, 4: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:271, 8: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C:285,12: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:295, 4: Missing class docstring (missing-docstring)
+W:295, 4: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:295, 4: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:297, 8: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C:316, 0: Missing class docstring (missing-docstring)
+W:319, 4: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:319, 4: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:322, 8: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C:332,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:333,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:341, 4: Missing class docstring (missing-docstring)
+W:341, 4: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:341, 4: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:343, 8: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C:344,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:344,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:345,12: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:365, 0: Missing class docstring (missing-docstring)
+W:368, 4: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:368, 4: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:371, 8: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+R:371, 8: Too many local variables (16/15) (too-many-locals)
+C:372,12: Function name "d" doesn't conform to snake_case naming style (invalid-name)
+C:372,12: Missing function docstring (missing-docstring)
+C:395,16: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:396,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:399,12: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:410, 4: Missing class docstring (missing-docstring)
+W:410, 4: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:410, 4: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:412, 8: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C:413,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:414,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:439, 0: Missing class docstring (missing-docstring)
+W:442, 4: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:442, 4: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:455, 8: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C:469,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:470,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:482, 4: Missing class docstring (missing-docstring)
+W:482, 4: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:482, 4: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:489, 8: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C:490,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:491,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:494,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:495,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+************* Module matplotlib.projections.polar
+C: 37, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:103, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:141, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:476, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:759, 0: Wrong continued indentation (remove 4 spaces).
+                    "{},\n"
+                |   ^ (bad-continuation)
+C:  1, 0: Too many lines in module (1526/1000) (too-many-lines)
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 17, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W: 17, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W: 41,24: Access to a protected member _indent_str of a client class (protected-access)
+W: 45, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C: 46, 8: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C: 48, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 49, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C: 50, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 51, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C: 56,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 57,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C: 60,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W: 73,34: Access to a protected member _interpolation_steps of a client class (protected-access)
+W: 84, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W: 84, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:106,24: Access to a protected member _indent_str of a client class (protected-access)
+W:107,24: Access to a protected member _indent_str of a client class (protected-access)
+W:123, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:123, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:145,24: Access to a protected member _indent_str of a client class (protected-access)
+W:149, 4: Parameters differ from overridden 'transform_non_affine' method (arguments-differ)
+C:150, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:151, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:152, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:163,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:182, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+R:185, 8: Unnecessary "else" after "return" (no-else-return)
+C:202, 4: Missing method docstring (missing-docstring)
+C:205, 4: Missing method docstring (missing-docstring)
+C:208, 4: Missing method docstring (missing-docstring)
+C:211, 4: Missing method docstring (missing-docstring)
+C:214, 4: Missing method docstring (missing-docstring)
+C:217, 4: Missing method docstring (missing-docstring)
+W:221, 0: Method 'tick_values' is abstract in class 'Locator' but is not overridden (abstract-method)
+R:239, 8: Unnecessary "else" after "return" (no-else-return)
+C:284, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:290, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:309, 8: Access to a protected member _t of a client class (protected-access)
+W:311, 8: Access to a protected member _t of a client class (protected-access)
+W:328,20: Access to a protected member _transform of a client class (protected-access)
+W:328,20: Access to a protected member _marker of a client class (protected-access)
+W:329, 8: Access to a protected member _transform of a client class (protected-access)
+W:329, 8: Access to a protected member _marker of a client class (protected-access)
+W:338,20: Access to a protected member _transform of a client class (protected-access)
+W:338,20: Access to a protected member _marker of a client class (protected-access)
+W:339, 8: Access to a protected member _transform of a client class (protected-access)
+W:339, 8: Access to a protected member _marker of a client class (protected-access)
+W:400,16: Access to a protected member _get_text1_transform of a client class (protected-access)
+W:401,42: Access to a protected member _text1_translate of a client class (protected-access)
+W:402,16: Access to a protected member _get_text2_transform of a client class (protected-access)
+W:403,42: Access to a protected member _text2_translate of a client class (protected-access)
+W:381, 8: Attribute 'isDefault_majloc' defined outside __init__ (attribute-defined-outside-init)
+W:382, 8: Attribute 'isDefault_majfmt' defined outside __init__ (attribute-defined-outside-init)
+W:406, 0: Method 'tick_values' is abstract in class 'Locator' but is not overridden (abstract-method)
+R:428, 8: Unnecessary "else" after "return" (no-else-return)
+W:450, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:450, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:469,26: Access to a protected member _realViewLim of a client class (protected-access)
+W:480,24: Access to a protected member _indent_str of a client class (protected-access)
+W:481,24: Access to a protected member _indent_str of a client class (protected-access)
+W:482,24: Access to a protected member _indent_str of a client class (protected-access)
+W:494,28: Access to a protected member _realViewLim of a client class (protected-access)
+W:496,28: Access to a protected member _realViewLim of a client class (protected-access)
+C:520, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:525, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+R:532, 8: Unnecessary "else" after "return" (no-else-return)
+R:533,12: Unnecessary "else" after "return" (no-else-return)
+R:534,16: Unnecessary "else" after "return" (no-else-return)
+R:539,16: Unnecessary "else" after "return" (no-else-return)
+R:544,12: Unnecessary "else" after "return" (no-else-return)
+R:545,16: Unnecessary "else" after "return" (no-else-return)
+R:564,16: Unnecessary "else" after "return" (no-else-return)
+R:529, 4: Method could be a function (no-self-use)
+R:529, 4: Too many return statements (22/6) (too-many-return-statements)
+R:529, 4: Too many branches (25/12) (too-many-branches)
+R:583, 4: Too many local variables (19/15) (too-many-locals)
+C:622,12: Variable name "ha" doesn't conform to snake_case naming style (invalid-name)
+C:623,12: Variable name "va" doesn't conform to snake_case naming style (invalid-name)
+C:625,12: Variable name "ha" doesn't conform to snake_case naming style (invalid-name)
+C:625,16: Variable name "va" doesn't conform to snake_case naming style (invalid-name)
+W:639,20: Access to a protected member _transform of a client class (protected-access)
+W:639,20: Access to a protected member _marker of a client class (protected-access)
+W:640, 8: Access to a protected member _transform of a client class (protected-access)
+W:640, 8: Access to a protected member _marker of a client class (protected-access)
+C:663, 8: Variable name "ha" doesn't conform to snake_case naming style (invalid-name)
+C:663,12: Variable name "va" doesn't conform to snake_case naming style (invalid-name)
+W:677,20: Access to a protected member _transform of a client class (protected-access)
+W:677,20: Access to a protected member _marker of a client class (protected-access)
+W:678, 8: Access to a protected member _transform of a client class (protected-access)
+W:678, 8: Access to a protected member _marker of a client class (protected-access)
+R:583, 4: Too many branches (31/12) (too-many-branches)
+R:583, 4: Too many statements (87/50) (too-many-statements)
+W:705, 8: Attribute 'isDefault_majloc' defined outside __init__ (attribute-defined-outside-init)
+C:753, 8: Attribute name "_viewLim" doesn't conform to snake_case naming style (invalid-name)
+C:754, 8: Attribute name "_originLim" doesn't conform to snake_case naming style (invalid-name)
+W:735, 0: Method '__copy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:735, 0: Method '__deepcopy__' is abstract in class 'TransformNode' but is not overridden (abstract-method)
+W:763,24: Access to a protected member _indent_str of a client class (protected-access)
+W:764,24: Access to a protected member _indent_str of a client class (protected-access)
+W:765,24: Access to a protected member _indent_str of a client class (protected-access)
+C:791,12: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+C:791,15: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:868, 8: Attribute name "_originViewLim" doesn't conform to snake_case naming style (invalid-name)
+C:875, 8: Attribute name "transShift" doesn't conform to snake_case naming style (invalid-name)
+C:880, 8: Attribute name "_realViewLim" doesn't conform to snake_case naming style (invalid-name)
+C:891, 8: Attribute name "axesLim" doesn't conform to snake_case naming style (invalid-name)
+C:895, 8: Attribute name "transWedge" doesn't conform to snake_case naming style (invalid-name)
+C:902, 8: Attribute name "transProjection" doesn't conform to snake_case naming style (invalid-name)
+C:910, 8: Attribute name "transProjectionAffine" doesn't conform to snake_case naming style (invalid-name)
+R:809, 0: Too many instance attributes (24/7) (too-many-instance-attributes)
+W:955, 4: Parameters differ from overridden 'get_xaxis_text1_transform' method (arguments-differ)
+W:955,40: Unused argument 'pad' (unused-argument)
+W:958, 4: Parameters differ from overridden 'get_xaxis_text2_transform' method (arguments-differ)
+W:958,40: Unused argument 'pad' (unused-argument)
+W:970, 4: Parameters differ from overridden 'get_yaxis_text1_transform' method (arguments-differ)
+W:982, 4: Parameters differ from overridden 'get_yaxis_text2_transform' method (arguments-differ)
+W:991, 4: Parameters differ from overridden 'draw' method (arguments-differ)
+R:991, 4: Too many local variables (19/15) (too-many-locals)
+E:1001,12: Instance of 'Rectangle' has no 'set_center' member (no-member)
+E:1002,12: Instance of 'Rectangle' has no 'set_theta1' member (no-member)
+E:1003,12: Instance of 'Rectangle' has no 'set_theta2' member (no-member)
+E:1008,12: Instance of 'Rectangle' has no 'set_radius' member (no-member)
+W:1039, 4: Parameters differ from overridden '_gen_axes_spines' method (arguments-differ)
+C:1054, 4: Missing method docstring (missing-docstring)
+C:1057, 4: Missing method docstring (missing-docstring)
+C:1060, 4: Missing method docstring (missing-docstring)
+C:1063, 4: Missing method docstring (missing-docstring)
+C:1066, 4: Missing method docstring (missing-docstring)
+C:1145, 4: Missing method docstring (missing-docstring)
+C:1148, 4: Missing method docstring (missing-docstring)
+C:1151, 4: Missing method docstring (missing-docstring)
+C:1154, 4: Missing method docstring (missing-docstring)
+C:1157, 4: Missing method docstring (missing-docstring)
+C:1160, 4: Missing method docstring (missing-docstring)
+C:1163, 4: Missing method docstring (missing-docstring)
+W:1189, 4: Parameters differ from overridden 'set_yscale' method (arguments-differ)
+C:1194, 4: Missing method docstring (missing-docstring)
+C:1197, 4: Missing method docstring (missing-docstring)
+C:1243,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:1296,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+W:1300, 4: Parameters differ from overridden 'set_xscale' method (arguments-differ)
+W:1300, 0: Unused argument 'args' (unused-argument)
+W:1305, 4: Parameters differ from overridden 'format_coord' method (arguments-differ)
+C:1348,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:1348,15: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:1348,15: Unused variable 'r' (unused-variable)
+R:1366, 4: Too many local variables (20/15) (too-many-locals)
+C:1367, 8: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1371,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:1371,15: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1377,16: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:1379,16: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:1380,12: Variable name "dt" doesn't conform to snake_case naming style (invalid-name)
+C:1385,16: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:1393,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:1393,15: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+W:1383,12: Unused variable 'trans' (unused-variable)
+W:868, 8: Attribute '_originViewLim' defined outside __init__ (attribute-defined-outside-init)
+W:871, 8: Attribute '_direction' defined outside __init__ (attribute-defined-outside-init)
+W:873, 8: Attribute '_theta_offset' defined outside __init__ (attribute-defined-outside-init)
+W:875, 8: Attribute 'transShift' defined outside __init__ (attribute-defined-outside-init)
+W:880, 8: Attribute '_realViewLim' defined outside __init__ (attribute-defined-outside-init)
+W:885, 8: Attribute 'transScale' defined outside __init__ (attribute-defined-outside-init)
+W:891, 8: Attribute 'axesLim' defined outside __init__ (attribute-defined-outside-init)
+W:895, 8: Attribute 'transWedge' defined outside __init__ (attribute-defined-outside-init)
+W:898, 8: Attribute 'transAxes' defined outside __init__ (attribute-defined-outside-init)
+W:902, 8: Attribute 'transProjection' defined outside __init__ (attribute-defined-outside-init)
+W:910, 8: Attribute 'transProjectionAffine' defined outside __init__ (attribute-defined-outside-init)
+W:915, 8: Attribute 'transData' defined outside __init__ (attribute-defined-outside-init)
+W:922, 8: Attribute '_xaxis_transform' defined outside __init__ (attribute-defined-outside-init)
+W:933, 8: Attribute '_xaxis_text_transform' defined outside __init__ (attribute-defined-outside-init)
+W:938, 8: Attribute '_yaxis_transform' defined outside __init__ (attribute-defined-outside-init)
+W:944, 8: Attribute '_r_label_position' defined outside __init__ (attribute-defined-outside-init)
+W:946, 8: Attribute '_yaxis_text_transform' defined outside __init__ (attribute-defined-outside-init)
+W:1354, 8: Attribute '_pan_start' defined outside __init__ (attribute-defined-outside-init)
+R:809, 0: Too many public methods (40/20) (too-many-public-methods)
+R:  1, 0: Similar lines in 2 files
+==matplotlib.projections.geo:119
+==matplotlib.projections.polar:948
+    def get_xaxis_transform(self, which='grid'):
+        if which not in ['tick1', 'tick2', 'grid']:
+            raise ValueError(
+                "'which' must be one of 'tick1', 'tick2', or 'grid'")
+        return self._xaxis_transform
+
+    def get_xaxis_text1_transform(self, pad): (duplicate-code)
+
+
+Report
+======
+1090 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |30     |NC         |NC         |73.33       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |167    |NC         |NC         |88.02       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |7      |NC         |NC         |71.43       |14.29    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    collections (matplotlib.projections.polar)
+    matplotlib (matplotlib.projections.geo,matplotlib.projections.polar)
+      \-axes (matplotlib.projections.geo,matplotlib.projections.polar)
+      \-axis (matplotlib.projections.geo,matplotlib.projections.polar)
+      \-markers (matplotlib.projections.polar)
+      \-patches (matplotlib.projections.geo,matplotlib.projections.polar)
+      \-path (matplotlib.projections.geo,matplotlib.projections.polar)
+      \-spines (matplotlib.projections.geo,matplotlib.projections.polar)
+      \-ticker (matplotlib.projections.geo,matplotlib.projections.polar)
+      \-transforms (matplotlib.projections.geo,matplotlib.projections.polar)
+    numpy (matplotlib.projections.geo,matplotlib.projections.polar)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1280   |59.07 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |359    |16.57 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |181    |8.35  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |347    |16.01 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |7     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.324 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |116    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |24     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |140    |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |6      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++-----------------------------+------+--------+---------+-----------+
+|module                       |error |warning |refactor |convention |
++=============================+======+========+=========+===========+
+|matplotlib.projections.polar |66.67 |60.71   |87.50    |63.79      |
++-----------------------------+------+--------+---------+-----------+
+|matplotlib.projections.geo   |33.33 |37.86   |12.50    |33.62      |
++-----------------------------+------+--------+---------+-----------+
+|matplotlib.projections       |0.00  |1.43    |0.00     |2.59       |
++-----------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |72          |
++-------------------------------+------------+
+|protected-access               |38          |
++-------------------------------+------------+
+|missing-docstring              |33          |
++-------------------------------+------------+
+|attribute-defined-outside-init |33          |
++-------------------------------+------------+
+|abstract-method                |31          |
++-------------------------------+------------+
+|arguments-differ               |27          |
++-------------------------------+------------+
+|no-else-return                 |11          |
++-------------------------------+------------+
+|unused-argument                |9           |
++-------------------------------+------------+
+|no-member                      |6           |
++-------------------------------+------------+
+|bad-continuation               |6           |
++-------------------------------+------------+
+|too-many-locals                |4           |
++-------------------------------+------------+
+|bad-whitespace                 |4           |
++-------------------------------+------------+
+|unused-variable                |2           |
++-------------------------------+------------+
+|too-many-instance-attributes   |2           |
++-------------------------------+------------+
+|too-many-branches              |2           |
++-------------------------------+------------+
+|too-many-statements            |1           |
++-------------------------------+------------+
+|too-many-return-statements     |1           |
++-------------------------------+------------+
+|too-many-public-methods        |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|no-self-use                    |1           |
++-------------------------------+------------+
+|duplicate-code                 |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.16/10
+

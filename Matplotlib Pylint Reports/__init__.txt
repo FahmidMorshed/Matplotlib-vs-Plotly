@@ -1,0 +1,293 @@
+************* Module matplotlib.__init__
+C:1095, 0: Wrong hanging indentation (remove 18 spaces).
+                      rcParams['ps.usedistiller'])
+    |                 ^ (bad-continuation)
+C:1341, 0: Unnecessary parens after 'if' keyword (superfluous-parens)
+C:1432, 0: Wrong continued indentation before block (add 4 spaces).
+        ft2font.__freetype_build_type__ != 'local'):
+        ^   | (bad-continuation)
+C:  1, 0: Too many lines in module (1790/1000) (too-many-lines)
+************* Module matplotlib
+C:117, 0: Import "import atexit" should be placed at the top of the module (wrong-import-position)
+E:118, 0: No name 'abc' in module 'collections' (no-name-in-module)
+E:118, 0: Unable to import 'collections.abc' (import-error)
+C:118, 0: Import "from collections.abc import MutableMapping" should be placed at the top of the module (wrong-import-position)
+C:119, 0: Import "import contextlib" should be placed at the top of the module (wrong-import-position)
+C:120, 0: Import "import distutils.version" should be placed at the top of the module (wrong-import-position)
+C:121, 0: Import "import functools" should be placed at the top of the module (wrong-import-position)
+C:122, 0: Import "import importlib" should be placed at the top of the module (wrong-import-position)
+C:123, 0: Import "import inspect" should be placed at the top of the module (wrong-import-position)
+C:124, 0: Import "from inspect import Parameter" should be placed at the top of the module (wrong-import-position)
+C:125, 0: Import "import locale" should be placed at the top of the module (wrong-import-position)
+C:126, 0: Import "import logging" should be placed at the top of the module (wrong-import-position)
+C:127, 0: Import "import os" should be placed at the top of the module (wrong-import-position)
+C:128, 0: Import "from pathlib import Path" should be placed at the top of the module (wrong-import-position)
+C:129, 0: Import "import pprint" should be placed at the top of the module (wrong-import-position)
+C:130, 0: Import "import re" should be placed at the top of the module (wrong-import-position)
+C:131, 0: Import "import shutil" should be placed at the top of the module (wrong-import-position)
+C:132, 0: Import "import subprocess" should be placed at the top of the module (wrong-import-position)
+C:133, 0: Import "import tempfile" should be placed at the top of the module (wrong-import-position)
+C:134, 0: Import "import urllib.request" should be placed at the top of the module (wrong-import-position)
+C:135, 0: Import "import warnings" should be placed at the top of the module (wrong-import-position)
+C:139, 0: Import "from . import cbook, rcsetup" should be placed at the top of the module (wrong-import-position)
+C:140, 0: Import "from matplotlib.cbook import MatplotlibDeprecationWarning, dedent, get_label, sanitize_sequence" should be placed at the top of the module (wrong-import-position)
+C:142, 0: Import "from matplotlib.cbook import mplDeprecation" should be placed at the top of the module (wrong-import-position)
+C:143, 0: Import "from matplotlib.rcsetup import defaultParams, validate_backend, cycler" should be placed at the top of the module (wrong-import-position)
+C:145, 0: Import "import numpy" should be placed at the top of the module (wrong-import-position)
+C:149, 0: Import "from ._version import get_versions" should be placed at the top of the module (wrong-import-position)
+C:153, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:171, 0: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:171, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+R:181, 4: Unnecessary "else" after "return" (no-else-return)
+C:210, 0: Constant name "_verbose_msg" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:247,29: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+W:309,12: Access to a protected member _warn_external of a client class (protected-access)
+C:316, 4: Missing method docstring (missing-docstring)
+C:334, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:357, 8: Missing function docstring (missing-docstring)
+W:360,30: Access to a protected member _spoke of a client class (protected-access)
+W:362,23: Access to a protected member _spoke of a client class (protected-access)
+W:363,20: Access to a protected member _spoke of a client class (protected-access)
+W:365, 8: Access to a protected member _spoke of a client class (protected-access)
+C:370, 4: Method name "ge" doesn't conform to snake_case naming style (invalid-name)
+C:377, 4: Constant name "verbose" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:400, 4: Missing function docstring (missing-docstring)
+C:411, 0: Missing function docstring (missing-docstring)
+C:413, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:418, 8: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:416,16: Unused variable 'stderr' (unused-variable)
+C:424, 0: Missing function docstring (missing-docstring)
+C:433,16: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:438,20: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:436,24: Unused variable 'stderr' (unused-variable)
+C:449, 0: Missing function docstring (missing-docstring)
+C:451, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:457,16: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:453, 8: Unused variable 'stdout' (unused-variable)
+C:463, 0: Missing function docstring (missing-docstring)
+C:466,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:473,20: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+W:469,20: Unused variable 'stderr' (unused-variable)
+C:482, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:482, 0: Missing function docstring (missing-docstring)
+W:505,12: Specify string format arguments as logging function parameters (logging-not-lazy)
+R:509, 4: Unnecessary "else" after "return" (no-else-return)
+W:487,13: Unused variable 'gs_v' (unused-variable)
+C:515, 0: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:515, 0: Missing function docstring (missing-docstring)
+W:531, 8: Specify string format arguments as logging function parameters (logging-not-lazy)
+W:538, 8: Specify string format arguments as logging function parameters (logging-not-lazy)
+W:535, 4: Unused variable 'gs_exec' (unused-variable)
+W:554,11: Catching too general exception Exception (broad-except)
+C:656, 4: Missing function docstring (missing-docstring)
+C:678, 0: Missing function docstring (missing-docstring)
+C:685, 0: Missing function docstring (missing-docstring)
+C:687, 4: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:715, 4: Missing function docstring (missing-docstring)
+C:737, 0: Constant name "_deprecated_map" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:741, 0: Constant name "_deprecated_ignore_map" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:751, 0: Constant name "_deprecated_remain_as_none" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:759, 0: Constant name "_all_deprecated" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:777, 4: Missing method docstring (missing-docstring)
+C:782, 4: Missing method docstring (missing-docstring)
+C:787, 4: Missing method docstring (missing-docstring)
+C:793, 4: Missing method docstring (missing-docstring)
+C:799, 4: Missing method docstring (missing-docstring)
+W:805, 4: __init__ method from base class 'dict' is not called (super-init-not-called)
+W:837,26: Access to a protected member _auto_backend_sentinel of a client class (protected-access)
+C:842,12: Variable name "ve" doesn't conform to snake_case naming style (invalid-name)
+W:811,43: Unused variable 'inverse_alt' (unused-variable)
+W:870,22: Access to a protected member _auto_backend_sentinel of a client class (protected-access)
+W:872,35: Access to a protected member _auto_backend_sentinel of a client class (protected-access)
+W:852,30: Unused variable 'alt_val' (unused-variable)
+C:934,46: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:941,47: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:945, 0: Constant name "_error_details_fmt" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:956,37: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+W:966,20: Specify string format arguments as logging function parameters (logging-not-lazy)
+W:972,20: Specify string format arguments as logging function parameters (logging-not-lazy)
+W:976,12: Specify string format arguments as logging function parameters (logging-not-lazy)
+W:993,23: Catching too general exception Exception (broad-except)
+W:995,20: Specify string format arguments as logging function parameters (logging-not-lazy)
+W:1005,23: Catching too general exception Exception (broad-except)
+W:1007,20: Specify string format arguments as logging function parameters (logging-not-lazy)
+R:948, 0: Too many branches (17/12) (too-many-branches)
+C:1069, 0: Constant name "rcParams" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1078, 8: Constant name "_basedir" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1078,18: Constant name "_fname" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1082, 8: Constant name "_basedir" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1083, 8: Constant name "_fullpath" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1089, 4: Constant name "rcParamsOrig" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1090, 4: Constant name "rcParamsDefault" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1103, 0: Function name "rc" doesn't conform to snake_case naming style (invalid-name)
+C:1165, 8: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:1166,15: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:1234, 0: Class name "rc_context" doesn't conform to PascalCase naming style (invalid-name)
+W:1273,23: Redefining name 'rc' from outer scope (line 1103) (redefined-outer-name)
+W:1290,36: Access to a protected member _auto_backend_sentinel of a client class (protected-access)
+R:1234, 0: Too few public methods (0/2) (too-few-public-methods)
+W:1351,12: Access to a protected member _warn_external of a client class (protected-access)
+C:1384, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1408, 0: Constant name "default_test_modules" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1428, 4: Variable name "LOCAL_FREETYPE_VERSION" doesn't conform to snake_case naming style (invalid-name)
+E:1430, 4: No name 'ft2font' in module 'matplotlib' (no-name-in-module)
+W:1430, 4: Module import itself (import-self)
+W:1434,12: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+W:1445, 8: Unused variable 'pytest' (unused-variable)
+R:1451, 0: Too many branches (13/12) (too-many-branches)
+C:1558,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1606, 4: Missing function docstring (missing-docstring)
+C:1612,12: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1641,17: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1646,19: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:1694,20: Too many arguments for format string (too-many-format-args)
+C:1701, 8: Argument name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:1701, 8: Missing function docstring (missing-docstring)
+W:1772,20: Access to a protected member _warn_external of a client class (protected-access)
+R:1701, 8: Too many branches (17/12) (too-many-branches)
+R:1606, 4: Too many branches (23/12) (too-many-branches)
+C:140, 0: first party import "from matplotlib.cbook import MatplotlibDeprecationWarning, dedent, get_label, sanitize_sequence" should be placed before "from . import cbook, rcsetup" (wrong-import-order)
+C:142, 0: first party import "from matplotlib.cbook import mplDeprecation" should be placed before "from . import cbook, rcsetup" (wrong-import-order)
+C:143, 0: first party import "from matplotlib.rcsetup import defaultParams, validate_backend, cycler" should be placed before "from . import cbook, rcsetup" (wrong-import-order)
+C:145, 0: third party import "import numpy" should be placed before "from matplotlib.cbook import MatplotlibDeprecationWarning, dedent, get_label, sanitize_sequence" (wrong-import-order)
+
+
+Report
+======
+728 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |3          |=          |100.00      |33.33    |
++---------+-------+-----------+-----------+------------+---------+
+|method   |24     |24         |=          |75.00       |4.17     |
++---------+-------+-----------+-----------+------------+---------+
+|function |47     |47         |=          |70.21       |2.13     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-afm (matplotlib)
+      \-cbook (matplotlib)
+      \-pyplot (matplotlib)
+      \-rcsetup (matplotlib)
+    numpy (matplotlib)
+    pytest (matplotlib)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |919    |51.20 |919      |=          |
++----------+-------+------+---------+-----------+
+|docstring |535    |29.81 |535      |=          |
++----------+-------+------+---------+-----------+
+|comment   |117    |6.52  |117      |=          |
++----------+-------+------+---------+-----------+
+|empty     |224    |12.48 |224      |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |99     |99       |=          |
++-----------+-------+---------+-----------+
+|refactor   |7      |7        |=          |
++-----------+-------+---------+-----------+
+|warning    |36     |36       |=          |
++-----------+-------+---------+-----------+
+|error      |4      |4        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|invalid-name                 |43          |
++-----------------------------+------------+
+|wrong-import-position        |25          |
++-----------------------------+------------+
+|missing-docstring            |20          |
++-----------------------------+------------+
+|protected-access             |11          |
++-----------------------------+------------+
+|unused-variable              |9           |
++-----------------------------+------------+
+|logging-not-lazy             |8           |
++-----------------------------+------------+
+|wrong-import-order           |4           |
++-----------------------------+------------+
+|too-many-branches            |4           |
++-----------------------------+------------+
+|len-as-condition             |3           |
++-----------------------------+------------+
+|broad-except                 |3           |
++-----------------------------+------------+
+|no-name-in-module            |2           |
++-----------------------------+------------+
+|no-else-return               |2           |
++-----------------------------+------------+
+|logging-format-interpolation |2           |
++-----------------------------+------------+
+|bad-continuation             |2           |
++-----------------------------+------------+
+|too-many-lines               |1           |
++-----------------------------+------------+
+|too-many-format-args         |1           |
++-----------------------------+------------+
+|too-few-public-methods       |1           |
++-----------------------------+------------+
+|superfluous-parens           |1           |
++-----------------------------+------------+
+|super-init-not-called        |1           |
++-----------------------------+------------+
+|redefined-outer-name         |1           |
++-----------------------------+------------+
+|import-self                  |1           |
++-----------------------------+------------+
+|import-error                 |1           |
++-----------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 7.77/10 (previous run: 7.77/10, +0.00)
+

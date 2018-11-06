@@ -1,0 +1,441 @@
+************* Module matplotlib.contour
+C:  1, 0: Too many lines in module (1849/1000) (too-many-lines)
+E: 11, 0: No name '_contour' in module 'matplotlib' (no-name-in-module)
+E: 11, 0: Unable to import 'matplotlib._contour' (import-error)
+C: 45, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 45,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:159, 8: Attribute name "labelFmt" doesn't conform to snake_case naming style (invalid-name)
+C:162, 8: Attribute name "labelManual" doesn't conform to snake_case naming style (invalid-name)
+C:180, 8: Attribute name "labelLevelList" doesn't conform to snake_case naming style (invalid-name)
+C:181, 8: Attribute name "labelIndiceList" doesn't conform to snake_case naming style (invalid-name)
+C:183, 8: Attribute name "labelFontProps" doesn't conform to snake_case naming style (invalid-name)
+C:186, 8: Attribute name "labelFontSizeList" doesn't conform to snake_case naming style (invalid-name)
+C:189,12: Attribute name "labelMappable" doesn't conform to snake_case naming style (invalid-name)
+C:190,12: Attribute name "labelCValueList" doesn't conform to snake_case naming style (invalid-name)
+C:197, 8: Attribute name "labelXYs" doesn't conform to snake_case naming style (invalid-name)
+C:215, 8: Attribute name "labelTextsList" doesn't conform to snake_case naming style (invalid-name)
+C:270,16: Attribute name "_TeX_manager" doesn't conform to snake_case naming style (invalid-name)
+R: 51, 0: Too many instance attributes (14/7) (too-many-instance-attributes)
+R: 54, 4: Too many local variables (21/15) (too-many-locals)
+W:157,-1: String statement has no effect (pointless-string-statement)
+C:165,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:166,21: Instance of 'ContourLabeler' has no 'levels' member (no-member)
+E:167,37: Instance of 'ContourLabeler' has no 'cvalues' member (no-member)
+E:171,36: Instance of 'ContourLabeler' has no 'levels' member (no-member)
+E:177,61: Instance of 'ContourLabeler' has no 'levels' member (no-member)
+E:190,43: Instance of 'ContourLabeler' has no 'cvalues' member (no-member)
+C:200,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:200,19: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+E:215,61: Instance of 'ContourLabeler' has no 'labelTexts' member (no-member)
+R: 54, 4: Too many branches (13/12) (too-many-branches)
+E:219,21: Instance of 'ContourLabeler' has no 'labelTexts' member (no-member)
+E:223,21: Instance of 'ContourLabeler' has no 'labelCValues' member (no-member)
+R:225, 4: Method could be a function (no-self-use)
+C:230, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:230, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:230, 4: Argument name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:236, 4: Argument name "XX" doesn't conform to snake_case naming style (invalid-name)
+C:236, 4: Argument name "YY" doesn't conform to snake_case naming style (invalid-name)
+C:236, 4: Argument name "lw" doesn't conform to snake_case naming style (invalid-name)
+R:236, 4: Too many arguments (6/5) (too-many-arguments)
+C:251,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:251,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:257, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:257,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:271,12: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:278,12: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:281,12: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:295, 8: Variable name "xx" doesn't conform to snake_case naming style (invalid-name)
+E:295,32: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+C:298, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+E:305,44: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+C:308, 8: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+W:286,45: Unused argument 'fsize' (unused-argument)
+W:312,37: Redefining name 'text' from outer scope (line 18) (redefined-outer-name)
+E:317,27: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+R:321, 8: Unnecessary "else" after "return" (no-else-return)
+R:324,12: Unnecessary "else" after "return" (no-else-return)
+R:319, 4: Method could be a function (no-self-use)
+R:331, 4: Too many local variables (21/15) (too-many-locals)
+C:347, 8: Variable name "XX" doesn't conform to snake_case naming style (invalid-name)
+C:348, 8: Variable name "YY" doesn't conform to snake_case naming style (invalid-name)
+C:354, 8: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:355, 8: Variable name "L" doesn't conform to snake_case naming style (invalid-name)
+C:359, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:359,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:362, 8: Variable name "lc" doesn't conform to snake_case naming style (invalid-name)
+W:359,14: Unused variable 'ind' (unused-variable)
+C:367, 4: Argument name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:367, 4: Argument name "lc" doesn't conform to snake_case naming style (invalid-name)
+R:367, 4: Too many arguments (6/5) (too-many-arguments)
+R:367, 4: Too many local variables (19/15) (too-many-locals)
+C:396,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:402, 8: Variable name "pl" doesn't conform to snake_case naming style (invalid-name)
+C:403, 8: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:405, 8: Variable name "pl" doesn't conform to snake_case naming style (invalid-name)
+C:408, 8: Variable name "xi" doesn't conform to snake_case naming style (invalid-name)
+C:410,12: Variable name "dp" doesn't conform to snake_case naming style (invalid-name)
+C:412,12: Variable name "dp" doesn't conform to snake_case naming style (invalid-name)
+C:416, 9: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:416,16: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:426,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:428,12: Variable name "xi" doesn't conform to snake_case naming style (invalid-name)
+C:432,12: Variable name "I" doesn't conform to snake_case naming style (invalid-name)
+C:433,12: Variable name "I" doesn't conform to snake_case naming style (invalid-name)
+R:367, 4: Too many branches (14/12) (too-many-branches)
+C:458, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:458, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:459, 8: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:459,12: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+E:459,17: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+C:460, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:465, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:465, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:470, 8: Variable name "transDataInv" doesn't conform to snake_case naming style (invalid-name)
+E:470,23: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+C:471, 8: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:471,12: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:474, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:480, 4: Argument name "t" doesn't conform to snake_case naming style (invalid-name)
+C:480, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:480, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:480, 4: Too many arguments (6/5) (too-many-arguments)
+E:481,57: Instance of 'ContourLabeler' has no 'alpha' member (no-member)
+E:485, 8: Instance of 'ContourLabeler' has no 'labelTexts' member (no-member)
+E:486, 8: Instance of 'ContourLabeler' has no 'labelCValues' member (no-member)
+E:490, 8: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+C:492, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:492, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:492, 4: Too many arguments (6/5) (too-many-arguments)
+C:497, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:500, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:500, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:500, 4: Too many arguments (6/5) (too-many-arguments)
+C:509, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:512, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:512, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:512, 4: Too many arguments (6/5) (too-many-arguments)
+R:512, 4: Too many local variables (23/15) (too-many-locals)
+E:536,24: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+E:542,43: Instance of 'ContourLabeler' has no 'find_nearest_contour' member (no-member)
+E:549,16: Instance of 'ContourLabeler' has no 'collections' member (no-member)
+C:553, 8: Variable name "lc" doesn't conform to snake_case naming style (invalid-name)
+E:555,16: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+C:559,12: Variable name "lc" doesn't conform to snake_case naming style (invalid-name)
+E:567,16: Instance of 'ContourLabeler' has no 'collections' member (no-member)
+C:568, 8: Variable name "lc" doesn't conform to snake_case naming style (invalid-name)
+E:571,14: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+C:574, 8: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:577, 8: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+E:577,14: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+C:597,16: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+E:603, 8: Instance of 'ContourLabeler' has no 'labelCValues' member (no-member)
+C:604, 8: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+E:604,12: Instance of 'ContourLabeler' has no 'labelTexts' member (no-member)
+C:607, 4: Missing method docstring (missing-docstring)
+R:607, 4: Too many local variables (26/15) (too-many-locals)
+E:618,18: Instance of 'ContourLabeler' has no 'collections' member (no-member)
+C:620,12: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+C:621,12: Variable name "lw" doesn't conform to snake_case naming style (invalid-name)
+E:621,18: Instance of 'ContourLabeler' has no 'ax' member (no-member)
+C:624,16: Variable name "segNum" doesn't conform to snake_case naming style (invalid-name)
+C:625,16: Variable name "lc" doesn't conform to snake_case naming style (invalid-name)
+C:639,20: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:639,23: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:654,28: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+R:614, 8: Too many nested blocks (6/5) (too-many-nested-blocks)
+W:624,16: Unused variable 'segNum' (unused-variable)
+R:607, 4: Too many branches (14/12) (too-many-branches)
+W:159, 8: Attribute 'labelFmt' defined outside __init__ (attribute-defined-outside-init)
+W:160, 8: Attribute '_use_clabeltext' defined outside __init__ (attribute-defined-outside-init)
+W:162, 8: Attribute 'labelManual' defined outside __init__ (attribute-defined-outside-init)
+W:163, 8: Attribute 'rightside_up' defined outside __init__ (attribute-defined-outside-init)
+W:180, 8: Attribute 'labelLevelList' defined outside __init__ (attribute-defined-outside-init)
+W:181, 8: Attribute 'labelIndiceList' defined outside __init__ (attribute-defined-outside-init)
+W:183, 8: Attribute 'labelFontProps' defined outside __init__ (attribute-defined-outside-init)
+W:186, 8: Attribute 'labelFontSizeList' defined outside __init__ (attribute-defined-outside-init)
+W:189,12: Attribute 'labelMappable' defined outside __init__ (attribute-defined-outside-init)
+W:194,12: Attribute 'labelMappable' defined outside __init__ (attribute-defined-outside-init)
+W:190,12: Attribute 'labelCValueList' defined outside __init__ (attribute-defined-outside-init)
+W:193,12: Attribute 'labelCValueList' defined outside __init__ (attribute-defined-outside-init)
+W:197, 8: Attribute 'labelXYs' defined outside __init__ (attribute-defined-outside-init)
+W:215, 8: Attribute 'labelTextsList' defined outside __init__ (attribute-defined-outside-init)
+W:270,16: Attribute '_TeX_manager' defined outside __init__ (attribute-defined-outside-init)
+W:275,16: Attribute '_mathtext_parser' defined outside __init__ (attribute-defined-outside-init)
+C:668, 0: Argument name "p1" doesn't conform to snake_case naming style (invalid-name)
+C:668, 0: Argument name "p2" doesn't conform to snake_case naming style (invalid-name)
+C:668, 0: Argument name "p0" doesn't conform to snake_case naming style (invalid-name)
+C:673, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:685, 4: Variable name "pc" doesn't conform to snake_case naming style (invalid-name)
+C:688, 4: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:693, 0: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+C:702, 0: Argument name "lc" doesn't conform to snake_case naming style (invalid-name)
+C:711, 4: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+C:728, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:728,11: Variable name "xc" doesn't conform to snake_case naming style (invalid-name)
+C:844, 8: Attribute name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:923, 8: Attribute name "labelTexts" doesn't conform to snake_case naming style (invalid-name)
+C:924, 8: Attribute name "labelCValues" doesn't conform to snake_case naming style (invalid-name)
+R:737, 0: Too many instance attributes (32/7) (too-many-instance-attributes)
+R:794, 4: Too many local variables (41/15) (too-many-locals)
+C:893,12: Variable name "i0" doesn't conform to snake_case naming style (invalid-name)
+C:908,20: Variable name "i0" doesn't conform to snake_case naming style (invalid-name)
+C:926, 8: Variable name "kw" doesn't conform to snake_case naming style (invalid-name)
+W:941,16: Access to a protected member _warn_external of a client class (protected-access)
+C:969,12: Variable name "aa" doesn't conform to snake_case naming style (invalid-name)
+C:971,16: Variable name "aa" doesn't conform to snake_case naming style (invalid-name)
+C:997,12: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+W:998,12: Access to a protected member _warn_external of a client class (protected-access)
+W:952,16: Unused variable 'level' (unused-variable)
+W:952,23: Unused variable 'level_upper' (unused-variable)
+R:794, 4: Too many branches (29/12) (too-many-branches)
+R:794, 4: Too many statements (100/50) (too-many-statements)
+W:1010,30: Access to a protected member _as_mpl_transform of a client class (protected-access)
+R:1097, 8: Consider using ternary (args[2] if len(args) > 2 else None) (consider-using-ternary)
+R:1147, 8: Unnecessary "else" after "return" (no-else-return)
+R:1146, 4: Method could be a function (no-self-use)
+C:1166,19: Variable name "cv" doesn't conform to snake_case naming style (invalid-name)
+C:1172, 4: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+W:1196,15: Access to a protected member _symmetric of a client class (protected-access)
+C:1203, 8: Variable name "i0" doesn't conform to snake_case naming style (invalid-name)
+C:1203,26: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1205, 8: Variable name "i1" doesn't conform to snake_case naming style (invalid-name)
+C:1205,28: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1207,12: Variable name "i0" doesn't conform to snake_case naming style (invalid-name)
+C:1209,12: Variable name "i1" doesn't conform to snake_case naming style (invalid-name)
+C:1212,12: Variable name "i0" doesn't conform to snake_case naming style (invalid-name)
+C:1212,16: Variable name "i1" doesn't conform to snake_case naming style (invalid-name)
+C:1216, 4: Argument name "z" doesn't conform to snake_case naming style (invalid-name)
+C:1222,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:1236,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:1238,16: Access to a protected member _warn_external of a client class (protected-access)
+W:1216,34: Unused argument 'z' (unused-argument)
+C:1310,12: Variable name "i0" doesn't conform to snake_case naming style (invalid-name)
+C:1310,16: Variable name "i1" doesn't conform to snake_case naming style (invalid-name)
+C:1312,16: Variable name "i1" doesn't conform to snake_case naming style (invalid-name)
+C:1315,20: Variable name "i0" doesn't conform to snake_case naming style (invalid-name)
+C:1317,20: Variable name "i1" doesn't conform to snake_case naming style (invalid-name)
+C:1331, 8: Variable name "Nlev" doesn't conform to snake_case naming style (invalid-name)
+C:1349, 8: Variable name "Nlev" doesn't conform to snake_case naming style (invalid-name)
+C:1384, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1384, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R:1384, 4: Too many local variables (23/15) (too-many-locals)
+C:1430,16: Variable name "segNum" doesn't conform to snake_case naming style (invalid-name)
+C:1431,16: Variable name "lc" doesn't conform to snake_case naming style (invalid-name)
+C:1434,20: Variable name "lc" doesn't conform to snake_case naming style (invalid-name)
+C:1436,16: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:1436,19: Variable name "xc" doesn't conform to snake_case naming style (invalid-name)
+W:1186, 8: Attribute '_auto' defined outside __init__ (attribute-defined-outside-init)
+W:1220, 8: Attribute '_auto' defined outside __init__ (attribute-defined-outside-init)
+W:1479,32: Access to a protected member _corner_mask of a client class (protected-access)
+W:1480,32: Access to a protected member _contour_generator of a client class (protected-access)
+W:1481,25: Access to a protected member _mins of a client class (protected-access)
+W:1482,25: Access to a protected member _maxs of a client class (protected-access)
+C:1488,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1488,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1488,18: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:1497,12: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+C:1506,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1507,16: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1537,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C:1539,12: Variable name "fn" doesn't conform to snake_case naming style (invalid-name)
+C:1540, 8: Variable name "Nargs" doesn't conform to snake_case naming style (invalid-name)
+C:1542,12: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:1543,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1543,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1546,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1546,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1546,18: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:1551, 8: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:1555,12: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+W:1556,12: Access to a protected member _warn_external of a client class (protected-access)
+C:1571, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1571,11: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:1572,17: Access to a protected member _process_unit_info of a client class (protected-access)
+C:1573, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1574, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1576, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1577, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1578, 8: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+C:1585,12: Variable name "Ny" doesn't conform to snake_case naming style (invalid-name)
+C:1585,16: Variable name "Nx" doesn't conform to snake_case naming style (invalid-name)
+C:1592,12: Variable name "nx" doesn't conform to snake_case naming style (invalid-name)
+C:1593,12: Variable name "ny" doesn't conform to snake_case naming style (invalid-name)
+C:1601,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1601,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1617, 4: Argument name "z" doesn't conform to snake_case naming style (invalid-name)
+C:1635,12: Variable name "Ny" doesn't conform to snake_case naming style (invalid-name)
+C:1635,16: Variable name "Nx" doesn't conform to snake_case naming style (invalid-name)
+R:1637,12: Unnecessary "else" after "return" (no-else-return)
+C:1640,16: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:1640,20: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:1640,24: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:1640,28: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:1641,16: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1642,16: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1646,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:1646,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:1646,20: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:1646,24: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:1648,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:1648,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:1648,20: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:1648,24: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:1649, 8: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1650, 8: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C:1651, 8: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1652, 8: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1654,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:1553, 8: Attribute 'zmin' defined outside __init__ (attribute-defined-outside-init)
+W:1558,12: Attribute 'zmin' defined outside __init__ (attribute-defined-outside-init)
+W:1552, 8: Attribute 'zmax' defined outside __init__ (attribute-defined-outside-init)
+
+
+Report
+======
+755 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |4      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |42     |NC         |NC         |97.62       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.contour)
+      \-blocking_input (matplotlib.contour)
+      \-cbook (matplotlib.contour)
+      \-cm (matplotlib.contour)
+      \-collections (matplotlib.contour)
+      \-colors (matplotlib.contour)
+      \-font_manager (matplotlib.contour)
+      \-mathtext (matplotlib.contour)
+      \-patches (matplotlib.contour)
+      \-path (matplotlib.contour)
+      \-texmanager (matplotlib.contour)
+      \-text (matplotlib.contour)
+      \-ticker (matplotlib.contour)
+      \-transforms (matplotlib.contour)
+    numpy (matplotlib.contour)
+      \-ma (matplotlib.contour)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |1063   |57.43 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |455    |24.58 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |127    |6.86  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |206    |11.13 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |191    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |29     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |40     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |30     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |182         |
++-------------------------------+------------+
+|no-member                      |28          |
++-------------------------------+------------+
+|attribute-defined-outside-init |21          |
++-------------------------------+------------+
+|protected-access               |11          |
++-------------------------------+------------+
+|too-many-locals                |7           |
++-------------------------------+------------+
+|len-as-condition               |7           |
++-------------------------------+------------+
+|too-many-arguments             |6           |
++-------------------------------+------------+
+|unused-variable                |4           |
++-------------------------------+------------+
+|too-many-branches              |4           |
++-------------------------------+------------+
+|no-else-return                 |4           |
++-------------------------------+------------+
+|no-self-use                    |3           |
++-------------------------------+------------+
+|unused-argument                |2           |
++-------------------------------+------------+
+|too-many-instance-attributes   |2           |
++-------------------------------+------------+
+|too-many-statements            |1           |
++-------------------------------+------------+
+|too-many-nested-blocks         |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|redefined-outer-name           |1           |
++-------------------------------+------------+
+|pointless-string-statement     |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|missing-docstring              |1           |
++-------------------------------+------------+
+|import-error                   |1           |
++-------------------------------+------------+
+|consider-using-ternary         |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 4.57/10
+

@@ -1,0 +1,305 @@
+************* Module matplotlib._layoutbox
+C:334, 0: Exactly one space required after comma
+    def constrain_left(self, left,  strength='strong'):
+                                 ^ (bad-whitespace)
+C:420, 0: Wrong hanging indentation (remove 4 spaces).
+                list(zip(sepHeights, cellHeights))))
+            |   ^ (bad-continuation)
+C:478, 0: Wrong continued indentation (add 1 space).
+               '(right: %1.3f)  (top: %1.3f) ') % args
+               ^| (bad-continuation)
+C:643, 0: Unnecessary parens after 'return' keyword (superfluous-parens)
+C: 24, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 28, 0: Missing function docstring (missing-docstring)
+W: 29, 7: Access to a protected member _cachedRenderer of a client class (protected-access)
+W: 30,19: Access to a protected member _cachedRenderer of a client class (protected-access)
+R: 46, 0: Too many instance attributes (33/7) (too-many-instance-attributes)
+R: 51, 4: Too many arguments (12/5) (too-many-arguments)
+R: 51, 4: Too many local variables (19/15) (too-many-locals)
+C: 55, 8: Variable name "Variable" doesn't conform to snake_case naming style (invalid-name)
+I: 55,19: Module 'kiwisolver' has not 'Variable' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+C: 58, 8: Variable name "sn" doesn't conform to snake_case naming style (invalid-name)
+I: 60,26: Module 'kiwisolver' has not 'Solver' member, but source is unavailable. Consider adding this module to extension-pkg-whitelist if you want to perform analysis based on run-time introspection of living objects. (c-extension-no-member)
+W:102, 8: Unused variable 'right' (unused-variable)
+W:102,15: Unused variable 'top' (unused-variable)
+W:103, 8: Unused variable 'left' (unused-variable)
+W:103,14: Unused variable 'bottom' (unused-variable)
+C:132, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:134, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:141, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:143, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:149, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:151, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:157, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:159, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:162, 4: Missing method docstring (missing-docstring)
+C:165, 4: Missing method docstring (missing-docstring)
+C:171, 4: Missing method docstring (missing-docstring)
+C:184, 4: Missing method docstring (missing-docstring)
+C:186, 8: Variable name "hc" doesn't conform to snake_case naming style (invalid-name)
+C:190,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:193, 4: Missing method docstring (missing-docstring)
+C:194, 8: Variable name "hc" doesn't conform to snake_case naming style (invalid-name)
+C:200,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:203, 4: Missing method docstring (missing-docstring)
+C:209, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:216, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:220, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:231, 4: Missing method docstring (missing-docstring)
+R:231, 4: Too many arguments (6/5) (too-many-arguments)
+C:232, 8: Variable name "hc" doesn't conform to snake_case naming style (invalid-name)
+C:236,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:244, 8: Variable name "hc" doesn't conform to snake_case naming style (invalid-name)
+C:248,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:251, 4: Missing method docstring (missing-docstring)
+C:252, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:255, 4: Missing method docstring (missing-docstring)
+C:258, 4: Missing method docstring (missing-docstring)
+C:259, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:262, 4: Missing method docstring (missing-docstring)
+C:265, 4: Missing method docstring (missing-docstring)
+C:266, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:269, 4: Missing method docstring (missing-docstring)
+C:272, 4: Missing method docstring (missing-docstring)
+C:273, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:276, 4: Missing method docstring (missing-docstring)
+C:279, 4: Missing method docstring (missing-docstring)
+C:308, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:311, 4: Missing method docstring (missing-docstring)
+C:312, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:315, 4: Missing method docstring (missing-docstring)
+C:327, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:330, 4: Missing method docstring (missing-docstring)
+C:331, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:334, 4: Missing method docstring (missing-docstring)
+C:335, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:338, 4: Missing method docstring (missing-docstring)
+C:339, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:342, 4: Missing method docstring (missing-docstring)
+C:343, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:346, 4: Missing method docstring (missing-docstring)
+C:347, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:379, 4: Too many local variables (52/15) (too-many-locals)
+C:389, 8: Variable name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:390, 8: Variable name "gs" doesn't conform to snake_case naming style (invalid-name)
+C:402, 8: Variable name "totWidth" doesn't conform to snake_case naming style (invalid-name)
+C:403, 8: Variable name "totHeight" doesn't conform to snake_case naming style (invalid-name)
+C:408, 8: Variable name "cellH" doesn't conform to snake_case naming style (invalid-name)
+C:409, 8: Variable name "sepH" doesn't conform to snake_case naming style (invalid-name)
+W:411,11: Access to a protected member _row_height_ratios of a client class (protected-access)
+C:412,12: Variable name "netHeight" doesn't conform to snake_case naming style (invalid-name)
+C:413,12: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+W:413,27: Access to a protected member _row_height_ratios of a client class (protected-access)
+C:414,12: Variable name "cellHeights" doesn't conform to snake_case naming style (invalid-name)
+W:414,51: Access to a protected member _row_height_ratios of a client class (protected-access)
+C:416,12: Variable name "cellHeights" doesn't conform to snake_case naming style (invalid-name)
+C:418, 8: Variable name "sepHeights" doesn't conform to snake_case naming style (invalid-name)
+C:419, 8: Variable name "cellHs" doesn't conform to snake_case naming style (invalid-name)
+C:423, 8: Variable name "cellW" doesn't conform to snake_case naming style (invalid-name)
+C:424, 8: Variable name "sepW" doesn't conform to snake_case naming style (invalid-name)
+W:426,11: Access to a protected member _col_width_ratios of a client class (protected-access)
+C:427,12: Variable name "netWidth" doesn't conform to snake_case naming style (invalid-name)
+C:428,12: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+W:428,27: Access to a protected member _col_width_ratios of a client class (protected-access)
+C:429,12: Variable name "cellWidths" doesn't conform to snake_case naming style (invalid-name)
+W:429,53: Access to a protected member _col_width_ratios of a client class (protected-access)
+C:431,12: Variable name "cellWidths" doesn't conform to snake_case naming style (invalid-name)
+C:433, 8: Variable name "sepWidths" doesn't conform to snake_case naming style (invalid-name)
+C:434, 8: Variable name "cellWs" doesn't conform to snake_case naming style (invalid-name)
+C:436, 8: Variable name "figTops" doesn't conform to snake_case naming style (invalid-name)
+C:437, 8: Variable name "figBottoms" doesn't conform to snake_case naming style (invalid-name)
+C:438, 8: Variable name "figLefts" doesn't conform to snake_case naming style (invalid-name)
+C:439, 8: Variable name "figRights" doesn't conform to snake_case naming style (invalid-name)
+C:441, 8: Variable name "rowNum" doesn't conform to snake_case naming style (invalid-name)
+C:441,16: Variable name "colNum" doesn't conform to snake_case naming style (invalid-name)
+C:442, 8: Variable name "figBottom" doesn't conform to snake_case naming style (invalid-name)
+C:443, 8: Variable name "figTop" doesn't conform to snake_case naming style (invalid-name)
+C:444, 8: Variable name "figLeft" doesn't conform to snake_case naming style (invalid-name)
+C:445, 8: Variable name "figRight" doesn't conform to snake_case naming style (invalid-name)
+C:449,12: Variable name "rowNum2" doesn't conform to snake_case naming style (invalid-name)
+C:449,21: Variable name "colNum2" doesn't conform to snake_case naming style (invalid-name)
+C:450,12: Variable name "figBottom2" doesn't conform to snake_case naming style (invalid-name)
+C:451,12: Variable name "figTop2" doesn't conform to snake_case naming style (invalid-name)
+C:452,12: Variable name "figLeft2" doesn't conform to snake_case naming style (invalid-name)
+C:453,12: Variable name "figRight2" doesn't conform to snake_case naming style (invalid-name)
+C:455,12: Variable name "figBottom" doesn't conform to snake_case naming style (invalid-name)
+C:456,12: Variable name "figLeft" doesn't conform to snake_case naming style (invalid-name)
+C:457,12: Variable name "figTop" doesn't conform to snake_case naming style (invalid-name)
+C:458,12: Variable name "figRight" doesn't conform to snake_case naming style (invalid-name)
+C:465, 8: Variable name "cs" doesn't conform to snake_case naming style (invalid-name)
+C:469,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+R:379, 4: Too many statements (57/50) (too-many-statements)
+R: 46, 0: Too many public methods (32/20) (too-many-public-methods)
+C:489, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:499, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:509, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:519, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:531, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:544, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C:549, 0: Missing function docstring (missing-docstring)
+C:554, 0: Missing function docstring (missing-docstring)
+C:559, 0: Missing function docstring (missing-docstring)
+C:566, 0: Missing function docstring (missing-docstring)
+C:569, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:573,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:575, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:569, 8: Unused variable 'n' (unused-variable)
+C:579, 0: Missing function docstring (missing-docstring)
+C:582, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:586,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:588, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:582, 8: Unused variable 'n' (unused-variable)
+C:592, 0: Missing function docstring (missing-docstring)
+C:595, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:599,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:601, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:595, 8: Unused variable 'n' (unused-variable)
+C:605, 0: Missing function docstring (missing-docstring)
+C:608, 8: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:612,12: Variable name "n" doesn't conform to snake_case naming style (invalid-name)
+C:614, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+W:608, 8: Unused variable 'n' (unused-variable)
+C:618, 0: Missing function docstring (missing-docstring)
+C:623, 0: Missing function docstring (missing-docstring)
+C:628, 0: Missing function docstring (missing-docstring)
+C:633, 0: Constant name "_layoutboxobjnum" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:641, 4: Constant name "_layoutboxobjnum" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:641, 4: Using the global statement (global-statement)
+C:646, 0: Argument name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:655, 0: Argument name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:669, 0: Argument name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:669, 0: Missing function docstring (missing-docstring)
+W:672, 4: Access to a protected member _layoutbox of a client class (protected-access)
+C:676, 0: Argument name "lb" doesn't conform to snake_case naming style (invalid-name)
+C:698, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:703, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:710, 8: Unused variable 'rect' (unused-variable)
+C: 20, 0: standard import "import logging" should be placed before "import kiwisolver as kiwi" (wrong-import-order)
+C: 21, 0: third party import "import numpy as np" should be placed before "import kiwisolver as kiwi" (wrong-import-order)
+
+
+Report
+======
+419 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |36     |NC         |NC         |36.11       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |23     |NC         |NC         |47.83       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    kiwisolver (matplotlib._layoutbox)
+    matplotlib (matplotlib._layoutbox)
+      \-backends 
+      | \-backend_agg (matplotlib._layoutbox)
+      \-patches (matplotlib._layoutbox)
+      \-pyplot (matplotlib._layoutbox)
+    numpy (matplotlib._layoutbox)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |472    |64.22 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |109    |14.83 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |30     |4.08  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |124    |16.87 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |143    |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |7      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |19     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|invalid-name                 |102         |
++-----------------------------+------------+
+|missing-docstring            |35          |
++-----------------------------+------------+
+|unused-variable              |9           |
++-----------------------------+------------+
+|protected-access             |9           |
++-----------------------------+------------+
+|wrong-import-order           |2           |
++-----------------------------+------------+
+|too-many-locals              |2           |
++-----------------------------+------------+
+|too-many-arguments           |2           |
++-----------------------------+------------+
+|c-extension-no-member        |2           |
++-----------------------------+------------+
+|bad-continuation             |2           |
++-----------------------------+------------+
+|too-many-statements          |1           |
++-----------------------------+------------+
+|too-many-public-methods      |1           |
++-----------------------------+------------+
+|too-many-instance-attributes |1           |
++-----------------------------+------------+
+|superfluous-parens           |1           |
++-----------------------------+------------+
+|global-statement             |1           |
++-----------------------------+------------+
+|bad-whitespace               |1           |
++-----------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 5.97/10
+

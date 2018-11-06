@@ -1,0 +1,652 @@
+
+
+Report
+======
+45233 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |120    |125        |-5.00      |63.33       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |701    |702        |-1.00      |73.75       |2.85     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |4440   |4449       |-9.00      |87.68       |2.88     |
++---------+-------+-----------+-----------+------------+---------+
+|function |801    |851        |-50.00     |61.30       |4.12     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    IPython (matplotlib.pyplot)
+      \-core 
+      | \-pylabtools (matplotlib.pyplot)
+      \-display (matplotlib.backends.backend_nbagg)
+    PIL (matplotlib.animation,matplotlib.backend_bases)
+      \-Image (matplotlib.animation,matplotlib.backends.backend_agg,matplotlib.image)
+    PyQt5 (matplotlib.backends.backend_qt5)
+      \-QtCore (matplotlib.backends.qt_compat)
+      \-QtGui (matplotlib.backends.qt_compat)
+      \-QtWidgets (matplotlib.backends.qt_compat)
+    cycler (matplotlib.pyplot,matplotlib.rcsetup)
+    dateutil 
+      \-parser (matplotlib.dates,matplotlib.mlab)
+      \-relativedelta (matplotlib.dates)
+      \-rrule (matplotlib.dates)
+      \-tz (matplotlib.axis,matplotlib.dates)
+    docutils 
+      \-nodes (matplotlib.sphinxext.mathmpl)
+      \-parsers 
+        \-rst 
+          \-directives (matplotlib.sphinxext.mathmpl,matplotlib.sphinxext.plot_directive)
+            \-images (matplotlib.sphinxext.plot_directive)
+    ipykernel 
+      \-comm 
+        \-Comm (matplotlib.backends.backend_nbagg)
+    jinja2 (matplotlib.sphinxext.plot_directive)
+    kiwisolver (matplotlib._layoutbox)
+    matplotlib (matplotlib._layoutbox,matplotlib.animation,matplotlib.artist,matplotlib.axes._axes,matplotlib.axes._base,matplotlib.axis,matplotlib.backend_bases,matplotlib.backend_tools,matplotlib.backends,matplotlib.backends._backend_tk,matplotlib.backends.backend_agg,matplotlib.backends.backend_gtk3,matplotlib.backends.backend_macosx,matplotlib.backends.backend_nbagg,matplotlib.backends.backend_pdf,matplotlib.backends.backend_pgf,matplotlib.backends.backend_ps,matplotlib.backends.backend_qt5,matplotlib.backends.backend_svg,matplotlib.backends.backend_webagg,matplotlib.backends.backend_webagg_core,matplotlib.backends.backend_wx,matplotlib.backends.qt_compat,matplotlib.backends.qt_editor.figureoptions,matplotlib.backends.windowing,matplotlib.cm,matplotlib.collections,matplotlib.colorbar,matplotlib.colors,matplotlib.contour,matplotlib.dates,matplotlib.dviread,matplotlib.figure,matplotlib.font_manager,matplotlib.gridspec,matplotlib.image,matplotlib.legend,matplotlib.lines,matplotlib.markers,matplotlib.mathtext,matplotlib.offsetbox,matplotlib.patches,matplotlib.path,matplotlib.projections.geo,matplotlib.projections.polar,matplotlib.pyplot,matplotlib.sankey,matplotlib.scale,matplotlib.sphinxext.mathmpl,matplotlib.sphinxext.plot_directive,matplotlib.spines,matplotlib.streamplot,matplotlib.style.core,matplotlib.texmanager,matplotlib.text,matplotlib.textpath,matplotlib.ticker,matplotlib.tight_layout,matplotlib.widgets)
+      \-_animation_data (matplotlib.animation)
+      \-_cm (matplotlib.cm)
+      \-_cm_listed (matplotlib.cm)
+      \-_color_data (matplotlib.colors)
+      \-_constrained_layout (matplotlib.colorbar,matplotlib.figure)
+      \-_layoutbox (matplotlib._constrained_layout,matplotlib.axes._subplots,matplotlib.colorbar,matplotlib.figure,matplotlib.gridspec)
+      \-_mathtext_data (matplotlib.afm,matplotlib.backends.backend_ps,matplotlib.mathtext)
+      \-_pylab_helpers (matplotlib.backend_bases,matplotlib.backend_tools,matplotlib.backends._backend_tk,matplotlib.backends.backend_gtk3,matplotlib.backends.backend_macosx,matplotlib.backends.backend_nbagg,matplotlib.backends.backend_pdf,matplotlib.backends.backend_pgf,matplotlib.backends.backend_qt5,matplotlib.backends.backend_template,matplotlib.backends.backend_webagg,matplotlib.backends.backend_wx,matplotlib.figure,matplotlib.gridspec,matplotlib.pyplot,matplotlib.sphinxext.plot_directive)
+      \-afm (matplotlib,matplotlib.backends.backend_pdf,matplotlib.backends.backend_ps,matplotlib.font_manager,matplotlib.mathtext)
+      \-artist (matplotlib.axes._base,matplotlib.axes._subplots,matplotlib.axis,matplotlib.collections,matplotlib.colorbar,matplotlib.container,matplotlib.figure,matplotlib.image,matplotlib.legend,matplotlib.lines,matplotlib.offsetbox,matplotlib.patches,matplotlib.pyplot,matplotlib.quiver,matplotlib.spines,matplotlib.table,matplotlib.text)
+      \-axes (matplotlib.figure,matplotlib.legend,matplotlib.projections.geo,matplotlib.projections.polar,matplotlib.pyplot,matplotlib.tri.triplot)
+      | \-_axes (matplotlib.axes._subplots)
+      | \-_base (matplotlib.axes._axes)
+      \-axis (matplotlib.axes._base,matplotlib.projections.geo,matplotlib.projections.polar)
+      \-backend_bases (matplotlib.backends,matplotlib.backends._backend_tk,matplotlib.backends.backend_agg,matplotlib.backends.backend_cairo,matplotlib.backends.backend_gtk3,matplotlib.backends.backend_gtk3cairo,matplotlib.backends.backend_macosx,matplotlib.backends.backend_nbagg,matplotlib.backends.backend_pdf,matplotlib.backends.backend_pgf,matplotlib.backends.backend_ps,matplotlib.backends.backend_qt5,matplotlib.backends.backend_svg,matplotlib.backends.backend_template,matplotlib.backends.backend_webagg,matplotlib.backends.backend_webagg_core,matplotlib.backends.backend_wx,matplotlib.figure,matplotlib.image,matplotlib.patheffects,matplotlib.pyplot,matplotlib.sphinxext.plot_directive)
+      \-backend_managers (matplotlib.backends._backend_tk,matplotlib.backends.backend_gtk3,matplotlib.backends.backend_qt5,matplotlib.backends.backend_wx)
+      \-backend_tools (matplotlib.backend_bases,matplotlib.backend_managers,matplotlib.backends._backend_tk,matplotlib.backends.backend_gtk3,matplotlib.backends.backend_qt5,matplotlib.backends.backend_wx)
+      \-backends (matplotlib.backends._backend_tk,matplotlib.backends.backend_macosx,matplotlib.backends.tkagg,matplotlib.figure,matplotlib.pyplot)
+      | \-_backend_tk (matplotlib.backends.backend_tkagg,matplotlib.backends.backend_tkcairo)
+      | \-_gtk3_compat (matplotlib.backends.backend_gtk3)
+      | \-backend_agg (matplotlib._layoutbox,matplotlib.backends.backend_gtk3agg,matplotlib.backends.backend_macosx,matplotlib.backends.backend_mixed,matplotlib.backends.backend_qt5agg,matplotlib.backends.backend_tkagg,matplotlib.backends.backend_webagg_core,matplotlib.backends.backend_wxagg,matplotlib.image,matplotlib.mathtext,matplotlib.tight_layout)
+      | \-backend_cairo (matplotlib.backends._gtk3_compat,matplotlib.backends.backend_gtk3agg,matplotlib.backends.backend_gtk3cairo,matplotlib.backends.backend_qt5cairo,matplotlib.backends.backend_tkcairo,matplotlib.backends.backend_wxcairo)
+      | \-backend_gtk3 (matplotlib.backends.backend_gtk3agg,matplotlib.backends.backend_gtk3cairo)
+      | \-backend_mixed (matplotlib.backends.backend_pdf,matplotlib.backends.backend_pgf,matplotlib.backends.backend_ps,matplotlib.backends.backend_svg)
+      | \-backend_qt5 (matplotlib.backends.backend_qt4,matplotlib.backends.backend_qt5agg,matplotlib.backends.backend_qt5cairo)
+      | \-backend_qt5agg (matplotlib.backends.backend_qt4agg)
+      | \-backend_qt5cairo (matplotlib.backends.backend_qt4cairo)
+      | \-backend_webagg (matplotlib.figure)
+      | \-backend_webagg_core (matplotlib.backends.backend_nbagg,matplotlib.backends.backend_webagg)
+      | \-backend_wx (matplotlib.backends.backend_wxagg,matplotlib.backends.backend_wxcairo,matplotlib.backends.wx_compat)
+      | \-qt_compat (matplotlib.backends.backend_qt5,matplotlib.backends.backend_qt5agg,matplotlib.backends.backend_qt5cairo,matplotlib.backends.qt_editor.figureoptions,matplotlib.backends.qt_editor.formlayout,matplotlib.backends.qt_editor.formsubplottool)
+      | \-qt_editor 
+      |   \-figureoptions (matplotlib.backends.backend_qt5)
+      |   \-formlayout (matplotlib.backends.qt_editor.figureoptions)
+      |   \-formsubplottool (matplotlib.backends.backend_qt5)
+      \-bezier (matplotlib.patches)
+      \-blocking_input (matplotlib.contour,matplotlib.figure)
+      \-category (matplotlib.axes._axes)
+      \-cbook (matplotlib,matplotlib._constrained_layout,matplotlib.afm,matplotlib.animation,matplotlib.artist,matplotlib.axes._axes,matplotlib.axes._base,matplotlib.axis,matplotlib.backend_bases,matplotlib.backend_managers,matplotlib.backend_tools,matplotlib.backends,matplotlib.backends.backend_agg,matplotlib.backends.backend_cairo,matplotlib.backends.backend_gtk3,matplotlib.backends.backend_gtk3agg,matplotlib.backends.backend_pdf,matplotlib.backends.backend_pgf,matplotlib.backends.backend_ps,matplotlib.backends.backend_qt5,matplotlib.backends.backend_qt5agg,matplotlib.backends.backend_svg,matplotlib.backends.backend_wx,matplotlib.backends.qt_editor.formlayout,matplotlib.backends.tkagg,matplotlib.backends.windowing,matplotlib.backends.wx_compat,matplotlib.bezier,matplotlib.cm,matplotlib.collections,matplotlib.colorbar,matplotlib.colors,matplotlib.compat.subprocess,matplotlib.container,matplotlib.contour,matplotlib.dates,matplotlib.docstring,matplotlib.dviread,matplotlib.figure,matplotlib.font_manager,matplotlib.gridspec,matplotlib.image,matplotlib.legend,matplotlib.lines,matplotlib.markers,matplotlib.mathtext,matplotlib.mlab,matplotlib.offsetbox,matplotlib.patches,matplotlib.path,matplotlib.pyplot,matplotlib.quiver,matplotlib.rcsetup,matplotlib.sankey,matplotlib.scale,matplotlib.sphinxext.mathmpl,matplotlib.sphinxext.plot_directive,matplotlib.spines,matplotlib.style.core,matplotlib.table,matplotlib.texmanager,matplotlib.text,matplotlib.textpath,matplotlib.ticker,matplotlib.tight_layout,matplotlib.transforms,matplotlib.tri.triinterpolate,matplotlib.units)
+      \-cm (matplotlib.backends.qt_editor.figureoptions,matplotlib.collections,matplotlib.colorbar,matplotlib.contour,matplotlib.image,matplotlib.pyplot,matplotlib.streamplot)
+      \-collections (matplotlib.axes._axes,matplotlib.backend_bases,matplotlib.colorbar,matplotlib.contour,matplotlib.legend,matplotlib.legend_handler,matplotlib.quiver,matplotlib.streamplot,matplotlib.tri.tripcolor)
+      \-colorbar (matplotlib.figure,matplotlib.pyplot)
+      \-colors (matplotlib.axes._axes,matplotlib.axes._base,matplotlib.backend_bases,matplotlib.backends.backend_agg,matplotlib.backends.backend_svg,matplotlib.backends.qt_editor.figureoptions,matplotlib.backends.qt_editor.formlayout,matplotlib.cm,matplotlib.collections,matplotlib.colorbar,matplotlib.contour,matplotlib.image,matplotlib.legend_handler,matplotlib.lines,matplotlib.mathtext,matplotlib.patches,matplotlib.patheffects,matplotlib.pyplot,matplotlib.rcsetup,matplotlib.streamplot,matplotlib.tri.tripcolor)
+      \-container (matplotlib.axes._axes,matplotlib.legend)
+      \-contour (matplotlib.axes._axes,matplotlib.colorbar,matplotlib.tri.tricontour)
+      \-dates (matplotlib.axes._axes,matplotlib.backends.backend_pdf)
+      \-docstring (matplotlib.artist,matplotlib.axes._axes,matplotlib.axes._base,matplotlib.axes._subplots,matplotlib.collections,matplotlib.colorbar,matplotlib.figure,matplotlib.legend,matplotlib.lines,matplotlib.mlab,matplotlib.offsetbox,matplotlib.patches,matplotlib.pyplot,matplotlib.quiver,matplotlib.sankey,matplotlib.scale,matplotlib.spines,matplotlib.table,matplotlib.text)
+      \-dviread (matplotlib.backends.backend_pdf,matplotlib.texmanager,matplotlib.textpath)
+      \-figure (matplotlib.backend_bases,matplotlib.backends._backend_tk,matplotlib.backends.backend_gtk3,matplotlib.backends.backend_macosx,matplotlib.backends.backend_pdf,matplotlib.backends.backend_pgf,matplotlib.backends.backend_template,matplotlib.backends.backend_wx,matplotlib.image,matplotlib.legend,matplotlib.mathtext,matplotlib.pyplot)
+      \-font_manager (matplotlib.axes._base,matplotlib.axis,matplotlib.backends.backend_agg,matplotlib.backends.backend_cairo,matplotlib.backends.backend_pdf,matplotlib.backends.backend_pgf,matplotlib.backends.backend_ps,matplotlib.backends.backend_svg,matplotlib.contour,matplotlib.legend,matplotlib.markers,matplotlib.mathtext,matplotlib.offsetbox,matplotlib.quiver,matplotlib.text,matplotlib.textpath,matplotlib.tight_layout)
+      \-fontconfig_pattern (matplotlib.font_manager,matplotlib.rcsetup)
+      \-gridspec (matplotlib.axes._subplots,matplotlib.colorbar,matplotlib.figure,matplotlib.pyplot)
+      \-hatch (matplotlib.path)
+      \-image (matplotlib.axes._axes,matplotlib.axes._base,matplotlib.backends.qt_editor.figureoptions,matplotlib.figure,matplotlib.offsetbox,matplotlib.pyplot)
+      \-legend (matplotlib.axes._axes,matplotlib.figure)
+      \-legend_handler (matplotlib.legend)
+      \-lines (matplotlib.axes._axes,matplotlib.axes._base,matplotlib.axis,matplotlib.blocking_input,matplotlib.collections,matplotlib.legend,matplotlib.legend_handler,matplotlib.patches,matplotlib.pyplot,matplotlib.streamplot,matplotlib.text,matplotlib.widgets)
+      \-markers (matplotlib.axes._axes,matplotlib.backends.qt_editor.figureoptions,matplotlib.lines,matplotlib.projections.polar)
+      \-mathtext (matplotlib.backends.backend_agg,matplotlib.backends.backend_cairo,matplotlib.backends.backend_pdf,matplotlib.backends.backend_ps,matplotlib.backends.backend_svg,matplotlib.contour,matplotlib.sphinxext.mathmpl,matplotlib.textpath)
+      \-mlab (matplotlib.axes._axes,matplotlib.pyplot)
+      \-offsetbox (matplotlib.legend,matplotlib.text)
+      \-patches (matplotlib._layoutbox,matplotlib.artist,matplotlib.axes._axes,matplotlib.axes._base,matplotlib.colorbar,matplotlib.contour,matplotlib.figure,matplotlib.legend,matplotlib.legend_handler,matplotlib.offsetbox,matplotlib.patheffects,matplotlib.projections.geo,matplotlib.projections.polar,matplotlib.pyplot,matplotlib.quiver,matplotlib.sankey,matplotlib.spines,matplotlib.streamplot,matplotlib.table,matplotlib.text,matplotlib.widgets)
+      \-path (matplotlib.artist,matplotlib.axes._axes,matplotlib.backend_bases,matplotlib.backends.backend_agg,matplotlib.backends.backend_cairo,matplotlib.backends.backend_pdf,matplotlib.backends.backend_pgf,matplotlib.backends.backend_ps,matplotlib.backends.backend_svg,matplotlib.backends.backend_wx,matplotlib.bezier,matplotlib.collections,matplotlib.colorbar,matplotlib.contour,matplotlib.hatch,matplotlib.lines,matplotlib.markers,matplotlib.offsetbox,matplotlib.patches,matplotlib.projections.geo,matplotlib.projections.polar,matplotlib.sankey,matplotlib.spines,matplotlib.table,matplotlib.textpath,matplotlib.transforms)
+      \-patheffects (matplotlib.collections,matplotlib.lines,matplotlib.patches,matplotlib.pyplot,matplotlib.text)
+      \-projections (matplotlib.axes._subplots,matplotlib.figure,matplotlib.pyplot,matplotlib.text)
+      \-pyplot (matplotlib,matplotlib._layoutbox,matplotlib.backend_bases,matplotlib.backends.backend_webagg_core,matplotlib.figure,matplotlib.image,matplotlib.offsetbox,matplotlib.sankey,matplotlib.sphinxext.plot_directive)
+      \-quiver (matplotlib.axes._axes)
+      \-rcsetup (matplotlib,matplotlib.axes._base,matplotlib.backend_managers,matplotlib.pyplot)
+      \-scale (matplotlib.axes._base,matplotlib.axis,matplotlib.pyplot)
+      \-spines (matplotlib.axes._base,matplotlib.projections.geo,matplotlib.projections.polar)
+      \-stackplot (matplotlib.axes._axes)
+      \-streamplot (matplotlib.axes._axes)
+      \-style (matplotlib.pyplot)
+      \-table (matplotlib.axes._axes)
+      \-texmanager (matplotlib.backend_bases,matplotlib.contour,matplotlib.textpath)
+      \-text (matplotlib.axes._axes,matplotlib.axes._base,matplotlib.axis,matplotlib.contour,matplotlib.figure,matplotlib.markers,matplotlib.offsetbox,matplotlib.pyplot,matplotlib.quiver,matplotlib.table)
+      \-textpath (matplotlib.backend_bases,matplotlib.text)
+      \-ticker (matplotlib.axes._axes,matplotlib.axes._base,matplotlib.axis,matplotlib.category,matplotlib.colorbar,matplotlib.contour,matplotlib.dates,matplotlib.projections.geo,matplotlib.projections.polar,matplotlib.pyplot,matplotlib.scale)
+      \-tight_bbox (matplotlib.backend_bases,matplotlib.backends.backend_mixed)
+      \-tight_layout (matplotlib.figure,matplotlib.gridspec)
+      \-transforms (matplotlib.artist,matplotlib.axes._axes,matplotlib.axes._base,matplotlib.axis,matplotlib.backend_bases,matplotlib.backends.backend_agg,matplotlib.backends.backend_cairo,matplotlib.backends.backend_gtk3agg,matplotlib.backends.backend_pdf,matplotlib.backends.backend_ps,matplotlib.backends.backend_qt5agg,matplotlib.backends.backend_svg,matplotlib.backends.backend_wx,matplotlib.collections,matplotlib.colorbar,matplotlib.contour,matplotlib.figure,matplotlib.gridspec,matplotlib.image,matplotlib.legend,matplotlib.lines,matplotlib.markers,matplotlib.offsetbox,matplotlib.patches,matplotlib.path,matplotlib.patheffects,matplotlib.projections.geo,matplotlib.projections.polar,matplotlib.quiver,matplotlib.sankey,matplotlib.scale,matplotlib.spines,matplotlib.table,matplotlib.text,matplotlib.textpath,matplotlib.ticker,matplotlib.tight_bbox,matplotlib.tight_layout,matplotlib.widgets)
+      \-tri (matplotlib.axes._axes)
+      | \-Triangulation (matplotlib.tri.trifinder,matplotlib.tri.triinterpolate,matplotlib.tri.tritools)
+      | \-triangulation (matplotlib.tri.tricontour,matplotlib.tri.tripcolor,matplotlib.tri.triplot,matplotlib.tri.trirefine)
+      | \-trifinder (matplotlib.tri.triangulation,matplotlib.tri.triinterpolate)
+      | \-triinterpolate (matplotlib.tri.trirefine)
+      | \-tritools (matplotlib.tri.triinterpolate)
+      \-type1font (matplotlib.backends.backend_pdf)
+      \-units (matplotlib.axis,matplotlib.category,matplotlib.dates)
+      \-widgets (matplotlib.backend_bases,matplotlib.backend_managers,matplotlib.backends._backend_tk,matplotlib.backends.backend_gtk3,matplotlib.backends.backend_macosx,matplotlib.backends.backend_wx,matplotlib.pyplot)
+    numpy (matplotlib,matplotlib._constrained_layout,matplotlib._layoutbox,matplotlib.animation,matplotlib.artist,matplotlib.axes._axes,matplotlib.axes._base,matplotlib.axis,matplotlib.backend_bases,matplotlib.backend_tools,matplotlib.backends._backend_tk,matplotlib.backends.backend_agg,matplotlib.backends.backend_cairo,matplotlib.backends.backend_gtk3agg,matplotlib.backends.backend_mixed,matplotlib.backends.backend_pdf,matplotlib.backends.backend_ps,matplotlib.backends.backend_svg,matplotlib.backends.backend_tkcairo,matplotlib.backends.backend_webagg_core,matplotlib.backends.tkagg,matplotlib.bezier,matplotlib.category,matplotlib.cm,matplotlib.collections,matplotlib.colorbar,matplotlib.colors,matplotlib.contour,matplotlib.dates,matplotlib.dviread,matplotlib.figure,matplotlib.gridspec,matplotlib.hatch,matplotlib.image,matplotlib.legend,matplotlib.legend_handler,matplotlib.lines,matplotlib.markers,matplotlib.mathtext,matplotlib.mlab,matplotlib.offsetbox,matplotlib.patches,matplotlib.path,matplotlib.projections.geo,matplotlib.projections.polar,matplotlib.pyplot,matplotlib.quiver,matplotlib.sankey,matplotlib.scale,matplotlib.spines,matplotlib.stackplot,matplotlib.streamplot,matplotlib.texmanager,matplotlib.text,matplotlib.textpath,matplotlib.ticker,matplotlib.transforms,matplotlib.tri.triangulation,matplotlib.tri.tricontour,matplotlib.tri.trifinder,matplotlib.tri.triinterpolate,matplotlib.tri.tripcolor,matplotlib.tri.triplot,matplotlib.tri.trirefine,matplotlib.tri.tritools,matplotlib.type1font,matplotlib.units,matplotlib.widgets)
+      \-linalg (matplotlib.transforms)
+      \-ma (matplotlib.axes._axes,matplotlib.cm,matplotlib.contour,matplotlib.quiver,matplotlib.scale)
+    pyparsing (matplotlib.mathtext)
+    pytest (matplotlib)
+    sip (matplotlib.backends.qt_compat)
+    sphinx (matplotlib.sphinxext.mathmpl)
+    tornado (matplotlib.backends.backend_webagg,matplotlib.backends.backend_webagg_core)
+      \-ioloop (matplotlib.backends.backend_webagg)
+      \-template (matplotlib.backends.backend_webagg)
+      \-web (matplotlib.backends.backend_webagg)
+      \-websocket (matplotlib.backends.backend_webagg)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |55825  |50.31 |59074    |-3249.00   |
++----------+-------+------+---------+-----------+
+|docstring |35603  |32.09 |38362    |-2759.00   |
++----------+-------+------+---------+-----------+
+|comment   |6127   |5.52  |6193     |-66.00     |
++----------+-------+------+---------+-----------+
+|empty     |13402  |12.08 |13562    |-160.00    |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |513   |513      |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.463 |0.439    |+0.02      |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |8357   |10222    |-1865.00   |
++-----------+-------+---------+-----------+
+|refactor   |1475   |1472     |+3.00      |
++-----------+-------+---------+-----------+
+|warning    |2862   |3969     |-1107.00   |
++-----------+-------+---------+-----------+
+|error      |341    |341      |=          |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++----------------------------------------------+------+--------+---------+-----------+
+|module                                        |error |warning |refactor |convention |
++==============================================+======+========+=========+===========+
+|matplotlib.contour                            |8.80  |1.40    |1.97     |2.29       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.animation                          |7.92  |1.89    |1.49     |0.63       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.transforms                         |7.04  |3.11    |1.42     |2.54       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.legend                             |4.99  |1.08    |0.95     |0.57       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.text                               |4.40  |1.92    |1.90     |2.52       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.patches                            |3.81  |1.64    |6.58     |6.27       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.hatch                              |3.81  |0.14    |0.75     |0.22       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.axis                               |3.52  |2.17    |1.63     |1.68       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.axes._axes                         |3.23  |1.36    |6.03     |5.54       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.axes._subplots                     |3.23  |0.28    |0.07     |0.26       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.mathtext                           |2.93  |5.14    |3.86     |5.24       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_pdf               |2.64  |3.25    |3.53     |3.46       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backend_bases                      |2.35  |2.31    |4.34     |2.55       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.ticker                             |2.35  |0.70    |2.03     |2.39       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.offsetbox                          |2.05  |2.24    |1.69     |2.36       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.image                              |2.05  |1.12    |1.49     |1.40       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib                                    |1.76  |1.29    |0.54     |1.18       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backend_tools                      |1.76  |1.08    |0.54     |0.73       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_webagg_core       |1.76  |0.73    |0.34     |0.51       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_svg               |1.76  |0.70    |1.90     |1.21       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_wx                |1.47  |3.60    |1.22     |2.74       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_ps                |1.47  |2.06    |2.85     |2.14       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.lines                              |1.47  |1.71    |1.08     |1.01       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_agg               |1.47  |1.15    |0.81     |1.04       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.projections.polar                  |1.17  |2.97    |1.36     |0.89       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends._backend_tk               |1.17  |2.06    |0.47     |1.24       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_gtk3              |1.17  |1.78    |0.61     |1.22       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_qt5               |1.17  |1.64    |0.81     |1.29       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.qt_compat                 |1.17  |0.80    |0.00     |0.24       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.textpath                           |1.17  |0.56    |0.88     |0.51       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.triangulation                  |1.17  |0.03    |0.14     |0.07       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.axes._base                         |0.88  |3.35    |2.44     |2.85       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.scale                              |0.88  |1.36    |0.20     |0.26       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.markers                            |0.59  |5.49    |0.07     |0.38       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.projections.geo                    |0.59  |1.85    |0.20     |0.47       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.collections                        |0.59  |1.82    |0.95     |1.46       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.artist                             |0.59  |1.15    |0.88     |0.60       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.dates                              |0.59  |0.66    |1.08     |1.08       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.gridspec                           |0.59  |0.63    |0.54     |0.24       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_nbagg             |0.59  |0.45    |0.14     |0.17       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.font_manager                       |0.59  |0.31    |1.15     |0.85       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.qt_editor.formlayout      |0.59  |0.31    |0.61     |0.39       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.category                           |0.59  |0.17    |0.07     |0.02       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_wxcairo           |0.59  |0.14    |0.00     |0.04       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.tricontour                     |0.59  |0.07    |0.00     |0.13       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.trifinder                      |0.59  |0.00    |0.14     |0.04       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends._gtk3_compat              |0.59  |0.00    |0.00     |0.04       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.pyplot                             |0.29  |3.11    |2.98     |3.36       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_pgf               |0.29  |0.77    |1.02     |1.27       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.quiver                             |0.29  |0.66    |1.22     |1.75       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_webagg            |0.29  |0.66    |0.07     |0.26       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.path                               |0.29  |0.35    |0.47     |0.39       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.rcsetup                            |0.29  |0.28    |0.47     |2.17       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_macosx            |0.29  |0.17    |0.07     |0.07       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.qt_editor.figureoptions   |0.29  |0.14    |0.41     |0.08       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_wxagg             |0.29  |0.14    |0.14     |0.29       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.texmanager                         |0.29  |0.10    |0.14     |0.22       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.stackplot                          |0.29  |0.07    |0.07     |0.05       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.wx_compat                 |0.29  |0.00    |0.00     |0.16       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.tkagg                     |0.29  |0.00    |0.00     |0.08       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.dviread                            |0.00  |3.60    |1.42     |1.08       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib._constrained_layout                |0.00  |3.56    |0.88     |1.34       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.figure                             |0.00  |2.34    |1.49     |1.15       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.colorbar                           |0.00  |1.43    |0.88     |1.56       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.legend_handler                     |0.00  |0.98    |1.90     |0.44       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_cairo             |0.00  |0.87    |0.88     |0.72       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.widgets                            |0.00  |0.77    |2.37     |2.42       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.spines                             |0.00  |0.77    |0.68     |0.06       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.sphinxext.mathmpl                  |0.00  |0.70    |0.14     |0.18       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib._layoutbox                         |0.00  |0.66    |0.47     |1.71       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.blocking_input                     |0.00  |0.63    |0.00     |0.07       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_qt4               |0.00  |0.59    |0.00     |0.01       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.sphinxext.plot_directive           |0.00  |0.49    |0.75     |0.35       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.table                              |0.00  |0.49    |0.61     |0.99       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.triinterpolate                 |0.00  |0.45    |1.02     |3.92       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.patheffects                        |0.00  |0.42    |1.42     |0.22       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.mlab                               |0.00  |0.35    |1.42     |1.24       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tight_layout                       |0.00  |0.31    |0.47     |0.26       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.__init__                       |0.00  |0.28    |8.00     |0.00       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.streamplot                         |0.00  |0.28    |0.81     |1.69       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib._version                           |0.00  |0.28    |0.07     |0.43       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.colors                             |0.00  |0.24    |0.95     |0.89       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_gtk3agg           |0.00  |0.24    |0.00     |0.17       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.units                              |0.00  |0.21    |0.14     |0.06       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_template          |0.00  |0.21    |0.07     |0.04       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_qt5agg            |0.00  |0.21    |0.00     |0.08       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backend_managers                   |0.00  |0.17    |0.47     |0.07       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.cm                                 |0.00  |0.17    |0.20     |0.17       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tight_bbox                         |0.00  |0.17    |0.07     |0.17       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_gtk3cairo         |0.00  |0.17    |0.00     |0.07       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.afm                                |0.00  |0.14    |0.20     |0.63       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.style.core                         |0.00  |0.14    |0.07     |0.13       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib._pylab_helpers                     |0.00  |0.14    |0.07     |0.05       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.container                          |0.00  |0.14    |0.00     |0.08       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.compat.subprocess                  |0.00  |0.14    |0.00     |0.06       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_tkagg             |0.00  |0.14    |0.00     |0.02       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.bezier                             |0.00  |0.10    |0.68     |0.77       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.sankey                             |0.00  |0.10    |0.61     |0.63       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.type1font                          |0.00  |0.10    |0.61     |0.10       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_qt4agg            |0.00  |0.10    |0.00     |0.00       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.__init__                  |0.00  |0.07    |0.07     |0.10       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.triplot                        |0.00  |0.07    |0.07     |0.06       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_qt5cairo          |0.00  |0.07    |0.00     |0.05       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.projections.__init__               |0.00  |0.07    |0.00     |0.04       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.axes.__init__                      |0.00  |0.07    |0.00     |0.01       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.trirefine                      |0.00  |0.03    |0.27     |0.06       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_mixed             |0.00  |0.03    |0.14     |0.10       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.windowing                 |0.00  |0.03    |0.07     |0.07       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_tkcairo           |0.00  |0.03    |0.00     |0.02       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.tritools                       |0.00  |0.00    |0.41     |0.14       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.tri.tripcolor                      |0.00  |0.00    |0.20     |0.10       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.docstring                          |0.00  |0.00    |0.07     |0.04       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.qt_editor.formsubplottool |0.00  |0.00    |0.07     |0.02       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib._color_data                        |0.00  |0.00    |0.00     |0.02       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.style.__init__                     |0.00  |0.00    |0.00     |0.01       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib.backends.backend_qt4cairo          |0.00  |0.00    |0.00     |0.01       |
++----------------------------------------------+------+--------+---------+-----------+
+|matplotlib._animation_data                    |0.00  |0.00    |0.00     |0.01       |
++----------------------------------------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------------------+------------+
+|message id                      |occurrences |
++================================+============+
+|invalid-name                    |5967        |
++--------------------------------+------------+
+|missing-docstring               |1084        |
++--------------------------------+------------+
+|protected-access                |795         |
++--------------------------------+------------+
+|bad-continuation                |565         |
++--------------------------------+------------+
+|attribute-defined-outside-init  |563         |
++--------------------------------+------------+
+|bad-whitespace                  |425         |
++--------------------------------+------------+
+|unused-argument                 |345         |
++--------------------------------+------------+
+|too-many-arguments              |325         |
++--------------------------------+------------+
+|unused-variable                 |296         |
++--------------------------------+------------+
+|too-many-locals                 |252         |
++--------------------------------+------------+
+|arguments-differ                |216         |
++--------------------------------+------------+
+|no-member                       |205         |
++--------------------------------+------------+
+|no-else-return                  |170         |
++--------------------------------+------------+
+|len-as-condition                |165         |
++--------------------------------+------------+
+|no-self-use                     |131         |
++--------------------------------+------------+
+|abstract-method                 |127         |
++--------------------------------+------------+
+|too-many-branches               |106         |
++--------------------------------+------------+
+|too-few-public-methods          |106         |
++--------------------------------+------------+
+|unused-import                   |91          |
++--------------------------------+------------+
+|too-many-instance-attributes    |88          |
++--------------------------------+------------+
+|redefined-outer-name            |85          |
++--------------------------------+------------+
+|cyclic-import                   |74          |
++--------------------------------+------------+
+|too-many-statements             |63          |
++--------------------------------+------------+
+|redefined-builtin               |62          |
++--------------------------------+------------+
+|fixme                           |57          |
++--------------------------------+------------+
+|no-name-in-module               |46          |
++--------------------------------+------------+
+|duplicate-code                  |44          |
++--------------------------------+------------+
+|wrong-import-position           |42          |
++--------------------------------+------------+
+|too-many-lines                  |41          |
++--------------------------------+------------+
+|inconsistent-return-statements  |35          |
++--------------------------------+------------+
+|broad-except                    |30          |
++--------------------------------+------------+
+|wrong-import-order              |27          |
++--------------------------------+------------+
+|too-many-public-methods         |27          |
++--------------------------------+------------+
+|import-error                    |27          |
++--------------------------------+------------+
+|super-init-not-called           |26          |
++--------------------------------+------------+
+|invalid-unary-operand-type      |19          |
++--------------------------------+------------+
+|logging-not-lazy                |18          |
++--------------------------------+------------+
+|global-variable-undefined       |15          |
++--------------------------------+------------+
+|using-constant-test             |14          |
++--------------------------------+------------+
+|dangerous-default-value         |13          |
++--------------------------------+------------+
+|superfluous-parens              |12          |
++--------------------------------+------------+
+|signature-differs               |12          |
++--------------------------------+------------+
+|global-variable-not-assigned    |12          |
++--------------------------------+------------+
+|wildcard-import                 |11          |
++--------------------------------+------------+
+|non-parent-init-called          |11          |
++--------------------------------+------------+
+|redefined-argument-from-local   |10          |
++--------------------------------+------------+
+|undefined-loop-variable         |9           |
++--------------------------------+------------+
+|logging-format-interpolation    |8           |
++--------------------------------+------------+
+|global-statement                |8           |
++--------------------------------+------------+
+|unbalanced-tuple-unpacking      |7           |
++--------------------------------+------------+
+|too-many-return-statements      |7           |
++--------------------------------+------------+
+|too-many-function-args          |7           |
++--------------------------------+------------+
+|c-extension-no-member           |7           |
++--------------------------------+------------+
+|trailing-comma-tuple            |6           |
++--------------------------------+------------+
+|too-many-boolean-expressions    |6           |
++--------------------------------+------------+
+|function-redefined              |6           |
++--------------------------------+------------+
+|access-member-before-definition |6           |
++--------------------------------+------------+
+|too-many-nested-blocks          |5           |
++--------------------------------+------------+
+|too-many-ancestors              |5           |
++--------------------------------+------------+
+|not-callable                    |5           |
++--------------------------------+------------+
+|multiple-statements             |5           |
++--------------------------------+------------+
+|misplaced-comparison-constant   |5           |
++--------------------------------+------------+
+|cell-var-from-loop              |5           |
++--------------------------------+------------+
+|unneeded-not                    |4           |
++--------------------------------+------------+
+|unidiomatic-typecheck           |4           |
++--------------------------------+------------+
+|ungrouped-imports               |4           |
++--------------------------------+------------+
+|undefined-variable              |4           |
++--------------------------------+------------+
+|stop-iteration-return           |4           |
++--------------------------------+------------+
+|reimported                      |4           |
++--------------------------------+------------+
+|pointless-string-statement      |4           |
++--------------------------------+------------+
+|exec-used                       |4           |
++--------------------------------+------------+
+|consider-using-ternary          |4           |
++--------------------------------+------------+
+|bad-indentation                 |4           |
++--------------------------------+------------+
+|abstract-class-instantiated     |4           |
++--------------------------------+------------+
+|simplifiable-if-statement       |3           |
++--------------------------------+------------+
+|raising-format-tuple            |3           |
++--------------------------------+------------+
+|line-too-long                   |3           |
++--------------------------------+------------+
+|bare-except                     |3           |
++--------------------------------+------------+
+|useless-super-delegation        |2           |
++--------------------------------+------------+
+|too-many-format-args            |2           |
++--------------------------------+------------+
+|no-staticmethod-decorator       |2           |
++--------------------------------+------------+
+|method-hidden                   |2           |
++--------------------------------+------------+
+|keyword-arg-before-vararg       |2           |
++--------------------------------+------------+
+|eval-used                       |2           |
++--------------------------------+------------+
+|blacklisted-name                |2           |
++--------------------------------+------------+
+|used-before-assignment          |1           |
++--------------------------------+------------+
+|unnecessary-lambda              |1           |
++--------------------------------+------------+
+|pointless-statement             |1           |
++--------------------------------+------------+
+|no-classmethod-decorator        |1           |
++--------------------------------+------------+
+|literal-comparison              |1           |
++--------------------------------+------------+
+|import-self                     |1           |
++--------------------------------+------------+
+|expression-not-assigned         |1           |
++--------------------------------+------------+
+|empty-docstring                 |1           |
++--------------------------------+------------+
+|consider-using-enumerate        |1           |
++--------------------------------+------------+
+|bad-staticmethod-argument       |1           |
++--------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 6.82/10 (previous run: 6.18/10, +0.63)

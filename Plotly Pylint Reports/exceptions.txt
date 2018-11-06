@@ -1,0 +1,120 @@
+************* Module plotly.exceptions
+C: 14, 0: Missing class docstring (missing-docstring)
+C: 18, 0: Missing class docstring (missing-docstring)
+W: 25, 4: __init__ method from base class 'PlotlyError' is not called (super-init-not-called)
+C: 51, 0: Missing class docstring (missing-docstring)
+C: 56, 0: Missing class docstring (missing-docstring)
+C: 83, 0: Missing class docstring (missing-docstring)
+W: 86,61: Access to a protected member _name of a client class (protected-access)
+C: 95, 0: Missing class docstring (missing-docstring)
+W: 98,61: Access to a protected member _name of a client class (protected-access)
+C:107, 0: Missing class docstring (missing-docstring)
+W:110,57: Access to a protected member _name of a client class (protected-access)
+C:119, 0: Missing class docstring (missing-docstring)
+W:122,57: Access to a protected member _name of a client class (protected-access)
+C:133, 0: Missing class docstring (missing-docstring)
+C:137, 0: Missing class docstring (missing-docstring)
+C:157, 0: Missing class docstring (missing-docstring)
+C:161, 0: Missing class docstring (missing-docstring)
+C:165, 0: Missing class docstring (missing-docstring)
+C:169, 0: Missing class docstring (missing-docstring)
+C:173, 0: Missing class docstring (missing-docstring)
+
+
+Report
+======
+68 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |16     |NC         |NC         |6.25        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |9      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    plotly 
+      \-api 
+        \-utils (plotly.exceptions)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |87     |49.43 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |45     |25.57 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |5      |2.84  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |39     |22.16 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |15     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++----------------------+------------+
+|message id            |occurrences |
++======================+============+
+|missing-docstring     |15          |
++----------------------+------------+
+|protected-access      |4           |
++----------------------+------------+
+|super-init-not-called |1           |
++----------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.06/10
+

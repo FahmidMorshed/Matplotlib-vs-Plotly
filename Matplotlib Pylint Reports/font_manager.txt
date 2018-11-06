@@ -1,0 +1,288 @@
+************* Module matplotlib.font_manager
+C:277, 0: No space allowed before keyword argument assignment
+                 fname  ='',
+                        ^ (bad-whitespace)
+C:278, 0: No space allowed before keyword argument assignment
+                 name   ='',
+                        ^ (bad-whitespace)
+C:279, 0: No space allowed before keyword argument assignment
+                 style  ='normal',
+                        ^ (bad-whitespace)
+C:281, 0: No space allowed before keyword argument assignment
+                 weight ='normal',
+                        ^ (bad-whitespace)
+C:283, 0: No space allowed before keyword argument assignment
+                 size   ='medium',
+                        ^ (bad-whitespace)
+C:284, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:285, 0: Exactly one space required before assignment
+        self.fname   = fname
+                     ^ (bad-whitespace)
+C:286, 0: Exactly one space required before assignment
+        self.name    = name
+                     ^ (bad-whitespace)
+C:287, 0: Exactly one space required before assignment
+        self.style   = style
+                     ^ (bad-whitespace)
+C:289, 0: Exactly one space required before assignment
+        self.weight  = weight
+                     ^ (bad-whitespace)
+C:563, 0: No space allowed around keyword argument assignment
+                 family = None,
+                        ^ (bad-whitespace)
+C:564, 0: No space allowed around keyword argument assignment
+                 style  = None,
+                        ^ (bad-whitespace)
+C:565, 0: No space allowed after keyword argument assignment
+                 variant= None,
+                        ^ (bad-whitespace)
+C:566, 0: No space allowed around keyword argument assignment
+                 weight = None,
+                        ^ (bad-whitespace)
+C:567, 0: No space allowed after keyword argument assignment
+                 stretch= None,
+                        ^ (bad-whitespace)
+C:568, 0: No space allowed around keyword argument assignment
+                 size   = None,
+                        ^ (bad-whitespace)
+C:569, 0: No space allowed around keyword argument assignment
+                 fname  = None,  # if set, it's a hardcoded filename to use
+                        ^ (bad-whitespace)
+C:570, 0: No space allowed around keyword argument assignment
+                 _init  = None,  # used only by copy()
+                        ^ (bad-whitespace)
+C:571, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:589, 0: Wrong continued indentation before block (add 4 spaces).
+                variant is None and
+                ^   | (bad-continuation)
+C:590, 0: Wrong continued indentation before block (add 4 spaces).
+                weight is None and
+                ^   | (bad-continuation)
+C:591, 0: Wrong continued indentation before block (add 4 spaces).
+                stretch is None and
+                ^   | (bad-continuation)
+C:592, 0: Wrong continued indentation before block (add 4 spaces).
+                size is None and
+                ^   | (bad-continuation)
+C:593, 0: Wrong continued indentation before block (add 4 spaces).
+                fname is None):
+                ^   | (bad-continuation)
+C:  1, 0: Too many lines in module (1293/1000) (too-many-lines)
+E: 39, 0: No name 'ft2font' in module 'matplotlib' (no-name-in-module)
+C: 43, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 45, 0: Constant name "font_scalings" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 57, 0: Constant name "stretch_dict" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 68, 0: Constant name "weight_dict" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 84, 0: Constant name "font_family_aliases" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 94, 0: Constant name "MSFolders" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 97, 0: Constant name "MSFontDirectories" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:101, 0: Constant name "X11FontDirectories" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:115, 0: Constant name "OSXFontDirectories" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:149, 0: Function name "win32FontDirectory" doesn't conform to snake_case naming style (invalid-name)
+C:166, 0: Function name "win32InstalledFonts" doesn't conform to snake_case naming style (invalid-name)
+C:185,32: Variable name "tp" doesn't conform to snake_case naming style (invalid-name)
+W:185,20: Unused variable 'key' (unused-variable)
+W:185,32: Unused variable 'tp' (unused-variable)
+C:205, 0: Function name "OSXInstalledFonts" doesn't conform to snake_case naming style (invalid-name)
+C:240, 0: Function name "findSystemFonts" doesn't conform to snake_case naming style (invalid-name)
+R:276, 4: Too many arguments (8/5) (too-many-arguments)
+R:271, 0: Too few public methods (0/2) (too-few-public-methods)
+C:302, 0: Function name "ttfFontProperty" doesn't conform to snake_case naming style (invalid-name)
+R:302, 0: Too many branches (15/12) (too-many-branches)
+C:384, 0: Function name "afmFontProperty" doesn't conform to snake_case naming style (invalid-name)
+C:451, 0: Function name "createFontList" doesn't conform to snake_case naming style (invalid-name)
+C:470,42: Variable name "fh" doesn't conform to snake_case naming style (invalid-name)
+R:562, 4: Too many arguments (9/5) (too-many-arguments)
+R:588,16: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+R:605, 4: Method could be a function (no-self-use)
+C:609, 8: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:672, 4: Missing method docstring (missing-docstring)
+C:809,15: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+C:819, 0: Missing class docstring (missing-docstring)
+E:820, 4: An attribute defined in json.encoder line 158 hides this method (method-hidden)
+R:821, 8: Unnecessary "else" after "return" (no-else-return)
+C:824,12: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:837, 0: Argument name "o" doesn't conform to snake_case naming style (invalid-name)
+C:842, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:846, 8: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:863,32: Variable name "fh" doesn't conform to snake_case naming style (invalid-name)
+C:866, 8: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+W:867,25: Use % formatting in logging functions and pass the % parameters as arguments (logging-format-interpolation)
+C:878,32: Variable name "fh" doesn't conform to snake_case naming style (invalid-name)
+C:905, 8: Attribute name "_last_rcParams" doesn't conform to snake_case naming style (invalid-name)
+C:907, 4: Missing method docstring (missing-docstring)
+C:911, 4: Missing method docstring (missing-docstring)
+C:918, 4: Missing method docstring (missing-docstring)
+C:963, 8: Attribute name "defaultFamily" doesn't conform to snake_case naming style (invalid-name)
+C:966, 8: Attribute name "defaultFont" doesn't conform to snake_case naming style (invalid-name)
+C:982, 4: Missing method docstring (missing-docstring)
+C:987, 4: Missing method docstring (missing-docstring)
+C:1024,13: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:1011, 4: Method could be a function (no-self-use)
+R:1044, 4: Method could be a function (no-self-use)
+R:1067, 8: Unnecessary "else" after "return" (no-else-return)
+R:1061, 4: Method could be a function (no-self-use)
+R:1072, 4: Method could be a function (no-self-use)
+R:1090, 4: Method could be a function (no-self-use)
+R:1141, 4: Too many arguments (6/5) (too-many-arguments)
+R:1178, 4: Too many arguments (7/5) (too-many-arguments)
+R:1178, 4: Too many local variables (16/15) (too-many-locals)
+W:1218,16: Specify string format arguments as logging function parameters (logging-not-lazy)
+W:1227,16: Specify string format arguments as logging function parameters (logging-not-lazy)
+W:1179,45: Unused argument 'rc_params' (unused-argument)
+R:1178, 4: Too many branches (15/12) (too-many-branches)
+C:1256,37: Variable name "fd" doesn't conform to snake_case naming style (invalid-name)
+C:1262, 0: Constant name "_get_font" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1263, 0: Constant name "_fmcache" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1265, 0: Constant name "fontManager" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1268, 0: Missing function docstring (missing-docstring)
+C:1275, 4: Constant name "fontManager" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:1275, 4: Using the global statement (global-statement)
+W:1277, 9: Access to a protected member _lock_path of a client class (protected-access)
+W:1284, 7: Catching too general exception Exception (broad-except)
+C:1283, 4: Constant name "fontManager" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1293, 0: Constant name "findfont" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+540 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |5      |NC         |NC         |80.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |45     |NC         |NC         |86.67       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |18     |NC         |NC         |94.44       |38.89    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.font_manager)
+      \-afm (matplotlib.font_manager)
+      \-cbook (matplotlib.font_manager)
+      \-fontconfig_pattern (matplotlib.font_manager)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |645    |49.81 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |410    |31.66 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |84     |6.49  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |156    |12.05 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |71     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |17     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |9      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------------+------------+
+|message id                   |occurrences |
++=============================+============+
+|invalid-name                 |36          |
++-----------------------------+------------+
+|bad-whitespace               |17          |
++-----------------------------+------------+
+|missing-docstring            |8           |
++-----------------------------+------------+
+|bad-continuation             |7           |
++-----------------------------+------------+
+|no-self-use                  |6           |
++-----------------------------+------------+
+|too-many-arguments           |4           |
++-----------------------------+------------+
+|unused-variable              |2           |
++-----------------------------+------------+
+|too-many-branches            |2           |
++-----------------------------+------------+
+|no-else-return               |2           |
++-----------------------------+------------+
+|logging-not-lazy             |2           |
++-----------------------------+------------+
+|unused-argument              |1           |
++-----------------------------+------------+
+|unidiomatic-typecheck        |1           |
++-----------------------------+------------+
+|too-many-locals              |1           |
++-----------------------------+------------+
+|too-many-lines               |1           |
++-----------------------------+------------+
+|too-many-boolean-expressions |1           |
++-----------------------------+------------+
+|too-few-public-methods       |1           |
++-----------------------------+------------+
+|protected-access             |1           |
++-----------------------------+------------+
+|no-name-in-module            |1           |
++-----------------------------+------------+
+|method-hidden                |1           |
++-----------------------------+------------+
+|logging-format-interpolation |1           |
++-----------------------------+------------+
+|len-as-condition             |1           |
++-----------------------------+------------+
+|global-statement             |1           |
++-----------------------------+------------+
+|broad-except                 |1           |
++-----------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.02/10
+

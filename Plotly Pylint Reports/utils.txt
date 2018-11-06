@@ -1,0 +1,200 @@
+************* Module plotly.utils
+W: 80, 0: TODO: issue a warning and bubble it up (fixme)
+W:220, 0: TODO: The ordering if these methods is *very* important. Is this OK? (fixme)
+C:295, 0: Wrong continued indentation (add 10 spaces).
+                obj.tzinfo is None)):
+                ^         | (bad-continuation)
+C:447, 0: Wrong continued indentation before block (add 4 spaces).
+        option_set['world_readable'] is True and
+        ^   | (bad-continuation)
+C:448, 0: Wrong continued indentation before block (add 4 spaces).
+        'sharing' in option_set and
+        ^   | (bad-continuation)
+C:449, 0: Wrong continued indentation before block (add 4 spaces).
+        option_set['sharing'] is not None and
+        ^   | (bad-continuation)
+C:573, 0: Wrong continued indentation (add 14 spaces).
+                          initial_indent=' ' * (indent + 1),
+                          ^             | (bad-continuation)
+C:574, 0: Wrong continued indentation (add 14 spaces).
+                          subsequent_indent =' ' * (indent + 1))).strip()
+                          ^             | (bad-continuation)
+C:574, 0: No space allowed before keyword argument assignment
+                          subsequent_indent =' ' * (indent + 1))).strip()
+                                            ^ (bad-whitespace)
+C: 30, 0: Constant name "numpy" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 31, 0: Constant name "pandas" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 32, 0: Constant name "sage_all" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 36, 0: Constant name "lock" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 43, 0: Constant name "http_msg" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 74,36: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W: 79,12: No exception type(s) specified (bare-except)
+C: 93,36: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:105,36: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+W:103,14: Unused variable 'tail' (unused-variable)
+W:105,36: Unused variable 'f' (unused-variable)
+W:111, 4: Using a conditional statement with a constant value (using-constant-test)
+R:119, 8: Comparison to literal (literal-comparison)
+R:120,13: Comparison to literal (literal-comparison)
+R:126, 4: Unnecessary "else" after "return" (no-else-return)
+C:133, 0: Missing class docstring (missing-docstring)
+R:154, 8: Unnecessary "else" after "return" (no-else-return)
+R:148, 4: Method could be a function (no-self-use)
+E:189, 4: An attribute defined in json.encoder line 158 hides this method (method-hidden)
+C:336, 0: Missing function docstring (missing-docstring)
+C:338,12: Variable name "no" doesn't conform to snake_case naming style (invalid-name)
+C:362, 0: Missing function docstring (missing-docstring)
+C:371, 0: Missing function docstring (missing-docstring)
+C:382, 0: Missing function docstring (missing-docstring)
+R:384, 4: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R:384, 4: Unnecessary "else" after "return" (no-else-return)
+C:445, 0: Function name "validate_world_readable_and_sharing_settings" doesn't conform to snake_case naming style (invalid-name)
+C:445, 0: Missing function docstring (missing-docstring)
+C:474, 0: Missing function docstring (missing-docstring)
+C:476, 8: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+C:484, 0: Missing function docstring (missing-docstring)
+R:490, 8: The if statement can be replaced with 'var = bool(test)' (simplifiable-if-statement)
+R:498, 4: Unnecessary "else" after "return" (no-else-return)
+C:540, 0: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
+C:585, 8: Attribute name "v" doesn't conform to snake_case naming style (invalid-name)
+C:590, 4: Argument name "v" doesn't conform to snake_case naming style (invalid-name)
+C:590, 4: Missing method docstring (missing-docstring)
+R:591, 8: Unnecessary "else" after "return" (no-else-return)
+C:592,16: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R:603, 8: Unnecessary "else" after "return" (no-else-return)
+R:633,12: Unnecessary "else" after "return" (no-else-return)
+R:578, 0: Too few public methods (1/2) (too-few-public-methods)
+W:650, 4: Parameters differ from overridden '_format' method (arguments-differ)
+R:650, 4: Too many arguments (7/5) (too-many-arguments)
+R:651, 8: Unnecessary "else" after "return" (no-else-return)
+
+
+Report
+======
+283 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |4      |NC         |NC         |75.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |16     |NC         |NC         |93.75       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |19     |NC         |NC         |63.16       |5.26     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    decorator (plotly.utils)
+    plotly 
+      \-exceptions (plotly.utils)
+      \-optional_imports (plotly.utils)
+    pytz (plotly.utils)
+    requests 
+      \-compat (plotly.utils)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |357    |54.01 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |182    |27.53 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |31     |4.69  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |91     |13.77 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |31     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |15     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |7      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------------+------------+
+|message id                |occurrences |
++==========================+============+
+|invalid-name              |14          |
++--------------------------+------------+
+|missing-docstring         |9           |
++--------------------------+------------+
+|no-else-return            |8           |
++--------------------------+------------+
+|bad-continuation          |6           |
++--------------------------+------------+
+|unused-variable           |2           |
++--------------------------+------------+
+|simplifiable-if-statement |2           |
++--------------------------+------------+
+|literal-comparison        |2           |
++--------------------------+------------+
+|fixme                     |2           |
++--------------------------+------------+
+|using-constant-test       |1           |
++--------------------------+------------+
+|too-many-arguments        |1           |
++--------------------------+------------+
+|too-few-public-methods    |1           |
++--------------------------+------------+
+|no-self-use               |1           |
++--------------------------+------------+
+|method-hidden             |1           |
++--------------------------+------------+
+|len-as-condition          |1           |
++--------------------------+------------+
+|bare-except               |1           |
++--------------------------+------------+
+|bad-whitespace            |1           |
++--------------------------+------------+
+|arguments-differ          |1           |
++--------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.95/10
+

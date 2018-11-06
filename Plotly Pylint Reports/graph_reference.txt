@@ -1,0 +1,127 @@
+************* Module plotly.graph_reference
+W: 75, 0: TODO: Patch in frames info until it hits streambed. See #659 (fixme)
+W:376, 0: TODO: this is ambiguous until the figure is in place... (fixme)
+C: 77, 0: Wrong hanging indentation (remove 2 spaces).
+          "items": {
+        | ^ (bad-continuation)
+C:125, 0: Wrong hanging indentation (remove 2 spaces).
+          "role": "object"
+        | ^ (bad-continuation)
+C:228, 0: Wrong continued indentation (add 6 spaces).
+                  for path in attribute_paths}
+                  ^     | (bad-continuation)
+C: 72, 4: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+R:159, 4: Unnecessary "else" after "return" (no-else-return)
+W:240,17: Unused variable 'val' (unused-variable)
+C:251, 0: Missing function docstring (missing-docstring)
+C:256, 0: Missing function docstring (missing-docstring)
+W:263,17: Unused variable 'val' (unused-variable)
+C:270, 0: Missing function docstring (missing-docstring)
+W:492, 8: Unused variable 'node' (unused-variable)
+
+
+Report
+======
+226 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |17     |NC         |NC         |82.35       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    plotly 
+      \-utils (plotly.graph_reference)
+    requests 
+      \-compat (plotly.graph_reference)
+    six (plotly.graph_reference)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |256    |42.52 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |211    |35.05 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |34     |5.65  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |101    |16.78 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------+------------+
+|message id        |occurrences |
++==================+============+
+|unused-variable   |3           |
++------------------+------------+
+|missing-docstring |3           |
++------------------+------------+
+|bad-continuation  |3           |
++------------------+------------+
+|fixme             |2           |
++------------------+------------+
+|no-else-return    |1           |
++------------------+------------+
+|invalid-name      |1           |
++------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 9.42/10
+

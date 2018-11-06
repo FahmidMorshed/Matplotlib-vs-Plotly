@@ -1,0 +1,313 @@
+************* Module matplotlib.lines
+W:  6, 0: TODO: expose cap and join style attrs (fixme)
+C:201, 0: Wrong continued indentation (add 13 spaces).
+                'not a valid form of numpy fancy indexing; '
+                ^            | (bad-continuation)
+C:205, 0: Wrong continued indentation (add 13 spaces).
+            'recognized; '
+            ^            | (bad-continuation)
+C:299, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:697, 0: Wrong continued indentation (add 28 spaces).
+                        indices[~nanmask], self._x[~nanmask])
+                        ^                           | (bad-continuation)
+C:837, 0: Wrong hanging indentation (remove 4 spaces).
+                        self, _drawstyle="default", _transformed_path=None):
+                    |   ^ (bad-continuation)
+C:841, 0: Wrong continued indentation (add 1 space).
+                                    .get_transformed_path_and_affine())
+                                    ^| (bad-continuation)
+C:879, 0: Wrong hanging indentation (remove 4 spaces).
+                            gc, alt_marker_path, alt_marker_trans, subsampled,
+                        |   ^ (bad-continuation)
+C:880, 0: Wrong hanging indentation (remove 4 spaces).
+                            affine.frozen(), fcalt_rgba)
+                        |   ^ (bad-continuation)
+C:  1, 0: Too many lines in module (1549/1000) (too-many-lines)
+E: 22, 0: No name '_path' in module 'matplotlib' (no-name-in-module)
+C: 28, 0: Constant name "_log" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 59, 0: Argument name "lw" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 0: Argument name "cx" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 0: Argument name "cy" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 0: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C: 73, 0: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+R: 73, 0: Too many local variables (19/15) (too-many-locals)
+C: 85, 4: Variable name "xr" doesn't conform to snake_case naming style (invalid-name)
+C: 85, 8: Variable name "yr" doesn't conform to snake_case naming style (invalid-name)
+C: 89, 4: Variable name "dx" doesn't conform to snake_case naming style (invalid-name)
+C: 89, 8: Variable name "dy" doesn't conform to snake_case naming style (invalid-name)
+C: 90, 4: Variable name "Lnorm_sq" doesn't conform to snake_case naming style (invalid-name)
+C: 91, 4: Variable name "u" doesn't conform to snake_case naming style (invalid-name)
+C:103, 4: Variable name "px" doesn't conform to snake_case naming style (invalid-name)
+C:103, 8: Variable name "py" doesn't conform to snake_case naming style (invalid-name)
+R:111, 0: Too many branches (13/12) (too-many-branches)
+C:375, 8: Attribute name "_dashSeq" doesn't conform to snake_case naming style (invalid-name)
+C:376, 8: Attribute name "_dashOffset" doesn't conform to snake_case naming style (invalid-name)
+C:379, 8: Attribute name "_us_dashSeq" doesn't conform to snake_case naming style (invalid-name)
+C:380, 8: Attribute name "_us_dashOffset" doesn't conform to snake_case naming style (invalid-name)
+C:408, 8: Attribute name "verticalOffset" doesn't conform to snake_case naming style (invalid-name)
+R:209, 0: Too many instance attributes (40/7) (too-many-instance-attributes)
+W:209, 1: Access to a protected member _define_aliases of a client class (protected-access)
+R:266, 8: Unnecessary "else" after "return" (no-else-return)
+R:279, 4: Too many arguments (21/5) (too-many-arguments)
+R:279, 4: Too many local variables (25/15) (too-many-locals)
+C:349,12: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+C:349,16: Variable name "ls" doesn't conform to snake_case naming style (invalid-name)
+R:279, 4: Too many branches (19/12) (too-many-branches)
+R:279, 4: Too many statements (92/50) (too-many-statements)
+C:465,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:472, 8: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:473, 8: Variable name "xt" doesn't conform to snake_case naming style (invalid-name)
+C:474, 8: Variable name "yt" doesn't conform to snake_case naming style (invalid-name)
+C:512, 4: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:532, 4: Argument name "fs" doesn't conform to snake_case naming style (invalid-name)
+W:613, 4: Parameters differ from overridden 'set_picker' method (arguments-differ)
+C:634,12: Variable name "ms" doesn't conform to snake_case naming style (invalid-name)
+E:638, 5: Method 'axes' has no 'setter' member (no-member)
+E:638, 5: Method 'axes' has no 'setter' member (no-member)
+E:641, 8: Method 'axes' has no 'fset' member (no-member)
+E:641, 8: Method 'axes' has no 'fset' member (no-member)
+C:660,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:660,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:662,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:662,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:667, 4: Missing method docstring (missing-docstring)
+C:670, 4: Missing method docstring (missing-docstring)
+C:673,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:675,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:678,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:680,12: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+R:686,12: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+W:702,34: Access to a protected member _interpolation_steps of a client class (protected-access)
+C:705, 8: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+C:720,12: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+W:722,46: Access to a protected member _interpolation_steps of a client class (protected-access)
+C:749, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+R:749, 4: Method could be a function (no-self-use)
+W:755, 4: Parameters differ from overridden 'draw' method (arguments-differ)
+R:755, 4: Too many local variables (30/15) (too-many-locals)
+C:765,12: Variable name "x0" doesn't conform to snake_case naming style (invalid-name)
+C:765,16: Variable name "x1" doesn't conform to snake_case naming style (invalid-name)
+C:766,12: Variable name "i0" doesn't conform to snake_case naming style (invalid-name)
+C:767,12: Variable name "i1" doesn't conform to snake_case naming style (invalid-name)
+C:782,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:783,16: Variable name "gc" doesn't conform to snake_case naming style (invalid-name)
+C:809,12: Variable name "gc" doesn't conform to snake_case naming style (invalid-name)
+W:822,16: Access to a protected member _str_equal of a client class (protected-access)
+W:823,28: Access to a protected member _str_lower_equal of a client class (protected-access)
+W:836,21: Access to a protected member _setattr_cm of a client class (protected-access)
+C:846,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:863,16: Variable name "w" doesn't conform to snake_case naming style (invalid-name)
+W:865,19: Access to a protected member _str_equal of a client class (protected-access)
+R:755, 4: Too many branches (22/12) (too-many-branches)
+R:755, 4: Too many statements (91/50) (too-many-statements)
+W:938,11: Access to a protected member _str_equal of a client class (protected-access)
+C:957, 8: Variable name "fc" doesn't conform to snake_case naming style (invalid-name)
+R:958, 8: Unnecessary "else" after "return" (no-else-return)
+W:958,11: Access to a protected member _str_lower_equal of a client class (protected-access)
+R:959,12: Unnecessary "else" after "return" (no-else-return)
+C:1041, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1099, 4: Argument name "w" doesn't conform to snake_case naming style (invalid-name)
+C:1116, 4: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
+C:1137,12: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+C:1149, 4: Argument name "ls" doesn't conform to snake_case naming style (invalid-name)
+C:1182,12: Variable name "ds" doesn't conform to snake_case naming style (invalid-name)
+C:1220, 4: Argument name "ec" doesn't conform to snake_case naming style (invalid-name)
+C:1235, 4: Argument name "ew" doesn't conform to snake_case naming style (invalid-name)
+C:1249, 4: Argument name "fc" doesn't conform to snake_case naming style (invalid-name)
+C:1263, 4: Argument name "fc" doesn't conform to snake_case naming style (invalid-name)
+C:1277, 4: Argument name "sz" doesn't conform to snake_case naming style (invalid-name)
+C:1290, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:1302, 4: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+C:1330,34: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:1338,26: Access to a protected member _linestyle of a client class (protected-access)
+W:1339,26: Access to a protected member _linewidth of a client class (protected-access)
+W:1340,22: Access to a protected member _color of a client class (protected-access)
+W:1341,27: Access to a protected member _markersize of a client class (protected-access)
+W:1342,32: Access to a protected member _markerfacecolor of a client class (protected-access)
+W:1343,35: Access to a protected member _markerfacecoloralt of a client class (protected-access)
+W:1344,32: Access to a protected member _markeredgecolor of a client class (protected-access)
+W:1345,32: Access to a protected member _markeredgewidth of a client class (protected-access)
+W:1346,24: Access to a protected member _dashSeq of a client class (protected-access)
+W:1347,27: Access to a protected member _us_dashSeq of a client class (protected-access)
+W:1348,27: Access to a protected member _dashOffset of a client class (protected-access)
+W:1349,30: Access to a protected member _us_dashOffset of a client class (protected-access)
+W:1350,29: Access to a protected member _dashcapstyle of a client class (protected-access)
+W:1351,30: Access to a protected member _dashjoinstyle of a client class (protected-access)
+W:1352,30: Access to a protected member _solidcapstyle of a client class (protected-access)
+W:1353,31: Access to a protected member _solidjoinstyle of a client class (protected-access)
+W:1355,26: Access to a protected member _linestyle of a client class (protected-access)
+W:1356,35: Access to a protected member _marker of a client class (protected-access)
+W:1357,35: Access to a protected member _marker of a client class (protected-access)
+W:1358,26: Access to a protected member _drawstyle of a client class (protected-access)
+C:1360, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1377, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1411, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1427, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:645,16: Attribute '_xcid' defined outside __init__ (attribute-defined-outside-init)
+W:648,16: Attribute '_ycid' defined outside __init__ (attribute-defined-outside-init)
+W:1338, 8: Attribute '_linestyle' defined outside __init__ (attribute-defined-outside-init)
+W:1355, 8: Attribute '_linestyle' defined outside __init__ (attribute-defined-outside-init)
+R:209, 0: Too many public methods (55/20) (too-many-public-methods)
+C:1520, 4: Argument name "xs" doesn't conform to snake_case naming style (invalid-name)
+C:1520, 4: Argument name "ys" doesn't conform to snake_case naming style (invalid-name)
+C:1540, 0: Constant name "lineStyles" doesn't conform to UPPER_CASE naming style (invalid-name)
+W:1540,13: Access to a protected member _lineStyles of a client class (protected-access)
+C:1541, 0: Constant name "lineMarkers" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1542, 0: Constant name "drawStyles" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:1543, 0: Constant name "fillStyles" doesn't conform to UPPER_CASE naming style (invalid-name)
+W: 23, 0: Unused CARETLEFT imported from markers (unused-import)
+W: 23, 0: Unused CARETRIGHT imported from markers (unused-import)
+W: 23, 0: Unused CARETUP imported from markers (unused-import)
+W: 23, 0: Unused CARETDOWN imported from markers (unused-import)
+W: 23, 0: Unused CARETLEFTBASE imported from markers (unused-import)
+W: 23, 0: Unused CARETRIGHTBASE imported from markers (unused-import)
+W: 23, 0: Unused CARETUPBASE imported from markers (unused-import)
+W: 23, 0: Unused CARETDOWNBASE imported from markers (unused-import)
+W: 23, 0: Unused TICKLEFT imported from markers (unused-import)
+W: 23, 0: Unused TICKRIGHT imported from markers (unused-import)
+W: 23, 0: Unused TICKUP imported from markers (unused-import)
+W: 23, 0: Unused TICKDOWN imported from markers (unused-import)
+
+
+Report
+======
+646 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |2          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |65     |65         |=          |96.92       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |5          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.lines)
+      \-artist (matplotlib.lines)
+      \-cbook (matplotlib.lines)
+      \-colors (matplotlib.lines)
+      \-docstring (matplotlib.lines)
+      \-markers (matplotlib.lines)
+      \-path (matplotlib.lines)
+      \-patheffects (matplotlib.lines)
+      \-transforms (matplotlib.lines)
+    numpy (matplotlib.lines)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |745    |48.03 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |570    |36.75 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |70     |4.51  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |166    |10.70 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |84     |84       |=          |
++-----------+-------+---------+-----------+
+|refactor   |16     |16       |=          |
++-----------+-------+---------+-----------+
+|warning    |49     |49       |=          |
++-----------+-------+---------+-----------+
+|error      |5      |5        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |69          |
++-------------------------------+------------+
+|protected-access               |30          |
++-------------------------------+------------+
+|unused-import                  |12          |
++-------------------------------+------------+
+|bad-continuation               |8           |
++-------------------------------+------------+
+|no-member                      |4           |
++-------------------------------+------------+
+|len-as-condition               |4           |
++-------------------------------+------------+
+|attribute-defined-outside-init |4           |
++-------------------------------+------------+
+|too-many-locals                |3           |
++-------------------------------+------------+
+|too-many-branches              |3           |
++-------------------------------+------------+
+|no-else-return                 |3           |
++-------------------------------+------------+
+|too-many-statements            |2           |
++-------------------------------+------------+
+|missing-docstring              |2           |
++-------------------------------+------------+
+|arguments-differ               |2           |
++-------------------------------+------------+
+|too-many-public-methods        |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|too-many-boolean-expressions   |1           |
++-------------------------------+------------+
+|too-many-arguments             |1           |
++-------------------------------+------------+
+|no-self-use                    |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|fixme                          |1           |
++-------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 7.31/10 (previous run: 7.30/10, +0.00)
+

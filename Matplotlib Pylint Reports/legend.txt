@@ -1,0 +1,263 @@
+************* Module matplotlib.legend
+W:1123, 0: XXX TODO: If markers are present, it would be good to (fixme)
+C:322, 0: Wrong continued indentation (remove 1 space).
+             }
+            |^ (bad-continuation)
+C:371, 0: Wrong continued indentation (remove 1 space).
+                 ):
+                |^ (bad-continuation)
+C:776, 0: Wrong continued indentation (remove 1 space).
+                          )
+                         |^ (bad-continuation)
+C:  1, 0: Too many lines in module (1309/1000) (too-many-lines)
+W: 30, 0: Reimport 'cbook' (imported line 28) (reimported)
+C: 49, 0: Missing class docstring (missing-docstring)
+W: 73,50: Access to a protected member _legend_box of a client class (protected-access)
+W: 76, 4: Parameters differ from overridden 'artist_picker' method (arguments-differ)
+W: 76,28: Unused argument 'legend' (unused-argument)
+E: 88,31: Instance of 'DraggableLegend' has no 'update' member; maybe '_update'? (no-member)
+W:100, 8: Access to a protected member _loc of a client class (protected-access)
+C:106, 8: Variable name "tr" doesn't conform to snake_case naming style (invalid-name)
+C:112, 0: Constant name "_legend_kw_doc" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:424, 8: Attribute name "legendHandles" doesn't conform to snake_case naming style (invalid-name)
+C:532, 8: Attribute name "legendPatch" doesn't conform to snake_case naming style (invalid-name)
+C:554, 8: Attribute name "_drawFrame" doesn't conform to snake_case naming style (invalid-name)
+R:306, 0: Too many instance attributes (22/7) (too-many-instance-attributes)
+R:330, 4: Too many arguments (32/5) (too-many-arguments)
+R:330, 4: Too many local variables (44/15) (too-many-locals)
+W:446,16: Access to a protected member _warn_external of a client class (protected-access)
+E:459,11: Instance of 'Legend' has no 'numpoints' member (no-member)
+E:467,15: Instance of 'Legend' has no 'scatterpoints' member (no-member)
+E:469,47: Instance of 'Legend' has no 'scatterpoints' member (no-member)
+W:333,17: Unused argument 'markerscale' (unused-argument)
+W:337,17: Unused argument 'scatterpoints' (unused-argument)
+W:343,17: Unused argument 'borderpad' (unused-argument)
+W:344,17: Unused argument 'labelspacing' (unused-argument)
+W:346,17: Unused argument 'handlelength' (unused-argument)
+W:347,17: Unused argument 'handleheight' (unused-argument)
+W:348,17: Unused argument 'handletextpad' (unused-argument)
+W:350,17: Unused argument 'borderaxespad' (unused-argument)
+W:352,17: Unused argument 'columnspacing' (unused-argument)
+R:330, 4: Too many branches (40/12) (too-many-branches)
+R:330, 4: Too many statements (110/50) (too-many-statements)
+C:580, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+R:604, 4: Too many arguments (6/5) (too-many-arguments)
+C:608,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:608,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:611,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:611,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+C:615,12: Variable name "fx" doesn't conform to snake_case naming style (invalid-name)
+C:615,16: Variable name "fy" doesn't conform to snake_case naming style (invalid-name)
+C:617,12: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:617,15: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+W:622, 4: Parameters differ from overridden 'draw' method (arguments-differ)
+E:634,23: Instance of 'Legend' has no 'borderaxespad' member (no-member)
+E:634,44: Instance of 'Legend' has no 'borderpad' member (no-member)
+E:645,15: Instance of 'Legend' has no 'shadow' member (no-member)
+R:661, 8: Unnecessary "else" after "return" (no-else-return)
+R:715, 8: Unnecessary "else" after "return" (no-else-return)
+C:716,12: Variable name "hm" doesn't conform to snake_case naming style (invalid-name)
+R:751, 4: Too many local variables (32/15) (too-many-locals)
+E:780,55: Instance of 'Legend' has no 'handleheight' member (no-member)
+E:782,46: Instance of 'Legend' has no 'handleheight' member (no-member)
+W:796,16: Access to a protected member _warn_external of a client class (protected-access)
+E:809,46: Instance of 'Legend' has no 'handlelength' member (no-member)
+W:813,33: Access to a protected member _text of a client class (protected-access)
+C:835,12: Variable name "i0" doesn't conform to snake_case naming style (invalid-name)
+C:835,16: Variable name "di" doesn't conform to snake_case naming style (invalid-name)
+C:837,12: Variable name "itemBoxes" doesn't conform to snake_case naming style (invalid-name)
+E:838,37: Instance of 'Legend' has no 'handletextpad' member (no-member)
+E:851,41: Instance of 'Legend' has no 'labelspacing' member (no-member)
+E:856,14: Instance of 'Legend' has no 'columnspacing' member (no-member)
+E:862,39: Instance of 'Legend' has no 'borderpad' member (no-member)
+E:863,39: Instance of 'Legend' has no 'labelspacing' member (no-member)
+R:871, 4: Too many local variables (16/15) (too-many-locals)
+C:887, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+C:910,23: Variable name "transOffset" doesn't conform to snake_case naming style (invalid-name)
+W:910,54: Access to a protected member _prepare_points of a client class (protected-access)
+C:912,15: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+W:910,46: Unused variable 'paths' (unused-variable)
+C:923, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+W:967, 8: Access to a protected member _text of a client class (protected-access)
+W:969,12: Access to a protected member _text of a client class (protected-access)
+W:972,12: Access to a protected member _text of a client class (protected-access)
+W:978,12: Access to a protected member _text of a client class (protected-access)
+W:984,15: Access to a protected member _text of a client class (protected-access)
+W:989,23: Access to a protected member _cachedRenderer of a client class (protected-access)
+C:1012, 4: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+R:1025, 8: Unnecessary "else" after "return" (no-else-return)
+C:1049,16: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+R:1065, 4: Too many local variables (22/15) (too-many-locals)
+C:1080, 8: Variable name "BEST" doesn't conform to snake_case naming style (invalid-name)
+C:1080,14: Variable name "UR" doesn't conform to snake_case naming style (invalid-name)
+C:1080,18: Variable name "UL" doesn't conform to snake_case naming style (invalid-name)
+C:1080,22: Variable name "LL" doesn't conform to snake_case naming style (invalid-name)
+C:1080,26: Variable name "LR" doesn't conform to snake_case naming style (invalid-name)
+C:1080,30: Variable name "R" doesn't conform to snake_case naming style (invalid-name)
+C:1080,33: Variable name "CL" doesn't conform to snake_case naming style (invalid-name)
+C:1080,37: Variable name "CR" doesn't conform to snake_case naming style (invalid-name)
+C:1080,41: Variable name "LC" doesn't conform to snake_case naming style (invalid-name)
+C:1080,45: Variable name "UC" doesn't conform to snake_case naming style (invalid-name)
+C:1080,49: Variable name "C" doesn't conform to snake_case naming style (invalid-name)
+C:1093, 8: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+E:1096,40: Instance of 'Legend' has no 'borderaxespad' member (no-member)
+W:1080, 8: Unused variable 'BEST' (unused-variable)
+R:1100, 4: Too many local variables (18/15) (too-many-locals)
+C:1120,18: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1120,21: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1121,12: Variable name "legendBox" doesn't conform to snake_case naming style (invalid-name)
+C:1136,15: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
+C:1136,18: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+W:1139, 4: Parameters differ from overridden 'contains' method (arguments-differ)
+W:595, 8: Attribute '_loc_real' defined outside __init__ (attribute-defined-outside-init)
+R:306, 0: Too many public methods (24/20) (too-many-public-methods)
+C:1220, 8: Variable name "ax" doesn't conform to snake_case naming style (invalid-name)
+W:1272, 8: Access to a protected member _warn_external of a client class (protected-access)
+C:1288, 9: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:1303, 8: Possible unbalanced tuple unpacking with sequence: left side has 2 label(s), right side has 0 value(s) (unbalanced-tuple-unpacking)
+
+
+Report
+======
+449 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |NC         |NC         |50.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |40     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.legend)
+      \-artist (matplotlib.legend)
+      \-axes (matplotlib.legend)
+      \-cbook (matplotlib.legend)
+      \-collections (matplotlib.legend)
+      \-container (matplotlib.legend)
+      \-docstring (matplotlib.legend)
+      \-figure (matplotlib.legend)
+      \-font_manager (matplotlib.legend)
+      \-lines (matplotlib.legend)
+      \-offsetbox (matplotlib.legend)
+      \-patches (matplotlib.legend)
+      \-transforms (matplotlib.legend)
+    numpy (matplotlib.legend)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |783    |59.73 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |281    |21.43 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |83     |6.33  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |164    |12.51 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |48     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |14     |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |31     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |17     |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |41          |
++-------------------------------+------------+
+|no-member                      |16          |
++-------------------------------+------------+
+|protected-access               |13          |
++-------------------------------+------------+
+|unused-argument                |10          |
++-------------------------------+------------+
+|too-many-locals                |5           |
++-------------------------------+------------+
+|no-else-return                 |3           |
++-------------------------------+------------+
+|bad-continuation               |3           |
++-------------------------------+------------+
+|arguments-differ               |3           |
++-------------------------------+------------+
+|unused-variable                |2           |
++-------------------------------+------------+
+|too-many-arguments             |2           |
++-------------------------------+------------+
+|len-as-condition               |2           |
++-------------------------------+------------+
+|unbalanced-tuple-unpacking     |1           |
++-------------------------------+------------+
+|too-many-statements            |1           |
++-------------------------------+------------+
+|too-many-public-methods        |1           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|too-many-branches              |1           |
++-------------------------------+------------+
+|reimported                     |1           |
++-------------------------------+------------+
+|missing-docstring              |1           |
++-------------------------------+------------+
+|fixme                          |1           |
++-------------------------------+------------+
+|attribute-defined-outside-init |1           |
++-------------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 6.04/10
+

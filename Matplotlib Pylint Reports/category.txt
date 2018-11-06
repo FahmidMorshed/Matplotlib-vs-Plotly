@@ -1,0 +1,116 @@
+************* Module matplotlib.category
+C: 23, 0: Missing class docstring (missing-docstring)
+W: 25, 4: Parameters differ from overridden 'convert' method (arguments-differ)
+W: 55,31: Access to a protected member _mapping of a client class (protected-access)
+W: 81,36: Access to a protected member _mapping of a client class (protected-access)
+W: 82,38: Access to a protected member _mapping of a client class (protected-access)
+W: 86, 4: Parameters differ from overridden 'default_units' method (arguments-differ)
+C:156, 0: Missing class docstring (missing-docstring)
+R:156, 0: Too few public methods (1/2) (too-few-public-methods)
+E:195,15: Module 'numpy' has no 'str_' member; maybe 'str'? (no-member)
+E:197,15: Module 'numpy' has no 'bytes_' member; maybe 'bytes'? (no-member)
+
+
+Report
+======
+61 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |4      |NC         |NC         |50.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |11     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    collections (matplotlib.category)
+    matplotlib 
+      \-ticker (matplotlib.category)
+      \-units (matplotlib.category)
+    numpy (matplotlib.category)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |70     |35.18 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |95     |47.74 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |8      |4.02  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |26     |13.07 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------+------------+
+|message id             |occurrences |
++=======================+============+
+|protected-access       |3           |
++-----------------------+------------+
+|no-member              |2           |
++-----------------------+------------+
+|missing-docstring      |2           |
++-----------------------+------------+
+|arguments-differ       |2           |
++-----------------------+------------+
+|too-few-public-methods |1           |
++-----------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.05/10
+

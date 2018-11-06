@@ -1,0 +1,117 @@
+************* Module matplotlib.units
+R: 58, 4: Too many arguments (7/5) (too-many-arguments)
+R: 52, 0: Too few public methods (0/2) (too-few-public-methods)
+W: 93,17: Unused argument 'unit' (unused-argument)
+W: 93,23: Unused argument 'axis' (unused-argument)
+C:101, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+W:101,22: Unused argument 'x' (unused-argument)
+W:101,25: Unused argument 'axis' (unused-argument)
+W:108,21: Unused argument 'unit' (unused-argument)
+W:108,27: Unused argument 'axis' (unused-argument)
+C:118, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:140, 4: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:146,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+C:202, 0: Constant name "registry" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+59 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |3      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |7      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-cbook (matplotlib.units)
+    numpy (matplotlib.units)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |70     |34.31 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |96     |47.06 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |15     |7.35  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |23     |11.27 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |5      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |6      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------------------+------------+
+|message id             |occurrences |
++=======================+============+
+|unused-argument        |6           |
++-----------------------+------------+
+|invalid-name           |4           |
++-----------------------+------------+
+|too-many-arguments     |1           |
++-----------------------+------------+
+|too-few-public-methods |1           |
++-----------------------+------------+
+|len-as-condition       |1           |
++-----------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.80/10
+

@@ -1,0 +1,237 @@
+************* Module matplotlib.fontconfig_pattern
+C: 67, 0: Exactly one space required before assignment
+        family      = Regex(r'([^%s]|(\\[%s]))*' %
+                    ^ (bad-whitespace)
+C: 70, 0: Exactly one space required before assignment
+        size        = Regex(r"([0-9]+\.?[0-9]*|\.[0-9]+)") \
+                    ^ (bad-whitespace)
+C: 72, 0: Exactly one space required before assignment
+        name        = Regex(r'[a-z]+') \
+                    ^ (bad-whitespace)
+C: 74, 0: Exactly one space required before assignment
+        value       = Regex(r'([^%s]|(\\[%s]))*' %
+                    ^ (bad-whitespace)
+C: 78, 0: Exactly one space required around assignment
+        families    =(family
+                    ^ (bad-whitespace)
+C: 79, 0: Wrong continued indentation (add 2 spaces).
+                    + ZeroOrMore(
+                    ^ | (bad-continuation)
+C: 81, 0: Wrong hanging indentation (add 2 spaces).
+                      + family)
+                      ^ | (bad-continuation)
+C: 82, 0: Wrong continued indentation (add 1 space).
+                    ).setParseAction(self._families)
+                    ^| (bad-continuation)
+C: 84, 0: Exactly one space required after assignment
+        point_sizes =(size
+                    ^ (bad-whitespace)
+C: 85, 0: Wrong continued indentation (add 2 spaces).
+                    + ZeroOrMore(
+                    ^ | (bad-continuation)
+C: 87, 0: Wrong hanging indentation (add 2 spaces).
+                      + size)
+                      ^ | (bad-continuation)
+C: 88, 0: Wrong continued indentation (add 1 space).
+                    ).setParseAction(self._point_sizes)
+                    ^| (bad-continuation)
+C: 90, 0: Exactly one space required around assignment
+        property    =( (name
+                    ^ (bad-whitespace)
+C: 90, 0: No space allowed after bracket
+        property    =( (name
+                     ^ (bad-whitespace)
+C: 91, 0: Wrong continued indentation (add 2 spaces).
+                      + Suppress(Literal('='))
+                      ^ | (bad-continuation)
+C: 92, 0: Wrong continued indentation (add 2 spaces).
+                      + value
+                      ^ | (bad-continuation)
+C: 93, 0: Wrong continued indentation (add 2 spaces).
+                      + ZeroOrMore(
+                      ^ | (bad-continuation)
+C: 95, 0: Wrong hanging indentation (add 2 spaces).
+                        + value)
+                        ^ | (bad-continuation)
+C: 96, 0: Wrong continued indentation (add 1 space).
+                      )
+                      ^| (bad-continuation)
+C: 97, 0: Wrong continued indentation (add 2 spaces).
+                     |  name
+                     ^ | (bad-continuation)
+C: 98, 0: Wrong continued indentation (add 1 space).
+                    ).setParseAction(self._property)
+                    ^| (bad-continuation)
+C:100, 0: Exactly one space required around assignment
+        pattern     =(Optional(
+                    ^ (bad-whitespace)
+C:101, 0: Wrong hanging indentation (remove 12 spaces).
+                        families)
+            |           ^ (bad-continuation)
+C:102, 0: Wrong continued indentation (add 2 spaces).
+                    + Optional(
+                    ^ | (bad-continuation)
+C:104, 0: Wrong hanging indentation (add 2 spaces).
+                      + point_sizes)
+                      ^ | (bad-continuation)
+C:105, 0: Wrong continued indentation (add 2 spaces).
+                    + ZeroOrMore(
+                    ^ | (bad-continuation)
+C:107, 0: Wrong hanging indentation (add 2 spaces).
+                      + property)
+                      ^ | (bad-continuation)
+C:108, 0: Wrong continued indentation (add 2 spaces).
+                    + StringEnd()
+                    ^ | (bad-continuation)
+C:109, 0: Wrong continued indentation (add 1 space).
+                    )
+                    ^| (bad-continuation)
+C: 22, 0: Constant name "family_punc" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 23, 0: Constant name "family_unescape" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 24, 0: Constant name "family_escape" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 26, 0: Constant name "value_punc" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 27, 0: Constant name "value_unescape" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 28, 0: Constant name "value_escape" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:112, 8: Attribute name "ParseException" doesn't conform to snake_case naming style (invalid-name)
+W: 90, 8: Redefining built-in 'property' (redefined-builtin)
+C:123, 8: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+C:133, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:133,22: Unused argument 's' (unused-argument)
+W:133,25: Unused argument 'loc' (unused-argument)
+R:133, 4: Method could be a function (no-self-use)
+C:136, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:136,20: Unused argument 's' (unused-argument)
+W:136,23: Unused argument 'loc' (unused-argument)
+R:136, 4: Method could be a function (no-self-use)
+C:139, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:139,20: Unused argument 's' (unused-argument)
+W:139,23: Unused argument 'loc' (unused-argument)
+R:139, 4: Method could be a function (no-self-use)
+C:142, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:142,21: Unused argument 's' (unused-argument)
+W:142,24: Unused argument 'loc' (unused-argument)
+R:142, 4: Method could be a function (no-self-use)
+C:145, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:145,24: Unused argument 's' (unused-argument)
+W:145,27: Unused argument 'loc' (unused-argument)
+C:149, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:149,27: Unused argument 's' (unused-argument)
+W:149,30: Unused argument 'loc' (unused-argument)
+C:153, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W:153,24: Unused argument 's' (unused-argument)
+W:153,27: Unused argument 'loc' (unused-argument)
+W:120,16: Attribute '_properties' defined outside __init__ (attribute-defined-outside-init)
+W:127, 8: Attribute '_properties' defined outside __init__ (attribute-defined-outside-init)
+R: 31, 0: Too few public methods (1/2) (too-few-public-methods)
+C:169, 0: Constant name "parse_fontconfig_pattern" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:172, 0: Argument name "d" doesn't conform to snake_case naming style (invalid-name)
+C:181,15: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+
+
+Report
+======
+66 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |9      |9          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    pyparsing (matplotlib.fontconfig_pattern)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |103    |54.50 |103      |=          |
++----------+-------+------+---------+-----------+
+|docstring |47     |24.87 |47       |=          |
++----------+-------+------+---------+-----------+
+|comment   |9      |4.76  |9        |=          |
++----------+-------+------+---------+-----------+
+|empty     |30     |15.87 |30       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |47     |47       |=          |
++-----------+-------+---------+-----------+
+|refactor   |5      |5        |=          |
++-----------+-------+---------+-----------+
+|warning    |17     |17       |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|bad-continuation               |20          |
++-------------------------------+------------+
+|invalid-name                   |17          |
++-------------------------------+------------+
+|unused-argument                |14          |
++-------------------------------+------------+
+|bad-whitespace                 |9           |
++-------------------------------+------------+
+|no-self-use                    |4           |
++-------------------------------+------------+
+|attribute-defined-outside-init |2           |
++-------------------------------+------------+
+|unidiomatic-typecheck          |1           |
++-------------------------------+------------+
+|too-few-public-methods         |1           |
++-------------------------------+------------+
+|redefined-builtin              |1           |
++-------------------------------+------------+
+
+
+
+
+--------------------------------------------------------------------
+Your code has been rated at -0.45/10 (previous run: -0.45/10, +0.00)
+

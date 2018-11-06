@@ -1,0 +1,234 @@
+************* Module matplotlib.colors
+C:1065, 0: Exactly one space required after comma
+    def __init__(self,  linthresh, linscale=1.0,
+                     ^ (bad-whitespace)
+C:1750, 0: Wrong hanging indentation (remove 4 spaces).
+                'hsv': self.blend_hsv,
+            |   ^ (bad-continuation)
+C:1751, 0: Wrong hanging indentation (remove 4 spaces).
+                'soft': self.blend_soft_light,
+            |   ^ (bad-continuation)
+C:1752, 0: Wrong hanging indentation (remove 4 spaces).
+                'overlay': self.blend_overlay,
+            |   ^ (bad-continuation)
+C:1753, 0: Wrong hanging indentation.
+                }
+        |   |   ^ (bad-continuation)
+C:  1, 0: Too many lines in module (1958/1000) (too-many-lines)
+E: 63, 0: No name 'abc' in module 'collections' (no-name-in-module)
+E: 63, 0: Unable to import 'collections.abc' (import-error)
+C: 86, 0: Constant name "_colors_full_map" doesn't conform to UPPER_CASE naming style (invalid-name)
+C: 98, 0: Constant name "_colors_full_map" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:116, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:121, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:134, 0: Argument name "c1" doesn't conform to snake_case naming style (invalid-name)
+C:134, 0: Argument name "c2" doesn't conform to snake_case naming style (invalid-name)
+C:150, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:184, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+R:184, 0: Too many branches (13/12) (too-many-branches)
+C:241, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+W:266, 7: Access to a protected member _str_lower_equal of a client class (protected-access)
+C:274,11: Variable name "cc" doesn't conform to snake_case naming style (invalid-name)
+C:279, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:284, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:300, 0: Constant name "cnames" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:301, 0: Constant name "hexColorPattern" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:302, 0: Constant name "rgb2hex" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:303, 0: Constant name "hex2color" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:364, 0: Constant name "colorConverter" doesn't conform to UPPER_CASE naming style (invalid-name)
+C:370, 0: Function name "makeMappingArray" doesn't conform to snake_case naming style (invalid-name)
+C:370, 0: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+C:404, 4: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:405, 4: Variable name "y0" doesn't conform to snake_case naming style (invalid-name)
+C:406, 4: Variable name "y1" doesn't conform to snake_case naming style (invalid-name)
+C:414, 4: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+C:450, 8: Attribute name "N" doesn't conform to snake_case naming style (invalid-name)
+R:427, 0: Too many instance attributes (11/7) (too-many-instance-attributes)
+C:465, 4: Argument name "X" doesn't conform to snake_case naming style (invalid-name)
+W:465,38: Redefining built-in 'bytes' (redefined-builtin)
+C:494,12: Variable name "xa" doesn't conform to snake_case naming style (invalid-name)
+C:499,12: Variable name "xa" doesn't conform to snake_case naming style (invalid-name)
+C:506,12: Variable name "xa" doesn't conform to snake_case naming style (invalid-name)
+C:509,12: Variable name "xa" doesn't conform to snake_case naming style (invalid-name)
+C:517,12: Variable name "xa" doesn't conform to snake_case naming style (invalid-name)
+R:465, 4: Too many branches (15/12) (too-many-branches)
+W:559,12: Access to a protected member _lut of a client class (protected-access)
+C:600, 4: Missing method docstring (missing-docstring)
+W:559,12: Attribute '_lut' defined outside __init__ (attribute-defined-outside-init)
+C:714, 4: Argument name "N" doesn't conform to snake_case naming style (invalid-name)
+C:736,12: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:736,15: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:736,18: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:736,21: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+C:769, 8: Missing function docstring (missing-docstring)
+C:770,12: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
+C:770,12: Missing function docstring (missing-docstring)
+W:693, 8: Attribute '_lut' defined outside __init__ (attribute-defined-outside-init)
+W:836, 8: Attribute '_lut' defined outside __init__ (attribute-defined-outside-init)
+C:964, 4: Missing method docstring (missing-docstring)
+R:970, 8: Unnecessary "else" after "return" (no-else-return)
+C:976, 4: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
+C:982, 4: Method name "autoscale_None" doesn't conform to snake_case naming style (invalid-name)
+C:982, 4: Argument name "A" doesn't conform to snake_case naming style (invalid-name)
+R:1040, 8: Unnecessary "else" after "return" (no-else-return)
+R:1065, 4: Too many arguments (6/5) (too-many-arguments)
+C:1113, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:1124, 4: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+R:1202, 8: Unnecessary "else" after "return" (no-else-return)
+C:1250, 8: Attribute name "N" doesn't conform to snake_case naming style (invalid-name)
+C:1251, 8: Attribute name "Ncmap" doesn't conform to snake_case naming style (invalid-name)
+W:1220, 4: __init__ method from base class 'Normalize' is not called (super-init-not-called)
+C:1261, 8: Variable name "xx" doesn't conform to snake_case naming style (invalid-name)
+C:1263, 8: Variable name "xx" doesn't conform to snake_case naming style (invalid-name)
+C:1270,15: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1339, 4: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1393, 4: Variable name "h" doesn't conform to snake_case naming style (invalid-name)
+C:1394, 4: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+C:1395, 4: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+C:1397, 4: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+C:1398, 4: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+C:1399, 4: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+C:1402, 4: Variable name "f" doesn't conform to snake_case naming style (invalid-name)
+C:1403, 4: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+C:1404, 4: Variable name "q" doesn't conform to snake_case naming style (invalid-name)
+C:1405, 4: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+R:1475, 4: Too many arguments (7/5) (too-many-arguments)
+C:1512, 8: Variable name "az" doesn't conform to snake_case naming style (invalid-name)
+C:1521, 4: Argument name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1521, 4: Argument name "dy" doesn't conform to snake_case naming style (invalid-name)
+R:1521, 4: Too many arguments (6/5) (too-many-arguments)
+C:1620, 4: Argument name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1620, 4: Argument name "dy" doesn't conform to snake_case naming style (invalid-name)
+R:1620, 4: Too many arguments (11/5) (too-many-arguments)
+C:1696, 4: Argument name "dx" doesn't conform to snake_case naming style (invalid-name)
+C:1696, 4: Argument name "dy" doesn't conform to snake_case naming style (invalid-name)
+R:1696, 4: Too many arguments (8/5) (too-many-arguments)
+R:1771, 4: Too many arguments (7/5) (too-many-arguments)
+R:1853, 4: Method could be a function (no-self-use)
+R:1872, 4: Method could be a function (no-self-use)
+
+
+Report
+======
+765 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |12     |12         |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |63     |63         |=          |96.83       |1.59     |
++---------+-------+-----------+-----------+------------+---------+
+|function |17     |17         |=          |88.24       |5.88     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib (matplotlib.colors)
+      \-_color_data (matplotlib.colors)
+      \-cbook (matplotlib.colors)
+    numpy (matplotlib.colors)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |847    |43.21 |847      |=          |
++----------+-------+------+---------+-----------+
+|docstring |811    |41.38 |811      |=          |
++----------+-------+------+---------+-----------+
+|comment   |99     |5.05  |99       |=          |
++----------+-------+------+---------+-----------+
+|empty     |203    |10.36 |203      |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |74     |74       |=          |
++-----------+-------+---------+-----------+
+|refactor   |14     |14       |=          |
++-----------+-------+---------+-----------+
+|warning    |7      |7        |=          |
++-----------+-------+---------+-----------+
+|error      |2      |2        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-------------------------------+------------+
+|message id                     |occurrences |
++===============================+============+
+|invalid-name                   |64          |
++-------------------------------+------------+
+|too-many-arguments             |6           |
++-------------------------------+------------+
+|missing-docstring              |4           |
++-------------------------------+------------+
+|bad-continuation               |4           |
++-------------------------------+------------+
+|no-else-return                 |3           |
++-------------------------------+------------+
+|attribute-defined-outside-init |3           |
++-------------------------------+------------+
+|too-many-branches              |2           |
++-------------------------------+------------+
+|protected-access               |2           |
++-------------------------------+------------+
+|no-self-use                    |2           |
++-------------------------------+------------+
+|too-many-lines                 |1           |
++-------------------------------+------------+
+|too-many-instance-attributes   |1           |
++-------------------------------+------------+
+|super-init-not-called          |1           |
++-------------------------------+------------+
+|redefined-builtin              |1           |
++-------------------------------+------------+
+|no-name-in-module              |1           |
++-------------------------------+------------+
+|import-error                   |1           |
++-------------------------------+------------+
+|bad-whitespace                 |1           |
++-------------------------------+------------+
+
+
+
+
+------------------------------------------------------------------
+Your code has been rated at 8.63/10 (previous run: 8.63/10, +0.00)
+

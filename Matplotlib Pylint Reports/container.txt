@@ -1,0 +1,115 @@
+************* Module matplotlib.container
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 17, 0: Unused argument 'kwargs' (unused-argument)
+W: 20, 4: __init__ method from base class 'tuple' is not called (super-init-not-called)
+W: 20,23: Unused argument 'kl' (unused-argument)
+C: 31, 4: Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+C: 31, 4: Missing method docstring (missing-docstring)
+C: 34, 4: Missing method docstring (missing-docstring)
+C: 35,12: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+C: 49, 4: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+W: 96,12: Unused variable 'oid' (unused-variable)
+C: 99, 4: Missing method docstring (missing-docstring)
+
+
+Report
+======
+61 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |4      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |14     |NC         |NC         |78.57       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    matplotlib 
+      \-artist (matplotlib.container)
+      \-cbook (matplotlib.container)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |67     |35.83 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |94     |50.27 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |26     |13.90 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |7      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++----------------------+------------+
+|message id            |occurrences |
++======================+============+
+|missing-docstring     |4           |
++----------------------+------------+
+|invalid-name          |3           |
++----------------------+------------+
+|unused-argument       |2           |
++----------------------+------------+
+|unused-variable       |1           |
++----------------------+------------+
+|super-init-not-called |1           |
++----------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 8.20/10
+
