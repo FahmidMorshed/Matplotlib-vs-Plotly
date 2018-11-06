@@ -1,0 +1,6 @@
+ASEDataset\
+word2vecs_models\
+oldresults\
+.idea\
+__pychache__\
+*.html
