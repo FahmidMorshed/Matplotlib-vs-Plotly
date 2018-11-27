@@ -1,0 +1,6 @@
+[
+  "main.py::test_plotly_barchat",
+  "main.py::test_plotly_sign_curve",
+  "main.py::test_matplotlib_barchart",
+  "main.py::test_matplotlib_sign"
+]

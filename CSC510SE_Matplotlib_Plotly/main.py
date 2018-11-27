@@ -111,201 +111,201 @@ def test_plotly_sign_curve(loop_times=LOOP_TIMES):
 
     for (i, j) in SCREEN_PIXEL:
         print("Screen Size: ", (i, j))
-        layout = {
-            "annotations": [
-                {
-                    "x": 0.5175,
-                    "y": 0.935,
-                    "align": "center",
-                    "bordercolor": "rgba(0,0,0,0)",
-                    "borderpad": 3,
-                    "borderwidth": 0.5,
-                    "font": {
-                        "color": "rgb(0,0,0)",
-                        "family": "Arial, sans-serif",
-                        "size": 11
-                    },
-                    "showarrow": False,
-                    "text": "<b>Sine curve</b>",
-                    "textangle": 0,
-                    "xanchor": "center",
-                    "xref": "paper",
-                    "yanchor": "bottom",
-                    "yref": "paper"
-                },
-                {
-                    "x": 0.5175,
-                    "y": 0.461162790698,
-                    "align": "center",
-                    "bordercolor": "rgba(0,0,0,0)",
-                    "borderpad": 3,
-                    "borderwidth": 0.5,
-                    "font": {
-                        "color": "rgb(0,0,0)",
-                        "family": "Arial, sans-serif",
-                        "size": 11
-                    },
-                    "showarrow": False,
-                    "text": "<b>Cosine curve</b>",
-                    "textangle": 0,
-                    "xanchor": "center",
-                    "xref": "paper",
-                    "yanchor": "bottom",
-                    "yref": "paper"
-                }
-            ],
-            "autosize": False,
-            "height": i,
-            "hovermode": "closest",
-            "margin": {
-                "r": 0,
-                "t": 0,
-                "b": 0,
-                "l": 0,
-                "pad": 0
-            },
-            "paper_bgcolor": "rgb(255,255,255)",
-            "plot_bgcolor": "rgba(0,0,0,0)",
-            "showlegend": False,
-            "title": "<b>Sine curve</b>",
-            "titlefont": {"color": "rgba(0,0,0,0)"},
-            "width": j,
-            "xaxis1": {
-                "anchor": "y1",
-                "autorange": False,
-                "domain": [0.13, 0.905],
-                "exponentformat": "none",
-                "gridcolor": "rgb(38.25,38.25,38.25)",
-                "gridwidth": 1,
-                "linecolor": "rgb(38.25,38.25,38.25)",
-                "linewidth": 1,
-                "mirror": "ticks",
-                "nticks": 9,
-                "range": [0, 7],
-                "showgrid": False,
-                "showline": True,
-                "side": "bottom",
-                "tickcolor": "rgb(38.25,38.25,38.25)",
-                "tickfont": {
-                    "color": "rgb(38.25,38.25,38.25)",
-                    "family": "Arial, sans-serif",
-                    "size": 10
-                },
-                "ticklen": 6.51,
-                "ticks": "inside",
-                "tickwidth": 1,
-                "titlefont": {
-                    "color": "rgb(38.25,38.25,38.25)",
-                    "family": "Arial, sans-serif",
-                    "size": 11
-                },
-                "type": "linear",
-                "zeroline": False
-            },
-            "xaxis2": {
-                "anchor": "y2",
-                "autorange": False,
-                "domain": [0.13, 0.905],
-                "exponentformat": "none",
-                "gridcolor": "rgb(38.25,38.25,38.25)",
-                "gridwidth": 1,
-                "linecolor": "rgb(38.25,38.25,38.25)",
-                "linewidth": 1,
-                "mirror": "ticks",
-                "nticks": 9,
-                "range": [0, 7],
-                "showgrid": False,
-                "showline": True,
-                "side": "bottom",
-                "tickcolor": "rgb(38.25,38.25,38.25)",
-                "tickfont": {
-                    "color": "rgb(38.25,38.25,38.25)",
-                    "family": "Arial, sans-serif",
-                    "size": 10
-                },
-                "ticklen": 6.51,
-                "ticks": "inside",
-                "tickwidth": 1,
-                "titlefont": {
-                    "color": "rgb(38.25,38.25,38.25)",
-                    "family": "Arial, sans-serif",
-                    "size": 11
-                },
-                "type": "linear",
-                "zeroline": False
-            },
-            "yaxis1": {
-                "anchor": "x1",
-                "autorange": False,
-                "domain": [0.583837209302, 0.925],
-                "exponentformat": "none",
-                "gridcolor": "rgb(38.25,38.25,38.25)",
-                "gridwidth": 1,
-                "linecolor": "rgb(38.25,38.25,38.25)",
-                "linewidth": 1,
-                "mirror": "ticks",
-                "nticks": 6,
-                "range": [-1, 1],
-                "showgrid": False,
-                "showline": True,
-                "showticklabels": True,
-                "side": "left",
-                "tickcolor": "rgb(38.25,38.25,38.25)",
-                "tickfont": {
-                    "color": "rgb(38.25,38.25,38.25)",
-                    "family": "Arial, sans-serif",
-                    "size": 10
-                },
-                "ticklen": 6.51,
-                "ticks": "inside",
-                "tickwidth": 1,
-                "titlefont": {
-                    "color": "rgb(38.25,38.25,38.25)",
-                    "family": "Arial, sans-serif",
-                    "size": 11
-                },
-                "type": "linear",
-                "zeroline": False
-            },
-            "yaxis2": {
-                "anchor": "x2",
-                "autorange": False,
-                "domain": [0.11, 0.451162790698],
-                "exponentformat": "none",
-                "gridcolor": "rgb(38.25,38.25,38.25)",
-                "gridwidth": 1,
-                "linecolor": "rgb(38.25,38.25,38.25)",
-                "linewidth": 1,
-                "mirror": "ticks",
-                "nticks": 6,
-                "range": [-1, 1],
-                "showgrid": False,
-                "showline": True,
-                "showticklabels": True,
-                "side": "left",
-                "tickcolor": "rgb(38.25,38.25,38.25)",
-                "tickfont": {
-                    "color": "rgb(38.25,38.25,38.25)",
-                    "family": "Arial, sans-serif",
-                    "size": 10
-                },
-                "ticklen": 6.51,
-                "ticks": "inside",
-                "tickwidth": 1,
-                "titlefont": {
-                    "color": "rgb(38.25,38.25,38.25)",
-                    "family": "Arial, sans-serif",
-                    "size": 11
-                },
-                "type": "linear",
-                "zeroline": False
-            }
-        }
         for k in range(loop_times):
             tstart = time.time()
+            layout = {
+                "annotations": [
+                    {
+                        "x": 0.5175,
+                        "y": 0.935,
+                        "align": "center",
+                        "bordercolor": "rgba(0,0,0,0)",
+                        "borderpad": 3,
+                        "borderwidth": 0.5,
+                        "font": {
+                            "color": "rgb(0,0,0)",
+                            "family": "Arial, sans-serif",
+                            "size": 11
+                        },
+                        "showarrow": False,
+                        "text": "<b>Sine curve</b>",
+                        "textangle": 0,
+                        "xanchor": "center",
+                        "xref": "paper",
+                        "yanchor": "bottom",
+                        "yref": "paper"
+                    },
+                    {
+                        "x": 0.5175,
+                        "y": 0.461162790698,
+                        "align": "center",
+                        "bordercolor": "rgba(0,0,0,0)",
+                        "borderpad": 3,
+                        "borderwidth": 0.5,
+                        "font": {
+                            "color": "rgb(0,0,0)",
+                            "family": "Arial, sans-serif",
+                            "size": 11
+                        },
+                        "showarrow": False,
+                        "text": "<b>Cosine curve</b>",
+                        "textangle": 0,
+                        "xanchor": "center",
+                        "xref": "paper",
+                        "yanchor": "bottom",
+                        "yref": "paper"
+                    }
+                ],
+                "autosize": False,
+                "height": i,
+                "hovermode": "closest",
+                "margin": {
+                    "r": 0,
+                    "t": 0,
+                    "b": 0,
+                    "l": 0,
+                    "pad": 0
+                },
+                "paper_bgcolor": "rgb(255,255,255)",
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "showlegend": False,
+                "title": "<b>Sine curve</b>",
+                "titlefont": {"color": "rgba(0,0,0,0)"},
+                "width": j,
+                "xaxis1": {
+                    "anchor": "y1",
+                    "autorange": False,
+                    "domain": [0.13, 0.905],
+                    "exponentformat": "none",
+                    "gridcolor": "rgb(38.25,38.25,38.25)",
+                    "gridwidth": 1,
+                    "linecolor": "rgb(38.25,38.25,38.25)",
+                    "linewidth": 1,
+                    "mirror": "ticks",
+                    "nticks": 9,
+                    "range": [0, 7],
+                    "showgrid": False,
+                    "showline": True,
+                    "side": "bottom",
+                    "tickcolor": "rgb(38.25,38.25,38.25)",
+                    "tickfont": {
+                        "color": "rgb(38.25,38.25,38.25)",
+                        "family": "Arial, sans-serif",
+                        "size": 10
+                    },
+                    "ticklen": 6.51,
+                    "ticks": "inside",
+                    "tickwidth": 1,
+                    "titlefont": {
+                        "color": "rgb(38.25,38.25,38.25)",
+                        "family": "Arial, sans-serif",
+                        "size": 11
+                    },
+                    "type": "linear",
+                    "zeroline": False
+                },
+                "xaxis2": {
+                    "anchor": "y2",
+                    "autorange": False,
+                    "domain": [0.13, 0.905],
+                    "exponentformat": "none",
+                    "gridcolor": "rgb(38.25,38.25,38.25)",
+                    "gridwidth": 1,
+                    "linecolor": "rgb(38.25,38.25,38.25)",
+                    "linewidth": 1,
+                    "mirror": "ticks",
+                    "nticks": 9,
+                    "range": [0, 7],
+                    "showgrid": False,
+                    "showline": True,
+                    "side": "bottom",
+                    "tickcolor": "rgb(38.25,38.25,38.25)",
+                    "tickfont": {
+                        "color": "rgb(38.25,38.25,38.25)",
+                        "family": "Arial, sans-serif",
+                        "size": 10
+                    },
+                    "ticklen": 6.51,
+                    "ticks": "inside",
+                    "tickwidth": 1,
+                    "titlefont": {
+                        "color": "rgb(38.25,38.25,38.25)",
+                        "family": "Arial, sans-serif",
+                        "size": 11
+                    },
+                    "type": "linear",
+                    "zeroline": False
+                },
+                "yaxis1": {
+                    "anchor": "x1",
+                    "autorange": False,
+                    "domain": [0.583837209302, 0.925],
+                    "exponentformat": "none",
+                    "gridcolor": "rgb(38.25,38.25,38.25)",
+                    "gridwidth": 1,
+                    "linecolor": "rgb(38.25,38.25,38.25)",
+                    "linewidth": 1,
+                    "mirror": "ticks",
+                    "nticks": 6,
+                    "range": [-1, 1],
+                    "showgrid": False,
+                    "showline": True,
+                    "showticklabels": True,
+                    "side": "left",
+                    "tickcolor": "rgb(38.25,38.25,38.25)",
+                    "tickfont": {
+                        "color": "rgb(38.25,38.25,38.25)",
+                        "family": "Arial, sans-serif",
+                        "size": 10
+                    },
+                    "ticklen": 6.51,
+                    "ticks": "inside",
+                    "tickwidth": 1,
+                    "titlefont": {
+                        "color": "rgb(38.25,38.25,38.25)",
+                        "family": "Arial, sans-serif",
+                        "size": 11
+                    },
+                    "type": "linear",
+                    "zeroline": False
+                },
+                "yaxis2": {
+                    "anchor": "x2",
+                    "autorange": False,
+                    "domain": [0.11, 0.451162790698],
+                    "exponentformat": "none",
+                    "gridcolor": "rgb(38.25,38.25,38.25)",
+                    "gridwidth": 1,
+                    "linecolor": "rgb(38.25,38.25,38.25)",
+                    "linewidth": 1,
+                    "mirror": "ticks",
+                    "nticks": 6,
+                    "range": [-1, 1],
+                    "showgrid": False,
+                    "showline": True,
+                    "showticklabels": True,
+                    "side": "left",
+                    "tickcolor": "rgb(38.25,38.25,38.25)",
+                    "tickfont": {
+                        "color": "rgb(38.25,38.25,38.25)",
+                        "family": "Arial, sans-serif",
+                        "size": 10
+                    },
+                    "ticklen": 6.51,
+                    "ticks": "inside",
+                    "tickwidth": 1,
+                    "titlefont": {
+                        "color": "rgb(38.25,38.25,38.25)",
+                        "family": "Arial, sans-serif",
+                        "size": 11
+                    },
+                    "type": "linear",
+                    "zeroline": False
+                }
+            }
+
             fig = go.Figure(data=data, layout=layout)
             plot_url = plotly.offline.plot(fig)
-            tstart = time.time()
             tend = time.time()
             render_time.append(tend - tstart)
             print(NUM_OF_SIN_CURVES, "Sine Curve Draw Time: ", tend - tstart)
@@ -393,12 +393,12 @@ if __name__=="__main__":
     print()
 
 
-    #test_matplotlib_sign()
-    #test_matplotlib_barchart()
+    test_matplotlib_sign()
+    test_matplotlib_barchart()
 
     print("PLOTLY: ")
     print("Import Time: ", import_time_stop_plotly - import_time_start_plotly)
     print()
 
     test_plotly_sign_curve()
-    #TODO work with plotly
+    test_plotly_barchat()
