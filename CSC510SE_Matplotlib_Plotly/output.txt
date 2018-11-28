@@ -37,10 +37,10 @@ Mean Render Time:  0.06507080793380737
 Median Render Time:  0.06637513637542725
 
 Screen Size:  (4, 3)
-6 Bar Chart Draw Time:  0.06958603858947754
+6 Bar Chart Draw Time:  0.06938603858947754
 6 Bar Chart Draw Time:  0.06917262077331543
 Mean Render Time:  0.06650698184967041
-Median Render Time:  0.06663060188293457
+Median Render Time:  0.06613060188293457
 
 Xtiles:
 (*    |    ),   0,    0,    0,    0,    0

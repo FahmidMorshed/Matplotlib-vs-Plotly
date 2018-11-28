@@ -18,7 +18,7 @@ import_time_stop_plotly = time.time()
 
 
 
-NUM_OF_SIN_CURVES = 10
+NUM_OF_SIN_CURVES = 1
 SCREEN_SIZE = [(20, 15), (12, 9), (4, 3)]
 LOOP_TIMES = 2
 render_time = []

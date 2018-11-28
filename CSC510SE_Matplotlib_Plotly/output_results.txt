@@ -1,0 +1,95 @@
+{'text/html': '<script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: \'local\'};</script><script type="text/javascript">if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script><script>requirejs.config({paths: { \'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\']},});if(!window._Plotly) {require([\'plotly\'],function(plotly) {window._Plotly=plotly;});}</script>', 'text/vnd.plotly.v1+html': '<script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: \'local\'};</script><script type="text/javascript">if (window.MathJax) {MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script><script>requirejs.config({paths: { \'plotly\': [\'https://cdn.plot.ly/plotly-latest.min\']},});if(!window._Plotly) {require([\'plotly\'],function(plotly) {window._Plotly=plotly;});}</script>'}
+MATPLOTLIB: 
+Import Time:  0.5015254020690918
+
+Screen Size:  (20, 15)
+1 Sine Curve Draw Time:  0.022128820419311523
+1 Sine Curve Draw Time:  0.015590429306030273
+Mean Render Time:  0.0188596248626709
+Median Render Time:  0.0188596248626709
+
+Screen Size:  (12, 9)
+1 Sine Curve Draw Time:  0.015583992004394531
+1 Sine Curve Draw Time:  0.015589237213134766
+Mean Render Time:  0.017223119735717773
+Median Render Time:  0.01558983325958252
+
+Screen Size:  (4, 3)
+1 Sine Curve Draw Time:  0.01562809944152832
+1 Sine Curve Draw Time:  0.0
+Mean Render Time:  0.014086763064066568
+Median Render Time:  0.01558983325958252
+
+Xtiles:
+(*    |    ),   0,    0,    0,    0,    0
+(*    |    ),   0,    0,    0,    0,    0
+(*    |    ),   0,    0,    0,    0,    0
+Screen Size:  (20, 15)
+6 Bar Chart Draw Time:  0.022128582000732422
+6 Bar Chart Draw Time:  0.046868085861206055
+Mean Render Time:  0.03449833393096924
+Median Render Time:  0.03449833393096924
+
+Screen Size:  (12, 9)
+6 Bar Chart Draw Time:  0.03124547004699707
+6 Bar Chart Draw Time:  0.037801504135131836
+Mean Render Time:  0.034510910511016846
+Median Render Time:  0.03452348709106445
+
+Screen Size:  (4, 3)
+6 Bar Chart Draw Time:  0.031206369400024414
+6 Bar Chart Draw Time:  0.031240224838256836
+Mean Render Time:  0.03341503938039144
+Median Render Time:  0.031242847442626953
+
+Xtiles:
+(*    |    ),   0,    0,    0,    0,    0
+(*    |    ),   0,    0,    0,    0,    0
+(*    |    ),   0,    0,    0,    0,    0
+PLOTLY: 
+Import Time:  0.0
+
+Screen Size:  (1920, 1440)
+1 Sine Curve Draw Time:  0.812877893447876
+1 Sine Curve Draw Time:  0.11486625671386719
+Mean Render Time:  0.4638720750808716
+Median Render Time:  0.4638720750808716
+
+Screen Size:  (1152, 864)
+1 Sine Curve Draw Time:  0.11170244216918945
+1 Sine Curve Draw Time:  0.11469268798828125
+Mean Render Time:  0.28853482007980347
+Median Render Time:  0.11477947235107422
+
+Screen Size:  (384, 288)
+1 Sine Curve Draw Time:  0.11469364166259766
+1 Sine Curve Draw Time:  0.10970640182495117
+Mean Render Time:  0.2297565539677938
+Median Render Time:  0.11469316482543945
+
+Xtiles:
+(    *|    ),   0,    0,    1,    1,    1
+(*--- |    ),   0,    0,    0,    0,    1
+(*--- |    ),   0,    0,    0,    0,    1
+Screen Size:  (1920, 1440)
+6 Bar Chart Draw Time:  0.20844459533691406
+6 Bar Chart Draw Time:  0.11768460273742676
+Mean Render Time:  0.1630645990371704
+Median Render Time:  0.1630645990371704
+
+Screen Size:  (1152, 864)
+6 Bar Chart Draw Time:  0.12865662574768066
+6 Bar Chart Draw Time:  0.12665963172912598
+Mean Render Time:  0.14536136388778687
+Median Render Time:  0.12765812873840332
+
+Screen Size:  (384, 288)
+6 Bar Chart Draw Time:  0.12965059280395508
+6 Bar Chart Draw Time:  0.10671424865722656
+Mean Render Time:  0.13630171616872153
+Median Render Time:  0.12765812873840332
+
+Xtiles:
+( *   |    ),   0,    0,    0,    0,    0
+(*    |    ),   0,    0,    0,    0,    0
+(*    |    ),   0,    0,    0,    0,    0
